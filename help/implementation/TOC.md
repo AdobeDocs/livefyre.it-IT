@@ -3,7 +3,7 @@ product: livefyre
 audience: end-user
 user-guide-title: Guida all'implementazione di Experience Manager Livefyre
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 
@@ -11,8 +11,9 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 # Guida all'implementazione di Experience Manager Livefyre {#implementation}
 
 + [Guida all'implementazione di Livefyre](home.md)
-+ [Guida introduttiva all'integrazione di Livefyre](c-getting-started/c-getting-started.md)
-   + Implementazione {#implementation-process}
++ Introduzione {#getting-started}
+   + [Guida introduttiva all'integrazione di Livefyre](c-getting-started/c-getting-started.md)
+   + Processo di implementazione {#implementation-process}
       + [Processo di implementazione](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [Tipi di integrazione delle app](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [Implementazione app](c-getting-started/designer-app-implementation.md)
@@ -25,7 +26,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [Token autenticazione utente](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [Creare una raccolta utilizzando il token collectionmeta](t-create-a-collectionmeta-token.md)
       + [Creazione di un checksum](c-creating-a-checksum.md)
-+ Integrazione identità
++ Integrazione identità {#identity-integration}
    + [Integrazione identità](t-about-identity-integration/t-about-identity-integration.md)
    + [Pacchetto di autenticazione](t-about-identity-integration/c-authorization-package.md)
    + [Authdelegate Object](t-about-identity-integration/c-building-an-auth-delegate.md)
@@ -43,7 +44,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 + Livefyre Identity {#livefyre-identity}
    + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [Abilita identità Livefyre](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-   + Utilizzare le app social con Livefyre Identity
+   + Utilizzare le app social con Livefyre Identity {#use-social-apps-with-livefyre-identity}
       + [Creare le app social](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [Creare un'app Facebook da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
       + [Creare un progetto Google da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
@@ -113,7 +114,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [Mappa](c-app-integrations/c-map-integration.md)
    + [Media Wall](c-app-integrations/c-media-wall-integration.md)
    + [Tendenza](c-app-integrations/c-trending-integration.md)
-+ Personalizzazioni app {#app-customtizations}
++ Personalizzazioni app {#app-customizations}
    + [Personalizzazioni app](c-app-customizations/c-app-customizations.md)
    + [Modifica opzioni visualizzazione](c-app-customizations/c-change-display-options.md)
    + [Classi CSS](c-app-customizations/c-css-classes.md)
@@ -125,7 +126,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [Cambia icona @mention](c-app-customizations/c-change-mention-icon.md)
    + [Evidenzia contenuto](c-app-customizations/c-highlight-content.md)
    + [Personalizzare la data e l'ora](c-app-customizations/c-date-time-stamp.md)
-   + Contenuto della funzione
+   + Contenuto della funzione {#feature-content}
       + [Contenuto della funzione](c-app-customizations/t-feature-content.md)
       + [Abilitare i contenuti in Studio](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [Selezionare Contenuto da un'app](c-app-customizations/t-select-content-to-feature.md)
@@ -134,13 +135,13 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [API funzionalità](c-app-customizations/c-feature-apis.md)
    + [Connessione di Janrain a Livefyre tramite authdelegate](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [Contenuto aggregato aggregato utilizzando le API contenuti](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + Contenuto stile
+   + Contenuto stile {#style-content}
       + [Contenuto gruppo utenti di stile](c-app-customizations/c-style-user-group-content.md)
       + [Aggiunta di utenti a gruppi](c-app-customizations/c-adding-users-to-groups.md)
-   + Applica stili personalizzati
+   + Applica stili personalizzati {#apply-custom-styles}
       + [Applicazione di stili personalizzati](c-app-customizations/c-applying-custom-styles-.md)
       + [Aggiungere pulsanti personalizzati](c-app-customizations/t-add-custom-buttons.md)
-   + Eventi Javascript
+   + Eventi Javascript {#javascript-events}
       + [Definizioni ed esempi degli eventi javascript](c-app-customizations/c-javascript-events.md)
       + [Eventi Javascript per le app di visualizzazione](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [Eventi Javascript per Media Wall](c-app-customizations/c-javascript-events-media-wall.md)
