@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Utilizzo di Livefyre con altro strumento Analytics
 uuid: 26 c 835 f 6-aced -41 f 7-aabe -418 afce 8 a 829
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Gestire le cartelle di risorse
 uuid: 9 ce 510 df -4 f 7 a -4178-b 2 c 4-7 d 59 e 4868 add
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

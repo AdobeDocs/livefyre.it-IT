@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Cambiare i tipi di app di base
 uuid: 442 a 517 c -3809-46 c 5-bb 5 f -8668 a 29 dc 3 e 8
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 ---
 

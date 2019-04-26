@@ -7,7 +7,7 @@ seo-title: Moderare il contenuto utilizzando il contenuto dell'app
 title: Moderare il contenuto utilizzando il contenuto dell'app
 uuid: 1 c 648128-e 7 ef -4836-afe 5-eff 52 de 30 e 7 e
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
