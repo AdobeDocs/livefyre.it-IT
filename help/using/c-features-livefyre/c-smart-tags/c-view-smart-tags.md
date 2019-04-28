@@ -1,8 +1,6 @@
 ---
-description: Visualizza i tag aggiunti automaticamente alle immagini tramite il software
-  di riconoscimento delle immagini basato su Sensei.
-seo-description: Visualizza i tag aggiunti automaticamente alle immagini tramite il
-  software di riconoscimento delle immagini basato su Sensei.
+description: Visualizza i tag aggiunti automaticamente alle immagini tramite il software di riconoscimento delle immagini basato su Sensei.
+seo-description: Visualizza i tag aggiunti automaticamente alle immagini tramite il software di riconoscimento delle immagini basato su Sensei.
 seo-title: Visualizzare i tag avanzati
 title: Visualizzare i tag avanzati
 uuid: 787 c 7 d 86-2 c 68-4 c 4 c-b 687-cf 2390 bcf 233
@@ -26,6 +24,6 @@ Per visualizzare i tag avanzati sul contenuto:
 1. Fate clic su una delle risorse che avete aggiunto alla libreria.
 1. Fate clic **[!UICONTROL View Details]** sulla risorsa.
 1. Fate clic sulla **[!UICONTROL Tags]** scheda nel pannello inferiore destro
-1. Consultate l'elenco dei tag avanzati, ordinati per categoria.
+1. Consultate l&#39;elenco dei tag avanzati, ordinati per categoria.
 1. Per eliminare i tag che non si desidera selezionare, fare clic sul tag **[!UICONTROL X]** accanto a un tag.
 

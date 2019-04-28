@@ -22,7 +22,7 @@ Note sulla versione del 1 febbraio 2018.
 | Bug | Media Wall | È stato risolto un problema che impediva la riproduzione di alcuni video in Media Wall. |
 | Miglioramento | Flussi | Creazione di una nuova funzionalità per filtrare i flussi in base ai tag avanzati. |
 | Bug | Flussi | È stato risolto un problema per il quale le regole del flusso di istagram non riconoscevano i caratteri giapponesi. |
-| Miglioramento | Flussi | Il contenuto in streaming ora è dotato automaticamente di tag avanzati da Adobe Sensei mentre viene salvato in una cartella o pubblicato su un'app. |
+| Miglioramento | Flussi | Il contenuto in streaming ora è dotato automaticamente di tag avanzati da Adobe Sensei mentre viene salvato in una cartella o pubblicato su un&#39;app. |
 | Bug | Studio | Correzione a un bug segnalato da Nat Geo che mostra caratteri speciali nei nomi come HTML. |
 
 ## Versione UAT

@@ -1,8 +1,6 @@
 ---
-description: Potete creare regole di streaming che estraggono il contenuto dai feed
-  RSS.
-seo-description: Potete creare regole di streaming che estraggono il contenuto dai
-  feed RSS.
+description: Potete creare regole di streaming che estraggono il contenuto dai feed RSS.
+seo-description: Potete creare regole di streaming che estraggono il contenuto dai feed RSS.
 seo-title: Regole RSS
 solution: Experience Manager
 title: Regole RSS
@@ -19,15 +17,15 @@ Potete creare regole di streaming che estraggono il contenuto dai feed RSS.
 
 I flussi RSS vengono aggiornati ogni 5 minuti, ricercando contenuto che non esiste già in Livefyre dai primi 50 elementi del feed. Livefyre ignora tutti gli elementi oltre i primi 50 elementi del feed.
 
-Per creare regole RSS per l'inserimento di contenuto da feed RSS nell'app o nella cartella, potete filtrare:
+Per creare regole RSS per l&#39;inserimento di contenuto da feed RSS nell&#39;app o nella cartella, potete filtrare:
 
 * **[!UICONTROL URL]** del feed RSS.
 * **[!UICONTROL Include recent items.]** Se è impostato su:
 
-   * **[!UICONTROL Enabled]**Livefyre aggiunge i primi 50 elementi contenuti nel feed al flusso, indipendentemente dalla data di pubblicazione.
+   * **[!UICONTROL Enabled]** Livefyre aggiunge i primi 50 elementi contenuti nel feed al flusso, indipendentemente dalla data di pubblicazione.
    * **[!UICONTROL Disabled]**, Livefyre aggiunge i primi 50 elementi contenuti nel feed al flusso con una data di pubblicazione che è la stessa della data di creazione regola di flusso o successiva.
 
-* **[!UICONTROL Extract post information from item link (when disabled, post information is extracted from XML).]** Estraete le informazioni dal collegamento dell'elemento o dal codice XML.
+* **[!UICONTROL Extract post information from item link (when disabled, post information is extracted from XML).]** Estraete le informazioni dal collegamento dell&#39;elemento o dal codice XML.
 
 **Regole RSS**
 

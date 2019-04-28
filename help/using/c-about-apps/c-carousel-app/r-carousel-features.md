@@ -13,7 +13,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni carosello {#carousel-features}
 
-L'app Carosello offre queste funzioni per il sito.
+L&#39;app Carosello offre queste funzioni per il sito.
 
 Le funzioni seguenti sono disponibili in un carosello:
 

@@ -16,7 +16,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Per impostazione predefinita, Livefyre Apps visualizza un timestamp relativo per i post al flusso (4 minuti fa, 5 ore fa, 8 giorni fa, 2 mesi fa).
 
-È possibile personalizzare la marca temporale visualizzata utilizzando la funzione di personalizzazione Data e Timestamp, che consente di selezionare dall'elenco dei formati disponibili. Per ulteriori informazioni, vedere [Data e marca temporale](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
+È possibile personalizzare la marca temporale visualizzata utilizzando la funzione di personalizzazione Data e Timestamp, che consente di selezionare dall&#39;elenco dei formati disponibili. Per ulteriori informazioni, vedere [Data e marca temporale](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
 
 App che utilizzano questa funzione:
 

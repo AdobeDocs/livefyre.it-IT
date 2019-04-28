@@ -19,14 +19,14 @@ Note sulla versione del 23 marzo 2018.
 
 Le seguenti funzionalità sono nuove nella versione di produzione di questa versione:
 
-* **Novità in Produzione:** Facebook ha creato un aggiornamento di sicurezza all'accesso Facebook che causerà il malfunzionamento di Facebook Login di Facebook. Per risolvere questo problema dovete:
+* **Novità in Produzione:** Facebook ha creato un aggiornamento di sicurezza all&#39;accesso Facebook che causerà il malfunzionamento di Facebook Login di Facebook. Per risolvere questo problema dovete:
 
    1. Aggiungi il seguente URL al **[!UICONTROL Valid OAuth redirect URIs]** campo in Impostazioni client oauth. Sostituite `<networkname>` con il nome di rete corretto:
       `https://identity.livefyre.com/<networkname>/api/v1.0/public/profile/social/complete/facebook_fyre`
 
-   1. Passa **[!UICONTROL Use Strict Mode for Redirect URI]****[!UICONTROL Yes]**a.
+   1. Passa **[!UICONTROL Use Strict Mode for Redirect URI]****[!UICONTROL Yes]** a.
 
-* **Nuovo nell'UAT:** Ora potete scegliere la soglia di confidenza per i tag avanzati nei flussi. L'impostazione della valutazione di precisione (0-100) per i tag consente di controllare la precisione delle risorse che stiamo recuperando.
+* **Nuovo nell&#39;UAT:** Ora potete scegliere la soglia di confidenza per i tag avanzati nei flussi. L&#39;impostazione della valutazione di precisione (0-100) per i tag consente di controllare la precisione delle risorse che stiamo recuperando.
 
 ## Problemi {#section_ehw_ndt_wcb}
 
@@ -38,7 +38,7 @@ I problemi delle tabelle seguenti sono stati risolti in questa versione.
 |---|---|---|
 | Bug | Media Wall | È stato risolto un problema in Media Wall che impediva ai tag di fare clic quando un post di Instagram veniva aggiunto da una regola di flusso. |
 | Bug | Modq | Risolto un problema che impediva il caricamento di modq. |
-| Bug | Modq | Risolto un problema per il quale l'incorporazione dell'audio causava la cessazione di modq. |
+| Bug | Modq | Risolto un problema per il quale l&#39;incorporazione dell&#39;audio causava la cessazione di modq. |
 
 ## Versione UAT
 

@@ -19,9 +19,9 @@ Note sulla versione del 6 settembre 2018.
 
 Le seguenti nuove funzioni sono state rilasciate nella versione di produzione di questa versione:
 
-* [Pulsanti di invito all'azione personalizzati (CTA, Call To Action)](/help/using/c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) in Experience Manager Livefyre
+* [Pulsanti di invito all&#39;azione personalizzati (CTA, Call To Action)](/help/using/c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) in Experience Manager Livefyre
 
-   Nuovi pulsanti di call-to-action personalizzati in Experience Manager Livefyre trasformano l'UGC nel tuo sito Web in esperienze fruibili che stimolano il lavoro del tuo business. Utilizzate pulsanti CTA personalizzati per incrementare le vendite, acquisire i lead, stimolare il coinvolgimento o incoraggiare qualsiasi azione che desiderate che venga presa dal pubblico. I pulsanti CTA personalizzati consentono di:
+   Nuovi pulsanti di call-to-action personalizzati in Experience Manager Livefyre trasformano l&#39;UGC nel tuo sito Web in esperienze fruibili che stimolano il lavoro del tuo business. Utilizzate pulsanti CTA personalizzati per incrementare le vendite, acquisire i lead, stimolare il coinvolgimento o incoraggiare qualsiasi azione che desiderate che venga presa dal pubblico. I pulsanti CTA personalizzati consentono di:
 
    * Aggiungete pulsanti personalizzati a qualsiasi parte di UGC nei pareti multimediali, mosaici, caroselli, strisce cinematografiche e schede singole di Livefyre.
    * Potete avere un controllo completo sul numero di pulsanti, messaggi, icone, colori e collegamenti su ciascun elemento UGC.
@@ -45,10 +45,10 @@ I problemi delle tabelle seguenti sono stati risolti nella versione di produzion
 
 | **Tipo di edizione** | **Componente** | **Nota sulla versione** |
 |---|---|---|
-| Bug | Commenti | È stato risolto un problema che impediva la corretta riproduzione dei file audio nell'App dei commenti. |
-| Bug | Libreria | È stato risolto un problema che causava la visualizzazione di un pulsante di riproduzione sulla miniatura da parte della ricerca di Instagram in caso di visualizzazione di un'immagine, non di un video. |
-| Bug | Libreria | È stato corretto un problema a causa del quale, quando si pubblicava contenuto in un'app ottenuta con una ricerca URL di istagram, non veniva visualizzata una miniatura. |
-| Bug | Libreria | È stato corretto un problema a causa del quale, dopo l'aggiunta di un prodotto a una risorsa, l'apertura dei dettagli per tale risorsa e quindi la selezione della scheda di conversione, i prodotti per tale risorsa non venivano visualizzati. |
+| Bug | Commenti | È stato risolto un problema che impediva la corretta riproduzione dei file audio nell&#39;App dei commenti. |
+| Bug | Libreria | È stato risolto un problema che causava la visualizzazione di un pulsante di riproduzione sulla miniatura da parte della ricerca di Instagram in caso di visualizzazione di un&#39;immagine, non di un video. |
+| Bug | Libreria | È stato corretto un problema a causa del quale, quando si pubblicava contenuto in un&#39;app ottenuta con una ricerca URL di istagram, non veniva visualizzata una miniatura. |
+| Bug | Libreria | È stato corretto un problema a causa del quale, dopo l&#39;aggiunta di un prodotto a una risorsa, l&#39;apertura dei dettagli per tale risorsa e quindi la selezione della scheda di conversione, i prodotti per tale risorsa non venivano visualizzati. |
 
 ## Versione UAT {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 

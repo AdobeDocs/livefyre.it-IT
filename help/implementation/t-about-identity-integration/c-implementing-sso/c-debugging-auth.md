@@ -1,8 +1,6 @@
 ---
-description: Potete registrare un utente tramite la console durante l'integrazione
-  e il test per l'autorizzazione di debug.
-seo-description: Potete registrare un utente tramite la console durante l'integrazione
-  e il test per l'autorizzazione di debug.
+description: Potete registrare un utente tramite la console durante l'integrazione e il test per l'autorizzazione di debug.
+seo-description: Potete registrare un utente tramite la console durante l'integrazione e il test per l'autorizzazione di debug.
 seo-title: Debug di auth Delegate
 solution: Experience Manager
 title: Debug di auth Delegate
@@ -15,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Debug di auth Delegate{#debugging-auth-delegate}
 
-Potete registrare un utente tramite la console durante l'integrazione e il test per l'autorizzazione di debug.
+Potete registrare un utente tramite la console durante l&#39;integrazione e il test per l&#39;autorizzazione di debug.
 
-Inserite un utente nella console utilizzando il seguente `auth.authenticate` token (token) e passate un token utente Livefyre per l'autenticazione degli utenti sulla pagina.
+Inserite un utente nella console utilizzando il seguente `auth.authenticate` token (token) e passate un token utente Livefyre per l&#39;autenticazione degli utenti sulla pagina.
 
-Potete anche modificare l'esempio illustrato qui sopra e aggiungere il seguente snippet in linea nel codice javascript per registrare rapidamente un utente in Livefyre (richiede un riferimento a autenticazione).
+Potete anche modificare l&#39;esempio illustrato qui sopra e aggiungere il seguente snippet in linea nel codice javascript per registrare rapidamente un utente in Livefyre (richiede un riferimento a autenticazione).
 
 ```
 window.addEventListener('userAuthenticated', function(data) { 

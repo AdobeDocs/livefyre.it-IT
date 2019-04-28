@@ -1,8 +1,6 @@
 ---
-description: Definite le origini da cui gli utenti possono pubblicare i supporti e
-  quelli da cui verranno vietati i post.
-seo-description: Definite le origini da cui gli utenti possono pubblicare i supporti
-  e quelli da cui verranno vietati i post.
+description: Definite le origini da cui gli utenti possono pubblicare i supporti e quelli da cui verranno vietati i post.
+seo-description: Definite le origini da cui gli utenti possono pubblicare i supporti e quelli da cui verranno vietati i post.
 seo-title: Gestisci file multimediali incorporati
 title: Gestisci file multimediali incorporati
 uuid: d 8621 be 1-dcfb -429 f -954 e-b 21 fdcf 02715
@@ -20,9 +18,9 @@ Per impostazione predefinita, tutti gli allegati multimediali possono essere inc
 
 Livefyre utilizza i protocolli Oembed incorporati e i protocolli oembed standard per incorporare i contenuti multimediali nei flussi di app e passerà attraverso tutti i dati multimediali forniti dalla relativa origine.
 
-Incorpora. ly passerà attraverso tutte le informazioni disponibili, inclusi titolo, descrizione, miniatura e codice da incorporare per qualsiasi URL fornito. La disponibilità di questi elementi varia a seconda del fornitore. Ad esempio: Facebook non restituisce le miniature per i video e trasmette solo un video incorporabile. Facendo clic su Riproduci il video viene avviato (simile al formato di visualizzazione di YouTube). Twitter trasmette solo immagini statiche e non invia i video. Pertanto, i video nativi Twitter potrebbero non essere riprodotti dall'interno di un flusso Livefyre.
+Incorpora. ly passerà attraverso tutte le informazioni disponibili, inclusi titolo, descrizione, miniatura e codice da incorporare per qualsiasi URL fornito. La disponibilità di questi elementi varia a seconda del fornitore. Ad esempio: Facebook non restituisce le miniature per i video e trasmette solo un video incorporabile. Facendo clic su Riproduci il video viene avviato (simile al formato di visualizzazione di YouTube). Twitter trasmette solo immagini statiche e non invia i video. Pertanto, i video nativi Twitter potrebbero non essere riprodotti dall&#39;interno di un flusso Livefyre.
 
-È possibile che alcuni allegati vengano incorporati nei commenti durante l'incorporazione del flusso di commento. Potete anche scegliere di nascondere tutte le espansioni. ly in rete, a livello di sito e di conversazione tramite Studio, visualizzando solo i collegamenti al supporto, non gli elementi multimediali completamente incorporati.
+È possibile che alcuni allegati vengano incorporati nei commenti durante l&#39;incorporazione del flusso di commento. Potete anche scegliere di nascondere tutte le espansioni. ly in rete, a livello di sito e di conversazione tramite Studio, visualizzando solo i collegamenti al supporto, non gli elementi multimediali completamente incorporati.
 
 App che utilizzano questa funzione:
 

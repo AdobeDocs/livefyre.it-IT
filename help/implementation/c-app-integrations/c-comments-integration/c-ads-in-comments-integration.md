@@ -25,72 +25,72 @@ Livefyre fornisce il contenitore tramite il quale potete inserire un annuncio tr
 
 Per inserire un annuncio, passate due valori di Livefyre:
 
-* Frequenza in cui inserire l'annuncio nel flusso commento
-* Funzione che svolge l'annuncio appropriato.
+* Frequenza in cui inserire l&#39;annuncio nel flusso commento
+* Funzione che svolge l&#39;annuncio appropriato.
 
 >[!NOTE]
 >
->Gli annunci verranno sottoposti a rendering solo quando l'annuncio si trova nel viewport. Gli annunci verranno visualizzati solo dopo i commenti principali (non all'interno dei thread) e gli utenti non potranno commentare questi annunci pubblicitari. Questa API non consente di specificare le dimensioni dell'elemento in cui verranno inseriti gli annunci.
+>Gli annunci verranno sottoposti a rendering solo quando l&#39;annuncio si trova nel viewport. Gli annunci verranno visualizzati solo dopo i commenti principali (non all&#39;interno dei thread) e gli utenti non potranno commentare questi annunci pubblicitari. Questa API non consente di specificare le dimensioni dell&#39;elemento in cui verranno inseriti gli annunci.
 
 ## Integrazione {#concept_C99029E618EC49779E3117D2C303E4F1}
 
-Per utilizzare questa funzione, create un elemento div nella pagina in cui gli annunci verranno inseriti, quindi trasmettete l'HTML dal vostro provider di annunci.
+Per utilizzare questa funzione, create un elemento div nella pagina in cui gli annunci verranno inseriti, quindi trasmettete l&#39;HTML dal vostro provider di annunci.
 
-Livefyre fornisce due tipi di posizionamento: sincrona e asincrona. Entrambi i tipi caricano gli annunci solo quando l'utente scorre la pagina in modo che la posizione dell'annuncio sia visualizzata. Entrambi devono inoltre restituire un elemento DOM (iframe o div).
+Livefyre fornisce due tipi di posizionamento: sincrona e asincrona. Entrambi i tipi caricano gli annunci solo quando l&#39;utente scorre la pagina in modo che la posizione dell&#39;annuncio sia visualizzata. Entrambi devono inoltre restituire un elemento DOM (iframe o div).
 
-Per ottenere l'annuncio, le chiamate del metodo sincrono a un archivio locale, mentre chiamate asincrone a un servizio esterno.
+Per ottenere l&#39;annuncio, le chiamate del metodo sincrono a un archivio locale, mentre chiamate asincrone a un servizio esterno.
 
 ### Sincrona
 
-Per creare un posizionamento sincrono, includete l'annuncio nel delegate e restituite l'elemento annuncio stesso. Le chiamate del metodo sincrono a un archivio locale, che consentono di gestire la generazione di annunci personalizzati.
+Per creare un posizionamento sincrono, includete l&#39;annuncio nel delegate e restituite l&#39;elemento annuncio stesso. Le chiamate del metodo sincrono a un archivio locale, che consentono di gestire la generazione di annunci personalizzati.
 
 ### Asincrona
 
-Il metodo asincrono richiede che l'elemento venga inserito nel DOM prima di chiamare l'annuncio. Il fornitore quindi determina quale annuncio inviare e restituisce.
+Il metodo asincrono richiede che l&#39;elemento venga inserito nel DOM prima di chiamare l&#39;annuncio. Il fornitore quindi determina quale annuncio inviare e restituisce.
 
-Per implementare annunci asincroni, create un delegato che restituisca un elemento in cui verrà inserito l'annuncio e una callback che eseguirà il posizionamento dell'annuncio. L'elemento restituito nel delegato deve avere un ID univoco per l'annuncio a target. Il callback inserisce l'annuncio nell'elemento fornito dall'ID univoco.
+Per implementare annunci asincroni, create un delegato che restituisca un elemento in cui verrà inserito l&#39;annuncio e una callback che eseguirà il posizionamento dell&#39;annuncio. L&#39;elemento restituito nel delegato deve avere un ID univoco per l&#39;annuncio a target. Il callback inserisce l&#39;annuncio nell&#39;elemento fornito dall&#39;ID univoco.
 
 >[!NOTE]
 >
 >A seconda del provider di annunci, il callback avrà un comportamento diverso.
 
-Quando la pagina viene caricata, Ads in Comments (Annunci) restituirà il delegato, inserisce l'elemento, quindi chiama la callback che aggiorna l'elemento (definito in precedenza) con l'annuncio.
+Quando la pagina viene caricata, Ads in Comments (Annunci) restituirà il delegato, inserisce l&#39;elemento, quindi chiama la callback che aggiorna l&#39;elemento (definito in precedenza) con l&#39;annuncio.
 
 ## Parametri {#concept_D7E27B0C21EF405C8EB826083DBB53EC}
 
 I seguenti parametri sono disponibili per la chiamata.
 
-Per l'oggetto annuncio:
+Per l&#39;oggetto annuncio:
 
 * **delay:****(facoltativo) Numero intero** - Imposta il numero di commenti dopo il quale verrà visualizzato il primo annuncio. Il valore predefinito è 10.
 * **frequenza: (facoltativo) Numero intero** - Imposta il numero di commenti dopo il quale verrà visualizzato ogni annuncio successivo. Ad esempio: Inserite 2 per visualizzare un annuncio come ogni terzo commento. Il valore predefinito è 10.
 * **delegate:*****funzione richiesta*** - La funzione chiamata per inserire annunci nel flusso Commento.
 
-L'oggetto delegate supporta chiamate ad annuncio sincrone e asincrone. Il parametro assegnato alla funzione delegate, i dati, conterrà:
+L&#39;oggetto delegate supporta chiamate ad annuncio sincrone e asincrone. Il parametro assegnato alla funzione delegate, i dati, conterrà:
 
 * **title:****stringa** - Il titolo della raccolta.
 * **tag:****array** - Un elenco di tag associati alla raccolta.
-* **id:****stringa** - L'identificatore articolo della raccolta.
-* **url:****stringa** - L'URL della raccolta.
-* **Networkid:****stringa** - L'ID di rete per la raccolta.
-* **Siteid:****int** - L'ID del sito per la raccolta.
+* **id:****stringa** - L&#39;identificatore articolo della raccolta.
+* **url:****stringa** - L&#39;URL della raccolta.
+* **Networkid:****stringa** - L&#39;ID di rete per la raccolta.
+* **Siteid:****int** - L&#39;ID del sito per la raccolta.
 
-Questi elementi vengono passati tramite l'oggetto convconfig nel nostro esempio e sono descritti più dettagliatamente [nella](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md#section_656AAC97903F485084650269A6C7EBCE) sezione Guida introduttiva.
+Questi elementi vengono passati tramite l&#39;oggetto convconfig nel nostro esempio e sono descritti più dettagliatamente [nella](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md#section_656AAC97903F485084650269A6C7EBCE) sezione Guida introduttiva.
 
 ### Sincrona
 
 Il delegato restituisce un oggetto contenente:
 
-* **elemento:*****elemento* DOM richiesto** - L'elemento contenente l'annuncio da inserire nell'app.
+* **elemento:*****elemento*DOM richiesto** - L&#39;elemento contenente l&#39;annuncio da inserire nell&#39;app.
 
 **Asincrona**: Il delegato restituisce un oggetto contenente: Il delegato restituisce un oggetto contenente due proprietà: elemento e callback:
 
-* **elemento:*****elemento* DOM richiesto** - L'elemento contenente l'annuncio da inserire nell'app.
-* **callback:*****funzione richiesta*** - callback che gestirà l'inserimento dell'annuncio nell'elemento DOM soprastante.
+* **elemento:*****elemento*DOM richiesto** - L&#39;elemento contenente l&#39;annuncio da inserire nell&#39;app.
+* **callback:*****funzione richiesta*** - callback che gestirà l&#39;inserimento dell&#39;annuncio nell&#39;elemento DOM soprastante.
 
-Per `Conv` l'oggetto, è possibile trasmettere una stringa a denotare il titolo della sezione annuncio:
+Per `Conv` l&#39;oggetto, è possibile trasmettere una stringa a denotare il titolo della sezione annuncio:
 
-* **stringhe:****(facoltativo)** - Utilizzato per personalizzare il testo dell'intestazione per i tuoi annunci. «Sponsorizzata» per impostazione predefinita.
+* **stringhe:****(facoltativo)** - Utilizzato per personalizzare il testo dell&#39;intestazione per i tuoi annunci. «Sponsorizzata» per impostazione predefinita.
 
 ## Esempio sincrono {#concept_E733E4431D9948638B8102ADE398735F}
 

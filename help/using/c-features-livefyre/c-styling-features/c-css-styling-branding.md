@@ -12,17 +12,17 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Stile e branding CSS{#css-styling-and-branding}
 
-Utilizzate CSS per stili di un'app Livefyre per adattarlo al marchio.
+Utilizzate CSS per stili di un&#39;app Livefyre per adattarlo al marchio.
 
-Le app Livefyre offrono un'ampia interfaccia di stile CSS, che consente di personalizzare l'esperienza utente in base agli standard di progettazione correnti.
+Le app Livefyre offrono un&#39;ampia interfaccia di stile CSS, che consente di personalizzare l&#39;esperienza utente in base agli standard di progettazione correnti.
 
 Le opzioni di stile includono:
 
 * **[!UICONTROL Styling the Stream:]** I flussi di Livefyre possono essere formattati e personalizzati in base al marchio e al resto del sito. Per ulteriori informazioni, consultate Personalizzazione CSS.
-* **[!UICONTROL Styling the Comment Editor:]** L'editor commenti può essere personalizzato modificando il colore, le dimensioni e la famiglia del font, oppure cambiando il colore dello sfondo per la casella del commento. Per ulteriori informazioni, consultate Editor CSS.
+* **[!UICONTROL Styling the Comment Editor:]** L&#39;editor commenti può essere personalizzato modificando il colore, le dimensioni e la famiglia del font, oppure cambiando il colore dello sfondo per la casella del commento. Per ulteriori informazioni, consultate Editor CSS.
 * **[!UICONTROL Moving the Livefyre Logo:]** Mentre la posizione predefinita del logo Livefyre si trova nella parte superiore del flusso, questa immagine può essere rimossa e sostituita con un logo «Gestito da Livefyre» in fondo al flusso. Per ulteriori informazioni, consultate Spostare il logo Livefyre.
-* **[!UICONTROL Hiding elements of the stream:]** Gli elementi del flusso possono essere nascosti se non sono rilevanti per la community. Gli elementi che possono essere rimossi includono il pulsante di risposta, il menu di modifica del profilo, il menu di logout, il modulo di notifica dei commenti e gli avatar dell'utente. Per ulteriori informazioni sulla rimozione di questi elementi, vedi Nascondere elementi app.
-* **[!UICONTROL Customizing the Friend Tagging Logo:]** Per impostazione predefinita, il logo Livefyre viene visualizzato nell'elenco a discesa con tag per tutti gli utenti che hanno commentato lo stream sulla pagina. Per sostituire l'immagine con il tuo logo, consulta Branding in Studio.
+* **[!UICONTROL Hiding elements of the stream:]** Gli elementi del flusso possono essere nascosti se non sono rilevanti per la community. Gli elementi che possono essere rimossi includono il pulsante di risposta, il menu di modifica del profilo, il menu di logout, il modulo di notifica dei commenti e gli avatar dell&#39;utente. Per ulteriori informazioni sulla rimozione di questi elementi, vedi Nascondere elementi app.
+* **[!UICONTROL Customizing the Friend Tagging Logo:]** Per impostazione predefinita, il logo Livefyre viene visualizzato nell&#39;elenco a discesa con tag per tutti gli utenti che hanno commentato lo stream sulla pagina. Per sostituire l&#39;immagine con il tuo logo, consulta Branding in Studio.
 
 App che utilizzano questa funzione:
 

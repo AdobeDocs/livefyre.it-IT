@@ -1,8 +1,6 @@
 ---
-description: Informa Livefyre per aggiornare l'URL di sincronizzazione utente della
-  rete a quello fornito. Restituisce un valore booleano.
-seo-description: Informa Livefyre per aggiornare l'URL di sincronizzazione utente
-  della rete a quello fornito. Restituisce un valore booleano.
+description: Informa Livefyre per aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore booleano.
+seo-description: Informa Livefyre per aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore booleano.
 seo-title: Metodo di rete setusersyncurl
 solution: Experience Manager
 title: Metodo di rete setusersyncurl
@@ -15,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Metodo di rete setusersyncurl{#setusersyncurl-network-method}
 
-Informa Livefyre per aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore booleano.
+Informa Livefyre per aggiornare l&#39;URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore booleano.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| Urltemplate | Stringa | L'URL per registrarsi con Livefyre per sincronizzare gli ID utente. Richiede «`{id}`» per far parte della stringa URL fornita. |
+| Urltemplate | Stringa | L&#39;URL per registrarsi con Livefyre per sincronizzare gli ID utente. Richiede «`{id}`» per far parte della stringa URL fornita. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

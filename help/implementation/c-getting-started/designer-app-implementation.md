@@ -12,21 +12,21 @@ source-git-commit: b737f2c6afb03d91041a317cc0afb790c3eadcb1
 
 # Implementazione app {#appimplementation}
 
-Caso d'uso: Come cliente, desidero integrare Livefyre nel mio CMS di terze parti utilizzando il metodo Livefyre. js.
+Caso d&#39;uso: Come cliente, desidero integrare Livefyre nel mio CMS di terze parti utilizzando il metodo Livefyre. js.
 
-Esistono tre modi per implementare Livefyre in un componente AEM personalizzato o in altri CMS, come wordpress, Sitecore o demandware: Implementazione dell'app di Designer, API, implementazione e integrazione autenticazione di terze parti.
+Esistono tre modi per implementare Livefyre in un componente AEM personalizzato o in altri CMS, come wordpress, Sitecore o demandware: Implementazione dell&#39;app di Designer, API, implementazione e integrazione autenticazione di terze parti.
 
 ## Implementazione app di Designer {#designerapp}
 
-Cosa: Metodo più semplice e veloce per integrare un'app Livefyre. Potete progettare, configurare e generare un codice Javascript personalizzato per integrare un'app Liveyfre su una pagina in minuti.
+Cosa: Metodo più semplice e veloce per integrare un&#39;app Livefyre. Potete progettare, configurare e generare un codice Javascript personalizzato per integrare un&#39;app Liveyfre su una pagina in minuti.
 
-Come: [Creare, visualizzare in anteprima, pubblicare e incorporare un'app Livefyre](/help/using/c-about-apps/c-create-an-app.md)
+Come: [Creare, visualizzare in anteprima, pubblicare e incorporare un&#39;app Livefyre](/help/using/c-about-apps/c-create-an-app.md)
 
 Esempio: [https://codepen.io/dharafyre/pen/bvGrLo](https://codepen.io/dharafyre/pen/bvGrLo)
 
 ### Implementazione di Livefyre. js {#livefyrejsimp}
 
-Cosa: [Livefyre. js](/help/implementation/c-livefyre.js.md) è la libreria di base che potenzia app e autenticazione su un sito. Definisce l'oggetto globale `window.Livefyre` e un singolo metodo pubblico Livefyre. require, che può essere utilizzato per caricare altre librerie Javfyre Javfyre con cui incorporare Livefyre Apps e integrazione con piattaforme autenticazione utente di terze parti.
+Cosa: [Livefyre. js](/help/implementation/c-livefyre.js.md) è la libreria di base che potenzia app e autenticazione su un sito. Definisce l&#39;oggetto globale `window.Livefyre` e un singolo metodo pubblico Livefyre. require, che può essere utilizzato per caricare altre librerie Javfyre Javfyre con cui incorporare Livefyre Apps e integrazione con piattaforme autenticazione utente di terze parti.
 
 Come:
 
@@ -42,15 +42,15 @@ Esempi:
 
 * Media Wall: [https://codepen.io/dharafyre/pen/dNMPvM](https://codepen.io/dharafyre/pen/dNMPvM)
 
-* Per personalizzazioni avanzate con l'SDK, consulta SDK streamhub.
+* Per personalizzazioni avanzate con l&#39;SDK, consulta SDK streamhub.
 
 ## Implementazione API {#apiimplementation}
 
-Per creare esperienze personalizzate e visualizzazioni dati, Livefyre Apps può essere creato utilizzando Livefyre e i dati social utilizzando l'API Bootstrap e Flusso.
+Per creare esperienze personalizzate e visualizzazioni dati, Livefyre Apps può essere creato utilizzando Livefyre e i dati social utilizzando l&#39;API Bootstrap e Flusso.
 
 ## Integrazione autenticazione di terze parti {#thirdpartyauth}
 
-Per le app Livefyre che richiedono l'autenticazione, consultate [Integrazione identità](/help/implementation/t-about-identity-integration/t-about-identity-integration.md) per piattaforme di autenticazione di terze parti.
+Per le app Livefyre che richiedono l&#39;autenticazione, consultate [Integrazione identità](/help/implementation/t-about-identity-integration/t-about-identity-integration.md) per piattaforme di autenticazione di terze parti.
 
 ## Esempi dei clienti {#customerexamples}
 

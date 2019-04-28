@@ -1,8 +1,6 @@
 ---
-description: Sincronizzazione utente consente di inserire l'endpoint utilizzato per
-  recuperare i dati di profilo utente dal sistema di gestione degli utenti.
-seo-description: Sincronizzazione utente consente di inserire l'endpoint utilizzato
-  per recuperare i dati di profilo utente dal sistema di gestione degli utenti.
+description: Sincronizzazione utente consente di inserire l'endpoint utilizzato per recuperare i dati di profilo utente dal sistema di gestione degli utenti.
+seo-description: Sincronizzazione utente consente di inserire l'endpoint utilizzato per recuperare i dati di profilo utente dal sistema di gestione degli utenti.
 seo-title: Sincronizzazione utente
 solution: Experience Manager
 title: Sincronizzazione utente
@@ -15,12 +13,12 @@ source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
 
 # Sincronizzazione utente{#user-sync}
 
-Sincronizzazione utente consente di inserire l'endpoint utilizzato per recuperare i dati di profilo utente dal sistema di gestione degli utenti.
+Sincronizzazione utente consente di inserire l&#39;endpoint utilizzato per recuperare i dati di profilo utente dal sistema di gestione degli utenti.
 
 Per **[!UICONTROL Identity Integration > Your Identity Service]** informazioni su come Livefyre usa questo URL per sincronizzare i dati utente con Livefyre, consulta Ping for Pull.
 
 ## Sincronizzazione profilo utente personalizzata
 
-**URL sincronizzazione profilo:** immettete l'URL dal quale Livefyre recupererà le informazioni aggiornate sul profilo utente.
+**URL sincronizzazione profilo:** immettete l&#39;URL dal quale Livefyre recupererà le informazioni aggiornate sul profilo utente.
 * Ad esempio: `https://example.yoursite.com/some_path/?id={***id***}`
 

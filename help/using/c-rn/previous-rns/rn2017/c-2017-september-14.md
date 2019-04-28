@@ -18,8 +18,8 @@ Note sulla versione del 14 settembre 2017.
 
 | **Tipo di edizione** | **Componente** | **Nota sulla versione** |
 |---|---|---|
-| Bug | Studio | È stato corretto un bug a causa del quale gli aggiornamenti dello stato dei diritti non venivano visualizzati subito senza aggiornare l'aggiornamento della pagina. |
-| Miglioramento | Studio | Aggiornato il modale Rights (Diritti) per le pagine Library e Social Search (Ricerca social). Aggiunta la capacità di concedere e revocare manualmente i diritti sulle risorse. Messaggi di errore/avviso più chiari e guida all'invio di richieste di diritti e risposte valide. Una cronologia dell'attività migliorata ora viene visualizzata nel modale. |
+| Bug | Studio | È stato corretto un bug a causa del quale gli aggiornamenti dello stato dei diritti non venivano visualizzati subito senza aggiornare l&#39;aggiornamento della pagina. |
+| Miglioramento | Studio | Aggiornato il modale Rights (Diritti) per le pagine Library e Social Search (Ricerca social). Aggiunta la capacità di concedere e revocare manualmente i diritti sulle risorse. Messaggi di errore/avviso più chiari e guida all&#39;invio di richieste di diritti e risposte valide. Una cronologia dell&#39;attività migliorata ora viene visualizzata nel modale. |
 
 ## Versione UAT
 

@@ -17,7 +17,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ## Miglioramento
 
-* È stata implementata un'impostazione che attiva le impostazioni dell'account Business Instagram per impostazione predefinita.
+* È stata implementata un&#39;impostazione che attiva le impostazioni dell&#39;account Business Instagram per impostazione predefinita.
 
 ## Correzioni di bug
 

@@ -11,9 +11,9 @@ source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
 
 # Guida utente di Experience Manager Livefyre {#livefyre-help}
 
-Utilizza Livefyre Studio per creare app, raccogliere contenuti generati dall'utente e moderare i contenuti.
+Utilizza Livefyre Studio per creare app, raccogliere contenuti generati dall&#39;utente e moderare i contenuti.
 
-Per informazioni su come implementare e personalizzare le app Livefyre sul vostro sito tramite gli strumenti di sviluppo, consultate la [*guida all'implementazione di Adobe Experience Manager Livefyre*](/help/implementation/home.md).
+Per informazioni su come implementare e personalizzare le app Livefyre sul vostro sito tramite gli strumenti di sviluppo, consultate la [*guida all&#39;implementazione di Adobe Experience Manager Livefyre*](/help/implementation/home.md).
 
 ## Argomenti popolari
 

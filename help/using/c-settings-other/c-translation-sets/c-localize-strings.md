@@ -15,7 +15,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Personalizzazione delle stringhe di Livefyre Apps.
 
-Le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app Livefyre possono essere personalizzate. Ciò offre la flessibilità di modificare il testo degli elementi HTML renderizzati, ad esempio il pulsante «Post con nome», il testo «Conteggio commenti» o il pulsante «Accesso» a qualsiasi stringa UTF -8 valida. Utilizzate questa funzione per aggiungere personalità all'implementazione del flusso o per localizzare la lingua nell'app per la vostra base utente.
+Le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app Livefyre possono essere personalizzate. Ciò offre la flessibilità di modificare il testo degli elementi HTML renderizzati, ad esempio il pulsante «Post con nome», il testo «Conteggio commenti» o il pulsante «Accesso» a qualsiasi stringa UTF -8 valida. Utilizzate questa funzione per aggiungere personalità all&#39;implementazione del flusso o per localizzare la lingua nell&#39;app per la vostra base utente.
 
 * Commenti, chat e blog dal vivo
 
@@ -44,7 +44,7 @@ Le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app L
 
 ## Implementazione {#section_im4_224_xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all'oggetto di configurazione javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -78,7 +78,7 @@ Stringhe disponibili per il processo Autenticazione e dai menu utente autenticat
 
 ## Informazioni flusso {#section_wx1_c24_xz}
 
-Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizzazione. Mostra il numero di persone che ascolto, il numero di post all'app e consente agli utenti di accedere o accedere alle informazioni sull'account.
+Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizzazione. Mostra il numero di persone che ascolto, il numero di post all&#39;app e consente agli utenti di accedere o accedere alle informazioni sull&#39;account.
 
 | Chiave | Testo predefinito | Flusso dati |
 |---|---|---|
@@ -104,7 +104,7 @@ Consente di ordinare i contenuti restituiti per età o popolarità.
 
 ![](assets/strings_newestoldesttop-1-150x56.png)
 
-| Chiave | Testo predefinito | Opzioni dell'intestazione |
+| Chiave | Testo predefinito | Opzioni dell&#39;intestazione |
 |---|---|---|
 |  | Sortnewest | Più recente |
 |  | Sortoldest | Meno recente |
@@ -115,7 +115,7 @@ Consente di ordinare i contenuti restituiti per età o popolarità.
 |  | Topcommentpurchentnotfoundmsg | Non ci sono ancora abbastanza mi piace. |
 |  | Hotthreadpurchentnotfoundmsg | Non ci sono ancora abbastanza thread. |
 |  | Streamrefreshmsg | Scopri le novità. |
-| Opzioni piè di pagina | Archiveheadertitle | Dall'archivio |
+| Opzioni piè di pagina | Archiveheadertitle | Dall&#39;archivio |
 |  | Archiveshowmore | Mostra altro |
 |  | Showmore | Mostra altri commenti |
 |  | Showmoreliveblog | Mostra altri post |
@@ -168,7 +168,7 @@ Per impostazione predefinita, è disponibile nella parte superiore della pagina 
 |  | unfollow | - Non seguire |
 |  | Liveblogfollow | Seguite il blog Live |
 |  | Liveblogunfollow | Non seguire il blog Live |
-|  | Postbutton (disponibile per l'accesso agli utenti.) | Commento post |
+|  | Postbutton (disponibile per l&#39;accesso agli utenti.) | Commento post |
 |  | Postasbutton (disponibile per utenti non autenticati). | Invia commento come… |
 |  | Posteditbutton | Modifica commento |
 |  | Posteditasbutton | Modifica commento come… |
@@ -181,7 +181,7 @@ Per impostazione predefinita, è disponibile nella parte superiore della pagina 
 
 ## Opzioni risposta {#section_zvt_qd4_xz}
 
-Se non diversamente specificato, è disponibile per tutti gli utenti che hanno eseguito l'accesso. Passate il mouse su un pannello di contenuto per accedere.
+Se non diversamente specificato, è disponibile per tutti gli utenti che hanno eseguito l&#39;accesso. Passate il mouse su un pannello di contenuto per accedere.
 
 ![](assets/strings_banusermodal-150x36.png)
 
@@ -214,9 +214,9 @@ Se non diversamente specificato, è disponibile per tutti gli utenti che hanno e
 |  | Flagoffensive | Offensivo |
 |  | Flagorevsivebutton | Offensivo |
 |  | Flagorevsivecommenttooltip | Offensivo |
-|  | Flagd | Non d'accordo |
-|  | Flagdisagreebutton | Non d'accordo |
-|  | Flagdisagreecommenttooltip | Non d'accordo |
+|  | Flagd | Non d&#39;accordo |
+|  | Flagdisagreebutton | Non d&#39;accordo |
+|  | Flagdisagreecommenttooltip | Non d&#39;accordo |
 |  | Flagofftopic | Argomento Off |
 |  | Flagofftopicbutton | Argomento Off |
 |  | Flagofftopiccommenttooltip | Argomento Off |
@@ -249,7 +249,7 @@ Se non diversamente specificato, è disponibile per tutti gli utenti che hanno e
 | Chiave | Testo predefinito |  |
 |---|---|---|
 | Modale risposta | Postreplyasbutton | Invia commento come… |
-|  | Postreplybutton (disponibile per l'accesso agli utenti.) | Commento post |
+|  | Postreplybutton (disponibile per l&#39;accesso agli utenti.) | Commento post |
 |  | Backtohotthreads | Torna a Thread sensibili |
 
 ![](assets/strings_backto-150x48.png)
@@ -273,7 +273,7 @@ Se non diversamente specificato, è disponibile per tutti gli utenti che hanno e
 | Chiave | Testo predefinito |  |
 |---|---|---|
 | Modifica modale | Disponibile per Amministratori di studio, Manager utente o Moderatori |  |
-| @ (@ menzioni.) | </> (Apre la finestra HTML personalizzata.) |  |
+| @ (@ menzioni.) | &lt;/&gt; (Apre la finestra HTML personalizzata.) |  |
 |  | Customhtmldialogtitle (viene visualizzato come intestazione del modale.) | Aggiungi HTML personalizzato |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
@@ -342,7 +342,7 @@ Stringhe disponibili per messaggi di errore personalizzabili.
 
 ## Formato data e ora {#section_yz4_g5n_xz}
 
-Traducete e personalizzate il modo in cui le date vengono visualizzate sulle schede di contenuto all'interno delle app di visualizzazione.
+Traducete e personalizzate il modo in cui le date vengono visualizzate sulle schede di contenuto all&#39;interno delle app di visualizzazione.
 
 | Chiave | Testo predefinito |
 |---|---|
@@ -360,7 +360,7 @@ Traducete e personalizzate il modo in cui le date vengono visualizzate sulle sch
 
 ## Media Wall {#section_vwt_d5n_xz}
 
-Stringhe disponibili per l'app Media Wall.
+Stringhe disponibili per l&#39;app Media Wall.
 
 | Chiave | Testo predefinito |
 |---|---|
@@ -369,7 +369,7 @@ Stringhe disponibili per l'app Media Wall.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Postbuttontext | Cosa c'è sulla tua idea? |
+| Postbuttontext | Cosa c&#39;è sulla tua idea? |
 | Postmodaltitle | Invia commento |
 | Postmodalbutton | Invia commento |
 | Postmodalplaceholder | Cosa desideri dire? |
@@ -414,11 +414,11 @@ Stringhe disponibili per la scheda delle funzioni.
 
 ## Carica app {#section_grc_gkn_xz}
 
-Stringhe disponibili per l'app di caricamento.
+Stringhe disponibili per l&#39;app di caricamento.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Postbuttontext | Cosa c'è sulla tua idea? |
+| Postbuttontext | Cosa c&#39;è sulla tua idea? |
 | Postmodaltitle | Invia commento |
 | Postmodalbutton | Invia commento |
 | Postmodaltitleplaceholder | Inserire un titolo |
@@ -441,7 +441,7 @@ Stringhe disponibili per i sondaggi.
 | Chiave | Testo predefinito |
 |---|---|
 | Totalvoteslabel | % s voti totali |
-| Sharestringtext | I just voted on % s what's your your vote? |
+| Sharestringtext | I just voted on % s what&#39;s your your vote? |
 | Pollclosedlabel | Il sondaggio è attualmente chiuso |
 
 ## Livefyre Identity {#section_zc3_xvh_xz}
@@ -466,7 +466,7 @@ Stringhe disponibili per Livefyre Identity.
 | Firstname | Nome |
 | Forgotpassword | Password dimenticata? |
 | Forgotyourpassword | Password dimenticata? |
-| Forgotyourpasswordinstructions | Immetti il nome utente o l'indirizzo e-mail di seguito e ti invieremo un collegamento per cambiare la password. |
+| Forgotyourpasswordinstructions | Immetti il nome utente o l&#39;indirizzo e-mail di seguito e ti invieremo un collegamento per cambiare la password. |
 | Forminputclosebuttontext | Chiudi |
 | Forminputcancelbuttontext | Annulla |
 | Forminputsavebuttontext | Salva |
@@ -494,7 +494,7 @@ Stringhe disponibili per Livefyre Identity.
 | su | su |
 | oppure | oppure |
 | Passwordlinkexpired | Il collegamento che hai fatto clic per reimpostare la password è scaduto. Reimposta nuovamente la password e ti invieremo un nuovo collegamento. |
-| Pleasecheckemailtocomplete | Controllate l'e-mail per completare la registrazione. |
+| Pleasecheckemailtocomplete | Controllate l&#39;e-mail per completare la registrazione. |
 | posted | Pubblicato |
 | Poweredby | powered by |
 | Profilenotificationimmediate | immediato |
@@ -508,16 +508,16 @@ Stringhe disponibili per Livefyre Identity.
 | Signinwithemail | Accesso con e-mail |
 | Signup | Registrati |
 | Socialaccount | Social account |
-| Successpasswordchanged | Success! La password è stata modificata e hai effettuato l'accesso |
+| Successpasswordchanged | Success! La password è stata modificata e hai effettuato l&#39;accesso |
 | Termsandcondition | Termini e condizioni |
-| Termsandconditionsintro | Accedendo all'accettazione |
-| Termsofuse | Termini d'uso |
-| Termsofuseintro | L'accesso accetta accettato |
+| Termsandconditionsintro | Accedendo all&#39;accettazione |
+| Termsofuse | Termini d&#39;uso |
+| Termsofuseintro | L&#39;accesso accetta accettato |
 | Thisuser | Questo utente |
 | Verifypassword | Verifica password |
 | Filesizelimit | 2 MB max |
 | accountnotfound | Account non trovato |
-| Avatarimageexceedsize | L'immagine avatar supera il limite di file di 2 MB |
+| Avatarimageexceedsize | L&#39;immagine avatar supera il limite di file di 2 MB |
 | fieldisrequired | Il campo accetta solo un numero intero |
 | fieldonlyacceptsavalidemail | Il campo accetta solo un messaggio e-mail valido |
 | fieldonlyacceptsletter | Il campo accetta solo lettere |

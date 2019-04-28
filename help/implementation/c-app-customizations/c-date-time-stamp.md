@@ -11,7 +11,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# Personalizzare la data e l'ora{#customize-the-date-and-time-stamp}
+# Personalizzare la data e l&#39;ora{#customize-the-date-and-time-stamp}
 
 Personalizzate i timestamp con Livefyre. js.
 
@@ -66,7 +66,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-Funzione che considera l'argomento di un oggetto Date e restituisce una stringa datetime da visualizzare
+Funzione che considera l&#39;argomento di un oggetto Date e restituisce una stringa datetime da visualizzare
 
 ```
 // Example 3 (Function accepting a Date object, returning a datetime string to display) 
@@ -85,7 +85,7 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 ## Designazione simboli {#section_inq_2n4_xz}
 
-Funzioni di formattazione dati che seguono le specifiche del pattern definite in JDK, ICU e CLDR, con modifiche minori per l'utilizzo tipico in JS. Per ulteriori informazioni, consulta la Documentazione della libreria di chiusura [di Google](https://developers.google.com/closure/library/docs/overview).
+Funzioni di formattazione dati che seguono le specifiche del pattern definite in JDK, ICU e CLDR, con modifiche minori per l&#39;utilizzo tipico in JS. Per ulteriori informazioni, consulta la Documentazione della libreria di chiusura [di Google](https://developers.google.com/closure/library/docs/overview).
 
 ```
   Symbol Meaning Presentation        Example 
@@ -119,14 +119,14 @@ Funzioni di formattazione dati che seguono le specifiche del pattern definite in
   ''       single quote            (Literal)           'o''clock'
 ```
 
-Gli elementi contrassegnati con '*'non sono ancora supportati.
+Gli elementi contrassegnati con &#39;*&#39;non sono ancora supportati.
 
-Gli elementi contrassegnati con '#'funzionano in modo diverso da Java.
+Gli elementi contrassegnati con &#39;#&#39;funzionano in modo diverso da Java.
 
 Il numero di lettere del pattern determina il formato.
 
 * **Testo:** 4 o più, utilizzare il modulo completo. Meno di 4, utilizzare il modulo breve o abbreviato, se esistente. (Ad esempio: «EEEE» genera «Lunedì», «EEE» genera «Lun».)
-* **Numero:** il numero minimo di cifre. A valori più brevi corrisponde zero a questo valore (ad esempio: Se «m» genera «6», «mm» genera «06».) L'anno è gestito in modo specifico; ovvero, se il conteggio dì y'è 2, l'anno verrà troncato a 2 cifre. (Ad esempio: se «aaaa» genera «1997», «yy» genera «97».) A differenza di altri campi, i secondi frazionari vengono inseriti sulla destra con zero.
-* **Testo & numero:** 3 o sopra, utilizzate il testo. Meno di 3, usa il numero. (Ad esempio: «M» produce «1», «MM» genera «01», «MMM» genera «Gen» e «MMMM» produce «Gennaio».)
+* **Numero:** il numero minimo di cifre. A valori più brevi corrisponde zero a questo valore (ad esempio: Se «m» genera «6», «mm» genera «06».) L&#39;anno è gestito in modo specifico; ovvero, se il conteggio dì y&#39;è 2, l&#39;anno verrà troncato a 2 cifre. (Ad esempio: se «aaaa» genera «1997», «yy» genera «97».) A differenza di altri campi, i secondi frazionari vengono inseriti sulla destra con zero.
+* **Testo &amp; numero:** 3 o sopra, utilizzate il testo. Meno di 3, usa il numero. (Ad esempio: «M» produce «1», «MM» genera «01», «MMM» genera «Gen» e «MMMM» produce «Gennaio».)
 
-Qualsiasi caratteri nel pattern che non si trova negli intervalli di ['a '. 'z'] and ['A '. 'Z'] verrà trattato come testo citato. Ad esempio, caratteri comè: ','. ','','#'è@'saranno visualizzati nel testo ora risultante persino se non vengono incorporati all'interno di virgolette singole.
+Qualsiasi caratteri nel pattern che non si trova negli intervalli di [&#39;a &#39;. &#39;z&#39;] and [&#39;A &#39;. &#39;Z&#39;] verrà trattato come testo citato. Ad esempio, caratteri comè: &#39;,&#39;. &#39;,&#39;&#39;,&#39;#&#39;è@&#39;saranno visualizzati nel testo ora risultante persino se non vengono incorporati all&#39;interno di virgolette singole.

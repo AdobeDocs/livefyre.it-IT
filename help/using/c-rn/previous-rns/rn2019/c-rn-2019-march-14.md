@@ -19,7 +19,7 @@ source-git-commit: 9246343b64915af07feb8952060c1e3af5aada56
 
 ## Miglioramenti
 
-* È stato implementato il supporto per l'invito all'azione e al commercio (Products) con incorporhe native di Instagram.
+* È stato implementato il supporto per l&#39;invito all&#39;azione e al commercio (Products) con incorporhe native di Instagram.
 * Per risolvere i problemi causati da Instagram, i dettagli del contenuto per le applicazioni sono stati modificati per il rendering di Incorporhe native di Instagram.
 
 

@@ -16,7 +16,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 Restituisce un nuovo oggetto Site.
 | Variabile | Tipo | Descrizione|
 |— |— |— |
-| Siteid | Stringa | ID di Livefyre fornito per il sito Web o l'applicazione a cui appartiene la raccolta. Ad esempio: 303617. |
+| Siteid | Stringa | ID di Livefyre fornito per il sito Web o l&#39;applicazione a cui appartiene la raccolta. Ad esempio: 303617. |
 | Sitekey | String | The Chiave segreta di Livefyre per siteid. |
 
 ## Esempio Java {#section_nyl_ycs_rz}

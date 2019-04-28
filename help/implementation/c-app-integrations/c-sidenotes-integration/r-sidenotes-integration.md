@@ -1,8 +1,6 @@
 ---
-description: Integrare un'app Sidenotes seguendo un processo simile alle applicazioni
-  core.
-seo-description: Integrare un'app Sidenotes seguendo un processo simile alle applicazioni
-  core.
+description: Integrare un'app Sidenotes seguendo un processo simile alle applicazioni core.
+seo-description: Integrare un'app Sidenotes seguendo un processo simile alle applicazioni core.
 seo-title: Integrazione Sidenotes
 solution: Experience Manager
 title: Integrazione Sidenotes
@@ -15,9 +13,9 @@ source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 # Integrazione Sidenotes{#sidenotes-integration}
 
-Integrare un'app Sidenotes seguendo un processo simile alle applicazioni core.
+Integrare un&#39;app Sidenotes seguendo un processo simile alle applicazioni core.
 
-Come regola generale, se l'integrazione di base Applicazione è completa, il codice scritto per generare l' `collectionMeta` oggetto può essere riutilizzato per Sidenotes.
+Come regola generale, se l&#39;integrazione di base Applicazione è completa, il codice scritto per generare l&#39; `collectionMeta` oggetto può essere riutilizzato per Sidenotes.
 
 Potete anche riutilizzare `auth` i delegati esistenti fornendo un `auth` delegato creato `fyre.conv` con Sidenotes nel `authDelegate` campo (facoltativo).
 
@@ -55,7 +53,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-Come indicato nella `collectionMeta` sezione Creazione, `collectionMeta` è un oggetto JSON codificato. Nell'esempio precedente, l'oggetto JSON prende il formato seguente prima che sia codificato.
+Come indicato nella `collectionMeta` sezione Creazione, `collectionMeta` è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON prende il formato seguente prima che sia codificato.
 
 ```
 { 
@@ -71,7 +69,7 @@ Per ulteriori informazioni, consulta `collectionMeta` il token.
 
 ## Impostazione mobile
 
-Sidenotes è stato ottimizzato per l'utilizzo nei dispositivi mobili. Per risultati ottimali con le versioni mobili della vostra app Livefyre, impostate l'opzione ridimensionamento dell'utente su No. Ad esempio:
+Sidenotes è stato ottimizzato per l&#39;utilizzo nei dispositivi mobili. Per risultati ottimali con le versioni mobili della vostra app Livefyre, impostate l&#39;opzione ridimensionamento dell&#39;utente su No. Ad esempio:
 
 ```
 <meta name="viewport" content="width=device-width, user-scalable=no">

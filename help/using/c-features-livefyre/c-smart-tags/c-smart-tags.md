@@ -17,16 +17,16 @@ Livefyre utilizza la tecnologia vision di Adobe Sensei per assegnare automaticam
 I tag avanzati consentono di risparmiare molto tempo, gestire, cercare e curare i contenuti. I tag avanzati consentono di:
 
 * Cercare immagini e video salvati e caricati per contenuti precisi basati sul contenuto di immagini e video, piuttosto che su testo
-* Raccogliere contenuti nei flussi in base a termini di ricerca precisi che analizzano l'immagine o il video, anziché solo il testo
+* Raccogliere contenuti nei flussi in base a termini di ricerca precisi che analizzano l&#39;immagine o il video, anziché solo il testo
 
-Quando salvate o caricate un'immagine o un video, Adobe Sensei rivede automaticamente il contenuto e lo contrassegna con 135,000 classifiers in tre categorie:
+Quando salvate o caricate un&#39;immagine o un video, Adobe Sensei rivede automaticamente il contenuto e lo contrassegna con 135,000 classifiers in tre categorie:
 
 * Funzioni (ad esempio, gatti, cani, piramidi, indicatori di taglio)
 * Categorie (ad esempio, viaggio, turismo, bellezza)
 * Proprietà estetiche (ad esempio, qualità illustrazione, regole di terzo)
 * SFW/NSFW (consente di filtrare automaticamente le immagini NSFW, migliorando la protezione dei flussi e della libreria UGC
 
-L'algoritmo di classificazione tag Smart filtra il contenuto utilizzando un punteggio di attendibilità tag avanzato, il nuovo contenuto e il numero di stelle che l'utente ha fornito al contenuto.
+L&#39;algoritmo di classificazione tag Smart filtra il contenuto utilizzando un punteggio di attendibilità tag avanzato, il nuovo contenuto e il numero di stelle che l&#39;utente ha fornito al contenuto.
 
 **Tag avanzati per video**
 

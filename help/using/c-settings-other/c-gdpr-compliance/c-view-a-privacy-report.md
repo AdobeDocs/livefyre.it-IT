@@ -1,8 +1,6 @@
 ---
-description: Visualizzate un rapporto sulla privacy in Livefyre per vedere quali informazioni
-  vengono registrate in Livefyre per un utente.
-seo-description: Visualizzate un rapporto sulla privacy in Livefyre per vedere quali
-  informazioni vengono registrate in Livefyre per un utente.
+description: Visualizzate un rapporto sulla privacy in Livefyre per vedere quali informazioni vengono registrate in Livefyre per un utente.
+seo-description: Visualizzate un rapporto sulla privacy in Livefyre per vedere quali informazioni vengono registrate in Livefyre per un utente.
 seo-title: Visualizzare un rapporto sulla privacy
 solution: Experience Manager
 title: Visualizzare un rapporto sulla privacy
@@ -17,8 +15,8 @@ source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
 
 Visualizzate un rapporto sulla privacy in Livefyre per vedere quali informazioni vengono registrate in Livefyre per un utente.
 
-1. **[!UICONTROL Settings > Privacy]**Vai a.
-1. Fate clic su un rapporto sulla privacy dall'elenco per visualizzarlo.
+1. **[!UICONTROL Settings > Privacy]** Vai a.
+1. Fate clic su un rapporto sulla privacy dall&#39;elenco per visualizzarlo.
 
 ![](assets/privacypage5.png)
 

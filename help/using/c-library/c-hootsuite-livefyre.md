@@ -1,10 +1,6 @@
 ---
-description: Scoprite come utilizzare Experience Manager Livefyre con Hootsuite per
-  curare, gestire e condividere contenuti generati dall'utente direttamente dal dashboard
-  di Hootsuite.
-seo-description: Scoprite come utilizzare Experience Manager Livefyre con Hootsuite
-  per curare, gestire e condividere contenuti generati dall'utente direttamente dal
-  dashboard di Hootsuite.
+description: Scoprite come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dall'utente direttamente dal dashboard di Hootsuite.
+seo-description: Scoprite come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dall'utente direttamente dal dashboard di Hootsuite.
 seo-title: Utilizzare Adobe Experience Manager Livefyre con Hootsuite
 title: Utilizzare Adobe Experience Manager Livefyre con Hootsuite
 uuid: ebf 2 ba 17-1622-4 bbe-a 374-fb 325357 ef 9 f
@@ -16,11 +12,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Utilizzare Adobe Experience Manager Livefyre con Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}
 
-Scoprite come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dall'utente direttamente dal dashboard di Hootsuite.
+Scoprite come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dall&#39;utente direttamente dal dashboard di Hootsuite.
 
 ## Utilizzare Adobe Experience Manager Livefyre con Hootsuite {#topic_FB6E613DBCF74F39ABD5045C501EA326}
 
-Scoprite come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dall'utente direttamente dal dashboard di Hootsuite.
+Scoprite come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dall&#39;utente direttamente dal dashboard di Hootsuite.
 
 ## Introduzione {#task_22699BD901C24384AB2DC02D926D8F4A}
 
@@ -37,13 +33,13 @@ Contesto attività
 
    ![](assets/hootsuite-authorize.png)
 
-   Dopo aver concesso l'autorizzazione, tornerete al dashboard di Hootsuite dove potrete cercare le risorse nelle librerie Experience Manager Livefyre.
+   Dopo aver concesso l&#39;autorizzazione, tornerete al dashboard di Hootsuite dove potrete cercare le risorse nelle librerie Experience Manager Livefyre.
 
 ## Cercare risorse {#task_0B011B0C539E400BB72A6DF69FBF66C0}
 
 Contesto attività
 
-1. Fate clic sull'icona di ricerca nella barra dei menu per cercare le risorse nelle librerie Experience Manager Livefyre.
+1. Fate clic sull&#39;icona di ricerca nella barra dei menu per cercare le risorse nelle librerie Experience Manager Livefyre.
 
    ![](assets/hootsuite-search.png)
 
@@ -63,9 +59,9 @@ Le opzioni di filtro includono:
 | Sezione | Descrizione |
 |--- |--- |
 | Visualizza risorse da | Selezionate questa opzione per visualizzare le risorse da Tutte le sorgenti o da una singola sorgente. Ad esempio: Instagram, Twitter, Facebook, ecc. |
-| Diritti | Selezionate questa opzione per visualizzare solo le risorse con un'impostazione diritti specifica. |
-| Parole chiave | Selezionare per filtrare i risultati per parole chiave o tag. Il filtro per parole chiave consente di eseguire ricerche nel contenuto di testo di un post, nonché nel nome visualizzato dell'autore e nell'autore del nome utente. |
-| Tag | Selezionare per filtrare i risultati per parole chiave o tag. Il filtro per parole chiave consente di eseguire ricerche nel contenuto di testo di un post, nonché nel nome visualizzato dell'autore e nell'autore del nome utente. |
+| Diritti | Selezionate questa opzione per visualizzare solo le risorse con un&#39;impostazione diritti specifica. |
+| Parole chiave | Selezionare per filtrare i risultati per parole chiave o tag. Il filtro per parole chiave consente di eseguire ricerche nel contenuto di testo di un post, nonché nel nome visualizzato dell&#39;autore e nell&#39;autore del nome utente. |
+| Tag | Selezionare per filtrare i risultati per parole chiave o tag. Il filtro per parole chiave consente di eseguire ricerche nel contenuto di testo di un post, nonché nel nome visualizzato dell&#39;autore e nell&#39;autore del nome utente. |
 
 Dopo aver selezionato i parametri di ricerca, quando effettui ricerche le risorse verranno visualizzate in streaming:
 
@@ -73,7 +69,7 @@ Dopo aver selezionato i parametri di ricerca, quando effettui ricerche le risors
 
 ### Opzioni menu Flusso
 
-Facendo clic sul nome o sull'icona dell'utente viene visualizzato l'utente nella rispettiva rete. Facendo clic sull'ora viene visualizzato l'articolo originale. Quando il mouse si trova sopra l'elemento, vengono visualizzate più opzioni. Fate clic sul pulsante Condividi ![](assets/share.png)
+Facendo clic sul nome o sull&#39;icona dell&#39;utente viene visualizzato l&#39;utente nella rispettiva rete. Facendo clic sull&#39;ora viene visualizzato l&#39;articolo originale. Quando il mouse si trova sopra l&#39;elemento, vengono visualizzate più opzioni. Fate clic sul pulsante Condividi ![](assets/share.png)
 
 aggiungerà la risorsa corrente alla casella di composizione di rete, che consente di condividerla con le reti tramite Hootsuite.
 
@@ -81,15 +77,15 @@ aggiungerà la risorsa corrente alla casella di composizione di rete, che consen
 >
 >Il pulsante Condividi verrà visualizzato solo quando si filtrano le risorse con diritti concessi.
 
-Fate clic sull'icona Assegna ![](assets/assign.png) per assegnare l'elemento corrente a uno dei membri del team di Hootsuite. Se un elemento è già stato assegnato, viene risolto il pulsante ![](assets/resolve.png)
+Fate clic sull&#39;icona Assegna ![](assets/assign.png) per assegnare l&#39;elemento corrente a uno dei membri del team di Hootsuite. Se un elemento è già stato assegnato, viene risolto il pulsante ![](assets/resolve.png)
 
-viene visualizzata. Fate clic su di essa per risolvere l'assegnazione corrente.
+viene visualizzata. Fate clic su di essa per risolvere l&#39;assegnazione corrente.
 
 ### Altri menu app
 
 Fate clic sulle impostazioni ![](assets/settings.png)
 
-vi consentirà di disconnettere l'account Experience Manager Livefyre corrente e di connettervi a un altro.
+vi consentirà di disconnettere l&#39;account Experience Manager Livefyre corrente e di connettervi a un altro.
 
 Fare clic sul menu ![](assets/menu.png)
 
@@ -99,7 +95,7 @@ per visualizzare i collegamenti per il documento, il supporto e il sito Web di S
 
 Oltre a essere in grado di visualizzare le librerie di risorse in un flusso Hootsuite, potete anche salvare gli elementi da flussi di immagini, Twitter, Facebook e YouTube nelle librerie Experience Manager Livefyre.
 
-1. Fate clic sull'icona Menu nella parte inferiore di ogni elemento.
+1. Fate clic sull&#39;icona Menu nella parte inferiore di ogni elemento.
 
    ![](assets/hootsuite-menu-icon.png)
 
@@ -108,7 +104,7 @@ Oltre a essere in grado di visualizzare le librerie di risorse in un flusso Hoot
 
    ![](assets/hootsuite-save.png)
 
-1. Fate clic **su Salva nella libreria**e l'elemento verrà salvato nelle librerie selezionate.
+1. Fate clic **su Salva nella libreria** e l&#39;elemento verrà salvato nelle librerie selezionate.
 
 ## Componente Libreria multimediale di Experience Manager Livefyre {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 

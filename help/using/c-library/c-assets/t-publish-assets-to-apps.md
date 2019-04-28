@@ -15,14 +15,14 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Pubblicate le risorse salvate nelle app Livefyre dalla libreria.
 
-Potete pubblicare elementi singoli o multipli dalla scheda Ricerca social network e dalla Libreria risorse. Facendo clic **[!UICONTROL Publish]** su di esso, l'elemento viene inviato direttamente all'app selezionata e non verrà rimosso dalla libreria.
+Potete pubblicare elementi singoli o multipli dalla scheda Ricerca social network e dalla Libreria risorse. Facendo clic **[!UICONTROL Publish]** su di esso, l&#39;elemento viene inviato direttamente all&#39;app selezionata e non verrà rimosso dalla libreria.
 
 >[!NOTE]
 >
->Per pubblicare un'app, devi prima creare l'app da Studio.
+>Per pubblicare un&#39;app, devi prima creare l&#39;app da Studio.
 
 1. Cerca risorse nella libreria.
 1. Selezionate le risorse da pubblicare sul sito.
-1. Fate clic **[!UICONTROL Publish]**su.
+1. Fate clic **[!UICONTROL Publish]** su.
 
-   Viene aperta la **[!UICONTROL Publish to App]** finestra di dialogo .1. Selezionate l'app a cui pubblicare le risorse selezionate.
+   Viene aperta la **[!UICONTROL Publish to App]** finestra di dialogo .1. Selezionate l&#39;app a cui pubblicare le risorse selezionate.

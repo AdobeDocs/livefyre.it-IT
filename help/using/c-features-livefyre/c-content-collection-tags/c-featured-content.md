@@ -1,8 +1,6 @@
 ---
-description: Evidenzia i contenuti importanti ai tuoi utenti utilizzando CSS per il
-  contenuto personalizzato Contenuti.
-seo-description: Evidenzia i contenuti importanti ai tuoi utenti utilizzando CSS per
-  il contenuto personalizzato Contenuti.
+description: Evidenzia i contenuti importanti ai tuoi utenti utilizzando CSS per il contenuto personalizzato Contenuti.
+seo-description: Evidenzia i contenuti importanti ai tuoi utenti utilizzando CSS per il contenuto personalizzato Contenuti.
 seo-title: Contenuti contenuti
 solution: Experience Manager
 title: Contenuti contenuti
@@ -17,17 +15,17 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Evidenzia i contenuti importanti ai tuoi utenti utilizzando CSS per il contenuto personalizzato Contenuti.
 
-Qualsiasi contenuto di una raccolta può essere contrassegnato come «featured» dai proprietari del sito di rete o moderatori, per evidenziare contenuti importanti e incoraggiare risposte di qualità elevata da parte di altri utenti. Una volta contenuti contenuti, viene visualizzato un **[!UICONTROL Featured]** tag sul contenuto dell'app, in modo che gli utenti possano identificare facilmente il contenuto evidenziato dai proprietari e dai moderatori.
+Qualsiasi contenuto di una raccolta può essere contrassegnato come «featured» dai proprietari del sito di rete o moderatori, per evidenziare contenuti importanti e incoraggiare risposte di qualità elevata da parte di altri utenti. Una volta contenuti contenuti, viene visualizzato un **[!UICONTROL Featured]** tag sul contenuto dell&#39;app, in modo che gli utenti possano identificare facilmente il contenuto evidenziato dai proprietari e dai moderatori.
 
 Nei commenti:
 
 * Anche i due elementi di **[!UICONTROL Featured]** contenuto più recenti verranno inseriti sopra lo streaming.
-* Al di sopra dell'editor potrebbero essere necessari fino a sette minuti per Contenuti contenuti.
-* Un **[!UICONTROL Featured]** tag può essere aggiunto a qualsiasi commento all'interno del flusso e utilizzato per lo stile del commento, ma sopra l'editor viene visualizzato solo il contenuto Livefyre-nativo generato dall'utente.
+* Al di sopra dell&#39;editor potrebbero essere necessari fino a sette minuti per Contenuti contenuti.
+* Un **[!UICONTROL Featured]** tag può essere aggiunto a qualsiasi commento all&#39;interno del flusso e utilizzato per lo stile del commento, ma sopra l&#39;editor viene visualizzato solo il contenuto Livefyre-nativo generato dall&#39;utente.
 
 Quando il contenuto non è disponibile, il **[!UICONTROL Featured]** tag visualizzato verrà rimosso in tempo reale.
 
-Una volta contenuti contenuti, un **[!UICONTROL Featured]** contrassegno verrà visualizzato sul contenuto dell'app e potete utilizzare la classe CSS con composizione per personalizzare il contenuto.
+Una volta contenuti contenuti, un **[!UICONTROL Featured]** contrassegno verrà visualizzato sul contenuto dell&#39;app e potete utilizzare la classe CSS con composizione per personalizzare il contenuto.
 
 App che utilizzano questa funzione:
 

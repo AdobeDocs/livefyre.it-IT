@@ -1,8 +1,6 @@
 ---
-description: Eventi disponibili a cui è possibile associare JavaScript per le app
-  di visualizzazione (ad esempio Media Wall).
-seo-description: Eventi disponibili a cui è possibile associare JavaScript per le
-  app di visualizzazione (ad esempio Media Wall).
+description: Eventi disponibili a cui è possibile associare JavaScript per le app di visualizzazione (ad esempio Media Wall).
+seo-description: Eventi disponibili a cui è possibile associare JavaScript per le app di visualizzazione (ad esempio Media Wall).
 seo-title: Eventi Javascript per le app di visualizzazione
 solution: Experience Manager
 title: Eventi Javascript per le app di visualizzazione
@@ -17,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Eventi disponibili a cui è possibile associare JavaScript per le app di visualizzazione (ad esempio Media Wall).
 
-Nella tabella seguente sono visualizzati gli eventi App per le app di visualizzazione. Una X indica che l'evento è disponibile per l'app, N/D indica che l'evento non si applica all'app e nessuna marcatura significa che l'evento non è disponibile per quell'app:
+Nella tabella seguente sono visualizzati gli eventi App per le app di visualizzazione. Una X indica che l&#39;evento è disponibile per l&#39;app, N/D indica che l&#39;evento non si applica all&#39;app e nessuna marcatura significa che l&#39;evento non è disponibile per quell&#39;app:
 
 ## Eventi app visualizzazione
 
@@ -50,7 +48,7 @@ Nella tabella seguente sono visualizzati gli eventi App per le app di visualizza
 | Pulsante Post clic | X | N/D | N/D | N/D | N/D | X | N/D |
 | Aggiornamento dei commenti aggiornato | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Accesso utente |  |  | N/D | N/D | N/D |  | N/D |
-| L'utente ha disconnesso |  |  | N/D | N/D | N/D |  | N/D |
+| L&#39;utente ha disconnesso |  |  | N/D | N/D | N/D |  | N/D |
 | Commento in evidenza | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Commento non disponibile | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Commento votato | N/D |  | N/D | N/D | N/D | N/D | N/D |
@@ -61,5 +59,5 @@ Nella tabella seguente sono visualizzati gli eventi App per le app di visualizza
 | ID contesto | X |  |  | X | X | X | X |
 | Tipo app | X |  | X | X | X | X | X |
 | Tipo di contenuto | X | X | X | X | X | X |  |
-| Data pubblicata nell'app |  |  |  |  |  |  |  |
-| Accesso all'app utente finale |  |  |  |  |  |  |  |
+| Data pubblicata nell&#39;app |  |  |  |  |  |  |  |
+| Accesso all&#39;app utente finale |  |  |  |  |  |  |  |

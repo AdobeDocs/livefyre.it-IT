@@ -17,9 +17,9 @@ Caricare immagini in un flusso Live, Chat, Recensioni o Commenti.
 
 Le foto possono essere caricate direttamente in qualsiasi app da una libreria fotografica, un disco rigido del computer o un account social network di un utente.
 
-Le Impostazioni di una raccolta o di un sito consentono di definire se gli utenti possono caricare le foto in un'app. Questa opzione può essere attivata a livello di rete, sito o raccolta. I proprietari e i moderatori sono sempre in grado di caricare le foto in qualsiasi app.
+Le Impostazioni di una raccolta o di un sito consentono di definire se gli utenti possono caricare le foto in un&#39;app. Questa opzione può essere attivata a livello di rete, sito o raccolta. I proprietari e i moderatori sono sempre in grado di caricare le foto in qualsiasi app.
 
-Questa funzione di caricamento foto può essere utilizzata insieme all'impostazione «File multimediali preimpostati».
+Questa funzione di caricamento foto può essere utilizzata insieme all&#39;impostazione «File multimediali preimpostati».
 
 App che utilizzano questa funzione:
 

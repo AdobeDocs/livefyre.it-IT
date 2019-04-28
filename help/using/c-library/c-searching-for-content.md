@@ -15,11 +15,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Cercate il contenuto per URL da salvare nella libreria Risorse.
 
-Aggiungete contenuto da qualsiasi URL sul Web. Immettete semplicemente l'URL che desiderate incorporare nella pagina e fate clic su di esso.
+Aggiungete contenuto da qualsiasi URL sul Web. Immettete semplicemente l&#39;URL che desiderate incorporare nella pagina e fate clic su di esso.
 
-Le informazioni restituite mostrano un riepilogo scheda della pagina, compreso l'URL completo, il titolo, l'immagine, l'autore e uno snippet del primo paragrafo.
+Le informazioni restituite mostrano un riepilogo scheda della pagina, compreso l&#39;URL completo, il titolo, l&#39;immagine, l&#39;autore e uno snippet del primo paragrafo.
 
 >[!NOTE]
 >
->Per le ricerche di Instagram con il campo URL, l'autore viene restituito come «Instagram».
+>Per le ricerche di Instagram con il campo URL, l&#39;autore viene restituito come «Instagram».
 

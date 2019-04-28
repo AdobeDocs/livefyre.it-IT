@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Geturnforuser Network Method{#geturnforuser-network-method}
 
-Questo metodo restituisce l'URN per l'utente di questa rete.
+Questo metodo restituisce l&#39;URN per l&#39;utente di questa rete.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| Userid | Stringa | Userid da utilizzare nell'URN. |
+| Userid | Stringa | Userid da utilizzare nell&#39;URN. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

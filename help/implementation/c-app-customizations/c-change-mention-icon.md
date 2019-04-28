@@ -1,8 +1,6 @@
 ---
-description: Modifica l'icona visualizzata per gli utenti Livefyre nel menu a discesa
-  @mention.
-seo-description: Modifica l'icona visualizzata per gli utenti Livefyre nel menu a
-  discesa @menzioni.
+description: Modifica l'icona visualizzata per gli utenti Livefyre nel menu a discesa @mention.
+seo-description: Modifica l'icona visualizzata per gli utenti Livefyre nel menu a discesa @menzioni.
 seo-title: Cambia icona @menzioni
 solution: Experience Manager
 title: Cambia icona @mention
@@ -15,13 +13,13 @@ source-git-commit: 0d2ff61b1db6100de1d59e6e20c1175f015a78c5
 
 # `@mention` Icona Modifica {#change-mention-icon}
 
-Modificate l'icona visualizzata per gli utenti Livefyre nel menu `@mention` a discesa.
+Modificate l&#39;icona visualizzata per gli utenti Livefyre nel menu `@mention` a discesa.
 
-Modificate l'icona Livefyre utilizzata nel menu `@mention` a discesa a un'icona di vostra scelta, consentendo di indicare i membri della community con la vostra icona.
+Modificate l&#39;icona Livefyre utilizzata nel menu `@mention` a discesa a un&#39;icona di vostra scelta, consentendo di indicare i membri della community con la vostra icona.
 
 ## Esempio
 
-Per modificare questa icona, aggiungete i seguenti CSS al foglio di stile. Sostituite <*your resource*> url con l'URL dell'immagine selezionata per sostituire il badge Livefyre predefinito.
+Per modificare questa icona, aggiungete i seguenti CSS al foglio di stile. Sostituite &lt;*your resource*&gt; url con l&#39;URL dell&#39;immagine selezionata per sostituire il badge Livefyre predefinito.
 
 ```
 .fyre-editor-container .fyre-editor-toolbar > .fyre-mention-menu .fyre-mention-item .fyre-mention-item-livefyre { 

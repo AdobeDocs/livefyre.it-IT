@@ -11,20 +11,20 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# Configurare l'e-mail di rete{#set-up-network-email}
+# Configurare l&#39;e-mail di rete{#set-up-network-email}
 
-Potete configurare diversi tipi di notifiche per i visitatori del sito e Livefyre Moderatori da utilizzare per interagire con l'utente finale.
+Potete configurare diversi tipi di notifiche per i visitatori del sito e Livefyre Moderatori da utilizzare per interagire con l&#39;utente finale.
 
 Personalizzate i campi di notifica e-mail disponibili.
 
 Configurate le notifiche e-mail.
 
 * **Logo per e-mail:** selezionate il file che verrà usato come logo nelle notifiche e-mail dei clienti.
-* **Invia e-mail da:** immettete l'indirizzo e-mail che verrà visualizzato nel campo Da.
+* **Invia e-mail da:** immettete l&#39;indirizzo e-mail che verrà visualizzato nel campo Da.
 
    >[!NOTE]
    >
    >Se questo campo è vuoto, non viene inviata alcuna notifica e-mail.
 
-* **Nome visualizzato e-mail:** inserite il nome che verrà posto al posto dell'indirizzo e-mail nelle notifiche e-mail dei commenti.
+* **Nome visualizzato e-mail:** inserite il nome che verrà posto al posto dell&#39;indirizzo e-mail nelle notifiche e-mail dei commenti.
 

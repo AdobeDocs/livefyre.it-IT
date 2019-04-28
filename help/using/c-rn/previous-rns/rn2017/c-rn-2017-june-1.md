@@ -18,10 +18,10 @@ Note sulla versione del 1 giugno 2017.
 
 | **Tipo di edizione** | **Componente** | **Nota sulla versione** |
 |---|---|---|
-| Miglioramento | Contenuto app | È stato aggiunto un miglioramento per consentire agli utenti in Contenuto app di scaricare i file video nativi caricati in un'app Livefyre e/o tramite l'API di caricamento multimediale. |
-| Bug | Mosaic | È stato corretto un bug in Mosaic che impediva il caricamento di Mosaic appena creato dopo l'aggiornamento della pagina. |
-| Bug | Rights Management | Risoluzione di un bug che causava l'interruzione di Rights Management sui contenuti di Twitter e Twitter contrassegnati appena eliminati/contrassegnati come privati. |
-| Bug | Storify 2 | Aggiornate le etichette ordinamento in Storify 2 per adattare il comportamento previsto. «Più recente per più recente» e «Più recente al più vecchio», ora diranno «Primo a» e «Ultimo a prima». L'ordinamento si basa sull'ordine determinato in Storify 2 Editor, non sulla data di pubblicazione. |
+| Miglioramento | Contenuto app | È stato aggiunto un miglioramento per consentire agli utenti in Contenuto app di scaricare i file video nativi caricati in un&#39;app Livefyre e/o tramite l&#39;API di caricamento multimediale. |
+| Bug | Mosaic | È stato corretto un bug in Mosaic che impediva il caricamento di Mosaic appena creato dopo l&#39;aggiornamento della pagina. |
+| Bug | Rights Management | Risoluzione di un bug che causava l&#39;interruzione di Rights Management sui contenuti di Twitter e Twitter contrassegnati appena eliminati/contrassegnati come privati. |
+| Bug | Storify 2 | Aggiornate le etichette ordinamento in Storify 2 per adattare il comportamento previsto. «Più recente per più recente» e «Più recente al più vecchio», ora diranno «Primo a» e «Ultimo a prima». L&#39;ordinamento si basa sull&#39;ordine determinato in Storify 2 Editor, non sulla data di pubblicazione. |
 
 ## Versione UAT
 
@@ -29,8 +29,8 @@ Note sulla versione del 1 giugno 2017.
 |---|---|---|
 | Bug | Recensioni | È stato corretto un bug in Recensioni per garantire che i supporti vengano caricati tramite HTTPS in tutte le implementazioni. |
 | Bug | Cerca | È stato corretto un bug a causa del quale i risultati della ricerca di Posizione istagram venivano visualizzati duplicati. |
-| Bug | Sidenotes | Note migliorate per supportare moderazione front-end. Ciò significa che i moderatori collegati all'app sul front-end saranno in grado di approvare o eliminare il contenuto. |
+| Bug | Sidenotes | Note migliorate per supportare moderazione front-end. Ciò significa che i moderatori collegati all&#39;app sul front-end saranno in grado di approvare o eliminare il contenuto. |
 | Bug | Regole di flusso | È stato aggiunto un miglioramento ai flussi Twitter in modo che tutte le posizioni delle mappe siano elencate nel riepilogo delle regole |
-| Bug | Regole di flusso | È stato corretto un bug a causa del quale, nel frattempo, un utente con streaming Twitter che poteva esistere in entrambi i campi "è postato da uno di questi autori" e "non viene postato da nessuno di questi autori". |
+| Bug | Regole di flusso | È stato corretto un bug a causa del quale, nel frattempo, un utente con streaming Twitter che poteva esistere in entrambi i campi &quot;è postato da uno di questi autori&quot; e &quot;non viene postato da nessuno di questi autori&quot;. |
 | Miglioramento | Regole di flusso | Aggiunta la capacità di filtrare Tweet per lingua in Regole di flusso |
 

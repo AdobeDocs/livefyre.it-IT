@@ -1,8 +1,6 @@
 ---
-description: La chat offre diverse funzionalità per incoraggiare una finestra di dialogo
-  rapida e coinvolgente.
-seo-description: La chat offre diverse funzionalità per incoraggiare una finestra
-  di dialogo rapida e coinvolgente.
+description: La chat offre diverse funzionalità per incoraggiare una finestra di dialogo rapida e coinvolgente.
+seo-description: La chat offre diverse funzionalità per incoraggiare una finestra di dialogo rapida e coinvolgente.
 seo-title: Funzioni chat
 solution: Experience Manager
 title: Funzioni chat
@@ -21,9 +19,9 @@ La chat offre diverse funzionalità per incoraggiare una finestra di dialogo rap
 
 Per incoraggiare una finestra di dialogo rapida e coinvolgente, la chat differisce da Livefyre Apps nei modi seguenti:
 
-* L'Editor commenti viene precompilato con il testo «Premi comando + invio per post. »»
-* Gli utenti rispondono all'intero tipo di Chat, anziché a un commento specifico, pertanto non è disponibile alcun pulsante Risposta e Nessun commento nei commenti.
-* Agli utenti non viene offerta l'opzione di seguire Chat e il modulo di notifica commenti è disattivato.
+* L&#39;Editor commenti viene precompilato con il testo «Premi comando + invio per post. »»
+* Gli utenti rispondono all&#39;intero tipo di Chat, anziché a un commento specifico, pertanto non è disponibile alcun pulsante Risposta e Nessun commento nei commenti.
+* Agli utenti non viene offerta l&#39;opzione di seguire Chat e il modulo di notifica commenti è disattivato.
 * Le notifiche e-mail sono automaticamente predefinite su OFF.
 * Gli avatar degli utenti sono più piccoli di quelli utilizzati con i commenti.
 * Il pulsante Mi piace viene visualizzato solo quando si passa il mouse su un commento.

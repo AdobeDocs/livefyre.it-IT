@@ -15,9 +15,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Abilitare la chat in tempo reale sui tuoi siti.
 
-Chat consente ai tipi di pubblico di intervenire in tempo reale su eventi in diretta, annunci o mostra. Il contenuto viene visualizzato come un flusso continuo di chat senza thread per accelerare il coinvolgimento e l'attività rapida sulla pagina.
+Chat consente ai tipi di pubblico di intervenire in tempo reale su eventi in diretta, annunci o mostra. Il contenuto viene visualizzato come un flusso continuo di chat senza thread per accelerare il coinvolgimento e l&#39;attività rapida sulla pagina.
 
-Fox News utilizzava Chat per acquisire opinioni e riflessi sull'elezione di Pope Bergoglio. Sapendo che si verifica un'ondata di partecipazione rilevante e attiva, Fox News ha avviato una chat entro minuti dall'annuncio per creare una conversazione immediata.
+Fox News utilizzava Chat per acquisire opinioni e riflessi sull&#39;elezione di Pope Bergoglio. Sapendo che si verifica un&#39;ondata di partecipazione rilevante e attiva, Fox News ha avviato una chat entro minuti dall&#39;annuncio per creare una conversazione immediata.
 
 ![](assets/chat_example.png)
 

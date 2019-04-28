@@ -1,8 +1,6 @@
 ---
-description: Studio salverà automaticamente tutte le modifiche apportate da tutti
-  gli editor, generando una nuova versione per ogni modifica disponibile.
-seo-description: Studio salverà automaticamente tutte le modifiche apportate da tutti
-  gli editor, generando una nuova versione per ogni modifica disponibile.
+description: Studio salverà automaticamente tutte le modifiche apportate da tutti gli editor, generando una nuova versione per ogni modifica disponibile.
+seo-description: Studio salverà automaticamente tutte le modifiche apportate da tutti gli editor, generando una nuova versione per ogni modifica disponibile.
 seo-title: Cronologia revisioni
 solution: Experience Manager
 title: Cronologia revisioni
@@ -19,10 +17,10 @@ Studio salverà automaticamente tutte le modifiche apportate da tutti gli editor
 
 >[!NOTE]
 >
->L'app potrebbe non essere modificata quando il riquadro Cronologia versione è aperto.
+>L&#39;app potrebbe non essere modificata quando il riquadro Cronologia versione è aperto.
 
-1. Fai clic su **[!UICONTROL History]** per aprire un pannello che elenca tutte le versioni dell'app. Le versioni elencate mostreranno l'editor di ciascuna versione e l'età.
-1. Fate clic su una versione per selezionarla e aggiornare l'anteprima nel riquadro a destra.
+1. Fai clic su **[!UICONTROL History]** per aprire un pannello che elenca tutte le versioni dell&#39;app. Le versioni elencate mostreranno l&#39;editor di ciascuna versione e l&#39;età.
+1. Fate clic su una versione per selezionarla e aggiornare l&#39;anteprima nel riquadro a destra.
 1. Fate clic per **[!UICONTROL Restore Version]** duplicare la versione selezionata e iniziate a lavorarci.
 1. Fare clic sul pulsante Indietro nel **[!UICONTROL Version History]** riquadro per tornare alla bozza di lavoro.
-1. Fate clic per **[!UICONTROL Share]** generare un URL per l'anteprima, che può essere inviato a colleghi o amici per la revisione.
+1. Fate clic per **[!UICONTROL Share]** generare un URL per l&#39;anteprima, che può essere inviato a colleghi o amici per la revisione.

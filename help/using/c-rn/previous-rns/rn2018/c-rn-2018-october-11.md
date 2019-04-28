@@ -30,9 +30,9 @@ I problemi delle tabelle seguenti sono stati risolti nella versione di produzion
 | **Tipo di edizione** | **Componente** | **Nota sulla versione** |
 |---|---|---|
 | Bug | AEM | È stato corretto un problema a causa del quale i tweet importati in Risorse AEM tramite Livefyre presentavano collegamenti interrotti. |
-| Miglioramento | API | È stata aggiunta l'etichetta "audio" per i file audio salvati in una raccolta. |
+| Miglioramento | API | È stata aggiunta l&#39;etichetta &quot;audio&quot; per i file audio salvati in una raccolta. |
 | Bug | Libreria/Ricerca | È stato corretto un problema a causa del quale le risorse Twitter non venivano salvate in una cartella specifica quando venivano trascinate e rilasciate dalla ricerca social network. |
-| Bug | Libreria/Ricerca | È stato risolto un problema che non consentiva di visualizzare un'immagine quando si utilizzavano account aziendali IG validi per i Dettagli risorsa, la Libreria e le app pubblicate. |
+| Bug | Libreria/Ricerca | È stato risolto un problema che non consentiva di visualizzare un&#39;immagine quando si utilizzavano account aziendali IG validi per i Dettagli risorsa, la Libreria e le app pubblicate. |
 | Bug | Flussi | È stato risolto un problema che impediva il salvataggio delle regole di streaming YouTube. |
 
 ## Versione UAT {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}

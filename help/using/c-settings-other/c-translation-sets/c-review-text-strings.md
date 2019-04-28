@@ -17,15 +17,15 @@ Personalizzazione delle stringhe di testo per Livefyre Reviews.
 
 Questa pagina elenca e descrive le stringhe disponibili per la personalizzazione nelle app di revisione. Le stringhe elencate qui sono oltre alle sostituzioni per le app di base di Livefyre, elencate in Personalizzazione stringa. Se sono elencati i duplicati, le stringhe elencate in queste tabelle sono il valore predefinito per le app Revisione.
 
-Errori di implementazione dell'implementazione/Interfaccia
+Errori di implementazione dell&#39;implementazione/Interfaccia
 di valutazione Flusso di informazioni
-sull'autore/Informazioni
+sull&#39;autore/Informazioni
 sulle azioni
 di Post
 
 ## Implementazione {#section-vsy-1k4-xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all'oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -42,7 +42,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 
 ## Interfaccia di revisione/valutazione {#section_iyv_zj4_xz}
 
-Stringhe disponibili per l'interfaccia utente Revisione e Valutazione.
+Stringhe disponibili per l&#39;interfaccia utente Revisione e Valutazione.
 
 | Elemento | Chiave | Testo predefinito |
 |--- |--- |--- |
@@ -50,9 +50,9 @@ Stringhe disponibili per l'interfaccia utente Revisione e Valutazione.
 |  | Reviewbtn | [Revisione in scrittura](https://d.pr/i/QscA) |
 |  | Reviewsclosed | [Revisioni chiuse](https://d.pr/i/zr7M) |
 |  | Showreviewbtn | [Mostra revisione](https://d.pr/i/onxU) |
-|  | segui | l'm interessati |
+|  | segui | l&#39;m interessati |
 |  | Sharetext | Ho appena scritto una revisione. Check it out! |
-| Valutazione dei suggerimenti | Ratingvalues | Un array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: I valori nell'array devono essere duplicati per assegnare allo stesso nome sia la metà sinistra che quella destra di ciascuna stella. |
+| Valutazione dei suggerimenti | Ratingvalues | Un array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: I valori nell&#39;array devono essere duplicati per assegnare allo stesso nome sia la metà sinistra che quella destra di ciascuna stella. |
 | Valutazione delle parti secondarie | Ratingsubpartplaceholder | Un array. Predefinito = `[]` |
 |  | Ratingsubparttitles | Un array. Predefinito = `[]` |
 |  | Reviewstreamtitle | Vuoto per impostazione predefinita. Titolo della sezione di riepilogo della revisione. |
@@ -85,7 +85,7 @@ Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizza
 
 ## Autore/Informazioni contenuto {#section_osx_xj4_xz}
 
-Stings disponibili per informazioni sull'autore e sul contenuto.
+Stings disponibili per informazioni sull&#39;autore e sul contenuto.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -94,7 +94,7 @@ Stings disponibili per informazioni sull'autore e sul contenuto.
 
 ## Azioni utente {#section_tlx_wj4_xz}
 
-Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e contrassegno di contenuti esistenti come utili.
+Stringhe disponibili per le azioni dell&#39;utente: segnalazione, condivisione e contrassegno di contenuti esistenti come utili.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -102,16 +102,16 @@ Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e con
 |  | Wasreviewhelpfulmobile | Utile? |
 |  | Ownwasreviewhelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
 |  | Reviewwashelpful | [Sì](https://d.pr/i/Q0mA) |
-|  | Helpfuldivider | [& amp; vert;](https://d.pr/i/Q0mA) |
+|  | Helpfuldivider | [&amp; amp; vert;](https://d.pr/i/Q0mA) |
 |  | Reviewwasnothelpful | [No](https://d.pr/i/Q0mA) |
 | Modale votazione | Votetitle | Questa revisione è utile? |
 |  | Votedownvote | No |
 |  | Livesteplytitle | Questa risposta è utile? |
 |  | Votetitle | Questo commento è stato utile? |
 |  | Voteupvote | Sì |
-| Flag modale | Flagtitle | Review % s's review |
+| Flag modale | Flagtitle | Review % s&#39;s review |
 |  | Flagsuccessmsg | La revisione è stata segnalata. |
-| Flag Mobile | Flagconfirmationmessage | Flag % s's review as % s? |
+| Flag Mobile | Flagconfirmationmessage | Flag % s&#39;s review as % s? |
 | Menzioni modali | Mentiondefaulttext | I mentioned you in a Livefyre review! |
 | Modale condivisione | Sharetitle | Condivisione condivisione |
 

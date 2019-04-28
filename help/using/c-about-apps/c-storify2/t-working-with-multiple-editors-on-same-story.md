@@ -1,8 +1,6 @@
 ---
-description: Storify gestisce più editor simultanei, impedendo la sovrascrittura accidentale
-  o le modifiche perdute.
-seo-description: Storify gestisce più editor simultanei, impedendo la sovrascrittura
-  accidentale o le modifiche perdute.
+description: Storify gestisce più editor simultanei, impedendo la sovrascrittura accidentale o le modifiche perdute.
+seo-description: Storify gestisce più editor simultanei, impedendo la sovrascrittura accidentale o le modifiche perdute.
 seo-title: Utilizzo di più editor sullo stesso brano
 solution: Experience Manager
 title: Utilizzo di più editor sullo stesso brano
@@ -17,9 +15,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Storify gestisce più editor simultanei, impedendo la sovrascrittura accidentale o le modifiche perdute.
 
-Storify consente a più editor di collaborare, modificare e curare contenuti per un singolo Story. Le modifiche sono visibili in tempo reale e vengono inserite in tag con il nome utente e l'avatar dell'editor.
+Storify consente a più editor di collaborare, modificare e curare contenuti per un singolo Story. Le modifiche sono visibili in tempo reale e vengono inserite in tag con il nome utente e l&#39;avatar dell&#39;editor.
 
-Più editor che lavorano su un unico brano vedranno altri utenti che lavorano sulla pagina in tempo reale. Vengono visualizzati nuovi elementi, modifiche di testo e modifiche di formattazione, con la posizione dell'editor nella pagina indicata con una selezione di testo codificata a colori, banner name e avatar (se disponibile).
+Più editor che lavorano su un unico brano vedranno altri utenti che lavorano sulla pagina in tempo reale. Vengono visualizzati nuovi elementi, modifiche di testo e modifiche di formattazione, con la posizione dell&#39;editor nella pagina indicata con una selezione di testo codificata a colori, banner name e avatar (se disponibile).
 
 Tutti gli editor dispongono di diritti e privilegi per modificare Story, incluso il diritto a:
 

@@ -1,12 +1,6 @@
 ---
-description: Livefyre fornisce quattro API Featured, che consentono di recuperare
-  i 50 elementi contenuti contenuti più di recente per la rete, il sito o la raccolta
-  di input, oppure le due parti di contenuto indicato nella parte superiore di una
-  raccolta di input.
-seo-description: Livefyre fornisce quattro API Featured, che consentono di recuperare
-  i 50 elementi contenuti contenuti più di recente per la rete, il sito o la raccolta
-  di input, oppure le due parti di contenuto indicato nella parte superiore di una
-  raccolta di input.
+description: Livefyre fornisce quattro API Featured, che consentono di recuperare i 50 elementi contenuti contenuti più di recente per la rete, il sito o la raccolta di input, oppure le due parti di contenuto indicato nella parte superiore di una raccolta di input.
+seo-description: Livefyre fornisce quattro API Featured, che consentono di recuperare i 50 elementi contenuti contenuti più di recente per la rete, il sito o la raccolta di input, oppure le due parti di contenuto indicato nella parte superiore di una raccolta di input.
 seo-title: Contenuto aggregato aggregato utilizzando le API contenuti
 solution: Experience Manager
 title: Contenuto aggregato aggregato utilizzando le API contenuti

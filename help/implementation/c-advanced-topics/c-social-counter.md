@@ -41,10 +41,10 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
    ```
 
    >[!NOTE]
-   >La query è limitata a 10 sito, ID articolo, tuples di tipo regola. (L'esempio precedente conterrà 3 pcm).
+   >La query è limitata a 10 sito, ID articolo, tuples di tipo regola. (L&#39;esempio precedente conterrà 3 pcm).
 
 * **from** `(optional)` specifica il periodo di tempo relativo o assoluto al grafico; from specify the beginning and defaults to 24 hours prior, if omitted.
-* **fino** `(optional)` a specificare il periodo di tempo relativo o assoluto al grafico; fino a specificare l'inizio e impostazioni predefinite per l'ora corrente (ora), se omessa.
+* **fino** `(optional)` a specificare il periodo di tempo relativo o assoluto al grafico; fino a specificare l&#39;inizio e impostazioni predefinite per l&#39;ora corrente (ora), se omessa.
 
 ### Tempo relativo
 
@@ -90,7 +90,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 Esempio:
 
-Per ottenere conteggio sull'ultimo minuto per il sito `123456` e l'ID articolo `some-article-id` e per il tipo di regola `2`, ad esempio: `123456:some-article-id;2:`
+Per ottenere conteggio sull&#39;ultimo minuto per il sito `123456` e l&#39;ID articolo `some-article-id` e per il tipo di regola `2`, ad esempio: `123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 

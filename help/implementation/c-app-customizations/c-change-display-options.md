@@ -1,8 +1,6 @@
 ---
-description: Personalizzate le opzioni di visualizzazione delle app in modo che corrispondano
-  al vostro marchio e stile.
-seo-description: Personalizzate le opzioni di visualizzazione delle app in modo che
-  corrispondano al vostro marchio e stile.
+description: Personalizzate le opzioni di visualizzazione delle app in modo che corrispondano al vostro marchio e stile.
+seo-description: Personalizzate le opzioni di visualizzazione delle app in modo che corrispondano al vostro marchio e stile.
 seo-title: Modifica opzioni visualizzazione
 solution: Experience Manager
 title: Modifica opzioni visualizzazione
@@ -19,15 +17,15 @@ Personalizzate le opzioni di visualizzazione delle app in modo che corrispondano
 
 Disponibile per chat, commenti, blog live, recensioni e Sidenotes.
 
-Livefyre offre diverse opzioni in base alle quali la visualizzazione dell'app può essere personalizzata in base al marchio e allo stile, incluse le classi CSS, le stringhe di testo localizzate e le limitazioni dell'elemento app e del supporto. È possibile definire opzioni per Commenti, Blog live, Recensioni, Sidenotes, Notifier Notifier, Commenti archiviati e gruppi di utenti predefiniti.
+Livefyre offre diverse opzioni in base alle quali la visualizzazione dell&#39;app può essere personalizzata in base al marchio e allo stile, incluse le classi CSS, le stringhe di testo localizzate e le limitazioni dell&#39;elemento app e del supporto. È possibile definire opzioni per Commenti, Blog live, Recensioni, Sidenotes, Notifier Notifier, Commenti archiviati e gruppi di utenti predefiniti.
 
 In questa sezione sono descritte le seguenti opzioni di personalizzazione disponibili:
 
 * Le classi CSS disponibili consentono di modificare gli elementi div, le opzioni di ordinamento, i riquadri di delimitazione, le icone e altre opzioni di visualizzazione per le app.
 * [Localizza stringhe](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md) per impostare la lingua e il tono delle app.
 * Specificate il formato data/ora per conformarlo al vostro stile.
-* Sposta il logo Livefyre per visualizzarlo in modo meno rilevante sull'app.
+* Sposta il logo Livefyre per visualizzarlo in modo meno rilevante sull&#39;app.
 * Limita file multimediale per impedire agli utenti di caricare i tipi di file multimediali specificati.
-* Nascondi elementi app per semplificare l'esperienza utente.
-* Modificate l'icona Livefyre `@mention` per selezionare un'icona personalizzata da visualizzare in pulldown @ indicando i menu per i membri del pubblico Livefyre.
+* Nascondi elementi app per semplificare l&#39;esperienza utente.
+* Modificate l&#39;icona Livefyre `@mention` per selezionare un&#39;icona personalizzata da visualizzare in pulldown @ indicando i menu per i membri del pubblico Livefyre.
 

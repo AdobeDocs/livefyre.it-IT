@@ -1,8 +1,6 @@
 ---
-description: Aggiungere tag parole chiave alle raccolte e ai contenuti per categorizzare
-  e organizzare i contenuti per facilitarne il recupero.
-seo-description: Aggiungere tag parole chiave alle raccolte e ai contenuti per categorizzare
-  e organizzare i contenuti per facilitarne il recupero.
+description: Aggiungere tag parole chiave alle raccolte e ai contenuti per categorizzare e organizzare i contenuti per facilitarne il recupero.
+seo-description: Aggiungere tag parole chiave alle raccolte e ai contenuti per categorizzare e organizzare i contenuti per facilitarne il recupero.
 seo-title: Tag raccolta e contenuto
 solution: Experience Manager
 title: Tag raccolta e contenuto
@@ -17,9 +15,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Aggiungere tag parole chiave alle raccolte e ai contenuti per categorizzare e organizzare i contenuti per facilitarne il recupero.
 
-L'assegnazione dei tag consente di filtrare le ricerche in base a un tag specifico e di estrarre dati per l'API di Calore Index.
+L&#39;assegnazione dei tag consente di filtrare le ricerche in base a un tag specifico e di estrarre dati per l&#39;API di Calore Index.
 
-I tag possono essere aggiunti tramite i **[!UICONTROL Content]****[!UICONTROL Collections]** pannelli di Studio o direttamente ai metadati della raccolta (utilizzando l'oggetto collectionmeta) durante l'inizializzazione o l'aggiornamento della raccolta con Livefyre.
+I tag possono essere aggiunti tramite i **[!UICONTROL Content]****[!UICONTROL Collections]** pannelli di Studio o direttamente ai metadati della raccolta (utilizzando l&#39;oggetto collectionmeta) durante l&#39;inizializzazione o l&#39;aggiornamento della raccolta con Livefyre.
 
 App che utilizzano questa funzione:
 
@@ -37,11 +35,11 @@ App che utilizzano questa funzione:
 * [Tendenza](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [Pulsante Carica](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
-## Utilizzo dei tag raccolta con l'API di Calore Index {#section_uhd_frk_wy}
+## Utilizzo dei tag raccolta con l&#39;API di Calore Index {#section_uhd_frk_wy}
 
-L'API di Calore Index accetta un parametro Tag, che consente di recuperare l'attivazione relativa per qualsiasi raccolta con quel tag, in un sito o in un'intera rete.
+L&#39;API di Calore Index accetta un parametro Tag, che consente di recuperare l&#39;attivazione relativa per qualsiasi raccolta con quel tag, in un sito o in un&#39;intera rete.
 
-Per informazioni dettagliate sull'implementazione, consulta la documentazione tecnica sull'API di Calore.
+Per informazioni dettagliate sull&#39;implementazione, consulta la documentazione tecnica sull&#39;API di Calore.
 
 App che utilizzano questa funzione:
 

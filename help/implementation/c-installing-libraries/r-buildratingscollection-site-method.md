@@ -1,9 +1,6 @@
 ---
-description: Restituisce un oggetto Collection creata come tipo di valutazione. Eseguite
-  create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
-seo-description: Restituisce un oggetto Collection creata come tipo di valutazione.
-  Eseguite create_ or_ update () dall'oggetto Collection per completare il processo
-  di creazione.
+description: Restituisce un oggetto Collection creata come tipo di valutazione. Eseguite create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
+seo-description: Restituisce un oggetto Collection creata come tipo di valutazione. Eseguite create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
 seo-title: Metodo Sitdratingscollection site
 title: Metodo Sitdratingscollection site
 uuid: 5 eea 2 ba 3-48 e 1-4 cd 2-aa 73-ea 81788 af 1 df
@@ -15,13 +12,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Metodo Sitdratingscollection site{#buildratingscollection-site-method}
 
-Restituisce un oggetto Collection creata come tipo di valutazione. Eseguite create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
+Restituisce un oggetto Collection creata come tipo di valutazione. Eseguite create_ or_ update () dall&#39;oggetto Collection per completare il processo di creazione.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
 | title | Stringa | Titolo della raccolta. |
-| Articleid | Stringa | Un ID articolo univoco che avete scelto di identificare una raccolta all'interno del sito. |
-| url | Stringa | L'URL assoluto canonico per questa raccolta. |
+| Articleid | Stringa | Un ID articolo univoco che avete scelto di identificare una raccolta all&#39;interno del sito. |
+| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

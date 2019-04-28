@@ -1,8 +1,6 @@
 ---
-description: Livefyre Spam e Abuse Filtering Engine (SAFE), un processo in background
-  che analizza tutto il contenuto in arrivo ed è abilitato per tutti i clienti Livefyre.
-seo-description: Livefyre Spam e Abuse Filtering Engine (SAFE), un processo in background
-  che analizza tutto il contenuto in arrivo ed è abilitato per tutti i clienti Livefyre.
+description: Livefyre Spam e Abuse Filtering Engine (SAFE), un processo in background che analizza tutto il contenuto in arrivo ed è abilitato per tutti i clienti Livefyre.
+seo-description: Livefyre Spam e Abuse Filtering Engine (SAFE), un processo in background che analizza tutto il contenuto in arrivo ed è abilitato per tutti i clienti Livefyre.
 seo-title: Regole SAFE
 title: Regole SAFE
 uuid: 2 f 91 d 0 d 4-dffe -4651-88 af -79 bbb 96 c 1 b 5 c
@@ -30,7 +28,7 @@ I flag applicati da SAFE possono essere utilizzati con i seguenti componenti Stu
 
 * Regole
 
-   Puoi definire regole SAFE per segnalare automaticamente i contenuti e definire il modo **[!UICONTROL Network Settings]**in cui il contenuto contrassegnato deve essere gestito.
+   Puoi definire regole SAFE per segnalare automaticamente i contenuti e definire il modo **[!UICONTROL Network Settings]** in cui il contenuto contrassegnato deve essere gestito.
 
    Ad esempio, un sito potrebbe impostare una tolleranza molto bassa per Profanity e definire regole SAFE che impostano tutti i contenuti contrassegnati come Profane come bozò d. Altri siti possono definire regole che impostano il contenuto Profane affinché venga premoderato prima di entrare nel flusso.
 
@@ -38,7 +36,7 @@ I flag applicati da SAFE possono essere utilizzati con i seguenti componenti Stu
 
    Puoi moderare i contenuti segnalati dalle regole SAFE e altre regole di premoderazione (ad esempio, SPAM, blasfemia ecc.), in modq.
 
-* Contenuto dell'app nella libreria
+* Contenuto dell&#39;app nella libreria
 
    Il contenuto contrassegnato da SAFE è elencato nel contenuto app della **[!UICONTROL Library]** scheda. Potete filtrare il contenuto per flag per moderare il contenuto.
 
@@ -46,31 +44,31 @@ I flag applicati da SAFE possono essere utilizzati con i seguenti componenti Stu
 
 SAFE applica i seguenti flag al contenuto filtrato e può essere utilizzato per creare regole e moderare contenuto da Livefyre Studio.
 
-* **[!UICONTROL Profanity List]**: Contenuto profano, come definito da un elenco di parole chiave inglese, in base all'uso comune.
+* **[!UICONTROL Profanity List]**: Contenuto profano, come definito da un elenco di parole chiave inglese, in base all&#39;uso comune.
 
    Il filtro Profanity cerca la lingua profana in base a un elenco di parole testate. Se rilevato, il contenuto è segnalato Profano.
 
    >[!NOTE]
    >
-   >Livefyre fornisce anche un secondo filtro Elenco profetico, che potete personalizzare a livello di sito e di rete. Le regole create con l'Elenco profanity hanno la precedenza sulle regole automatizzate derivate dal filtro SAFE Profanity. Per ulteriori informazioni, consulta la sezione Elenco profetico nella documentazione Impostazioni.
+   >Livefyre fornisce anche un secondo filtro Elenco profetico, che potete personalizzare a livello di sito e di rete. Le regole create con l&#39;Elenco profanity hanno la precedenza sulle regole automatizzate derivate dal filtro SAFE Profanity. Per ulteriori informazioni, consulta la sezione Elenco profetico nella documentazione Impostazioni.
 
 * **[!UICONTROL Mild Profanity]**: Parole e frasi generalmente non accettabili nelle conversazioni educative, ma in genere sono accettabili nelle conversazioni occasionali. In genere, le parole e le frasi sono consentite in rete di rete.
-* **[!UICONTROL Strong Profanity]**: Un linguaggio molto forte, ad esempio esplicazioni e frasi non consentite in rete di rete e utilizzati con cautela nei filmati con valutazione R e nelle trasmissioni TV via cavo. In genere queste parole non vengono utilizzate in conversazione cordiale o informale e sono pronunciate in una conversazione imitabile, con l'intento di danneggiare il listener.
+* **[!UICONTROL Strong Profanity]**: Un linguaggio molto forte, ad esempio esplicazioni e frasi non consentite in rete di rete e utilizzati con cautela nei filmati con valutazione R e nelle trasmissioni TV via cavo. In genere queste parole non vengono utilizzate in conversazione cordiale o informale e sono pronunciate in una conversazione imitabile, con l&#39;intento di danneggiare il listener.
 * **[!UICONTROL SPAM]**: Contenuto non richiesto, generalmente contenuto commerciale. Utilizza un modello statistico che si basa su diverse funzioni (inclusi contenuti e URL dei commenti) per contrassegnare una parte del contenuto come SPAM. È possibile regolare le soglie di spam per personalizzare le percentuali di tag SPAM per la rete o il sito, tramite richiesta.
 * **[!UICONTROL Mild Insult]**: Contenuto inoffensivo, come definito da un elenco di parole chiave e pattern di frase.
 * **[!UICONTROL Strong Insult]**: Contenuto inoffensivo, come definito da un elenco di parole chiave e pattern di frase.
-* **[!UICONTROL Hate Speech]**: Un abuso basato su etnia o religione, in particolare se l'appartenenza ai gruppi di destinazione è in minoranza o protetta.
+* **[!UICONTROL Hate Speech]**: Un abuso basato su etnia o religione, in particolare se l&#39;appartenenza ai gruppi di destinazione è in minoranza o protetta.
 * **[!UICONTROL ALL CAPS]**: Testo visualizzato in tutte le lettere maiuscole (leggi come yelling).
-* **[!UICONTROL Mild Threat]**: Una minaccia o un insulto che in genere include un'abilità leggera indirizzata a un'altra persona. This option flags possible threats more often, but also has a higher false-positive rate than **[!UICONTROL Strong Threat]**.
+* **[!UICONTROL Mild Threat]**: Una minaccia o un insulto che in genere include un&#39;abilità leggera indirizzata a un&#39;altra persona. This option flags possible threats more often, but also has a higher false-positive rate than **[!UICONTROL Strong Threat]**.
 
 * **[!UICONTROL Strong Threat]**: Una grave minaccia o un insulto che cita danni ricorrenti a una o più persone, spesso con forte ostilità. This option flags possible threats less often, but also has a lower false-positive rate than **[!UICONTROL Mild Threat]**.
 
-* **[!UICONTROL Probable Nudity]**: Un'immagine che potrebbe presentare delle nuvole. This option flags nudity less often, but also has a lower false-positive rate than **[!UICONTROL Possible Nudity]**.
+* **[!UICONTROL Probable Nudity]**: Un&#39;immagine che potrebbe presentare delle nuvole. This option flags nudity less often, but also has a lower false-positive rate than **[!UICONTROL Possible Nudity]**.
 
-* **[!UICONTROL Possible Nudity]**: Un'immagine che potrebbe presentare delle nuvole. This option flags nudity more often, but also has a higher false-positive rate than **[!UICONTROL Probable Nudity]**.
+* **[!UICONTROL Possible Nudity]**: Un&#39;immagine che potrebbe presentare delle nuvole. This option flags nudity more often, but also has a higher false-positive rate than **[!UICONTROL Probable Nudity]**.
 
-* **[!UICONTROL PII]** (Informazioni personali): Informazioni che possono identificare l'utente. Questo può includere indirizzo e-mail, indirizzo fisico, numero di previdenza sociale (per clienti US), numero di carta di credito, password o qualcosa che può essere utilizzato nelle frodi o per ottenere l'identità di qualcun utente.
-* **[!UICONTROL Livefyre Recommends Trash]**. Impostate l'azione eseguita dal sistema quando la raccomandazione di moderazione automatica identifica il contenuto per il rifiuto. ![](assets/mod_reco1.png)
+* **[!UICONTROL PII]** (Informazioni personali): Informazioni che possono identificare l&#39;utente. Questo può includere indirizzo e-mail, indirizzo fisico, numero di previdenza sociale (per clienti US), numero di carta di credito, password o qualcosa che può essere utilizzato nelle frodi o per ottenere l&#39;identità di qualcun utente.
+* **[!UICONTROL Livefyre Recommends Trash]**. Impostate l&#39;azione eseguita dal sistema quando la raccomandazione di moderazione automatica identifica il contenuto per il rifiuto. ![](assets/mod_reco1.png)
 
    >[!NOTE]
    >
@@ -78,11 +76,11 @@ SAFE applica i seguenti flag al contenuto filtrato e può essere utilizzato per 
 
 ## Gestione contenuto non rilevata da SAFE {#section_pjy_5tx_vy}
 
-Esistono diversi mezzi disponibili per gestire efficacemente i contenuti non rilevati da questo filtro. Le opzioni riportate di seguito sono elencate nell'ordine di processo consigliato.
+Esistono diversi mezzi disponibili per gestire efficacemente i contenuti non rilevati da questo filtro. Le opzioni riportate di seguito sono elencate nell&#39;ordine di processo consigliato.
 
 1. Come moderatore, rimuovete il contenuto dallo streaming.
 1. Create una Regola di segnalazione che indichi se un pezzo di contenuto è contrassegnato come Spam o Offensivo da cinque utenti, impostandolo su Bozo.
-1. Proibite l'utente che pubblica contenuto non desiderato, in modo che tutto il suo contenuto passerà direttamente allo stato Bozo.
+1. Proibite l&#39;utente che pubblica contenuto non desiderato, in modo che tutto il suo contenuto passerà direttamente allo stato Bozo.
 1. Aggiungi parole specifiche da filtrare sempre nel tuo elenco.
 
 >[!NOTE]

@@ -16,4 +16,4 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 Incorpora sondaggi nel flusso di commento o di blog live.
 
 1. Dalla pagina App Manager di Studio, fate clic sul pulsante **[!UICONTROL </>]** (incorpora) per generare un codice da incorporare per il sondaggio.
-1. Copiate e incollate il codice da incorporare nel **[!UICONTROL Add Custom HTML]** campo per l'app.
+1. Copiate e incollate il codice da incorporare nel **[!UICONTROL Add Custom HTML]** campo per l&#39;app.

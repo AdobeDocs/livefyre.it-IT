@@ -1,12 +1,9 @@
 ---
 description: Consultate e modificate le risorse in Livefyre con una richiesta in sospeso.
-seo-description: Consultate e modificate le risorse in Livefyre con una richiesta
-  in sospeso.
-seo-title: Gestire il contenuto con una richiesta di diritti in sospeso dalla Libreria
-  risorse
+seo-description: Consultate e modificate le risorse in Livefyre con una richiesta in sospeso.
+seo-title: Gestire il contenuto con una richiesta di diritti in sospeso dalla Libreria risorse
 solution: Experience Manager
-title: Gestire il contenuto con una richiesta di diritti in sospeso dalla Libreria
-  risorse
+title: Gestire il contenuto con una richiesta di diritti in sospeso dalla Libreria risorse
 uuid: fab 285 af-de 09-4061-a 946-5 bede 91603 de
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869

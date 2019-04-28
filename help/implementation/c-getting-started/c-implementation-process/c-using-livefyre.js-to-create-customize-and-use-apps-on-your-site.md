@@ -9,7 +9,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# Incorporare un'app{#embed-an-app}
+# Incorporare un&#39;app{#embed-an-app}
 
 Aggiungete Livefyre Apps alle pagine Web utilizzando la struttura di codice di Livefyre. js.
 
@@ -19,7 +19,7 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
 
 1. Create un file.html con un segnaposto Livefyre.
 
-   Create un nuovo file.html nell'editor di testo desiderato. Create un segnaposto Livefyre `<div>` in cui verrà incorporata l'app.
+   Create un nuovo file.html nell&#39;editor di testo desiderato. Create un segnaposto Livefyre `<div>` in cui verrà incorporata l&#39;app.
 
    ```
    <html> 
@@ -32,7 +32,7 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
 
 1. Include la libreria Livefyre. js.
 
-   Quindi, includete la libreria Jvefyre JS. Inserite il riferimento seguente in un `<script>` elemento dell `<head>` 'elemento. Quindi, aprite la pagina in un browser e utilizzate il modulo di ispezione Web del browser per confermare che Livefyre è stato caricato.
+   Quindi, includete la libreria Jvefyre JS. Inserite il riferimento seguente in un `<script>` elemento dell `<head>` &#39;elemento. Quindi, aprite la pagina in un browser e utilizzate il modulo di ispezione Web del browser per confermare che Livefyre è stato caricato.
 
    ```
    <head> 
@@ -40,13 +40,13 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
    </head> 
    ```
 
-1. Create l'app Livefyre.
+1. Create l&#39;app Livefyre.
 
    Utilizzate `Livefyre.require` per creare app di base e SDK passando i pacchetti Livefyre che pianificate di utilizzare.
 
-   1. Creare un'app di base.
+   1. Creare un&#39;app di base.
 
-      Per creare un'app di base (Commenti, Blog live o Chat), utilizzate la struttura seguente:
+      Per creare un&#39;app di base (Commenti, Blog live o Chat), utilizzate la struttura seguente:
 
       ```
       Livefyre.require(['fyre.conv#@{fyre_conv_version_prod}'], function(Conv) { 
@@ -54,9 +54,9 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
       });  
       ```
 
-   1. Creare un'app SDK.
+   1. Creare un&#39;app SDK.
 
-      Per creare un'app SDK come Media Wall o Feed, utilizzate la struttura seguente:
+      Per creare un&#39;app SDK come Media Wall o Feed, utilizzate la struttura seguente:
 
       ```
              Livefyre.require(['app#{version_number}'], 
@@ -74,6 +74,6 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
       }); 
       ```
 
-      Ulteriori [informazioni su app specifiche](/help/using/c-about-apps/c-about-apps.md). Si consiglia di fissare l'ultima versione principale del pacchetto (che è possibile trovare tramite [Livefyre. require](https://cdn.livefyre.com/packages.html)), per evitare integrazioni interrotte impreviste.
+      Ulteriori [informazioni su app specifiche](/help/using/c-about-apps/c-about-apps.md). Si consiglia di fissare l&#39;ultima versione principale del pacchetto (che è possibile trovare tramite [Livefyre. require](https://cdn.livefyre.com/packages.html)), per evitare integrazioni interrotte impreviste.
 
-Segue: Aggiungete l'autenticazione al sito per consentire agli utenti di pubblicare commenti.
+Segue: Aggiungete l&#39;autenticazione al sito per consentire agli utenti di pubblicare commenti.

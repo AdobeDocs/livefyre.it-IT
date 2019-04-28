@@ -1,8 +1,6 @@
 ---
-description: Modifica le opzioni di dimensione, larghezza e interazione del pulsante
-  Carica.
-seo-description: Modifica le opzioni di dimensione, larghezza e interazione del pulsante
-  Carica.
+description: Modifica le opzioni di dimensione, larghezza e interazione del pulsante Carica.
+seo-description: Modifica le opzioni di dimensione, larghezza e interazione del pulsante Carica.
 seo-title: Personalizzazione pulsanti di caricamento
 solution: Experience Manager
 title: Personalizzazione pulsanti di caricamento
@@ -21,7 +19,7 @@ Modifica le opzioni di dimensione, larghezza e interazione del pulsante Carica.
 
 Abilitare il pulsante di caricamento utilizzando un codice da incorporare.
 
-* **[!UICONTROL Destination.]** Scegliete l'app che verrà utilizzata per visualizzare il contenuto dal pulsante Carica. Non potete visualizzare il pulsante Carica in Sondaggi, Tendenza o Storify 2. Impostate la destinazione su Moderatore per moderare gli utenti di contenuto mediante il pulsante Carica.
+* **[!UICONTROL Destination.]** Scegliete l&#39;app che verrà utilizzata per visualizzare il contenuto dal pulsante Carica. Non potete visualizzare il pulsante Carica in Sondaggi, Tendenza o Storify 2. Impostate la destinazione su Moderatore per moderare gli utenti di contenuto mediante il pulsante Carica.
 * **[!UICONTROL Style Options]**
 
    * **[!UICONTROL Corners.]** Configurate gli angoli dei pulsanti da arrotondare o quadrati.
@@ -35,16 +33,16 @@ Abilitare il pulsante di caricamento utilizzando un codice da incorporare.
 * **[!UICONTROL Text Configuration]**
 
    * **[!UICONTROL Upload Button Text.]** Configurate il testo visualizzato sul pulsante Carica.
-   * **[!UICONTROL Comment Modal Title.]** Titolo della finestra visualizzata quando l'utente finale fa clic sul pulsante Carica.
-   * **[!UICONTROL Comment Modal Button.]** Testo visualizzato nella finestra in cui l'utente finale carica il contenuto dopo aver fatto clic sul pulsante Carica.
-   * **[!UICONTROL Comment Modal Title Input.]** Consente all'utente finale di inserire un titolo con il relativo caricamento. Se selezionate «Includi titolo», potete modificare il contenuto visualizzato qui. »»
-   * **[!UICONTROL Comment Modal Message Input.]** Consente all'utente finale di inserire un messaggio con il relativo caricamento.
-   * **[!UICONTROL Confirmation Modal Title Text.]** Titolo della finestra che conferma la conferma dell'utente finale che ha caricato il contenuto.
-   * **[!UICONTROL Confirmation Modal Description Text.]** Testo visualizzato nella finestra che conferma all'utente finale che ha caricato correttamente il contenuto.
-   * **[!UICONTROL Confirmation Modal Done Button.]** Il testo del pulsante visualizzato nella finestra che conferma l'avvenuta riuscita del contenuto caricato.
-   * **[!UICONTROL Enable Header.]** Abilitare un'intestazione per fornire contesto agli utenti finali. Potete scegliere di aggiungere l'intestazione in alto o a destra del pulsante.
-   * **[!UICONTROL Main Callout Title.]** Testo da utilizzare per il titolo dell'intestazione.
-   * **[!UICONTROL Main Callout Message.]** Testo da utilizzare nell'intestazione.
+   * **[!UICONTROL Comment Modal Title.]** Titolo della finestra visualizzata quando l&#39;utente finale fa clic sul pulsante Carica.
+   * **[!UICONTROL Comment Modal Button.]** Testo visualizzato nella finestra in cui l&#39;utente finale carica il contenuto dopo aver fatto clic sul pulsante Carica.
+   * **[!UICONTROL Comment Modal Title Input.]** Consente all&#39;utente finale di inserire un titolo con il relativo caricamento. Se selezionate «Includi titolo», potete modificare il contenuto visualizzato qui. »»
+   * **[!UICONTROL Comment Modal Message Input.]** Consente all&#39;utente finale di inserire un messaggio con il relativo caricamento.
+   * **[!UICONTROL Confirmation Modal Title Text.]** Titolo della finestra che conferma la conferma dell&#39;utente finale che ha caricato il contenuto.
+   * **[!UICONTROL Confirmation Modal Description Text.]** Testo visualizzato nella finestra che conferma all&#39;utente finale che ha caricato correttamente il contenuto.
+   * **[!UICONTROL Confirmation Modal Done Button.]** Il testo del pulsante visualizzato nella finestra che conferma l&#39;avvenuta riuscita del contenuto caricato.
+   * **[!UICONTROL Enable Header.]** Abilitare un&#39;intestazione per fornire contesto agli utenti finali. Potete scegliere di aggiungere l&#39;intestazione in alto o a destra del pulsante.
+   * **[!UICONTROL Main Callout Title.]** Testo da utilizzare per il titolo dell&#39;intestazione.
+   * **[!UICONTROL Main Callout Message.]** Testo da utilizzare nell&#39;intestazione.
 
 Potete personalizzare il pulsante Carica utilizzando:
 

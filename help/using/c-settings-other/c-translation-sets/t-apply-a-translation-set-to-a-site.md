@@ -19,5 +19,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 1. Selezionate un sito.
 1. Selezionate Impostazioni sito.
 1. Selezionate Impostazioni app.
-1. Passate a Impostazioni predefinite > Set di traduzioni.
+1. Passate a Impostazioni predefinite &gt; Set di traduzioni.
 1. Selezionate un set di traduzioni dal menu a discesa.

@@ -9,15 +9,15 @@ source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 ---
 
 
-# Guida all'implementazione di Experience Manager Livefyre {#livefyre-help}
+# Guida all&#39;implementazione di Experience Manager Livefyre {#livefyre-help}
 
-Implementate Livefyre Studio e Livefyre Apps sul vostro sito Web tramite strumenti di sviluppo per personalizzare l'esperienza.
+Implementate Livefyre Studio e Livefyre Apps sul vostro sito Web tramite strumenti di sviluppo per personalizzare l&#39;esperienza.
 
 Per informazioni su come utilizzare Livefyre Studio e Livefyre Apps in Livefyre Studio, consultate la [*guida utente di Adobe Experience Manager Livefyre*](/help/using/home.md).
 
 ## Argomenti popolari
 
-* [Guida introduttiva all'implementazione](c-getting-started/c-getting-started.md)
+* [Guida introduttiva all&#39;implementazione](c-getting-started/c-getting-started.md)
 
 * [Utilizzo di Livefyre Apps con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 

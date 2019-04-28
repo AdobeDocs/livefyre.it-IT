@@ -1,8 +1,6 @@
 ---
-description: Coinvolgi i visitatori del tuo sito con funzionalità che li rimandano
-  al tuo sito quando scopriranno i tuoi contenuti.
-seo-description: Coinvolgi i visitatori del tuo sito con funzionalità che li rimandano
-  al tuo sito quando scopriranno i tuoi contenuti.
+description: Coinvolgi i visitatori del tuo sito con funzionalità che li rimandano al tuo sito quando scopriranno i tuoi contenuti.
+seo-description: Coinvolgi i visitatori del tuo sito con funzionalità che li rimandano al tuo sito quando scopriranno i tuoi contenuti.
 seo-title: Funzioni di codifica
 solution: Experience Manager
 title: Funzioni di codifica
@@ -19,9 +17,9 @@ Coinvolgi i visitatori del tuo sito con funzionalità che li rimandano al tuo si
 
 ## Pulsanti personalizzati {#section_jdv_vcm_d1b}
 
-I pulsanti di azione personalizzati e l'azione associata possono essere aggiunti a qualsiasi utente o elemento di contenuto in qualsiasi app Livefyre, oltre ai pulsanti Flag, Condivisione ed Elimina esistenti. Gli esempi possono consentire a un utente di nascondere il contenuto da un altro utente o di seguire un utente.
+I pulsanti di azione personalizzati e l&#39;azione associata possono essere aggiunti a qualsiasi utente o elemento di contenuto in qualsiasi app Livefyre, oltre ai pulsanti Flag, Condivisione ed Elimina esistenti. Gli esempi possono consentire a un utente di nascondere il contenuto da un altro utente o di seguire un utente.
 
-Per informazioni tecniche sull'aggiunta di pulsanti di azione personalizzati, consultate Aggiunta di pulsanti personalizzati.
+Per informazioni tecniche sull&#39;aggiunta di pulsanti di azione personalizzati, consultate Aggiunta di pulsanti personalizzati.
 
 App che utilizzano questa funzione:
 
@@ -65,7 +63,7 @@ App che utilizzano questa funzione:
 
 @ indica un utente o un utente che ha già pubblicato contenuto nella raccolta.
 
-Per citare un utente che ha pubblicato contenuto nella raccolta, gli utenti possono fare clic sul pulsante **[!UICONTROL @]** di riferimento oppure digitare @ nell'editor per visualizzare un elenco di persone disponibili per la denominazione. L'elenco includerà tutti gli utenti che stanno seguendo la conversazione. (iniziate a digitare un nome per limitare l'elenco alle corrispondenze per il testo di input.)
+Per citare un utente che ha pubblicato contenuto nella raccolta, gli utenti possono fare clic sul pulsante **[!UICONTROL @]** di riferimento oppure digitare @ nell&#39;editor per visualizzare un elenco di persone disponibili per la denominazione. L&#39;elenco includerà tutti gli utenti che stanno seguendo la conversazione. (iniziate a digitare un nome per limitare l&#39;elenco alle corrispondenze per il testo di input.)
 
 >[!NOTE]
 >
@@ -81,15 +79,15 @@ App che utilizzano questa funzione:
 
 ## Pulsanti di azione {#section_uzm_ldm_d1b}
 
-Creare pulsanti di azione personalizzati per il contenuto di un'app.
+Creare pulsanti di azione personalizzati per il contenuto di un&#39;app.
 
-I pulsanti di azione personalizzati e l'azione associata possono essere aggiunti a qualsiasi utente o elemento di contenuto in qualsiasi app Livefyre, oltre ai pulsanti Flag, Condivisione ed Elimina esistenti. Gli esempi possono consentire a un utente di nascondere il contenuto da un altro utente o di seguire un utente.
+I pulsanti di azione personalizzati e l&#39;azione associata possono essere aggiunti a qualsiasi utente o elemento di contenuto in qualsiasi app Livefyre, oltre ai pulsanti Flag, Condivisione ed Elimina esistenti. Gli esempi possono consentire a un utente di nascondere il contenuto da un altro utente o di seguire un utente.
 
 ## Segui conversazione {#section_bw3_ndm_d1b}
 
 Consente agli utenti di ricevere notifiche e-mail quando le conversazioni successive vengono modificate.
 
-Una conversazione consente agli utenti di ricevere notifiche e-mail in base all'attività nella conversazione. Gli utenti fanno clic sul **[!UICONTROL Follow]** pulsante per **[!UICONTROL Unfollow]** impostare preferenze specifiche per la conversazione, oppure utilizzare la **[!UICONTROL Profile Settings]** pagina per impostare una preferenza a livello di sito per seguire le conversazioni.
+Una conversazione consente agli utenti di ricevere notifiche e-mail in base all&#39;attività nella conversazione. Gli utenti fanno clic sul **[!UICONTROL Follow]** pulsante per **[!UICONTROL Unfollow]** impostare preferenze specifiche per la conversazione, oppure utilizzare la **[!UICONTROL Profile Settings]** pagina per impostare una preferenza a livello di sito per seguire le conversazioni.
 
 ( **[!UICONTROL Follow]** La funzione non è disponibile su dispositivi mobili).
 

@@ -1,8 +1,6 @@
 ---
-description: Puoi utilizzare Livefyre Identity con Google per consentire agli utenti
-  di utilizzare i propri accessi Google per interagire con app sul tuo sito.
-seo-description: Puoi utilizzare Livefyre Identity con Google per consentire agli
-  utenti di utilizzare i propri accessi Google per interagire con app sul tuo sito.
+description: Puoi utilizzare Livefyre Identity con Google per consentire agli utenti di utilizzare i propri accessi Google per interagire con app sul tuo sito.
+seo-description: Puoi utilizzare Livefyre Identity con Google per consentire agli utenti di utilizzare i propri accessi Google per interagire con app sul tuo sito.
 seo-title: Creare un progetto Google da utilizzare con Livefyre Identity
 solution: Experience Manager
 title: Creare un progetto Google da utilizzare con Livefyre Identity
@@ -24,9 +22,9 @@ Per consentire agli utenti di accedere con le loro credenziali Google, Livefyre 
 
 Per creare un progetto Google da utilizzare con Livefyre Identity:
 
-1. Andate a [https://console.cloud.google.com/project](https://console.cloud.google.com/project) e accedete al vostro account Google per creare una nuova app o selezionate un'app esistente da utilizzare con Livefyre Identity.
-1. Dal pannello del progetto per l'app, fate clic **[!UICONTROL Enable and Manage APIs]**su.
-1. Dalla pagina Panoramica API, in API Social, fai clic per attivare l'API Google +.
+1. Andate a [https://console.cloud.google.com/project](https://console.cloud.google.com/project) e accedete al vostro account Google per creare una nuova app o selezionate un&#39;app esistente da utilizzare con Livefyre Identity.
+1. Dal pannello del progetto per l&#39;app, fate clic **[!UICONTROL Enable and Manage APIs]** su.
+1. Dalla pagina Panoramica API, in API Social, fai clic per attivare l&#39;API Google +.
 1. Dalla pagina Credenziali API, selezionate **[!UICONTROL Credentials > New credentials > OAuth]** ID client. Nella **[!UICONTROL Create client ID]** pagina che si apre:
 
    * Seleziona tipo applicazione: Applicazione Web.
@@ -35,4 +33,4 @@ Per creare un progetto Google da utilizzare con Livefyre Identity:
    * Enter **[!UICONTROL Authorized redirect URIs]**: `https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/google_fyre` (where **[!UICONTROL {networkName}]** is your Livefyre provided network name. Ad esempio: ** [!UICONTROL labs]** in **[!UICONTROL `labs.fyre.co`]**.)
    * Fate clic su **[!UICONTROL Create]** per salvare le credenziali.
 
-Al termine, la pagina Gestione API di Google > Credenziali elenca l'ID client e il segreto cliente del progetto da utilizzare nella pagina Impostazioni integrazione di Studio.
+Al termine, la pagina Gestione API di Google &gt; Credenziali elenca l&#39;ID client e il segreto cliente del progetto da utilizzare nella pagina Impostazioni integrazione di Studio.

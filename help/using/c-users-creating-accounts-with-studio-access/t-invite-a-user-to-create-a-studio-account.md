@@ -1,8 +1,6 @@
 ---
-description: I manager e gli amministratori di studio possono invitare gli utenti
-  nuovi o esistenti a creare un account Studio.
-seo-description: I manager e gli amministratori di studio possono invitare gli utenti
-  nuovi o esistenti a creare un account Studio.
+description: I manager e gli amministratori di studio possono invitare gli utenti nuovi o esistenti a creare un account Studio.
+seo-description: I manager e gli amministratori di studio possono invitare gli utenti nuovi o esistenti a creare un account Studio.
 seo-title: Invitare un utente a creare un account Studio
 solution: Experience Manager
 title: Invitare un utente a creare un account Studio
@@ -17,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 I manager e gli amministratori di studio possono invitare gli utenti nuovi o esistenti a creare un account Studio.
 
-Livefyre Technical Account Manager per la rete invia il primo invito account Studio per creare un account Amministratore studio. Potete fornire un indirizzo e-mail utilizzato dall'account manager tecnico di Livefyre per creare l'account Amministratore studio.
+Livefyre Technical Account Manager per la rete invia il primo invito account Studio per creare un account Amministratore studio. Potete fornire un indirizzo e-mail utilizzato dall&#39;account manager tecnico di Livefyre per creare l&#39;account Amministratore studio.
 
 >[!NOTE]
 >
@@ -29,6 +27,6 @@ Livefyre Technical Account Manager per la rete invia il primo invito account Stu
 
 1. Dalla **[!UICONTROL Users]** pagina, fate clic su **[!UICONTROL Invite to Studio.]**
 1. Nella **[!UICONTROL Invite user]** finestra di dialogo visualizzata, selezionate **[!UICONTROL Existing User]** o **[!UICONTROL New User]**.
-1. Per invitare un utente esistente, immettete un **[!UICONTROL Username]**, **[!UICONTROL User ID]**o **[!UICONTROL Email Address]** nei campi forniti. Per invitare un nuovo utente, immettete un **[!UICONTROL Email address]**.
+1. Per invitare un utente esistente, immettete un **[!UICONTROL Username]**, **[!UICONTROL User ID]** o **[!UICONTROL Email Address]** nei campi forniti. Per invitare un nuovo utente, immettete un **[!UICONTROL Email address]**.
 1. Se **[!UICONTROL Add message]** necessario, fate clic per inserire un invito personalizzato.
-1. Selezionate il livello di accesso per il nuovo account e fate clic per **[!UICONTROL Invite]** inviare l'invito.
+1. Selezionate il livello di accesso per il nuovo account e fate clic per **[!UICONTROL Invite]** inviare l&#39;invito.

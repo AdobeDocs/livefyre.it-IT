@@ -1,8 +1,6 @@
 ---
-description: Create un nuovo Flusso in Livefyre per aggiungere contenuti a un'app
-  o a una cartella.
-seo-description: Create un nuovo Flusso in Livefyre per aggiungere contenuti a un'app
-  o a una cartella.
+description: Create un nuovo Flusso in Livefyre per aggiungere contenuti a un'app o a una cartella.
+seo-description: Create un nuovo Flusso in Livefyre per aggiungere contenuti a un'app o a una cartella.
 seo-title: Creare un nuovo flusso
 solution: Experience Manager
 title: Creare un nuovo flusso
@@ -15,13 +13,13 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 # Creare un nuovo flusso{#create-a-new-stream}
 
-Create un nuovo Flusso in Livefyre per aggiungere contenuti a un'app o a una cartella.
+Create un nuovo Flusso in Livefyre per aggiungere contenuti a un&#39;app o a una cartella.
 
 1. Per creare un nuovo flusso, fai clic su **[!UICONTROL Streams > Create Stream.]**
 1. Immettete un **[!UICONTROL Stream Name]**.
 1. Selezionate un **[!UICONTROL Stream Destination]**: **[!UICONTROL App]** o **[!UICONTROL Folder]** per selezionare una destinazione per il flusso.
 
-   * Selezionate un'app per inviare tutti i contenuti inclusi nel flusso all'app selezionata quando fate clic su Pubblica.
+   * Selezionate un&#39;app per inviare tutti i contenuti inclusi nel flusso all&#39;app selezionata quando fate clic su Pubblica.
    * Selezionate una cartella per inviare in modo continuo tutti i contenuti inclusi nel flusso alla cartella selezionata.
 
       >[!NOTE]

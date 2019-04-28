@@ -1,8 +1,6 @@
 ---
-description: Consente di moderare il contenuto proveniente da un Flusso utilizzando
-  la Libreria.
-seo-description: Consente di moderare il contenuto proveniente da un Flusso utilizzando
-  la Libreria.
+description: Consente di moderare il contenuto proveniente da un Flusso utilizzando la Libreria.
+seo-description: Consente di moderare il contenuto proveniente da un Flusso utilizzando la Libreria.
 seo-title: Moderare contenuto da un flusso
 title: Moderare contenuto da un flusso
 uuid: 38 faf 651-c 547-49 b 3-b 3 d 1-1 a 1 d 65 c 0 f 81 c
@@ -24,15 +22,15 @@ Il **[!UICONTROL Pending]** pulsante cambia ed è possibile scegliere se accetta
 
 Passate il mouse sullo spazio commento e visualizzate le seguenti opzioni di moderazione:
 
-* **[!UICONTROL Ban user:]** impedisce all'utente di aggiungere contenuto al sito.
+* **[!UICONTROL Ban user:]** impedisce all&#39;utente di aggiungere contenuto al sito.
 
    >[!NOTE]
    >
-   >Questa opzione è specifica per il sito e non proietta l'utente dall'intera rete. Per Sidenotes, gli utenti possono essere vietati solo dall'interno di Studio, non dall'interno del flusso.
+   >Questa opzione è specifica per il sito e non proietta l&#39;utente dall&#39;intera rete. Per Sidenotes, gli utenti possono essere vietati solo dall&#39;interno di Studio, non dall&#39;interno del flusso.
 
-* **[!UICONTROL Bozo:]** Bozos l'autore del contenuto. Per Sidenotes, gli utenti possono essere Bozò d solo da Studio, non dall'interno del flusso.
+* **[!UICONTROL Bozo:]** Bozos l&#39;autore del contenuto. Per Sidenotes, gli utenti possono essere Bozò d solo da Studio, non dall&#39;interno del flusso.
 * **[!UICONTROL Delete:]** Elimina il contenuto dal thread.
-* **[!UICONTROL Flag:]** Apre un flag modale, che consente di selezionare un flag per il contenuto (Spam, Offensivo, Non d'accordo o Non d'accordo), immettendo un indirizzo e-mail da associare al flag, se lo desidera e aggiungendo una nota.
+* **[!UICONTROL Flag:]** Apre un flag modale, che consente di selezionare un flag per il contenuto (Spam, Offensivo, Non d&#39;accordo o Non d&#39;accordo), immettendo un indirizzo e-mail da associare al flag, se lo desidera e aggiungendo una nota.
 * **[!UICONTROL Share:]** Apre una modale Condividi, che consente di condividere su Facebook o Twitter, modificare il testo e includere un inchiostro per il contenuto stesso.
 * **[!UICONTROL Feature:]** Visualizza il contenuto.
 

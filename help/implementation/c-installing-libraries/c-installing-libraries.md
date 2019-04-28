@@ -138,7 +138,7 @@ Collegamenti: [Pyjwt](https://github.com/progrium/pyjwt), [Requests](https://git
 
 ## Ruby {#section_fv2_tzq_rz}
 
-Per installare la libreria Ruby, aggiungete questa riga al file Gemfile dell'applicazione:
+Per installare la libreria Ruby, aggiungete questa riga al file Gemfile dell&#39;applicazione:
 
 ```
 gem 'livefyre' 

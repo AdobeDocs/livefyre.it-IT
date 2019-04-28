@@ -1,5 +1,5 @@
 ---
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 translation-type: tm+mt
 
 ---
@@ -17,15 +17,15 @@ Consulta la [Guida collaboratore per i documenti di Adobe](https://docs.adobe.co
 
 Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con le quali desideri contribuire:
 
-### Modifiche minori
+### Modifiche minori 
 
-Se state dando un contributo minore alla bontà del vostro cuore, visitate l'articolo e fate clic sul **collegamento Modifica** nell'articolo che porta all'origine github per l'articolo. Quindi, usa l'interfaccia utente github per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la Guida generale [di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Docs Contributor.
+Se state dando un contributo minore alla bontà del vostro cuore, visitate l&#39;articolo e fate clic sul **collegamento Modifica** nell&#39;articolo che porta all&#39;origine github per l&#39;articolo. Quindi, usa l&#39;interfaccia utente github per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la Guida generale [di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Docs Contributor.
 
 Le correzioni o i chiarimenti minori inviati per la documentazione e gli esempi di codice in questo archivio sono coperti dalle condizioni d’uso di Adobe.
 
 ### Modifiche principali o nuovi articoli dai membri della community
 
-Se siete membri della community Adobe e desiderate creare un nuovo articolo o inviare modifiche principali, utilizzate la scheda Edizioni nell'archivio Git per inviare un'edizione al team della documentazione. Dopo aver accettato un piano, dovrai collaborare con un dipendente per aiutarti a trasferire il nuovo contenuto tramite una combinazione di lavoro nell'archivio pubblico e privato.
+Se siete membri della community Adobe e desiderate creare un nuovo articolo o inviare modifiche principali, utilizzate la scheda Edizioni nell&#39;archivio Git per inviare un&#39;edizione al team della documentazione. Dopo aver accettato un piano, dovrai collaborare con un dipendente per aiutarti a trasferire il nuovo contenuto tramite una combinazione di lavoro nell&#39;archivio pubblico e privato.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -33,7 +33,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifiche principali da dipendenti Adobe
 
-Se siete un autore, un responsabile del programma o sviluppatore tecnico di una soluzione Adobe Experience Cloud ed è il vostro lavoro a contribuire o creare articoli tecnici, dovreste utilizzare l'archivio privato [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Se siete un autore, un responsabile del programma o sviluppatore tecnico di una soluzione Adobe Experience Cloud ed è il vostro lavoro a contribuire o creare articoli tecnici, dovreste utilizzare l&#39;archivio privato [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Strumenti e configurazione
 
@@ -53,4 +53,4 @@ Tutti gli articoli in questo archivio utilizzano GitHub Flavored Markdown. Se no
 Nell’archivio pubblico, le etichette automatizzate vengono assegnate alle richieste di pull per consentire di gestire il flusso di lavoro di richieste di pull e conoscere lo stato della richiesta di pull:
 
 * **Modifica inviata all’autore**: l’autore ha ricevuto una notifica della richiesta di pull in sospeso.
-* **Pronto per l'unione**: Pronti per la revisione dal nostro team di revisione delle richieste pull.
+* **Pronto per l&#39;unione**: Pronti per la revisione dal nostro team di revisione delle richieste pull.

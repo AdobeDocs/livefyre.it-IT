@@ -1,10 +1,6 @@
 ---
-description: Livefyre Identità e App contengono funzioni di accessibilità per consentire
-  a tutti i visitatori del sito di interagire con i contenuti, compresi quelli che
-  possono utilizzare assistenti vocali e altri dispositivi di supporto.
-seo-description: Livefyre Identità e App contengono funzioni di accessibilità per
-  consentire a tutti i visitatori del sito di interagire con i contenuti, compresi
-  quelli che possono utilizzare assistenti vocali e altri dispositivi di supporto.
+description: Livefyre Identità e App contengono funzioni di accessibilità per consentire a tutti i visitatori del sito di interagire con i contenuti, compresi quelli che possono utilizzare assistenti vocali e altri dispositivi di supporto.
+seo-description: Livefyre Identità e App contengono funzioni di accessibilità per consentire a tutti i visitatori del sito di interagire con i contenuti, compresi quelli che possono utilizzare assistenti vocali e altri dispositivi di supporto.
 seo-title: Funzioni di accessibilità
 solution: Experience Manager
 title: Funzioni di accessibilità
@@ -23,10 +19,10 @@ Livefyre enfatizza le seguenti aree in modo che Livefyre Identity e Apps siano a
 
 * Struttura
    * Le pagine utilizzano i tag titolo della pagina e intestazione che gli assistenti vocali leggono
-   * L'ordine di tabulazione degli elementi segue un ordine logico
+   * L&#39;ordine di tabulazione degli elementi segue un ordine logico
 * Tastiera e Fuoco
    * Gli elementi sono focalizzati e visibili quando si utilizza la tastiera
-   * L'ordine di attivazione è intuitivo
+   * L&#39;ordine di attivazione è intuitivo
 * Contenuto
    * Tutti i collegamenti e il contenuto non testuale hanno etichette AIR univoche e testo alternativo
 * Presentazione:
@@ -37,13 +33,13 @@ Livefyre enfatizza le seguenti aree in modo che Livefyre Identity e Apps siano a
 
 >[!NOTE]
 >
->Le funzioni di accessibilità per le app Livefyre sono applicabili solo alle app. L'UGC nelle app (ad esempio, i sottotitoli video e le descrizioni delle immagini) è accessibile solo se il proprietario del contenuto ha aggiunto tali funzioni di accessibilità al contenuto.
+>Le funzioni di accessibilità per le app Livefyre sono applicabili solo alle app. L&#39;UGC nelle app (ad esempio, i sottotitoli video e le descrizioni delle immagini) è accessibile solo se il proprietario del contenuto ha aggiunto tali funzioni di accessibilità al contenuto.
 
-Per verificare che un'app funzioni con le funzioni di accessibilità, potete:
+Per verificare che un&#39;app funzioni con le funzioni di accessibilità, potete:
 
-* Attivate un assistente vocale (ad esempio [, Voicast](https://www.apple.com/accessibility/mac/vision/) su un dispositivo Mac o Apple o [Narratore](https://www.microsoft.com/en-us/accessibility/windows) su un PC) per leggere la pagina che contiene l'app a voce alta. L'utilizzo di un assistente vocale verifica che il contenuto sia disponibile
+* Attivate un assistente vocale (ad esempio [, Voicast](https://www.apple.com/accessibility/mac/vision/) su un dispositivo Mac o Apple o [Narratore](https://www.microsoft.com/en-us/accessibility/windows) su un PC) per leggere la pagina che contiene l&#39;app a voce alta. L&#39;utilizzo di un assistente vocale verifica che il contenuto sia disponibile
 
-* Spostarsi attraverso un'app e tentare di utilizzarla utilizzando solo la tastiera per verificare che sia possibile accedere a ciascun pulsante o collegamento in modo logico.
+* Spostarsi attraverso un&#39;app e tentare di utilizzarla utilizzando solo la tastiera per verificare che sia possibile accedere a ciascun pulsante o collegamento in modo logico.
 * Modificate il livello di zoom e i rapporti di contrasto per verificare se il contenuto viene riprodotto in modo leggibile e di facile visualizzazione.
 
 Funzioni App e Livefyre accessibili:

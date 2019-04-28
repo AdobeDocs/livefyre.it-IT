@@ -17,21 +17,21 @@ Studio offre diverse opzioni per la gestione delle cartelle.
 
 Per gestire cartelle e risorse sono disponibili le seguenti opzioni:
 
-* **[!UICONTROL Favorite:]** Fate clic sull'icona a stella accanto al nome di una cartella nella parte superiore della pagina per aggiungere tag alla cartella e aggiungerla all **[!UICONTROL Favorites]** 'elenco.
+* **[!UICONTROL Favorite:]** Fate clic sull&#39;icona a stella accanto al nome di una cartella nella parte superiore della pagina per aggiungere tag alla cartella e aggiungerla all **[!UICONTROL Favorites]** &#39;elenco.
 
 * **[!UICONTROL Upload Asset:]** Apre una finestra del Selettore file dalla quale potete cercare e caricare contenuti da desktop, Flickr, URL o altre posizioni da aggiungere alla Libreria risorse.
-* **[!UICONTROL Create New Subfolder:]** Consente di creare una sottocartella all'interno della cartella selezionata. Le sottocartelle ereditano i diritti di accesso della cartella principale e il relativo accesso non può essere gestito singolarmente.
+* **[!UICONTROL Create New Subfolder:]** Consente di creare una sottocartella all&#39;interno della cartella selezionata. Le sottocartelle ereditano i diritti di accesso della cartella principale e il relativo accesso non può essere gestito singolarmente.
 * **[!UICONTROL Trash Folder:]** Rimuove la cartella e il relativo contenuto dalla Libreria risorse.
 
    >[!NOTE]
    >
    >Solo i proprietari della cartella possono usare le cartelle Cestino.
 
-* **[!UICONTROL Manage Access:]** Consente di controllare l'accesso alla cartella: ** [!UICONTROL Open]** o **[!UICONTROL Restricted]**. Selezionate **[!UICONTROL Open]** questa opzione per consentire a tutti gli utenti di Studio all'interno della rete di accedere alla cartella e al relativo contenuto. Selezionare **[!UICONTROL Restricted]** per limitare l'accesso a un gruppo selezionato di utenti.
+* **[!UICONTROL Manage Access:]** Consente di controllare l&#39;accesso alla cartella: ** [!UICONTROL Open]** o **[!UICONTROL Restricted]**. Selezionate **[!UICONTROL Open]** questa opzione per consentire a tutti gli utenti di Studio all&#39;interno della rete di accedere alla cartella e al relativo contenuto. Selezionare **[!UICONTROL Restricted]** per limitare l&#39;accesso a un gruppo selezionato di utenti.
 
    >[!NOTE]
    >
-   >Solo coloro che dispongono delle autorizzazioni per accedere alla cartella possono gestire l'accesso.
+   >Solo coloro che dispongono delle autorizzazioni per accedere alla cartella possono gestire l&#39;accesso.
 
 * **[!UICONTROL Rename:]** Consente di rinominare la cartella.
 

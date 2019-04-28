@@ -33,7 +33,7 @@ Le seguenti nuove funzioni sono state rilasciate nella versione di produzione di
 
 * Limitazione della frequenza di istagram
 
-   Instagram ha modificato il numero di richieste che qualsiasi società che utilizza l'API di Instagram, inclusa Livefyre, possa effettuare da 5,000 richieste all'ora per token su 200 richiede un'ora per token. Questa funzione è detta limitazione *di velocità*. Per ulteriori informazioni, consulta [la sezione Limitazione frequenza di istagram](/help/using/c-streams/c-instagram-rate-limiting.md).
+   Instagram ha modificato il numero di richieste che qualsiasi società che utilizza l&#39;API di Instagram, inclusa Livefyre, possa effettuare da 5,000 richieste all&#39;ora per token su 200 richiede un&#39;ora per token. Questa funzione è detta limitazione *di velocità*. Per ulteriori informazioni, consulta [la sezione Limitazione frequenza di istagram](/help/using/c-streams/c-instagram-rate-limiting.md).
 
 * File audio nella libreria
 
@@ -57,6 +57,6 @@ I problemi delle seguenti tabelle sono stati risolti nella versione UAT di quest
 |---|---|---|
 | Miglioramento | GDPR | Tutti i dati attribuiti ai clienti precedenti in Analytics verranno eliminati. |
 | Bug | Libreria | È stato corretto un problema a causa del quale un video caricato nella libreria e visualizzato nei dettagli delle risorse non veniva visualizzato correttamente. |
-| Bug | Mosaic | È stato risolto un problema che causava la visualizzazione dell'ultimo contenuto di un carosello Instagram da parte di Mosaic come miniatura, anziché come scheda. |
+| Bug | Mosaic | È stato risolto un problema che causava la visualizzazione dell&#39;ultimo contenuto di un carosello Instagram da parte di Mosaic come miniatura, anziché come scheda. |
 | Bug | Ricerca social network | Risolto un problema per il quale la ricerca social di Instagram non funzionava come previsto. |
 

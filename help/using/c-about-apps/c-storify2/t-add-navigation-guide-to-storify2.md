@@ -1,9 +1,6 @@
 ---
-description: Aggiungete una guida di navigazione all'applicazione Storify 2 per creare
-  un elenco di post con tendenze in una posizione dominante accanto alla vostra storia.
-seo-description: Aggiungete una guida di navigazione all'applicazione Storify 2 per
-  creare un elenco di post con tendenze in una posizione dominante accanto alla vostra
-  storia.
+description: Aggiungete una guida di navigazione all'applicazione Storify 2 per creare un elenco di post con tendenze in una posizione dominante accanto alla vostra storia.
+seo-description: Aggiungete una guida di navigazione all'applicazione Storify 2 per creare un elenco di post con tendenze in una posizione dominante accanto alla vostra storia.
 seo-title: Aggiungere una guida di navigazione a Storify 2
 solution: Experience Manager
 title: Aggiungere una guida di navigazione a Storify 2
@@ -16,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Aggiungere una guida di navigazione a Storify 2{#add-a-navigation-guide-to-a-storify}
 
-Aggiungete una guida di navigazione all'applicazione Storify 2 per creare un elenco di post con tendenze in una posizione dominante accanto alla vostra storia.
+Aggiungete una guida di navigazione all&#39;applicazione Storify 2 per creare un elenco di post con tendenze in una posizione dominante accanto alla vostra storia.
 
 1. Aprite un brano Storify 2.
-1. In Storify 2 App Designer, attivate l' **[!UICONTROL Navigation Guide]** interruttore.
+1. In Storify 2 App Designer, attivate l&#39; **[!UICONTROL Navigation Guide]** interruttore.

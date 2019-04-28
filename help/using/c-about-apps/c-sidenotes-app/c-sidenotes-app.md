@@ -1,8 +1,6 @@
 ---
-description: Utilizzare Sidenotes per consentire ai lettori di inserire commenti direttamente
-  in linea con il contenuto.
-seo-description: Utilizzare Sidenotes per consentire ai lettori di inserire commenti
-  direttamente in linea con il contenuto.
+description: Utilizzare Sidenotes per consentire ai lettori di inserire commenti direttamente in linea con il contenuto.
+seo-description: Utilizzare Sidenotes per consentire ai lettori di inserire commenti direttamente in linea con il contenuto.
 seo-title: Sidenotes
 solution: Experience Manager
 title: Sidenotes
@@ -17,9 +15,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Utilizzare Sidenotes per consentire ai lettori di inserire commenti direttamente in linea con il contenuto.
 
-Le filigrane consentono agli utenti di evidenziare e annotare i passaggi, direttamente in linea con i contenuti, creando una discussione coinvolgente e collaborativa con targeting per il sito. I lettori possono citare parte di un articolo, da singole parole, a paragrafi e immagini. Le filienine possono essere condivise con Twitter e Facebook come mezzo per portare amici, follower ed esperti nella conversazione. Gli utenti possono anche votare Sidenotes per portare i contenuti più utili in cima all'elenco. (Sidenotes ordina contenuto per voto utente, presentando note con i voti più alti meno i voti, nella parte superiore dell'elenco.)
+Le filigrane consentono agli utenti di evidenziare e annotare i passaggi, direttamente in linea con i contenuti, creando una discussione coinvolgente e collaborativa con targeting per il sito. I lettori possono citare parte di un articolo, da singole parole, a paragrafi e immagini. Le filienine possono essere condivise con Twitter e Facebook come mezzo per portare amici, follower ed esperti nella conversazione. Gli utenti possono anche votare Sidenotes per portare i contenuti più utili in cima all&#39;elenco. (Sidenotes ordina contenuto per voto utente, presentando note con i voti più alti meno i voti, nella parte superiore dell&#39;elenco.)
 
-In sidenote, fate clic sull'icona visualizzata alla fine di paragrafi e immagini oppure evidenzia parte di un paragrafo e fate clic sull'icona «matita» visualizzata. Quando evidenziate una sezione dell'articolo, potete condividerla anche su Facebook e Twitter.
+In sidenote, fate clic sull&#39;icona visualizzata alla fine di paragrafi e immagini oppure evidenzia parte di un paragrafo e fate clic sull&#39;icona «matita» visualizzata. Quando evidenziate una sezione dell&#39;articolo, potete condividerla anche su Facebook e Twitter.
 
 >[!NOTE]
 >

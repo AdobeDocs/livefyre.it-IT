@@ -1,8 +1,6 @@
 ---
-description: Scoprite le convenzioni di Livefyre e il modo in cui Livefyre organizza
-  i contenuti.
-seo-description: Scoprite le convenzioni di Livefyre e il modo in cui Livefyre organizza
-  i contenuti.
+description: Scoprite le convenzioni di Livefyre e il modo in cui Livefyre organizza i contenuti.
+seo-description: Scoprite le convenzioni di Livefyre e il modo in cui Livefyre organizza i contenuti.
 seo-title: Architettura
 solution: Experience Manager
 title: Architettura
@@ -27,11 +25,11 @@ Livefyre organizza utenti e contenuti per rete e sito. A ogni rete possono esser
 
 I clienti con più domini possono condividere gli account utente in tutti i domini, utilizzando una sola rete Livefyre. I clienti che desiderano conservare account utente separati per domini diversi dovranno disporre di reti Livefyre separate.
 
-Le impostazioni di configurazione possono essere applicate a siti, reti e raccolte (a cui si fa riferimento come conversazione nell'illustrazione precedente).
+Le impostazioni di configurazione possono essere applicate a siti, reti e raccolte (a cui si fa riferimento come conversazione nell&#39;illustrazione precedente).
 
 >[!NOTE]
 >
->Alcune impostazioni sono disponibili solo a livello di rete (ad esempio, preferenze di notifica e-mail, indirizzo e-mail dall'indirizzo e logo personalizzati tramite e-mail). Se desiderate che queste impostazioni siano diverse per ciascun dominio, dovete utilizzare più reti.
+>Alcune impostazioni sono disponibili solo a livello di rete (ad esempio, preferenze di notifica e-mail, indirizzo e-mail dall&#39;indirizzo e logo personalizzati tramite e-mail). Se desiderate che queste impostazioni siano diverse per ciascun dominio, dovete utilizzare più reti.
 
 ## Informazioni sui siti {#section_vjw_nm4_xz}
 
@@ -43,19 +41,19 @@ Un sito è un gruppo arbitrario di articoli. Il raggruppamento è utile in quant
 
 ## Diagramma sequenza app {#section_mw2_lm4_xz}
 
-Sia che stiate cercando di implementare funzioni personalizzate con gli endpoint forniti con Livefyre, o che dobbiate semplicemente eseguire il debug di un problema, è utile capire in che modo funziona il flusso di richiesta/risposta dell'app Livefyre.
+Sia che stiate cercando di implementare funzioni personalizzate con gli endpoint forniti con Livefyre, o che dobbiate semplicemente eseguire il debug di un problema, è utile capire in che modo funziona il flusso di richiesta/risposta dell&#39;app Livefyre.
 
 ![](assets/appsequencediagram.png)
 
-1. Quando il client raggiunge il sito, istanziate l'app Livefyre con l'ID sito e l'ID articolo.
-1. Se desiderate autenticare l'utente (utile per la valutazione del traffico e la protezione del sito), inviate Livefyre le informazioni sul sito e il token Profilo utente.
-1. Inviate Livefyre l'ID sito e l'ID articolo per inizializzare l'app.
+1. Quando il client raggiunge il sito, istanziate l&#39;app Livefyre con l&#39;ID sito e l&#39;ID articolo.
+1. Se desiderate autenticare l&#39;utente (utile per la valutazione del traffico e la protezione del sito), inviate Livefyre le informazioni sul sito e il token Profilo utente.
+1. Inviate Livefyre l&#39;ID sito e l&#39;ID articolo per inizializzare l&#39;app.
 
    Livefyre restituisce il contenuto iniziale.
 
-   Inviate il contenuto alla pagina e visualizzate l'app.
+   Inviate il contenuto alla pagina e visualizzate l&#39;app.
 
-1. Per aggiornare il contenuto visualizzato sulla pagina, inviate Livefyre l'ID evento più recente dalla pagina. Se è disponibile un nuovo contenuto, verrà restituito.
+1. Per aggiornare il contenuto visualizzato sulla pagina, inviate Livefyre l&#39;ID evento più recente dalla pagina. Se è disponibile un nuovo contenuto, verrà restituito.
 
    Ricaricate la pagina con nuovi contenuti e ripetete il processo a tempo indefinito.
 

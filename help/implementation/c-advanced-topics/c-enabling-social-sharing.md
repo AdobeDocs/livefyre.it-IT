@@ -1,8 +1,6 @@
 ---
-description: Configurate le credenziali che consentono agli utenti di condividere
-  contenuti in diverse reti social.
-seo-description: Configurate le credenziali che consentono agli utenti di condividere
-  contenuti in diverse reti social.
+description: Configurate le credenziali che consentono agli utenti di condividere contenuti in diverse reti social.
+seo-description: Configurate le credenziali che consentono agli utenti di condividere contenuti in diverse reti social.
 seo-title: Abilitazione della condivisione per social network
 solution: Experience Manager
 title: Abilitazione della condivisione per social network
@@ -17,7 +15,7 @@ source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
 
 Configurate le credenziali che consentono agli utenti di condividere contenuti in diverse reti social.
 
-Per consentire agli utenti di condividere contenuto tra i siti social media, implementate la funzionalità di condivisione social network di Livefyre e create un sistema oauth per fornire l'autenticazione corretta a tali siti. Con questo sistema, Livefyre agisce a nome dell'utente quando sceglie di condividere contenuti tramite social media.
+Per consentire agli utenti di condividere contenuto tra i siti social media, implementate la funzionalità di condivisione social network di Livefyre e create un sistema oauth per fornire l&#39;autenticazione corretta a tali siti. Con questo sistema, Livefyre agisce a nome dell&#39;utente quando sceglie di condividere contenuti tramite social media.
 
 >[!NOTE]
 >
@@ -25,7 +23,7 @@ Per consentire agli utenti di condividere contenuto tra i siti social media, imp
 
 ## Credenziali social richieste {#section_gff_cjm_b1b}
 
-Se utilizzate un sistema di identità utente personalizzato, dovete fornire le credenziali social per consentire agli utenti di condividere su Twitter, Facebook o linkedin da un'app Livefyre.
+Se utilizzate un sistema di identità utente personalizzato, dovete fornire le credenziali social per consentire agli utenti di condividere su Twitter, Facebook o linkedin da un&#39;app Livefyre.
 
 >[!NOTE]
 >
@@ -43,14 +41,14 @@ Utilizzate il pannello Impostazioni integrazione di Admin Console per immettere 
 
 Le credenziali Twitter sono disponibili dal dashboard di app Twitter. Per trovare queste credenziali:
 
-* Aprite [l'App Dev Designer di Twitter](https://dev.twitter.com/apps) come titolare dell'app, individuate l'applicazione e fate clic sul titolo.
+* Aprite [l&#39;App Dev Designer di Twitter](https://dev.twitter.com/apps) come titolare dell&#39;app, individuate l&#39;applicazione e fate clic sul titolo.
 * Scorrete verso il basso fino a «Token di accesso» e acquisite i valori da «Accesso di accesso» e «Segreto di accesso». »»
 
 Devi:
 
-* Immettete un valore per il campo URL richiamata nell'app Twitter. Anche se questo campo può essere un segnaposto semplice, non può essere lasciato vuoto.
+* Immettete un valore per il campo URL richiamata nell&#39;app Twitter. Anche se questo campo può essere un segnaposto semplice, non può essere lasciato vuoto.
 * Impostate Tipo applicazione per disporre di accesso **in lettura** e **scrittura** .
-* Confermate che l'URL del sito Web di Twitter sia nello stesso dominio host dell'app di base di Livefyre.
+* Confermate che l&#39;URL del sito Web di Twitter sia nello stesso dominio host dell&#39;app di base di Livefyre.
 
 >[!NOTE]
 >
@@ -58,21 +56,21 @@ Devi:
 
 ## Linkedin {#section_lfz_zxl_b1b}
 
-Le credenziali linkedin sono disponibili dalla sezione oauth Keys delle chiavi API dell'applicazione linkedin.
+Le credenziali linkedin sono disponibili dalla sezione oauth Keys delle chiavi API dell&#39;applicazione linkedin.
 
 * Accedi al tuo account dalla pagina degli sviluppatori di linkedin [https://developer.linkedin.com/](https://developer.linkedin.com/).
 * Posiziona il cursore sul nome in alto a destra, quindi seleziona Chiavi API dal menu a discesa.
-* Fate clic sul titolo dell'applicazione.
+* Fate clic sul titolo dell&#39;applicazione.
 * Acquisire i valori Chiave API e Chiave segreta dalla sezione Oauth Keys
 
 ## Facebook {#section_zyb_gpl_b1b}
 
 Le credenziali Facebook sono disponibili dalla pagina App per sviluppatori.
 
-* Aprite [la pagina App Sviluppatore di Facebook](https://developers.facebook.com/apps) come titolare dell'app, individuate l'applicazione e fate clic sul titolo.
+* Aprite [la pagina App Sviluppatore di Facebook](https://developers.facebook.com/apps) come titolare dell&#39;app, individuate l&#39;applicazione e fate clic sul titolo.
 * Acquisite i valori per App ID e Segreto app. Per Segreto app, potrebbe essere necessario fare clic sul pulsante Mostra per visualizzarlo.
 
-La condivisione su Facebook richiede che venga impostata una pagina di reindirizzamento per effettuare richieste Facebook e aderire alle pratiche del dominio richieste [da Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). La pagina deve essere ospitata sul dominio in modo che Facebook possa verificare che la richiesta sia venuta da un'origine valida.
+La condivisione su Facebook richiede che venga impostata una pagina di reindirizzamento per effettuare richieste Facebook e aderire alle pratiche del dominio richieste [da Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). La pagina deve essere ospitata sul dominio in modo che Facebook possa verificare che la richiesta sia venuta da un&#39;origine valida.
 
 ### Reindirizzamento Facebook
 
@@ -333,7 +331,7 @@ if (isset($_GET['lfoauth'])) {
 
 ## Configurazione di «Post in» Fornitori {#section_rdk_dpl_b1b}
 
-Per impostazione predefinita, le applicazioni di base di Facebook, linkedin e Twitter sono visualizzate nelle applicazioni di base di Livefyre. Utilizzate il parametro posttobuttons per configurare i fornitori che verranno visualizzati durante l'incorporazione dell'app Livefyre.
+Per impostazione predefinita, le applicazioni di base di Facebook, linkedin e Twitter sono visualizzate nelle applicazioni di base di Livefyre. Utilizzate il parametro posttobuttons per configurare i fornitori che verranno visualizzati durante l&#39;incorporazione dell&#39;app Livefyre.
 
 ```
 var convConfig = {}; // Ignoring other options for this example 

@@ -1,8 +1,6 @@
 ---
-description: Consentite agli utenti di fare clic sulle raccolte da un layout di pagina
-  singolo e dall'URL.
-seo-description: Consentite agli utenti di fare clic sulle raccolte da un layout di
-  pagina singolo e dall'URL.
+description: Consentite agli utenti di fare clic sulle raccolte da un layout di pagina singolo e dall'URL.
+seo-description: Consentite agli utenti di fare clic sulle raccolte da un layout di pagina singolo e dall'URL.
 seo-title: Modifica raccolta
 solution: Experience Manager
 title: Modifica raccolta
@@ -15,11 +13,11 @@ source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 # Modifica raccolta {#change-collection}
 
-Consentite agli utenti di fare clic sulle raccolte da un layout di pagina singolo e dall'URL.
+Consentite agli utenti di fare clic sulle raccolte da un layout di pagina singolo e dall&#39;URL.
 
-Utilizzate Change Collection Delegate per modificare la raccolta visualizzata in una pagina, senza modificarne l'URL, mentre un'app Livefyre è già caricata. Utilizzate questa funzione per visualizzare gallerie di foto o video, o altre app in cui la raccolta visualizzata deve cambiare dopo l'azione dell'utente.
+Utilizzate Change Collection Delegate per modificare la raccolta visualizzata in una pagina, senza modificarne l&#39;URL, mentre un&#39;app Livefyre è già caricata. Utilizzate questa funzione per visualizzare gallerie di foto o video, o altre app in cui la raccolta visualizzata deve cambiare dopo l&#39;azione dell&#39;utente.
 
-Ad esempio, facendo clic su un video o una foto in una galleria, si carica una raccolta specifica per tale selezione, mentre l'URL della pagina non cambia.
+Ad esempio, facendo clic su un video o una foto in una galleria, si carica una raccolta specifica per tale selezione, mentre l&#39;URL della pagina non cambia.
 
 [Per caricare una di tre raccolte da una singola pagina](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
 

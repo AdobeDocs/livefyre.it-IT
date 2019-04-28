@@ -25,11 +25,11 @@ Gli account business di Instagram utilizzano token di Facebook che scadono. La r
 
 Quando un token scade, Livefyre ti notifica i modi seguenti:
 
-* Quando cercate il contenuto di Instagram, nella parte inferiore sinistra viene visualizzata una finestra che indica che il token Istagram è scaduto. Se impostate altri account Instagram, Livefyre cerca automaticamente Instagram utilizzando il prossimo account Instagram nell'elenco.
-* Quando richiedete i diritti con un account Instagram scaduto e scaduto, viene visualizzato un errore, quindi dovete selezionare un altro account Instagram o aggiornare il token per l'account scaduto e fare di nuovo clic sui diritti di richiesta.
+* Quando cercate il contenuto di Instagram, nella parte inferiore sinistra viene visualizzata una finestra che indica che il token Istagram è scaduto. Se impostate altri account Instagram, Livefyre cerca automaticamente Instagram utilizzando il prossimo account Instagram nell&#39;elenco.
+* Quando richiedete i diritti con un account Instagram scaduto e scaduto, viene visualizzato un errore, quindi dovete selezionare un altro account Instagram o aggiornare il token per l&#39;account scaduto e fare di nuovo clic sui diritti di richiesta.
 * I flussi che utilizzano un account Instagram scaduto non funzioneranno.
-* Account con token scaduti in **[!UICONTROL Network Settings]** > **[!UICONTROL Social Accounts]** visualizzati un'icona di avviso di errore ( ![](assets/warningError.png)
+* Account con token scaduti in **[!UICONTROL Network Settings]** &gt; **[!UICONTROL Social Accounts]** visualizzati un&#39;icona di avviso di errore ( ![](assets/warningError.png)
 
    ).
 
-Per aggiornare il token, fate clic su Aggiorna token accanto all'account in **[!UICONTROL Network Settings]** > **[!UICONTROL Social Accounts]** > **[!UICONTROL Instagram Accounts]**.
+Per aggiornare il token, fate clic su Aggiorna token accanto all&#39;account in **[!UICONTROL Network Settings]** &gt; **[!UICONTROL Social Accounts]** &gt; **[!UICONTROL Instagram Accounts]**.

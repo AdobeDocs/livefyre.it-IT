@@ -15,13 +15,13 @@ source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 Monitora il clic sulla pagina dal traffico di riferimento.
 
-Livefyre aggiunge una variabile di riferimento all'URL quando un commento viene postato o condiviso su un social network e per i permalinmi inclusi nelle e-mail di Livefyre. Utilizzate questa variabile per tenere traccia del traffico di riferimento da Livefyre Apps alle vostre proprietà social o proprietà.
+Livefyre aggiunge una variabile di riferimento all&#39;URL quando un commento viene postato o condiviso su un social network e per i permalinmi inclusi nelle e-mail di Livefyre. Utilizzate questa variabile per tenere traccia del traffico di riferimento da Livefyre Apps alle vostre proprietà social o proprietà.
 
 Livefyre Apps consente di tenere traccia dei flussi di dati derivanti dal traffico di riferimento, consentendo di analizzare il traffico del sito.
 
 ## Tracciamento del traffico di Livefyre {#section_nsy_qp4_xz}
 
-Il traffico di Livefyre da social network ed e-mail potrebbe essere tracciato analizzando i parametri delle stringhe query negli URL delle pagine e implementando il codice sulla pagina per tenerne traccia attraverso il fornitore di analisi. Livefyre aggiunge un collegamento di riferimento all'URL quando un commento viene postato o condiviso su un social network e per i permalinmi inclusi nelle e-mail di Livefyre.
+Il traffico di Livefyre da social network ed e-mail potrebbe essere tracciato analizzando i parametri delle stringhe query negli URL delle pagine e implementando il codice sulla pagina per tenerne traccia attraverso il fornitore di analisi. Livefyre aggiunge un collegamento di riferimento all&#39;URL quando un commento viene postato o condiviso su un social network e per i permalinmi inclusi nelle e-mail di Livefyre.
 
 ## Esempio di implementazione {#section_xvs_x44_xz}
 

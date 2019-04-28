@@ -1,8 +1,6 @@
 ---
-description: Utilizzate Storify 2 per creare storie interattive e ricche di contenuti
-  da contenuti in tempo reale.
-seo-description: Utilizzate Storify 2 per creare storie interattive e ricche di contenuti
-  da contenuti in tempo reale.
+description: Utilizzate Storify 2 per creare storie interattive e ricche di contenuti da contenuti in tempo reale.
+seo-description: Utilizzate Storify 2 per creare storie interattive e ricche di contenuti da contenuti in tempo reale.
 seo-title: Storify 2
 solution: Experience Manager
 title: Storify 2

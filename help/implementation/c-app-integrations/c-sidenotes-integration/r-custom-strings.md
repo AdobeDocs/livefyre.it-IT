@@ -12,7 +12,7 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 # Stringhe personalizzate{#sidenotes-custom-strings}
 
-Le stringhe personalizzate vengono applicate tramite un oggetto inserito nella costruttore Sidenotes e ignorate le stringhe predefinite utilizzate tramite l'applicazione. Possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche di stile o lingua. Le stringhe vengono unite automaticamente con le impostazioni predefinite.
+Le stringhe personalizzate vengono applicate tramite un oggetto inserito nella costruttore Sidenotes e ignorate le stringhe predefinite utilizzate tramite l&#39;applicazione. Possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche di stile o lingua. Le stringhe vengono unite automaticamente con le impostazioni predefinite.
 
 ```
 var customStrings = { 
@@ -42,7 +42,7 @@ new Livefyre.Sidenotes({
 | Editortitle | Nota |
 | Emptyimageblocktxt | Che cosa pensate? |
 | Emptytextblocktxt | + |
-| Errorconnection | Ah-oh. L'utente non sembra avere una buona connessione. |
+| Errorconnection | Ah-oh. L&#39;utente non sembra avere una buona connessione. |
 | Errorduplicate | Anche la tua nota mi piace, ma non puoi pubblicarla due volte. |
 | Errorgeneral | Si è verificato un errore. Riprovate. |
 | Errorserver | Si è verificato un errore nel nostro server. Riprovare? |
@@ -60,7 +60,7 @@ new Livefyre.Sidenotes({
 | Menuetcoptionshare | Condividi |
 | Menuetcpostedat | Pubblicato in {data} |
 | Menuetctitle | Altro |
-| Menuflagoptiondisagree | Non d'accordo |
+| Menuflagoptiondisagree | Non d&#39;accordo |
 | Menuflagoptionoffensive | Offensivo |
 | Menuflagoptionofftopic | Argomento Off |
 | Menuflagoptionspam | Spam |
@@ -81,15 +81,15 @@ new Livefyre.Sidenotes({
 | Notificationflded | Segnalata |
 | Permalinkbackbtn | Tutto |
 | Permalinktitle | Permalink |
-| Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi.<br><br>Evidenzia il testo e fai clic sull'icona «fycon-write» o fai clic sull'icona «fycon-action-view» alla fine di ciascun paragrafo. |
+| Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi.<br><br>Evidenzia il testo e fai clic sull&#39;icona «fycon-write» o fai clic sull&#39;icona «fycon-action-view» alla fine di ciascun paragrafo. |
 | Questionmocktext | Ciò che è «noto» non è noto correttamente, per il motivo di «familiare». |
-| Questiontitle | Che cos'è un Sidenote? |
+| Questiontitle | Che cos&#39;è un Sidenote? |
 | Queuedcommentsplural | {numero} Nuove Sidenotes |
 | Queuedcommentssingular | 1 New Sidenote |
 | Queuedresolfantasy queuedRepliesPlural | {numero} Nuove risposte |
 | Queuedrepliessingular | 1 Nuova risposta |
 | Responybtn | Risposta |
-| Signintopost | Effettuate l'accesso per scrivere un sidenote |
+| Signintopost | Effettuate l&#39;accesso per scrivere un sidenote |
 | Slidercommenttally | di |
 | Sliderinviteread | Leggi |
 | Sliderinvitewrite | Scrittura |

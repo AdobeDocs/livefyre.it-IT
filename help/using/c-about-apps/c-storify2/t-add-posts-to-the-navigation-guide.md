@@ -16,6 +16,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 Aggiungete post alla Guida di navigazione in Storify 2.
 
 1. Scrivete un post in Storify 2.
-1. Scrivete un'intestazione per il post. Non potete visualizzare le evidenziazioni di navigazione per un post finché non aggiungete un'intestazione.
-1. Fate clic sull **[!UICONTROL Navigation Guide]** 'icona sul post per aggiungerla alla Guida di navigazione.
-1. Confermate l'aggiunta del post alla Guida di navigazione.
+1. Scrivete un&#39;intestazione per il post. Non potete visualizzare le evidenziazioni di navigazione per un post finché non aggiungete un&#39;intestazione.
+1. Fate clic sull **[!UICONTROL Navigation Guide]** &#39;icona sul post per aggiungerla alla Guida di navigazione.
+1. Confermate l&#39;aggiunta del post alla Guida di navigazione.

@@ -1,8 +1,6 @@
 ---
-description: Imposta il numero di post che i visitatori possono vedere nella Guida
-  di navigazione.
-seo-description: Imposta il numero di post che i visitatori possono vedere nella Guida
-  di navigazione.
+description: Imposta il numero di post che i visitatori possono vedere nella Guida di navigazione.
+seo-description: Imposta il numero di post che i visitatori possono vedere nella Guida di navigazione.
 seo-title: Impostare il numero di post nella Guida di navigazione
 solution: Experience Manager
 title: Impostare il numero di post nella Guida di navigazione
@@ -17,5 +15,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Imposta il numero di post che i visitatori possono vedere nella Guida di navigazione.
 
-1. In Storify 2 App Designer, attivate l' **[!UICONTROL Navigation Guide]** interruttore.
+1. In Storify 2 App Designer, attivate l&#39; **[!UICONTROL Navigation Guide]** interruttore.
 1. Immettere un numero nel **[!UICONTROL Max Number of Guide Posts]** campo. Se non impostate questo campo, Livefyre imposta per impostazione predefinita il numero massimo a 10.

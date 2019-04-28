@@ -32,11 +32,11 @@ Note sulla versione del 26 gennaio 2017.
 | Tipo di edizione | Componente | Nota sulla versione |
 |--- |--- |--- |
 | Bug | Modq | È stato corretto un bug che impediva la visualizzazione dei Topic e-mail in Contenuto flusso e-mail. |
-| Bug | Mosaic | Aggiunto ulteriore supporto per l'accessibilità a Mosaic per consentire agli utenti di spostare la scheda tra le schede dei contenuti. |
+| Bug | Mosaic | Aggiunto ulteriore supporto per l&#39;accessibilità a Mosaic per consentire agli utenti di spostare la scheda tra le schede dei contenuti. |
 | Bug | Recensioni | È stato corretto un bug che impediva la corretta visualizzazione delle valutazioni. |
 | Bug | Ricerca social network | È stato corretto un bug a causa del quale il pulsante Mostra più informazioni veniva troncato nei risultati della ricerca Elenco Twitter. |
 | Bug | Flussi | Contenuto migliorato (immagini e video) da Regole flusso e-mail che possono essere disponibili tramite HTTPS. |
-| Miglioramento | Flussi | È stata effettuata una regolazione per impostazione predefinita dell'opzione «Solo account verificato». |
+| Miglioramento | Flussi | È stata effettuata una regolazione per impostazione predefinita dell&#39;opzione «Solo account verificato». |
 | Bug | Flussi | È stato corretto un bug a causa del quale le impostazioni «Premoderate» e «Media Premoderate» venivano riportate in una regola Flusso appena creata. |
 | Miglioramento | Flussi | Aggiunta una nuova funzione per consentire le categorie di contenuto (tramite una regola di flusso) da inserire nella white list e ignorare moderazione. |
 

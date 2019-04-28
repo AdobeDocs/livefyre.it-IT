@@ -1,8 +1,6 @@
 ---
-description: La principale piattaforma di profondità social con gli strumenti necessari
-  per coinvolgere i tipi di pubblico con le voci più affidabili.
-seo-description: La principale piattaforma di profondità social con gli strumenti
-  necessari per coinvolgere i tipi di pubblico con le voci più affidabili.
+description: La principale piattaforma di profondità social con gli strumenti necessari per coinvolgere i tipi di pubblico con le voci più affidabili.
+seo-description: La principale piattaforma di profondità social con gli strumenti necessari per coinvolgere i tipi di pubblico con le voci più affidabili.
 seo-title: Informazioni su Livefyre
 solution: Experience Manager
 title: Informazioni su Livefyre
@@ -17,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 La principale piattaforma di profondità social con gli strumenti necessari per coinvolgere i tipi di pubblico con le voci più affidabili: il loro.
 
-Livefyre offre funzionalità potenti che consentono di coinvolgere il pubblico e controllare la conversazione, compresa la possibilità di cercare, identificare e salvare contenuti social pertinenti ai messaggi. Livefyre consente anche di richiedere il diritto di riutilizzare il contenuto e aggiungere metadati, compresi i tag che semplificano la gestione e il recupero. Livefyre offre un'esperienza di progettazione app avanzata, che consente di sviluppare, personalizzare e distribuire rapidamente app interattive senza scrivere una riga di codice.
+Livefyre offre funzionalità potenti che consentono di coinvolgere il pubblico e controllare la conversazione, compresa la possibilità di cercare, identificare e salvare contenuti social pertinenti ai messaggi. Livefyre consente anche di richiedere il diritto di riutilizzare il contenuto e aggiungere metadati, compresi i tag che semplificano la gestione e il recupero. Livefyre offre un&#39;esperienza di progettazione app avanzata, che consente di sviluppare, personalizzare e distribuire rapidamente app interattive senza scrivere una riga di codice.
 
 ## Utilizzo di Studio {#section_a2y_x3t_bbb}
 

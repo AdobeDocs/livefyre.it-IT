@@ -1,8 +1,6 @@
 ---
-description: Raccogliere, organizzare e mantenere il contenuto selezionato da utilizzare
-  nelle app Livefyre.
-seo-description: Raccogliere, organizzare e mantenere il contenuto selezionato da
-  utilizzare nelle app Livefyre.
+description: Raccogliere, organizzare e mantenere il contenuto selezionato da utilizzare nelle app Livefyre.
+seo-description: Raccogliere, organizzare e mantenere il contenuto selezionato da utilizzare nelle app Livefyre.
 seo-title: Risorse
 solution: Experience Manager
 title: Risorse

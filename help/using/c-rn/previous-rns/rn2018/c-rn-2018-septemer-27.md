@@ -34,7 +34,7 @@ I problemi delle tabelle seguenti sono stati risolti nella versione di produzion
 | Bug | Media Wall | È stato risolto un problema che impediva la riproduzione del video caricato in Media Wall, anche se era riproducibile nella Libreria risorse. |
 | Bug | Storify | Risolto un problema per cui Storify 2 mi piace non funzionava sui domini protetti. |
 | Bug | Flussi | Risolto un problema per cui i filtri NSFW predefiniti non venivano aggiunti quando la funzione filtro NSFW era disabilitata e i filtri NSFW predefiniti venivano aggiunti quando la funzione NSFW era abilitata. |
-| Story | Flussi | Sono stati eseguiti i seguenti aggiornamenti per flussi di pagina Facebook: </br><ul><li>Aumentato l'ora di sospensione delle app una volta raggiunto il limite della frequenza API da un minuto a un'ora. </li><li>È stato aumentato il tempo di invio delle pagine e dei post da 10 a un'ora.</li></ul> |
+| Story | Flussi | Sono stati eseguiti i seguenti aggiornamenti per flussi di pagina Facebook: </br><ul><li>Aumentato l&#39;ora di sospensione delle app una volta raggiunto il limite della frequenza API da un minuto a un&#39;ora. </li><li>È stato aumentato il tempo di invio delle pagine e dei post da 10 a un&#39;ora.</li></ul> |
 
 
 ## Versione UAT {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}

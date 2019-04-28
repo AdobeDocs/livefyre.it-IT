@@ -1,8 +1,6 @@
 ---
-description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app e
-  di cosa desiderate fare ai visitatori del sito.
-seo-description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app
-  e di cosa desiderate fare ai visitatori del sito.
+description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app e di cosa desiderate fare ai visitatori del sito.
+seo-description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app e di cosa desiderate fare ai visitatori del sito.
 seo-title: Funzioni di ordinamento
 solution: Experience Manager
 title: Funzioni di ordinamento
@@ -15,7 +13,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni di ordinamento{#sort-features}
 
-Potete scegliere diverse opzioni di ordinamento a seconda dell'app e di cosa desiderate fare ai visitatori del sito.
+Potete scegliere diverse opzioni di ordinamento a seconda dell&#39;app e di cosa desiderate fare ai visitatori del sito.
 
 ## Ordina per valutazione {#section_elc_hfs_d1b}
 
@@ -35,9 +33,9 @@ App che utilizzano questa funzione:
 
 ## Ordina per più recente, da più recente a Ultimo {#section_t4s_hfs_d1b}
 
-Per l'app commenti, potete scegliere di consentire agli utenti di ordinare dall'ultimo contenuto pubblicato ai contenuti pubblicati meno di recente.
+Per l&#39;app commenti, potete scegliere di consentire agli utenti di ordinare dall&#39;ultimo contenuto pubblicato ai contenuti pubblicati meno di recente.
 
-In Storify 2, i visitatori del sito possono ordinare dal primo post all'ultimo post o dall'ultimo post al primo post. I post di Storify 2 vengono visualizzati nell'ordine scelto da un moderatore, non sulla base dell'ora pubblicata.
+In Storify 2, i visitatori del sito possono ordinare dal primo post all&#39;ultimo post o dall&#39;ultimo post al primo post. I post di Storify 2 vengono visualizzati nell&#39;ordine scelto da un moderatore, non sulla base dell&#39;ora pubblicata.
 
 App che utilizzano questa funzione:
 

@@ -1,8 +1,6 @@
 ---
-description: Personalizzate i commenti per incorporare conversazioni in tempo reale
-  sul sito.
-seo-description: Personalizzate i commenti per incorporare conversazioni in tempo
-  reale sul sito.
+description: Personalizzate i commenti per incorporare conversazioni in tempo reale sul sito.
+seo-description: Personalizzate i commenti per incorporare conversazioni in tempo reale sul sito.
 seo-title: Personalizzazioni dei commenti
 solution: Experience Manager
 title: Personalizzazioni dei commenti
@@ -31,7 +29,7 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Se abilitata, i post vengono visualizzati all'interno di una casella circostante e il colore di sfondo determinato dalla **[!UICONTROL Theme]** selezione applicata.
+   Se abilitata, i post vengono visualizzati all&#39;interno di una casella circostante e il colore di sfondo determinato dalla **[!UICONTROL Theme]** selezione applicata.
 
 * **[!UICONTROL Expand media]**
 
@@ -47,7 +45,7 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL User avatars]**
 
-   Se abilitata, gli avatar dell'utente vengono visualizzati con il contenuto pubblicato.
+   Se abilitata, gli avatar dell&#39;utente vengono visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL Number of replies to load]**
 
@@ -59,11 +57,11 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Users may share posts]**
 
-   Se gli utenti abilitati possono condividere post. Se abilitata, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o linkedin. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni > Impostazioni integrazione > Condivisione social network.
+   Se gli utenti abilitati possono condividere post. Se abilitata, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o linkedin. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni integrazione &gt; Condivisione social network.
 
 * **[!UICONTROL Featured content at top of stream]**
 
-   Quando abilitata, il contenuto Contenuti verrà visualizzato sopra l'editor nell'app.
+   Quando abilitata, il contenuto Contenuti verrà visualizzato sopra l&#39;editor nell&#39;app.
 
 * **[!UICONTROL High velocity comment queuing]**
 

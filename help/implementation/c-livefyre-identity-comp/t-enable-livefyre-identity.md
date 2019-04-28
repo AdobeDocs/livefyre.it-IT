@@ -1,10 +1,6 @@
 ---
-description: Abilitate il pacchetto di identità Livefyre per consentire agli utenti
-  di accedere alle vostre app Livefyre utilizzando un'e-mail, Twitter, Facebook, Yahoo!
-  o Google.
-seo-description: Abilitate il pacchetto di identità Livefyre per consentire agli utenti
-  di accedere alle vostre app Livefyre utilizzando un'e-mail, Twitter, Facebook, Yahoo!
-  o Google.
+description: Abilitate il pacchetto di identità Livefyre per consentire agli utenti di accedere alle vostre app Livefyre utilizzando un'e-mail, Twitter, Facebook, Yahoo! o Google.
+seo-description: Abilitate il pacchetto di identità Livefyre per consentire agli utenti di accedere alle vostre app Livefyre utilizzando un'e-mail, Twitter, Facebook, Yahoo! o Google.
 seo-title: Abilita identità Livefyre
 solution: Experience Manager
 title: Abilita identità Livefyre
@@ -17,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Abilita identità Livefyre{#enable-livefyre-identity}
 
-Abilitate il pacchetto di identità Livefyre per consentire agli utenti di accedere alle vostre app Livefyre utilizzando un'e-mail, Twitter, Facebook, Yahoo! o Google.
+Abilitate il pacchetto di identità Livefyre per consentire agli utenti di accedere alle vostre app Livefyre utilizzando un&#39;e-mail, Twitter, Facebook, Yahoo! o Google.
 
 Per abilitare questa funzione:
 

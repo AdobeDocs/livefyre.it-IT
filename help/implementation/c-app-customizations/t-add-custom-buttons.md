@@ -15,11 +15,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Aggiungete azioni personalizzate alle vostre app Livefyre.
 
-Livefyre consente di aggiungere pulsanti personalizzati accanto ai pulsanti di azione esistenti (come **[!UICONTROL Share]**e **[!UICONTROL Flag]**) su una parte del contenuto.
+Livefyre consente di aggiungere pulsanti personalizzati accanto ai pulsanti di azione esistenti (come **[!UICONTROL Share]** e **[!UICONTROL Flag]**) su una parte del contenuto.
 
-Utilizzate l'argomento mobile per definire se il pulsante verrà visualizzato sui dispositivi mobili.
+Utilizzate l&#39;argomento mobile per definire se il pulsante verrà visualizzato sui dispositivi mobili.
 
-Ad esempio, per aggiungere un pulsante di azione personalizzato per l'interfaccia del dispositivo mobile:
+Ad esempio, per aggiungere un pulsante di azione personalizzato per l&#39;interfaccia del dispositivo mobile:
 
 ```
 var convConfig = {...}; // Should have siteId, articleId, etc. 
@@ -39,7 +39,7 @@ convConfig.actionButtons = [
 fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-1. Trasmettere un argomento aggiuntivo nell'oggetto convconfig denominato actionbuttons, contenente un array di oggetti che descrive ciascun pulsante da aggiungere.
+1. Trasmettere un argomento aggiuntivo nell&#39;oggetto convconfig denominato actionbuttons, contenente un array di oggetti che descrive ciascun pulsante da aggiungere.
 1. Definire una chiave per il testo da visualizzare per ogni pulsante.
 1. Aggiungete una callback che verrà richiamata su un evento click per ciascun pulsante.
 

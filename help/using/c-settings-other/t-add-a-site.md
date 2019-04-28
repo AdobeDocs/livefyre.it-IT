@@ -1,8 +1,6 @@
 ---
-description: Puoi aggiungere nuovi siti alla rete per domini e sottodomini che condividono
-  gli stessi profili utente.
-seo-description: Puoi aggiungere nuovi siti alla rete per domini e sottodomini che
-  condividono gli stessi profili utente.
+description: Puoi aggiungere nuovi siti alla rete per domini e sottodomini che condividono gli stessi profili utente.
+seo-description: Puoi aggiungere nuovi siti alla rete per domini e sottodomini che condividono gli stessi profili utente.
 seo-title: Aggiungere un sito a una rete
 solution: Experience Manager
 title: Aggiungere un sito a una rete
@@ -21,9 +19,9 @@ In Studio potete aggiungere e visualizzare fino a 1,200 siti. I siti sono elenca
 
 Per aggiungere un nuovo sito alla rete:
 
-1. Fate clic sull **[!UICONTROL Network]** 'elemento nella barra dei menu Studio per aprire il **[!UICONTROL Select Network or Site]** pannello.
+1. Fate clic sull **[!UICONTROL Network]** &#39;elemento nella barra dei menu Studio per aprire il **[!UICONTROL Select Network or Site]** pannello.
 1. Utilizzate il campo di ricerca per cercare i siti, oppure fate clic per **[!UICONTROL Add new site]** aggiungerne uno nuovo.
 
    Questo pannello elenca tutti i siti inclusi nella rete selezionata.
 
-1. Immettete un **[!UICONTROL Name]** e **[!UICONTROL URL]** nei campi forniti e fate clic **[!UICONTROL Add Site]**su.
+1. Immettete un **[!UICONTROL Name]** e **[!UICONTROL URL]** nei campi forniti e fate clic **[!UICONTROL Add Site]** su.

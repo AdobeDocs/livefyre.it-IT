@@ -1,8 +1,6 @@
 ---
-description: Livefyre offre funzionalità in App che consentono di scegliere il modo
-  in cui i visitatori del sito visualizzano il contenuto dell'app.
-seo-description: Livefyre offre funzionalità in App che consentono di scegliere il
-  modo in cui i visitatori del sito visualizzano il contenuto dell'app.
+description: Livefyre offre funzionalità in App che consentono di scegliere il modo in cui i visitatori del sito visualizzano il contenuto dell'app.
+seo-description: Livefyre offre funzionalità in App che consentono di scegliere il modo in cui i visitatori del sito visualizzano il contenuto dell'app.
 seo-title: Funzioni di comportamento dei contenuti
 solution: Experience Manager
 title: Funzioni di comportamento dei contenuti
@@ -15,11 +13,11 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni di comportamento dei contenuti{#content-behavior-features}
 
-Livefyre offre funzionalità in App che consentono di scegliere il modo in cui i visitatori del sito visualizzano il contenuto dell'app.
+Livefyre offre funzionalità in App che consentono di scegliere il modo in cui i visitatori del sito visualizzano il contenuto dell&#39;app.
 
 ## Streaming in tempo reale {#section_emd_syl_d1b}
 
-Le app Livefyre Apps scorrono in tempo reale quando il contenuto viene pubblicato manualmente da Studio o da un flusso di contenuto. Ciò significa che il contenuto appena pubblicato verrà visualizzato nell'app senza che l'utente finale debba aggiornare la pagina App.
+Le app Livefyre Apps scorrono in tempo reale quando il contenuto viene pubblicato manualmente da Studio o da un flusso di contenuto. Ciò significa che il contenuto appena pubblicato verrà visualizzato nell&#39;app senza che l&#39;utente finale debba aggiornare la pagina App.
 
 App che utilizzano questa funzione:
 
@@ -35,7 +33,7 @@ App che utilizzano questa funzione:
 
 ## Paginazione {#section_mb5_lzl_d1b}
 
-Scelta del numero di contenuti da visualizzare nell'app. Per alcune app, potete scegliere se usare un pulsante "Mostra più" o consentire lo scorrimento continuo del contenuto.
+Scelta del numero di contenuti da visualizzare nell&#39;app. Per alcune app, potete scegliere se usare un pulsante &quot;Mostra più&quot; o consentire lo scorrimento continuo del contenuto.
 
 App che utilizzano questa funzione:
 
@@ -47,7 +45,7 @@ App che utilizzano questa funzione:
 
 ## Elementi da caricare {#section_q5w_mzl_d1b}
 
-Possibilità di impostare la serie di elementi da caricare quando si visualizza l'app.
+Possibilità di impostare la serie di elementi da caricare quando si visualizza l&#39;app.
 
 App che utilizzano questa funzione:
 
@@ -60,7 +58,7 @@ App che utilizzano questa funzione:
 
 Arrestate lo streaming live e il contenuto della coda nella parte superiore dello streaming per controllare le conversazioni ad alta velocità.
 
-Utilizzate i commenti della coda per fornire una migliore esperienza utente con conversazioni ad alta velocità. Progettato per incoraggiare la lettura ragionata, anziché un'esperienza in tempo reale dei commenti pubblicati, questa funzione mette in coda nuovi commenti nella parte superiore dello stream e mostra un contatore del numero di post nuovi, anziché i post stessi. Fai clic su questo numero per inserire i 10 commenti più vecchi nella conversazione. Fai di nuovo clic su un altro flusso di 10. Quando vengono pubblicate nuove risposte, queste vengono aggiunte alla coda.
+Utilizzate i commenti della coda per fornire una migliore esperienza utente con conversazioni ad alta velocità. Progettato per incoraggiare la lettura ragionata, anziché un&#39;esperienza in tempo reale dei commenti pubblicati, questa funzione mette in coda nuovi commenti nella parte superiore dello stream e mostra un contatore del numero di post nuovi, anziché i post stessi. Fai clic su questo numero per inserire i 10 commenti più vecchi nella conversazione. Fai di nuovo clic su un altro flusso di 10. Quando vengono pubblicate nuove risposte, queste vengono aggiunte alla coda.
 
 La funzione Commenti coda è disponibile per i commenti e può essere impostata a livello di rete, sito o conversazione, dalla scheda Impostazioni di Studio.
 
@@ -73,14 +71,14 @@ App che utilizzano questa funzione:
 
 Riducete il contenuto utilizzando regole intelligenti per controllare conversazioni ad alta velocità.
 
-Utilizzate l'opzione Riduci contenuto per controllare le chat ad alta velocità quando la natura in tempo reale del contenuto è importante. Quando è attivato, il contenuto Throttle rallenta i flussi di contenuto ad alta velocità e visualizza solo i contenuti ritenuti più intelligenti dal sistema. »»
+Utilizzate l&#39;opzione Riduci contenuto per controllare le chat ad alta velocità quando la natura in tempo reale del contenuto è importante. Quando è attivato, il contenuto Throttle rallenta i flussi di contenuto ad alta velocità e visualizza solo i contenuti ritenuti più intelligenti dal sistema. »»
 
 Quando questa funzione è abilitata:
 
-* Gli utenti visualizzano il proprio flusso di contenuto nella pagina, perché verranno considerati «contenuti intelligenti» per quell'utente.
-* Gli utenti possono visualizzare tutto il contenuto precedente al caricamento o all'aggiornamento della pagina.
+* Gli utenti visualizzano il proprio flusso di contenuto nella pagina, perché verranno considerati «contenuti intelligenti» per quell&#39;utente.
+* Gli utenti possono visualizzare tutto il contenuto precedente al caricamento o all&#39;aggiornamento della pagina.
 * Moderatori non subiranno un flusso throttled; vedono tutto il flusso del contenuto.
-* Poiché il contenuto generato dall'moderatore è considerato intelligente, viene sempre trasferito nella raccolta per tutti gli utenti.
+* Poiché il contenuto generato dall&#39;moderatore è considerato intelligente, viene sempre trasferito nella raccolta per tutti gli utenti.
 
 Se la velocità diminuisce, Livefyre visualizza tutto il contenuto, in tempo reale.
 

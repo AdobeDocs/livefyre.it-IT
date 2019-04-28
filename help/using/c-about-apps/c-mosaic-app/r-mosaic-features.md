@@ -13,11 +13,11 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni mosaico{#mosaic-features}
 
-L'app Mosaic offre queste funzioni per il sito.
+L&#39;app Mosaic offre queste funzioni per il sito.
 
 
 
-L'app Mosaic presenta le seguenti funzionalità:
+L&#39;app Mosaic presenta le seguenti funzionalità:
 
 * [Avatar](/help/using/c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)
 * [Stile CSS](/help/using/c-features-livefyre/c-styling-features/c-css-styling-branding.md#c_css_styling_branding)

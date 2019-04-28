@@ -1,8 +1,6 @@
 ---
-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app
-  Mappa.
-seo-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app
-  Mappa.
+description: Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
+seo-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
 seo-title: Personalizzazione mappe
 solution: Experience Manager
 title: Personalizzazione mappe
@@ -15,15 +13,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Personalizzazione mappe{#map-customizations}
 
-Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
+Modificare le opzioni di dimensione, larghezza e interazione dell&#39;app Mappa.
 
 
 
-Le seguenti opzioni sono disponibili nell'app Mappa:
+Le seguenti opzioni sono disponibili nell&#39;app Mappa:
 
 * **[!UICONTROL Cluster number]**
 
-   Imposta il colore per i numeri elencati sopra ogni cluster di contenuti nell'app.
+   Imposta il colore per i numeri elencati sopra ogni cluster di contenuti nell&#39;app.
 
 * **[!UICONTROL Show zoom controls]**
 
@@ -39,7 +37,7 @@ Le seguenti opzioni sono disponibili nell'app Mappa:
 
 * **[!UICONTROL Enable clustering]**
 
-   Crea gruppi di contenuto cliccabili, ridimensionati allo zoom dell'utente.
+   Crea gruppi di contenuto cliccabili, ridimensionati allo zoom dell&#39;utente.
 
 * **[!UICONTROL Embedded height / Embedded width]**
 
@@ -47,13 +45,13 @@ Le seguenti opzioni sono disponibili nell'app Mappa:
 
    >[!NOTE]
    >
-   >Se gli sviluppatori Web hanno definito una **[!UICONTROL height]** mappa per la pagina, questi saranno ignorati e la mappa seguirà le convenzioni di ridimensionamento reattive. Se non hanno definito un'altezza, questi saranno utilizzati e la mappa viene inserita in una dimensione impostata (progettazione non reattiva). Se questi campi vengono lasciati vuoti, il valore predefinito sarà 600 px per 400 px alta e la mappa non sarà reattiva.
+   >Se gli sviluppatori Web hanno definito una **[!UICONTROL height]** mappa per la pagina, questi saranno ignorati e la mappa seguirà le convenzioni di ridimensionamento reattive. Se non hanno definito un&#39;altezza, questi saranno utilizzati e la mappa viene inserita in una dimensione impostata (progettazione non reattiva). Se questi campi vengono lasciati vuoti, il valore predefinito sarà 600 px per 400 px alta e la mappa non sarà reattiva.
 
 * **[!UICONTROL Location]**
 
    Inserite la posizione intorno alla quale desiderate centrare la mappa. Usate il cursore sotto la mappa di anteprima per definire lo zoom.
 
-Puoi personalizzare l'app Mappa utilizzando:
+Puoi personalizzare l&#39;app Mappa utilizzando:
 
 * **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sullo standard **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**.
 

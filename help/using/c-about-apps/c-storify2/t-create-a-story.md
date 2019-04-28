@@ -15,8 +15,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Create un nuovo brano Storify 2.
 
-1. Fate clic **[!UICONTROL New App]**su.
-1. Fate clic **[!UICONTROL Storify 2]**su.
+1. Fate clic **[!UICONTROL New App]** su.
+1. Fate clic **[!UICONTROL Storify 2]** su.
 1. Immettete un **[!UICONTROL App Title]**.
 1. Selezionate un **[!UICONTROL Site]**.
-1. Fate clic **[!UICONTROL Create]**su.
+1. Fate clic **[!UICONTROL Create]** su.

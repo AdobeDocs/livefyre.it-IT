@@ -1,8 +1,6 @@
 ---
-description: Il pannello Condivisione social network consente di aggiungere le credenziali
-  delle app per social media.
-seo-description: Il pannello Condivisione social network consente di aggiungere le
-  credenziali delle app per social media.
+description: Il pannello Condivisione social network consente di aggiungere le credenziali delle app per social media.
+seo-description: Il pannello Condivisione social network consente di aggiungere le credenziali delle app per social media.
 seo-title: Configurazione della condivisione per social network
 title: Configurazione della condivisione per social network
 uuid: e 1940 e 30-9 fbb -41 e 8-b 5 bb -497 a 5 b 06643 f
@@ -16,26 +14,26 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Il pannello Condivisione social network consente di aggiungere le credenziali delle app per social media.
 
-Livefyre usa queste informazioni per connettersi ai social network elencati a nome dell'app social e per pubblicare il contenuto condiviso per i tuoi utenti in loro nome. Inserite questi valori per abilitare l'integrazione dei social network. Possono essere modificati in qualsiasi momento.
+Livefyre usa queste informazioni per connettersi ai social network elencati a nome dell&#39;app social e per pubblicare il contenuto condiviso per i tuoi utenti in loro nome. Inserite questi valori per abilitare l&#39;integrazione dei social network. Possono essere modificati in qualsiasi momento.
 
 Le impostazioni disponibili da questa pagina vengono aggiornate per riflettere il sistema di condivisione mediante social network, come definito durante il processo di integrazione di Livefyre. Gli utenti che integrano utilizzando i propri sistemi di identità utente devono fornire le credenziali di rete social per Facebook, linkedin e Twitter, se desiderano consentire agli utenti finali di condividerli su queste piattaforme. I clienti di Janrain Coinvolgono possono fornire solo le proprie credenziali Janrain, non Facebook, Twitter o linkedin.
 
 >[!NOTE]
 >
->Per la rete è possibile abilitare solo un'app per social media. Potete includere queste app su più siti, ma la rete potrebbe avere un solo Facebook, un Twitter, un linkedin e un'integrazione Bitly.
+>Per la rete è possibile abilitare solo un&#39;app per social media. Potete includere queste app su più siti, ma la rete potrebbe avere un solo Facebook, un Twitter, un linkedin e un&#39;integrazione Bitly.
 
 ## Janrain Engagement {#section_dzq_1p1_21b}
 
-Per abilitare l'integrazione con Janrain Engagement, immetti le seguenti credenziali:
+Per abilitare l&#39;integrazione con Janrain Engagement, immetti le seguenti credenziali:
 
-* **[!UICONTROL Engage API Key:]** La chiave API per l'account Janrain Engage.
+* **[!UICONTROL Engage API Key:]** La chiave API per l&#39;account Janrain Engage.
 * **[!UICONTROL Engage Domain:]** Il nome di dominio fornito da Janrain.
 
 ## Facebook {#section_tch_gp1_21b}
 
 Per condividere Facebook, immettete le seguenti credenziali app Facebook:
 
-* **[!UICONTROL Client ID:]** L'ID client fornito con la vostra app Facebook.
+* **[!UICONTROL Client ID:]** L&#39;ID client fornito con la vostra app Facebook.
 * **[!UICONTROL Client Secret:]** Segreto cliente fornito con la vostra app Facebook.
 * **[!UICONTROL OAuth Proxy Redirect:]** La pagina di reindirizzamento per ricevere le richieste Facebook.
 
@@ -57,9 +55,9 @@ Per condividere su linkedin, immettete le seguenti credenziali per le richieste 
 
 ## Bitly {#section_ur2_np1_21b}
 
-Per abilitare gli inchiostri Bitly, inserire le seguenti informazioni per l'integrazione Bitly:
+Per abilitare gli inchiostri Bitly, inserire le seguenti informazioni per l&#39;integrazione Bitly:
 
-* **[!UICONTROL Login:]** L'accesso utente utente con accesso bitly.
+* **[!UICONTROL Login:]** L&#39;accesso utente utente con accesso bitly.
 * **[!UICONTROL API Key:]** La chiave API bit bitly.
 
 

@@ -1,8 +1,6 @@
 ---
-description: Aggiungi regole nei flussi per consentire al contenuto di compilare automaticamente
-  un'app o una cartella in base a tali regole.
-seo-description: Aggiungi regole nei flussi per consentire al contenuto di compilare
-  automaticamente un'app o una cartella in base a tali regole.
+description: Aggiungi regole nei flussi per consentire al contenuto di compilare automaticamente un'app o una cartella in base a tali regole.
+seo-description: Aggiungi regole nei flussi per consentire al contenuto di compilare automaticamente un'app o una cartella in base a tali regole.
 seo-title: Aggiungere regole per il flusso
 solution: Experience Manager
 title: Aggiungere regole per il flusso
@@ -15,7 +13,7 @@ source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
 
 # Aggiungere regole per il flusso{#add-rules-for-your-stream}
 
-Aggiungi regole nei flussi per consentire al contenuto di compilare automaticamente un'app o una cartella in base a tali regole.
+Aggiungi regole nei flussi per consentire al contenuto di compilare automaticamente un&#39;app o una cartella in base a tali regole.
 
 Aggiungi regole di flusso al flusso da una o più delle seguenti reti social o tipi di contenuto:
 

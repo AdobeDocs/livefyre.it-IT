@@ -1,8 +1,6 @@
 ---
-description: Potete scegliere se e come i visitatori del sito accedono alle vostre
-  app.
-seo-description: Potete scegliere se e come i visitatori del sito accedono alle vostre
-  app.
+description: Potete scegliere se e come i visitatori del sito accedono alle vostre app.
+seo-description: Potete scegliere se e come i visitatori del sito accedono alle vostre app.
 seo-title: Funzioni di autenticazione
 solution: Experience Manager
 title: Funzioni di autenticazione
@@ -17,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Potete scegliere se e come i visitatori del sito accedono alle vostre app.
 
-Configurate l'autenticazione utilizzando livefyre. js. Per ulteriori informazioni, consultate [Aggiungere autenticazione a un'app utilizzando Livefyre. js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+Configurate l&#39;autenticazione utilizzando livefyre. js. Per ulteriori informazioni, consultate [Aggiungere autenticazione a un&#39;app utilizzando Livefyre. js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 App che utilizzano questa funzione:
 

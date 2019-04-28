@@ -6,14 +6,14 @@ solution: Experience Manager
 title: Userprivacyvideowhitelist
 uuid: adfead 18-b 73 b -4 ac 4-97 a 0-d 39 f 528 b 7606
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 
 
 # Userprivacyvideowhitelist{#userprivacyvideowhitelist}
 
-Se utilizzate video e lettori personalizzati come parte dei video visualizzati in un'app di visualizzazione Livefyre, potete inserire in una whitelist il vostro dominio video. La whitelist nel dominio video rimuove la maschera video per i video e i lettori personalizzati.
+Se utilizzate video e lettori personalizzati come parte dei video visualizzati in un&#39;app di visualizzazione Livefyre, potete inserire in una whitelist il vostro dominio video. La whitelist nel dominio video rimuove la maschera video per i video e i lettori personalizzati.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Se utilizzate video e lettori personalizzati come parte dei video visualizzati i
 * Aggiungi `userPrivacyVideoWhitelist` dopo `userPrivacyOptOut`. Potete aggiungere tutti i flag sulla privacy di Livefyre contemporaneamente come parte di un unico oggetto Livefyre.
 * `userPrivacyVideoWhitelist` si applica solo al contenuto non incorporato dai social media.
 
-Nell'esempio seguente, i video visualizzati in App con `sampledomain.com/cdn/videos` il percorso vengono inseriti nella lista bianca:
+Nell&#39;esempio seguente, i video visualizzati in App con `sampledomain.com/cdn/videos` il percorso vengono inseriti nella lista bianca:
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]

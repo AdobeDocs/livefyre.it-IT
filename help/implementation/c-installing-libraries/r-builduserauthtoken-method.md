@@ -1,8 +1,6 @@
 ---
-description: Restituisce un token autenticato utente crittografato per la rete da
-  cui viene invocato.
-seo-description: Restituisce un token autenticato utente crittografato per la rete
-  da cui viene invocato.
+description: Restituisce un token autenticato utente crittografato per la rete da cui viene invocato.
+seo-description: Restituisce un token autenticato utente crittografato per la rete da cui viene invocato.
 seo-title: Metodo di rete builduserauthtoken
 solution: Experience Manager
 title: Metodo di rete builduserauthtoken
@@ -19,8 +17,8 @@ Restituisce un token autenticato utente crittografato per la rete da cui viene i
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| Userid | Stringa | L'ID utente per l'utente a cui appartiene il token. |
-| Displayname | Stringa | Nome visualizzato per l'utente. |
+| Userid | Stringa | L&#39;ID utente per l&#39;utente a cui appartiene il token. |
+| Displayname | Stringa | Nome visualizzato per l&#39;utente. |
 | expires | Due volte | Quando il token scade in secondi. |
 
 ## Esempio Java {#section_nyl_ycs_rz}

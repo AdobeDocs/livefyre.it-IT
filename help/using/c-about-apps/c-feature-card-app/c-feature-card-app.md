@@ -15,8 +15,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Aggiungere contenuti specifici alla pagina.
 
-Utilizzate la scheda delle funzionalità per evidenziare singole parti di contenuto su una singola scheda. L'app priorità ai contenuti contenuti più recenti e scorre gli elementi più recenti per garantire una visualizzazione aggiornata e pertinente.
+Utilizzate la scheda delle funzionalità per evidenziare singole parti di contenuto su una singola scheda. L&#39;app priorità ai contenuti contenuti più recenti e scorre gli elementi più recenti per garantire una visualizzazione aggiornata e pertinente.
 
-La scheda delle funzioni visualizzerà l'elemento incorporato più di recente (non necessariamente l'elemento pubblicato più di recente), consentendo di selezionare i contenuti migliori per una presentazione tempestiva sulla pagina.
+La scheda delle funzioni visualizzerà l&#39;elemento incorporato più di recente (non necessariamente l&#39;elemento pubblicato più di recente), consentendo di selezionare i contenuti migliori per una presentazione tempestiva sulla pagina.
 
-Utilizzate la scheda delle funzionalità per evidenziare singole parti di contenuto su una singola scheda. L'app priorità ai contenuti contenuti più recenti e scorre gli elementi più recenti per garantire una visualizzazione aggiornata e pertinente.
+Utilizzate la scheda delle funzionalità per evidenziare singole parti di contenuto su una singola scheda. L&#39;app priorità ai contenuti contenuti più recenti e scorre gli elementi più recenti per garantire una visualizzazione aggiornata e pertinente.

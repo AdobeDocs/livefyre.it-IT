@@ -3,7 +3,7 @@ product: livefyre
 audience: end-user
 user-guide-title: Guida utente di Experience Manager Livefyre
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 + [Informazioni su Livefyre](c-product.md)
 + App {#apps}
    + [App](c-about-apps/c-about-apps.md)
-   + [Creare un'app](c-about-apps/c-create-an-app.md)
+   + [Creare un&#39;app](c-about-apps/c-create-an-app.md)
    + Carosello {#carousel}
       + [Carosello](c-about-apps/c-carousel-app/c-carousel-app.md)
       + [Funzioni carosello](c-about-apps/c-carousel-app/r-carousel-features.md)
@@ -55,12 +55,12 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [Personalizzazioni mosaiche](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
    + Sondaggi {#polls}
       + [Sondaggi](c-about-apps/c-polls-app/c-polls-app.md)
-      + [Aggiungere un sondaggio a un commento o a un'app di blog live](c-about-apps/c-polls-app/t-integrate-poll-site.md)
+      + [Aggiungere un sondaggio a un commento o a un&#39;app di blog live](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [Aggiungere immagini a un sondaggio](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [Personalizza personalizzazioni](c-about-apps/c-polls-app/r-polls-customizations.md)
    + Recensioni {#reviews}
       + [Recensioni](c-about-apps/c-reviews-app/c-reviews-app.md)
-      + [Creazione di un'app Recensioni](c-about-apps/c-reviews-app/c-creating-reviews.md)
+      + [Creazione di un&#39;app Recensioni](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [Pubblicare una revisione](c-about-apps/c-reviews-app/t-using-reviews.md)
    + Sidenotes {#sidenotes}
       + [Sidenotes](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
@@ -100,7 +100,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 + Funzioni app {#app-features}
    + [Funzioni di accessibilità](c-features-livefyre/c-accessibility-features.md)
    + [Funzioni di autenticazione](c-features-livefyre/c-authentication.md)
-   + [Pulsante Invito all'azione personalizzato](c-features-livefyre/c-call-to-action-button.md)
+   + [Pulsante Invito all&#39;azione personalizzato](c-features-livefyre/c-call-to-action-button.md)
    + Funzioni di comportamento dei contenuti {#content-behavior-features}
       + [Funzioni di comportamento dei contenuti](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
       + [Caricamento foto](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
@@ -114,7 +114,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [Contenuti contenuti](c-features-livefyre/c-content-collection-tags/c-featured-content.md)
       + [Contenuto della funzione](c-features-livefyre/c-content-collection-tags/t-feature-content.md)
       + [Seleziona contenuto a funzionalità da studio](c-features-livefyre/c-content-collection-tags/t-select-content-to-feature-from-studio.md)
-      + [Selezionare Contenuto da un'app](c-features-livefyre/c-content-collection-tags/t-select-content-to-feature.md)
+      + [Selezionare Contenuto da un&#39;app](c-features-livefyre/c-content-collection-tags/t-select-content-to-feature.md)
       + [Abilitare i contenuti in Studio](c-features-livefyre/c-content-collection-tags/t-enable-featuring-content-in-studio.md)
       + [Permalinks](c-features-livefyre/c-content-collection-tags/c-permalinks.md)
    + HTML personalizzato {#custom-html}
@@ -132,15 +132,15 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [Utilizzo del filtro profanity](c-features-livefyre/c-about-moderation/c-profanity-filter.md)
       + [Moderatori](c-features-livefyre/c-about-moderation/t-moderate-users-modq.md)
       + [Moderate Content Using functq](c-features-livefyre/c-about-moderation/c-modq.md)
-      + [Aggiungere un elemento tagliato in un'app](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
+      + [Aggiungere un elemento tagliato in un&#39;app](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
       + [Scelte rapide da tastiera modq](c-features-livefyre/c-about-moderation/r-modq-keyboard-shortcuts.md)
       + [Moderare contenuto da un flusso](c-features-livefyre/c-about-moderation/c-moderate-inline.md)
-      + [Moderare il contenuto utilizzando il contenuto dell'app](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
+      + [Moderare il contenuto utilizzando il contenuto dell&#39;app](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
       + [Regole SAFE](c-features-livefyre/c-about-moderation/c-moderation.md)
    + Funzioni notifiche {#notifications-features}
       + [Notifier Notifier](c-features-livefyre/c-notifications-features/c-comment-notifier.md)
       + [Notifiche e-mail](c-features-livefyre/c-notifications-features/c-email-notifications.md)
-      + [Configurare l'e-mail di rete](c-features-livefyre/c-notifications-features/t-set-up-network-email.md)
+      + [Configurare l&#39;e-mail di rete](c-features-livefyre/c-notifications-features/t-set-up-network-email.md)
    + [Funzioni dei contributi sul sito](c-features-livefyre/c-on-site-contribution-features.md)
    + [Tracciamento del riferimento](c-features-livefyre/c-referral-tracking.md)
    + Tag avanzati {#smart-tags}

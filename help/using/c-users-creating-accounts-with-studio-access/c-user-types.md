@@ -1,7 +1,6 @@
 ---
 description: Livefyre offre diversi tipi di utenti con livelli di autorizzazioni variabili.
-seo-description: Livefyre offre diversi tipi di utenti con livelli di autorizzazioni
-  variabili.
+seo-description: Livefyre offre diversi tipi di utenti con livelli di autorizzazioni variabili.
 seo-title: Ruoli utente e autorizzazioni
 solution: Experience Manager
 title: Ruoli utente e autorizzazioni
@@ -20,7 +19,7 @@ I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Stud
 
 >[!NOTE]
 >
->Per tutti i ruoli eccetto l'Amministratore, gli utenti possono accedere solo alle cartelle o ai siti che sono pubblici oppure sono stati condivisi con loro.
+>Per tutti i ruoli eccetto l&#39;Amministratore, gli utenti possono accedere solo alle cartelle o ai siti che sono pubblici oppure sono stati condivisi con loro.
 
 * **Amministratore studio**
    * Accesso a tutti i diritti e le autorizzazioni in Studio
@@ -40,7 +39,7 @@ I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Stud
    * Creare e modificare cartelle condivise e Risorse in cartelle condivise
 
 * **Manager utente**
-   * Visualizzazione e modifica dei dettagli dell'account utente finale
+   * Visualizzazione e modifica dei dettagli dell&#39;account utente finale
    * Divieto o whitelist degli utenti finali
 
 * **Data Manager:** consente di accedere al dashboard di Analytics di Livefyre.
@@ -59,4 +58,4 @@ I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Stud
 
 >[!NOTE]
 >
->I ruoli utente a livello di sito concedono l'autorizzazione solo al sito selezionato. I ruoli assegnati a questo livello non avranno accesso ad altri siti o reti.
+>I ruoli utente a livello di sito concedono l&#39;autorizzazione solo al sito selezionato. I ruoli assegnati a questo livello non avranno accesso ad altri siti o reti.

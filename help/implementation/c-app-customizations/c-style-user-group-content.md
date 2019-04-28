@@ -17,7 +17,7 @@ Utilizzate lo stile personalizzato per differenziare gli utenti.
 
 Livefyre offre funzioni personalizzate di stile che consentono di personalizzare il contenuto pubblicato da tipi specifici di utenti (come moderatori, editor o qualsiasi altro Gruppo utente che desiderate definire) in Livefyre Chat, Commenti, Recensioni o App di blog live. Questo consente di evidenziare questo contenuto agli utenti.
 
-Per aggiungere stili personalizzati, crea e assegna per primi gruppi di utenti usando il campo Tag utente di Studio. Quindi, utilizzate CSS per creare opzioni di stile per ciascun gruppo ed evidenziate l'appartenenza ai gruppi utilizzando i simboli, consentendo di distinguere il contenuto di un gruppo da un altro sul sito. I gruppi di utenti consentono al team di impostare il tono per la conversazione e i vostri utenti di esprimere identità e filiali personalizzati.
+Per aggiungere stili personalizzati, crea e assegna per primi gruppi di utenti usando il campo Tag utente di Studio. Quindi, utilizzate CSS per creare opzioni di stile per ciascun gruppo ed evidenziate l&#39;appartenenza ai gruppi utilizzando i simboli, consentendo di distinguere il contenuto di un gruppo da un altro sul sito. I gruppi di utenti consentono al team di impostare il tono per la conversazione e i vostri utenti di esprimere identità e filiali personalizzati.
 
 Per aggiungere stili personalizzati per specifici gruppi di utenti:
 

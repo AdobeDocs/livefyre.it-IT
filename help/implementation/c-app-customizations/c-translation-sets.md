@@ -1,8 +1,6 @@
 ---
-description: I set di traduzioni consentono di specificare lingua alternativa per
-  le app.
-seo-description: I set di traduzioni consentono di specificare lingua alternativa
-  per le app.
+description: I set di traduzioni consentono di specificare lingua alternativa per le app.
+seo-description: I set di traduzioni consentono di specificare lingua alternativa per le app.
 seo-title: Set di traduzioni
 solution: Experience Manager
 title: Set di traduzioni
@@ -25,9 +23,9 @@ Utilizzate le impostazioni di traduzione per localizzare le app in diverse lingu
 
 Potete specificare le impostazioni di conversione per tutte le app, ad eccezione di Storify 2. Per ulteriori informazioni sui campi che è possibile localizzare, vedere [Localizza stringhe](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md).
 
-Commenti, Blog live e Chat condividono lo stesso set di stringhe all'interno di un set di traduzioni.
+Commenti, Blog live e Chat condividono lo stesso set di stringhe all&#39;interno di un set di traduzioni.
 
-Specifica un set di traduzioni per una rete, un sito, un'app o un'API.
+Specifica un set di traduzioni per una rete, un sito, un&#39;app o un&#39;API.
 
 I set di conversione a diversi livelli si sostituiscono a seconda di questo pattern:
 
@@ -51,7 +49,7 @@ Questa pagina elenca e descrive le stringhe disponibili per la personalizzazione
 
 ## Implementazione {#section-vsy-1k4-xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all'oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -68,7 +66,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 
 ## Interfaccia di revisione/valutazione {#section_iyv_zj4_xz}
 
-Stringhe disponibili per l'interfaccia utente Revisione e Valutazione.
+Stringhe disponibili per l&#39;interfaccia utente Revisione e Valutazione.
 
 | Elemento | Chiave | Testo predefinito |
 | --------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -77,11 +75,11 @@ Stringhe disponibili per l'interfaccia utente Revisione e Valutazione.
 |  | Reviewbtn | Revisione in scrittura |
 |  | Reviewsclosed | Revisioni chiuse |
 |  | Showreviewbtn | Mostra revisione |
-|  | segui | l'm interessati |
+|  | segui | l&#39;m interessati |
 |  | Sharetext | Ho appena scritto una revisione. Check it out! |
 | Valutazione dei suggerimenti |  |  |
-|  | Ratingvalues | Un array. Default =['Poor ','Poor ','Fair ','Fair ','Averagè,'Averagè,'Good ','Good ','Ottimo ','Eccellentè]; |
-|  |  | Nota: I valori nell'array devono essere duplicati per assegnare allo stesso nome sia la metà sinistra che quella destra di ciascuna stella. |
+|  | Ratingvalues | Un array. Default =[&#39;Poor &#39;,&#39;Poor &#39;,&#39;Fair &#39;,&#39;Fair &#39;,&#39;Averagè,&#39;Averagè,&#39;Good &#39;,&#39;Good &#39;,&#39;Ottimo &#39;,&#39;Eccellentè]; |
+|  |  | Nota: I valori nell&#39;array devono essere duplicati per assegnare allo stesso nome sia la metà sinistra che quella destra di ciascuna stella. |
 | Valutazione delle parti secondarie |  |  |
 |  | Ratingsubpartplaceholder | Un array. Predefinito =[] |
 |  | Ratingsubparttitles | Un array. Predefinito =[] |
@@ -122,7 +120,7 @@ Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizza
 
 ## Autore/Informazioni contenuto {#section_osx_xj4_xz}
 
-Stings disponibili per informazioni sull'autore e sul contenuto.
+Stings disponibili per informazioni sull&#39;autore e sul contenuto.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -132,7 +130,7 @@ Stings disponibili per informazioni sull'autore e sul contenuto.
 
 ## Azioni utente {#section_tlx_wj4_xz}
 
-Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e contrassegno di contenuti esistenti come utili.
+Stringhe disponibili per le azioni dell&#39;utente: segnalazione, condivisione e contrassegno di contenuti esistenti come utili.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -141,7 +139,7 @@ Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e con
 |  | Wasreviewhelpfulmobile | Utile? |
 |  | Ownwasreviewhelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
 |  | Reviewwashelpful | [Sì](https://d.pr/i/Q0mA) |
-|  | Helpfuldivider | [& amp; vert;](https://d.pr/i/Q0mA) |
+|  | Helpfuldivider | [&amp; amp; vert;](https://d.pr/i/Q0mA) |
 |  | Reviewwasnothelpful | [No](https://d.pr/i/Q0mA) |
 | *Modale votazione* |  |  |
 |  | Votetitle | Questa revisione è utile? |
@@ -150,10 +148,10 @@ Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e con
 |  | Votetitle | Questo commento è stato utile? |
 |  | Voteupvote | Sì |
 | *Flag modale* |  |  |
-|  | Flagtitle | Review % s's review |
+|  | Flagtitle | Review % s&#39;s review |
 |  | Flagsuccessmsg | La revisione è stata segnalata. |
 | *Flag Mobile* |  |  |
-|  | Flagconfirmationmessage | Flag % s's review as % s? |
+|  | Flagconfirmationmessage | Flag % s&#39;s review as % s? |
 | *Menzioni modali* |  |  |
 |  | Mentiondefaulttext | I mentioned you in a Livefyre review! |
 | *Modale condivisione* |  |  |
@@ -228,7 +226,7 @@ Questa pagina elenca e descrive tutte le stringhe disponibili per la personalizz
 
 ## Implementazione {#section_wp2_ql4_xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all'oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -271,7 +269,7 @@ Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizza
 
 ## Autore/Informazioni contenuto {#section_dhb_gl4_xz}
 
-Stings disponibili per informazioni sull'autore e sul contenuto.
+Stings disponibili per informazioni sull&#39;autore e sul contenuto.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -283,14 +281,14 @@ Stings disponibili per informazioni sull'autore e sul contenuto.
 |  | Commentvotecount | voti |
 |  | Commentvotecountsing | votare |
 |  | Datetimeminuteprefix | m |
-|  | Datetimemonths | * Un array. Default = *[ 'January ','febbraio ','March ','April ','May ','Junè,'July ','August ','September ','October ','November ','December ' ] |
-|  | Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi. <br>Evidenzia il testo e fai clic sull'icona o fai clic sull'icona alla fine di ciascun paragrafo. |
+|  | Datetimemonths | * Un array. Default = *[ &#39;January &#39;,&#39;febbraio &#39;,&#39;March &#39;,&#39;April &#39;,&#39;May &#39;,&#39;Junè,&#39;July &#39;,&#39;August &#39;,&#39;September &#39;,&#39;October &#39;,&#39;November &#39;,&#39;December &#39; ] |
+|  | Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi. <br>Evidenzia il testo e fai clic sull&#39;icona o fai clic sull&#39;icona alla fine di ciascun paragrafo. |
 |  | Questionmocktext | Ciò che è «noto» non è noto correttamente, per il motivo di «familiare». |
-|  | Questiontitle | Che cos'è un Sidenote? |
+|  | Questiontitle | Che cos&#39;è un Sidenote? |
 
 ## Azioni utente {#section_qxd_fl4_xz}
 
-Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e livecing di contenuti esistenti.
+Stringhe disponibili per le azioni dell&#39;utente: segnalazione, condivisione e livecing di contenuti esistenti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -302,7 +300,7 @@ Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e liv
 |  | Menushareoptiontwitter | Twitter |
 |  | Menusharetitle | Condividi |
 | *Opzioni del menu Flag* |  |  |
-|  | Menuflagoptiondisagree | Non d'accordo |
+|  | Menuflagoptiondisagree | Non d&#39;accordo |
 |  | Menuflagoptionoffensive | Offensivo |
 |  | Menuflagoptionofftopic | Argomento Off |
 |  | Menuflagoptionspam | Spam |
@@ -351,7 +349,7 @@ Stringhe disponibili per gli utenti che pubblicano contenuto.
 
 ## Interfaccia moderatore {#section_o5f_dl4_xz}
 
-Stringhe disponibili per l'interfaccia moderatore autenticata dall'utente.
+Stringhe disponibili per l&#39;interfaccia moderatore autenticata dall&#39;utente.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -366,7 +364,7 @@ Stringhe disponibili per messaggi di errore generici.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-|  | Errorconnection | Ah-oh. L'utente non sembra avere una buona connessione. |
+|  | Errorconnection | Ah-oh. L&#39;utente non sembra avere una buona connessione. |
 |  | Errorduplicate | Anche la tua nota mi piace, ma non puoi pubblicarla due volte. |
 |  | Errorgeneral | Si è verificato un errore. Riprovate. |
 |  | Errorserver | Si è verificato un errore nel nostro server. Riprovare? |

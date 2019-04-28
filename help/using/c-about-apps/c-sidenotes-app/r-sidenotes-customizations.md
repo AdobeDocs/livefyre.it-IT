@@ -1,8 +1,6 @@
 ---
-description: Modificate le opzioni di dimensione, larghezza e interazione dell'app
-  Sidenotes.
-seo-description: Modificate le opzioni di dimensione, larghezza e interazione dell'app
-  Sidenotes.
+description: Modificate le opzioni di dimensione, larghezza e interazione dell'app Sidenotes.
+seo-description: Modificate le opzioni di dimensione, larghezza e interazione dell'app Sidenotes.
 seo-title: Personalizzazioni Sidenotes
 solution: Experience Manager
 title: Personalizzazioni Sidenotes
@@ -15,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Personalizzazioni Sidenotes{#sidenotes-customizations}
 
-Modificate le opzioni di dimensione, larghezza e interazione dell'app Sidenotes.
+Modificate le opzioni di dimensione, larghezza e interazione dell&#39;app Sidenotes.
 
 Puoi personalizzare Sidenotes utilizzando:
 

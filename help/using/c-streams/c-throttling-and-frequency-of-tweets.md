@@ -1,8 +1,6 @@
 ---
-description: Non tutti i tweet che corrispondono a una regola vengono visualizzati
-  in un flusso.
-seo-description: Non tutti i tweet che corrispondono a una regola vengono visualizzati
-  in un flusso.
+description: Non tutti i tweet che corrispondono a una regola vengono visualizzati in un flusso.
+seo-description: Non tutti i tweet che corrispondono a una regola vengono visualizzati in un flusso.
 seo-title: Caratteristiche e frequenza dei tweet
 solution: Experience Manager
 title: Caratteristiche e frequenza dei tweet
@@ -17,11 +15,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Non tutti i tweet che corrispondono a una regola vengono visualizzati in un flusso.
 
-L'interpolazione della regola Twitter e le interruzioni di feed Twitter possono limitare il numero di tweet visibili nel flusso.
+L&#39;interpolazione della regola Twitter e le interruzioni di feed Twitter possono limitare il numero di tweet visibili nel flusso.
 
 >[!NOTE]
 >
->Per verificare che i tweet specifici siano inclusi nel flusso, utilizzate l'opzione Carica risorsa dalla pagina Tutte le risorse.
+>Per verificare che i tweet specifici siano inclusi nel flusso, utilizzate l&#39;opzione Carica risorsa dalla pagina Tutte le risorse.
 
 * Regole Twitter rallentano il contenuto, richiamando 1 tweet per regola ogni 5 secondi. Questo consente di visualizzare in modo più bilanciato il contenuto in Livefyre Apps e non viene sostituito con tweet. La limitazione dei tweet in arrivo consente anche di impedire che il flusso diventi inaccessibile o non leggibile durante un periodo di traffico elevato.
 

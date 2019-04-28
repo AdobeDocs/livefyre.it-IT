@@ -1,10 +1,6 @@
 ---
-description: Gli account Studio consentono di accedere a tutti i componenti Studio
-  per i quali disponete delle autorizzazioni, inclusi creazione app, Moderazione contenuto
-  e Gestione utenti.
-seo-description: Gli account Studio consentono di accedere a tutti i componenti Studio
-  per i quali disponete delle autorizzazioni, inclusi creazione app, Moderazione contenuto
-  e Gestione utenti.
+description: Gli account Studio consentono di accedere a tutti i componenti Studio per i quali disponete delle autorizzazioni, inclusi creazione app, Moderazione contenuto e Gestione utenti.
+seo-description: Gli account Studio consentono di accedere a tutti i componenti Studio per i quali disponete delle autorizzazioni, inclusi creazione app, Moderazione contenuto e Gestione utenti.
 seo-title: Utenti che creano account utente
 solution: Experience Manager
 title: Utenti che creano account utente

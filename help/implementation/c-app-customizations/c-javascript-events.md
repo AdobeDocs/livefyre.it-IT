@@ -1,9 +1,6 @@
 ---
-description: Eventi disponibili a cui è possibile associare JavaScript per le app
-  di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
-seo-description: Eventi disponibili a cui è possibile associare JavaScript per le
-  app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a
-  margine).
+description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
+seo-description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
 seo-title: Definizioni ed esempi degli eventi javascript
 solution: Experience Manager
 title: Definizioni ed esempi degli eventi javascript
@@ -18,11 +15,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
 
-Livefyre fornisce eventi javascript per tenere traccia dell'attività utente nelle app di Livefyre. Ad esempio, potrebbe essere utile aggiornare la pagina quando gli utenti hanno o condividono contenuti su Twitter o Facebook oppure quando si pubblicano nuovi contenuti.
+Livefyre fornisce eventi javascript per tenere traccia dell&#39;attività utente nelle app di Livefyre. Ad esempio, potrebbe essere utile aggiornare la pagina quando gli utenti hanno o condividono contenuti su Twitter o Facebook oppure quando si pubblicano nuovi contenuti.
 
-Livefyre consente anche di aggiungere eventi a integrazioni di analisi di terze parti (Adobe Analytics JS, Google Analytics, Gestione tag dinamica ecc.) per tenere traccia degli eventi delle app. Per ulteriori informazioni, rivolgetevi al responsabile dell'integrazione di terze parti per fornire gli eventi corretti.
+Livefyre consente anche di aggiungere eventi a integrazioni di analisi di terze parti (Adobe Analytics JS, Google Analytics, Gestione tag dinamica ecc.) per tenere traccia degli eventi delle app. Per ulteriori informazioni, rivolgetevi al responsabile dell&#39;integrazione di terze parti per fornire gli eventi corretti.
 
-Per eseguire un binding con questi eventi, aggiungete il codice seguente alla pagina quando create un'istanza dell'app su una pagina. Sostituite il nome dell'evento per `{eventName}`:
+Per eseguire un binding con questi eventi, aggiungete il codice seguente alla pagina quando create un&#39;istanza dell&#39;app su una pagina. Sostituite il nome dell&#39;evento per `{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -44,7 +41,7 @@ Un utente ha pubblicato un commento.
 
 * Un elemento padre di null è un nuovo commento.
 * Un elemento padre di Nessuno è un commento che è stato modificato.
-* Un numero per parent è l'ID principale della risposta.
+* Un numero per parent è l&#39;ID principale della risposta.
 
 ```
 data = { 
@@ -85,7 +82,7 @@ data = {
 
 ## Commentshared {#section_nqb_31p_xz}
 
-Un utente ha condiviso un commento dallo streaming. (Questo evento non viene attivato quando gli utenti condividono dall'Editor commenti.) Questo evento viene attivato quando si fa clic sul pulsante Condividi.
+Un utente ha condiviso un commento dallo streaming. (Questo evento non viene attivato quando gli utenti condividono dall&#39;Editor commenti.) Questo evento viene attivato quando si fa clic sul pulsante Condividi.
 
 ```
 data = { 
@@ -105,7 +102,7 @@ data: 34 // The total number of visible comments in the conversation (integer).
 
 ## Userloggedin {#section_yjt_vz4_xz}
 
-L'utente ha effettuato l'accesso.
+L&#39;utente ha effettuato l&#39;accesso.
 
 ```
 data = { 
@@ -151,7 +148,7 @@ data = {
 
 ## Initialrendercomplete {#section_odc_4z4_xz}
 
-Il flusso di commento è stato caricato e il set iniziale di contenuto è stato recuperato dal server e presentato all'utente.
+Il flusso di commento è stato caricato e il set iniziale di contenuto è stato recuperato dal server e presentato all&#39;utente.
 
 i dati non sono definiti.
 

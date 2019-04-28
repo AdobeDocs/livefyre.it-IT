@@ -1,8 +1,6 @@
 ---
-description: Personalizzate eventuali stringhe di testo nell'app per l'internazionalizzazione
-  o il marchio.
-seo-description: Personalizzate eventuali stringhe di testo nell'app per l'internazionalizzazione
-  o il marchio.
+description: Personalizzate eventuali stringhe di testo nell'app per l'internazionalizzazione o il marchio.
+seo-description: Personalizzate eventuali stringhe di testo nell'app per l'internazionalizzazione o il marchio.
 seo-title: Conversione e stringhe di testo personalizzate
 solution: Experience Manager
 title: Conversione e stringhe di testo personalizzate
@@ -15,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Conversione e stringhe di testo personalizzate{#translation-and-custom-text-strings}
 
-Personalizzate eventuali stringhe di testo nell'app per l'internazionalizzazione o il marchio.
+Personalizzate eventuali stringhe di testo nell&#39;app per l&#39;internazionalizzazione o il marchio.
 
-Per migliorare l'esperienza della community, potete personalizzare la stringa di testo per qualsiasi etichetta di testo in modo che corrisponda alla lingua del sito o al marchio. Ad esempio, potete cambiare «Like» (Mi piace) in «Recommendations» (Raccomandazioni) o «Delete» (Elimina) in «Borrar» (Borrar). »»
+Per migliorare l&#39;esperienza della community, potete personalizzare la stringa di testo per qualsiasi etichetta di testo in modo che corrisponda alla lingua del sito o al marchio. Ad esempio, potete cambiare «Like» (Mi piace) in «Recommendations» (Raccomandazioni) o «Delete» (Elimina) in «Borrar» (Borrar). »»
 
 Per ulteriori informazioni, consulta [](../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets).
 

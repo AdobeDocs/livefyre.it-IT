@@ -1,8 +1,6 @@
 ---
-description: Questo metodo restituisce l'URN per questa raccolta. Prima di eseguire
-  questo metodo è necessario eseguire createorupdate ().
-seo-description: Questo metodo restituisce l'URN per questa raccolta. Prima di eseguire
-  questo metodo è necessario eseguire createorupdate ().
+description: Questo metodo restituisce l'URN per questa raccolta. Prima di eseguire questo metodo è necessario eseguire createorupdate ().
+seo-description: Questo metodo restituisce l'URN per questa raccolta. Prima di eseguire questo metodo è necessario eseguire createorupdate ().
 seo-title: Metodo di raccolta geturn
 solution: Experience Manager
 title: Metodo di raccolta geturn
@@ -15,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Metodo di raccolta geturn{#geturn-collection-method}
 
-Questo metodo restituisce l'URN per questa raccolta. Prima di eseguire questo metodo è necessario eseguire createorupdate ().
+Questo metodo restituisce l&#39;URN per questa raccolta. Prima di eseguire questo metodo è necessario eseguire createorupdate ().
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

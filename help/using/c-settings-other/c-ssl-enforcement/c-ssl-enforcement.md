@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # SSL Enforcement{#ssl-enforcement}
 
-Per assicurare che i dati rimangano protetti, non si verifica più l'errore HTTP a favore di HTTPS. Adobe Livefyre disabiliterà completamente i cifrer HTTP e SSL/TLS non sicuri alla fine di agosto 2018. Questo è un Adobe Standard progettato per proteggere la privacy di voi e dei vostri utenti.
+Per assicurare che i dati rimangano protetti, non si verifica più l&#39;errore HTTP a favore di HTTPS. Adobe Livefyre disabiliterà completamente i cifrer HTTP e SSL/TLS non sicuri alla fine di agosto 2018. Questo è un Adobe Standard progettato per proteggere la privacy di voi e dei vostri utenti.
 
 ## Chi è interessato? {#section_jf2_4yz_kcb}
 
@@ -32,7 +32,7 @@ Questo potrebbe interessare i clienti Livefyre che hanno:
    * Applicazioni personalizzate (Streamhub SDK o direttamente codificate).
 
 1. Server to Server and Mobile HTTP Client must support TLS 1.2
-1. Change hostnames from `{*}.<network>.fyre.co` to `<network>.{*}.fyre.co`. Ad esempio, il nome host `example.network.fyre.co` diventa `network.`example. fyre. co ". Ad esempio:
+1. Change hostnames from `{*}.<network>.fyre.co` to `<network>.{*}.fyre.co`. Ad esempio, il nome host `example.network.fyre.co` diventa `network.`example. fyre. co &quot;. Ad esempio:
 
    * `bootstrap.<network_name>.fyre.co` a `<network_name>.bootstrap.fyre.co`
 
@@ -46,7 +46,7 @@ Potresti già usare HTTPS, ma Livefyre consiglia di controllare due volte, sopra
 
 * Chiamate server-to-server dal CMS o CRM.
 * Codice personalizzato o usa SDK per app personalizzate in Javascript o Mobile.
-* Se l'integrazione è superiore a un anno precedente.
+* Se l&#39;integrazione è superiore a un anno precedente.
 * Se la tecnologia dello stack è precedente a un anno.
 
 Anche se utilizzi già HTTPS, devi verificare che i client API supportino TLS 1.2.
@@ -68,9 +68,9 @@ Gli utenti di Java 7 o versioni precedenti devono consultare la documentazione p
 
 ## Perché devo cambiare i nomi degli host? {#section_d5q_p25_kcb}
 
-Livefyre non dispone di certificati SSL sui `{*}.<network>.fyre.co` domini. Se si modifica semplicemente l'URL in HTTPS, l'applicazione viene interrotta.
+Livefyre non dispone di certificati SSL sui `{*}.<network>.fyre.co` domini. Se si modifica semplicemente l&#39;URL in HTTPS, l&#39;applicazione viene interrotta.
 
-## Devo effettuare l'aggiornamento all'ultima versione degli SDK di Livefyre? {#section_dw5_s25_kcb}
+## Devo effettuare l&#39;aggiornamento all&#39;ultima versione degli SDK di Livefyre? {#section_dw5_s25_kcb}
 
 No. È invece possibile riparare il codice. Per riparare il codice, modificate alcune stringhe statiche e ricreate il codice. Se il client HTTP non è aggiornato, dovrete aggiornarlo anche o utilizzarne uno diverso.
 
@@ -84,4 +84,4 @@ Livefyre disabiliterà la porta 80 (HTTP) ai nostri servizi entro la fine di ago
 
 ## Quando devo terminare questo lavoro? {#section_rvb_x25_kcb}
 
-Tutti i clienti devono utilizzare HTTPS entro la fine di luglio 2018. Se non riuscite a rispettare questa scadenza, contattate il nostro team all'indirizzo prioritysupport@livefyre.com.
+Tutti i clienti devono utilizzare HTTPS entro la fine di luglio 2018. Se non riuscite a rispettare questa scadenza, contattate il nostro team all&#39;indirizzo prioritysupport@livefyre.com.

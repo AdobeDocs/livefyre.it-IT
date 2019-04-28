@@ -19,7 +19,7 @@ Per impostazione predefinita, tutti gli allegati multimediali possono essere inc
 
 >[!NOTE]
 >
->Livefyre partners with Embedly for media integration. Per ulteriori informazioni, consultate Integrazione dei contenuti > Integrazione con i contenuti. Contattate l'Account Manager tecnico per domande sull'espansione dei collegamenti o sulle origini.
+>Livefyre partners with Embedly for media integration. Per ulteriori informazioni, consultate Integrazione dei contenuti &gt; Integrazione con i contenuti. Contattate l&#39;Account Manager tecnico per domande sull&#39;espansione dei collegamenti o sulle origini.
 
 Questo esempio blocca YouTube e Vimeo incorpora dal flusso dei commenti:
 

@@ -1,8 +1,6 @@
 ---
-description: Per visualizzare i commenti aggiunti mediante HTML personalizzato, utilizzate
-  questa procedura.
-seo-description: Per visualizzare i commenti aggiunti mediante HTML personalizzato,
-  utilizzate questa procedura.
+description: Per visualizzare i commenti aggiunti mediante HTML personalizzato, utilizzate questa procedura.
+seo-description: Per visualizzare i commenti aggiunti mediante HTML personalizzato, utilizzate questa procedura.
 seo-title: Visualizzare i commenti HTML personalizzati in Studio
 solution: Experience Manager
 title: Visualizzare i commenti HTML personalizzati in Studio
@@ -21,5 +19,5 @@ Per visualizzare i commenti aggiunti mediante HTML personalizzato, utilizzate qu
 >
 >Non è possibile modificare i commenti che contengono codice HTML o aggiungere allegati HTML personalizzati tramite Studio.
 
-1. Studio visualizza una miniatura di anteprima per l'HTML personalizzato visualizzato con un commento.
-1. Fare clic sulla miniatura per visualizzare l'allegato completo.
+1. Studio visualizza una miniatura di anteprima per l&#39;HTML personalizzato visualizzato con un commento.
+1. Fare clic sulla miniatura per visualizzare l&#39;allegato completo.

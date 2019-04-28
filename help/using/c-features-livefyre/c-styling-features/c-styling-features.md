@@ -1,8 +1,6 @@
 ---
-description: Potete formattare le vostre app Livefyre in modo da comportarsi in vari
-  modi o modificarle per dare un'occhiata al resto della campagna del marchio.
-seo-description: Potete formattare le vostre app Livefyre in modo da comportarsi in
-  vari modi o modificarle per dare un'occhiata al resto della campagna del marchio.
+description: Potete formattare le vostre app Livefyre in modo da comportarsi in vari modi o modificarle per dare un'occhiata al resto della campagna del marchio.
+seo-description: Potete formattare le vostre app Livefyre in modo da comportarsi in vari modi o modificarle per dare un'occhiata al resto della campagna del marchio.
 seo-title: Funzioni di formattazione
 title: Funzioni di formattazione
 uuid: 72 a 3843 d -692 a -43 ff-b 72 b -6 bd 840 de 87 d 6
@@ -14,11 +12,11 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni di formattazione{#styling-features}
 
-Potete formattare le vostre app Livefyre in modo da comportarsi in vari modi o modificarle per dare un'occhiata al resto della campagna del marchio.
+Potete formattare le vostre app Livefyre in modo da comportarsi in vari modi o modificarle per dare un&#39;occhiata al resto della campagna del marchio.
 
 ## Stile predefinito {#section_yjl_rfs_d1b}
 
-Potete formattare un'app in Studio in App Designer senza dover utilizzare Livefyre. js per personalizzare l'app.
+Potete formattare un&#39;app in Studio in App Designer senza dover utilizzare Livefyre. js per personalizzare l&#39;app.
 
 App che utilizzano questa funzione:
 
@@ -38,7 +36,7 @@ App che utilizzano questa funzione:
 
 ## Animazione {#section_kl2_n4s_d1b}
 
-Potete animare un'app utilizzando CSS.
+Potete animare un&#39;app utilizzando CSS.
 
 App che utilizzano questa funzione:
 

@@ -19,7 +19,7 @@ Le revisioni consentono ai membri della community di fornire valutazioni a stell
 
 ## Integrazione {#section_kk5_15b_c1b}
 
-Per integrare un'app reviews, segui la procedura per Integrazione di un'app di conversazione. Consultate [Incorporare un'app](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md). Esempio di un'app recensioni incorporata.
+Per integrare un&#39;app reviews, segui la procedura per Integrazione di un&#39;app di conversazione. Consultate [Incorporare un&#39;app](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md). Esempio di un&#39;app recensioni incorporata.
 
 ### Esempio
 
@@ -48,7 +48,7 @@ Livefyre.require(['fyre.conv#3'], function (Review) {
 });
 ```
 
-Come indicato nella `CollectionMeta` sezione Creazione, `CollectionMeta` è un oggetto JSON codificato. Nell'esempio precedente, l'oggetto JSON prende il seguente formato prima che sia codificato in JWT:
+Come indicato nella `CollectionMeta` sezione Creazione, `CollectionMeta` è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON prende il seguente formato prima che sia codificato in JWT:
 
 ```
 { 
@@ -62,15 +62,15 @@ Come indicato nella `CollectionMeta` sezione Creazione, `CollectionMeta` è un o
 
 ## Oggetto convconfig {#section_pzv_ytb_c1b}
 
-Se avete già completato la sezione Guida introduttiva, dovreste avere familiarità con l'oggetto Convconfig. Per abilitare le revisioni, aggiorna convconfig con i campi seguenti:
+Se avete già completato la sezione Guida introduttiva, dovreste avere familiarità con l&#39;oggetto Convconfig. Per abilitare le revisioni, aggiorna convconfig con i campi seguenti:
 
-* **Alwaysshoweditor** *facoltativo* : Per impostazione predefinita, l'editor delle revisioni viene visualizzato solo dopo che l'utente preme il pulsante «Revisione in scrittura». Impostate questo parametro su true per visualizzare sempre l'editor.
+* **Alwaysshoweditor** *facoltativo* : Per impostazione predefinita, l&#39;editor delle revisioni viene visualizzato solo dopo che l&#39;utente preme il pulsante «Revisione in scrittura». Impostate questo parametro su true per visualizzare sempre l&#39;editor.
 
-* **stringa** *richiesta* dall'app: Nome app da usare per le revisioni. Devono essere «recensioni».
+* **stringa** *richiesta* dall&#39;app: Nome app da usare per le revisioni. Devono essere «recensioni».
 
-* **Stringa** *opzionale* defaultsort: Consente di selezionare l'opzione di ordinamento predefinita per Recensioni. I valori possibili sono: Mosthelpful, highestrated, lowestrated, newest e older.
+* **Stringa** *opzionale* defaultsort: Consente di selezionare l&#39;opzione di ordinamento predefinita per Recensioni. I valori possibili sono: Mosthelpful, highestrated, lowestrated, newest e older.
 
-* **Disabletitle***:* booleano opzionale: Disattiva e nasconde il campo titolo nell'editor delle revisioni, richiesto e visibile per impostazione predefinita. Il valore predefinito è true.
+* **Disabletitle***:* booleano opzionale: Disattiva e nasconde il campo titolo nell&#39;editor delle revisioni, richiesto e visibile per impostazione predefinita. Il valore predefinito è true.
 
 * **Enablehalfrating** *optional* booleano: Utilizzato per abilitare le metà valutazioni sul modulo di selezione stella predefinito. Il valore predefinito è true.
 
@@ -78,7 +78,7 @@ Se avete già completato la sezione Guida introduttiva, dovreste avere familiari
 
 * **Numero intero** *facoltativo:* numero intero utilizzato per impostare il numero di stelle visualizzate nel modulo di selezione stella predefinito. Il valore predefinito è 5. Può essere configurato fino a 100.
 
-* **booleano** *opzionale* ratingsunyenabled: Utilizzato per mostrare la visualizzazione di riepilogo valutazioni sopra l'app Recensioni. Questa operazione deve essere attivata per utilizzare il riepilogo di ratingsummar. Il valore predefinito è true.
+* **booleano** *opzionale* ratingsunyenabled: Utilizzato per mostrare la visualizzazione di riepilogo valutazioni sopra l&#39;app Recensioni. Questa operazione deve essere attivata per utilizzare il riepilogo di ratingsummar. Il valore predefinito è true.
 
 ## Rivedi metadati raccolta {#section_k1s_sqb_c1b}
 
@@ -86,14 +86,14 @@ Se avete già completato la sezione Guida introduttiva, dovreste avere familiari
 
 * **Matrice** *opzionale* ratingdimensions: Un array di stringhe per ogni tipo di dimensione utilizzato da questa raccolta. Se non viene specificata, sarà consentita solo la dimensione 1.
 
-   Ad esempio, per consentire agli utenti di classificare il prodotto su «design», «features» e «performance», impostate l'array su: `ratingDimensions: [‘design’, ‘features’, ‘performance’]`
+   Ad esempio, per consentire agli utenti di classificare il prodotto su «design», «features» e «performance», impostate l&#39;array su: `ratingDimensions: [‘design’, ‘features’, ‘performance’]`
 
 * **Numero intero** *facoltativo ratingsubparts* : Numero di partizioni da visualizzare nella casella di testo della revisione. Le etichette secondarie vengono trasmesse con il parametro come illustrato di seguito.
 
    >[!NOTE]
    >È necessario definire le etichette per ogni sottoparte.
 
-* **Matrice** *opzionale* ratingsubpartsids: Consente di definire un ID per ogni sottoparte nella raccolta valutazioni, che può essere utilizzata per eseguire il targeting di tali elementi secondari in CSS e javascript. Quando gli utenti pubblicano revisioni, ciascuno `ratingSubpart` di essi dispone dell'attributo « `data-lf-subpart-id`», compilato con questo ID.
+* **Matrice** *opzionale* ratingsubpartsids: Consente di definire un ID per ogni sottoparte nella raccolta valutazioni, che può essere utilizzata per eseguire il targeting di tali elementi secondari in CSS e javascript. Quando gli utenti pubblicano revisioni, ciascuno `ratingSubpart` di essi dispone dell&#39;attributo « `data-lf-subpart-id`», compilato con questo ID.
 
 >[!NOTE]
 >
@@ -115,13 +115,13 @@ fyre.conv.load(networkConfig, [{
 
 >[!NOTE]
 >
->In caso di utilizzo `ratingDimensions`, devi utilizzare l' `ratingSelectionDelegate`e `ratingDisplayDelegate``ratingSummaryDelegate` (per mostrare il riepilogo di valutazione).
+>In caso di utilizzo `ratingDimensions`, devi utilizzare l&#39; `ratingSelectionDelegate`e `ratingDisplayDelegate``ratingSummaryDelegate` (per mostrare il riepilogo di valutazione).
 
 ## Personalizzazione revisioni {#section_khz_xmb_c1b}
 
 ### Configurare le immagini stella
 
-Per modificare l'immagine per le stelle intere, la classe è `goog-ratings-star`. Cambia l'immagine di sfondo in qualsiasi immagine desiderata. Per impostazione predefinita, le stelle sono di 28 x 28 pixel.
+Per modificare l&#39;immagine per le stelle intere, la classe è `goog-ratings-star`. Cambia l&#39;immagine di sfondo in qualsiasi immagine desiderata. Per impostazione predefinita, le stelle sono di 28 x 28 pixel.
 
 ### Configura immagini stella con mezza stella
 
@@ -129,12 +129,12 @@ Con metà stelle, sono disponibili due classi, una per ogni lato della stella. I
 
 ### Configurare i valori delle descrizioni per le stelle
 
-Per configurare i valori delle descrizioni comandi per le stelle, seguire il testo personalizzato descritto in Personalizzazione stringa. Una volta configurato, utilizzate la chiave `ratingValues` e il valore un array contenente le stringhe di descrizione comando. Se avete disattivato metà stelle, il numero di elementi nell'array deve essere uguale a `maxRating` (sopra). Se sono abilitate metà stelle, il numero di elementi deve essere pari a 2 x `maxRating`. Il primo elemento dell'array corrisponde all'elemento più a sinistra (o a mezza stella) e continua da sinistra a destra.
+Per configurare i valori delle descrizioni comandi per le stelle, seguire il testo personalizzato descritto in Personalizzazione stringa. Una volta configurato, utilizzate la chiave `ratingValues` e il valore un array contenente le stringhe di descrizione comando. Se avete disattivato metà stelle, il numero di elementi nell&#39;array deve essere uguale a `maxRating` (sopra). Se sono abilitate metà stelle, il numero di elementi deve essere pari a 2 x `maxRating`. Il primo elemento dell&#39;array corrisponde all&#39;elemento più a sinistra (o a mezza stella) e continua da sinistra a destra.
 
-### Attiva/disattiva l'opzione Mostra revisione personale
+### Attiva/disattiva l&#39;opzione Mostra revisione personale
 
-Per attivare o disattivare l' [!UICONTROL Show My Review] opzione, eseguite il targeting del `hideShowReviewButton` parametro nella configurazione App.
+Per attivare o disattivare l&#39; [!UICONTROL Show My Review] opzione, eseguite il targeting del `hideShowReviewButton` parametro nella configurazione App.
 
 ### Mostra editor di testo per impostazione predefinita
 
-L'editor delle revisioni viene visualizzato solo dopo che l'utente preme il [!UICONTROL write review] pulsante. Per visualizzare questo modulo per impostazione predefinita, eseguite il targeting del `alwaysShowEditor` parametro nella configurazione App.
+L&#39;editor delle revisioni viene visualizzato solo dopo che l&#39;utente preme il [!UICONTROL write review] pulsante. Per visualizzare questo modulo per impostazione predefinita, eseguite il targeting del `alwaysShowEditor` parametro nella configurazione App.

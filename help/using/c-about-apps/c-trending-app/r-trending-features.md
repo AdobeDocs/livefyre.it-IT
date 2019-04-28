@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Funzioni di tendenza{#trending-features}
 
-L'app di tendenza offre queste funzioni per il sito.
+L&#39;app di tendenza offre queste funzioni per il sito.
 
 
 

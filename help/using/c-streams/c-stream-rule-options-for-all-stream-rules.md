@@ -1,8 +1,6 @@
 ---
-description: Queste opzioni si applicano a qualsiasi regola di flusso da tutte le
-  reti social o da metodi di pubblicazione.
-seo-description: Queste opzioni si applicano a qualsiasi regola di flusso da tutte
-  le reti social o da metodi di pubblicazione.
+description: Queste opzioni si applicano a qualsiasi regola di flusso da tutte le reti social o da metodi di pubblicazione.
+seo-description: Queste opzioni si applicano a qualsiasi regola di flusso da tutte le reti social o da metodi di pubblicazione.
 seo-title: Opzioni regola di flusso per tutte le regole di flusso
 solution: Experience Manager
 title: Opzioni regola di flusso per tutte le regole di flusso
@@ -19,11 +17,11 @@ Queste opzioni si applicano a qualsiasi regola di flusso da tutte le reti social
 
 Funzioni di ricerca per campi testo e parole chiave:
 
-* Quando immettete le parole chiave, Livefyre usa automaticamente l'operatore **booleano OR** per singole parole. Ad esempio, per cercare post con *la parola o* *la ricetta*, inserire *una torta*, quindi inserire *la ricetta* nel **[!UICONTROL keyword]** campo.
+* Quando immettete le parole chiave, Livefyre usa automaticamente l&#39;operatore **booleano OR** per singole parole. Ad esempio, per cercare post con *la parola o* *la ricetta*, inserire *una torta*, quindi inserire *la ricetta* nel **[!UICONTROL keyword]** campo.
 
 * Potete cercare frasi esatte racchiudendo tra virgolette il testo esatto della frase. Ad esempio, per cercare la ricetta *esatta della torta*, immettete *«torta»* nel **[!UICONTROL keyword]** campo.
 
-* È possibile combinare le ricerche booleane e esatte in una regola di flusso. Ad esempio, potete cercare *una torta*, *una ricetta*e *una "ricetta"* immettendo ciascuna frase alla volta.
+* È possibile combinare le ricerche booleane e esatte in una regola di flusso. Ad esempio, potete cercare *una torta*, *una ricetta*e *una &quot;ricetta&quot;* immettendo ciascuna frase alla volta.
 
 **[!UICONTROL Additional Filters]**:
 

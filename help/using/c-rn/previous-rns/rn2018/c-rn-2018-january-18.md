@@ -19,9 +19,9 @@ Note sulla versione del 18 gennaio 2018.
 
 | **Tipo di edizione** | **Componente** | **Nota sulla versione** |
 |---|---|---|
-| Bug | App | È stato corretto un bug che impediva il rendering corretto di Avatars durante l'utilizzo di un file JPEG. |
+| Bug | App | È stato corretto un bug che impediva il rendering corretto di Avatars durante l&#39;utilizzo di un file JPEG. |
 | Bug | Modq | È stato corretto un bug per i clienti S 1 che consentiva di filtrare le raccolte in modq. |
-| Bug | Flussi | È stato corretto un bug a causa del quale, quando il filtro della lingua veniva impostato come "none", veniva interrotta una regola di flusso. |
+| Bug | Flussi | È stato corretto un bug a causa del quale, quando il filtro della lingua veniva impostato come &quot;none&quot;, veniva interrotta una regola di flusso. |
 | Bug | Flussi | È stato corretto un bug che impediva il salvataggio delle regole di flusso Youtube. |
 | Bug | Flussi | Corregge un bug in cui gli utenti possono creare voci geografiche formattate in modo errato nelle regole del flusso e salvarle, il che renderebbe il flusso non riuscito. Adesso, gli utenti non possono più salvare i tag geo in formato errato. |
 | Bug | Studio | È stato risolto un problema che impediva ad alcuni utenti di accedere a Livefyre. |
@@ -31,8 +31,8 @@ Note sulla versione del 18 gennaio 2018.
 | **Tipo di edizione** | **Componente** | **Nota sulla versione** |
 |---|---|---|
 | Bug | Libreria | Correzione di bug. Tutte le chiamate di autenticazione vengono ora effettuate utilizzando il protocollo HTTPS anziché HTTP. |
-| Miglioramento | Tag avanzati | Il contenuto in streaming ora è dotato automaticamente di tag avanzati da Adobe Sensei mentre viene salvato in una cartella o pubblicato su un'app. |
+| Miglioramento | Tag avanzati | Il contenuto in streaming ora è dotato automaticamente di tag avanzati da Adobe Sensei mentre viene salvato in una cartella o pubblicato su un&#39;app. |
 | Bug | Flussi | È stato risolto un problema per il quale le regole del flusso di istagram non riconoscevano i caratteri giapponesi. |
-| Miglioramento | Flussi | I clienti possono ora utilizzare gli operatori logici (ANY, ALL, NOT) per creare filtri avanzati avanzati nei flussi che curano contenuti molto più precisi. Ad esempio, se utilizzate l'hashtag # himalyas I can select to show only images that including "snowy" "montagne". |
+| Miglioramento | Flussi | I clienti possono ora utilizzare gli operatori logici (ANY, ALL, NOT) per creare filtri avanzati avanzati nei flussi che curano contenuti molto più precisi. Ad esempio, se utilizzate l&#39;hashtag # himalyas I can select to show only images that including &quot;snowy&quot; &quot;montagne&quot;. |
 | Bug | Studio | Correzione a un bug che mostra caratteri speciali nei nomi come HTML. |
 

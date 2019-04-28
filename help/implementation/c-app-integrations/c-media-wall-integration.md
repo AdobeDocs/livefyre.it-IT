@@ -1,7 +1,6 @@
 ---
 description: Create una bacheca media, con lo streaming di contenuti in tempo reale.
-seo-description: Create una bacheca media, con lo streaming di contenuti in tempo
-  reale.
+seo-description: Create una bacheca media, con lo streaming di contenuti in tempo reale.
 seo-title: Media Wall
 solution: Experience Manager
 title: Media Wall
@@ -16,11 +15,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Create una bacheca media, con lo streaming di contenuti in tempo reale.
 
-Media Wall consente di creare una bacheca social in tempo reale per il sito. Utilizzate il pacchetto «streamer-wallpackage» di Livefyre Javascrire per visualizzare i feed social di Livefyre come un'esperienza di contenuto a schermo intero, accattivante, a schermo intero che è grande per gli eventi in diretta, l'hosting di concorsi fotografici e la capacità di gestire sezioni social del vostro sito Web.
+Media Wall consente di creare una bacheca social in tempo reale per il sito. Utilizzate il pacchetto «streamer-wallpackage» di Livefyre Javascrire per visualizzare i feed social di Livefyre come un&#39;esperienza di contenuto a schermo intero, accattivante, a schermo intero che è grande per gli eventi in diretta, l&#39;hosting di concorsi fotografici e la capacità di gestire sezioni social del vostro sito Web.
 
 ## Integrazione {#section_jfm_bwb_c1b}
 
-Il modo più rapido per aggiungere un file Media Wall consiste nell'usare la versione integrata nella CDN di Livefyre.
+Il modo più rapido per aggiungere un file Media Wall consiste nell&#39;usare la versione integrata nella CDN di Livefyre.
 
 Innanzitutto, aggiungete [Livefyre. js](https://github.com/Livefyre/Livefyre.js) al sito.
 
@@ -28,7 +27,7 @@ Innanzitutto, aggiungete [Livefyre. js](https://github.com/Livefyre/Livefyre.js)
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-Quindi, posizionate l'elemento in cui verrà visualizzato il file multimediale.
+Quindi, posizionate l&#39;elemento in cui verrà visualizzato il file multimediale.
 
 ```
 <div id="wall"></div>
@@ -55,11 +54,11 @@ Livefyre.require([
 
 Ora hai una Bacheca! Consultate questa sezione in [questo esempio](https://codepen.io/gobengo/pen/dFwDL).
 
-**Hit un errore?** Verificate di aver superato il parametro dell'ambiente corretto. Le opzioni includono `livefyre.com` (produzione) o `t402.livefyre.com` (UAT).
+**Hit un errore?** Verificate di aver superato il parametro dell&#39;ambiente corretto. Le opzioni includono `livefyre.com` (produzione) o `t402.livefyre.com` (UAT).
 
 >[!NOTE]
 >
->Qualsiasi personalizzazione di stile dei tweet che viene resa dall'app Media Wall deve essere eseguita in conformità ai requisiti [di visualizzazione di Twitter](https://dev.twitter.com/terms/display-requirements).
+>Qualsiasi personalizzazione di stile dei tweet che viene resa dall&#39;app Media Wall deve essere eseguita in conformità ai requisiti [di visualizzazione di Twitter](https://dev.twitter.com/terms/display-requirements).
 
 ## Opzioni di configurazione {#section_ucv_qvb_c1b}
 
@@ -87,11 +86,11 @@ var wallView = new MediaWall({
 
 `minContentWidth`
 
-Consente di impostare la larghezza minima (pixel) per ogni colonna nell'elemento contenitore di Media Wall. (Media Wall seleziona automaticamente un numero appropriato di colonne, a seconda della larghezza del suo elemento contenitore. Per impostazione predefinita, la larghezza di Media Wall divisa per la larghezza minima del contenuto (300 px, se non definito) determina il numero di colonne.
+Consente di impostare la larghezza minima (pixel) per ogni colonna nell&#39;elemento contenitore di Media Wall. (Media Wall seleziona automaticamente un numero appropriato di colonne, a seconda della larghezza del suo elemento contenitore. Per impostazione predefinita, la larghezza di Media Wall divisa per la larghezza minima del contenuto (300 px, se non definito) determina il numero di colonne.
 
 >[!NOTE]
 >
->Non utilizzate questa opzione in combinazione con l'opzione colonne.
+>Non utilizzate questa opzione in combinazione con l&#39;opzione colonne.
 
 ```
 var wallView = new MediaWall({ 
@@ -102,7 +101,7 @@ var wallView = new MediaWall({
 
 `modal`
 
-Per impostazione predefinita, se sono presenti allegati per contenuti, Media Walls visualizza una miniatura selezionabile. Quando viene fatto clic su, l'app apre una modale che visualizza l'allegato di foto/video integralmente. Per disattivare questa opzione, impostate modale su false.
+Per impostazione predefinita, se sono presenti allegati per contenuti, Media Walls visualizza una miniatura selezionabile. Quando viene fatto clic su, l&#39;app apre una modale che visualizza l&#39;allegato di foto/video integralmente. Per disattivare questa opzione, impostate modale su false.
 
 ```
 var wallView = new MediaWall({ 
@@ -114,7 +113,7 @@ var wallView = new MediaWall({
 
 `postButton`
 
-Definisce [!UICONTROL Post Content] il pulsante da visualizzare sulla bacheca. Questa opzione richiede l'accesso `opts.collection`e aggiunge un'integrazione di Livefyre. js alla pagina.
+Definisce [!UICONTROL Post Content] il pulsante da visualizzare sulla bacheca. Questa opzione richiede l&#39;accesso `opts.collection`e aggiunge un&#39;integrazione di Livefyre. js alla pagina.
 
 `postButton` parametri:
 
@@ -168,7 +167,7 @@ Per un input valido, consultare gli standard W 3 C per le proprietà Famiglia [f
 
 * **Bodyfontsize** *(CSS Font Size String)* La dimensione del font per il testo del corpo del contenuto.
 
-* **Bodylineheight** *(Stringa altezza CSS)* L'altezza della riga per il testo del corpo del contenuto.
+* **Bodylineheight** *(Stringa altezza CSS)* L&#39;altezza della riga per il testo del corpo del contenuto.
 
 * **Buttonactivebackgroundcolor** *(CSS Color String)** Il colore dello sfondo del pulsante attivato.
 

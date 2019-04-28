@@ -1,10 +1,6 @@
 ---
-description: Personalizzate le app chat per visualizzare il contenuto come un flusso
-  continuo di chat non thread, consentendo al pubblico di partecipare in tempo reale
-  agli eventi in diretta o agli annunci.
-seo-description: Personalizzate le app chat per visualizzare il contenuto come un
-  flusso continuo di chat non thread, consentendo al pubblico di partecipare in tempo
-  reale agli eventi in diretta o agli annunci.
+description: Personalizzate le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di partecipare in tempo reale agli eventi in diretta o agli annunci.
+seo-description: Personalizzate le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di partecipare in tempo reale agli eventi in diretta o agli annunci.
 seo-title: Personalizzazioni chat
 solution: Experience Manager
 title: Personalizzazioni chat
@@ -21,7 +17,7 @@ Personalizzate le app chat per visualizzare il contenuto come un flusso continuo
 
 
 
-Queste opzioni sono disponibili nell'app chat:
+Queste opzioni sono disponibili nell&#39;app chat:
 
 * **[!UICONTROL Number of posts to load]**
 
@@ -45,11 +41,11 @@ Queste opzioni sono disponibili nell'app chat:
 
 * **[!UICONTROL User avatars]**
 
-   Se abilitata, gli avatar dell'utente vengono visualizzati con il contenuto pubblicato.
+   Se abilitata, gli avatar dell&#39;utente vengono visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL Users may share comments]**
 
-   Se abilitata, gli utenti possono condividere i commenti pubblicati su Twitter, Facebook o linkedin. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni > Impostazioni integrazione > Condivisione social network.
+   Se abilitata, gli utenti possono condividere i commenti pubblicati su Twitter, Facebook o linkedin. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni integrazione &gt; Condivisione social network.
 
 * **[!UICONTROL Additional sort option]**
 

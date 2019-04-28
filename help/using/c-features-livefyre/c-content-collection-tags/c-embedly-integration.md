@@ -1,8 +1,6 @@
 ---
-description: Utilizza embed.ly per visualizzare più formati multimediali direttamente
-  nell'app.
-seo-description: Utilizza embed.ly per visualizzare più formati multimediali direttamente
-  nell'app.
+description: Utilizza embed.ly per visualizzare più formati multimediali direttamente nell'app.
+seo-description: Utilizza embed.ly per visualizzare più formati multimediali direttamente nell'app.
 seo-title: Integrazione Embedly
 solution: Experience Manager
 title: Integrazione Embedly
@@ -15,29 +13,29 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Integrazione Embedly{#embedly-integration}
 
-Utilizzate `embed.ly` per visualizzare più formati multimediali direttamente nell'app.
+Utilizzate `embed.ly` per visualizzare più formati multimediali direttamente nell&#39;app.
 
-Per abilitare meglio il contenuto multimediale incorporato da una varietà di fonti, inclusi Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify e Tumblr, Livefyre Apps utilizza Embedly come fornitore di terze parti per l'espansione URL. Se un utente o un moderatore include un collegamento supportato in un post, il supporto incluso nel collegamento si espande quando viene inviato alla raccolta.
+Per abilitare meglio il contenuto multimediale incorporato da una varietà di fonti, inclusi Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify e Tumblr, Livefyre Apps utilizza Embedly come fornitore di terze parti per l&#39;espansione URL. Se un utente o un moderatore include un collegamento supportato in un post, il supporto incluso nel collegamento si espande quando viene inviato alla raccolta.
 
 In questo modo Livefyre Apps consente di accedere alle più di 250 diverse opzioni multimediali incorporate supportate da Incorporare.
 
 >[!NOTE]
 >
->Livefyre espande solo un sottoinsieme dell'elenco completo dei fornitori. Le immagini incorporate si espandono su pagine HTTPS solo se il fornitore è Twitter, YouTube, Imgur, Vine, Wikipedia o soundcloud. Per ulteriori domande sull'espansione o le origini dei collegamenti, contattate il vostro Account Manager tecnico.
+>Livefyre espande solo un sottoinsieme dell&#39;elenco completo dei fornitori. Le immagini incorporate si espandono su pagine HTTPS solo se il fornitore è Twitter, YouTube, Imgur, Vine, Wikipedia o soundcloud. Per ulteriori domande sull&#39;espansione o le origini dei collegamenti, contattate il vostro Account Manager tecnico.
 
 In questa pagina sono riportati alcuni esempi di tipi di supporti incorporati più diffusi e i pattern URL accettabili. `Embed.ly` sta aggiungendo continuamente nuove sorgenti. Per un elenco completo dei fornitori `https://embed.ly/embed/features/providers`, visitate.
 
 >[!NOTE]
 >
->La formattazione incorporata richiede un'inchiostro completa. I collegamenti abbreviati non funzioneranno.
+>La formattazione incorporata richiede un&#39;inchiostro completa. I collegamenti abbreviati non funzioneranno.
 
-È possibile incorporare solo contenuti visualizzabili pubblicamente. Se tentate di incorporare un contenuto non pubblico, il collegamento al contenuto verrà visualizzato nel post di blog e un'icona segnaposto lo accompagnerà. Quando un utente fa clic su di esso, il collegamento porta il lettore a un messaggio di errore dal servizio in cui è ospitato il contenuto, ad esempio un messaggio Facebook per una foto solo per gli amici. Contattate l'Account Manager se notate che i supporti non sono espansi come previsto.
+È possibile incorporare solo contenuti visualizzabili pubblicamente. Se tentate di incorporare un contenuto non pubblico, il collegamento al contenuto verrà visualizzato nel post di blog e un&#39;icona segnaposto lo accompagnerà. Quando un utente fa clic su di esso, il collegamento porta il lettore a un messaggio di errore dal servizio in cui è ospitato il contenuto, ad esempio un messaggio Facebook per una foto solo per gli amici. Contattate l&#39;Account Manager se notate che i supporti non sono espansi come previsto.
 
 ## URL con incorporazione di esempio
 
 | Tipo | Fornitore | URL |
 |--- |--- |--- |
-| Mappe | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Nota**: L'URL deve iniziare con `http` e non `https.` |
+| Mappe | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Nota**: L&#39;URL deve iniziare con `http` e non `https.` |
 | Social network | Google Plus | <ul><li>`https://plus.google.com/*`</li><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li>`https://google.com/profiles/*`</li></ul> |
 | Video | YouTube | <ul><li>`https://*youtube.com/watch*`</li><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul> |
 | Foto | Flickr | `https://www.flickr.com/photos/*`<br>`https://flic.kr/*` |

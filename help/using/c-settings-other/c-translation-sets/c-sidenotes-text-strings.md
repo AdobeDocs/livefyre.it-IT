@@ -28,7 +28,7 @@ Moderatore
 
 ## Implementazione {#section_wp2_ql4_xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all'oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -69,7 +69,7 @@ Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizza
 
 ## Autore/Informazioni contenuto {#section_dhb_gl4_xz}
 
-Stings disponibili per informazioni sull'autore e sul contenuto.
+Stings disponibili per informazioni sull&#39;autore e sul contenuto.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -82,13 +82,13 @@ Stings disponibili per informazioni sull'autore e sul contenuto.
 |  | Commentvotecountsing | votare |
 |  | Datetimeminuteprefix | m |
 |  | Datetimemonths | Un array. Predefinito =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]` |
-|  | Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia il testo</span> e fai clic sull <span class="&rdquo;fycon-write&rdquo;"></span> 'icona o fai clic sull' <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
+|  | Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia il testo</span> e fai clic sull <span class="&rdquo;fycon-write&rdquo;"></span> &#39;icona o fai clic sull&#39; <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
 |  | Questionmocktext | Ciò che è «noto» non è noto correttamente, per il motivo di «familiare». |
-|  | Questiontitle | Che cos'è un Sidenote? |
+|  | Questiontitle | Che cos&#39;è un Sidenote? |
 
 ## Azioni utente {#section_qxd_fl4_xz}
 
-Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e livecing di contenuti esistenti.
+Stringhe disponibili per le azioni dell&#39;utente: segnalazione, condivisione e livecing di contenuti esistenti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -97,7 +97,7 @@ Stringhe disponibili per le azioni dell'utente: segnalazione, condivisione e liv
 | Opzioni del menu Condividi | Menushareoptionfacebook | Facebook |
 |  | Menushareoptiontwitter | Twitter |
 |  | Menusharetitle | Condividi |
-| Opzioni del menu Flag | Menuflagoptiondisagree | Non d'accordo |
+| Opzioni del menu Flag | Menuflagoptiondisagree | Non d&#39;accordo |
 |  | Menuflagoptionoffensive | Offensivo |
 |  | Menuflagoptionofftopic | Argomento Off |
 |  | Menuflagoptionspam | Spam |
@@ -143,7 +143,7 @@ Stringhe disponibili per gli utenti che pubblicano contenuto.
 
 ## Interfaccia moderatore {#section_o5f_dl4_xz}
 
-Stringhe disponibili per l'interfaccia moderatore autenticata dall'utente.
+Stringhe disponibili per l&#39;interfaccia moderatore autenticata dall&#39;utente.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -157,7 +157,7 @@ Stringhe disponibili per messaggi di errore generici.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-|  | Errorconnection | Ah-oh. L'utente non sembra avere una buona connessione. |
+|  | Errorconnection | Ah-oh. L&#39;utente non sembra avere una buona connessione. |
 |  | Errorduplicate | Anche la tua nota mi piace, ma non puoi pubblicarla due volte. |
 |  | Errorgeneral | Si è verificato un errore. Riprovate. |
 |  | Errorserver | Si è verificato un errore nel nostro server. Riprovare? |

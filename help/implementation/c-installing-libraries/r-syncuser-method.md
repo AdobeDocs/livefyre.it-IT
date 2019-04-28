@@ -1,8 +1,6 @@
 ---
-description: Informa Livefyre di estrarre informazioni utente da un URL di sincronizzazione
-  utente precedentemente impostato. Restituisce un valore booleano.
-seo-description: Informa Livefyre di estrarre informazioni utente da un URL di sincronizzazione
-  utente precedentemente impostato. Restituisce un valore booleano.
+description: Informa Livefyre di estrarre informazioni utente da un URL di sincronizzazione utente precedentemente impostato. Restituisce un valore booleano.
+seo-description: Informa Livefyre di estrarre informazioni utente da un URL di sincronizzazione utente precedentemente impostato. Restituisce un valore booleano.
 seo-title: Metodo di rete syncuser
 solution: Experience Manager
 title: Metodo di rete syncuser
@@ -19,7 +17,7 @@ Informa Livefyre di estrarre informazioni utente da un URL di sincronizzazione u
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| Userid | Stringa | L'ID utente da sincronizzare con Livefyre. Dovete disporre di un URL di sincronizzazione utente con Livefyre prima di richiamare questo metodo. |
+| Userid | Stringa | L&#39;ID utente da sincronizzare con Livefyre. Dovete disporre di un URL di sincronizzazione utente con Livefyre prima di richiamare questo metodo. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

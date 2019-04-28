@@ -15,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Aggiungi Livefyre alle tue app mobili native.
 
-Per le implementazioni mobili sono disponibili diverse opzioni, a seconda dell'ambito di personalizzazione che pianifica di effettuare:
+Per le implementazioni mobili sono disponibili diverse opzioni, a seconda dell&#39;ambito di personalizzazione che pianifica di effettuare:
 
 * App Web per dispositivi mobili
 * Livefyre Android o ios SDK
@@ -27,7 +27,7 @@ I clienti che aprono una pagina Web su un dispositivo mobile ricevono automatica
 
 >[!NOTE]
 >
->Quando utilizzate un'app Livefyre in una visualizzazione Webid, il parametro Android [websettings. setdomstorageenabled](https://developer.android.com/reference/android/webkit/WebSettings.html) deve essere impostato su true. Se localstorage non è abilitato, Livefyre non sarà in grado di registrare un utente nell'app Livefyre.
+>Quando utilizzate un&#39;app Livefyre in una visualizzazione Webid, il parametro Android [websettings. setdomstorageenabled](https://developer.android.com/reference/android/webkit/WebSettings.html) deve essere impostato su true. Se localstorage non è abilitato, Livefyre non sarà in grado di registrare un utente nell&#39;app Livefyre.
 
 Per ottimizzare per i dispositivi mobili, Livefyre limita i commenti, il blog live e le funzionalità App chat impostate per:
 
@@ -48,7 +48,7 @@ Nelle app Web per dispositivi mobili, facendo clic sul nome di un autore vengono
 
 ## Livefyre Android SDK o iOS SDK {#section_zdz_spb_11b}
 
-Livefyre fornisce anche due SDK per dispositivi mobili: un SDK per iOS e un Android SDK. Questi SDK avvolgono i nostri endpoint HTTP, creati per fornire un metodo più semplice per inviare e ricevere dati. Con questi SDK non viene fornita alcuna interfaccia, consentendo una flessibilità maggiore con la modalità di visualizzazione e utilizzo del contenuto nell'app mobile.
+Livefyre fornisce anche due SDK per dispositivi mobili: un SDK per iOS e un Android SDK. Questi SDK avvolgono i nostri endpoint HTTP, creati per fornire un metodo più semplice per inviare e ricevere dati. Con questi SDK non viene fornita alcuna interfaccia, consentendo una flessibilità maggiore con la modalità di visualizzazione e utilizzo del contenuto nell&#39;app mobile.
 
 Gli SDK per Android e iOS supportano le seguenti funzionalità per commenti, blog live e chat:
 
@@ -58,9 +58,9 @@ Gli SDK per Android e iOS supportano le seguenti funzionalità per commenti, blo
 
 ## API HTTP {#section_yqb_qpb_11b}
 
-Le API HTTP sono il gruppo di endpoint che consente di creare conversazioni e contenuto sulla piattaforma Livefyre. Inoltre, consente a Livefyre di uscire dai flussi di caselle. Questa soluzione richiede un tempo di sviluppo maggiore dal team tecnico, offre una flessibilità maggiore quando si utilizza la suite di prodotti Livefyre e consente l'integrazione nativa dei dispositivi mobili.
+Le API HTTP sono il gruppo di endpoint che consente di creare conversazioni e contenuto sulla piattaforma Livefyre. Inoltre, consente a Livefyre di uscire dai flussi di caselle. Questa soluzione richiede un tempo di sviluppo maggiore dal team tecnico, offre una flessibilità maggiore quando si utilizza la suite di prodotti Livefyre e consente l&#39;integrazione nativa dei dispositivi mobili.
 
 >[!IMPORTANT]
 >
->**Non** create token di autenticazione utente all'interno del client mobile, perché questo richiede che la chiave di rete segreta di Livefyre venga esposta all'interno di un'app non sicura. Per una soluzione più solida e sicura, consulta la sezione Token autenticazione utente.
+>**Non** create token di autenticazione utente all&#39;interno del client mobile, perché questo richiede che la chiave di rete segreta di Livefyre venga esposta all&#39;interno di un&#39;app non sicura. Per una soluzione più solida e sicura, consulta la sezione Token autenticazione utente.
 

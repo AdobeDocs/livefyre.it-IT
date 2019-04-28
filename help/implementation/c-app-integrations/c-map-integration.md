@@ -23,7 +23,7 @@ Mappa consente di trasmettere il contenuto con tag su una mappa mondiale, consen
 
 ## Integrazione {#section_w2m_db2_d1b}
 
-Il modo più rapido per utilizzare Mappa consiste nell'usare la versione integrata nella CDN di Livefyre.
+Il modo più rapido per utilizzare Mappa consiste nell&#39;usare la versione integrata nella CDN di Livefyre.
 
 Innanzitutto, aggiungete [Livefyre. js](https://github.com/Livefyre/Livefyre.js) alla pagina.
 
@@ -31,7 +31,7 @@ Innanzitutto, aggiungete [Livefyre. js](https://github.com/Livefyre/Livefyre.js)
 <script src="https://cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-Quindi, posizionate l'elemento in cui verrà visualizzata l'app mappa.
+Quindi, posizionate l&#39;elemento in cui verrà visualizzata l&#39;app mappa.
 
 ```
 <div id="map" style="height: 500px;"></div>

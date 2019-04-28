@@ -1,8 +1,6 @@
 ---
-description: Personalizzate le opzioni di visualizzazione delle app in modo che corrispondano
-  al vostro marchio e stile e aggiungete funzionalità personalizzate.
-seo-description: Personalizzate le opzioni di visualizzazione delle app in modo che
-  corrispondano al vostro marchio e stile e aggiungete funzionalità personalizzate.
+description: Personalizzate le opzioni di visualizzazione delle app in modo che corrispondano al vostro marchio e stile e aggiungete funzionalità personalizzate.
+seo-description: Personalizzate le opzioni di visualizzazione delle app in modo che corrispondano al vostro marchio e stile e aggiungete funzionalità personalizzate.
 seo-title: Personalizzazioni app
 solution: Experience Manager
 title: Personalizzazioni app
@@ -27,7 +25,7 @@ Livefyre offre diversi modi per modificare le interazioni delle app e visualizza
 
 * **Modifica opzioni visualizzazione**
 
-   Modificate le opzioni di visualizzazione per le app utilizzando classi CSS, stringhe di testo localizzate e l'elemento app e limitazioni per i supporti.
+   Modificate le opzioni di visualizzazione per le app utilizzando classi CSS, stringhe di testo localizzate e l&#39;elemento app e limitazioni per i supporti.
 
 * **Evidenzia contenuto**
 
@@ -35,9 +33,9 @@ Livefyre offre diversi modi per modificare le interazioni delle app e visualizza
 
 * **Aggiungere pulsanti personalizzati**
 
-   Attivate azioni personalizzate quando gli utenti interagiscono con l'app Livefyre.
+   Attivate azioni personalizzate quando gli utenti interagiscono con l&#39;app Livefyre.
 
 * **Ascolto degli eventi delle app**
 
-   Utilizzate eventi javascript disponibili per personalizzare e tenere traccia dell'esperienza utente.
+   Utilizzate eventi javascript disponibili per personalizzare e tenere traccia dell&#39;esperienza utente.
 

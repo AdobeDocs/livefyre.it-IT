@@ -1,10 +1,6 @@
 ---
-description: Potete utilizzare Livefyre Identity con Microsoft Live Identity per consentire
-  agli utenti di utilizzare i propri accessi Facebook per interagire con le app sul
-  vostro sito.
-seo-description: Potete utilizzare Livefyre Identity con Microsoft Live Identity per
-  consentire agli utenti di utilizzare i propri accessi Facebook per interagire con
-  le app sul vostro sito.
+description: Potete utilizzare Livefyre Identity con Microsoft Live Identity per consentire agli utenti di utilizzare i propri accessi Facebook per interagire con le app sul vostro sito.
+seo-description: Potete utilizzare Livefyre Identity con Microsoft Live Identity per consentire agli utenti di utilizzare i propri accessi Facebook per interagire con le app sul vostro sito.
 seo-title: Creare un'app identità Microsoft Live da utilizzare con Livefyre Identity
 solution: Experience Manager
 title: Creare un'app identità Microsoft Live da utilizzare con Livefyre Identity
@@ -15,7 +11,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# Creare un'app identità Microsoft Live da utilizzare con Livefyre Identity{#create-a-microsoft-live-identity-app-for-use-with-livefyre-identity}
+# Creare un&#39;app identità Microsoft Live da utilizzare con Livefyre Identity{#create-a-microsoft-live-identity-app-for-use-with-livefyre-identity}
 
 Potete utilizzare Livefyre Identity con Microsoft Live Identity per consentire agli utenti di utilizzare i propri accessi Facebook per interagire con le app sul vostro sito.
 
@@ -24,15 +20,15 @@ Per consentire agli utenti di accedere con le credenziali Identità live Microso
 * ID client (chiave privata)
 * Segreto cliente (password)
 
-Per creare un'app di identità Microsoft Live da utilizzare con Livefyre Identity:
+Per creare un&#39;app di identità Microsoft Live da utilizzare con Livefyre Identity:
 
-1. Create o accedete a un account Microsoft Live all'indirizzo [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com/)
-1. Create una nuova o selezionate un'app esistente da utilizzare con Livefyre Identity.
-1. Fate clic **[!UICONTROL Add Platform]**su, quindi selezionate Web come tipo di piattaforma.
-1. Verificate che l **[!UICONTROL Allow Implicit Flow]** 'opzione sia selezionata e immettete l'URL di reindirizzamento, utilizzando il nome di rete invece di {network-name}: `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`.
+1. Create o accedete a un account Microsoft Live all&#39;indirizzo [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com/)
+1. Create una nuova o selezionate un&#39;app esistente da utilizzare con Livefyre Identity.
+1. Fate clic **[!UICONTROL Add Platform]** su, quindi selezionate Web come tipo di piattaforma.
+1. Verificate che l **[!UICONTROL Allow Implicit Flow]** &#39;opzione sia selezionata e immettete l&#39;URL di reindirizzamento, utilizzando il nome di rete invece di {network-name}: `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`.
 1. Generate una nuova coppia password/chiave per ottenere la chiave privata.
-1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**, attivate l' **[!UICONTROL Enable Microsoft Live Login]****[!UICONTROL On]**interruttore.
-1. Immettete l'ID client Microsoft Live e Microsoft Live Client Secret.
-1. Fate clic **[!UICONTROL Save Settings]**su.
+1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**, attivate l&#39; **[!UICONTROL Enable Microsoft Live Login]****[!UICONTROL On]** interruttore.
+1. Immettete l&#39;ID client Microsoft Live e Microsoft Live Client Secret.
+1. Fate clic **[!UICONTROL Save Settings]** su.
 
-Una volta completato, la pagina dei dettagli dell'app di Microsoft Live Identity includerà l'ID client dell'app (Chiave consumatore) e Segreto cliente (Segreto consumatore) da utilizzare nella pagina Impostazioni integrazione di Studio.
+Una volta completato, la pagina dei dettagli dell&#39;app di Microsoft Live Identity includerà l&#39;ID client dell&#39;app (Chiave consumatore) e Segreto cliente (Segreto consumatore) da utilizzare nella pagina Impostazioni integrazione di Studio.

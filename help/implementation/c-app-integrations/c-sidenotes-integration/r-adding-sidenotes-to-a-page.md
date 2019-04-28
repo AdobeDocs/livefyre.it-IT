@@ -15,29 +15,29 @@ source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 Livefyre offre diverse opzioni di configurazione per la posizione di Sidenotes sulla pagina:
 
-* L'opzione Selettori definisce gli elementi su cui dovrebbe essere visualizzato Sidenotes.
+* L&#39;opzione Selettori definisce gli elementi su cui dovrebbe essere visualizzato Sidenotes.
 * Gli ancoraggi rappresentano elementi che possono essere separati.
 * Il contenitore di thread personalizzato consente di definire dove si trova il thread Sidenotes rispetto al contenuto in uso.
-* L'opzione Conteggio Sidenotes consente di visualizzare il numero di filienalità aggiunte nel percorso specificato.
+* L&#39;opzione Conteggio Sidenotes consente di visualizzare il numero di filienalità aggiunte nel percorso specificato.
 * Utilizzate più `ConvConfig` oggetti per aggiungere Filienotes a più brani su una singola pagina.
 
 ## Selettori {#section_wyj_4sv_sy}
 
-L'opzione selettori consente a Sidenotes di trovare contenuto sulla pagina. Il valore di questa opzione consente di determinare in modo dinamico gli elementi che verranno utilizzati. Può trattarsi di una stringa di selezione (ad esempio,'# content p, # content img '), un oggetto jquery (ad esempio `$(‘#content’)`), un array di elementi DOM o un oggetto con due proprietà: includere ed escludere. L'app Sidenotes utilizzerà quindi gli elementi specificati o gli elementi corrispondenti sulla pagina. Se includete ed escludete le proprietà, Sidenotes analizzerà prima la pagina per trovare tutti gli elementi sulla proprietà Includi, quindi rimuovete gli elementi trovati nella proprietà exclude.
+L&#39;opzione selettori consente a Sidenotes di trovare contenuto sulla pagina. Il valore di questa opzione consente di determinare in modo dinamico gli elementi che verranno utilizzati. Può trattarsi di una stringa di selezione (ad esempio,&#39;# content p, # content img &#39;), un oggetto jquery (ad esempio `$(‘#content’)`), un array di elementi DOM o un oggetto con due proprietà: includere ed escludere. L&#39;app Sidenotes utilizzerà quindi gli elementi specificati o gli elementi corrispondenti sulla pagina. Se includete ed escludete le proprietà, Sidenotes analizzerà prima la pagina per trovare tutti gli elementi sulla proprietà Includi, quindi rimuovete gli elementi trovati nella proprietà exclude.
 
 ## Ancoraggi {#section_ehq_psv_sy}
 
-Gli ancoraggi rappresentano un elemento il cui contenuto può essere dichiarato sidencato. Un elemento di ancoraggio può contenere testo o un'immagine. L'opzione selettori passata durante la creazione dell'app determinerà gli elementi di ancoraggio.
+Gli ancoraggi rappresentano un elemento il cui contenuto può essere dichiarato sidencato. Un elemento di ancoraggio può contenere testo o un&#39;immagine. L&#39;opzione selettori passata durante la creazione dell&#39;app determinerà gli elementi di ancoraggio.
 
 ## ID di ancoraggio {#section_rsb_rsv_sy}
 
 Anchors on the page are identified using a `data-lf-anchor-id`.
 
-Per impostare l'ID di un ancoraggio, aggiungi l'attributo `data-lf-custom-anchor-id` all'elemento da mappare su un ancoraggio. Ciò è utile qualora il rilevamento automatico degli ancoraggi non riesca.
+Per impostare l&#39;ID di un ancoraggio, aggiungi l&#39;attributo `data-lf-custom-anchor-id` all&#39;elemento da mappare su un ancoraggio. Ciò è utile qualora il rilevamento automatico degli ancoraggi non riesca.
 
-Ad esempio, se pianificate di utilizzare un URL diverso per le versioni desktop e mobili di un'immagine, due URL diversi potrebbero essere mappati su diversi ancoraggi. Se, invece, gli articoli HTML sono `data-lf-custom-anchor-id` identici sia su dispositivi mobili che su desktop, l'elemento immagine verrà trattato come un singolo ancoraggio.
+Ad esempio, se pianificate di utilizzare un URL diverso per le versioni desktop e mobili di un&#39;immagine, due URL diversi potrebbero essere mappati su diversi ancoraggi. Se, invece, gli articoli HTML sono `data-lf-custom-anchor-id` identici sia su dispositivi mobili che su desktop, l&#39;elemento immagine verrà trattato come un singolo ancoraggio.
 
-Gli ancoraggi hanno un tipo determinato in modo dinamico, ma possono anche essere impostati in modo esplicito mediante l' `data-lf-custom-anchor-type` attributo.
+Gli ancoraggi hanno un tipo determinato in modo dinamico, ma possono anche essere impostati in modo esplicito mediante l&#39; `data-lf-custom-anchor-type` attributo.
 
 >[!NOTE]
 >
@@ -50,27 +50,27 @@ I tipi disponibili sono:
 * **File multimediali:** 3
 * **Rich:** 4
 
-Per [ulteriori informazioni](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md) sull'utilizzo del `updateAnchors` metodo per aggiungere contenuti Sidenote alla pagina, consultate il metodo updateanchors.
+Per [ulteriori informazioni](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md) sull&#39;utilizzo del `updateAnchors` metodo per aggiungere contenuti Sidenote alla pagina, consultate il metodo updateanchors.
 
 ## Contenitore thread personalizzato {#section_jdh_btv_sy}
 
-Utilizzate `threadContainerEl` l'opzione per specificare una posizione per un thread Sidenotes, diverso dalla posizione predefinita. Per impostazione predefinita, quando viene attivato un ancoraggio, le Filienotes vengono visualizzate accanto o sotto i contenuti pertinenti. Per modificare questa impostazione predefinita, usate l'elemento `threadContainerEl` per specificare l'elemento in cui dovrebbe essere visualizzato il thread.
+Utilizzate `threadContainerEl` l&#39;opzione per specificare una posizione per un thread Sidenotes, diverso dalla posizione predefinita. Per impostazione predefinita, quando viene attivato un ancoraggio, le Filienotes vengono visualizzate accanto o sotto i contenuti pertinenti. Per modificare questa impostazione predefinita, usate l&#39;elemento `threadContainerEl` per specificare l&#39;elemento in cui dovrebbe essere visualizzato il thread.
 
-Questo valore per questa opzione funziona come l'opzione selettori, fatta eccezione per il primo elemento valido.
+Questo valore per questa opzione funziona come l&#39;opzione selettori, fatta eccezione per il primo elemento valido.
 
 ## Conteggio utenti {#section_pld_ntv_sy}
 
-Utilizzate `numSidenotesEl` l'opzione per incorporare nella pagina un widget Conteggio Sidenotes facoltativo. Questa opzione accetta lo stesso input dell'opzione selettori ma utilizza solo il primo elemento valido nell'array di input.
+Utilizzate `numSidenotesEl` l&#39;opzione per incorporare nella pagina un widget Conteggio Sidenotes facoltativo. Questa opzione accetta lo stesso input dell&#39;opzione selettori ma utilizza solo il primo elemento valido nell&#39;array di input.
 
-Il widget decorerà l'elemento fornito o corrispondente e includerà l'icona di immissione Sidenotes, il numero di Sidenotes immesso in questa posizione e un'icona di aiuto.
+Il widget decorerà l&#39;elemento fornito o corrispondente e includerà l&#39;icona di immissione Sidenotes, il numero di Sidenotes immesso in questa posizione e un&#39;icona di aiuto.
 
 Facendo clic sul widget viene visualizzato un contenitore con una breve spiegazione di Sidenotes.
 
-Sia la spiegazione che il testo di esempio sono configurabili mediante stringhe personalizzate ( `questionExplanation` e `questionMockText`, rispettivamente). L'aspetto del widget del conteggio e del contenitore può anche essere configurato mediante stili personalizzati ( `numSidenotes` e `numSidenotesPopover`, rispettivamente).
+Sia la spiegazione che il testo di esempio sono configurabili mediante stringhe personalizzate ( `questionExplanation` e `questionMockText`, rispettivamente). L&#39;aspetto del widget del conteggio e del contenitore può anche essere configurato mediante stili personalizzati ( `numSidenotes` e `numSidenotesPopover`, rispettivamente).
 
 ## Aggiunta di raccolte Sidenotes a una singola pagina {#section_pjl_ptv_sy}
 
-Livefyre consente di aggiungere più raccolte Sidenotes a una singola pagina. Ad esempio, se la pagina include tre testimonianze di notizie, potreste voler includere tre iterazioni distinte dell'app Sidenotes. A tal fine, è necessario definire un `ConvConfig` oggetto separato per ogni istanza di Sidenotes che si desidera creare. Ad esempio:
+Livefyre consente di aggiungere più raccolte Sidenotes a una singola pagina. Ad esempio, se la pagina include tre testimonianze di notizie, potreste voler includere tre iterazioni distinte dell&#39;app Sidenotes. A tal fine, è necessario definire un `ConvConfig` oggetto separato per ogni istanza di Sidenotes che si desidera creare. Ad esempio:
 
 ```
 <html> 

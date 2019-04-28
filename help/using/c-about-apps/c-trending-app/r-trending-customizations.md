@@ -1,8 +1,6 @@
 ---
-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app
-  Mappa.
-seo-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app
-  Mappa.
+description: Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
+seo-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
 seo-title: Personalizzazioni di tendenza
 solution: Experience Manager
 title: Personalizzazioni di tendenza
@@ -15,14 +13,14 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Personalizzazioni di tendenza{#trending-customizations}
 
-Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
+Modificare le opzioni di dimensione, larghezza e interazione dell&#39;app Mappa.
 
 | Sito | Immettete il sito da cui verranno selezionate le App di tendenze. |
 |---|---|
-| Filtrare per tag app | Inserite un **[!UICONTROL App Tag]** 'indicazione di eventuali tendenze filtrate. Utilizza tag app per definire app specifiche da includere in Trend. In questo campo potete immettere un solo tag. |
+| Filtrare per tag app | Inserite un **[!UICONTROL App Tag]** &#39;indicazione di eventuali tendenze filtrate. Utilizza tag app per definire app specifiche da includere in Trend. In questo campo potete immettere un solo tag. |
 | Numero app | Inserite il numero di app (più attive) da visualizzare. |
-| Includere un grafico a barre | Se abilitata, l'app visualizzerà i grafici a barre con l'elenco App. |
-| Permalinink app | Se abilitata, facendo clic sul titolo di un'app viene aperto in una nuova scheda. |
+| Includere un grafico a barre | Se abilitata, l&#39;app visualizzerà i grafici a barre con l&#39;elenco App. |
+| Permalinink app | Se abilitata, facendo clic sul titolo di un&#39;app viene aperto in una nuova scheda. |
 
 Le app di tendenza consentono di mostrare le app più attive in un determinato sito visualizzando le app principali dalla maggior parte dei casi, con un grafico a barre che mostra la popolarità relativa per ogni app visualizzata.
 

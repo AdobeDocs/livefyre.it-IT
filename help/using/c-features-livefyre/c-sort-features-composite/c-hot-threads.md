@@ -1,8 +1,6 @@
 ---
-description: Visualizza i 25 thread più popolari all'interno dell'app, ordinati per
-  popolarità.
-seo-description: Visualizza i 25 thread più popolari all'interno dell'app, ordinati
-  per popolarità.
+description: Visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità.
+seo-description: Visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità.
 seo-title: Hot Thread
 solution: Experience Manager
 title: Hot Thread
@@ -15,27 +13,27 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Hot Thread{#hot-threads}
 
-Visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità.
+Visualizza i 25 thread più popolari all&#39;interno dell&#39;app, ordinati per popolarità.
 
-La visualizzazione Hot Thread (Thread sensibile) visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità. Ciò include tutto il contenuto dell'app, inclusi i post manuali, contenuto da socialsync e contenuto dai flussi.
+La visualizzazione Hot Thread (Thread sensibile) visualizza i 25 thread più popolari all&#39;interno dell&#39;app, ordinati per popolarità. Ciò include tutto il contenuto dell&#39;app, inclusi i post manuali, contenuto da socialsync e contenuto dai flussi.
 
 >[!NOTE]
 >
 >Hot Thread è disponibile sui commenti, ma non sul blog live o sulla chat.
 
-Per ulteriori informazioni sull'abilitazione della visualizzazione Hot Thread, consultate Studio > Impostazioni rete.
+Per ulteriori informazioni sull&#39;abilitazione della visualizzazione Hot Thread, consultate Studio &gt; Impostazioni rete.
 
 ## Anteprime {#section_xhh_2dl_wy}
 
-Facendo clic **[!UICONTROL Hot Threads]** sulla parte superiore del flusso viene sostituito il contenuto dell'app con anteprime contenenti fino a 25 thread con i più alti «punteggi popolarità» dall'app. Viene calcolato un punteggio popolarità per ogni thread utilizzando l'algoritmo proprietario e evolutivo di Livefyre. L'anteprima visualizza un commento di livello principale e fino a 5 delle risposte più comuni, nonché l'elemento principale diretto di ciascuna di queste 5 risposte principali.
+Facendo clic **[!UICONTROL Hot Threads]** sulla parte superiore del flusso viene sostituito il contenuto dell&#39;app con anteprime contenenti fino a 25 thread con i più alti «punteggi popolarità» dall&#39;app. Viene calcolato un punteggio popolarità per ogni thread utilizzando l&#39;algoritmo proprietario e evolutivo di Livefyre. L&#39;anteprima visualizza un commento di livello principale e fino a 5 delle risposte più comuni, nonché l&#39;elemento principale diretto di ciascuna di queste 5 risposte principali.
 
 In assenza di un thread nel flusso con valutazione popolarità, non verranno visualizzati commenti e gli utenti visualizzeranno il messaggio **[!UICONTROL There are not enough threads yet]** e un collegamento a **[!UICONTROL See what’s new]**.
 
-L'elenco Hot Threads (Thread sensibile) non è in tempo reale e viene aggiornato solo quando la pagina viene aggiornata o è selezionata un'altra vista (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**). (Se un commento è moderato e Bozò d o trashed, verrà rimosso immediatamente dall'elenco).
+L&#39;elenco Hot Threads (Thread sensibile) non è in tempo reale e viene aggiornato solo quando la pagina viene aggiornata o è selezionata un&#39;altra vista (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**). (Se un commento è moderato e Bozò d o trashed, verrà rimosso immediatamente dall&#39;elenco).
 
 ## Visualizzazione sottogruppo di lavoro {#section_zmf_ddl_wy}
 
-Nell'anteprima, fate clic per **[!UICONTROL Show entire Thread]** sostituire la visualizzazione Hot Thread con una visualizzazione per sottogruppi di lavoro del thread nel contesto, incluse tutte le risposte all'interno del thread. (Nessun altro thread viene visualizzato nella visualizzazione per sottogruppi di lavoro.) Fate clic per **[!UICONTROL Hot Threads]** tornare alla visualizzazione Hot Thread.
+Nell&#39;anteprima, fate clic per **[!UICONTROL Show entire Thread]** sostituire la visualizzazione Hot Thread con una visualizzazione per sottogruppi di lavoro del thread nel contesto, incluse tutte le risposte all&#39;interno del thread. (Nessun altro thread viene visualizzato nella visualizzazione per sottogruppi di lavoro.) Fate clic per **[!UICONTROL Hot Threads]** tornare alla visualizzazione Hot Thread.
 
 I moderatori possono visualizzare tutto il contenuto in sospeso nella visualizzazione per sottogruppi di lavoro e la moderazione in linea è disponibile. Mi piace, le risposte, le modifiche e le azioni di moderazione continueranno a essere trasmesse in tempo reale nella vista per sottogruppi di lavoro.
 
@@ -45,7 +43,7 @@ Quando si pubblica un commento dalla casella dei commenti nella vista Hot Thread
 
 Le risposte o i Mi piace pubblicati nella visualizzazione Hot Threads vengono visualizzati nel flusso senza modificarne le visualizzazioni. Le opzioni di ordinamento e il modulo di notifica dei commenti non sono disponibili nella visualizzazione Hot Thread.
 
-Per ottimizzare le prestazioni, Livefyre memorizza i dati per un massimo di 2 minuti. Potrebbe verificarsi un leggero ritardo nell'elenco dei thread più recenti.
+Per ottimizzare le prestazioni, Livefyre memorizza i dati per un massimo di 2 minuti. Potrebbe verificarsi un leggero ritardo nell&#39;elenco dei thread più recenti.
 
 
 

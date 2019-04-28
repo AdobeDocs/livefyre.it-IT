@@ -1,8 +1,6 @@
 ---
-description: Restituisce un oggetto Collection creata come tipo Chat. Eseguite create_
-  or_ update () dall'oggetto Collection per completare il processo di creazione.
-seo-description: Restituisce un oggetto Collection creata come tipo Chat. Eseguite
-  create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
+description: Restituisce un oggetto Collection creata come tipo Chat. Eseguite create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
+seo-description: Restituisce un oggetto Collection creata come tipo Chat. Eseguite create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
 seo-title: Metodo Site Buildchatcollection
 solution: Experience Manager
 title: Metodo Site Buildchatcollection
@@ -15,13 +13,13 @@ source-git-commit: 2908c6988c706a49c391f0e607bb641bce3a7f0d
 
 # Metodo Site Buildchatcollection{#buildchatcollection-site-method}
 
-Restituisce un oggetto Collection creata come tipo Chat. Eseguite create_ or_ update () dall'oggetto Collection per completare il processo di creazione.
+Restituisce un oggetto Collection creata come tipo Chat. Eseguite create_ or_ update () dall&#39;oggetto Collection per completare il processo di creazione.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
 | title | Stringa | Titolo della raccolta. |
-| Articleid | Stringa | Un ID articolo univoco che avete scelto di identificare una raccolta all'interno del sito. |
-| url | Stringa | L'URL assoluto canonico per questa raccolta. |
+| Articleid | Stringa | Un ID articolo univoco che avete scelto di identificare una raccolta all&#39;interno del sito. |
+| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

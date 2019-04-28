@@ -1,8 +1,6 @@
 ---
-description: Qualsiasi utente che ha eseguito l'accesso al sistema di autenticazione
-  del sito può pubblicare una revisione tramite questo processo.
-seo-description: Qualsiasi utente che ha eseguito l'accesso al sistema di autenticazione
-  del sito può pubblicare una revisione tramite questo processo.
+description: Qualsiasi utente che ha eseguito l'accesso al sistema di autenticazione del sito può pubblicare una revisione tramite questo processo.
+seo-description: Qualsiasi utente che ha eseguito l'accesso al sistema di autenticazione del sito può pubblicare una revisione tramite questo processo.
 seo-title: Pubblicare una revisione
 solution: Experience Manager
 title: Pubblicare una revisione
@@ -15,13 +13,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Pubblicare una revisione{#post-a-review}
 
-Qualsiasi utente che ha eseguito l'accesso al sistema di autenticazione del sito può pubblicare una revisione tramite questo processo.
+Qualsiasi utente che ha eseguito l&#39;accesso al sistema di autenticazione del sito può pubblicare una revisione tramite questo processo.
 
-Gli utenti possono pubblicare fino a una revisione in ciascuna raccolta revisioni. Solo gli utenti che hanno eseguito l'accesso possono pubblicare una revisione.
+Gli utenti possono pubblicare fino a una revisione in ciascuna raccolta revisioni. Solo gli utenti che hanno eseguito l&#39;accesso possono pubblicare una revisione.
 
-1. Fate clic **[!UICONTROL Write review]**su. Viene visualizzato l'Editor di revisione.
-1. Inserite il **[!UICONTROL Review Title]**valore (massimo 150 caratteri).
-1. Inserite i **[!UICONTROL Review Body]** (circa 8000 caratteri). Quando si fa clic sul **[!UICONTROL Review Body]** campo, tutte le funzioni disponibili verranno visualizzate nella parte inferiore dell'editor, ad esempio formattazione RTF, riferimenti agli amici, condivisione social network e pubblicazione della revisione.
-1. Selezionate un **[!UICONTROL Rating]** 'opzione facendo clic sulle stelle sopra l'area di modifica della revisione.
+1. Fate clic **[!UICONTROL Write review]** su. Viene visualizzato l&#39;Editor di revisione.
+1. Inserite il **[!UICONTROL Review Title]** valore (massimo 150 caratteri).
+1. Inserite i **[!UICONTROL Review Body]** (circa 8000 caratteri). Quando si fa clic sul **[!UICONTROL Review Body]** campo, tutte le funzioni disponibili verranno visualizzate nella parte inferiore dell&#39;editor, ad esempio formattazione RTF, riferimenti agli amici, condivisione social network e pubblicazione della revisione.
+1. Selezionate un **[!UICONTROL Rating]** &#39;opzione facendo clic sulle stelle sopra l&#39;area di modifica della revisione.
 1. Fate clic su **[!UICONTROL Post review]** per pubblicare la revisione nella raccolta e visualizzarla nella parte superiore dello streaming.
 1. Fai clic **[!UICONTROL Show review]** dopo aver pubblicato per evidenziare la revisione, come mostrato di seguito.

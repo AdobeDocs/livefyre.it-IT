@@ -1,8 +1,6 @@
 ---
-description: Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink
-  del contenuto.
-seo-description: Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink
-  del contenuto.
+description: Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink del contenuto.
+seo-description: Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink del contenuto.
 seo-title: Permalinks
 solution: Experience Manager
 title: Permalinks
@@ -17,23 +15,23 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink del contenuto.
 
-I collegamenti permalali consentono di collegare commenti archiviati o contenuti all'interno dei flussi. Per abilitare questa funzione, Livefyre usa un formato URL predefinito: ** fyre. it**. Questo formato può essere personalizzato in base al formato bit. ly standard.
+I collegamenti permalali consentono di collegare commenti archiviati o contenuti all&#39;interno dei flussi. Per abilitare questa funzione, Livefyre usa un formato URL predefinito: ** fyre. it**. Questo formato può essere personalizzato in base al formato bit. ly standard.
 
 ## Visualizzazione Permalink {#section_mxd_wwg_wy}
 
-Se gli utenti fanno clic su un collegamento permalale da un social network a un'app di contenuto Livefyre, verranno indirizzati al flusso di contenuto Livefyre. Il contenuto verrà visualizzato in una visualizzazione per sottogruppi di lavoro dello streaming, subito sotto l'editor, con il contesto completo visualizzato. Sotto l'avatar viene visualizzata una linea blu per il contenuto indefinito. (Questa linea blu scompare dopo alcuni secondi.)
+Se gli utenti fanno clic su un collegamento permalale da un social network a un&#39;app di contenuto Livefyre, verranno indirizzati al flusso di contenuto Livefyre. Il contenuto verrà visualizzato in una visualizzazione per sottogruppi di lavoro dello streaming, subito sotto l&#39;editor, con il contesto completo visualizzato. Sotto l&#39;avatar viene visualizzata una linea blu per il contenuto indefinito. (Questa linea blu scompare dopo alcuni secondi.)
 
 Se il contenuto con tendenze viene eliminato, nella visualizzazione sottogruppo di lavoro viene visualizzato un messaggio a tale effetto.
 
 ## Autorizzazioni personalizzate {#section_uyn_5wg_wy}
 
-Se desiderate creare collegamenti personalizzati per commenti durante la condivisione delle conversazioni, potete utilizzare l'account Bitly, anziché l'URL standard Livefyre (fyre. it). L'utilizzo dell'account Bitly ti aiuterà a ricordare agli utenti che visita il contenuto sul tuo sito quando fai clic su un problema.
+Se desiderate creare collegamenti personalizzati per commenti durante la condivisione delle conversazioni, potete utilizzare l&#39;account Bitly, anziché l&#39;URL standard Livefyre (fyre. it). L&#39;utilizzo dell&#39;account Bitly ti aiuterà a ricordare agli utenti che visita il contenuto sul tuo sito quando fai clic su un problema.
 
-Per implementare questa funzione, accedete a **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]**voi e inserite la chiave API Bitly e il nome utente.
+Per implementare questa funzione, accedete a **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]** voi e inserite la chiave API Bitly e il nome utente.
 
 >[!NOTE]
 >
->Per evitare l'uso di URL non necessari creati per nome, gli inchiostri Bitly vengono generati in base alle esigenze.
+>Per evitare l&#39;uso di URL non necessari creati per nome, gli inchiostri Bitly vengono generati in base alle esigenze.
 
 App che utilizzano questa funzione:
 

@@ -13,11 +13,11 @@ source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 # Cambiare i tipi di app di base{#switch-core-app-types}
 
-Scopri come passare da una conversazione App Type a un'altra.
+Scopri come passare da una conversazione App Type a un&#39;altra.
 
 Lifefyre consente di modificare le raccolte da un tipo di applicazione di base Livefyre a un altro (Commenti, Blog live o Chat) modificando semplicemente alcune impostazioni nei `collectionMeta` tuoi dati.
 
-Per implementare un tipo specifico di app, aggiungere un nuovo campo all `collectionMeta` 'oggetto. I commenti sono l'impostazione predefinita, pertanto non dovrai effettuare questi aggiornamenti se si tratta dell'app desiderata. Per passare a un'app diversa dopo la creazione di una raccolta, passa un valore checksum durante l'inizializzazione dell'app. Ulteriori informazioni sulla creazione di un valore checksum nella documentazione `collectionMeta` token.
+Per implementare un tipo specifico di app, aggiungere un nuovo campo all `collectionMeta` &#39;oggetto. I commenti sono l&#39;impostazione predefinita, pertanto non dovrai effettuare questi aggiornamenti se si tratta dell&#39;app desiderata. Per passare a un&#39;app diversa dopo la creazione di una raccolta, passa un valore checksum durante l&#39;inizializzazione dell&#39;app. Ulteriori informazioni sulla creazione di un valore checksum nella documentazione `collectionMeta` token.
 
 ## Blog live {#section_kvj_3jj_11b}
 

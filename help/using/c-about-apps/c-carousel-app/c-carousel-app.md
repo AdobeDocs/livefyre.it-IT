@@ -1,8 +1,6 @@
 ---
-description: Esposizione del contenuto migliore in una visualizzazione orizzontale
-  e scorrevole.
-seo-description: Esposizione del contenuto migliore in una visualizzazione orizzontale
-  e scorrevole.
+description: Esposizione del contenuto migliore in una visualizzazione orizzontale e scorrevole.
+seo-description: Esposizione del contenuto migliore in una visualizzazione orizzontale e scorrevole.
 seo-title: Carosello
 solution: Experience Manager
 title: Carosello
@@ -17,13 +15,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Esposizione del contenuto migliore in una visualizzazione orizzontale e scorrevole.
 
-Carosello è un'app Livefyre che consente di mostrare il contenuto migliore in una visualizzazione orizzontale e scorrevole. Usa questa app su pagine con beni reali limitati, invitando le persone a provare singolarmente ogni contenuto curato, in tempo reale. Un carosello consente agli utenti di sfogliare il contenuto, quindi fare clic per selezionare un elemento e aprirlo in un modale a comparsa.
+Carosello è un&#39;app Livefyre che consente di mostrare il contenuto migliore in una visualizzazione orizzontale e scorrevole. Usa questa app su pagine con beni reali limitati, invitando le persone a provare singolarmente ogni contenuto curato, in tempo reale. Un carosello consente agli utenti di sfogliare il contenuto, quindi fare clic per selezionare un elemento e aprirlo in un modale a comparsa.
 
-Per un'esperienza di visualizzazione meno semplice, un carosello visualizza i contenuti più recenti e mantiene la visualizzazione corrente fino a quando l'utente ricarica il set successivo di elementi.
+Per un&#39;esperienza di visualizzazione meno semplice, un carosello visualizza i contenuti più recenti e mantiene la visualizzazione corrente fino a quando l&#39;utente ricarica il set successivo di elementi.
 
 Un carosello visualizza Livefyre e il contenuto in streaming come presentazione orizzontale. Un carosello consente agli utenti di sfogliare il contenuto, quindi fare clic per selezionare un elemento e aprirlo in un modale a comparsa.
 
-Per un'esperienza di visualizzazione ottimale, un carosello visualizza i contenuti più recenti e mantiene la visualizzazione corrente finché l'utente aggiorna la pagina.
+Per un&#39;esperienza di visualizzazione ottimale, un carosello visualizza i contenuti più recenti e mantiene la visualizzazione corrente finché l&#39;utente aggiorna la pagina.
 
 ## Che tipo di contenuto posso pubblicare in un carosello? {#section_ysb_4ym_wy}
 
@@ -47,7 +45,7 @@ Origini contenuto supportate:
 
 ## In che modo un visitatore del sito vede il contenuto in un carosello? Posso trasmettere lo streaming contenuto in un carosello? {#section_jvs_mnt_wy}
 
-Un visitatore del sito visualizza contenuto popolato in un carosello da Studio da Studio Studio o Ricerca social network. Se il nuovo contenuto viene pubblicato nell'app mentre un visitatore è sulla pagina, il visitatore del sito deve aggiornare la pagina per visualizzare il contenuto aggiornato. Il nuovo contenuto pubblicato viene visualizzato nell'app dopo 5 minuti.
+Un visitatore del sito visualizza contenuto popolato in un carosello da Studio da Studio Studio o Ricerca social network. Se il nuovo contenuto viene pubblicato nell&#39;app mentre un visitatore è sulla pagina, il visitatore del sito deve aggiornare la pagina per visualizzare il contenuto aggiornato. Il nuovo contenuto pubblicato viene visualizzato nell&#39;app dopo 5 minuti.
 
 ## Quanti caratteri vengono visualizzati da un carosello per ogni scheda? {#section_qsx_xrt_wy}
 
@@ -55,7 +53,7 @@ Un carosello ricalcola dinamicamente il numero di caratteri da visualizzare in b
 
 ## Come si presenta un URL per una scheda in un carosello? {#section_hnh_wrt_wy}
 
-Se un URL esiste, l'URL viene evidenziato in una barra quando si fa clic sul contenuto. Se sono presenti più URL, la scheda evidenzia un solo URL. Eventuali URL aggiuntivi sono troncati da una puntini di sospensione («…»).
+Se un URL esiste, l&#39;URL viene evidenziato in una barra quando si fa clic sul contenuto. Se sono presenti più URL, la scheda evidenzia un solo URL. Eventuali URL aggiuntivi sono troncati da una puntini di sospensione («…»).
 
 ## Come si presenta un carosello su piattaforme diverse? {#section_hpc_5rt_wy}
 
@@ -73,20 +71,20 @@ Potete scegliere la modalità da usare:
 
 Un visitatore del sito può:
 
-* Fai clic su un'immagine per visualizzare un'immagine più grande.
+* Fai clic su un&#39;immagine per visualizzare un&#39;immagine più grande.
 * Fate clic su un video per visualizzarlo.
 * Fate clic sul contenuto con più elementi per scorrere gli elementi.
 
 ## Cosa succede al contenuto per gli elementi in un carosello? {#section_tdp_cxm_wy}
 
-In davanti viene visualizzato il contenuto con un tag «Contenuti». Se funzioni più di un elemento contenuto, ogni elemento verrà visualizzato davanti all'app in base alla data pubblicata.
+In davanti viene visualizzato il contenuto con un tag «Contenuti». Se funzioni più di un elemento contenuto, ogni elemento verrà visualizzato davanti all&#39;app in base alla data pubblicata.
 
-## Cos'altro dovrei sapere su come un carosello si trova su un sito Web? {#section_r3q_bxm_wy}
+## Cos&#39;altro dovrei sapere su come un carosello si trova su un sito Web? {#section_r3q_bxm_wy}
 
 Numero contenuto: Il conteggio dei contenuti rimane nella parte inferiore del carosello e aumenta o diminuisce quando un utente scorre.
 
-A capo automatico: Un carosello va dall'ultimo elemento al primo elemento. Se nel carosello sono presenti meno di sei elementi, il carosello si interrompe al sesto post e non torna al primo post.
+A capo automatico: Un carosello va dall&#39;ultimo elemento al primo elemento. Se nel carosello sono presenti meno di sei elementi, il carosello si interrompe al sesto post e non torna al primo post.
 
 ## Posso aggiungere un pulsante Caricamento a un carosello? {#section_ozs_1xm_wy}
 
-Potete aggiungere un pulsante Carica a un carosello. Se pubblicate il pulsante di caricamento nell'app mentre un visitatore è sulla pagina, il visitatore del sito deve aggiornare la pagina per visualizzare il contenuto aggiornato. Il pulsante Carica verrà visualizzato nell'app dopo fino a 5 minuti.
+Potete aggiungere un pulsante Carica a un carosello. Se pubblicate il pulsante di caricamento nell&#39;app mentre un visitatore è sulla pagina, il visitatore del sito deve aggiornare la pagina per visualizzare il contenuto aggiornato. Il pulsante Carica verrà visualizzato nell&#39;app dopo fino a 5 minuti.

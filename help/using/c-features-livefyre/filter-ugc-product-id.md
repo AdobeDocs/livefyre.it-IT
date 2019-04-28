@@ -1,8 +1,6 @@
 ---
-description: Il filtro di UGC per ID prodotto consente di incorporare la stessa app
-  su più pagine, visualizzando UGC specifico per ogni pagina.
-seo-description: Il filtro di UGC per ID prodotto consente di incorporare la stessa
-  app su più pagine, visualizzando UGC specifico per ogni pagina.
+description: Il filtro di UGC per ID prodotto consente di incorporare la stessa app su più pagine, visualizzando UGC specifico per ogni pagina.
+seo-description: Il filtro di UGC per ID prodotto consente di incorporare la stessa app su più pagine, visualizzando UGC specifico per ogni pagina.
 seo-title: Filtrare UGC per ID prodotto
 title: Filtrare UGC per ID prodotto
 uuid: 98108 ddb -5710-4331-891 b -7 e 1 bbb 106059
@@ -20,7 +18,7 @@ Per filtrare UGC per ID prodotto, effettuate le seguenti operazioni:
 
 1. In Livefyre Studio, passate alla **[!UICONTROL Apps]** scheda.
 
-1. Selezionate l'app da modificare.
+1. Selezionate l&#39;app da modificare.
 
 1. Selezionare la scheda Designer nella barra a sinistra.
 
@@ -32,17 +30,17 @@ Per filtrare UGC per ID prodotto, effettuate le seguenti operazioni:
 Usate CTRL/Comando + clic per selezionare più cartelle.
 
 1. Disattiva **[!UICONTROL Show related content]**.
-Quando abilitato, il contenuto filtrato utilizzando l' `data-lf-attr-product` attributo verrà visualizzato per primo, seguita da tutti gli altri contenuti dell'app.
+Quando abilitato, il contenuto filtrato utilizzando l&#39; `data-lf-attr-product` attributo verrà visualizzato per primo, seguita da tutti gli altri contenuti dell&#39;app.
 
-1. Fate clic **[!UICONTROL Publish]**su.
+1. Fate clic **[!UICONTROL Publish]** su.
 
 1. Inserite gli ID prodotto che desiderate filtrare nel codice risultante.
 
 >[!NOTE]
 >
->Per individuare gli ID prodotto, andate alla **[!UICONTROL Settings > Products]**pagina. Individua il prodotto desiderato e selezionalo e l'ID viene visualizzato.
+>Per individuare gli ID prodotto, andate alla **[!UICONTROL Settings > Products]** pagina. Individua il prodotto desiderato e selezionalo e l&#39;ID viene visualizzato.
 
-Ad esempio, per un'app Media Wall viene generato il seguente codice:
+Ad esempio, per un&#39;app Media Wall viene generato il seguente codice:
 
 ```
 <script type="text/javascript" src="https://cdn.livefyre.com/
@@ -55,7 +53,7 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-Per assegnare tag a un prodotto, sostituitelo `<product 1>` nell `data-lf-attr-product` 'attributo con l'ID prodotto desiderato. Potete assegnare un tag a un prodotto o più semplicemente aggiungendo altri ID prodotto separati da virgola. I prodotti devono essere contenuti nella cartella di prodotto o cartelle di livello principale selezionate al Passaggio 5.
+Per assegnare tag a un prodotto, sostituitelo `<product 1>` nell `data-lf-attr-product` &#39;attributo con l&#39;ID prodotto desiderato. Potete assegnare un tag a un prodotto o più semplicemente aggiungendo altri ID prodotto separati da virgola. I prodotti devono essere contenuti nella cartella di prodotto o cartelle di livello principale selezionate al Passaggio 5.
 
 Il segmento di codice modificato viene visualizzato come:
 
@@ -70,4 +68,4 @@ Livefyre.js"></script><div class="lf-app-embed" data-lfapp="
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-L'app ora visualizza solo gli ID prodotto con tag.
+L&#39;app ora visualizza solo gli ID prodotto con tag.

@@ -17,9 +17,9 @@ Ignorate questa sezione se utilizzate un sistema di gestione utenti personalizza
 
 Gli utenti possono accedere alle app utilizzando i propri account social media o un account basato su e-mail creato esclusivamente per il sito.
 
-Il pacchetto Livefyre Identity contiene informazioni necessarie per delegare l'autenticazione. (Pertanto, non è necessario un delegato autenticato esplicito per l'identità Livefyre).
+Il pacchetto Livefyre Identity contiene informazioni necessarie per delegare l&#39;autenticazione. (Pertanto, non è necessario un delegato autenticato esplicito per l&#39;identità Livefyre).
 
-Per aggiungere social sign-on all'integrazione di Livefyre:
+Per aggiungere social sign-on all&#39;integrazione di Livefyre:
 
 1. Create le vostre app social.
 1. Collegate le app a Livefyre.

@@ -1,8 +1,6 @@
 ---
-description: Molte funzioni sono disponibili con l'App commenti per incorporare conversazioni
-  in tempo reale nel sito.
-seo-description: Molte funzioni sono disponibili con l'App commenti per incorporare
-  conversazioni in tempo reale nel sito.
+description: Molte funzioni sono disponibili con l'App commenti per incorporare conversazioni in tempo reale nel sito.
+seo-description: Molte funzioni sono disponibili con l'App commenti per incorporare conversazioni in tempo reale nel sito.
 seo-title: Funzioni dei commenti
 solution: Experience Manager
 title: Funzioni dei commenti
@@ -15,7 +13,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni dei commenti{#comments-features}
 
-Molte funzioni sono disponibili con l'App commenti per incorporare conversazioni in tempo reale nel sito.
+Molte funzioni sono disponibili con l&#39;App commenti per incorporare conversazioni in tempo reale nel sito.
 
 * [Autenticazione](/help/using/c-features-livefyre/c-authentication.md#c_authentication)
 * [Avatar](/help/using/c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)

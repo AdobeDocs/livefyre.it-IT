@@ -1,8 +1,6 @@
 ---
-description: Visualizza i dettagli del contenuto per raccogliere ulteriori informazioni
-  su una parte del contenuto prima di pubblicarla.
-seo-description: Visualizza i dettagli del contenuto per raccogliere ulteriori informazioni
-  su una parte del contenuto prima di pubblicarla.
+description: Visualizza i dettagli del contenuto per raccogliere ulteriori informazioni su una parte del contenuto prima di pubblicarla.
+seo-description: Visualizza i dettagli del contenuto per raccogliere ulteriori informazioni su una parte del contenuto prima di pubblicarla.
 seo-title: Visualizza dettagli contenuto
 title: Visualizza dettagli contenuto
 uuid: bca 8 dcb 7-31 d 6-475 c -9898-1 b 6436 d 2457 d
@@ -20,12 +18,12 @@ Passa il cursore su una parte del contenuto restituito, quindi seleziona **[!UIC
 
 **[!UICONTROL Tweets]** display:
 
-* **[!UICONTROL Author information]**, inclusi nome e nome utente, il numero di Post, Successivo e Follower, la posizione e il sito Web (se disponibili), la data in cui è stato creato l'account Twitter e un collegamento al profilo Twitter.
+* **[!UICONTROL Author information]**, inclusi nome e nome utente, il numero di Post, Successivo e Follower, la posizione e il sito Web (se disponibili), la data in cui è stato creato l&#39;account Twitter e un collegamento al profilo Twitter.
 * **[!UICONTROL Content information]**, inclusa la sorgente, la data di creazione, il numero di Retweets e Likes.
 
 **[!UICONTROL Instagram posts]** display:
 
-* **[!UICONTROL Author information]** inclusi il nome e il nome utente dell'autore, il numero di Post, Successivo e Follower, il sito Web (se disponibile) e un collegamento per visualizzare il proprio profilo Istagram.
-* **[!UICONTROL Content information]** includere l'origine, la data creata, il numero di Piace e Commenti e le dimensioni dell'immagine.
+* **[!UICONTROL Author information]** inclusi il nome e il nome utente dell&#39;autore, il numero di Post, Successivo e Follower, il sito Web (se disponibile) e un collegamento per visualizzare il proprio profilo Istagram.
+* **[!UICONTROL Content information]** includere l&#39;origine, la data creata, il numero di Piace e Commenti e le dimensioni dell&#39;immagine.
 
-Il contenuto già salvato nella Libreria risorse ne visualizza il percorso all'interno della libreria e tutti i tag o le stelle aggiunti.
+Il contenuto già salvato nella Libreria risorse ne visualizza il percorso all&#39;interno della libreria e tutti i tag o le stelle aggiunti.

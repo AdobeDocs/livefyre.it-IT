@@ -1,8 +1,6 @@
 ---
-description: Scegli in che modo i visitatori del sito interagiscono con App e in che
-  modo possono interagire con il contenuto.
-seo-description: Scegli in che modo i visitatori del sito interagiscono con App e
-  in che modo possono interagire con il contenuto.
+description: Scegli in che modo i visitatori del sito interagiscono con App e in che modo possono interagire con il contenuto.
+seo-description: Scegli in che modo i visitatori del sito interagiscono con App e in che modo possono interagire con il contenuto.
 seo-title: Funzioni dei contributi sul sito
 solution: Experience Manager
 title: Funzioni dei contributi sul sito
@@ -21,7 +19,7 @@ Scegli in che modo i visitatori del sito interagiscono con App e in che modo pos
 
 Potete offrire agli utenti finali la possibilità di votare in un sondaggio. Incorporate il sondaggio su una pagina per consentire ai visitatori del sito di contribuire e votare.
 
-Non è necessario impostare l'autenticazione per utilizzare questa funzione.
+Non è necessario impostare l&#39;autenticazione per utilizzare questa funzione.
 
 App che utilizzano questa funzione:
 
@@ -29,9 +27,9 @@ App che utilizzano questa funzione:
 
 ## Caricamento testo {#section_pwy_m2s_d1b}
 
-I visitatori del sito possono contribuire all'app scrivendo post di testo. Questo può essere fatto utilizzando le app di conversazione o il pulsante Carica per le app di visualizzazione.
+I visitatori del sito possono contribuire all&#39;app scrivendo post di testo. Questo può essere fatto utilizzando le app di conversazione o il pulsante Carica per le app di visualizzazione.
 
-Per utilizzare questa funzione, dovete configurare l'autenticazione.
+Per utilizzare questa funzione, dovete configurare l&#39;autenticazione.
 
 App che utilizzano questa funzione:
 
@@ -45,9 +43,9 @@ App che utilizzano questa funzione:
 
 ## Caricamento video {#section_mlm_42s_d1b}
 
-I visitatori del sito possono contribuire all'app caricando i video. Questa operazione può essere eseguita utilizzando le app di conversazione o il pulsante di caricamento per le app di visualizzazione. Per informazioni su come un'app supporta questa funzione, consulta la documentazione relativa alle singole app. richiede autenticazione
+I visitatori del sito possono contribuire all&#39;app caricando i video. Questa operazione può essere eseguita utilizzando le app di conversazione o il pulsante di caricamento per le app di visualizzazione. Per informazioni su come un&#39;app supporta questa funzione, consulta la documentazione relativa alle singole app. richiede autenticazione
 
-Per utilizzare questa funzione, dovete configurare l'autenticazione.
+Per utilizzare questa funzione, dovete configurare l&#39;autenticazione.
 
 App che utilizzano questa funzione:
 
@@ -55,11 +53,11 @@ App che utilizzano questa funzione:
 
 ## Pulsante Carica compatibile {#section_vzs_t2s_d1b}
 
-Potete scegliere di visualizzare un pulsante Carica nell'app che consente ai visitatori del sito di caricare testo o contenuti multimediali in un'app o nella vostra libreria.
+Potete scegliere di visualizzare un pulsante Carica nell&#39;app che consente ai visitatori del sito di caricare testo o contenuti multimediali in un&#39;app o nella vostra libreria.
 
 Tendenze, Sondaggi e Storify 2 non sono compatibili con il pulsante di caricamento.
 
-Per utilizzare questa funzione, dovete configurare l'autenticazione.
+Per utilizzare questa funzione, dovete configurare l&#39;autenticazione.
 
 App che utilizzano questa funzione:
 

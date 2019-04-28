@@ -11,9 +11,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# Selezionare Contenuto da un'app{#select-content-to-feature-from-an-app}
+# Selezionare Contenuto da un&#39;app{#select-content-to-feature-from-an-app}
 
-Funzioni o rimuovete contenuti direttamente da un'app.
+Funzioni o rimuovete contenuti direttamente da un&#39;app.
 
-1. Dall'interno di un'app, passate il mouse sul contenuto da usare.
+1. Dall&#39;interno di un&#39;app, passate il mouse sul contenuto da usare.
 1. Fai clic per **[!UICONTROL Feature]** visualizzare il contenuto o **[!UICONTROL Unfeature]** per interrompere la generazione di contenuti.

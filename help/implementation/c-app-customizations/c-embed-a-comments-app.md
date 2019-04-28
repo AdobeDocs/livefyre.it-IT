@@ -1,8 +1,6 @@
 ---
-description: L'incorporazione dell'app commenti segue il processo per incorporare
-  un'app di base.
-seo-description: L'incorporazione dell'app commenti segue il processo per incorporare
-  un'app di base.
+description: L'incorporazione dell'app commenti segue il processo per incorporare un'app di base.
+seo-description: L'incorporazione dell'app commenti segue il processo per incorporare un'app di base.
 seo-title: Incorpora un'app commenti
 solution: Experience Manager
 title: Incorpora un'app commenti
@@ -13,11 +11,11 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 ---
 
 
-# Incorpora un'app commenti{#embed-a-comments-app}
+# Incorpora un&#39;app commenti{#embed-a-comments-app}
 
-L'incorporazione dell'app commenti segue il processo per incorporare un'app di base.
+L&#39;incorporazione dell&#39;app commenti segue il processo per incorporare un&#39;app di base.
 
-L'incorporazione dell'app commenti segue il processo per incorporare un'app di base descritta in [Incorpora un'app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+L&#39;incorporazione dell&#39;app commenti segue il processo per incorporare un&#39;app di base descritta in [Incorpora un&#39;app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## Esempio
 
@@ -56,7 +54,7 @@ L'incorporazione dell'app commenti segue il processo per incorporare un'app di b
 </html>
 ```
 
-Come indicato nella sezione Building collectionmeta, collectionmeta è un oggetto JSON codificato. Nell'esempio precedente, l'oggetto JSON prende il seguente formato prima che sia codificato in JWT:
+Come indicato nella sezione Building collectionmeta, collectionmeta è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON prende il seguente formato prima che sia codificato in JWT:
 
 ```
 { 

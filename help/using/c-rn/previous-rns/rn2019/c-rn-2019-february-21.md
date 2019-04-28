@@ -18,7 +18,7 @@ source-git-commit: 4051e0d55c7fa1cf02d8b01c239d040c0a3baf14
 
 ## Correzioni di bug
 
-* Risolto un problema che causava l'errore di «Account duplicato» per aggiornare il token dell'account Business Instagram.
+* Risolto un problema che causava l&#39;errore di «Account duplicato» per aggiornare il token dell&#39;account Business Instagram.
 * È stato risolto un problema a causa del quale, aggiornando le app utilizzando uno script personalizzato, venivano generati erroneamente delle app duplicate.
-* Risolto un problema per il quale il contenuto di Instagram visualizzato dalla ricerca URL mostrava correttamente la miniatura nei risultati della ricerca ma non in "Visualizza dettagli" o pubblicato in un'app.
+* Risolto un problema per il quale il contenuto di Instagram visualizzato dalla ricerca URL mostrava correttamente la miniatura nei risultati della ricerca ma non in &quot;Visualizza dettagli&quot; o pubblicato in un&#39;app.
 * È stato risolto un problema a causa del quale, facendo clic su Carica altro, si verificava un errore per alcuni ID prodotto.

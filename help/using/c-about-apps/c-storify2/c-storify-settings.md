@@ -1,8 +1,6 @@
 ---
-description: Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione
-  e contenuti consentiti.
-seo-description: Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione
-  e contenuti consentiti.
+description: Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione e contenuti consentiti.
+seo-description: Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione e contenuti consentiti.
 seo-title: Impostazioni di storify
 solution: Experience Manager
 title: Impostazioni di storify

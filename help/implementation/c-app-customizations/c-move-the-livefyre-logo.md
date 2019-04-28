@@ -15,9 +15,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Riposizionate il logo Livefyre sulla pagina.
 
-Se l'accordo con Livefyre lo consente, potete spostare il logo Livefyre dalla parte superiore del flusso di contenuto verso il basso.
+Se l&#39;accordo con Livefyre lo consente, potete spostare il logo Livefyre dalla parte superiore del flusso di contenuto verso il basso.
 
-Ad esempio, aggiungete il seguente HTML alla pagina immediatamente dopo l'elemento che contiene l'app Livefyre:
+Ad esempio, aggiungete il seguente HTML alla pagina immediatamente dopo l&#39;elemento che contiene l&#39;app Livefyre:
 
 ```
 <div id="powered_by_livefyre_new"><a href="https://livefyre.com" target="_blank">Powered by Livefyre</a></div>

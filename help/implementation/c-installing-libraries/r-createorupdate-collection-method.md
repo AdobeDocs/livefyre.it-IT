@@ -1,8 +1,6 @@
 ---
-description: Tentativi di creare o aggiornare la raccolta con Livefyre. Restituisce
-  questo oggetto Collection.
-seo-description: Tentativi di creare o aggiornare la raccolta con Livefyre. Restituisce
-  questo oggetto Collection.
+description: Tentativi di creare o aggiornare la raccolta con Livefyre. Restituisce questo oggetto Collection.
+seo-description: Tentativi di creare o aggiornare la raccolta con Livefyre. Restituisce questo oggetto Collection.
 seo-title: Createorupdate Collection Method
 solution: Experience Manager
 title: Createorupdate Collection Method

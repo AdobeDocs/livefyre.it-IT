@@ -1,8 +1,6 @@
 ---
-description: Utilizzate Ricerca social network per cercare contenuti Twitter da includere
-  nella Libreria risorse o pubblicarli in App.
-seo-description: Utilizzate Ricerca social network per cercare contenuti Twitter da
-  includere nella Libreria risorse o pubblicarli in App.
+description: Utilizzate Ricerca social network per cercare contenuti Twitter da includere nella Libreria risorse o pubblicarli in App.
+seo-description: Utilizzate Ricerca social network per cercare contenuti Twitter da includere nella Libreria risorse o pubblicarli in App.
 seo-title: Ricerca di contenuti Twitter
 title: Ricerca di contenuti Twitter
 uuid: 7 e 36 cc 1 f -7 dce -446 b -84 b 6-22939 e 8 dcaf 5
@@ -20,13 +18,13 @@ Utilizzate Ricerca social network per cercare contenuti Twitter da includere nel
 
 Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella libreria vengono contrassegnate con una spunta.
 
-1. **[!UICONTROL Social Search]**Passa a.
+1. **[!UICONTROL Social Search]** Passa a.
 1. Selezionate **[!UICONTROL Twitter]** questa opzione per cercare i contenuti di Twitter.
 1. Inserite una parola chiave, # hashtag o @ persona. Potete selezionare un tipo di ricerca dal menu a discesa destra nella barra di ricerca per perfezionare la ricerca.
 
-   * **[!UICONTROL Subject Search:]** l'impostazione predefinita consente di cercare tutti i campi disponibili per il testo di input.
-   * **[!UICONTROL User Search:]** cerca i tweet dall'autore di input.
-   * **[!UICONTROL List Search:]** effettua ricerche solo nell'URL elenco Twitter di input.
+   * **[!UICONTROL Subject Search:]** l&#39;impostazione predefinita consente di cercare tutti i campi disponibili per il testo di input.
+   * **[!UICONTROL User Search:]** cerca i tweet dall&#39;autore di input.
+   * **[!UICONTROL List Search:]** effettua ricerche solo nell&#39;URL elenco Twitter di input.
 
 1. Dopo aver immesso i criteri di ricerca, fate clic per **[!UICONTROL Show Filter]** perfezionare la ricerca.
 
@@ -40,8 +38,8 @@ Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella lib
 
       >[!NOTE]
       >
-      >La funzione Ricerca social network supporta query di ricerca Twitter complesse e tutta l'input di sintassi Twitter standard. Per impostazione predefinita, più stringhe vengono considerate come query AND. Fare clic **[!UICONTROL info]** sul pulsante per visualizzare esempi di input valido.
+      >La funzione Ricerca social network supporta query di ricerca Twitter complesse e tutta l&#39;input di sintassi Twitter standard. Per impostazione predefinita, più stringhe vengono considerate come query AND. Fare clic **[!UICONTROL info]** sul pulsante per visualizzare esempi di input valido.
 
 >= I risultati restituiti saranno elencati più di recente.
 
-Gli elementi che corrispondono alla ricerca vengono visualizzati in una visualizzazione griglia. Passate il mouse su un elemento, **[!UICONTROL View Details]**aggiungetelo alla Libreria risorse o **[!UICONTROL Publish]** a un'app.
+Gli elementi che corrispondono alla ricerca vengono visualizzati in una visualizzazione griglia. Passate il mouse su un elemento, **[!UICONTROL View Details]** aggiungetelo alla Libreria risorse o **[!UICONTROL Publish]** a un&#39;app.

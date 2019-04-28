@@ -16,6 +16,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 Filtrare il contenuto in Studio per tag Raccolta.
 
 1. Selezionate **[!UICONTROL Tag]** nel menu a discesa di ricerca del **[!UICONTROL Collections]** pannello.
-1. Immettete il tag per la ricerca o fate clic sull' **[!UICONTROL Tag]** elenco sotto a una raccolta.
+1. Immettete il tag per la ricerca o fate clic sull&#39; **[!UICONTROL Tag]** elenco sotto a una raccolta.
 
-   Tutte le raccolte con il tag selezionato verranno visualizzate nell'elenco.
+   Tutte le raccolte con il tag selezionato verranno visualizzate nell&#39;elenco.

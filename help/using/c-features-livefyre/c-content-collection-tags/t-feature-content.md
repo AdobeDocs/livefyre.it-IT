@@ -15,9 +15,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Utilizzate lo stile personalizzato per evidenziare contenuti contenuti.
 
-La creazione di contenuti consente di richiamare l'attenzione sui post degli utenti selezionati. I contenuti contenuti possono essere formattati in modo diverso rispetto ad altri contenuti della pagina, e il contenuto Livefyre-nativo viene visualizzato sopra l'editor. Una volta visualizzato, il contenuto include un distintivo Contenuti e può essere personalizzato utilizzando la classe CSS con composizione. I due elementi di contenuto nativi Livefyre-native saranno visualizzati anche sopra l'editor nel flusso.
+La creazione di contenuti consente di richiamare l&#39;attenzione sui post degli utenti selezionati. I contenuti contenuti possono essere formattati in modo diverso rispetto ad altri contenuti della pagina, e il contenuto Livefyre-nativo viene visualizzato sopra l&#39;editor. Una volta visualizzato, il contenuto include un distintivo Contenuti e può essere personalizzato utilizzando la classe CSS con composizione. I due elementi di contenuto nativi Livefyre-native saranno visualizzati anche sopra l&#39;editor nel flusso.
 
-1. Abilitare l'opzione in Studio. Consulta [Abilitare i contenuti in Studio](/help/using/c-features-livefyre/c-content-collection-tags/t-enable-featuring-content-in-studio.md#t_enable_featuring_content_in_studio).
+1. Abilitare l&#39;opzione in Studio. Consulta [Abilitare i contenuti in Studio](/help/using/c-features-livefyre/c-content-collection-tags/t-enable-featuring-content-in-studio.md#t_enable_featuring_content_in_studio).
 1. Istruite i moderatori a identificare e selezionare il contenuto da visualizzare direttamente da Commenti, Blog live o App recensione, oppure dalle sezioni Contenuto app e modq di Studio.
 
        I moderatori possono:
@@ -25,7 +25,7 @@ La creazione di contenuti consente di richiamare l'attenzione sui post degli ute
    * [Selezione del contenuto da usare da Studio](/help/using/c-features-livefyre/c-content-collection-tags/t-select-content-to-feature-from-studio.md#select_content_to_feature_from_studio)
    * [Selezione del contenuto per un altro metodo](/help/using/c-features-livefyre/c-content-collection-tags/t-select-content-to-feature.md#t_select_content_to_feature)
 
-1. Utilizzate CSS per definire il modo in cui il contenuto verrà visualizzato nell'app. Consultate [Utilizzare CSS per contenuti contenuti](/help/implementation/c-app-customizations/c-use-css-to-style-featured-content.md).
+1. Utilizzate CSS per definire il modo in cui il contenuto verrà visualizzato nell&#39;app. Consultate [Utilizzare CSS per contenuti contenuti](/help/implementation/c-app-customizations/c-use-css-to-style-featured-content.md).
 1. Utilizza chiamate API per automatizzare il processo. Consultate [API Feature](/help/implementation/c-app-customizations/c-feature-apis.md).
 
    * [Funzione](#c_feature_apis/section_jpw_nqw_xz)

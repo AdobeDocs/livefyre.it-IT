@@ -13,9 +13,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni Filmstrip{#filmstrip-features}
 
-Scoprite le funzionalità di un'app Filmstrip.
+Scoprite le funzionalità di un&#39;app Filmstrip.
 
-L'app Filmstrip dispone delle seguenti funzioni:
+L&#39;app Filmstrip dispone delle seguenti funzioni:
 
 * [Streaming in tempo reale](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_emd_syl_d1b)
 * [Filtro SICURO](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)

@@ -13,10 +13,10 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Seleziona contenuto a funzionalità da studio{#select-content-to-feature-from-studio}
 
-Puoi selezionare il contenuto da Studio invece di un'app.
+Puoi selezionare il contenuto da Studio invece di un&#39;app.
 
 1. Da Studio, fai clic sul **[!UICONTROL +]** segno accanto a una parte del contenuto.
-1. Selezionate il **[!UICONTROL Featured]** tag nell'elenco a discesa.
+1. Selezionate il **[!UICONTROL Featured]** tag nell&#39;elenco a discesa.
 1. Fai clic **[!UICONTROL Enter]** su Per visualizzare il contenuto.
 
    Il tag viene salvato e visualizzato accanto al contenuto. 1. Per interrompere la creazione di contenuti, fate clic sul **[!UICONTROL x]****[!UICONTROL Featured]** tag visualizzato sul contenuto.

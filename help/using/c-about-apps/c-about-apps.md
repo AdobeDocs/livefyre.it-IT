@@ -1,8 +1,6 @@
 ---
-description: Studio permette di accedere facilmente alle app, consentendo di cercare,
-  modificare e gestire app personalizzate da una singola pagina.
-seo-description: Studio permette di accedere facilmente alle app, consentendo di cercare,
-  modificare e gestire app personalizzate da una singola pagina.
+description: Studio permette di accedere facilmente alle app, consentendo di cercare, modificare e gestire app personalizzate da una singola pagina.
+seo-description: Studio permette di accedere facilmente alle app, consentendo di cercare, modificare e gestire app personalizzate da una singola pagina.
 seo-title: App
 solution: Experience Manager
 title: App
@@ -17,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Studio permette di accedere facilmente alle app, consentendo di cercare, modificare e gestire app personalizzate da una singola pagina.
 
-Nella parte inferiore del riquadro Stile e configurazione sono elencate le versioni di Livefyre App per l'app. Se esiste una versione più recente della codebase di codice per l'app, viene visualizzato un **[!UICONTROL Update]** pulsante. Fate clic sul pulsante per effettuare l'aggiornamento alla versione più recente di rilascio e aggiornate l'app con tutti i miglioramenti delle funzioni e correzioni di bug disponibili. Una volta aggiornate, visualizzate in anteprima le modifiche apportate all'app (se presente), quindi accettate o rifiutate l'aggiornamento.
+Nella parte inferiore del riquadro Stile e configurazione sono elencate le versioni di Livefyre App per l&#39;app. Se esiste una versione più recente della codebase di codice per l&#39;app, viene visualizzato un **[!UICONTROL Update]** pulsante. Fate clic sul pulsante per effettuare l&#39;aggiornamento alla versione più recente di rilascio e aggiornate l&#39;app con tutti i miglioramenti delle funzioni e correzioni di bug disponibili. Una volta aggiornate, visualizzate in anteprima le modifiche apportate all&#39;app (se presente), quindi accettate o rifiutate l&#39;aggiornamento.
 
 Utilizzate App per creare e distribuire rapidamente app coinvolgenti basate sul contenuto social. Utilizzando i controlli di progettazione e di configurazione semplici, le app consentono di creare e aggiornare app in modo semplice per il pubblico.
 

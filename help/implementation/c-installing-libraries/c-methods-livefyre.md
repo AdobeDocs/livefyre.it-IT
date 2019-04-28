@@ -17,7 +17,7 @@ Binding della lingua per i metodi della libreria lato server di Livefyre.
 
 Per interagire con Livefyre, esistono le seguenti classi di metodi:
 
-* [Installazione](../c-installing-libraries/c-installing-libraries.md). Interfaccia per interagire con l'API a livello di rete di Livefyre.
-* [Raccolta](../c-installing-libraries/c-collection-methods.md#c_collection_methods). Interfaccia per interagire con l'API a livello di raccolta Livefyre.
-* [Sito](../c-installing-libraries/c-site-methods.md#c_site_methods). Interfaccia per interagire con l'API a livello di sito Livefyre.
+* [Installazione](../c-installing-libraries/c-installing-libraries.md). Interfaccia per interagire con l&#39;API a livello di rete di Livefyre.
+* [Raccolta](../c-installing-libraries/c-collection-methods.md#c_collection_methods). Interfaccia per interagire con l&#39;API a livello di raccolta Livefyre.
+* [Sito](../c-installing-libraries/c-site-methods.md#c_site_methods). Interfaccia per interagire con l&#39;API a livello di sito Livefyre.
 

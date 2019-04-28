@@ -1,7 +1,6 @@
 ---
 description: Create una nuova raccolta creando un token collectionmeta passato a Livefyre.
-seo-description: Create una nuova raccolta creando un token collectionmeta passato
-  a Livefyre.
+seo-description: Create una nuova raccolta creando un token collectionmeta passato a Livefyre.
 seo-title: Creare una raccolta utilizzando il token collectionmeta
 solution: Experience Manager
 title: Creare una raccolta utilizzando il token collectionmeta
@@ -21,4 +20,4 @@ Create una nuova raccolta creando un token collectionmeta passato a Livefyre.
 
    Il checksum è richiesto se desiderate inviare a Livefyre qualsiasi modifica apportata alla vostra raccolta. Livefyre aggiorna la raccolta solo se il checksum fornito è diverso da quello inviato in precedenza. La creazione di un checksum è esattamente come creare `collectionMeta` un token, ma invece di `buildCollectionMetaToken` chiamarvi `buildChecksum`.
 
-Creare token utente per l'autenticazione in Livefyre.
+Creare token utente per l&#39;autenticazione in Livefyre.

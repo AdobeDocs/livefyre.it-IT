@@ -1,8 +1,6 @@
 ---
-description: Utilizzate la funzione Ricerca social network per cercare il contenuto
-  di Instagram da includere nella Libreria risorse o pubblicarlo in App.
-seo-description: Utilizzate la funzione Ricerca social network per cercare il contenuto
-  di Instagram da includere nella Libreria risorse o pubblicarlo in App.
+description: Utilizzate la funzione Ricerca social network per cercare il contenuto di Instagram da includere nella Libreria risorse o pubblicarlo in App.
+seo-description: Utilizzate la funzione Ricerca social network per cercare il contenuto di Instagram da includere nella Libreria risorse o pubblicarlo in App.
 seo-title: Ricerca di contenuto istagram
 solution: Experience Manager
 title: Ricerca di contenuto istagram
@@ -26,19 +24,19 @@ Utilizzate la funzione Ricerca social network per cercare il contenuto di Instag
 Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella libreria vengono contrassegnate con una spunta.
 
 1. Configurare un account Business di Instagram.
-1. Passa **[!UICONTROL Library]** a > **[!UICONTROL Social Search]**.
+1. Passa **[!UICONTROL Library]** a &gt; **[!UICONTROL Social Search]**.
 1. Selezionate **[!UICONTROL Instagram]** per cercare il contenuto di Instagram.
 1. Inserite i criteri di ricerca, fate clic per **[!UICONTROL Show Filter]** perfezionare la ricerca.
 
-   * **[!UICONTROL Business User Search:]** Cerca i post di Instagram dall'autore di input.
+   * **[!UICONTROL Business User Search:]** Cerca i post di Instagram dall&#39;autore di input.
 
       >[!NOTE]
       >
-      >Per cercare Instagram da utente aziendale, sia voi che l'autore del contenuto di Instagram dovete disporre di un account Business di Instagram.
+      >Per cercare Instagram da utente aziendale, sia voi che l&#39;autore del contenuto di Instagram dovete disporre di un account Business di Instagram.
 
    * **[!UICONTROL Top Tags Search]**: Cercate i file multimediali più diffusi con un hashtag specifico. I tag principali sono determinati dai criteri descritti qui: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
 
-   * **[!UICONTROL Recent Tags Search]**: Cerca i post più recenti con l'hashtag.
+   * **[!UICONTROL Recent Tags Search]**: Cerca i post più recenti con l&#39;hashtag.
 
->Elementi visualizzati che corrispondono alla ricerca. Passate il mouse su un elemento, **[!UICONTROL View Details]**aggiungetelo alla Libreria risorse o **[!UICONTROL Publish]** a un'app.
+>Elementi visualizzati che corrispondono alla ricerca. Passate il mouse su un elemento, **[!UICONTROL View Details]** aggiungetelo alla Libreria risorse o **[!UICONTROL Publish]** a un&#39;app.
 

@@ -1,8 +1,6 @@
 ---
-description: Personalizzate lo stile e il modo in cui i commenti vengono visualizzati
-  nel blog dal vivo.
-seo-description: Personalizzate lo stile e il modo in cui i commenti vengono visualizzati
-  nel blog dal vivo.
+description: Personalizzate lo stile e il modo in cui i commenti vengono visualizzati nel blog dal vivo.
+seo-description: Personalizzate lo stile e il modo in cui i commenti vengono visualizzati nel blog dal vivo.
 seo-title: Personalizzazioni blog live
 solution: Experience Manager
 title: Personalizzazioni blog live
@@ -19,7 +17,7 @@ Personalizzate lo stile e il modo in cui i commenti vengono visualizzati nel blo
 
 
 
-Utilizza Blog live per pubblicare aggiornamenti in tempo reale alle storie in corso, trasformando il tuo sito in un'origine di notizie live.
+Utilizza Blog live per pubblicare aggiornamenti in tempo reale alle storie in corso, trasformando il tuo sito in un&#39;origine di notizie live.
 
 * **[!UICONTROL Number of comments to load]**
 
@@ -47,7 +45,7 @@ Utilizza Blog live per pubblicare aggiornamenti in tempo reale alle storie in co
 
 * **[!UICONTROL User avatars]**
 
-   Se abilitata, gli avatar dell'utente vengono visualizzati con il contenuto pubblicato.
+   Se abilitata, gli avatar dell&#39;utente vengono visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL Users can reply to posts]**
 
@@ -59,7 +57,7 @@ Utilizza Blog live per pubblicare aggiornamenti in tempo reale alle storie in co
 
 * **[!UICONTROL Users may share comments]**
 
-   Se abilitata, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o linkedin. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni > Impostazioni integrazione > Condivisione social network.
+   Se abilitata, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o linkedin. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni integrazione &gt; Condivisione social network.
 
 Potete personalizzare il blog live utilizzando:
 

@@ -1,8 +1,6 @@
 ---
-description: Consente agli utenti di personalizzare l'immagine visualizzata con il
-  relativo contenuto.
-seo-description: Consente agli utenti di personalizzare l'immagine visualizzata con
-  il relativo contenuto.
+description: Consente agli utenti di personalizzare l'immagine visualizzata con il relativo contenuto.
+seo-description: Consente agli utenti di personalizzare l'immagine visualizzata con il relativo contenuto.
 seo-title: Avatar
 title: Avatar
 uuid: bf 20 f 3 bc -3 dcc -4 e 16-a 629-3380 d 1 a 7 a 3 f 2
@@ -14,28 +12,28 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Avatar{#avatars}
 
-Consente agli utenti di personalizzare l'immagine visualizzata con il relativo contenuto.
+Consente agli utenti di personalizzare l&#39;immagine visualizzata con il relativo contenuto.
 
-Gli avatar degli utenti vengono visualizzati (per impostazione predefinita) accanto al contenuto in tutte le app e vengono prelevati dal sistema di profilo di identità utilizzato per l'implementazione. Tali avatar variano in base all'app in cui sono visualizzati.
+Gli avatar degli utenti vengono visualizzati (per impostazione predefinita) accanto al contenuto in tutte le app e vengono prelevati dal sistema di profilo di identità utilizzato per l&#39;implementazione. Tali avatar variano in base all&#39;app in cui sono visualizzati.
 
 (Livefyre consente di disattivare Avatars se non desiderate visualizzarli nelle app.)
 
 >[!NOTE]
 >
->Gli avatar vengono visualizzati a 25 p x 25 p per Chat e 50 p x 50 p all'interno della maggior parte delle altre app.
+>Gli avatar vengono visualizzati a 25 p x 25 p per Chat e 50 p x 50 p all&#39;interno della maggior parte delle altre app.
 
 ## Archivio avatar {#section_zbh_x1f_wy}
 
-Gli avatar vengono caricati in modo asincrono in Livefyre. Quando un utente accede per la prima volta all'app o cambia il file di immagine avatar associato, l'immagine del profilo viene aggiunta a una coda di attività. Un avatar predefinito viene visualizzato temporaneamente mentre l'utente viene caricato nella posizione di archiviazione avatar di Livefyre.
+Gli avatar vengono caricati in modo asincrono in Livefyre. Quando un utente accede per la prima volta all&#39;app o cambia il file di immagine avatar associato, l&#39;immagine del profilo viene aggiunta a una coda di attività. Un avatar predefinito viene visualizzato temporaneamente mentre l&#39;utente viene caricato nella posizione di archiviazione avatar di Livefyre.
 
 ## Larghar {#section_mqh_p1f_wy}
 
-Livefyre supporta l'utilizzo di cimitere. Se un utente non dispone di un avatar personalizzato come parte del profilo utente, Livefyre controllerà un ciclo di calcolo per quell'utente. Se non esiste un semitatar, verrà utilizzato l'avatar predefinito.
+Livefyre supporta l&#39;utilizzo di cimitere. Se un utente non dispone di un avatar personalizzato come parte del profilo utente, Livefyre controllerà un ciclo di calcolo per quell&#39;utente. Se non esiste un semitatar, verrà utilizzato l&#39;avatar predefinito.
 
-Se i commenti sono stati incorporati con Livefyre wordpress Plugin, viene utilizzato il codice di gravità dell'utente se vengono soddisfatte le seguenti condizioni:
+Se i commenti sono stati incorporati con Livefyre wordpress Plugin, viene utilizzato il codice di gravità dell&#39;utente se vengono soddisfatte le seguenti condizioni:
 
 * Lapatar è stato attivato nel pannello Admin di wordpress e
-* l'utente dispone di un account Mediatar e
+* l&#39;utente dispone di un account Mediatar e
 * non viene fornito un avatar personalizzato.
 
 Per ulteriori informazioni, consultate la documentazione di wordpress Keratar.

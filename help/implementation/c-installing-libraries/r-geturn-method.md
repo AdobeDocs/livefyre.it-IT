@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Metodo di rete geturn{#geturn-network-method}
 
-Questo metodo restituisce l'URN per questa rete.
+Questo metodo restituisce l&#39;URN per questa rete.
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

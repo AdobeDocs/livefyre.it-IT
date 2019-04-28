@@ -14,7 +14,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Automatizzare il processo utilizzando le API delle funzionalità
 
-Utilizzate le API delle funzionalità per automatizzare il processo in base al quale è contenuto il contenuto. Ad esempio, quando create un'app di blog live o commento, funzione tutto il contenuto pubblicato da un moderatore selezionato per guidare la conversazione e stabilire coerenza nel flusso.
+Utilizzate le API delle funzionalità per automatizzare il processo in base al quale è contenuto il contenuto. Ad esempio, quando create un&#39;app di blog live o commento, funzione tutto il contenuto pubblicato da un moderatore selezionato per guidare la conversazione e stabilire coerenza nel flusso.
 
 Livefyre offre entrambe le API Feature e Unfeature.
 
@@ -34,7 +34,7 @@ Immettete il token utente per il moderatore selezionato.
 {value: <number>} 
 ```
 
-Il valore verrà utilizzato per ordinare contenuti contenuti, più piccoli (10 appariranno prima del 1 nell'elenco dei contenuti contenuti). Questo valore è predefinito **ora** in ora epoch, quindi i commenti contenuti verranno generalmente ordinati più in base alla meno recente.
+Il valore verrà utilizzato per ordinare contenuti contenuti, più piccoli (10 appariranno prima del 1 nell&#39;elenco dei contenuti contenuti). Questo valore è predefinito **ora** in ora epoch, quindi i commenti contenuti verranno generalmente ordinati più in base alla meno recente.
 
 **Risposta di esempio**
 

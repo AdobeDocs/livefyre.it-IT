@@ -1,12 +1,6 @@
 ---
-description: Scopri come funzionano le richieste di rights. Quando trasferite contenuti
-  generati dall'utente (UGC) in un'app Livefyre, il contenuto include l'autorizzazione
-  tacito da riutilizzare. È necessario disporre dell'autorizzazione dell'autore per
-  utilizzare il contenuto da Twitter o Instagram.
-seo-description: Scopri come funzionano le richieste di rights. Quando trasferite
-  contenuti generati dall'utente (UGC) in un'app Livefyre, il contenuto include l'autorizzazione
-  tacito da riutilizzare. È necessario disporre dell'autorizzazione dell'autore per
-  utilizzare il contenuto da Twitter o Instagram.
+description: Scopri come funzionano le richieste di rights. Quando trasferite contenuti generati dall'utente (UGC) in un'app Livefyre, il contenuto include l'autorizzazione tacito da riutilizzare. È necessario disporre dell'autorizzazione dell'autore per utilizzare il contenuto da Twitter o Instagram.
+seo-description: Scopri come funzionano le richieste di rights. Quando trasferite contenuti generati dall'utente (UGC) in un'app Livefyre, il contenuto include l'autorizzazione tacito da riutilizzare. È necessario disporre dell'autorizzazione dell'autore per utilizzare il contenuto da Twitter o Instagram.
 seo-title: Richiesta di diritti
 title: Richiesta di diritti
 uuid: d 3194 afa-f 3 c 6-44 ed-b 03 f -9 b 1 ecb 50 c 1 d 3
@@ -18,15 +12,15 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Richiesta di diritti{#requesting-rights}
 
-Scopri come funzionano le richieste di rights. Quando trasferite contenuti generati dall'utente (UGC) in un'app Livefyre, il contenuto include l'autorizzazione tacito da riutilizzare. È necessario disporre dell'autorizzazione dell'autore per utilizzare il contenuto da Twitter o Instagram.
+Scopri come funzionano le richieste di rights. Quando trasferite contenuti generati dall&#39;utente (UGC) in un&#39;app Livefyre, il contenuto include l&#39;autorizzazione tacito da riutilizzare. È necessario disporre dell&#39;autorizzazione dell&#39;autore per utilizzare il contenuto da Twitter o Instagram.
 
 I seguenti stati di diritti sono disponibili nella libreria, contenuto app, modq e AEM Commerce:
 
 * **[!UICONTROL Granted]**. When the author grants you the right to reuse their content, the status of the asset changes to **[!UICONTROL Granted]**.
 
-* **[!UICONTROL Expired]**. Livefyre monitora i flussi Instagram e Twitter per la risposta dell'autore per 14 giorni. Dopo 14 giorni, la richiesta scade, lo stato della richiesta diritti cambia a **[!UICONTROL Expired]**, e puoi inviare una seconda richiesta o rimuovere l'elemento dalla libreria.
-* **[!UICONTROL Requested]**. Richiedere l'autorizzazione per il contenuto dalla libreria. Potete eseguire questa operazione per una o più risorse alla volta. Dopo aver richiesto l'autorizzazione, Livefyre imposta lo stato della risorsa su **[!UICONTROL Requested]**.
-* **[!UICONTROL Needs Review]**. Se l'autore risponde con una nota che non include il # approvalhashtag, lo stato della risorsa cambia a **[!UICONTROL Needs Review]**.
+* **[!UICONTROL Expired]**. Livefyre monitora i flussi Instagram e Twitter per la risposta dell&#39;autore per 14 giorni. Dopo 14 giorni, la richiesta scade, lo stato della richiesta diritti cambia a **[!UICONTROL Expired]**, e puoi inviare una seconda richiesta o rimuovere l&#39;elemento dalla libreria.
+* **[!UICONTROL Requested]**. Richiedere l&#39;autorizzazione per il contenuto dalla libreria. Potete eseguire questa operazione per una o più risorse alla volta. Dopo aver richiesto l&#39;autorizzazione, Livefyre imposta lo stato della risorsa su **[!UICONTROL Requested]**.
+* **[!UICONTROL Needs Review]**. Se l&#39;autore risponde con una nota che non include il # approvalhashtag, lo stato della risorsa cambia a **[!UICONTROL Needs Review]**.
 
 * **[!UICONTROL Request Failed]**. La richiesta non è stata inviata (a causa di token scaduto, ecc.).
 * **[!UICONTROL Request Pending]**. Mette in coda la richiesta diritti in modo che non troppe vengano inviate contemporaneamente.

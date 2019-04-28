@@ -1,8 +1,6 @@
 ---
-description: Inserire nella whitelist un utente per consentire loro di pubblicare
-  direttamente nelle app senza essere moderato.
-seo-description: Inserire nella whitelist un utente per consentire loro di pubblicare
-  direttamente nelle app senza essere moderato.
+description: Inserire nella whitelist un utente per consentire loro di pubblicare direttamente nelle app senza essere moderato.
+seo-description: Inserire nella whitelist un utente per consentire loro di pubblicare direttamente nelle app senza essere moderato.
 seo-title: Whitelist a User
 solution: Experience Manager
 title: Whitelist a User
@@ -17,8 +15,8 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Inserire nella whitelist un utente per consentire loro di pubblicare direttamente nelle app senza essere moderato.
 
-La whitelist Users (Utenti della whitelist) consente loro di pubblicare direttamente nelle app. Il contenuto pubblicato dagli utenti autorizzati non passa attraverso i filtri SAFE, Blasity o Premoderazione di Livefyre e verrà automaticamente approvato e aggiunto all'app.
+La whitelist Users (Utenti della whitelist) consente loro di pubblicare direttamente nelle app. Il contenuto pubblicato dagli utenti autorizzati non passa attraverso i filtri SAFE, Blasity o Premoderazione di Livefyre e verrà automaticamente approvato e aggiunto all&#39;app.
 
 1. Fate clic **[!UICONTROL +Add]** per **[!UICONTROL Whitelists]**.
-1. Viene visualizzata una finestra a comparsa che consente di inserire nella whitelist l'utente per l'intera rete o per un sito specifico. (Utilizzate il tasto CTR o Comando per selezionare più siti.)
+1. Viene visualizzata una finestra a comparsa che consente di inserire nella whitelist l&#39;utente per l&#39;intera rete o per un sito specifico. (Utilizzate il tasto CTR o Comando per selezionare più siti.)
 1. Fate clic per **[!UICONTROL Whitelist]** completare il processo.

@@ -1,13 +1,11 @@
 ---
-description: Aggiungete il flag userprivacyoptout alla pagina per consentire a un
-  visitatore del sito di rifiutare il tracciamento.
-seo-description: Aggiungete il flag userprivacyoptout alla pagina per consentire a
-  un visitatore del sito di rifiutare il tracciamento.
+description: Aggiungete il flag userprivacyoptout alla pagina per consentire a un visitatore del sito di rifiutare il tracciamento.
+seo-description: Aggiungete il flag userprivacyoptout alla pagina per consentire a un visitatore del sito di rifiutare il tracciamento.
 seo-title: Userprivacyoptout
 title: Userprivacyoptout
 uuid: a 043 c 50 e -0 a 02-4 c 83-bbce -54 b 9 b 51316 a 5
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 
@@ -16,13 +14,13 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 
 Aggiungete il `userPrivacyOptOut` flag alla pagina per consentire al visitatore di un sito di rifiutare il tracciamento.
 
-Livefyre fornisce eventi javascript per tenere traccia dell'attività utente nelle app di Livefyre.
+Livefyre fornisce eventi javascript per tenere traccia dell&#39;attività utente nelle app di Livefyre.
 
 Se incorporate Livefyre Apps e un visitatore non accetta il consenso, potete configurare in modo dinamico Livefyre per disabilitare la funzionalità per garantire la privacy del visitatore.
 
 Una volta configurato, Livefyre sarà in grado di:
 
-* Disabilitare il supporto dell'autenticazione nelle app.
+* Disabilitare il supporto dell&#39;autenticazione nelle app.
 * Disattivazione della generazione di Livecount e eventi
 * Eliminare i cookie esistenti creati da qualsiasi app presente nella pagina
 * File multimediali proxy con immagini di domini di terze parti per impedire ai terze parti di creare cookie
@@ -42,7 +40,7 @@ Istruzioni:
 
 1. Aggiungete `Livefyre.js` alla pagina ovunque dopo `userPrivacyOptOut`.
 
-   Livefyre Apps crea un'istanza delle impostazioni di privacy avanzate.
+   Livefyre Apps crea un&#39;istanza delle impostazioni di privacy avanzate.
 
    >[!NOTE]
    >

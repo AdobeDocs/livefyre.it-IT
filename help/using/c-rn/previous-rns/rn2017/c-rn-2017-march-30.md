@@ -20,27 +20,27 @@ Note sulla versione del 30 marzo 2017.
 |---|---|---|
 | Bug | Ricerca social network | È stato corretto un bug che impediva la pubblicazione di risorse Youtube salvate in Social Search. |
 | Miglioramento | Sincronizzazione social network | Sincronizzazione social network obsoleta. |
-| Miglioramento | Storify 2 | È stato aggiunto un miglioramento per visualizzare il messaggio "Nessun risultato trovato" nella ricerca Argomenti Facebook quando non viene trovato alcun risultato. |
+| Miglioramento | Storify 2 | È stato aggiunto un miglioramento per visualizzare il messaggio &quot;Nessun risultato trovato&quot; nella ricerca Argomenti Facebook quando non viene trovato alcun risultato. |
 | Miglioramento | Flussi | Aggiunte regole di riepilogo per regole SAFE in fondo alla pagina di un flusso Twitter. |
 | Bug | Flussi | Aggiunto un miglioramento per disattivare visibilmente la casella di controllo «Utente verificato» su Regole di flusso Twitter quando vengono forniti autori esclusi. |
-| Bug | Flussi | È stato corretto un bug per consentire l'utilizzo di parole chiave anding e un filtro Posizione in una regola Twitter. |
+| Bug | Flussi | È stato corretto un bug per consentire l&#39;utilizzo di parole chiave anding e un filtro Posizione in una regola Twitter. |
 | Bug | Studio | È stato corretto un bug a causa del quale il «Tag Feature» veniva salvato correttamente quando veniva applicato. |
 
 ## Versione UAT
 
 | Tipo di edizione | Componente | Nota sulla versione |
 |---|---|---|
-| Bug | Contenuto app | È stato modificato il comportamento di "Ulteriori informazioni" in modo che, se su un determinato contenuto vi sono più eventi anonimi, l'evento prima viene sempre visualizzato. |
+| Bug | Contenuto app | È stato modificato il comportamento di &quot;Ulteriori informazioni&quot; in modo che, se su un determinato contenuto vi sono più eventi anonimi, l&#39;evento prima viene sempre visualizzato. |
 | Bug | Libreria | È stato corretto un bug a causa del quale la libreria delle ricerche con hashtag non riusciva in modo intermittente. |
 | Bug | Mappe | È stato corretto un bug nelle mappe per supportare un numero elevato di contenuti nei cluster sui dispositivi iOS. |
-| Miglioramento | Mosaic | Aggiunta la possibilità di configurare le app Mosaic per fare clic in qualsiasi punto della scheda di un contenuto per aprire il modale in base al tipo `none` di animazione in Designer e `cardAnimation: 'off'`se creata tramite l'SDK. |
+| Miglioramento | Mosaic | Aggiunta la possibilità di configurare le app Mosaic per fare clic in qualsiasi punto della scheda di un contenuto per aprire il modale in base al tipo `none` di animazione in Designer e `cardAnimation: 'off'`se creata tramite l&#39;SDK. |
 | Bug | Mosaic | È stato corretto un bug per consentire agli utenti di apportare modifiche alle app Mosaic in Designer. |
-| Miglioramento | Richiesta diritti | Aggiunta di un nuovo stato di richiesta diritti denominato "Request Failed" (Richiesta non riuscita) da evidenziare quando i messaggi di richiesta dei diritti non venivano inviati. |
+| Miglioramento | Richiesta diritti | Aggiunta di un nuovo stato di richiesta diritti denominato &quot;Request Failed&quot; (Richiesta non riuscita) da evidenziare quando i messaggi di richiesta dei diritti non venivano inviati. |
 | Miglioramento | Impostazioni | Aggiunta la possibilità che i clienti creino regole di moderazione Spam in Impostazioni. |
 | Miglioramento | Ricerca social network | È stato corretto un bug che impediva la visualizzazione dei post VK.com tramite ricerche social network. |
 | Miglioramento | Ricerca social network | Quando si cerca il contenuto di Instagram da Studio, se la ricerca è a causa di un token API di Instagram scaduto, il messaggio di errore viene visualizzato come tale. |
-| Bug | Flussi | È stato corretto un bug a causa del quale un banner dell'app non accettava un banner nuovo per visualizzare erroneamente sopra le pagine Regola di flusso. |
+| Bug | Flussi | È stato corretto un bug a causa del quale un banner dell&#39;app non accettava un banner nuovo per visualizzare erroneamente sopra le pagine Regola di flusso. |
 | Miglioramento | Flussi | Modificato il predefinito delle regole di streaming appena create per applicare Regole SAFE quando applicabile. |
-| Miglioramento | Flussi (precedentemente, Regole Curate) | È stata rimossa l'opzione «Vines» solo dalle regole Flusso Twitter/Curate, in quanto le Vines ora vengono visualizzate come video Twitter. |
-| Bug | Shell Studio | Risolto un bug in modo che Livefyre Studio si carichasse se https:// veniva esplicitamente anteposta all'URL. |
+| Miglioramento | Flussi (precedentemente, Regole Curate) | È stata rimossa l&#39;opzione «Vines» solo dalle regole Flusso Twitter/Curate, in quanto le Vines ora vengono visualizzate come video Twitter. |
+| Bug | Shell Studio | Risolto un bug in modo che Livefyre Studio si carichasse se https:// veniva esplicitamente anteposta all&#39;URL. |
 

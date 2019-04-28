@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Metodo sito geturn{#geturn-site-method}
 
-Questo metodo restituisce l'URN per questo sito.
+Questo metodo restituisce l&#39;URN per questo sito.
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

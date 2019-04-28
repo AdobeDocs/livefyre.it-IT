@@ -1,7 +1,6 @@
 ---
 description: Create un token univoco sul server che identifica tutte le raccolte create.
-seo-description: Create un token univoco sul server che identifica tutte le raccolte
-  create.
+seo-description: Create un token univoco sul server che identifica tutte le raccolte create.
 seo-title: Token collectionmeta
 solution: Experience Manager
 title: Token collectionmeta
@@ -22,14 +21,14 @@ Livefyre assegna un identificatore univoco a ogni raccolta creata. Livefyre asse
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
-| Networkname | Stringa (facoltativa) | Il nome della rete Livefyre (disponibile da {! UICONTROL Studio > Settings > Integration Settings > Credentials]). Questo è facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
-| Networkkey | Stringa (facoltativa) | La chiave segreta per la rete specifica (disponibile da Studio > Impostazioni > Impostazioni integrazione > Credenziali). Questo è facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
+| Networkname | Stringa (facoltativa) | Il nome della rete Livefyre (disponibile da {! UICONTROL Studio &gt; Settings &gt; Integration Settings &gt; Credentials]). Questo è facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
+| Networkkey | Stringa (facoltativa) | La chiave segreta per la rete specifica (disponibile da Studio &gt; Impostazioni &gt; Impostazioni integrazione &gt; Credenziali). Questo è facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
 | Siteid | Stringa (facoltativa) | ID del sito (disponibile da [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
-| Sitekey | Stringa (facoltativa) | La chiave segreta del sito (disponibile da {! UICONTROL Studio > Settings > Integration Settings > Credentials]). |
+| Sitekey | Stringa (facoltativa) | La chiave segreta del sito (disponibile da {! UICONTROL Studio &gt; Settings &gt; Integration Settings &gt; Credentials]). |
 | Articleid | Stringa (facoltativa) | ID univoco per la raccolta. |
-| title | Stringa (facoltativa) | Titolo da applicare alla raccolta. Generalmente corrisponde al titolo della pagina che visualizza l'app. <br>Ad esempio: «Integrazione è molto divertente! »» <br>Nota: La lunghezza massima del carattere per il titolo è 255 caratteri. Il campo Titolo non supporta le entità HTML. Codificate caratteri speciali utilizzando UTF -8. |
-| url | Stringa (facoltativa) | L'URL assoluto canonico che desiderate allegare a questa raccolta. Questo URL verrà utilizzato per generare collegamenti all'app dal contenuto condiviso su Facebook e Twitter, notifiche e-mail e Livefyre Studio. <br>Nota: Se esegui il test localmente, usa un dominio URL di base valido (ad esempio: valid: `https://customer.com`; invalid: `https://localhost:5995`). |
-| tag | Stringa (facoltativa) | Un elenco separato da virgole di parole chiave o frasi. Cerca raccolte in base ai tag che utilizzano Studio. </br>Nota: I tag non possono contenere spazi. Usate i caratteri di sottolineatura per visualizzare uno spazio nell'interfaccia utente. |
+| title | Stringa (facoltativa) | Titolo da applicare alla raccolta. Generalmente corrisponde al titolo della pagina che visualizza l&#39;app. <br>Ad esempio: «Integrazione è molto divertente! »» <br>Nota: La lunghezza massima del carattere per il titolo è 255 caratteri. Il campo Titolo non supporta le entità HTML. Codificate caratteri speciali utilizzando UTF -8. |
+| url | Stringa (facoltativa) | L&#39;URL assoluto canonico che desiderate allegare a questa raccolta. Questo URL verrà utilizzato per generare collegamenti all&#39;app dal contenuto condiviso su Facebook e Twitter, notifiche e-mail e Livefyre Studio. <br>Nota: Se esegui il test localmente, usa un dominio URL di base valido (ad esempio: valid: `https://customer.com`; invalid: `https://localhost:5995`). |
+| tag | Stringa (facoltativa) | Un elenco separato da virgole di parole chiave o frasi. Cerca raccolte in base ai tag che utilizzano Studio. </br>Nota: I tag non possono contenere spazi. Usate i caratteri di sottolineatura per visualizzare uno spazio nell&#39;interfaccia utente. |
 | extensions | JSON (facoltativo) | Un set di parametri formattato JSON da passare alla raccolta. |
 
 ## Java {#section_orz_m4n_sz}
@@ -98,7 +97,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {importance = "high"}
+>[!NOTE] {importance = &quot;high&quot;}
 >
->Livefyre riceve il token collectionmeta che create e determina l'univocità combinando siteid (Livefyre fornito) e articleid (specificato dal cliente).
+>Livefyre riceve il token collectionmeta che create e determina l&#39;univocità combinando siteid (Livefyre fornito) e articleid (specificato dal cliente).
 

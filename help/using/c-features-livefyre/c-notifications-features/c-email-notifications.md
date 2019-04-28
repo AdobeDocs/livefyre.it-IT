@@ -1,8 +1,6 @@
 ---
-description: Consentite agli utenti di selezionare la frequenza e il contenuto della
-  notifica.
-seo-description: Consentite agli utenti di selezionare la frequenza e il contenuto
-  della notifica.
+description: Consentite agli utenti di selezionare la frequenza e il contenuto della notifica.
+seo-description: Consentite agli utenti di selezionare la frequenza e il contenuto della notifica.
 seo-title: Notifiche e-mail
 solution: Experience Manager
 title: Notifiche e-mail
@@ -29,32 +27,32 @@ Gli utenti e i moderatori possono rifiutare o ritirare la notifica e-mail e poss
 * Sincronizzazione dati con Livefyre: mantenere le preferenze sincronizzate con Livefyre.
 * Personalizzazione delle e-mail: personalizzazioni e-mail disponibili.
 
-Utilizzate **Impostazioni > Impostazioni integrazione > Impostazione impostazione** notifiche e-mail per personalizzare le notifiche e-mail per la rete.
+Utilizzate **Impostazioni &gt; Impostazioni integrazione &gt; Impostazione impostazione** notifiche e-mail per personalizzare le notifiche e-mail per la rete.
 
 >[!NOTE]
 >
->Per garantire che gli utenti finali non ricevano posta non desiderata, non vengono inviate notifiche e-mail dall'ambiente Livefyre UAT.
+>Per garantire che gli utenti finali non ricevano posta non desiderata, non vengono inviate notifiche e-mail dall&#39;ambiente Livefyre UAT.
 
 **Opzioni e-mail utente**
 
-Livefyre consente di consentire agli utenti di ricevere notifiche e-mail sull'attività del sito. Utilizzate le impostazioni di integrazione di Livefyre fornite in Livefyre per consentire agli utenti di selezionare le proprie preferenze per le pianificazioni di notifica.
+Livefyre consente di consentire agli utenti di ricevere notifiche e-mail sull&#39;attività del sito. Utilizzate le impostazioni di integrazione di Livefyre fornite in Livefyre per consentire agli utenti di selezionare le proprie preferenze per le pianificazioni di notifica.
 
 >[!NOTE]
 >
 >Le e-mail vengono inviate solo per il contenuto pubblicato manualmente nel flusso e non per il contenuto recuperato da socialsync.
 
-Per consentire agli utenti di impostare le preferenze di notifica, includete una sezione Notifiche e-mail nelle impostazioni utente per il sistema di profilo utente. Aggiungi i campi corrispondenti allo schema del database del profilo utente, quindi gestisci le impostazioni dell'utente utilizzando Ping per Pull. (Collaborate con il Gestore integrazione tecnica per definire le frequenze predefinite per la rete. Se siete clienti Enterprise Profiles, trasmettete le impostazioni predefinite selezionate al team di consegna di Livefyre per la configurazione nel database Livefyre.)
+Per consentire agli utenti di impostare le preferenze di notifica, includete una sezione Notifiche e-mail nelle impostazioni utente per il sistema di profilo utente. Aggiungi i campi corrispondenti allo schema del database del profilo utente, quindi gestisci le impostazioni dell&#39;utente utilizzando Ping per Pull. (Collaborate con il Gestore integrazione tecnica per definire le frequenze predefinite per la rete. Se siete clienti Enterprise Profiles, trasmettete le impostazioni predefinite selezionate al team di consegna di Livefyre per la configurazione nel database Livefyre.)
 
-Gli utenti sul sito possono seguire una conversazione e iniziare a ricevere le notifiche e-mail facendo clic sul **[!UICONTROL +Follow]** pulsante nell'editor dei commenti. Le preferenze di notifica sono definite a livello di rete di Livefyre. Qualsiasi impostazione utente si applica a tutti i siti e le conversazioni nella rete.
+Gli utenti sul sito possono seguire una conversazione e iniziare a ricevere le notifiche e-mail facendo clic sul **[!UICONTROL +Follow]** pulsante nell&#39;editor dei commenti. Le preferenze di notifica sono definite a livello di rete di Livefyre. Qualsiasi impostazione utente si applica a tutti i siti e le conversazioni nella rete.
 
 **Valori predefiniti raccomandati**
 
-* Commenti in una conversazione l'm seguente: ** digest orario**
+* Commenti in una conversazione l&#39;m seguente: ** digest orario**
 * A qualcuno piace uno dei miei commenti: ** digest orario**
 * Un utente risponde a uno dei miei commenti: ** immediatamente**
 * Segui automaticamente le conversazioni quando lascio un commento: ** off** (non selezionata)
 
-**Nota**: Le notifiche e-mail sono basate sul contenuto ora approvato per l'inclusione nel flusso.
+**Nota**: Le notifiche e-mail sono basate sul contenuto ora approvato per l&#39;inclusione nel flusso.
 
 Livefyre offre due opzioni di frequenza e-mail:
 
@@ -63,11 +61,11 @@ Livefyre offre due opzioni di frequenza e-mail:
 
 **Immediatamente**
 
-Le e-mail inviate mostrano immediatamente il testo, il titolo dell'articolo, il nome utente dell'autore e un **collegamento di risposta** che porta l'utente al contenuto della pagina. Tali e-mail includono anche un collegamento **di annullamento della sottoscrizione** nel piè di pagina, che consente agli utenti di annullare l'iscrizione alle notifiche e-mail per tale raccolta. Facendo clic su** Annulla iscrizione**, le passeranno a una pagina di conferma per informarli che sono state annullate dalla raccolta.
+Le e-mail inviate mostrano immediatamente il testo, il titolo dell&#39;articolo, il nome utente dell&#39;autore e un **collegamento di risposta** che porta l&#39;utente al contenuto della pagina. Tali e-mail includono anche un collegamento **di annullamento della sottoscrizione** nel piè di pagina, che consente agli utenti di annullare l&#39;iscrizione alle notifiche e-mail per tale raccolta. Facendo clic su** Annulla iscrizione**, le passeranno a una pagina di conferma per informarli che sono state annullate dalla raccolta.
 
 **Riassunto orario**
 
-Le e-mail inviate in un riassunto orario vengono visualizzate in tutto il contenuto, risposte al contenuto e mi piacciono per il contenuto entro l'ultima ora (o così) per app che l'utente segue. Se l'utente sta seguendo più app nella rete, riceveranno un messaggio e-mail per ogni app.
+Le e-mail inviate in un riassunto orario vengono visualizzate in tutto il contenuto, risposte al contenuto e mi piacciono per il contenuto entro l&#39;ultima ora (o così) per app che l&#39;utente segue. Se l&#39;utente sta seguendo più app nella rete, riceveranno un messaggio e-mail per ogni app.
 
 >[!NOTE]
 >
@@ -75,15 +73,15 @@ Le e-mail inviate in un riassunto orario vengono visualizzate in tutto il conten
 
 **Opzioni e-mail moderatore**
 
-I moderatori possono scegliere di ricevere e-mail per il contenuto pubblicato in un'app che segue, e per i commenti segnalati in spam o offensivi in un'app che stanno moderando. **Nota:** Non viene inviata alcuna e-mail quando gli utenti segnalano un commento con Non d'accordo o Fuori argomento, poiché queste categorie non sono considerate importanti per la notifica moderatore.
+I moderatori possono scegliere di ricevere e-mail per il contenuto pubblicato in un&#39;app che segue, e per i commenti segnalati in spam o offensivi in un&#39;app che stanno moderando. **Nota:** Non viene inviata alcuna e-mail quando gli utenti segnalano un commento con Non d&#39;accordo o Fuori argomento, poiché queste categorie non sono considerate importanti per la notifica moderatore.
 
-I campi moderator_ comments e moderator_ flags devono essere aggiunti anche allo schema del database della pagina del moderatore per consentire ai moderatori di aggiornare la frequenza delle notifiche e-mail e di rifiutare se desiderano. Livefyre consiglia di impostare **su mai questi due campi di notifica e-mail moderatore**. Le opzioni includono **mai** (impostazione predefinita), **immediatamente**e **spesso**.
+I campi moderator_ comments e moderator_ flags devono essere aggiunti anche allo schema del database della pagina del moderatore per consentire ai moderatori di aggiornare la frequenza delle notifiche e-mail e di rifiutare se desiderano. Livefyre consiglia di impostare **su mai questi due campi di notifica e-mail moderatore**. Le opzioni includono **mai** (impostazione predefinita), **immediatamente** e **spesso**.
 
 **E-mail moderatore (contenuto con segnalazione):**
 
-Quando il contenuto viene segnalato in un'app moderata, l'e-mail inviata al moderatore visualizzerà il contenuto contrassegnato, il nome utente che ha segnalato il contenuto e di nuovo un collegamento alla pagina del contenuto.
+Quando il contenuto viene segnalato in un&#39;app moderata, l&#39;e-mail inviata al moderatore visualizzerà il contenuto contrassegnato, il nome utente che ha segnalato il contenuto e di nuovo un collegamento alla pagina del contenuto.
 
-Quando un utente modifica le preferenze di notifica e-mail sul sito nel sistema di profilo, sincronizzate l'aggiornamento al sistema remoto di Livefyre utilizzando Ping per Pull.
+Quando un utente modifica le preferenze di notifica e-mail sul sito nel sistema di profilo, sincronizzate l&#39;aggiornamento al sistema remoto di Livefyre utilizzando Ping per Pull.
 
 **Sincronizzazione dati con Livefyre**
 
@@ -93,7 +91,7 @@ Diversi campi nei modelli di notifica e-mail possono essere modificati in base a
 
 * **[!UICONTROL From Email Address]**
 
-   L '«indirizzo e-mail» per tutte le notifiche e-mail può essere personalizzato in modo da essere coerente con il tuo marchio. Livefyre consiglia **noreply@customerdomain.com**, sostituendo **customerdomainwith**your domain name. (Il valore predefinito è **noreply@livefyre.com**.) Passate il vostro «indirizzo e-mail» preferito al Gestore Technical Integration Manager per la configurazione nel database di Livefyre per la vostra rete.
+   L &#39;«indirizzo e-mail» per tutte le notifiche e-mail può essere personalizzato in modo da essere coerente con il tuo marchio. Livefyre consiglia **noreply@customerdomain.com**, sostituendo **customerdomainwith** your domain name. (Il valore predefinito è **noreply@livefyre.com**.) Passate il vostro «indirizzo e-mail» preferito al Gestore Technical Integration Manager per la configurazione nel database di Livefyre per la vostra rete.
 
    >[!NOTE]
    >
@@ -105,7 +103,7 @@ Diversi campi nei modelli di notifica e-mail possono essere modificati in base a
 
 * **[!UICONTROL Custom Templates]**
 
-   Se desiderato, è possibile implementare un modello e-mail completamente personalizzato. Tuttavia, questo richiede un certo sforzo di sviluppo e potrebbe sostenere costi di servizi professionali. Contattate l'Account Manager per informazioni dettagliate.
+   Se desiderato, è possibile implementare un modello e-mail completamente personalizzato. Tuttavia, questo richiede un certo sforzo di sviluppo e potrebbe sostenere costi di servizi professionali. Contattate l&#39;Account Manager per informazioni dettagliate.
 
 
 

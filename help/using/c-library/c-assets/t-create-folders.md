@@ -15,10 +15,10 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Creare cartelle per organizzare le risorse.
 
-La creazione di una nuova cartella consente di aggiungerla all'elenco Tutte le risorse in ordine alfabetico. Per aggiungere una sottocartella, selezionate prima la cartella in cui si troverà, quindi fate clic sull' **[!UICONTROL Create New Subfolder]** icona nella parte superiore della pagina.
+La creazione di una nuova cartella consente di aggiungerla all&#39;elenco Tutte le risorse in ordine alfabetico. Per aggiungere una sottocartella, selezionate prima la cartella in cui si troverà, quindi fate clic sull&#39; **[!UICONTROL Create New Subfolder]** icona nella parte superiore della pagina.
 
 ![](assets/LibraryNewFolder-1024x338.png)
 
 1. Fai clic sulla **[!UICONTROL Create new folder]** vista ad albero, immetti un nome e fai clic su **[!UICONTROL Create]** per creare la cartella al livello principale di Tutte le risorse.
-1. Selezionate una cartella, quindi fate clic sull' **[!UICONTROL Create New Subfolder]** icona nella parte superiore della pagina per aggiungere una sottocartella.
+1. Selezionate una cartella, quindi fate clic sull&#39; **[!UICONTROL Create New Subfolder]** icona nella parte superiore della pagina per aggiungere una sottocartella.
 1. Create una nuova cartella quando aggiungete contenuti alla Libreria risorse dalla **[!UICONTROL Add to folder > Select folder]** finestra di dialogo.

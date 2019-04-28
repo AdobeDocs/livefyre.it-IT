@@ -1,10 +1,6 @@
 ---
-description: Consente agli utenti di pubblicare, modificare, segnalare, eliminare,
-  rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di
-  formattazione RTF.
-seo-description: Consente agli utenti di pubblicare, modificare, segnalare, eliminare,
-  rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di
-  formattazione RTF.
+description: Consente agli utenti di pubblicare, modificare, segnalare, eliminare, rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
+seo-description: Consente agli utenti di pubblicare, modificare, segnalare, eliminare, rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
 seo-title: Post utente
 solution: Experience Manager
 title: Post utente
@@ -19,13 +15,13 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Consente agli utenti di pubblicare, modificare, segnalare, eliminare, rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
 
-Livefyre Apps consente ai vostri utenti di pubblicare e interagire con i contenuti in modo semplice e intuitivo. L'interfaccia di Livefyre fornisce testo e immagini RTF, la possibilità di disporre, flag o risposta ai commenti di altri, nonché la possibilità di modificare o eliminare i post personalizzati.
+Livefyre Apps consente ai vostri utenti di pubblicare e interagire con i contenuti in modo semplice e intuitivo. L&#39;interfaccia di Livefyre fornisce testo e immagini RTF, la possibilità di disporre, flag o risposta ai commenti di altri, nonché la possibilità di modificare o eliminare i post personalizzati.
 
 ## Post {#section_bty_ww2_wy}
 
-Gli utenti possono pubblicare il contenuto dopo aver effettuato l'accesso immettendo un commento o un collegamento multimediale nella casella dell'editor e facendo clic **[!UICONTROL Post comment]**.
+Gli utenti possono pubblicare il contenuto dopo aver effettuato l&#39;accesso immettendo un commento o un collegamento multimediale nella casella dell&#39;editor e facendo clic **[!UICONTROL Post comment]**.
 
-Per pubblicare il contenuto quando non viene eseguito l'accesso, gli utenti immettono un commento o un collegamento multimediale nell'editor e fanno clic **[!UICONTROL Post comment as…]**. La finestra di accesso viene visualizzata per richiedere un login.
+Per pubblicare il contenuto quando non viene eseguito l&#39;accesso, gli utenti immettono un commento o un collegamento multimediale nell&#39;editor e fanno clic **[!UICONTROL Post comment as…]**. La finestra di accesso viene visualizzata per richiedere un login.
 
 (La maggior parte dei browser consente 8,000 commenti di caratteri; Internet Explorer consente 1,500 caratteri.
 
@@ -41,21 +37,21 @@ Gli utenti possono inserire dei commenti per la formattazione RTF, inclusi grass
 
 Gli utenti possono rispondere a qualsiasi commento in un thread facendo clic sul collegamento Risposta per tale commento.
 
-Per Chat e Blog live, le risposte possono essere attivate o disattivate utilizzando le impostazioni della raccolta all'interno di Studio.
+Per Chat e Blog live, le risposte possono essere attivate o disattivate utilizzando le impostazioni della raccolta all&#39;interno di Studio.
 
 ## Come {#section_its_kw2_wy}
 
 Gli utenti devono avere effettuato il login come il contenuto di un altro utente e potrebbero non avere il contenuto desiderato.
 
-Accanto al **[!UICONTROL Like]** pulsante vengono visualizzati il numero di avatar e fino a quattro avatar dell'utente.
+Accanto al **[!UICONTROL Like]** pulsante vengono visualizzati il numero di avatar e fino a quattro avatar dell&#39;utente.
 
-When liking content, the **[!UICONTROL Like]** link will change to **[!UICONTROL Unlike]**. Facendo clic **[!UICONTROL Unlike]** su di esso si rimuove l'avatar per quell'utente e si riduce il numero del 1.
+When liking content, the **[!UICONTROL Like]** link will change to **[!UICONTROL Unlike]**. Facendo clic **[!UICONTROL Unlike]** su di esso si rimuove l&#39;avatar per quell&#39;utente e si riduce il numero del 1.
 
 ## Modifica {#section_ubt_qwx_vy}
 
 Per impostazione predefinita, gli utenti possono modificare il proprio contenuto entro 5 minuti dal posting, facendo clic sul **[!UICONTROL Edit]** collegamento per aprire una casella di testo Modifica.
 
-Potete disattivare questa funzione a livello di raccolta mediante il pannello Impostazioni di Studio. Il pannello Impostazioni può essere utilizzato anche per modificare l'ora in cui i commenti possono essere modificati a livello di rete.
+Potete disattivare questa funzione a livello di raccolta mediante il pannello Impostazioni di Studio. Il pannello Impostazioni può essere utilizzato anche per modificare l&#39;ora in cui i commenti possono essere modificati a livello di rete.
 
 I moderatori possono modificare i contenuti degli utenti in qualsiasi momento, sia in linea sia nel pannello Contenuto.
 

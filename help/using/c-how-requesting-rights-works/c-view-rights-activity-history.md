@@ -29,7 +29,7 @@ Livefyre track:
 
 1. Fate clic su **[!UICONTROL Library]** per accedere alla Libreria risorse.
 1. (Facoltativo) Aggiungete contenuto alle cartelle mediante la funzione di ricerca social network.
-1. Aprire una cartella e fare clic su un contenuto salvato da Twitter o Instagram. Potete vedere dove si trova il contenuto guardando l'icona sulla parte del contenuto. Ad esempio, su una parte del contenuto di Twitter è presente il logo Twitter.
+1. Aprire una cartella e fare clic su un contenuto salvato da Twitter o Instagram. Potete vedere dove si trova il contenuto guardando l&#39;icona sulla parte del contenuto. Ad esempio, su una parte del contenuto di Twitter è presente il logo Twitter.
 1. Click on the ellipsis icon that displays when you hover over the content card for **[!UICONTROL More Options]**.
 1. Fate clic per **[!UICONTROL Rights]** aprire la **[!UICONTROL Rights options]** finestra.
 

@@ -1,8 +1,6 @@
 ---
-description: Gli stili personalizzati vengono applicati tramite un oggetto inserito
-  nella costruttore Sidenotes.
-seo-description: Gli stili personalizzati vengono applicati tramite un oggetto inserito
-  nella costruttore Sidenotes.
+description: Gli stili personalizzati vengono applicati tramite un oggetto inserito nella costruttore Sidenotes.
+seo-description: Gli stili personalizzati vengono applicati tramite un oggetto inserito nella costruttore Sidenotes.
 seo-title: Stili personalizzati
 title: Stili personalizzati
 uuid: 0 f 6 d 7 ad 6-1 f 6 a -4 ed 2 ed 86 a -0 d 03782 e 591 e
@@ -33,27 +31,27 @@ new Livefyre.Sidenotes({
 
 | **Chiave** | **Proprietà** | Descrizione |
 |---|---|---|
-| `anonymousAvatar` | ' height ','width ' | Immagine avatar anonima, a sinistra dell'editor dell'area di testo. |
-| `blockBtn` | ' Fontcolor ','fontsizè,'left ','position ','right ','top | L '«icona di avvio» posizionata accanto agli elementi specificati come in sidenote. |
-| `blockBtnActive` | ' Fontcolor ','fontsizè,'left ','position ','right ','top | Icona di avvio quando si attiva uno stato attivo. |
-| `commentAvatar` | ' height ','width ' | Immagine avatar a sinistra delle note di livello principale. |
-| `commentBody` | ' Fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ' | Corpo del testo delle note concatenate. |
-| `commentDisplayName` | ' Fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ' | Nome visualizzato dell'utente che ha lasciato una nota. |
-| `commentDownvote` | ' Fontcolor ','fontsizè | Pulsante Downvoto su una nota. |
-| `commentReplyExpand` | ' Backgroundcolor ','bordercolor ','borderwidth ','fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ' | Pulsante per espandere i thread con un numero elevato di risposte. |
-| `commentTags` | ' Fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ' | Tag su un utente. |
-| `commentUpvote` | ' Fontcolor ','fontsizè | Pulsante Upvote su una nota. |
-| `editorTextarea` | ' height ','width ','fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ' | Casella di testo Area di testo per uscire dalle note. |
-| `mediaBlockBtn` | ' Fontcolor ','fontsizè,'left ','position ','right ','top | Icona di avvio file multimediali quando si trova sopra un elemento multimediale (img, video). |
-| `mediaBlockBtnActive` | ' Fontcolor ','fontsizè,'left ','position ','right ','top | Icona di avvio file multimediali in stato attivo. |
-| `numSidenotes` | ' Fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ','backgroundcolor ','bordercolor ','borderwidth ','height ','width | Pulsante selezionabile che mostra il numero di Sidenotes nella raccolta. |
-| `numSidenotesPopover` | ' Fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ','backgroundcolor ','bordercolor ','borderwidth ','height ','width | Contenitore con breve spiegazione di Sidenotes. |
-| `popover` | ' Backgroundcolor ' | Contenitore che viene richiamato quando l'icona di avvio viene richiamata. |
-| `popoverArrowLeft` | ' Backgroundimagè,'height ','left ','right ','top ','width ' | Elemento freccia sinistra nel contenitore che indica l'elemento DOM contenente un'icona di avvio. |
-| `popoverArrorRight` | ' Backgroundimagè,'height ','left ','right ','top ','width ' | Elemento freccia destra nel contenitore che indica l'elemento DOM contenente un'icona di avvio. |
-| `popoverArrowTop` | ' Backgroundimagè,'height ','left ','right ','top ','width ' | Elemento freccia superiore nel contenitore che punta all'elemento DOM contenente un'icona di avvio. |
-| `replyAvatar` | ' height ','width ' | Immagine avatar a sinistra delle note sul livello di risposta. |
-| `streamPoweredBy` | ' Backgroundcolor ','bordercolor ','lineheight ' | «Gestito da» nel contenitore. |
-| `streamQueueButton` | ' Backgroundcolor ','bordercolor ','borderwidth ','fontcolor ','fontfamily ','fontsizè,'fontweight ','lineheight ' | Pulsante per indicare quando le nuove note vengono trasmesse in un contenitore aperto. |
-| `userAvatar` | ' height ','width ' | Immagine avatar dell'utente autenticata, a sinistra dell'editor dell'area di testo. |
+| `anonymousAvatar` | &#39; height &#39;,&#39;width &#39; | Immagine avatar anonima, a sinistra dell&#39;editor dell&#39;area di testo. |
+| `blockBtn` | &#39; Fontcolor &#39;,&#39;fontsizè,&#39;left &#39;,&#39;position &#39;,&#39;right &#39;,&#39;top | L &#39;«icona di avvio» posizionata accanto agli elementi specificati come in sidenote. |
+| `blockBtnActive` | &#39; Fontcolor &#39;,&#39;fontsizè,&#39;left &#39;,&#39;position &#39;,&#39;right &#39;,&#39;top | Icona di avvio quando si attiva uno stato attivo. |
+| `commentAvatar` | &#39; height &#39;,&#39;width &#39; | Immagine avatar a sinistra delle note di livello principale. |
+| `commentBody` | &#39; Fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39; | Corpo del testo delle note concatenate. |
+| `commentDisplayName` | &#39; Fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39; | Nome visualizzato dell&#39;utente che ha lasciato una nota. |
+| `commentDownvote` | &#39; Fontcolor &#39;,&#39;fontsizè | Pulsante Downvoto su una nota. |
+| `commentReplyExpand` | &#39; Backgroundcolor &#39;,&#39;bordercolor &#39;,&#39;borderwidth &#39;,&#39;fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39; | Pulsante per espandere i thread con un numero elevato di risposte. |
+| `commentTags` | &#39; Fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39; | Tag su un utente. |
+| `commentUpvote` | &#39; Fontcolor &#39;,&#39;fontsizè | Pulsante Upvote su una nota. |
+| `editorTextarea` | &#39; height &#39;,&#39;width &#39;,&#39;fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39; | Casella di testo Area di testo per uscire dalle note. |
+| `mediaBlockBtn` | &#39; Fontcolor &#39;,&#39;fontsizè,&#39;left &#39;,&#39;position &#39;,&#39;right &#39;,&#39;top | Icona di avvio file multimediali quando si trova sopra un elemento multimediale (img, video). |
+| `mediaBlockBtnActive` | &#39; Fontcolor &#39;,&#39;fontsizè,&#39;left &#39;,&#39;position &#39;,&#39;right &#39;,&#39;top | Icona di avvio file multimediali in stato attivo. |
+| `numSidenotes` | &#39; Fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39;,&#39;backgroundcolor &#39;,&#39;bordercolor &#39;,&#39;borderwidth &#39;,&#39;height &#39;,&#39;width | Pulsante selezionabile che mostra il numero di Sidenotes nella raccolta. |
+| `numSidenotesPopover` | &#39; Fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39;,&#39;backgroundcolor &#39;,&#39;bordercolor &#39;,&#39;borderwidth &#39;,&#39;height &#39;,&#39;width | Contenitore con breve spiegazione di Sidenotes. |
+| `popover` | &#39; Backgroundcolor &#39; | Contenitore che viene richiamato quando l&#39;icona di avvio viene richiamata. |
+| `popoverArrowLeft` | &#39; Backgroundimagè,&#39;height &#39;,&#39;left &#39;,&#39;right &#39;,&#39;top &#39;,&#39;width &#39; | Elemento freccia sinistra nel contenitore che indica l&#39;elemento DOM contenente un&#39;icona di avvio. |
+| `popoverArrorRight` | &#39; Backgroundimagè,&#39;height &#39;,&#39;left &#39;,&#39;right &#39;,&#39;top &#39;,&#39;width &#39; | Elemento freccia destra nel contenitore che indica l&#39;elemento DOM contenente un&#39;icona di avvio. |
+| `popoverArrowTop` | &#39; Backgroundimagè,&#39;height &#39;,&#39;left &#39;,&#39;right &#39;,&#39;top &#39;,&#39;width &#39; | Elemento freccia superiore nel contenitore che punta all&#39;elemento DOM contenente un&#39;icona di avvio. |
+| `replyAvatar` | &#39; height &#39;,&#39;width &#39; | Immagine avatar a sinistra delle note sul livello di risposta. |
+| `streamPoweredBy` | &#39; Backgroundcolor &#39;,&#39;bordercolor &#39;,&#39;lineheight &#39; | «Gestito da» nel contenitore. |
+| `streamQueueButton` | &#39; Backgroundcolor &#39;,&#39;bordercolor &#39;,&#39;borderwidth &#39;,&#39;fontcolor &#39;,&#39;fontfamily &#39;,&#39;fontsizè,&#39;fontweight &#39;,&#39;lineheight &#39; | Pulsante per indicare quando le nuove note vengono trasmesse in un contenitore aperto. |
+| `userAvatar` | &#39; height &#39;,&#39;width &#39; | Immagine avatar dell&#39;utente autenticata, a sinistra dell&#39;editor dell&#39;area di testo. |
 

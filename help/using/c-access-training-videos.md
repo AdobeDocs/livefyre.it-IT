@@ -20,5 +20,5 @@ Per accedere ai video di formazione di Livefyre:
    * Creare flussi di contenuto automatici e cercare contenuti social in Adobe Experience Manager Livefyre
    * Utilizzo delle risorse in Adobe Experience Manager Livefyre
 
-1. Fate clic sul video desiderato per accedere all'esercitazione.
+1. Fate clic sul video desiderato per accedere all&#39;esercitazione.
 

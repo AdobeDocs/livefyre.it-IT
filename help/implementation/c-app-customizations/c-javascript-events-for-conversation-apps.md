@@ -1,9 +1,6 @@
 ---
-description: Eventi disponibili a cui è possibile associare JavaScript per le app
-  di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
-seo-description: Eventi disponibili a cui è possibile associare JavaScript per le
-  app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a
-  margine).
+description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
+seo-description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
 seo-title: Eventi Javascript per le app di conversazione
 solution: Experience Manager
 title: Eventi Javascript per le app di conversazione
@@ -20,7 +17,7 @@ Eventi disponibili a cui è possibile associare JavaScript per le app di convers
 
 ## App di conversazione e matrice eventi {#section_y4j_x4m_ybb}
 
-Di seguito è riportata una matrice degli eventi disponibili per le app di conversazione. Una X indica che l'evento è disponibile per l'app, N/D indica che l'evento non si applica all'app e nessuna marcatura significa che l'evento non è disponibile per quell'app:
+Di seguito è riportata una matrice degli eventi disponibili per le app di conversazione. Una X indica che l&#39;evento è disponibile per l&#39;app, N/D indica che l&#39;evento non si applica all&#39;app e nessuna marcatura significa che l&#39;evento non è disponibile per quell&#39;app:
 
 ### Eventi delle app di conversazione
 
@@ -53,7 +50,7 @@ Di seguito è riportata una matrice degli eventi disponibili per le app di conve
 | Pulsante Post clic | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
 | Aggiornamento dei commenti aggiornato | X | X | X | X | N/D | N/D | N/D |
 | Accesso utente |  |  |  |  |  | N/D | N/D |
-| L'utente ha disconnesso |  |  |  |  |  | N/D | N/D |
+| L&#39;utente ha disconnesso |  |  |  |  |  | N/D | N/D |
 | Commento in evidenza |  | N/D |  |  | N/D | N/D | N/D |
 | Commento non disponibile |  | N/D |  |  | N/D | N/D | N/D |
 | Commento votato | N/D | N/D | N/D | X | X | N/D | N/D |
@@ -64,6 +61,6 @@ Di seguito è riportata una matrice degli eventi disponibili per le app di conve
 | ID contesto | X | X | X | X |  |  |  |
 | Tipo app | X | X | X | X |  |  |  |
 | Tipo di contenuto | X | X | X | X |  |  |  |
-| Data pubblicata nell'app |  |  |  |  |  |  |  |
-| Accesso all'app utente finale |  |  |  |  |  |  |  |
+| Data pubblicata nell&#39;app |  |  |  |  |  |  |  |
+| Accesso all&#39;app utente finale |  |  |  |  |  |  |  |
 

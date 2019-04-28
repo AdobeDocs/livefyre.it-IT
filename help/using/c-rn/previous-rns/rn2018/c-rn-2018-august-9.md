@@ -30,13 +30,13 @@ I problemi delle tabelle seguenti sono stati risolti in questa versione.
 | Bug | Contenuto app | È stato risolto un problema che impediva agli amministratori e ai gestori di contenuto di modificare il contenuto in Contenuto app. |
 | Miglioramento | App | Le reti social hanno apportato modifiche sulla privacy che significano che le menzioni social non saranno più supportate per Facebook o Twitter. |
 | Miglioramento | App | Le reti social hanno apportato modifiche alla privacy. La funzione «Post in» che inserisce automaticamente il contenuto ai social network (Facebook, linkedin, Twitter) è stata rimossa. |
-| Miglioramento | GDPR | È stato rimosso l'attivazione per la modalità Dettagli dalla pagina dei dettagli della richiesta in Impostazioni > Privacy. È possibile accedere alla modalità Dettagli aggiungendo /dbg alla fine dell'URL. |
+| Miglioramento | GDPR | È stato rimosso l&#39;attivazione per la modalità Dettagli dalla pagina dei dettagli della richiesta in Impostazioni &gt; Privacy. È possibile accedere alla modalità Dettagli aggiungendo /dbg alla fine dell&#39;URL. |
 | Bug | Integrazione: AEM | È stato risolto un problema che causava la creazione di più app da parte di Livefyre Apps in AEM. |
 | Bug | Libreria | È stato risolto un problema che impediva il salvataggio corretto di una risorsa nella libreria. |
-| Bug | Livefyre Identity | È stato risolto un problema relativo all'identità LF che causava errori 403 durante l'accesso. |
-| Bug | Ricerca social network | È stato risolto un problema che impediva agli utenti di cercare post Facebook pubblici utilizzando l'opzione URL in Social Search. |
+| Bug | Livefyre Identity | È stato risolto un problema relativo all&#39;identità LF che causava errori 403 durante l&#39;accesso. |
+| Bug | Ricerca social network | È stato risolto un problema che impediva agli utenti di cercare post Facebook pubblici utilizzando l&#39;opzione URL in Social Search. |
 | Miglioramento | Sincronizzazione social network | Le reti social hanno apportato modifiche sulla privacy che indicano che la sincronizzazione social network non sarà più supportata per Facebook. |
-| Miglioramento | Flussi | Ora, quando eliminate un'app, eliminate tutti i flussi associati a tale app. |
+| Miglioramento | Flussi | Ora, quando eliminate un&#39;app, eliminate tutti i flussi associati a tale app. |
 | Miglioramento | Studio | I clienti adesso possono emettere eventi Livefyre in Adobe Analytics singolarmente, anziché in batch. |
 | Miglioramento | Studio | Le finestre modali visualizzate nelle app di conversazione per le reti social saranno ora finestre modali dal social network invece che da Adobe Experience Manager Livefyre o da altre finestre modali con marchio. |
 
@@ -52,7 +52,7 @@ I problemi delle tabelle seguenti sono stati risolti nella versione della versio
 | Bug | Libreria/Ricerca | È stata ripristinata la capacità di cercare gli URL da Instagram in Social Search. |
 | Bug | Modq | È stato risolto un problema a causa del quale il menu Ulteriori informazioni in modq non veniva visualizzato dove previsto. |
 | Bug | Rights Management | È stato risolto un problema che causava la visualizzazione di ordinamento in modq in una posizione fissa quando la pagina scorreva. |
-| Bug | Flussi | È stato corretto un problema di visualizzazione dei flussi nell'ambiente di staging. |
-| Miglioramento | Flussi | È stata aggiunta l'opzione Safe For Work (SFW) e Not Safe for Work (NSFW) per i flussi. |
+| Bug | Flussi | È stato corretto un problema di visualizzazione dei flussi nell&#39;ambiente di staging. |
+| Miglioramento | Flussi | È stata aggiunta l&#39;opzione Safe For Work (SFW) e Not Safe for Work (NSFW) per i flussi. |
 | Miglioramento | Studio | Funzionalità tag avanzato aggiunta al contenuto caricato nella libreria Livefyre Studio tramite filestack (funzionalità di caricamento in Tutte le risorse). |
 

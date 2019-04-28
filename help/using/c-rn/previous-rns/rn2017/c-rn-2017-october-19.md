@@ -25,9 +25,9 @@ Note sulla versione del 19 ottobre 2017.
 
 | **Tipo di edizione** | **Componente** | **Nota sulla versione** |
 |---|---|---|
-| Miglioramento | Contenuto app | Possibilità di riprodurre file audio caricati dal contenuto dell'app. |
-| Miglioramento | Contenuto app | I clienti possono caricare i file audio tramite l'API Upload (Carica) che possono essere visualizzati e scaricati tramite il contenuto dell'app. |
-| Miglioramento | Contenuto app | Aggiunta la capacità di scaricare un file audio dal contenuto dell'app. |
+| Miglioramento | Contenuto app | Possibilità di riprodurre file audio caricati dal contenuto dell&#39;app. |
+| Miglioramento | Contenuto app | I clienti possono caricare i file audio tramite l&#39;API Upload (Carica) che possono essere visualizzati e scaricati tramite il contenuto dell&#39;app. |
+| Miglioramento | Contenuto app | Aggiunta la capacità di scaricare un file audio dal contenuto dell&#39;app. |
 | Bug | Rights Management | Risoluzione di un bug che non mostrava un messaggio di errore corretto quando un utente tentava di salvare il contenuto in Social Search dopo che questo veniva eliminato da Twitter o Instagram. |
 | Miglioramento | SAFE | Gli amministratori di studio ora possono aggiungere una nuova regola SAFE nelle impostazioni denominato Smart Mod Rifiuta, che abilita la funzionalità Smart Mod. |
 

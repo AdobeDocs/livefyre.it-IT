@@ -1,8 +1,6 @@
 ---
-description: Acquisite i conteggi dei post e dei commenti per determinate raccolte
-  da visualizzare nelle pagine indice.
-seo-description: Acquisite i conteggi dei post e dei commenti per determinate raccolte
-  da visualizzare nelle pagine indice.
+description: Acquisite i conteggi dei post e dei commenti per determinate raccolte da visualizzare nelle pagine indice.
+seo-description: Acquisite i conteggi dei post e dei commenti per determinate raccolte da visualizzare nelle pagine indice.
 seo-title: Visualizza conteggio commenti
 solution: Experience Manager
 title: Visualizza conteggio commenti
@@ -31,7 +29,7 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti delle
    </script>
    ```
 
-1. Associare l'elemento HTML.
+1. Associare l&#39;elemento HTML.
 
    Una volta caricato lo script, si tenterà di trovare altri elementi sulla pagina con il nome di classe di `livefyre-commentcount`. Per ognuno di questi elementi, lo script cerca `data-lf-site-id` e gli attributi `data-lf-article-id` HTML, e li utilizzerà per recuperare contenuto da Livefyre e aggiornare ogni elemento con il valore più recente.
 
@@ -43,11 +41,11 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti delle
    </span>
    ```
 
-   >[!NOTE] {importance = "high"}
+   >[!NOTE] {importance = &quot;high&quot;}
    >
    >`CommentCount.js` Il codice verifica che un valore numerico venga aggiornato con il conteggio effettivo. Accertarsi di includere un valore numerico tra i tag.
 
-   **Esempio 1** (utilizzo dell'URL come ID articolo):
+   **Esempio 1** (utilizzo dell&#39;URL come ID articolo):
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="https://mikesoldner.com/blog.php">  
@@ -71,10 +69,10 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti delle
 
 * **funzioni:** Utilizzato per eseguire la sostituzione su ogni elemento. Gli argomenti della funzione sono:
 
-   **elemento:** L'elemento HTML che viene aggiornato.
+   **elemento:** L&#39;elemento HTML che viene aggiornato.
    **count:** Il numero di contenuto per questo elemento.
 
-* **regex:** Utilizzato per determinare quale parte del testo dell'elemento deve essere sostituita dal conteggio.
+* **regex:** Utilizzato per determinare quale parte del testo dell&#39;elemento deve essere sostituita dal conteggio.
 
    **Esempio**:
 

@@ -1,8 +1,6 @@
 ---
-description: Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere
-  sondaggi ai vostri commenti o alle app di blog live.
-seo-description: Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere
-  sondaggi ai vostri commenti o alle app di blog live.
+description: Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere sondaggi ai vostri commenti o alle app di blog live.
+seo-description: Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere sondaggi ai vostri commenti o alle app di blog live.
 seo-title: Aggiungere un sondaggio a un commento o a un'app di blog live
 solution: Experience Manager
 title: Aggiungere un sondaggio a un commento o a un'app di blog live
@@ -13,9 +11,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# Aggiungere un sondaggio a un commento o a un'app di blog live{#add-a-poll-to-a-comments-or-live-blog-app}
+# Aggiungere un sondaggio a un commento o a un&#39;app di blog live{#add-a-poll-to-a-comments-or-live-blog-app}
 
 Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere sondaggi ai vostri commenti o alle app di blog live.
 
-1. Copiate il codice da incorporare per un sondaggio pubblicato dalla pagina App Manager o dalla finestra di dialogo visualizzata quando fate clic **[!UICONTROL Publish]**su.
-1. Incollate il codice da incorporare nel **[!UICONTROL Custom HTML]** campo dei commenti o dell'app di blog live.
+1. Copiate il codice da incorporare per un sondaggio pubblicato dalla pagina App Manager o dalla finestra di dialogo visualizzata quando fate clic **[!UICONTROL Publish]** su.
+1. Incollate il codice da incorporare nel **[!UICONTROL Custom HTML]** campo dei commenti o dell&#39;app di blog live.

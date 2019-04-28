@@ -1,8 +1,6 @@
 ---
-description: Storify consente di aggiungere contenuti in qualsiasi posizione della
-  vostra storia.
-seo-description: Storify consente di aggiungere contenuti in qualsiasi posizione della
-  vostra storia.
+description: Storify consente di aggiungere contenuti in qualsiasi posizione della vostra storia.
+seo-description: Storify consente di aggiungere contenuti in qualsiasi posizione della vostra storia.
 seo-title: Aggiungi testo
 solution: Experience Manager
 title: Aggiungi testo
@@ -17,9 +15,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Storify consente di aggiungere contenuti in qualsiasi posizione della vostra storia.
 
-Usate il riquadro Contenuto dell'editor per visualizzare le bozze e trovare parti di contenuto per aggiungere contesto al racconto. Utilizzate la scheda Editor per creare una storyline, aggiungere contesto agli elementi del racconto e creare una voce narrante per la pagina.
+Usate il riquadro Contenuto dell&#39;editor per visualizzare le bozze e trovare parti di contenuto per aggiungere contesto al racconto. Utilizzate la scheda Editor per creare una storyline, aggiungere contesto agli elementi del racconto e creare una voce narrante per la pagina.
 
 Gli elementi del contenuto possono essere modificati o riposizionati. Il testo può essere formattato utilizzando opzioni di formattazione standard, inclusi grassetto, corsivo, sottolineato e barrato.
 
-1. Fate clic nella pagina per creare un nuovo elemento di testo, che potrà quindi essere trascinato per riposizionarlo ovunque all'interno della storyline.
+1. Fate clic nella pagina per creare un nuovo elemento di testo, che potrà quindi essere trascinato per riposizionarlo ovunque all&#39;interno della storyline.
 1. Fate clic sul testo esistente, quindi utilizzate la barra dei menu di formattazione che si apre per rinominarla. Le opzioni disponibili includono titoli, preventivi, elenchi ordinati e non ordinati, grassetto, barrato, sottolineato e corsivo.

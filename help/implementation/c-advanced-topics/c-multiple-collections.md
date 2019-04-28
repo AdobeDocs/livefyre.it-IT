@@ -15,9 +15,9 @@ source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 Presentazione di più raccolte su una singola pagina.
 
-Potete includere più raccolte su una singola pagina sul sito. Ad esempio, per pubblicare un evento, durante l'evento potrebbe essere presente una discussione sul blog live o chat con un'app separata sul lato della pagina, visualizzando i contenuti curati correlati direttamente dal Web social network. Oppure, potete includere un'App commenti sotto un articolo, con una chat a lato.
+Potete includere più raccolte su una singola pagina sul sito. Ad esempio, per pubblicare un evento, durante l&#39;evento potrebbe essere presente una discussione sul blog live o chat con un&#39;app separata sul lato della pagina, visualizzando i contenuti curati correlati direttamente dal Web social network. Oppure, potete includere un&#39;App commenti sotto un articolo, con una chat a lato.
 
-Per ottenere più conversazioni su una pagina, aggiungete una o più configurazioni in un array e passate l'array alla chiamata di caricamento. Ad esempio.
+Per ottenere più conversazioni su una pagina, aggiungete una o più configurazioni in un array e passate l&#39;array alla chiamata di caricamento. Ad esempio.
 
 ```
 <html> 

@@ -1,9 +1,6 @@
 ---
-description: Restituisce un token Livefyre valido crittografato che può essere utilizzato
-  per interagire con altre API di Livefyre per la rete dalla quale viene richiamata.
-seo-description: Restituisce un token Livefyre valido crittografato che può essere
-  utilizzato per interagire con altre API di Livefyre per la rete dalla quale viene
-  richiamata.
+description: Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API di Livefyre per la rete dalla quale viene richiamata.
+seo-description: Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API di Livefyre per la rete dalla quale viene richiamata.
 seo-title: Metodo di rete buildlivefyretoken
 solution: Experience Manager
 title: Metodo di rete buildlivefyretoken

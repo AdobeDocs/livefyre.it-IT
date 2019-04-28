@@ -17,7 +17,7 @@ source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
 
 ## Miglioramento
 
-* Rimuovi l'opzione Regola di flusso Facebook dall'interfaccia utente.
+* Rimuovi l&#39;opzione Regola di flusso Facebook dall&#39;interfaccia utente.
 
 ## Correzioni di bug
 

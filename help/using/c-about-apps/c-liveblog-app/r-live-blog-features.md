@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Funzioni blog live{#live-blog-features}
 
-L'app blog live offre le seguenti funzionalità per il sito.
+L&#39;app blog live offre le seguenti funzionalità per il sito.
 
 
 

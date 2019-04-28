@@ -15,11 +15,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Pubblicate uno Storify 2 sul sito.
 
-Studio salva automaticamente l'app dopo qualsiasi modifica apportata alle opzioni di configurazione.
+Studio salva automaticamente l&#39;app dopo qualsiasi modifica apportata alle opzioni di configurazione.
 
 >[!NOTE]
 >
->Facendo clic **[!UICONTROL Publish]** su genera un codice da incorporare per l'app, e vengono aggiornate tutte le istanze esistenti dell'app, se precedentemente pubblicate.
+>Facendo clic **[!UICONTROL Publish]** su genera un codice da incorporare per l&#39;app, e vengono aggiornate tutte le istanze esistenti dell&#39;app, se precedentemente pubblicate.
 
 1. Fate clic su **[!UICONTROL Publish]** per generare un codice da incorporare, oppure per aggiornare eventuali versioni precedentemente pubblicate di questa app con la versione corrente.
-1. Aggiungete il codice da incorporare alla pagina per aggiungere l'app e visualizzare qualsiasi contenuto precedentemente pubblicato.
+1. Aggiungete il codice da incorporare alla pagina per aggiungere l&#39;app e visualizzare qualsiasi contenuto precedentemente pubblicato.

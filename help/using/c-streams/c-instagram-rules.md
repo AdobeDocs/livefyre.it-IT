@@ -1,7 +1,6 @@
 ---
 description: Potete creare regole di streaming che estraggono il contenuto da Instagram.
-seo-description: Potete creare regole di streaming che estraggono il contenuto da
-  Instagram.
+seo-description: Potete creare regole di streaming che estraggono il contenuto da Instagram.
 seo-title: Regole di Instagram
 title: Regole di Instagram
 uuid: 98108 ddb -5710-4331-891 b -7 e 1 bbb 106059
@@ -23,9 +22,9 @@ Create regole di Instagram in base a @ menzioni o hashtag.
 
 >[!NOTE]
 >
->Tutte le regole di Instagram richiedono almeno un hashtag. L'aggiunta di parole chiave e un nome utente per la regola restituiranno il contenuto che comprende entrambe le voci.
+>Tutte le regole di Instagram richiedono almeno un hashtag. L&#39;aggiunta di parole chiave e un nome utente per la regola restituiranno il contenuto che comprende entrambe le voci.
 
-Per creare regole di Istagram per estrarre contenuto dai feed di Instagram nell'app o nella cartella, filtra:
+Per creare regole di Istagram per estrarre contenuto dai feed di Instagram nell&#39;app o nella cartella, filtra:
 
 * **[!UICONTROL Words]**
 
@@ -35,7 +34,7 @@ Per creare regole di Istagram per estrarre contenuto dai feed di Instagram nell'
 
       >[!NOTE]
       >
-      >Le regole di Instagram restituiranno i post che includono l'hashtag elencato nei commenti dell'autore, che potrebbero non essere visualizzati nel flusso.
+      >Le regole di Instagram restituiranno i post che includono l&#39;hashtag elencato nei commenti dell&#39;autore, che potrebbero non essere visualizzati nel flusso.
 
 * **[!UICONTROL Mentions]**
 
@@ -45,14 +44,14 @@ Per creare regole di Istagram per estrarre contenuto dai feed di Instagram nell'
 
    >[!NOTE]
    >
-   >In Livefyre è necessario disporre di un account aziendale Instagram per utilizzare la ricerca Autore in una regola Flusso di istagram. Per ulteriori informazioni sulla configurazione degli account business di Instagram in Livefyre, consultate [Informazioni sull'account di Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+   >In Livefyre è necessario disporre di un account aziendale Instagram per utilizzare la ricerca Autore in una regola Flusso di istagram. Per ulteriori informazioni sulla configurazione degli account business di Instagram in Livefyre, consultate [Informazioni sull&#39;account di Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
-   * Inserisci **[!UICONTROL @usernames]** per inserire il flusso. L'account associato al **nome @ username** deve essere un account business di Instagram.
+   * Inserisci **[!UICONTROL @usernames]** per inserire il flusso. L&#39;account associato al **nome @ username** deve essere un account business di Instagram.
 
    * Immettete i **@ username** da escludere dal flusso.
 
 * **[!UICONTROL Additional Filters]**
 
-   * Selezionate se desiderate includere **[!UICONTROL All Content]**, **[!UICONTROL Videos Only]**o **[!UICONTROL Photos Only]** nel flusso.
+   * Selezionate se desiderate includere **[!UICONTROL All Content]**, **[!UICONTROL Videos Only]** o **[!UICONTROL Photos Only]** nel flusso.
 
 Per le opzioni di Regole di flusso aggiuntive per tutte le regole Flusso, consultate [Opzioni regola di flusso per tutte le regole dei flussi](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).

@@ -1,8 +1,6 @@
 ---
-description: Potete utilizzare Livefyre Identity con Yahoo! per consentire agli utenti
-  di utilizzare il proprio Yahoo! login per interagire con App sul sito.
-seo-description: Potete utilizzare Livefyre Identity con Yahoo! per consentire agli
-  utenti di utilizzare il proprio Yahoo! login per interagire con App sul sito.
+description: Potete utilizzare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con App sul sito.
+seo-description: Potete utilizzare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con App sul sito.
 seo-title: Create un Yahoo! App da utilizzare con Livefyre Identity
 solution: Experience Manager
 title: Create un Yahoo! App da utilizzare con Livefyre Identity
@@ -17,19 +15,19 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Potete utilizzare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con App sul sito.
 
-Per consentire agli utenti di accedere con le credenziali Yahoo, Livefyre richiede le seguenti informazioni sull'app Yahoo:
+Per consentire agli utenti di accedere con le credenziali Yahoo, Livefyre richiede le seguenti informazioni sull&#39;app Yahoo:
 
 * ID client (chiave consumatore)
 * Segreto cliente (Segreto consumatore)
 
 Per creare un aahoo! app da utilizzare con Livefyre Identity:
 
-1. Andate a [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/)e accedete al vostro Yahoo! per creare un nuovo o selezionare un'app esistente da utilizzare con Livefyre Identity.
+1. Andate a [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/)e accedete al vostro Yahoo! per creare un nuovo o selezionare un&#39;app esistente da utilizzare con Livefyre Identity.
 1. Seleziona **[!UICONTROL Application Type: Web Application]**.
 1. Immetti **[!UICONTROL Callback Domain:]**`https://identity.livefyre.com`
 1. Selezionate **[!UICONTROL API Permissions: Profiles (Social Directory)]** e **[!UICONTROL Read Public]**.
 
-   Al termine, la pagina dei dettagli dell'app di Yahoo indicherà l'ID client dell'app (Chiave consumatore) e Segreto cliente (Segreto consumatore) da utilizzare nella pagina Impostazioni integrazione di Studio.
+   Al termine, la pagina dei dettagli dell&#39;app di Yahoo indicherà l&#39;ID client dell&#39;app (Chiave consumatore) e Segreto cliente (Segreto consumatore) da utilizzare nella pagina Impostazioni integrazione di Studio.
 
    >[!NOTE]
    >

@@ -17,8 +17,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 |--- |--- |--- |
 | type | Collectiontype | Il tipo di raccolta. |
 | title | Stringa | Titolo della raccolta. |
-| Articleid | Stringa | Un ID articolo univoco che avete scelto di identificare una raccolta all'interno del sito. |
-| url | Stringa | L'URL assoluto canonico per questa raccolta. |
+| Articleid | Stringa | Un ID articolo univoco che avete scelto di identificare una raccolta all&#39;interno del sito. |
+| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 

@@ -1,7 +1,6 @@
 ---
 description: Modifica le opzioni di dimensione, larghezza e interazione dell'app Sondaggi.
-seo-description: Modifica le opzioni di dimensione, larghezza e interazione dell'app
-  Sondaggi.
+seo-description: Modifica le opzioni di dimensione, larghezza e interazione dell'app Sondaggi.
 seo-title: Personalizza personalizzazioni
 solution: Experience Manager
 title: Personalizza personalizzazioni
@@ -14,13 +13,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Personalizza personalizzazioni{#polls-customizations}
 
-Modifica le opzioni di dimensione, larghezza e interazione dell'app Sondaggi.
+Modifica le opzioni di dimensione, larghezza e interazione dell&#39;app Sondaggi.
 
 
 
 * **[!UICONTROL Type]**
 
-   Selezionate il tipo di sondaggio che desiderate creare. **[!UICONTROL Single image]** consente di aggiungere un'immagine per la domanda del sondaggio. **[!UICONTROL Multiple image]** consente di aggiungere un'immagine per le risposte del sondaggio. **[!UICONTROL Text only]** crea un sondaggio senza immagini.
+   Selezionate il tipo di sondaggio che desiderate creare. **[!UICONTROL Single image]** consente di aggiungere un&#39;immagine per la domanda del sondaggio. **[!UICONTROL Multiple image]** consente di aggiungere un&#39;immagine per le risposte del sondaggio. **[!UICONTROL Text only]** crea un sondaggio senza immagini.
 
 * **[!UICONTROL Question]***required*
 

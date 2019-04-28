@@ -12,19 +12,19 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Schede{#hovercards}
 
-Abilitare o disabilitare i panorami dell'utente nel sito.
+Abilitare o disabilitare i panorami dell&#39;utente nel sito.
 
-Livefyre Hovercard è una finestra a comparsa che visualizza un'istantanea rapida delle informazioni utente, inclusi nome visualizzato, biografia, social network, utente, URL della pagina del profilo e collegamento per visualizzare il proprio profilo completo. I biglietti sono disponibili per tutti i flussi di Livefyre, inclusi Commenti, Blog live e Chat.
+Livefyre Hovercard è una finestra a comparsa che visualizza un&#39;istantanea rapida delle informazioni utente, inclusi nome visualizzato, biografia, social network, utente, URL della pagina del profilo e collegamento per visualizzare il proprio profilo completo. I biglietti sono disponibili per tutti i flussi di Livefyre, inclusi Commenti, Blog live e Chat.
 
 >[!NOTE]
 >
->Gli host possono essere attivati o disattivati solo a livello di rete, e vengono implementati o disattivati in tutti i siti nella rete personalizzata. Contattate l'Account Manager se desiderate che i caratteri siano attivati per la rete.
+>Gli host possono essere attivati o disattivati solo a livello di rete, e vengono implementati o disattivati in tutti i siti nella rete personalizzata. Contattate l&#39;Account Manager se desiderate che i caratteri siano attivati per la rete.
 
 ## Visualizzazione di schede {#section_zjl_jtk_wy}
 
-Quando passate il puntatore del mouse sull'avatar di un utente sui Commenti, sul blog live o sulla chat, viene visualizzato il relativo biglietto.
+Quando passate il puntatore del mouse sull&#39;avatar di un utente sui Commenti, sul blog live o sulla chat, viene visualizzato il relativo biglietto.
 
-Facendo clic, **[!UICONTROL View Full Profile]** l'utente potrà passare alla pagina del profilo completa per quell'utente.
+Facendo clic, **[!UICONTROL View Full Profile]** l&#39;utente potrà passare alla pagina del profilo completa per quell&#39;utente.
 
 >[!NOTE]
 >

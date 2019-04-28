@@ -1,8 +1,6 @@
 ---
-description: Livefyre. require fornisce un plug-plugin che consente all'autenticazione
-  di ascoltare l'autobus Janrain Backplane.
-seo-description: Livefyre. require fornisce un plug-plugin che consente all'autenticazione
-  di ascoltare l'autobus Janrain Backplane.
+description: Livefyre. require fornisce un plug-plugin che consente all'autenticazione di ascoltare l'autobus Janrain Backplane.
+seo-description: Livefyre. require fornisce un plug-plugin che consente all'autenticazione di ascoltare l'autobus Janrain Backplane.
 seo-title: Connessione di Janrain a Livefyre tramite authdelegate
 title: Connessione di Janrain a Livefyre tramite authdelegate
 uuid: 9 d 56 e 3 f 4-960 a -4108-aab 5-2795 b 0 e 71 c 88
@@ -14,9 +12,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Connessione di Janrain a Livefyre tramite authdelegate{#connecting-janrain-to-livefyre-using-authdelegate}
 
-Livefyre. require fornisce un plug-plugin che consente all'autenticazione di ascoltare l'autobus Janrain Backplane.
+Livefyre. require fornisce un plug-plugin che consente all&#39;autenticazione di ascoltare l&#39;autobus Janrain Backplane.
 
-Quando viene trasmesso un messaggio di identità/login sul canale Backplane, auth. authenticate () verrà chiamato con il token di autenticazione Livefyre dell'utente. Dovete comunque implementare un authdelegate.
+Quando viene trasmesso un messaggio di identità/login sul canale Backplane, auth. authenticate () verrà chiamato con il token di autenticazione Livefyre dell&#39;utente. Dovete comunque implementare un authdelegate.
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -31,19 +29,19 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->L'oggetto window. Backplane deve essere definito sulla pagina prima della chiamata di autenticazione. plugin con il plug-plugin di Livefyre Backplane. Per verificare che l'oggetto Backplane sia disponibile, chiamate il codice di istanza di Livefyre da una callback onready. Rivolgersi al contatto Janrain per determinare quando altre applicazioni possono utilizzare l'oggetto Backplane.
+>L&#39;oggetto window. Backplane deve essere definito sulla pagina prima della chiamata di autenticazione. plugin con il plug-plugin di Livefyre Backplane. Per verificare che l&#39;oggetto Backplane sia disponibile, chiamate il codice di istanza di Livefyre da una callback onready. Rivolgersi al contatto Janrain per determinare quando altre applicazioni possono utilizzare l&#39;oggetto Backplane.
 
-Di seguito sono riportati alcuni esempi di come un delegato di autenticazione potrebbe cercare un'integrazione Janrain Capture.
+Di seguito sono riportati alcuni esempi di come un delegato di autenticazione potrebbe cercare un&#39;integrazione Janrain Capture.
 
 >[!NOTE]
 >
->Il delegato di autenticazione varia a seconda dell'istanza Janrain.
+>Il delegato di autenticazione varia a seconda dell&#39;istanza Janrain.
 
 <!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
-* Callback passato al metodo di login di autenticazione dell'autenticazione
+* Callback passato al metodo di login di autenticazione dell&#39;autenticazione
 * Riferimento alla variabile di acquisizione Janrain.
-* : Un riferimento all'oggetto Backplane.
+* : Un riferimento all&#39;oggetto Backplane.
 
 ```
 /** 
@@ -78,9 +76,9 @@ authDelegate.login = function(finishLogin) {
 
 Disconnessione
 
-* **Finishlogout:** Callback passato al metodo di login di autenticazione dell'autenticazione.
+* **Finishlogout:** Callback passato al metodo di login di autenticazione dell&#39;autenticazione.
 
-* **window. Backplane:** Un riferimento all'oggetto Backplane.
+* **window. Backplane:** Un riferimento all&#39;oggetto Backplane.
 
 ```
 /** 
@@ -98,7 +96,7 @@ authDelegate.logout = function(finishLogout) {
 
 Modifica profilo
 
-Questo collegamento può essere collegato a qualsiasi parte del sito che desiderate venga visitata dagli utenti per visualizzare la propria pagina del profilo. Questo esempio stampa semplicemente l'oggetto di authoring trasmesso.
+Questo collegamento può essere collegato a qualsiasi parte del sito che desiderate venga visitata dagli utenti per visualizzare la propria pagina del profilo. Questo esempio stampa semplicemente l&#39;oggetto di authoring trasmesso.
 
 ```
 /** 

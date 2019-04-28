@@ -1,8 +1,6 @@
 ---
-description: Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi
-  dell'oggetto classe Collection.
-seo-description: Per aggiornare i dati nella raccolta, modificare il contenuto dei
-  metodi dell'oggetto classe Collection.
+description: Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell'oggetto classe Collection.
+seo-description: Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell'oggetto classe Collection.
 seo-title: Metodi della classe Collection
 solution: Experience Manager
 title: Metodi della classe Collection
@@ -15,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Metodi della classe Collection{#collection-class-methods}
 
-Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell'oggetto classe Collection.
+Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell&#39;oggetto classe Collection.
 
 Consultate i metodi della classe Site per ottenere istruzioni sulla creazione di un oggetto Collection. Il resto della pagina presuppone che nella sessione sia presente un oggetto Raccolta creata.
 

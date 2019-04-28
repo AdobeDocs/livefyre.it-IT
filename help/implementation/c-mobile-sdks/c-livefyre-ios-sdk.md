@@ -15,13 +15,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Aggiungete Livefyre alla vostra app iOS nativa.
 
-Utilizzate questa libreria open-source per integrare i servizi Livefyre nell'app iOS nativa. Livefyre streamhub iOS SDK fornisce un livello sottile intorno ai nostri meccanismi API comuni, basati sulla libreria afnetworking eccellente.
+Utilizzate questa libreria open-source per integrare i servizi Livefyre nell&#39;app iOS nativa. Livefyre streamhub iOS SDK fornisce un livello sottile intorno ai nostri meccanismi API comuni, basati sulla libreria afnetworking eccellente.
 
-Livefyre fornisce anche due app di esempio iOS basate su questo SDK: un flusso commenti e un'app di esempio di revisione.
+Livefyre fornisce anche due app di esempio iOS basate su questo SDK: un flusso commenti e un&#39;app di esempio di revisione.
 
-## Integrazione dell'SDK nel progetto come contenitore Cocoa (consigliato) {#section_qc5_h3v_zz}
+## Integrazione dell&#39;SDK nel progetto come contenitore Cocoa (consigliato) {#section_qc5_h3v_zz}
 
-Il modo più pratico per aggiungere l'SDK streamhub-iOS al progetto è utilizzare cocoapods. Se non disponete di cocoapods, eseguite gem install cocoapods e configurazione del contenitore. Esempio di Podfile:
+Il modo più pratico per aggiungere l&#39;SDK streamhub-iOS al progetto è utilizzare cocoapods. Se non disponete di cocoapods, eseguite gem install cocoapods e configurazione del contenitore. Esempio di Podfile:
 
 ```
 source 'https://github.com/Livefyre/cocoapods.git' 
@@ -32,29 +32,29 @@ platform :ios, :deployment_target => '6.0'
 pod 'StreamHub-iOS-SDK', '~> 0.3.0'
 ```
 
-Dovrai anche aggiungere un archivio Specifiche all'installazione cocoapod (questa opzione verrà duplicata nella `~/.cocoapods/repos` directory):
+Dovrai anche aggiungere un archivio Specifiche all&#39;installazione cocoapod (questa opzione verrà duplicata nella `~/.cocoapods/repos` directory):
 
 ```
 pod repo add livefyre https://github.com/Livefyre/cocoapods.git
 ```
 
-Una volta creato il contenitore nella directory principale del progetto app e nell'archivio sopra aggiunto, eseguite:
+Una volta creato il contenitore nella directory principale del progetto app e nell&#39;archivio sopra aggiunto, eseguite:
 
 ```
 pod install
 ```
 
-Questo scarica tutte le dipendenze e crea un file myapp. xcworkspace, da utilizzare da ora in poi per aprire il progetto dell'app in Xcode.
+Questo scarica tutte le dipendenze e crea un file myapp. xcworkspace, da utilizzare da ora in poi per aprire il progetto dell&#39;app in Xcode.
 
 ## Come sottoprogetto Xcode {#section_jcm_g3v_zz}
 
-In alternativa, clonare l'archivio:
+In alternativa, clonare l&#39;archivio:
 
 ```
 git clone https://github.com/Livefyre/StreamHub-iOS-SDK.git 
 ```
 
-Quindi, aggiungete il progetto Xcode (lfsclient. xcodeproj) all'app come sottoprogetto (ad esempio, trascinate semplicemente il file lfsclient. xcodeproj nel riquadro Navigatore progetti in Xcode).
+Quindi, aggiungete il progetto Xcode (lfsclient. xcodeproj) all&#39;app come sottoprogetto (ad esempio, trascinate semplicemente il file lfsclient. xcodeproj nel riquadro Navigatore progetti in Xcode).
 
 Dovrai anche effettuare le stesse operazioni con qualsiasi dipendenza ([afnetworking](https://github.com/AFNetworking/AFNetworking), [jsonkit](https://github.com/escherba/JSONKit)).
 
@@ -89,4 +89,4 @@ Streamhub iOS SDK versione 0.2.0 richiede iOS 6.0 o versione successiva.
 
 ## Appendice (supporto JSON) {#section_pcd_5hv_zz}
 
-Per gli utenti che guardano gli interattivi streamhub-iOS SDK, notare che è disponibile una versione modificata di [jsonkit](https://github.com/escherba/JSONKit) come analisi JSON predefinita (anziché nsjsonserializzazione). Ciò è dovuto al fatto che il parser fornito da Apple non supporta la decodifica di file JSON contenenti numeri interi o numeri a virgola mobile maggiori di quelli che possono essere rappresentati dal sistema. La versione modificata di jsonkit tronca numeri molto grandi al massimo del sistema corrispondente, anziché generare un'eccezione.
+Per gli utenti che guardano gli interattivi streamhub-iOS SDK, notare che è disponibile una versione modificata di [jsonkit](https://github.com/escherba/JSONKit) come analisi JSON predefinita (anziché nsjsonserializzazione). Ciò è dovuto al fatto che il parser fornito da Apple non supporta la decodifica di file JSON contenenti numeri interi o numeri a virgola mobile maggiori di quelli che possono essere rappresentati dal sistema. La versione modificata di jsonkit tronca numeri molto grandi al massimo del sistema corrispondente, anziché generare un&#39;eccezione.

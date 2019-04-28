@@ -19,9 +19,9 @@ Per utilizzare Livefyre con uno strumento di vostra scelta (non Adobe Analytics)
 
 ## Passaggio 1: Configurare il gestore di eventi {#section_ngm_gzl_pdb}
 
-Configurate un gestore di eventi nelle pagine in cui utilizzate Livefyre Apps. Questo consente di raccogliere dati dalle app nella pagina che potete utilizzare per l'analisi.
+Configurate un gestore di eventi nelle pagine in cui utilizzate Livefyre Apps. Questo consente di raccogliere dati dalle app nella pagina che potete utilizzare per l&#39;analisi.
 
-Aggiungete Livefyre. js a una pagina per impostare il gestore di eventi. Livefyre. js viene caricato in modo asincrono. Per ridurre le dimensioni del file e migliorare le prestazioni di caricamento, l'analisi non è immediatamente disponibile. È necessario eseguire il polling dell'oggetto di analisi fino a quando i dati non sono disponibili. Posizionare questo script in qualsiasi punto della pagina o aggiungerlo all'interno dei propri script compilati.
+Aggiungete Livefyre. js a una pagina per impostare il gestore di eventi. Livefyre. js viene caricato in modo asincrono. Per ridurre le dimensioni del file e migliorare le prestazioni di caricamento, l&#39;analisi non è immediatamente disponibile. È necessario eseguire il polling dell&#39;oggetto di analisi fino a quando i dati non sono disponibili. Posizionare questo script in qualsiasi punto della pagina o aggiungerlo all&#39;interno dei propri script compilati.
 
 ```
 /** 
@@ -56,6 +56,6 @@ pollForAnalytics();
 Una volta che la funzionalità Livefyre. analytics è disponibile sulla pagina, implementate la funzione analyticshandler per inviare gli eventi ricevuti al provider di analisi desiderato.
 
 1. Il gestore di analisi riceve un array di eventi che devono essere ripetuti e inviati singolarmente oppure come batch, se il fornitore lo supporta.
-1. Mappate i dati dell'evento ricevuti dal gestore su un formato richiesto dal fornitore di analisi.
+1. Mappate i dati dell&#39;evento ricevuti dal gestore su un formato richiesto dal fornitore di analisi.
 1. Inviate i dati al vostro provider di analisi.
 
