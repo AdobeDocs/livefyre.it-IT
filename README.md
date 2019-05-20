@@ -1,11 +1,12 @@
 ---
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 9bcc55b92463eb9d71076f2349d5756ba94fad13
 translation-type: tm+mt
 
 ---
-# Articolo sul contributo
+# Contribuire agli articoli
 
-Apprezziamo i contributi della nostra community e dei dipendenti Adobe esterni ai team della documentazione.
+Apprezziamo i contributi dalla community e da dipendenti Adobe esterni ai team di documentazione.
+
 
 ## Codice di condotta open source di Adobe
 
@@ -17,15 +18,15 @@ Consulta la [Guida collaboratore per i documenti di Adobe](https://docs.adobe.co
 
 Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con le quali desideri contribuire:
 
-### Modifiche minori 
+### Modifiche minori
 
-Se state dando un contributo minore alla bontà del vostro cuore, visitate l&#39;articolo e fate clic sul **collegamento Modifica** nell&#39;articolo che porta all&#39;origine github per l&#39;articolo. Quindi, usa l&#39;interfaccia utente github per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la Guida generale [di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Docs Contributor.
+Se contribuisci con piccoli aggiornamenti, visita l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la Guida generale [di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Docs Contributor.
 
 Le correzioni o i chiarimenti minori inviati per la documentazione e gli esempi di codice in questo archivio sono coperti dalle condizioni d’uso di Adobe.
 
 ### Modifiche principali o nuovi articoli dai membri della community
 
-Se siete membri della community Adobe e desiderate creare un nuovo articolo o inviare modifiche principali, utilizzate la scheda Edizioni nell&#39;archivio Git per inviare un&#39;edizione al team della documentazione. Dopo aver accettato un piano, dovrai collaborare con un dipendente per aiutarti a trasferire il nuovo contenuto tramite una combinazione di lavoro nell&#39;archivio pubblico e privato.
+Se fai parte della community di Adobe e desideri creare un nuovo articolo o inviare modifiche importanti, utilizza la scheda Issues (Segnalazioni) nell’archivio Git per inviare una segnalazione e avviare una conversazione con il team addetto alla documentazione. Dopo aver concordato un piano di attività, dovrai collaborare con un dipendente per contribuire alla creazione dei nuovi contenuti proposti tramite una combinazione di lavoro negli archivi pubblico e privato.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -52,5 +53,5 @@ Tutti gli articoli in questo archivio utilizzano GitHub Flavored Markdown. Se no
 
 Nell’archivio pubblico, le etichette automatizzate vengono assegnate alle richieste di pull per consentire di gestire il flusso di lavoro di richieste di pull e conoscere lo stato della richiesta di pull:
 
-* **Modifica inviata all’autore**: l’autore ha ricevuto una notifica della richiesta di pull in sospeso.
+* **Change sent to author**: l’autore ha ricevuto una notifica della richiesta di pull in sospeso.
 * **Pronto per l&#39;unione**: Pronti per la revisione dal nostro team di revisione delle richieste pull.
