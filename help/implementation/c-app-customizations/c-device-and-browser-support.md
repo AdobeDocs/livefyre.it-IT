@@ -5,7 +5,7 @@ seo-title: Supporto dispositivo e browser
 title: Supporto dispositivo e browser
 uuid: 338 f 78 b 2-051 d -4831-a 0 b 9-e 987 f 92660 ce
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: fc4a7e50b936211a6e7c338715b410e221f0b5f7
 
 ---
 
@@ -21,7 +21,7 @@ Livefyre supporta i seguenti dispositivi, sistemi operativi e browser.
 | **Browser desktop** |  |  |  |  |
 | Chrome | ✓ | ✓ | ✓ | ✓ |
 | Edge | ✓ | ✓ | ✓ | ✓ |
-| IE 11 | ✓ | ✓ | ✓ | ✓ |
+| IE 11 | ✓ | ✓ | X | ✓ |
 | Firefox 14 + | ✓ | ✓ | ✓ | ✓ |
 | Safari 7. x | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
