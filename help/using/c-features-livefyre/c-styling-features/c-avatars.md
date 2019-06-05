@@ -5,7 +5,7 @@ seo-title: Avatar
 title: Avatar
 uuid: bf 20 f 3 bc -3 dcc -4 e 16-a 629-3380 d 1 a 7 a 3 f 2
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
@@ -29,15 +29,6 @@ Gli avatar vengono caricati in modo asincrono in Livefyre. Quando un utente acce
 ## Larghar {#section_mqh_p1f_wy}
 
 Livefyre supporta l&#39;utilizzo di cimitere. Se un utente non dispone di un avatar personalizzato come parte del profilo utente, Livefyre controllerà un ciclo di calcolo per quell&#39;utente. Se non esiste un semitatar, verrà utilizzato l&#39;avatar predefinito.
-
-Se i commenti sono stati incorporati con Livefyre wordpress Plugin, viene utilizzato il codice di gravità dell&#39;utente se vengono soddisfatte le seguenti condizioni:
-
-* Lapatar è stato attivato nel pannello Admin di wordpress e
-* l&#39;utente dispone di un account Mediatar e
-* non viene fornito un avatar personalizzato.
-
-Per ulteriori informazioni, consultate la documentazione di wordpress Keratar.
-
 
 
 App che utilizzano questa funzione:
