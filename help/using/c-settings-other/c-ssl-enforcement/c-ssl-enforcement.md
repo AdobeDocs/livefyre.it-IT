@@ -6,7 +6,7 @@ solution: Experience Manager
 title: SSL Enforcement
 uuid: e 64 af 8 c 2-3 ab 6-4034-b 385-0 e 552 d 828 c 6 e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
@@ -19,7 +19,7 @@ Per assicurare che i dati rimangano protetti, non si verifica più l&#39;errore 
 
 Questo potrebbe interessare i clienti Livefyre che hanno:
 
-* Chiamate server-to-server da CRM, CMS, Wordpress o altro client.
+* Chiamate server-to-server dai propri CRM, CMS, wordpress o altro client.
 * Integrazioni per dispositivi mobili (app Android e iOS)
 * Applicazioni personalizzate o codice personalizzato
 
@@ -27,7 +27,7 @@ Questo potrebbe interessare i clienti Livefyre che hanno:
 
 1. Tutti i clienti Livefyre devono comunicare con tutte le API tramite HTTPS per tutto il traffico, incluso:
 
-   * Server to Server Integrations (CRM, CMS, Wordpress, etc.)
+   * Server to Server Integrations (CRM, CMS, wordpress, etc.)
    * Integrazioni per dispositivi mobili (app Android e iOS)
    * Applicazioni personalizzate (Streamhub SDK o direttamente codificate).
 
