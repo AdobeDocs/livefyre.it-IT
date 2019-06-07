@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Annunci
 uuid: c 05963 db -4 d 96-494 e-bdb 3-da 3570 a 14 dfe
 translation-type: tm+mt
-source-git-commit: df47087c69f2bdc8d97226d2013db80703f2e091
+source-git-commit: 0a9327777b309fd2153487061b6258938357c62d
 
 ---
 
