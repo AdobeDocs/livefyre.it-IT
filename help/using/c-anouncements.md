@@ -6,14 +6,18 @@ solution: Experience Manager
 title: Annunci
 uuid: c 05963 db -4 d 96-494 e-bdb 3-da 3570 a 14 dfe
 translation-type: tm+mt
-source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
+source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
 
 ---
 
 
 # Annunci{#announcements}
 
-Annunci per Livefyre e Livefyre Studio. Corrente dal 5 giugno 2019.
+## 11 giugno 2019
+
+Siamo lieti di informarvi che il contenuto di Facebook Fanpage ha ripreso lo streaming in cartelle e app in Livefyre. Non vi sono azioni necessarie per abilitare il flusso di questo contenuto.
+
+Durante questa interruzione imprevista apprezziamo notevolmente la pazienza.
 
 ## 7 giugno 2019
 
