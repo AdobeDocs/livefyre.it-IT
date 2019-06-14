@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Struttura richiesta pull
 uuid: bf 6 b 9 e 45-d 08 a -48 e 6-acc 6-e 4 fa 56428 d 25
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 ---
 
@@ -40,4 +40,3 @@ where `lftoken` is a JSON Web Token signed with your network key, and **[!UICONT
    * Se `lftoken` non è presente o non si verifica un errore di convalida, non consentire all&#39;endpoint di rispondere alle informazioni sul profilo. Rispondi, invece, con un codice di stato 403 (Proibito) e senza corpo della risposta.
 
 1. `userAuthToken` è generato dal metodo Livefyre `buildUserAuthToken` per l&#39;utente, con ID utente «system». Questo utente è il primo utente creato per ogni nuova rete.
-1. Per testare la pagina, utilizzate [il tester Ping for Pull](https://livefyre-p4p-wizard.herokuapp.com/home) per confermare che tutto funziona come previsto.
