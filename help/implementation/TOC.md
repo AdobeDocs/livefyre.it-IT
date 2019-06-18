@@ -3,7 +3,7 @@ product: livefyre
 audience: end-user
 user-guide-title: Guida all'implementazione di Experience Manager Livefyre
 translation-type: tm+mt
-source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
+source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
    + Utilizzare le app social con Livefyre Identity {#use-social-apps-with-livefyre-identity}
       + [Creare le app social](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [Creare un&#39;app Facebook da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
-      + [Creare un progetto Google da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
       + [Creare un&#39;app Twitter da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
       + [Create un Yahoo! App da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [Creare un&#39;app identità Microsoft Live da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
