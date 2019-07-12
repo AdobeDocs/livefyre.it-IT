@@ -4,24 +4,25 @@ seo-description: Note aggiornate sulla versione di Adobe Livefyre.
 seo-title: Note aggiornate sulla versione di Adobe Livefyre
 title: Note aggiornate sulla versione di Livefyre
 translation-type: tm+mt
-source-git-commit: 9500a4ac5d3cdaeb5909c06d406b006108d39fee
+source-git-commit: 0efc365d4496bd44142ad1513f51163f24676084
 
 ---
 
 
-# Note sulla versione corrente {#current-release-notes}
+# Current Release Notes {#current-release-notes}
 
-**Note sulla versione dell&#39;aggiornamento 21 marzo 2019.**
-
->[!NOTE]
->
->Il giovedì maggio 23 Livefyre disporrà di HTTP (porta 80) nel nostro ambiente di produzione. In tal modo vengono completati gli aggiornamenti sulla protezione in conformità con gli standard di sicurezza di Adobe. In caso di problemi con l&#39;integrazione, contattate [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) .
+**Note sulla versione del 11 luglio 2019.**
 
 ## Miglioramenti
 
-* Per impostazione predefinita, è stata implementata l&#39;abilitazione del pulsante Invito all&#39;azione.
-
+* Aggiornamento del modello automatico automatico da v 7 a v 7.1.
 
 ## Correzioni di bug
 
-* È stato risolto un problema che impediva la rimozione dei post di Instagram &quot;Undefined&quot; in modq.
+* È stato risolto un problema che causava un errore &quot;401 non autorizzato&quot; durante la ricerca di contenuti di Instagram oltre la ricerca di hashtag 30 per limite di 7 giorni.
+* È stato corretto un problema a causa del quale&#39;Carica altrò su supporti multimediali con contenuto filtrato dal prodotto inseriva il contenuto in alto anziché quello esistente come previsto.
+* È stato corretto un problema a causa del quale i post Instagram venivano rimossi a causa di collegamenti CDN scaduti.
+* È stato corretto un problema a causa del quale l&#39;app Sondaggi visualizza le opzioni di domanda e risposta del sondaggio utilizzando la formattazione errata.
+* Documentazione rimossa per l&#39;importazione di contenuto Facebook, che non è più supportata.
+* È stato risolto un problema che impediva agli utenti di approvare il contenuto premod di Twitter.
+* È stato corretto un problema a causa del quale i video caricati tramite Upload Media API venivano convertiti da. mp 4 a. undefined.
