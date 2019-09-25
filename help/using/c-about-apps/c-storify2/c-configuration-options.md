@@ -1,10 +1,10 @@
 ---
-description: Scegliete le opzioni di configurazione Stile, Visualizzazione e Coinvolgimento utente di Storify 2 da Livefyre Studio.
-seo-description: Scegliete le opzioni di configurazione Stile, Visualizzazione e Coinvolgimento utente di Storify 2 da Livefyre Studio.
+description: Scegliete le opzioni di configurazione Stile, Visualizzazione e Coinvolgimento utente per Storify 2 da Livefyre Studio.
+seo-description: Scegliete le opzioni di configurazione Stile, Visualizzazione e Coinvolgimento utente per Storify 2 da Livefyre Studio.
 seo-title: Opzioni di configurazione
 solution: Experience Manager
 title: Opzioni di configurazione
-uuid: 4 a 7 f 03 b 3-6 d 97-46 e 9-8832-81 e 665 f 06 d 3 a
+uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,67 +13,67 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Opzioni di configurazione{#configuration-options}
 
-Scegliete le opzioni di configurazione Stile, Visualizzazione e Coinvolgimento utente di Storify 2 da Livefyre Studio.
+Scegliete le opzioni di configurazione Stile, Visualizzazione e Coinvolgimento utente per Storify 2 da Livefyre Studio.
 
 **Opzioni stile**
 
 * **[!UICONTROL Theme]**
 
-   Selezionate **Chiaro** o **Scuro** per definire il colore di sfondo per il contenuto visualizzato. Le modifiche apportate a questa impostazione saranno immediatamente riportate nell&#39;anteprima a destra. Questa impostazione controlla lo sfondo, il testo di contenuto, le maniglie dell&#39;utente, il timestamp, il pulsante condiviso e la selezione del colore dell&#39;icona social per l&#39;app.
+   Selezionate **Luce** o **Scuro** per definire il colore di sfondo per il contenuto visualizzato. Le modifiche apportate a questa impostazione si rifletteranno immediatamente nell’anteprima a destra. Questa impostazione controlla lo sfondo, il testo del contenuto, la maniglia dell'utente, la marca temporale, il pulsante di condivisione e la selezione del colore dell'icona social per l'app.
 
 * **[!UICONTROL Brand color]**
 
-   Seleziona un colore per l&#39;app. Questo colore verrà usato per hashtag, URL, nomi utente, @ menzioni, grafici a barre e altri componenti specifici dell&#39;app, come visualizzato nel riquadro di anteprima a destra.
+   Seleziona un colore per l'app. Questo colore verrà utilizzato per hashtag, URL, nomi utente, @menzioni, grafici a barre e altri componenti specifici per l'app, come visualizzato nel riquadro di anteprima a destra.
 
 * **[!UICONTROL Font family]**
 
-   Selezionate un font per il contenuto generato dall&#39;utente nell&#39;app. Se selezionate Georgia o Times New Roman, tale font viene assegnato al contenuto e Helvetica Neue ai nomi utente e ai nomi visualizzati. Se selezionate Helvetica, Verdana o Trebuchet, tali font vengono assegnati al contenuto, ai nomi utente e ai nomi visualizzati.
+   Seleziona un font per il contenuto generato dall'utente nell'app. Selezionando Georgia o Times New Roman, il font verrà assegnato al contenuto e Helvetica Neue ai nomi utente e ai nomi visualizzati. Selezionando Helvetica, Verdana o Trebuchet tali font verranno assegnati a contenuti, nomi utente e nomi visualizzati.
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Se abilitata, i post vengono visualizzati all&#39;interno di una casella circostante e il colore di sfondo determinato dalla selezione del tema applicata.
+   Se attivato, i post verranno visualizzati all'interno di una casella circostante e verrà applicato il colore di sfondo determinato dalla selezione del tema.
 
 * **[!UICONTROL Show header]**
 
-   Se abilitata, verrà visualizzata l&#39;intestazione del brano (menu ordinamento e numero di visualizzatori).
+   Se attivato, viene visualizzata l’intestazione del brano (menu di ordinamento e numero di visualizzatori).
 
-**Visualizza**
+**Visualizzazione**
 
 * **[!UICONTROL Byline]**
 
-   Se abilitata, potete scegliere se elencare il nome dell&#39;autore originale o il nome di un team come nome del racconto.
+   Se attivato, potete scegliere se elencare il nome dell’autore originale o il nome del team come autore predefinito per il brano.
 
    >[!NOTE]
    >
-   >I singoli byte riflettono sempre l&#39;autore originale del contenuto e non gli editor successivi.
+   >Le singole righe di codice rispecchieranno sempre l’autore originale del contenuto e non gli editor successivi.
 
 * **[!UICONTROL Byline type]**
 
-   Se **[!UICONTROL Byline]** è attivato, il pulldown consente di selezionare il tipo di elemento byline da visualizzare: byline del team o singoli byte. Utilizzate il campo seguente **[!UICONTROL Byline type]** per inserire il testo da visualizzare come nome autore.
+   Se **[!UICONTROL Byline]** è attivato, il pulldown consente di selezionare il tipo di autore da visualizzare: per gruppo o per singoli righe. Utilizzate il campo sottostante **[!UICONTROL Byline type]** per inserire il testo da visualizzare come riga di codice.
 
    >[!NOTE]
    >
-   >La modifica più recente a questa impostazione, da parte di qualsiasi editor di Storify 2, verrà riflessa alla pubblicazione.
+   >Le modifiche più recenti apportate a questa impostazione, da qualsiasi editor di Storify 2, verranno applicate alla pubblicazione.
 
 * **[!UICONTROL Set time zone]**
 
-   Consente di selezionare il fuso orario da usare per Story. Questa posizione verrà utilizzata per timestamp tutti i Post all&#39;interno del Brano. (Gli utenti finali visualizzeranno questa conversione nell&#39;ora locale, ma possono passare il puntatore del mouse sulla marca temporale impostata per rivelare il timestamp impostato per Story.)
+   Consente di selezionare il fuso orario da usare per il brano. Questa posizione verrà utilizzata per contrassegnare con marca temporale tutti i Post presenti nel brano. (Gli utenti finali vedranno questa conversione all’ora locale, ma potrebbero passare il mouse sulla marca temporale che visualizzano per visualizzare la marca temporale impostata per la storia.)
 
 * **[!UICONTROL Load more posts]**
 
-   Scegliete se i post vengono visualizzati in modo continuo mentre un utente scorre verso il basso o se visualizzare un pulsante Mostra più.
+   Scegliete se visualizzare i post in modo continuo mentre l’utente scorre verso il basso o se visualizzare un pulsante Mostra altro.
 
 **[!UICONTROL User Engagement]**
 
 * **[!UICONTROL Users may share posts]**
 
-   Se abilitata, gli utenti possono condividere la vostra storia su Twitter o Facebook. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni integrazione &gt; Condivisione social network.
+   Se attivato, gli utenti possono condividere il vostro racconto su Twitter o Facebook. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni di integrazione &gt; Condivisione social network.
 
 * **[!UICONTROL Users may add sidenotes]**
 
-   Se abilitata, gli utenti possono aggiungere Filienotes ai post.
+   Se attivato, gli utenti possono aggiungere note ai vostri post.
 
 * **[!UICONTROL Number of views]**
 
-   Se abilitata, viene visualizzato il numero di volte in cui il brano è stato visualizzato.
+   Se attivato, verrà visualizzato il numero di volte in cui il brano è stato visualizzato.
 
