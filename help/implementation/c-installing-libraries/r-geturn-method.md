@@ -1,19 +1,19 @@
 ---
-description: Questo metodo restituisce l'URN per questa rete.
-seo-description: Questo metodo restituisce l'URN per questa rete.
-seo-title: Metodo di rete geturn
+description: Questo metodo restituisce l’URL della rete.
+seo-description: Questo metodo restituisce l’URL della rete.
+seo-title: getUrn, metodo di rete
 solution: Experience Manager
-title: Metodo di rete geturn
-uuid: e 525 bc 54-d 4 df -490 f-bd 6 a-f 524 f 7 eff 211
+title: getUrn, metodo di rete
+uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Metodo di rete geturn{#geturn-network-method}
+# getUrn, metodo di rete{#geturn-network-method}
 
-Questo metodo restituisce l&#39;URN per questa rete.
+Questo metodo restituisce l’URL della rete.
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -21,55 +21,55 @@ Questo metodo restituisce l&#39;URN per questa rete.
 network.getUrn(); 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Esempio nodejs {#section_xkd_gds_rz}
+## Esempio NodeJS {#section_xkd_gds_rz}
 
 ```
 network.getUrn(); 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## PHP Example {#section_ghf_gds_rz}
+## Esempio PHP {#section_ghf_gds_rz}
 
 ```
 $network->getUrn(); 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di Python {#section_dwg_gds_rz}
 
 ```
 network.urn 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Esempio Ruby {#section_enh_gds_rz}
+## Esempio di ruby {#section_enh_gds_rz}
 
 ```
 network.urn 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
