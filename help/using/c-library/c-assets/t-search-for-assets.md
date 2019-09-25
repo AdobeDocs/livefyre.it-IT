@@ -1,10 +1,10 @@
 ---
-description: Cerca risorse in base a opzioni e filtri diversi per trovare il contenuto corretto per un'app.
-seo-description: Cerca risorse in base a opzioni e filtri diversi per trovare il contenuto corretto per un'app.
+description: Cercate le risorse in base a opzioni e filtri diversi per trovare il contenuto giusto per un'app.
+seo-description: Cercate le risorse in base a opzioni e filtri diversi per trovare il contenuto giusto per un'app.
 seo-title: Cerca risorse salvate nella libreria
 solution: Experience Manager
 title: Cerca risorse salvate nella libreria
-uuid: 2 fee 5 ba 4-fe 69-487 e -8 d 9 c -0 fd 2 af 97179 c
+uuid: 2fee5ba4-fe69-487e-8d9c-0fd2af97179c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,22 +13,22 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Cerca risorse salvate nella libreria{#search-saved-assets-in-the-library}
 
-Cerca risorse in base a opzioni e filtri diversi per trovare il contenuto corretto per un&#39;app.
+Cercate le risorse in base a opzioni e filtri diversi per trovare il contenuto giusto per un'app.
 
-Nella libreria sono disponibili le seguenti opzioni per facilitare la ricerca delle risorse.
+Nella libreria sono disponibili le seguenti opzioni per la ricerca delle risorse.
 
-* **[!UICONTROL Folder View:]** Quando viene selezionata una cartella, utilizzate questa opzione per definire solo il contenuto della cartella o il contenuto della cartella e tutte le relative sottocartelle.
-* **[!UICONTROL Contains:]** Selezionare il tipo di contenuto che si desidera restituire: ** [!UICONTROL Photo]** o **[!UICONTROL Video]**.
+* **[!UICONTROL Folder View:]** Quando una cartella è selezionata per la visualizzazione, utilizzate questa opzione per definire se visualizzare solo il contenuto della cartella, oppure il contenuto della cartella e di tutte le relative sottocartelle.
+* **[!UICONTROL Contains:]** selezionate il tipo di contenuto da restituire:** [!UICONTROL Photo]** o **[!UICONTROL Video]**.
 
-* **[!UICONTROL Rights:]** selezionate lo stato di richiesta dei diritti per filtrare in base allo stato della richiesta dei diritti.
-* **[!UICONTROL Source:]** Selezionare l&#39;origine da cui elencare il contenuto. **[!UICONTROL Uploaded]** elenca tutte le risorse aggiunte dal computer locale, Flickr, Dropbox o qualsiasi altra opzioni disponibile del Seleselettore. **[!UICONTROL Livefyre]** elenca il contenuto generato dall&#39;utente direttamente nel flusso.
+* **[!UICONTROL Rights:]** selezionate lo stato della richiesta di diritti per filtrare in base allo stato della richiesta di diritti.
+* **[!UICONTROL Source:]** selezionate l'origine da cui elencare il contenuto. **[!UICONTROL Uploaded]** elenca tutte le risorse aggiunte dal computer locale, da Flickr, da Dropbox o da qualsiasi altra opzione Filepicker disponibile. **[!UICONTROL Livefyre]** elenca il contenuto generato dall'utente pubblicato direttamente nel flusso.
 
-* **[!UICONTROL Sort By:]** utilizzare queste opzioni per ordinare il contenuto restituito da **[!UICONTROL Date Added]** (alla Libreria), **[!UICONTROL Date Created]** o **[!UICONTROL Relevance]**.
+* **[!UICONTROL Sort By:]** utilizzate queste opzioni per ordinare il contenuto restituito per **[!UICONTROL Date Added]** (nella libreria), **[!UICONTROL Date Created]** o **[!UICONTROL Relevance]**.
 
-* **[!UICONTROL Stars:]** Selezionate il numero di stelle da aggiungere alla risorsa da restituire.
-* **[!UICONTROL Tags:]** inserire i tag da cercare.
+* **[!UICONTROL Stars:]** selezionate il numero di stelle da aggiungere alla risorsa per la restituzione.
+* **[!UICONTROL Tags:]** immettete i tag da cercare.
 
 1. Passate alla **[!UICONTROL All Assets]** pagina per visualizzare tutte le risorse.
-1. Immettete i termini di ricerca nel **[!UICONTROL Search folder]** campo (nome parola chiave o nome autore o tag).
-1. Fate clic **[!UICONTROL Show Filter]** su.
-1. Utilizzate i filtri forniti per limitare la ricerca all&#39;interno della libreria.
+1. Inserite i termini di ricerca nel **[!UICONTROL Search folder]** campo (parola chiave, nome autore o tag).
+1. Fai clic su **[!UICONTROL Show Filter]**.
+1. Utilizzate i filtri forniti per limitare la ricerca nella libreria.
