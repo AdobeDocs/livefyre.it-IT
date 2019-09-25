@@ -1,29 +1,29 @@
 ---
-description: Note sulla versione del 28 settembre 2017.
-seo-description: Note sulla versione del 28 settembre 2017.
+description: Note sulla versione per la release del 28 settembre 2017.
+seo-description: Note sulla versione per la release del 28 settembre 2017.
 seo-title: 28 settembre 2017
 title: 28 settembre 2017
-uuid: 496134 d 2-1 c 1 e -4097-9 af 2-6 ea 65 efeb 8 e 2
+uuid: 496134d2-1c1e-4097-9af2-6ea65efeb8e2
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 28 settembre 2017{#september}
+# September 28, 2017{#september}
 
-Note sulla versione del 28 settembre 2017.
+Note sulla versione per la release del 28 settembre 2017.
 
-## Versione produzione
+## Release produzione
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | SAFE | Miglioramenti secondari aggiunti al rilevamento SAFE Spam. |
-| Bug | Studio | Gli utenti senza e-mail valide sono dotati di e-mail create. È stato risolto un problema relativo ai registri di produzione in cui il sistema non inviava e-mail a tali utenti. |
+| Miglioramento | SICURO | Miglioramenti minori aggiunti al rilevamento di spam SAFE. |
+| Bug | Studio | Gli utenti che non dispongono di e-mail valide dispongono di e-mail costruite per loro. È stato risolto un problema relativo ai registri di produzione a causa del quale il sistema non inviava e-mail a tali utenti. |
 
-## Versione UAT
+## Rilascio UAT
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | Libreria | I file caricati nella libreria da parte di un cliente verranno automaticamente concessi. Questa funzione è utile quando gli utenti hanno attivato il filtro «Richiedi diritti autorizzati» nelle app. |
+| Miglioramento | Libreria | I file caricati nella libreria da un cliente ricevono automaticamente i diritti. Si tratta di una funzione utile quando gli utenti hanno attivato il filtro "Richiedi diritti concessi" nelle loro app. |
 
