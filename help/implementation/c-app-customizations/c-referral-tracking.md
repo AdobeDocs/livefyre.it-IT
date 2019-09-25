@@ -1,33 +1,33 @@
 ---
-description: Monitora il clic sulla pagina dal traffico di riferimento.
-seo-description: Monitora il clic sulla pagina dal traffico di riferimento.
-seo-title: Tracciamento del riferimento
+description: Tieni traccia dei clic che tornano alla pagina dal traffico di riferimento.
+seo-description: Tieni traccia dei clic che tornano alla pagina dal traffico di riferimento.
+seo-title: Tracciamento riferimento
 solution: Experience Manager
-title: Tracciamento del riferimento
-uuid: 5206 cc 16-9671-4 b 3 d-a 013-be 1 a 3 e 8 c 029 d
+title: Tracciamento riferimento
+uuid: 5206cc16-9671-4b3d-a013-be1a3e8c029d
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 ---
 
 
-# Tracciamento del riferimento{#referral-tracking}
+# Tracciamento riferimento{#referral-tracking}
 
-Monitora il clic sulla pagina dal traffico di riferimento.
+Tieni traccia dei clic che tornano alla pagina dal traffico di riferimento.
 
-Livefyre aggiunge una variabile di riferimento all&#39;URL quando un commento viene postato o condiviso su un social network e per i permalinmi inclusi nelle e-mail di Livefyre. Utilizzate questa variabile per tenere traccia del traffico di riferimento da Livefyre Apps alle vostre proprietà social o proprietà.
+Livefyre aggiunge una variabile di riferimento all’URL quando un commento viene pubblicato o condiviso su un social network, e per i collegamenti permali inclusi nelle e-mail di Livefyre. Utilizzate questa variabile per tenere traccia del traffico di riferimento dalle app Livefyre alle proprietà social o di proprietà.
 
-Livefyre Apps consente di tenere traccia dei flussi di dati derivanti dal traffico di riferimento, consentendo di analizzare il traffico del sito.
+Le app Livefyre consentono di tenere traccia dei flussi di dati risultanti dal traffico dei riferimenti e di analizzare il traffico del sito.
 
-## Tracciamento del traffico di Livefyre {#section_nsy_qp4_xz}
+## Tracciamento del traffico di riferimento di Livefyre {#section_nsy_qp4_xz}
 
-Il traffico di Livefyre da social network ed e-mail potrebbe essere tracciato analizzando i parametri delle stringhe query negli URL delle pagine e implementando il codice sulla pagina per tenerne traccia attraverso il fornitore di analisi. Livefyre aggiunge un collegamento di riferimento all&#39;URL quando un commento viene postato o condiviso su un social network e per i permalinmi inclusi nelle e-mail di Livefyre.
+Il traffico di riferimento Livefyre dai social network e dalle e-mail può essere monitorato esaminando i parametri della stringa di query negli URL delle pagine e implementando il codice sulla pagina per tenere traccia di questo problema tramite il provider di analisi. Livefyre aggiunge un collegamento di riferimento all'URL quando un commento viene pubblicato o condiviso su un social network, e per i collegamenti permali inclusi nelle e-mail di Livefyre.
 
-## Esempio di implementazione {#section_xvs_x44_xz}
+## Esempio {#section_xvs_x44_xz}
 
-Se il traffico proviene da una notifica basata su streamhub, si verificherà un parametro di stringa di query hubrefsrc con un valore di posta elettronica, Facebook, Twitter, linkedin o permalink. Il nome del parametro hubrefsrc può essere configurato a livello di rete dal team di consegna di Livefyre.
+Se il traffico proveniva da una notifica di StreamHub, sarà presente un parametro di stringa di query hubRefSrc con un valore di e-mail, facebook, twitter, linkedin o permalink. Il nome del parametro hubRefSrc può essere configurato a livello di rete dal team di distribuzione di Livefyre.
 
-Per poter essere integrato con una piattaforma di analisi, la pagina deve cercare hubrefsrc in fase di caricamento e registrare il traffico se presente.
+Per poter essere integrata con una piattaforma di analisi, la pagina deve cercare hubRefSrc al caricamento e registrare il traffico, se presente.
 
 Ad esempio:
 
