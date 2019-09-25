@@ -1,33 +1,33 @@
 ---
-description: Distribuisci il contenuto selezionato nella tua app Livefyre Apps o Studio.
-seo-description: Distribuisci il contenuto selezionato nella tua app Livefyre Apps o Studio.
-seo-title: Flussi
+description: Trasferite il contenuto selezionato nelle app Livefyre o nella libreria Studio.
+seo-description: Trasferite il contenuto selezionato nelle app Livefyre o nella libreria Studio.
+seo-title: Streams
 solution: Experience Manager
-title: Flussi
-uuid: 01 ea 5 d 33-5 ec 1-46 f 4-b 724-8431 cda 443 a 1
+title: Streams
+uuid: 01ea5d33-5ec1-46f4-b724-8431cda443a1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Flussi{#streams}
+# Streams{#streams}
 
-Distribuisci il contenuto selezionato nella tua app Livefyre Apps o Studio.
+Trasferite il contenuto selezionato nelle app Livefyre o nella libreria Studio.
 
-I flussi consentono di creare regole per estrarre contenuto dai siti Web social media e inviare tale contenuto alla Libreria risorse o a un&#39;app Livefyre selezionata.
+I flussi consentono di creare regole per estrarre contenuti dai siti Web dei social media e inviare tali contenuti alla Libreria risorse o a un’app Livefyre selezionata.
 
-(Le opzioni della regola variano in base al tipo di origine).
+Le opzioni della regola variano in base al tipo di origine.
 
-I flussi definiti con le destinazioni delle cartelle salveranno il contenuto come risorse nella Libreria risorse.
+I flussi definiti con le destinazioni delle cartelle consentono di salvare il contenuto come risorse nella Libreria risorse.
 
-Più flussi possono essere inviati a una sola destinazione (cartella o app).
+Più flussi possono essere inviati a una singola destinazione (cartella o app).
 
-I flussi definiti con le destinazioni delle app invieranno il contenuto direttamente all&#39;app e saranno disponibili dalla scheda Pubblicato nella libreria.
+I flussi definiti con le destinazioni app invieranno i contenuti direttamente all'app e saranno disponibili dalla scheda Pubblicato nella libreria.
 
-Utilizzate l&#39;interfaccia Streams per definire regole in base alle quali Studio distribuirà il contenuto alla vostra app Livefyre o alla Libreria risorse.
+Utilizzate l'interfaccia Streams per definire le regole in base alle quali Studio distribuirà il contenuto selezionato nelle app Livefyre o nella Libreria risorse.
 
 >[!NOTE]
 >
->Il contenuto creato mentre il flusso è attivo sarà visualizzato nelle app. Il contenuto creato prima delle regole è definito e il Flusso è attivo, o dopo l&#39;disabilitazione di un flusso, non verrà visualizzato nelle app.
+>Il contenuto creato mentre il flusso è attivo verrà visualizzato nelle app. Il contenuto creato prima che le regole siano definite e il flusso sia attivo, o dopo che un flusso è stato disabilitato, non verrà visualizzato nelle app.
 
