@@ -2,30 +2,30 @@
 seo-title: Guida di Livefyre
 solution: Experience Manager
 title: Guida all'implementazione di Livefyre
-uuid: ccdede 9 b -88 d 3-4 e 6 e -9105-662 e 984002 d 5
+uuid: codice9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
 source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
 ---
 
 
-# Guida all&#39;implementazione di Experience Manager Livefyre {#livefyre-help}
+# Guida all'implementazione di Experience Manager Livefyre {#livefyre-help}
 
-Implementate Livefyre Studio e Livefyre Apps sul vostro sito Web tramite strumenti di sviluppo per personalizzare l&#39;esperienza.
+Implementate Livefyre Studio e Livefyre Apps sul vostro sito Web utilizzando gli strumenti di sviluppo per personalizzare la vostra esperienza.
 
-Per informazioni su come utilizzare Livefyre Studio e Livefyre Apps in Livefyre Studio, consultate la [*guida utente di Adobe Experience Manager Livefyre*](/help/using/home.md).
+Per informazioni sull'utilizzo di Livefyre Studio e delle app Livefyre in Livefyre Studio, consultate la Guida [*utente di*](/help/using/home.md)Adobe Experience Manager Livefyre.
 
-## Argomenti popolari
+## Argomenti comuni
 
-* [Guida introduttiva all&#39;implementazione](c-getting-started/c-getting-started.md)
+* [Guida introduttiva all’implementazione](c-getting-started/c-getting-started.md)
 
-* [Utilizzo di Livefyre Apps con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [Utilizzo delle app Livefyre con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 * [Android SDK per dispositivi mobili](c-mobile-sdks/c-android-sdk.md)
 
-* [Integrazione dei commenti con gli strumenti per sviluppatori](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
+* [Integrazione dei commenti mediante gli strumenti per sviluppatori](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
 
-* [Integrazione delle app con gli strumenti per sviluppatori](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
+* [Integrazione delle app tramite gli strumenti per sviluppatori](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
 
 * [Utilizzo di Livefyre con gli strumenti di Analytics](/help/implementation/livefyre-analytics/livefyre-analytics.md)
 
