@@ -1,86 +1,86 @@
 ---
-description: Classi CSS disponibili per le app Storify.
-seo-description: Classi CSS disponibili per le app Storify.
-seo-title: Storify CSS Classes
+description: Classi CSS disponibili per le app di Storify.
+seo-description: Classi CSS disponibili per le app di Storify.
+seo-title: Storify classi CSS
 solution: Experience Manager
-title: Storify CSS Classes
-uuid: 168 a 0 db 0-a 209-417 a-ba 91-a 33 b 4 d 411 c 8 d
+title: Storify classi CSS
+uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Storify CSS Classes{#storify-css-classes}
+# Storify classi CSS{#storify-css-classes}
 
-Classi CSS disponibili per le app Storify.
+Classi CSS disponibili per le app di Storify.
 
-Utilizzate CSS per personalizzare le app Storify per un&#39;integrazione più completa con la pagina, ignorando semplicemente il CSS predefinito con il vostro foglio di stile. In questa sezione sono descritte le personalizzazioni CSS disponibili.
+Utilizzate i CSS per personalizzare le app di Storify per una più completa integrazione con la pagina, semplicemente ignorando il CSS predefinito con il vostro foglio di stile. Questa sezione descrive le personalizzazioni CSS disponibili.
 
 ## Elementi autore {#section_tdy_hsh_xz}
 
-Consente di personalizzare lo stile per l&#39;avatar dell&#39;autore del post, il nome dell&#39;autore e la marca temporale.
+Consente di personalizzare lo stile per l’avatar dell’autore del post, il nome dell’autore e la marca temporale.
 
 ![](assets/StorifyAuthorCSS.png)
 
 | Classe | Descrizione |
 |---|---|
-| . s-author-name | Autore |
-| . s-author-avatar | L&#39;avatar dell&#39;autore. |
-| . s-img | L&#39;immagine avatar dell&#39;autore. |
-| . s-timestamp | È stata pubblicata la marca temporale relativa al contenuto della data. |
+| .s-author-name | Autore |
+| s-author-avatar | L’avatar dell’autore. |
+| .s-img | Immagine avatar dell’autore. |
+| .s-timestamp | La marca temporale per il contenuto della data è stata pubblicata. |
 
 ## Elementi intestazione {#section_nbv_gsh_xz}
 
-Consente di personalizzare la sezione dell&#39;intestazione relativa alla pagina del brano.
+Consente di personalizzare la sezione di intestazione della pagina del racconto.
 
 ![](assets/StorifyHeaderCSS-countdown-1.png)
 
 | **Classe** | **Descrizione** |
 |---|---|
-| . super-header | Intestazione principale |
-| . outer-header | Riga di intestazione principale 1 |
-| . s-countdown | Timer della countdown riga principale 1 |
-| . s-liveness | Stato della riga di intestazione principale 1 «Live» |
-| . base-header | Riga di intestazione principale 2 |
-| . s-a discesa | Trigger a discesa della riga di intestazione principale 2 Sort. |
-| . s-a discesa, menu | Menu a discesa Ordina riga 2 principale. |
-| . s-dropdown-triangle | Accento circonflesso della riga di intestazione principale 2 Ordina. |
-| . s-dropdown-option | Voce di menu a discesa Riga di intestazione principale 2 Sort. |
-| . s-views | Riga di intestazione principale 2 numero di visualizzazioni. |
-| Pulsante. s-share-button | Pulsante della riga di intestazione principale 2. |
-| . s-share-menu | Menu della riga di intestazione principale 2. |
+| .super-header | Intestazione principale |
+| .external-header | Riga intestazione principale 1 |
+| .s-conto alla rovescia | Timer conto alla rovescia per riga intestazione principale 1 |
+| .s vivacità | Riga di intestazione principale 1 Stato "Live" |
+| .base-header | Riga intestazione principale 2 |
+| .s-menu a discesa | Riga di intestazione principale 2 Attivazione del menu a discesa Ordina. |
+| .s-menu a discesa | Riga di intestazione principale 2 Menu a discesa Ordina. |
+| .s-dropdown-triangle | Riga di intestazione principale 2 Punto menu a discesa Ordina. |
+| .s-dropdown-option | Riga di intestazione principale 2 Voce di menu a discesa Ordina. |
+| .s-views | Riga di intestazione principale 2 numero di visualizzazioni. |
+| Pulsante .s-share-button | Riga di intestazione principale 2 Pulsante Condividi. |
+| .s-share-menu | Riga di intestazione principale 2 Menu di condivisione. |
 
 ## Post Elements {#section_lrs_fsh_xz}
 
-Consente di personalizzare lo stile per gli elementi del brano del post.
+Consente di personalizzare lo stile degli elementi del brano del post.
 
 ![](assets/StorifyPostCSS.png)
 
 | **Classe** | **Descrizione** |
 |---|---|
-| . s-liveblog | Contenitore per l&#39;intero elemento Story |
-| . s-post | Il contenitore post |
-| . s-mod@-@ content | Contenitore modale post |
-| . s-element-content | Tutti gli elementi di contenuto all&#39;interno di un post |
-| . s-element-text ul | Elemento testo |
-| . s-element-text h 2 | Intestazione elemento testo |
-| . s-element-text p | Paragrafo elemento testo |
-| . s-element-text ul | Elemento testo non ordinato |
-| . s-element-text ol | Elenco ordinato elemento di testo |
-| . s-element-text li | Voci di elenco elementi di testo |
-| . s-element-text blockquote | Blockquote |
-| . s-element-text blockquote: before | Icona dell&#39;inizio di un blockquote |
-| . s-element-text blockquote: after | Icona relativa alla fine di un blockquote |
-| . s-element-image | Contenitore elemento immagine in linea |
-| . s-img | `<img>` element |
-| . s-image-caption | Didascalia per immagini e video trovati sui social media (ex: Immagine Instagram |
-| . s-upload-image-caption | Didascalia per immagini e video caricati tramite l&#39;Editor brani |
-| . s-element-video | Elemento video |
-| . s-element-quote | Elemento citazione (ex: Solo tweet w/testo |
-| . s-element-quote-image | Elemento etichetta/immagine (ex: Tweet w/image) |
-| . s-element-quote-video | Elemento tel/video (ex: Tweet w/video) |
-| . s-link-body | Anteprima collegamento all&#39;interno di una virgoletta (ex: Anteprima di un tweet w/link |
+| .s-liveblog | Contenitore per l’intero elemento Story |
+| s-post | Il contenitore di posta |
+| .s-modale-content | Contenitore modale |
+| .s-element-content | Tutti gli elementi di contenuto all'interno di un post |
+| .s-element-text ul | Elemento testo |
+| .s-element-text h2 | Titolo elemento di testo |
+| .s-element-text p | Paragrafo elemento testo |
+| .s-element-text ul | Elenco non ordinato degli elementi di testo |
+| .s-element-text ol | Elenco ordinato elemento di testo |
+| .s-element-text li | Elementi di elenco degli elementi di testo |
+| .s-element-text blockquote | Blockquote |
+| .s-element-text blockquote:before | Icona per l'inizio di un'offerta di blocco |
+| .s-element-text blockquote:after | Icona per la fine di un blockquote |
+| .s-element-image | Contenitore di elementi immagine in linea |
+| .s-img | `<img>` element |
+| .s-image-caption | Didascalia per immagini e video trovati sui social media (ad esempio: Immagine Instagram) |
+| .s-upload-image-caption | Didascalia per immagini e video caricati tramite l’editor Story |
+| .s-element-video | Elemento video |
+| .s-element-quote | Elemento del preventivo (ad esempio: Solo tweet con testo) |
+| .s-element-quote-image | Preventivo con elemento immagine (ad esempio: Tweet con immagine) |
+| .s-element-quote-video | Preventivo con elemento video (ad esempio: Tweet con video) |
+| .s-link-body | Anteprima collegamento all’interno di un’offerta (ad esempio: Tweet con anteprima collegamento) |
 
 ## Elementi piè di pagina {#section_ozc_zrh_xz}
 
@@ -90,6 +90,6 @@ Consente di personalizzare la sezione piè di pagina per ogni singolo post.
 
 | **Classe** | **Descrizione** |
 |---|---|
-| . s-post-footer | Il piè di pagina del post. |
-| . s-sidenotes | Pulsante Sidenotes nel piè di pagina del post. |
-| . s-like | Pulsante «Like» nel piè di pagina del post. |
+| s-post-piè di pagina | Il piè di pagina del post. |
+| .s-sidenotes a | Il pulsante Note nel piè di pagina del post. |
+| tipo s | Il pulsante "Mi piace" nel piè di pagina del post. |
