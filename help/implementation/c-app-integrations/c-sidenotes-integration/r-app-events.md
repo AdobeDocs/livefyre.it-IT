@@ -1,21 +1,21 @@
 ---
-description: Potete ascoltare eventi su un'istanza di Sidenotes.
-seo-description: Potete ascoltare eventi su un'istanza di Sidenotes.
-seo-title: Eventi app Sidenotes
+description: Potete ascoltare gli eventi su un’istanza di Sidenotes.
+seo-description: Potete ascoltare gli eventi su un’istanza di Sidenotes.
+seo-title: Sidenotes Eventi App
 solution: Experience Manager
-title: Eventi app Sidenotes
-uuid: afca 4 b 03-c 370-41 ca-aa 12-45 bc 357517 ca
+title: Sidenotes Eventi App
+uuid: afca4b03-c370-41ca-aa12-45bc357517ca
 translation-type: tm+mt
 source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
 
 ---
 
 
-# Eventi app Sidenotes {#sidenotes-app-events}
+# Sidenotes Eventi App {#sidenotes-app-events}
 
-Potete ascoltare eventi su un&#39;istanza di Sidenotes.
+Potete ascoltare gli eventi su un’istanza di Sidenotes.
 
-I callback possono essere registrati con il `onmethod``removeListener` metodo e non registrati. Un `once` metodo è disponibile per comodità se la callback deve essere chiamata solo una volta e quindi non registrata.
+Le callback possono essere registrate con il `onmethod` `removeListener` metodo e non registrate con esso. Un `once` metodo è disponibile per comodità se il callback deve essere chiamato solo una volta e poi non registrato.
 
 ```
 var app = Livefyre.Sidenotes(convConfig); 
@@ -24,14 +24,14 @@ var app = Livefyre.Sidenotes(convConfig);
 });
 ```
 
-Per ulteriori informazioni sugli eventi Livefyre, consultate la pagina Eventi javascript nella sezione Riferimento.
+Per ulteriori informazioni sugli eventi Livefyre, consultate la pagina Eventi JavaScript nella sezione Riferimento.
 
 | Chiave | Descrizione |
 |--- |--- |
-| sidenotes. initialized | Attivato quando l&#39;istanza viene creata in un&#39;istanza, presenta dati ed è sulla pagina. |
-| sidenotes. commentflmarked | Attivato quando un commento è stato contrassegnato come commento. I dati contengono: <br><ul><li>`targetId`: id del commento contrassegnato</li><li>`type`: stringa tipo di flag `(offensive, off-topic, spam, disagree)`</li></ul> |
-| `sidenotes.commentPosted` | Attivato quando è stato pubblicato un commento. I dati contengono: <br><ul><li> `authorId`: id dell&#39;autore del commento </li><li>`bodyHtml`: corpo del commento </li><li> `parent`: id dell&#39;elemento padre del commento o null</li></ul> |
-| `sidenotes.commentShared` | Attivato quando un commento è stato condiviso. I dati contengono: <br><ul><li>`targetId`: id del commento condiviso </li><li> `sharedToFacebook`: se il commento è stato condiviso su Facebook </li><li>`sharedToTwitter`: se il commento è stato condiviso su Twitter</li></ul> |
-| `sidenotes.commentVoted` | Attivato quando un commento è stato votato. I dati contengono: <br><ul><li>`targetId`: id del commento votato </li><li> `targetAuthorId`: id dell&#39;autore il cui commento è stato votato</li><li> `type`: tipo di voto numerico: 0: &#39; clear &#39;, 1: &#39; upvotè, or 2: &#39; downvò </li></ul> |
-| `sidenotes.userLoggedIn` | Attivato quando un utente accede. I dati contengono: <br><ul><li>`avatar`: URL avatar per l&#39;utente </li><li>`displayName`: nome visualizzato dell&#39;utente</li><li>`id`: id dell&#39;utente</li><li> `isModerator`: se l&#39;utente è moderatore della raccolta corrente</li></ul> |
-| `sidenotes.userLoggedOut` | Attivato quando un utente effettua il login |
+| sidenotes.initialize | Generato quando l'app viene creata, dispone di dati ed è sulla pagina. |
+| sidenotes.commentFlagged | Generato quando un commento è stato contrassegnato. I dati contengono: <br><ul><li>`targetId`: id del commento contrassegnato</li><li>`type`: flag type string `(offensive, off-topic, spam, disagree)`</li></ul> |
+| `sidenotes.commentPosted` | Generato quando viene pubblicato un commento. I dati contengono: <br><ul><li> `authorId`: id dell’autore del commento </li><li>`bodyHtml`: corpo del commento </li><li> `parent`: id dell'elemento padre del commento o null</li></ul> |
+| `sidenotes.commentShared` | Generato quando un commento è stato condiviso. I dati contengono: <br><ul><li>`targetId`: id del commento condiviso </li><li> `sharedToFacebook`: se il commento è stato condiviso su Facebook </li><li>`sharedToTwitter`: se il commento è stato condiviso su Twitter</li></ul> |
+| `sidenotes.commentVoted` | Generato quando si vota un commento. I dati contengono: <br><ul><li>`targetId`: id del commento sul quale è stato votato </li><li> `targetAuthorId`: id dell'autore il cui commento è stato votato</li><li> `type`: tipo di voto numerico:0: "clear", 1: "voto contrario", o 2: "voto negativo"</li></ul> |
+| `sidenotes.userLoggedIn` | Generato quando un utente effettua l’accesso. I dati contengono: <br><ul><li>`avatar`: url avatar per l’utente </li><li>`displayName`: nome visualizzato dell'utente</li><li>`id`: id dell’utente</li><li> `isModerator`: se l'utente è un moderatore della raccolta corrente</li></ul> |
+| `sidenotes.userLoggedOut` | Generato quando un utente si disconnette |
