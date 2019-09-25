@@ -1,41 +1,41 @@
 ---
-description: Durante la cura del contenuto di Instagram, è necessario seguire le linee guida e le procedure ottimali.
-seo-description: Durante la cura del contenuto di Instagram, è necessario seguire le linee guida e le procedure ottimali.
-seo-title: Linee guida per i contenuti di Instagram
+description: Quando curate contenuti da Instagram, dovete seguire le loro linee guida e best practice.
+seo-description: Quando curate contenuti da Instagram, dovete seguire le loro linee guida e best practice.
+seo-title: Linee guida sui contenuti Instagram
 solution: Experience Manager
-title: Linee guida per i contenuti di Instagram
-uuid: 4 c 5 ba 96 b-a 242-407 f-aa 36-3 a 4 e 431832 b 8
+title: Linee guida sui contenuti Instagram
+uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 
 
-# Linee guida per i contenuti di Instagram{#instagram-content-guidelines}
+# Linee guida sui contenuti Instagram{#instagram-content-guidelines}
 
-Durante la cura del contenuto di Instagram, è necessario seguire le linee guida e le procedure ottimali.
+Quando curate contenuti da Instagram, dovete seguire le loro linee guida e best practice.
 
-Devi configurare un *account Business Instagram* per creare flussi Instagram da un altro account business Instagram specifico utilizzando il **[!UICONTROL By Author]** campo. L&#39;account utente identificato nel **[!UICONTROL By Author]** campo deve essere un account aziendale.
+Devi configurare un account *aziendale* Instagram per creare flussi Instagram da un altro account aziendale Instagram specifico utilizzando il **[!UICONTROL By Author]** campo. L'account utente identificato nel **[!UICONTROL By Author]** campo deve essere un account aziendale.
 
-Per ulteriori informazioni su come configurare un account aziendale di Instagram in Livefyre, consultate [Gli account di Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).]
+Per ulteriori informazioni su come impostare un account aziendale Instagram in Livefyre, consultate [Informazioni sugli account](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)Instagram.]
 
-Instagram applica le seguenti regole per ottenere il contenuto dalla propria piattaforma:
+Instagram applica le seguenti regole per ottenere contenuti dalla piattaforma:
 
-* Il contenuto appartiene all&#39;utente, che deve concedere l&#39;autorizzazione per il contenuto da utilizzare
-* Potete cercare fino a 30 hashtag unici per account aziendale Instagram ogni 7 giorni.
+* Il contenuto appartiene all'utente, che deve concedere l'autorizzazione per l'utilizzo del contenuto
+* Cerca fino a 30 hashtag unici per account aziendale di Instagram ogni 7 giorni.
 
-Livefyre consiglia di seguire le seguenti linee guida per massimizzare le funzionalità di ricerca e l&#39;efficacia:
+Livefyre consiglia di seguire le seguenti linee guida per massimizzare la funzionalità e l'efficacia di ricerca:
 
-* Promuovete e selezionate gli hashtag univoci per il marchio, per consentire agli utenti di partecipare in modo esplicito alla campagna.
-* Utilizzate un tag (1) hashtag invece di numerose campagne o promozioni, per poter tracciare un singolo filtro specifico.
-* Utilizzate parole specifiche, anziché parole generiche nella ricerca hashtag. L&#39;uso di parole generiche può dare risultati imprevisti e può includere utenti che non devono essere utilizzati in relazione alla campagna.
-* Collegate più account aziendali in modo da poter ricercare tag più univoci.
-* Evitate di utilizzare gli account aziendali su più di una rete.
-* Assegnate priorità ai flussi attivi ed eliminate quelli non utilizzati per ridurre il numero di hashtag utilizzati.
+* Promuovi e seleziona hashtag univoci per il tuo marchio, in modo che gli utenti possano partecipare "esplicitamente" alla campagna.
+* Utilizzate un (1) hashtag invece di diversi per ogni campagna o promozione, per poter tenere traccia di un singolo filtro specifico.
+* Utilizzate parole specifiche, anziché generiche, nella ricerca degli hashtag. L'utilizzo di parole generiche potrebbe produrre risultati imprevisti e potrebbe includere utenti che non intendevano utilizzare la propria foto in relazione alla campagna.
+* Collega più account aziendali in modo da poter cercare altri tag univoci.
+* Evitare di utilizzare account aziendali su più reti.
+* Assegnare priorità ai flussi attivi ed eliminare quelli non utilizzati per ridurre il numero di hashtag utilizzati.
 
-Instagram, come altri marchi, dispone anche di requisiti per l&#39;utilizzo delle risorse del proprio marchio. Ad esempio, le foto devono:
+Instagram, come altri marchi, ha anche dei requisiti per l'utilizzo dei propri brand assets. Ad esempio, le foto devono:
 
-* Fornite l&#39;attribuzione ad Instagram e al proprietario del contenuto.
-* Essere chiaramente differenziati da altri contenuti social media visualizzati insieme ai contenuti multimediali di altre reti.
+* Attribuzione a Instagram e al proprietario del contenuto.
+* Se visualizzati insieme ad altri social media, distinguete chiaramente dagli altri contenuti dei social media.
 
-Per ulteriori informazioni, consultate il documento di Instagram: [Utilizzo di Instagram Brand Assets](https://help.instagram.com/304689166306603).
+Per ulteriori informazioni, consultate il documento di Instagram: [Utilizzo Di Risorse](https://help.instagram.com/304689166306603)Del Marchio Instagram.
