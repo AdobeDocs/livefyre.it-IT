@@ -1,61 +1,61 @@
 ---
-description: Livefyre offre diversi tipi di utenti con livelli di autorizzazioni variabili.
-seo-description: Livefyre offre diversi tipi di utenti con livelli di autorizzazioni variabili.
+description: Livefyre offre diversi tipi di utenti con diversi livelli di autorizzazioni.
+seo-description: Livefyre offre diversi tipi di utenti con diversi livelli di autorizzazioni.
 seo-title: Ruoli utente e autorizzazioni
 solution: Experience Manager
 title: Ruoli utente e autorizzazioni
-uuid: d 9261 cfd-ae 60-40 d 8-9816-25 aef 541506 f
+uuid: d9261cfd-ae60-40d8-9816-25aef541506f
 translation-type: tm+mt
 source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
 
 ---
 
 
-# Ruoli utente e autorizzazioni{#user-roles-and-permissions}
+# User Roles and Permissions{#user-roles-and-permissions}
 
-Livefyre offre diversi tipi di utenti con livelli di autorizzazioni variabili.
+Livefyre offre diversi tipi di utenti con diversi livelli di autorizzazioni.
 
 I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Studio:
 
 >[!NOTE]
 >
->Per tutti i ruoli eccetto l&#39;Amministratore, gli utenti possono accedere solo alle cartelle o ai siti che sono pubblici oppure sono stati condivisi con loro.
+>Per tutti i ruoli tranne Amministratore, gli utenti possono accedere solo a Cartelle o Siti pubblici o condivisi con loro.
 
-* **Amministratore studio**
+* **Amministratore di Studio**
    * Accesso a tutti i diritti e le autorizzazioni in Studio
-   * Gestisci utenti senza problemi
+   * Gestire i ruoli utente
    * Visualizzare e modificare le impostazioni di integrazione
    * Visualizzare e modificare tutte le cartelle, le app e i flussi pubblici e privati
 
 * **Studio Manager**
-   * Creare nuovi siti
-   * Invitare utenti in Studio
+   * Crea nuovi siti
+   * Invito di utenti in Studio
    * Visualizzare e modificare i ruoli utente
-   * Divieto di browser e indirizzi IP
+   * Browser Ban e indirizzi IP
 
 * **Gestione risorse**
-   * Aggiungere risorse alla libreria mediante la ricerca social network
-   * Creazione e modifica di flussi per la porta a cartelle condivise
-   * Creare e modificare cartelle condivise e Risorse in cartelle condivise
+   * Aggiunta di risorse alla libreria tramite Social Search
+   * Creazione e modifica di flussi per la porta alle cartelle condivise
+   * Creare e modificare le cartelle condivise e le risorse nelle cartelle condivise
 
-* **Manager utente**
-   * Visualizzazione e modifica dei dettagli dell&#39;account utente finale
-   * Divieto o whitelist degli utenti finali
+* **User Manager**
+   * Visualizzazione e modifica dei dettagli dell'account utente finale
+   * Divieto o Whitelist per gli utenti finali
 
-* **Data Manager:** consente di accedere al dashboard di Analytics di Livefyre.
+* **** Data Manager: concede l'accesso per l'utilizzo del dashboard di Livefyre Analytics.
 * **App Manager**
    * Creazione e modifica di app
-   * Creare e modificare flussi che indirizzano ad Apps
-   * Aggiungere risorse direttamente alle app mediante la funzione di ricerca social network
+   * Creazione e modifica di flussi che puntano ad app
+   * Aggiunta di risorse direttamente alle app tramite Social Search
 
 * **Content Manager:**
-   * Visualizzazione e moderazione del contenuto tramite la pagina Contenuto app
-   * Aggiunta e modifica di tag, flag, note e richieste di diritti per contenuto
+   * Visualizzare e moderare il contenuto mediante la pagina Contenuto app
+   * Aggiunta e modifica di tag, flag, note e richieste di diritti per il contenuto
 
 * **Moderatore:**
-   * Accesso a modq
-   * Il diritto di moderare i contenuti
+   * Accesso a ModQ
+   * Diritto di moderazione dei contenuti
 
 >[!NOTE]
 >
->I ruoli utente a livello di sito concedono l&#39;autorizzazione solo al sito selezionato. I ruoli assegnati a questo livello non avranno accesso ad altri siti o reti.
+>I ruoli utente a livello di sito concedono l'autorizzazione solo al sito selezionato. I ruoli assegnati a questo livello non avranno accesso ad altri siti o reti.
