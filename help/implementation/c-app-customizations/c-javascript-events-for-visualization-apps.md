@@ -1,63 +1,63 @@
 ---
 description: Eventi disponibili a cui è possibile associare JavaScript per le app di visualizzazione (ad esempio Media Wall).
 seo-description: Eventi disponibili a cui è possibile associare JavaScript per le app di visualizzazione (ad esempio Media Wall).
-seo-title: Eventi Javascript per le app di visualizzazione
+seo-title: Eventi JavaScript per le app di visualizzazione
 solution: Experience Manager
-title: Eventi Javascript per le app di visualizzazione
-uuid: 0797 c 384-7 e 8 e -44 fc -9738-a 10 a 48 d 490 cc
+title: Eventi JavaScript per le app di visualizzazione
+uuid: 0797c384-7e8e-44fc-9738-a10a48d490cc
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Eventi Javascript per le app di visualizzazione{#javascript-events-for-visualization-apps}
+# Eventi JavaScript per le app di visualizzazione{#javascript-events-for-visualization-apps}
 
 Eventi disponibili a cui è possibile associare JavaScript per le app di visualizzazione (ad esempio Media Wall).
 
-Nella tabella seguente sono visualizzati gli eventi App per le app di visualizzazione. Una X indica che l&#39;evento è disponibile per l&#39;app, N/D indica che l&#39;evento non si applica all&#39;app e nessuna marcatura significa che l&#39;evento non è disponibile per quell&#39;app:
+Nella tabella seguente sono visualizzati gli eventi App per le app di visualizzazione. Una X indica che l'evento è disponibile per l'app, N/D indica che l'evento non si applica all'app e nessun contrassegno indica che l'evento non è disponibile per l'app:
 
-## Eventi app visualizzazione
+## Eventi delle app di visualizzazione
 
-| Eventi | Media Wall | Mosaic | Mappa | Scheda singola | Carosello | Pulsante Post | Filmstrip |
+| Eventi | Muro di supporto | Mosaico | Mappa | Scheda singola | Carosello | Pulsante Post | FilmStrip |
 |---|---|---|---|---|---|---|---|
 | Init | X | X | X | X | X | X | X |
-| Carica | X |  |  |  |  |  |  |
-| Visualizza |  |  |  |  |  |  |  |
+| Caricamento | X |  |  |  |  |  |  |
+| Visualizzazione |  |  |  |  |  |  |  |
 | Post |  | N/D | N/D | N/D | N/D |  | N/D |
-| Pubblicato |  | N/D | N/D | N/D | N/D |  | N/D |
+| Inserito |  | N/D | N/D | N/D | N/D |  | N/D |
 | Risposta Twitter | X | X |  | X | X | N/D | X |
-| Twitter come | X | X |  | X | X | N/D | X |
-| LF come | X |  | N/D | N/D | N/D | N/D | N/D |
-| LF a differenza | X |  | N/D | N/D | N/D | N/D | N/D |
+| Twitter piace | X | X |  | X | X | N/D | X |
+| LF | X |  | N/D | N/D | N/D | N/D | N/D |
+| LF | X |  | N/D | N/D | N/D | N/D | N/D |
 | Condividi su post | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Pulsante Condividi | X | X |  | X | X | N/D | X |
 | Condividi Twitter | X | X |  | X | X | N/D | X |
 | Condividi Facebook | X | X |  | X | X | N/D | X |
 | URL condivisione | X | X |  | X | X | N/D | X |
-| Expandreplies | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
+| ExpandReplies | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
 | Comprimi risposte | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
-| Pulsante Flag | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
-| Flag | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
+| Pulsante contrassegno | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
+| Contrassegna | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
 | Flag Annulla | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
 | Segui | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
 | Non seguire | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
-| Requestmore | X | N/D | N/D | N/D | N/D | N/D | N/D |
-| Modalview | X | X |  | X | X | N/D | X |
-| Twitter Twitter | X |  |  | X | X | N/D | X |
-| Pulsante Post clic | X | N/D | N/D | N/D | N/D | X | N/D |
-| Aggiornamento dei commenti aggiornato | N/D |  | N/D | N/D | N/D | N/D | N/D |
-| Accesso utente |  |  | N/D | N/D | N/D |  | N/D |
-| L&#39;utente ha disconnesso |  |  | N/D | N/D | N/D |  | N/D |
-| Commento in evidenza | N/D |  | N/D | N/D | N/D | N/D | N/D |
+| RequestMore | X | N/D | N/D | N/D | N/D | N/D | N/D |
+| ModalView | X | X |  | X | X | N/D | X |
+| Twitter Retweet | X |  |  | X | X | N/D | X |
+| Pulsante Pubblica | X | N/D | N/D | N/D | N/D | X | N/D |
+| Conteggio commenti aggiornato | N/D |  | N/D | N/D | N/D | N/D | N/D |
+| Utente connesso |  |  | N/D | N/D | N/D |  | N/D |
+| Utente disconnesso |  |  | N/D | N/D | N/D |  | N/D |
+| Commenti contenuti | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Commento non disponibile | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Commento votato | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Selezione sondaggio | N/D |  | N/D | N/D | N/D | N/D | N/D |
 | Elemento di tendenza selezionato | N/D |  | N/D | N/D | N/D | N/D | N/D |
-| ID rete |  |  |  |  |  |  | N/D |
+| ID di rete |  |  |  |  |  |  | N/D |
 | ID app | X |  |  | X | X | X | X |
 | ID contesto | X |  |  | X | X | X | X |
-| Tipo app | X |  | X | X | X | X | X |
+| Tipo di app | X |  | X | X | X | X | X |
 | Tipo di contenuto | X | X | X | X | X | X |  |
-| Data pubblicata nell&#39;app |  |  |  |  |  |  |  |
-| Accesso all&#39;app utente finale |  |  |  |  |  |  |  |
+| Data pubblicazione nell'app |  |  |  |  |  |  |  |
+| Accesso all'app dell'utente finale |  |  |  |  |  |  |  |
