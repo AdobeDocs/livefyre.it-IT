@@ -1,10 +1,10 @@
 ---
-description: Alcuni esempi sull'uso delle librerie.
-seo-description: Alcuni esempi sull'uso delle librerie.
+description: Alcuni esempi sull'utilizzo delle librerie.
+seo-description: Alcuni esempi sull'utilizzo delle librerie.
 seo-title: Esempi
 solution: Experience Manager
 title: Esempi
-uuid: 94 e 38 dab -6234-43 a 2-a 840-13 a 87 f 0237 f 1
+uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Esempi{#examples}
 
-Alcuni esempi sull&#39;uso delle librerie.
+Alcuni esempi sull'utilizzo delle librerie.
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -103,7 +103,7 @@ public static void main(String...args) {
 }
 ```
 
-## Esempio nodejs {#section_xkd_gds_rz}
+## Esempio NodeJS {#section_xkd_gds_rz}
 
 ```
 var Livefyre = require('./lib/livefyre');
@@ -195,7 +195,7 @@ LivefyreExample.example = function example() {
 };
 ```
 
-## PHP Example {#section_ghf_gds_rz}
+## Esempio PHP {#section_ghf_gds_rz}
 
 ```
 <?php 
@@ -280,7 +280,7 @@ class LivefyreExample {
 }
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di Python {#section_dwg_gds_rz}
 
 ```
 from livefyre import Livefyre 
@@ -358,7 +358,7 @@ class LivefyreExample(object):
       collection_urn = sidenotes_collection.urn
 ```
 
-## Esempio Ruby {#section_enh_gds_rz}
+## Esempio di ruby {#section_enh_gds_rz}
 
 ```
 require 'livefyre' 
