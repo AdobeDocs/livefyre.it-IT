@@ -1,36 +1,36 @@
 ---
-description: Note sulla versione del 1 febbraio 2018.
-seo-description: Note sulla versione del 1 febbraio 2018.
-seo-title: 1 febbraio 2018
+description: Note sulla versione per la versione del 1 febbraio 2018.
+seo-description: Note sulla versione per la versione del 1 febbraio 2018.
+seo-title: 1° febbraio 2018
 solution: Experience Manager
-title: 1 febbraio 2018
-uuid: c 4776206-ccb 7-4 b 5 f-b 85 a-f 9 bef 256 ac 6 e
+title: 1° febbraio 2018
+uuid: c4776206-ccb7-4b5f-b85a-f9bef256ac6e
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 1 febbraio 2018 {#february}
+# 1° febbraio 2018 {#february}
 
-Note sulla versione del 1 febbraio 2018.
+Note sulla versione per la versione del 1 febbraio 2018.
 
-## Versione produzione
+## Release produzione
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Media Wall | È stato risolto un problema che impediva la riproduzione di alcuni video in Media Wall. |
-| Miglioramento | Flussi | Creazione di una nuova funzionalità per filtrare i flussi in base ai tag avanzati. |
-| Bug | Flussi | È stato risolto un problema per il quale le regole del flusso di istagram non riconoscevano i caratteri giapponesi. |
-| Miglioramento | Flussi | Il contenuto in streaming ora è dotato automaticamente di tag avanzati da Adobe Sensei mentre viene salvato in una cartella o pubblicato su un&#39;app. |
-| Bug | Studio | Correzione a un bug segnalato da Nat Geo che mostra caratteri speciali nei nomi come HTML. |
+| Bug | Muro di supporto | È stato risolto un problema che impediva la riproduzione di alcuni video in una bacheca multimediale. |
+| Miglioramento | Streams | È stata creata una nuova funzionalità per filtrare i flussi in base ai tag avanzati. |
+| Bug | Streams | È stato risolto un problema per cui le regole del flusso Instagram non riconoscevano i caratteri giapponesi. |
+| Miglioramento | Streams | I contenuti in streaming vengono ora automaticamente contrassegnati con smart tag da Adobe Sensei mentre vengono salvati in una cartella o pubblicati in un'app. |
+| Bug | Studio | È stato corretto un bug segnalato da Nat Geo che mostrava caratteri speciali nei nomi come HTML. |
 
-## Versione UAT
+## Rilascio UAT
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | Contenuto app | Aggiunta la possibilità di assegnare tag a più contenuti alla volta in Contenuto app. |
-| Miglioramento | App | Aggiunta di un nuovo interruttore di tipo Designer per abilitare o disabilitare un pulsante Call-to-Action personalizzato in Mosaic, Filmstrip, Media Wall, Feature Card e Carosello. |
-| Miglioramento | Commenti | Aggiunta la possibilità di inserire nuovi formati file audio in Commenti e utilizzare un pulsante di caricamento. |
-| Bug | Flussi | È stato corretto un bug a causa del quale le caselle di controllo Regole SAFE non controllavano/deselezionavano correttamente. |
+| Miglioramento | Contenuto app | Aggiunta la possibilità di assegnare tag a più contenuti per volta in Contenuto app. |
+| Miglioramento | App | È stato aggiunto un nuovo pulsante di attivazione/disattivazione di Designer per attivare/disattivare un pulsante di invito all’azione personalizzato in Mosaico, Filmstrip, Muro file multimediali, Scheda funzioni e Carosello. |
+| Miglioramento | Commenti | Aggiunta la possibilità di inserire nuovi formati di file audio nei commenti e utilizzare un pulsante di caricamento. |
+| Bug | Streams | È stato corretto un bug a causa del quale le caselle di controllo Regole SICURE non venivano selezionate o deselezionate correttamente. |
 
