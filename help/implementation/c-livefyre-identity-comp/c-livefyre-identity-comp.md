@@ -1,10 +1,10 @@
 ---
 description: Utilizzo del sistema di gestione degli utenti social di Livefyre.
 seo-description: Utilizzo del sistema di gestione degli utenti social di Livefyre.
-seo-title: Livefyre Identity
+seo-title: Identità Livefyre
 solution: Experience Manager
-title: Livefyre Identity
-uuid: 5 e 9219 b 4-fbd 7-40 c 6-9 d 57-129 bb 0649714
+title: Identità Livefyre
+uuid: 5e9219b4-fbd7-40c6-9d57-129bb0649714
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
@@ -13,20 +13,20 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 # Usa identità Livefyre{#livefyre-identity}
 
-Ignorate questa sezione se utilizzate un sistema di gestione utenti personalizzato o di terze parti.
+Saltate questa sezione se utilizzate un sistema di gestione utenti personalizzato o di terze parti.
 
-Gli utenti possono accedere alle app utilizzando i propri account social media o un account basato su e-mail creato esclusivamente per il sito.
+Gli utenti possono accedere alle app utilizzando i propri account di social media o un account basato su e-mail creato esclusivamente per il sito.
 
-Il pacchetto Livefyre Identity contiene informazioni necessarie per delegare l&#39;autenticazione. (Pertanto, non è necessario un delegato autenticato esplicito per l&#39;identità Livefyre).
+Il pacchetto Identità Livefyre contiene le informazioni necessarie per delegare l'autenticazione. (Di conseguenza, per l'identità Livefyre non è necessario un delegato di autenticazione esplicito).
 
-Per aggiungere social sign-on all&#39;integrazione di Livefyre:
+Per aggiungere l'accesso tramite social network all'integrazione Livefyre:
 
-1. Create le vostre app social.
+1. Create le vostre app per social network.
 1. Collegate le app a Livefyre.
-1. Aggiungete Livefyre. js alla pagina.
-1. Inizializza Livefyre Identity.
+1. Aggiungete Livefyre.js alla pagina.
+1. Inizializza identità Livefyre.
 
 >[!NOTE]
 >
->Questo documento elenca gli aspetti specifici di Livefyre per il processo di creazione delle app dei fornitori social. Livefyre non è responsabile di alcuna modifica alla propria interfaccia, né può fornire assistenza per la creazione di queste app o il loro processo di approvazione. Utilizzate Twitter, Facebook, Yahoo! e le informazioni per sviluppatori Google per creare queste app e spostarne il processo di approvazione (se necessario).
+>In questo documento sono elencati gli aspetti specifici di Livefyre per il processo di creazione di app da parte dei provider di social network. Livefyre non è responsabile di alcuna modifica alla propria interfaccia, né può fornire assistenza per la creazione di queste app, né per il processo di approvazione. Utilizzate le informazioni sviluppatore disponibili su Twitter, Facebook, Yahoo! e Google per creare queste app e spostatevi sulla loro procedura di approvazione (se necessario).
 
