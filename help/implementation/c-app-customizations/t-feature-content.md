@@ -1,40 +1,40 @@
 ---
-description: Utilizzate lo stile personalizzato per evidenziare contenuti contenuti.
-seo-description: Utilizzate lo stile personalizzato per evidenziare contenuti contenuti.
-seo-title: Contenuto della funzione
+description: Utilizzate lo stile personalizzato per evidenziare il contenuto in evidenza.
+seo-description: Utilizzate lo stile personalizzato per evidenziare il contenuto in evidenza.
+seo-title: Feature Content
 solution: Experience Manager
-title: Contenuto della funzione
-uuid: c 45 f 594 b -69 de -4 db 4-820 b -465015 d 74825
+title: Feature Content
+uuid: c45f594b-69de-4db4-820b-465015d74825
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Contenuto della funzione{#feature-content}
+# Feature Content{#feature-content}
 
-Utilizzate lo stile personalizzato per evidenziare contenuti contenuti.
+Utilizzate lo stile personalizzato per evidenziare il contenuto in evidenza.
 
-La creazione di contenuti consente di richiamare l&#39;attenzione sui post degli utenti selezionati. I contenuti contenuti possono essere formattati in modo diverso rispetto ad altri contenuti della pagina, e il contenuto Livefyre-nativo viene visualizzato sopra l&#39;editor. Una volta visualizzato, il contenuto include un distintivo Contenuti e può essere personalizzato utilizzando la classe CSS con composizione. I due elementi di contenuto nativi Livefyre-native saranno visualizzati anche sopra l&#39;editor nel flusso.
+Grazie al contenuto potete richiamare l’attenzione su specifici post utente. Il contenuto in primo piano potrebbe avere uno stile diverso rispetto ad altri contenuti della pagina e il contenuto in primo piano in LiveCycle viene visualizzato sopra l'editor. Una volta presentato, il contenuto include un contrassegno in primo piano e può essere personalizzato utilizzando la classe CSS in primo piano. Anche i due elementi di contenuto nativi Livefyre più recenti verranno visualizzati sopra l'editor nello streaming.
 
-1. Abilitare l&#39;opzione in Studio. Vedi [](../c-app-customizations/t-enable-featuring-content-in-studio.md#t_enable_featuring_content_in_studio).
-1. Istruite i moderatori a identificare e selezionare il contenuto da visualizzare direttamente da Commenti, Blog live o App recensione, oppure dalle sezioni Contenuto app e modq di Studio.
+1. Abilitate l'opzione in Studio. Consulta [](../c-app-customizations/t-enable-featuring-content-in-studio.md#t_enable_featuring_content_in_studio).
+1. Formate i moderatori per identificare e selezionare il contenuto da visualizzare direttamente da un'app Commenti, Live Blog o Recensioni oppure dalle sezioni Contenuto app e ModQ di Studio.
 
        I moderatori possono:
    
    * [](../c-app-customizations/t-select-content-to-feature-from-studio.md#select_content_to_feature_from_studio)
    * [](../c-app-customizations/t-select-content-to-feature.md#t_select_content_to_feature)
 
-1. Utilizzate CSS per definire il modo in cui il contenuto verrà visualizzato nell&#39;app. Vedi [](../c-app-customizations/c-use-css-to-style-featured-content.md#c_use_css_to_style_featured_content).
-1. Utilizza chiamate API per automatizzare il processo. Vedi [](../c-app-customizations/c-feature-apis.md#c_feature_apis).
+1. Utilizzate i CSS per definire lo stile con cui verrà visualizzato il contenuto nell'app. Consulta [](../c-app-customizations/c-use-css-to-style-featured-content.md#c_use_css_to_style_featured_content).
+1. Utilizzate le chiamate API per automatizzare il processo. Consulta [](../c-app-customizations/c-feature-apis.md#c_feature_apis).
 
    * [Funzione](#c_feature_apis/section_jpw_nqw_xz)
-   * [Funzionalità](#c_feature_apis/section_knh_mqw_xz)
+   * [Funzione](#c_feature_apis/section_knh_mqw_xz)
 
-1. Aggregare contenuti contenuti. Vedi [](../c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#c_aggregated_featured_content_using_the_featured_apis).
+1. Aggrega contenuto in evidenza. Consulta [](../c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#c_aggregated_featured_content_using_the_featured_apis).
 
-   * [Contenuti (rete)](#c_aggregated_featured_content_using_the_featured_apis/section_cgm_1nw_xz)
-   * [Contenuti (Site)](#c_aggregated_featured_content_using_the_featured_apis/section_lq5_ymw_xz)
-   * [Indicato (raccolta)](#c_aggregated_featured_content_using_the_featured_apis/section_kgc_xmw_xz)
-   * [Contenuti (intestazione)](#c_aggregated_featured_content_using_the_featured_apis/section_n4b_lmw_xz)
+   * [In evidenza (rete)](#c_aggregated_featured_content_using_the_featured_apis/section_cgm_1nw_xz)
+   * [Disponibile (sito)](#c_aggregated_featured_content_using_the_featured_apis/section_lq5_ymw_xz)
+   * [In evidenza (raccolta)](#c_aggregated_featured_content_using_the_featured_apis/section_kgc_xmw_xz)
+   * [In evidenza (testa)](#c_aggregated_featured_content_using_the_featured_apis/section_n4b_lmw_xz)
 
