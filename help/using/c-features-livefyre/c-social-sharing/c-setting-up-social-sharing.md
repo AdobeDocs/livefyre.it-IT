@@ -1,64 +1,64 @@
 ---
-description: Il pannello Condivisione social network consente di aggiungere le credenziali delle app per social media.
-seo-description: Il pannello Condivisione social network consente di aggiungere le credenziali delle app per social media.
-seo-title: Configurazione della condivisione per social network
-title: Configurazione della condivisione per social network
-uuid: e 1940 e 30-9 fbb -41 e 8-b 5 bb -497 a 5 b 06643 f
+description: Il pannello Condivisione social network consente di aggiungere le credenziali dell'app di rete per social media.
+seo-description: Il pannello Condivisione social network consente di aggiungere le credenziali dell'app di rete per social media.
+seo-title: Impostazione della condivisione per social network
+title: Impostazione della condivisione per social network
+uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# Configurazione della condivisione per social network{#setting-up-social-sharing}
+# Impostazione della condivisione per social network{#setting-up-social-sharing}
 
-Il pannello Condivisione social network consente di aggiungere le credenziali delle app per social media.
+Il pannello Condivisione social network consente di aggiungere le credenziali dell'app di rete per social media.
 
-Livefyre usa queste informazioni per connettersi ai social network elencati a nome dell&#39;app social e per pubblicare il contenuto condiviso per i tuoi utenti in loro nome. Inserite questi valori per abilitare l&#39;integrazione dei social network. Possono essere modificati in qualsiasi momento.
+Livefyre utilizza queste informazioni per connettersi ai social network elencati per conto dell'app social e per pubblicare contenuti condivisi per conto degli utenti. Immettete questi valori per abilitare l'integrazione mediante social network. Possono essere modificati in qualsiasi momento.
 
-Le impostazioni disponibili da questa pagina vengono aggiornate per riflettere il sistema di condivisione mediante social network, come definito durante il processo di integrazione di Livefyre. Gli utenti che integrano utilizzando i propri sistemi di identità utente devono fornire le credenziali di rete social per Facebook, linkedin e Twitter, se desiderano consentire agli utenti finali di condividerli su queste piattaforme. I clienti di Janrain Coinvolgono possono fornire solo le proprie credenziali Janrain, non Facebook, Twitter o linkedin.
+Le impostazioni disponibili in questa pagina si aggiorneranno per riflettere il sistema di condivisione per social network, come definito durante il processo di integrazione di Livefyre. Coloro che si integrano utilizzando i propri sistemi di identità utente personalizzati, devono fornire le credenziali di social network per Facebook, LinkedIn e Twitter, se desiderano consentire agli utenti finali di condividerle con queste piattaforme. I clienti di Janrain Engage devono solo fornire le proprie credenziali Janrain e non Facebook, Twitter o LinkedIn.
 
 >[!NOTE]
 >
->Per la rete è possibile abilitare solo un&#39;app per social media. Potete includere queste app su più siti, ma la rete potrebbe avere un solo Facebook, un Twitter, un linkedin e un&#39;integrazione Bitly.
+>Per la rete può essere abilitata una sola app per sito Social Media. È possibile includere queste app su più siti, ma la rete può avere un solo Facebook, un Twitter, un LinkedIn e un'unica integrazione Bassa.
 
-## Janrain Engagement {#section_dzq_1p1_21b}
+## Janrain Engage {#section_dzq_1p1_21b}
 
-Per abilitare l&#39;integrazione con Janrain Engagement, immetti le seguenti credenziali:
+Per abilitare l'integrazione di Janrain Engage, immetti le seguenti credenziali:
 
-* **[!UICONTROL Engage API Key:]** La chiave API per l&#39;account Janrain Engage.
+* **[!UICONTROL Engage API Key:]** La chiave API per l'account Janrain Engage.
 * **[!UICONTROL Engage Domain:]** Il nome di dominio fornito da Janrain.
 
 ## Facebook {#section_tch_gp1_21b}
 
-Per condividere Facebook, immettete le seguenti credenziali app Facebook:
+Per condividere con Facebook, immettete le seguenti credenziali per l'app Facebook:
 
-* **[!UICONTROL Client ID:]** L&#39;ID client fornito con la vostra app Facebook.
-* **[!UICONTROL Client Secret:]** Segreto cliente fornito con la vostra app Facebook.
-* **[!UICONTROL OAuth Proxy Redirect:]** La pagina di reindirizzamento per ricevere le richieste Facebook.
+* **[!UICONTROL Client ID:]** L'ID client fornito con l'app Facebook.
+* **[!UICONTROL Client Secret:]** Il segreto client fornito con l'app Facebook.
+* **[!UICONTROL OAuth Proxy Redirect:]** Pagina di reindirizzamento per la ricezione delle richieste di Facebook.
 
 ## Twitter {#section_xkd_kp1_21b}
 
-Per condividere su Twitter, immetti le seguenti credenziali per app Twitter:
+Per condividere con Twitter, immettete le seguenti credenziali per l'app Twitter:
 
 * **[!UICONTROL Access Token:]** Token fornito da Twitter per effettuare richieste API.
 * **[!UICONTROL Access Token Secret:]** Il segreto fornito da Twitter per effettuare richieste API.
-* **[!UICONTROL API Key:]** La chiave API fornito da Twitter.
+* **[!UICONTROL API Key:]** La chiave API fornita da Twitter.
 * **[!UICONTROL API Secret:]** Il segreto API fornito da Twitter.
 
-## Linkedin {#section_tqh_mp1_21b}
+## LinkedIn {#section_tqh_mp1_21b}
 
-Per condividere su linkedin, immettete le seguenti credenziali per le richieste API linkedin:
+Per condividere con LinkedIn, immetti le seguenti credenziali per le richieste API LinkedIn:
 
-* **[!UICONTROL API Key:]** La chiave API fornita con linkedin.
-* **[!UICONTROL API Secret:]** Il segreto API fornito in linkedin.
+* **[!UICONTROL API Key:]** La chiave API fornita da LinkedIn.
+* **[!UICONTROL API Secret:]** Il segreto API fornito da LinkedIn.
 
-## Bitly {#section_ur2_np1_21b}
+## Bond {#section_ur2_np1_21b}
 
-Per abilitare gli inchiostri Bitly, inserire le seguenti informazioni per l&#39;integrazione Bitly:
+Per abilitare i collegamenti di collegamento impliciti, immettete le seguenti informazioni per l'integrazione di Biti:
 
-* **[!UICONTROL Login:]** L&#39;accesso utente utente con accesso bitly.
-* **[!UICONTROL API Key:]** La chiave API bit bitly.
+* **[!UICONTROL Login:]** Il login utente finale fornito in modo esplicito.
+* **[!UICONTROL API Key:]** La chiave API fornita in modo esplicito.
 
 
 
@@ -66,10 +66,10 @@ App che utilizzano questa funzione:
 * [Carosello](/help/using/c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Commenti](/help/using/c-about-apps/c-comments/c-comments.md)
-* [Scheda Funzioni](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
+* [Scheda](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [Mappa](/help/using/c-about-apps/c-map-app/c-map-app.md#c_map_app)
-* [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
-* [Mosaic](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
+* [Muro di supporto](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
+* [Mosaico](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [Sondaggi](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [Recensioni](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
