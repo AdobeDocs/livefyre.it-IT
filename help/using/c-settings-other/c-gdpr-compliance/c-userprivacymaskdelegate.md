@@ -1,25 +1,25 @@
 ---
-description: Potete modificare il testo di avviso visualizzato sulle maschere di video utilizzando.
-seo-description: Potete modificare il testo di avviso visualizzato sulle maschere di video utilizzando.
-seo-title: Userprivacymaskdelegate
+description: Potete modificare il testo di avviso visualizzato sulle maschere video utilizzando .
+seo-description: Potete modificare il testo di avviso visualizzato sulle maschere video utilizzando .
+seo-title: userPrivacyMaskDelegate
 solution: Experience Manager
-title: Userprivacymaskdelegate
-uuid: 8 e 5 a 2750-bf 45-4 e 70-a 5 f 9-37 f 5 e 7 c 61 f 8 e
+title: userPrivacyMaskDelegate
+uuid: 8e5a2750-bf45-4e70-a5f9-37f5e7c61f8e
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
 
 ---
 
 
-# Userprivacymaskdelegate{#userprivacymaskdelegate}
+# userPrivacyMaskDelegate{#userprivacymaskdelegate}
 
-Potete modificare il testo di avviso visualizzato sulle maschere di video utilizzando.
+Potete modificare il testo di avviso visualizzato sulle maschere video utilizzando .
 
-Questo testo esiste per conformità al regolamento GDPR. Se un&#39;origine non supporta un proxy, Livefyre visualizza il testo e una maschera sul contenuto a meno che un utente non faccia clic sul video e approvi il potenziale tracciamento da tale origine.
+Questo testo è conforme al regolamento GDPR. Se un'origine non supporta un proxy, Livefyre visualizza questo testo e una maschera sul contenuto a meno che un utente non faccia clic sul video e approvi il potenziale tracciamento da tale origine.
 
-Se non utilizzate `userPrivacyMaskDelegate`, viene visualizzato il seguente testo predefinito:
+Se non si utilizza `userPrivacyMaskDelegate`, viene visualizzato il seguente testo predefinito:
 
-Aggiungi `userPrivacyMaskDelegate` dopo `userPrivacyOptOut`. Potete aggiungere tutti i flag sulla privacy di Livefyre contemporaneamente come parte di un unico oggetto Livefyre.
+Aggiungi `userPrivacyMaskDelegate` dopo `userPrivacyOptOut`. Potete aggiungere tutti i flag di privacy di Livefyre contemporaneamente come parte di un oggetto Livefyre.
 
 Esempio di utilizzo `userPrivacyMaskDelegate`:
 
