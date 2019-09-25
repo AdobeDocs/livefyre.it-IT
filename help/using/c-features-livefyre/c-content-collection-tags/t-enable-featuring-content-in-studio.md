@@ -1,19 +1,19 @@
 ---
-description: Per abilitare il contenuto, è innanzitutto necessario abilitare l'impostazione Abilita commenti contenuti in Studio.
-seo-description: Per abilitare il contenuto, è innanzitutto necessario abilitare l'impostazione Abilita commenti contenuti in Studio.
-seo-title: Abilitare i contenuti in Studio
+description: Per visualizzare il contenuto, è innanzitutto necessario abilitare l'impostazione Attiva commenti contenuti in Studio.
+seo-description: Per visualizzare il contenuto, è innanzitutto necessario abilitare l'impostazione Attiva commenti contenuti in Studio.
+seo-title: Abilita la funzionalità dei contenuti in Studio
 solution: Experience Manager
-title: Abilitare i contenuti in Studio
-uuid: d 903 a 2 fd -4173-4 dd 1-8 afb -2 f 9 b 2 c 4468 d 1
+title: Abilita la funzionalità dei contenuti in Studio
+uuid: d903a2fd-4173-4dd1-8afb-2f9b2c4468d1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Abilitare i contenuti in Studio{#enable-featuring-content-in-studio}
+# Abilita la funzionalità dei contenuti in Studio{#enable-featuring-content-in-studio}
 
-Per abilitare il contenuto, è innanzitutto necessario abilitare l&#39;impostazione Abilita commenti contenuti in Studio.
+Per visualizzare il contenuto, è innanzitutto necessario abilitare l'impostazione Attiva commenti contenuti in Studio.
 
-1. **[!UICONTROL Studio > Settings > Network Settings > Default Settings]** Vai a.
-1. Attiva/disattiva **[!UICONTROL Enable Featured Comments]** l&#39;impostazione per evidenziare i commenti contenuti di recente sopra l&#39;editor.
+1. Vai a **[!UICONTROL Studio > Settings > Network Settings > Default Settings]**.
+1. Attivate questa **[!UICONTROL Enable Featured Comments]** impostazione per evidenziare i commenti contenuti di recente sopra l’editor.
