@@ -1,28 +1,28 @@
 ---
 description: Creare un oggetto Network.
 seo-description: Creare un oggetto Network.
-seo-title: Metodi della classe network
+seo-title: Metodi delle classi di rete
 solution: Experience Manager
-title: Metodi della classe network
-uuid: 4130 beda-dd 09-49 ae-aafb-f 6 b 956 e 30 b 51
+title: Metodi delle classi di rete
+uuid: 4130beda-dd09-49ae-aafb-f6b956e30b51
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Metodi della classe network{#network-class-methods}
+# Metodi delle classi di rete{#network-class-methods}
 
 Creare un oggetto Network.
 
-Dopo aver creato un oggetto di rete, il resto della pagina presuppone che nella sessione sia presente un oggetto Rete creata.
+Una volta creato un oggetto di rete, il resto della pagina suppone che nella sessione sia presente un oggetto di rete con un'istanza.
 
 ## Oggetto di rete
 
 | Parametro | Tipo | Descrizione |
 |---|---|---|
-| *`network`* | Stringa | La rete Livefyre. Ad esempio: «`labs.fyre.co`». |
-| *`networkKey`* | Stringa | Chiave segreta di Livefyre per la rete. |
+| *`network`* | Stringa | La rete Livefyre. Ad esempio: “`labs.fyre.co`”. |
+| *`networkKey`* | Stringa | Chiave segreta Livefyre specificata per la rete. |
 
 ## Java {#section_myk_dzs_kbb}
 
@@ -32,7 +32,7 @@ import com.livefyre.Livefyre;
 Network network = Livefyre.getNetwork(network, networkKey); 
 ```
 
-## Nodejs {#section_nyk_dzs_kbb}
+## NodeJS {#section_nyk_dzs_kbb}
 
 ```
 var livefyre = require('livefyre'); 
