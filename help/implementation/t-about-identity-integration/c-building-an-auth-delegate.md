@@ -1,29 +1,29 @@
 ---
-description: L'oggetto authdelegate implementa il comportamento desiderato per l'esecuzione di azioni ed eventi di autenticazione in modo da personalizzare l'integrazione con il sistema di autenticazione esistente del sito.
-seo-description: L'oggetto authdelegate implementa il comportamento desiderato per l'esecuzione di azioni ed eventi di autenticazione in modo da personalizzare l'integrazione con il sistema di autenticazione esistente del sito.
-seo-title: Authdelegate Object
+description: L'oggetto AuthDelegate implementa il comportamento desiderato per eseguire azioni ed eventi di autenticazione in modo da personalizzare l'integrazione con il sistema di autenticazione esistente del sito.
+seo-description: L'oggetto AuthDelegate implementa il comportamento desiderato per eseguire azioni ed eventi di autenticazione in modo da personalizzare l'integrazione con il sistema di autenticazione esistente del sito.
+seo-title: Oggetto AuthDelegate
 solution: Experience Manager
-title: Authdelegate Object
-uuid: a 6 acc 4 ef-d 442-4782-9 bfa-bbe 494547 c 2 e
+title: Oggetto AuthDelegate
+uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Authdelegate Object{#authdelegate-object}
+# Oggetto AuthDelegate{#authdelegate-object}
 
-L&#39;oggetto authdelegate implementa il comportamento desiderato per l&#39;esecuzione di azioni ed eventi di autenticazione in modo da personalizzare l&#39;integrazione con il sistema di autenticazione esistente del sito.
+L'oggetto AuthDelegate implementa il comportamento desiderato per eseguire azioni ed eventi di autenticazione in modo da personalizzare l'integrazione con il sistema di autenticazione esistente del sito.
 
-## Creazione di un delegato Auth {#section_wmn_tv2_gz}
+## Creazione di un delegato di autenticazione {#section_wmn_tv2_gz}
 
-Il pacchetto di autenticazione deve essere fornito con un delegato di autenticazione prima di poter eseguire un&#39;azione. Un delegato auth è un qualsiasi oggetto javascript che implementa uno dei metodi in questo argomento.
+Per poter eseguire un'azione, il pacchetto di autenticazione deve essere fornito con un delegato di autenticazione. Un delegato di autenticazione è qualsiasi oggetto JavaScript che implementa uno dei metodi in questo argomento.
 
-## . login (finishlogin) {#section_mpk_lv2_gz}
+## .login(FinishLogin) {#section_mpk_lv2_gz}
 
-Eseguite il login a un utente valido e richiamate la funzione finishlogin con un oggetto Error in caso di errore o le credenziali di Livefyre dell&#39;utente. Implementazioni comuni di questo metodo reindirizzano l&#39;utente a una pagina di login o aprono una nuova finestra o modale.
+Accedete a un utente valido e richiamate la funzione FinishLogin con un oggetto Error in caso di errore o con le credenziali Livefyre dell'utente. Implementazioni comuni di questo metodo reindirizzano l’utente a una pagina di login o aprono una nuova finestra o modale.
 
-Questo esempio notifica automaticamente l&#39;autenticazione di un utente Livefyre con il token di autenticazione, token:
+Questo esempio notifica automaticamente l’autenticazione di un utente Livefyre con il token di autenticazione, il token:
 
 ```
 authDelegate.login = function (finishLogin) { 
@@ -33,7 +33,7 @@ authDelegate.login = function (finishLogin) {
 };
 ```
 
-Il delegato di accesso più semplice può chiedere all&#39;utente finale il token di autenticazione Livefyre.
+Il delegato di accesso più semplice potrebbe richiedere all'utente finale il token di autenticazione Livefyre.
 
 ```
 authDelegate.login = function contrivedLogin(finishLogin) { 
@@ -47,9 +47,9 @@ authDelegate.login = function contrivedLogin(finishLogin) {
 };
 ```
 
-## . logout (finishlogout) {#section_uqz_2v2_gz}
+## .logout(FinishLogout) {#section_uqz_2v2_gz}
 
-Disconnettete un utente e richiamate la funzione finishlogout con un oggetto Error in caso di errore, o null per notificare all&#39;autenticazione che il logout è stato eseguito correttamente.
+Disconnettete un utente e richiamate la funzione FinishLogout con un oggetto Error in caso di errore o con un valore null per notificare all'autenticazione l'esito del logout.
 
 Ad esempio:
 
@@ -60,9 +60,9 @@ authDelegate.logout = function (finishLogout) {
 }
 ```
 
-## . Viewprofile (user) {#section_kkv_dv2_gz}
+## .viewProfile(utente) {#section_kkv_dv2_gz}
 
-Esegui l&#39;azione per visualizzare il profilo di un utente.
+Per visualizzare il profilo di un utente, effettuate le operazioni necessarie.
 
 ```
 authDelegate.viewProfile = function (user) { 
@@ -70,9 +70,9 @@ authDelegate.viewProfile = function (user) {
 }
 ```
 
-## . Editprofile (user) {#section_bkx_pq2_gz}
+## .editProfile(utente) {#section_bkx_pq2_gz}
 
-Intraprendere azioni per modificare il profilo di un utente.
+Intervenite per modificare il profilo di un utente.
 
 ```
 authDelegate.editProfile = function (user) { 
@@ -80,7 +80,7 @@ authDelegate.editProfile = function (user) {
 }
 ```
 
-Implementando tutti i metodi elencati qui sopra, l&#39;autenticazione può essere configurata con un delegato personalizzato. Una volta creato un delegato, questo può essere fornito a autenticazione utilizzando il metodo delegate.
+Implementando tutti i metodi elencati sopra, l'autenticazione può essere configurata con un delegato di autenticazione personalizzato. Una volta costruito, un delegato può essere fornito per l'autenticazione tramite il metodo delegate.
 
 ```
 var authDelegate = { 
