@@ -1,10 +1,10 @@
 ---
-description: Descrive le opzioni per aggiungere l'autenticazione utente a Livefyre Apps, incluso Janrain Capture o il vostro servizio di identità.
-seo-description: Descrive le opzioni per aggiungere l'autenticazione utente a Livefyre Apps, incluso Janrain Capture o il vostro servizio di identità.
+description: Descrive le opzioni per aggiungere l'autenticazione utente alle app Livefyre, incluso Janrain Capture o il vostro servizio di identità.
+seo-description: Descrive le opzioni per aggiungere l'autenticazione utente alle app Livefyre, incluso Janrain Capture o il vostro servizio di identità.
 seo-title: Integrazione identità
 solution: Experience Manager
 title: Integrazione identità
-uuid: 079 dc 9 c 7-656 a -49 d 0-920 d -9 e 5 a 421 a 319 c
+uuid: 079dc9c7-656a-49d0-920d-9e5a421a319c
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
@@ -13,14 +13,14 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 # Integrazione identità{#identity-integration}
 
-Descrive le opzioni per aggiungere l&#39;autenticazione utente a Livefyre Apps, incluso Janrain Capture o il vostro servizio di identità.
+Descrive le opzioni per aggiungere l'autenticazione utente alle app Livefyre, incluso Janrain Capture o il vostro servizio di identità.
 
 ## Integrazione identità {#t_about_identity_integration}
 
-Descrive le opzioni per aggiungere l&#39;autenticazione utente a Livefyre Apps, incluso Janrain Capture o il vostro servizio di identità.
+Descrive le opzioni per aggiungere l'autenticazione utente alle app Livefyre, incluso Janrain Capture o il vostro servizio di identità.
 
-Livefyre Apps include funzioni interattive avanzate come pubblicare un commento, scrivere una revisione o rendere più attraente il contenuto. Per consentire agli utenti di interagire con Livefyre Apps, è necessario integrare Livefyre con un servizio di identità utilizzando l&#39;autenticazione Livefyre. js.
+Le app Livefyre includono funzioni interattive avanzate come la pubblicazione di un commento, la scrittura di una revisione o il contenuto a cui piace. Per fare in modo che gli utenti interagiscano con le app Livefyre, è necessario integrare Livefyre con un servizio di identità tramite Livefyre.js Auth.
 
-Livefyre. js Auth fornisce autenticazione centralizzata per tutte le app Livefyre nel sito e ti permette di gestire esattamente il modo in cui gli utenti devono effettuare il login e la registrazione. Aggiungete autenticazione a livello globale al modello del sito e utilizzatelo su tutte le pagine, oppure aggiungetelo una volta per pagina e, quando gli utenti hanno effettuato l&#39;accesso in Livefyre JS Auth, trasmettete automaticamente le informazioni dell&#39;utente a tutte le app sulla pagina.
+Livefyre.js Auth fornisce l'autenticazione centralizzata per tutte le app Livefyre all'interno del sito e ti mette a tua disposizione esattamente il modo in cui gli utenti dovrebbero effettuare l'accesso e la registrazione. Aggiungi Auth a livello globale al modello del tuo sito e utilizzalo su tutte le pagine, o aggiungilo una volta per pagina, e quando gli utenti avranno effettuato l'accesso a Livefyre JS Auth trasmetteranno automaticamente le informazioni dell'utente a tutte le App della pagina.
 
-Sia che abbiate creato un servizio di identità personalizzato o che stiate utilizzando un servizio di identità di terze parti come Janrain Capture, questa sezione copre tutto ciò che occorre sapere per l&#39;integrazione.
+Sia che abbiate creato un servizio di identità personalizzato o che stiate utilizzando un servizio di identità di terze parti come Janrain Capture, questa sezione descrive tutto il necessario per l'integrazione.
