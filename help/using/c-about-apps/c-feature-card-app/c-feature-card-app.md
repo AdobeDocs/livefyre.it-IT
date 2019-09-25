@@ -1,22 +1,22 @@
 ---
-description: Aggiungere contenuti specifici alla pagina.
-seo-description: Aggiungere contenuti specifici alla pagina.
-seo-title: Scheda Funzioni
+description: Aggiungete alla pagina singoli contenuti.
+seo-description: Aggiungete alla pagina singoli contenuti.
+seo-title: Scheda
 solution: Experience Manager
-title: Scheda Funzioni
-uuid: 8 c 44 edad-d 8 a 5-452 e -952 c -5 d 6818 e 5 c 0 b 0
+title: Scheda
+uuid: 8c44edad-d8a5-452e-952c-5d6818e5c0b0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Scheda Funzioni{#feature-card}
+# Scheda{#feature-card}
 
-Aggiungere contenuti specifici alla pagina.
+Aggiungete alla pagina singoli contenuti.
 
-Utilizzate la scheda delle funzionalità per evidenziare singole parti di contenuto su una singola scheda. L&#39;app priorità ai contenuti contenuti più recenti e scorre gli elementi più recenti per garantire una visualizzazione aggiornata e pertinente.
+Utilizzate la scheda Feature per evidenziare singoli contenuti su un singolo display di scheda. L'app dà priorità ai contenuti più recenti e li visualizza in sequenza per garantire una visualizzazione nuova e pertinente.
 
-La scheda delle funzioni visualizzerà l&#39;elemento incorporato più di recente (non necessariamente l&#39;elemento pubblicato più di recente), consentendo di selezionare i contenuti migliori per una presentazione tempestiva sulla pagina.
+La scheda delle funzioni visualizzerà l'elemento più recente (non necessariamente l'elemento pubblicato più di recente), consentendo di selezionare il contenuto migliore per la presentazione tempestiva sulla pagina.
 
-Utilizzate la scheda delle funzionalità per evidenziare singole parti di contenuto su una singola scheda. L&#39;app priorità ai contenuti contenuti più recenti e scorre gli elementi più recenti per garantire una visualizzazione aggiornata e pertinente.
+Utilizzate la scheda Feature per evidenziare singoli contenuti su un singolo display di scheda. L'app dà priorità ai contenuti più recenti e li visualizza in sequenza per garantire una visualizzazione nuova e pertinente.
