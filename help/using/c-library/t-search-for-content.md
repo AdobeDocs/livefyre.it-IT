@@ -1,42 +1,42 @@
 ---
-description: Utilizzate la funzione Ricerca social network per cercare il contenuto di Instagram da includere nella Libreria risorse o pubblicarlo in App.
-seo-description: Utilizzate la funzione Ricerca social network per cercare il contenuto di Instagram da includere nella Libreria risorse o pubblicarlo in App.
-seo-title: Ricerca di contenuto istagram
+description: Utilizzate la ricerca per social network per cercare il contenuto di Instagram da includere nella libreria delle risorse o pubblicare contenuti nelle app.
+seo-description: Utilizzate la ricerca per social network per cercare il contenuto di Instagram da includere nella libreria delle risorse o pubblicare contenuti nelle app.
+seo-title: Cerca contenuto Instagram
 solution: Experience Manager
-title: Ricerca di contenuto istagram
-uuid: 38 a 7185 d -9936-4 eaa -97 e 9-5 b 23 b 3566496
+title: Cerca contenuto Instagram
+uuid: 38a7185d-9936-4eaa-97e9-5b23b3566496
 translation-type: tm+mt
 source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
 
 ---
 
 
-# Ricerca di contenuto istagram{#search-for-instagram-content}
+# Cerca contenuto Instagram{#search-for-instagram-content}
 
-Utilizzate la funzione Ricerca social network per cercare il contenuto di Instagram da includere nella Libreria risorse o pubblicarlo in App.
+Utilizzate la ricerca per social network per cercare il contenuto di Instagram da includere nella libreria delle risorse o pubblicare contenuti nelle app.
 
 >[!NOTE]
 >
->Prima di eseguire una ricerca mediante Social Network per Instagram, dovete aggiungere un account business Instagram alla **[!UICONTROL Social Accounts]** sezione in e **[!UICONTROL Network Settings]** autorizzare Livefyre a utilizzarlo. Per informazioni su come configurare un account aziendale di Instagram in Adobe Livefyre Studio, consultate [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+>Prima di poter eseguire una ricerca social per Instagram, è necessario aggiungere un account aziendale Instagram alla **[!UICONTROL Social Accounts]** sezione in **[!UICONTROL Network Settings]** e autorizzare Livefyre a utilizzare tale account. Per informazioni su come impostare un account aziendale Instagram in Adobe Livefyre Studio, consultate [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
-È possibile salvare e riutilizzare le ricerche. Fare clic sulla barra di ricerca per visualizzare un elenco delle ricerche recenti e salvate.
+Potete salvare e riutilizzare le ricerche. Fate clic sulla barra di ricerca per visualizzare un elenco delle ricerche recenti e salvate.
 
-Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella libreria vengono contrassegnate con una spunta.
+Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella libreria vengono contrassegnate con un segno di spunta.
 
-1. Configurare un account Business di Instagram.
-1. Passa **[!UICONTROL Library]** a &gt; **[!UICONTROL Social Search]**.
+1. Configurare un account aziendale Instagram.
+1. Passa a **[!UICONTROL Library]** &gt; **[!UICONTROL Social Search]**.
 1. Selezionate **[!UICONTROL Instagram]** per cercare il contenuto di Instagram.
-1. Inserite i criteri di ricerca, fate clic per **[!UICONTROL Show Filter]** perfezionare la ricerca.
+1. Inserite i criteri di ricerca, fate clic **[!UICONTROL Show Filter]** per perfezionare la ricerca.
 
-   * **[!UICONTROL Business User Search:]** Cerca i post di Instagram dall&#39;autore di input.
+   * **[!UICONTROL Business User Search:]** Cerca i post di Instagram dall'autore di input.
 
       >[!NOTE]
       >
-      >Per cercare Instagram da utente aziendale, sia voi che l&#39;autore del contenuto di Instagram dovete disporre di un account Business di Instagram.
+      >Per effettuare ricerche in Instagram in base agli utenti aziendali, sia voi che l'autore del contenuto Instagram dovete disporre di un account aziendale Instagram.
 
-   * **[!UICONTROL Top Tags Search]**: Cercate i file multimediali più diffusi con un hashtag specifico. I tag principali sono determinati dai criteri descritti qui: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
+   * **[!UICONTROL Top Tags Search]**: Cercate i contenuti multimediali più popolari con tag specifici. I tag principali sono determinati dai criteri qui descritti: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
 
-   * **[!UICONTROL Recent Tags Search]**: Cerca i post più recenti con l&#39;hashtag.
+   * **[!UICONTROL Recent Tags Search]**: Cerca i post più recenti con l'hashtag .
 
->Elementi visualizzati che corrispondono alla ricerca. Passate il mouse su un elemento, **[!UICONTROL View Details]** aggiungetelo alla Libreria risorse o **[!UICONTROL Publish]** a un&#39;app.
+>Vengono visualizzati gli elementi che corrispondono alla ricerca. Passate il puntatore del mouse su un elemento per **[!UICONTROL View Details]** aggiungerlo alla libreria delle risorse o **[!UICONTROL Publish]** a un'app.
 
