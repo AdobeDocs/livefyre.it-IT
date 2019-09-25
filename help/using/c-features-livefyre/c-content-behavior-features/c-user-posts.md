@@ -1,10 +1,10 @@
 ---
-description: Consente agli utenti di pubblicare, modificare, segnalare, eliminare, rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
-seo-description: Consente agli utenti di pubblicare, modificare, segnalare, eliminare, rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
+description: Consentite agli utenti di pubblicare, modificare, contrassegnare, eliminare, rispondere a contenuti e simili nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
+seo-description: Consentite agli utenti di pubblicare, modificare, contrassegnare, eliminare, rispondere a contenuti e simili nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
 seo-title: Post utente
 solution: Experience Manager
 title: Post utente
-uuid: 41242 f 4 d -614 c -4737-a 1 f 6-6 f 0 a 914 f 5 f 7 f
+uuid: 41242f4d-614c-4737-a1f6-6f0a914f5f7f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
@@ -13,79 +13,79 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Post utente{#user-posts}
 
-Consente agli utenti di pubblicare, modificare, segnalare, eliminare, rispondere e come contenuti nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
+Consentite agli utenti di pubblicare, modificare, contrassegnare, eliminare, rispondere a contenuti e simili nelle raccolte, con una gamma completa di opzioni di formattazione RTF.
 
-Livefyre Apps consente ai vostri utenti di pubblicare e interagire con i contenuti in modo semplice e intuitivo. L&#39;interfaccia di Livefyre fornisce testo e immagini RTF, la possibilità di disporre, flag o risposta ai commenti di altri, nonché la possibilità di modificare o eliminare i post personalizzati.
+Le app Livefyre consentono agli utenti di pubblicare e interagire con i contenuti in modo semplice e intuitivo. L'interfaccia di Livefyre fornisce testo RTF e input di immagini, la possibilità di condividere commenti, contrassegnare o rispondere ai commenti di altri utenti, nonché la possibilità di modificare o eliminare i post precedenti.
 
 ## Post {#section_bty_ww2_wy}
 
-Gli utenti possono pubblicare il contenuto dopo aver effettuato l&#39;accesso immettendo un commento o un collegamento multimediale nella casella dell&#39;editor e facendo clic **[!UICONTROL Post comment]**.
+Gli utenti possono pubblicare contenuti al momento dell'accesso immettendo un commento o un collegamento multimediale nella casella dell'editor e facendo clic **[!UICONTROL Post comment]**.
 
-Per pubblicare il contenuto quando non viene eseguito l&#39;accesso, gli utenti immettono un commento o un collegamento multimediale nell&#39;editor e fanno clic **[!UICONTROL Post comment as…]**. La finestra di accesso viene visualizzata per richiedere un login.
+Per pubblicare contenuto quando non avete effettuato l’accesso, gli utenti immettono un commento o un collegamento multimediale nell’editor e fanno clic **[!UICONTROL Post comment as…]**. Viene visualizzata la finestra di accesso per richiedere un login.
 
-(La maggior parte dei browser consente 8,000 commenti di caratteri; Internet Explorer consente 1,500 caratteri.
+(La maggior parte dei browser consente 8.000 commenti di caratteri; Internet Explorer consente 1.500 caratteri.)
 
 ## Formattazione RTF {#section_mg1_sw2_wy}
 
-Gli utenti possono inserire dei commenti per la formattazione RTF, inclusi grassetto, corsivo, sottolineato e elenchi puntati e numerati.
+Gli utenti possono formattare i commenti utilizzando la formattazione RTF, inclusi gli elenchi in grassetto, corsivo, sottolineato e puntati.
 
 >[!NOTE]
 >
->La formattazione RTF non è disponibile su dispositivi mobili.
+>La formattazione RTF non è disponibile per dispositivi mobili.
 
-## Risposta {#section_ubz_pw2_wy}
+## Rispondi {#section_ubz_pw2_wy}
 
-Gli utenti possono rispondere a qualsiasi commento in un thread facendo clic sul collegamento Risposta per tale commento.
+Gli utenti possono rispondere a qualsiasi commento contenuto in un thread facendo clic sul collegamento Rispondi relativo al commento.
 
-Per Chat e Blog live, le risposte possono essere attivate o disattivate utilizzando le impostazioni della raccolta all&#39;interno di Studio.
+Per Chat e Live Blog, le risposte possono essere abilitate o disattivate utilizzando le impostazioni della raccolta in Studio.
 
-## Come {#section_its_kw2_wy}
+## Mi piace {#section_its_kw2_wy}
 
-Gli utenti devono avere effettuato il login come il contenuto di un altro utente e potrebbero non avere il contenuto desiderato.
+Gli utenti devono avere eseguito il login in modo che piaccia il contenuto di un altro utente e potrebbero non apprezzare il proprio.
 
-Accanto al **[!UICONTROL Like]** pulsante vengono visualizzati il numero di avatar e fino a quattro avatar dell&#39;utente.
+Accanto al **[!UICONTROL Like]** pulsante vengono visualizzati fino a quattro avatar utente.
 
-When liking content, the **[!UICONTROL Like]** link will change to **[!UICONTROL Unlike]**. Facendo clic **[!UICONTROL Unlike]** su di esso si rimuove l&#39;avatar per quell&#39;utente e si riduce il numero del 1.
+Quando si preferisce il contenuto, il **[!UICONTROL Like]** collegamento diventa **[!UICONTROL Unlike]**. Facendo clic **[!UICONTROL Unlike]** si rimuove l'avatar per quell'utente e si riduce il numero di 1.
 
-## Modifica {#section_ubt_qwx_vy}
+## Modificare      {#section_ubt_qwx_vy}
 
-Per impostazione predefinita, gli utenti possono modificare il proprio contenuto entro 5 minuti dal posting, facendo clic sul **[!UICONTROL Edit]** collegamento per aprire una casella di testo Modifica.
+Per impostazione predefinita, gli utenti possono modificare il proprio contenuto entro 5 minuti dalla pubblicazione facendo clic sul **[!UICONTROL Edit]** collegamento per aprire una casella di testo Modifica.
 
-Potete disattivare questa funzione a livello di raccolta mediante il pannello Impostazioni di Studio. Il pannello Impostazioni può essere utilizzato anche per modificare l&#39;ora in cui i commenti possono essere modificati a livello di rete.
+Puoi disattivare questa funzione a livello di raccolta utilizzando il pannello Impostazioni di Studio. Il pannello Impostazioni può essere utilizzato anche per cambiare l'ora in cui i commenti possono essere modificati a livello di rete.
 
-I moderatori possono modificare i contenuti degli utenti in qualsiasi momento, sia in linea sia nel pannello Contenuto.
+I moderatori possono modificare il contenuto utente in qualsiasi momento, sia in linea nel flusso che dal pannello Contenuto.
 
 ## Elimina {#section_gbr_pwx_vy}
 
-Gli utenti possono eliminare il proprio contenuto in qualsiasi momento facendo clic **[!UICONTROL Delete]** (visualizzato quando si passa il mouse sul contenuto). I moderatori possono fare clic per **[!UICONTROL Delete]** rimuovere il contenuto di qualsiasi utente. ( **[!UICONTROL Delete]** non è disponibile su dispositivi mobili).
+Gli utenti possono eliminare il proprio contenuto in qualsiasi momento facendo clic su **[!UICONTROL Delete]** (visualizzato quando si passa il mouse sul contenuto). I moderatori possono fare clic **[!UICONTROL Delete]** per rimuovere il contenuto di qualsiasi utente. (non **[!UICONTROL Delete]** è disponibile per dispositivi mobili).
 
 >[!NOTE]
 >
->Quando un utente elimina il proprio contenuto, viene rimosso dalla rete e non viene più visualizzato in Studio.
+>Quando un utente elimina il proprio contenuto, questo viene rimosso dalla rete e non viene più visualizzato in Studio.
 
-## Flag {#section_j3l_qvx_vy}
+## Contrassegna {#section_j3l_qvx_vy}
 
-Gli utenti possono segnalare il contenuto di un altro utente facendo clic sul **[!UICONTROL Flag]** collegamento visualizzato quando si passa il mouse sul contenuto.
+Gli utenti possono contrassegnare il contenuto di un altro utente facendo clic sul **[!UICONTROL Flag]** collegamento visualizzato al passaggio del mouse sul contenuto.
 
-Facendo clic su questo collegamento viene visualizzato il modale Flag, consentendo agli utenti di contrassegnare il contenuto come **[!UICONTROL Offensive]****[!UICONTROL Disagree]****[!UICONTROL Off Topic]**, o **[!UICONTROL Spam]**. Con il flag è possibile aggiungere una nota e un indirizzo e-mail facoltativi.
+Facendo clic su questo collegamento viene visualizzata la finestra modale Contrassegna, che consente agli utenti di contrassegnare il contenuto come **[!UICONTROL Offensive]**, **[!UICONTROL Disagree]**, **[!UICONTROL Off Topic]** o **[!UICONTROL Spam]**. Con il flag è possibile aggiungere un indirizzo e-mail e una nota facoltativi.
 
-Agli utenti non è necessario accedere per segnalare un commento, consentendo a chiunque di contrassegnare un commento per moderazione, senza dover creare un account.
+Non è necessario che gli utenti accedano per contrassegnare un commento, consentendo a chiunque di contrassegnare un commento per moderazione, senza dover creare un account.
 
-Per evitare che altri utenti segnalino semplicemente contenuti segnalati, un commento non ne modificherà la visualizzazione. I flag sono visibili solo ai moderatori che possono usare Studio per cercare e visualizzare per flag. I moderatori possono inoltre abilitare le e-mail a notificarle immediatamente quando un commento viene segnalato in conversazioni moderate.
+Per dissuadere altri utenti dal contrassegnare semplicemente il contenuto contrassegnato, il contrassegno di un commento non ne modifica la visualizzazione. I flag sono visibili solo ai moderatori, che possono utilizzare Studio per cercare e visualizzare per flag. I moderatori possono inoltre consentire alle e-mail di inviare loro una notifica immediata quando un commento viene contrassegnato in conversazioni moderate.
 
-Se un moderatore contrassegna un commento come Spam, il commento verrà immediatamente impostato sullo stato Bozo e rimosso dallo streaming. Il filtro Spam verrà aggiornato e migliorato per la rete in base a questa azione.
+Se un moderatore contrassegna un commento come Spam, il commento viene impostato immediatamente sullo stato Bozo e rimosso dal flusso. Il filtro Spam verrà aggiornato e migliorato per la rete, in base a questa azione.
 
-Potete anche creare regole di moderazione per automatizzare le azioni eseguite sui commenti segnalati.
+È inoltre possibile creare regole di moderazione per automatizzare le azioni eseguite sui commenti contrassegnati.
 
 ## Ordina {#section_bpg_nwx_vy}
 
-Il contenuto in streaming può essere ordinato per età, più recente (impostazione predefinita) o meno recente, facendo clic sui **[!UICONTROL Newest]****[!UICONTROL Oldest]** collegamenti nella parte superiore dello stream.
+I contenuti in streaming possono essere ordinati per età, per primo (impostazione predefinita) o per ultimo, facendo clic sui **[!UICONTROL Newest]** collegamenti o **[!UICONTROL Oldest]** nella parte superiore del flusso.
 
-## Compressione/Espansione {#section_ypt_qr4_h1b}
+## Comprimi/Espandi {#section_ypt_qr4_h1b}
 
 * **[!UICONTROL Collapse Replies]**
 
-   Le risposte possono essere espanse o compresse nel flusso facendo clic sui **pulsanti +/-** sopra le risposte.
+   Le risposte possono essere espanse o compresse nel flusso facendo clic sui pulsanti **+ / -** sopra le risposte.
 
 * **[!UICONTROL Collapsed View]**
 
