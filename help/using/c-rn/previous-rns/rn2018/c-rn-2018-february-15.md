@@ -1,19 +1,19 @@
 ---
-description: Note sulla versione del 15 febbraio 2018.
-seo-description: Note sulla versione del 15 febbraio 2018.
+description: Note sulla versione per la versione del 15 febbraio 2018.
+seo-description: Note sulla versione per la versione del 15 febbraio 2018.
 seo-title: 15 febbraio 2018
 solution: Experience Manager
 title: 15 febbraio 2018
-uuid: ee 46 f 088-9 fb 7-49 e 2-a 42 c-e 0 d 4 b 2 f 24 a 32
+uuid: ee46f088-9fb7-49e2-a42c-e0d4b2f24a32
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# 15 febbraio 2018{#february}
+# February 15, 2018{#february}
 
-Note sulla versione del 15 febbraio 2018.
+Note sulla versione per la versione del 15 febbraio 2018.
 
 ## Nuove funzionalità {#section_syx_mdt_wcb}
 
@@ -21,33 +21,33 @@ Le seguenti funzionalità sono nuove nella versione di produzione di questa vers
 
 * **Tag avanzati.**
 
-   Livefyre utilizza la tecnologia di riconoscimento immagini Adobe Sensei per contrassegnare automaticamente le immagini salvate nella libreria.
-I tag avanzati consentono di risparmiare tempo prezioso per cercare e moderare i contenuti. I tag avanzati consentono di:
+   Livefyre utilizza la tecnologia di riconoscimento delle immagini Adobe Sensei per assegnare automaticamente i tag alle immagini salvate nella libreria.
+I tag avanzati consentono di risparmiare molto tempo durante la ricerca e la moderazione dei contenuti. Con i tag avanzati potete:
 
-   * Cercare immagini salvate per contenuti precisi in base al contenuto dell&#39;immagine, anziché solo testuali
-   * Raccogliere contenuti nei flussi in base a termini di ricerca precisi che analizzano l&#39;immagine, anziché solo testo
-   Per ulteriori informazioni sui tag avanzati, consultate [Tag avanzati](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags).
+   * Cercare immagini salvate per ottenere contenuti precisi basati sul contenuto dell'immagine, anziché solo testo
+   * Raccogli contenuti in streaming in base a termini di ricerca precisi che analizzano l'immagine, anziché solo testo
+   Per ulteriori informazioni sui tag avanzati, consultate [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags).
 
-* **Messaggi inclusi nel prodotto.** Ora, quando accedete a Livefyre Studio, viene visualizzata una finestra di annunci per visualizzare gli aggiornamenti sulle nuove funzioni.
-* **UGC per carosello.** Ora potete utilizzare tutte le funzioni di UGC Commerce nell&#39;app Carosello di Livefyre. Puoi creare un pulsante Call-to-Action e collegare il catalogo di prodotti all&#39;app per creare un&#39;esperienza acquistabile da Carosello.
+* **Messaggi interni al prodotto.** Ora, quando effettuate l'accesso a Livefyre Studio, viene visualizzata una finestra di annunci per visualizzare gli aggiornamenti sulle nuove funzioni.
+* **UGC per carosello.** Ora potete utilizzare tutte le funzioni di UGC Commerce nell'app Livefyre Carousel. Puoi creare un pulsante Invito all’azione e collegare il catalogo prodotti all’app per creare un’esperienza di acquisto da Carosello.
 
 ## Problemi {#section_ehw_ndt_wcb}
 
-I problemi delle tabelle seguenti sono stati risolti in questa versione.
+In questa versione sono stati risolti i problemi riportati nelle tabelle seguenti.
 
-## Versione produzione
+## Release produzione
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Problema | Modq | È stato risolto un problema a causa del quale post Instagram contrassegnati come approvati o fruscii entravano nella coda. |
-| Miglioramento | Rights Management | È stato aggiunto un miglioramento per visualizzare un avviso durante il tentativo di utilizzare gli account Instagram scaduti durante la creazione di richieste di diritti. |
-| Problema | Tendenze | È stato risolto un problema con l&#39;app delle tendenze che a volte consentiva HTTP, anziché HTTPS. |
+| Problema | ModQ | È stato risolto un problema che causava il rientro nella coda dei post di Instagram contrassegnati come approvati o eliminati. |
+| Miglioramento | Rights Management | È stato aggiunto un miglioramento per visualizzare un avviso quando si tenta di utilizzare gli account Instagram scaduti durante l'esecuzione delle richieste di diritti. |
+| Problema | Tendenze | È stato risolto un problema con l'app Trends che consentiva comunque a volte HTTP anziché HTTPS. |
 
-## Versione UAT
+## Rilascio UAT
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | App | Aggiunta la capacità di eliminare le app da Livefyre. |
-| Problema | Sondaggi | Sono stati modificati i sondaggi per utilizzare esclusivamente HTTPS. In precedenza, i sondaggi potevano essere utilizzati con HTTP. |
-| Problema | UGC | Risolto un problema per il quale UGC in un&#39;app di visualizzazione non veniva filtrato per ID prodotto come previsto. |
+| Miglioramento | App | Aggiunta la possibilità di eliminare le app da Livefyre. |
+| Problema | Sondaggi | I sondaggi sono stati modificati per utilizzare esclusivamente HTTPS. Precedentemente, i sondaggi potevano ancora essere utilizzati con HTTP. |
+| Problema | UGC | È stato risolto un problema che impediva agli UGC di un'app di visualizzazione di filtrare in base all'ID prodotto come previsto. |
 
