@@ -1,20 +1,20 @@
 ---
-description: Livefyre. require fornisce un plug-plugin che consente all'autenticazione di ascoltare l'autobus Janrain Backplane.
-seo-description: Livefyre. require fornisce un plug-plugin che consente all'autenticazione di ascoltare l'autobus Janrain Backplane.
-seo-title: Connessione di Janrain a Livefyre tramite authdelegate
-title: Connessione di Janrain a Livefyre tramite authdelegate
-uuid: 9 d 56 e 3 f 4-960 a -4108-aab 5-2795 b 0 e 71 c 88
+description: Livefyre.request fornisce un plugin che consente all'auth di ascoltare il bus Janrain Backplane.
+seo-description: Livefyre.request fornisce un plugin che consente all'auth di ascoltare il bus Janrain Backplane.
+seo-title: Connessione di Janrain a Livefyre tramite AuthDelegate
+title: Connessione di Janrain a Livefyre tramite AuthDelegate
+uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Connessione di Janrain a Livefyre tramite authdelegate{#connecting-janrain-to-livefyre-using-authdelegate}
+# Connessione di Janrain a Livefyre tramite AuthDelegate{#connecting-janrain-to-livefyre-using-authdelegate}
 
-Livefyre. require fornisce un plug-plugin che consente all&#39;autenticazione di ascoltare l&#39;autobus Janrain Backplane.
+Livefyre.request fornisce un plugin che consente all'auth di ascoltare il bus Janrain Backplane.
 
-Quando viene trasmesso un messaggio di identità/login sul canale Backplane, auth. authenticate () verrà chiamato con il token di autenticazione Livefyre dell&#39;utente. Dovete comunque implementare un authdelegate.
+Quando un messaggio di identità/login viene trasmesso sul canale Backplane, auth.authenticate() verrà chiamato con il token di autenticazione Livefyre dell'utente. Devi ancora implementare un AuthDelegate.
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -29,19 +29,19 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->L&#39;oggetto window. Backplane deve essere definito sulla pagina prima della chiamata di autenticazione. plugin con il plug-plugin di Livefyre Backplane. Per verificare che l&#39;oggetto Backplane sia disponibile, chiamate il codice di istanza di Livefyre da una callback onready. Rivolgersi al contatto Janrain per determinare quando altre applicazioni possono utilizzare l&#39;oggetto Backplane.
+>L'oggetto window.Backplane deve essere definito sulla pagina prima di chiamare auth.plugin con il plug-in Livefyre Backplane. Per essere certi che l'oggetto Backplane sia disponibile, chiamate il codice di creazione dell'istanza Livefyre da un callback onReady. Consultate il contatto di Janrain per determinare quando altre applicazioni possono utilizzare l'oggetto Backplane.
 
-Di seguito sono riportati alcuni esempi di come un delegato di autenticazione potrebbe cercare un&#39;integrazione Janrain Capture.
+Di seguito sono riportati alcuni esempi di come un delegato audio potrebbe cercare un'integrazione di Janrain Capture.
 
 >[!NOTE]
 >
->Il delegato di autenticazione varia a seconda dell&#39;istanza Janrain.
+>Il delegato di autenticazione varia a seconda dell’istanza di Janrain.
 
 <!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
-* Callback passato al metodo di login di autenticazione dell&#39;autenticazione
-* Riferimento alla variabile di acquisizione Janrain.
-* : Un riferimento all&#39;oggetto Backplane.
+*  Callback passato al metodo di login del delegato di autenticazione
+*  Il riferimento alla variabile di acquisizione Janrain.
+* : Riferimento all'oggetto Backplane.
 
 ```
 /** 
@@ -74,11 +74,11 @@ authDelegate.login = function(finishLogin) {
 };
 ```
 
-Disconnessione
+Logout
 
-* **Finishlogout:** Callback passato al metodo di login di autenticazione dell&#39;autenticazione.
+* **** completionLogout: Il callback passato al metodo di login del delegato dell’autenticazione.
 
-* **window. Backplane:** Un riferimento all&#39;oggetto Backplane.
+* **** window.Backplane: Riferimento all'oggetto Backplane.
 
 ```
 /** 
@@ -96,7 +96,7 @@ authDelegate.logout = function(finishLogout) {
 
 Modifica profilo
 
-Questo collegamento può essere collegato a qualsiasi parte del sito che desiderate venga visitata dagli utenti per visualizzare la propria pagina del profilo. Questo esempio stampa semplicemente l&#39;oggetto di authoring trasmesso.
+Questo può essere collegato a qualsiasi parte del sito che desideri che gli utenti visitino per visualizzare la propria pagina del profilo. In questo esempio viene semplicemente stampato l'oggetto autore passato.
 
 ```
 /** 
@@ -110,7 +110,7 @@ authDelegate.editProfile = function(user) {
 
 Visualizza profilo
 
-Come Edit Profile (Modifica profilo), questo collegamento deve essere collegato alla pagina di un utente diversa da quella attualmente registrata. Questo può essere implementato in base alle esigenze. Questo esempio collega semplicemente il parametro autore alla console.
+Come Edit Profile (Modifica profilo), questo collegamento deve essere collegato a una pagina dell'utente diversa dall'utente attualmente connesso. Questa funzione può essere implementata a seconda delle esigenze. In questo esempio il parametro author viene semplicemente registrato nella console.
 
 ```
 /** 
