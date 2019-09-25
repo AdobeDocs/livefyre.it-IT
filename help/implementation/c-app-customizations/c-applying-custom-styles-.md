@@ -1,10 +1,10 @@
 ---
-description: Per personalizzare il contenuto di stile per i gruppi di utenti, dovete prima aggiungere un tag utente all'account, quindi stile del contenuto mediante CSS.
-seo-description: Per personalizzare il contenuto di stile per i gruppi di utenti, dovete prima aggiungere un tag utente all'account, quindi stile del contenuto mediante CSS.
+description: Per personalizzare il contenuto dello stile per i gruppi di utenti, dovete prima aggiungere un tag utente all'account, quindi formattarlo utilizzando CSS.
+seo-description: Per personalizzare il contenuto dello stile per i gruppi di utenti, dovete prima aggiungere un tag utente all'account, quindi formattarlo utilizzando CSS.
 seo-title: Applicazione di stili personalizzati
 solution: Experience Manager
 title: Applicazione di stili personalizzati
-uuid: 0556 aa 2 f -4 fcd -4 bde-abb 5-479 ec 682 f 573
+uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,26 +13,26 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Applicazione di stili personalizzati{#applying-custom-styles}
 
-Per personalizzare il contenuto di stile per i gruppi di utenti, dovete prima aggiungere un tag utente all&#39;account, quindi stile del contenuto mediante CSS.
+Per personalizzare il contenuto dello stile per i gruppi di utenti, dovete prima aggiungere un tag utente all'account, quindi formattarlo utilizzando CSS.
 
-Per ogni tag utente aggiunto tramite Studio o Ping per Pull, Livefyre creerà due classi CSS, entrambe che possono essere utilizzate per formattare il contenuto del gruppo.
+Per ciascun tag utente aggiunto tramite Studio o Ping for Pull, Livefyre creerà due classi CSS, entrambe utilizzabili per formattare il contenuto del gruppo.
 
-Quando convertite i tag utente in classi CSS:
+Durante la conversione di tag utente in classi CSS:
 
-* Livefyre crea due classi: fyre-author-tag-*** &lt; your_ group &gt;*** e fyre-tag-author-*** &lt; your_ group &gt;***. Potete utilizzare entrambi per formattare il contenuto.
+* Livefyre crea due classi: fyre-author-tag-***&lt;your_group&gt;*** e fyre-tag-author-***&lt;your_group&gt;***. Entrambi possono essere utilizzati per formattare il contenuto.
 
-* Gli spazi inclusi nel tag saranno convertiti in caratteri di sottolineatura. Ad esempio: L&#39;opzione «Utente preferito» diventa preferita_ utente.
-* I caratteri Unicode inclusi nei nomi dei gruppi non verranno convertiti e saranno visualizzati come Unicode nei nomi delle classi. Ad esempio: Il gruppo di utenti «modérateur» diventerà fyre-comment-author-style-modérateur.
+* Gli spazi inclusi nel tag verranno convertiti in caratteri di sottolineatura. Ad esempio: "Favorite User" diventerà favorite_user.
+* I caratteri Unicode inclusi nei nomi dei gruppi non saranno convertiti e saranno visualizzati come Unicode nei nomi delle classi. Ad esempio: Il gruppo di utenti "modérateur" diventerà fyre-comment-author-tag-modérateur.
 
 Una volta creati i gruppi di utenti, utilizzate le classi CSS di Livefyre per applicare lo stile personalizzato al contenuto.
 
-## Contenuto dello stile per Moderatori (e Proprietari) {#section_vjv_2cv_xz}
+## Contenuto stile per moderatori (e proprietari) {#section_vjv_2cv_xz}
 
-* Utilizzate la classe CSS. fyre-moderator.
+* Utilizzate la classe CSS .fyre-moderator.
 
    >[!NOTE]
    >
-   >I proprietari, perché sono anche Moderatori, conterranno anche questa classe al loro contenuto nel flusso.
+   >I proprietari, poiché sono anche Moderatori, avranno questa classe applicata anche al loro contenuto nel flusso.
 
 * Create una regola CSS per mostrare o formattare un contrassegno per il gruppo:
 
@@ -46,7 +46,7 @@ Una volta creati i gruppi di utenti, utilizzate le classi CSS di Livefyre per ap
    }
    ```
 
-## Contenuto dello stile per i gruppi di utenti {#section_ghn_s1v_xz}
+## Stile del contenuto per i gruppi di utenti {#section_ghn_s1v_xz}
 
 Create una regola CSS per mostrare o formattare un contrassegno per il gruppo:
 
@@ -68,7 +68,7 @@ Create una regola CSS per mostrare o formattare un contrassegno per il gruppo:
 }
 ```
 
-Utilizzate la classe CSS fyre-author-tag-*** &lt; group &gt;*** o fyre-tag-author-*** &lt; your_ group &gt;*** per stile del font e dello sfondo per ogni elemento pubblicato da un account associato al tag selezionato.
+Utilizzate la classe CSS fyre-author-tag-****&lt;vostro_gruppo&gt;*** o fyre-tag-author-****&lt;vostro_gruppo&gt;**** per formattare il font e lo sfondo per ogni elemento pubblicato da un account associato al tag selezionato.
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 
