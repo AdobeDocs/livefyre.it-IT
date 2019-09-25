@@ -1,16 +1,16 @@
 ---
-description: Utilizzate Trending per mostrare le raccolte più attive.
-seo-description: Utilizzate Trending per mostrare le raccolte più attive.
+description: Utilizzate Trending per visualizzare le raccolte più attive.
+seo-description: Utilizzate Trending per visualizzare le raccolte più attive.
 seo-title: Tendenza
 solution: Experience Manager
-title: Tendenza
-uuid: 7 c 0 bc 020-46 a 3-4 ac 6-a 8 db -9532 a 4 fa 83 b 1
+title: Trending
+uuid: 7c0bc020-46a3-4ac6-a8db-9532a4fa83b1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Tendenza{#trending}
+# Trending{#trending}
 
-Utilizzate Trending per mostrare le raccolte più attive in un determinato sito, per promuovere il traffico del sito alle discussioni più attive, o per consentire ai lettori di misurare rapidamente l&#39;attività del sito. L&#39;applicazione visualizza le raccolte principali dalla maggior parte delle attività attive, con un grafico a barre che mostra la popolarità relativa per ogni raccolta visualizzata. La tendenza aiuta i lettori a determinare dove avvengono la maggior parte delle conversazioni e li indirizza a tali conversazioni.
+Utilizzate Tendenza per mostrare le raccolte più attive in un dato sito, per indirizzare il traffico del sito alle discussioni più attive o per consentire ai lettori di valutare rapidamente l'attività del sito. L'applicazione visualizza le raccolte principali dalla più alla meno attiva, con un grafico a barre che mostra la popolarità relativa per ciascuna raccolta visualizzata. La tendenza consente ai lettori di determinare dove si svolgono più conversazioni e di indirizzarle a tali conversazioni.
