@@ -1,10 +1,10 @@
 ---
-description: I set di traduzioni consentono di specificare lingua alternativa per le app.
-seo-description: I set di traduzioni consentono di specificare lingua alternativa per le app.
+description: I set di traduzioni consentono di specificare la lingua alternativa per le app.
+seo-description: I set di traduzioni consentono di specificare la lingua alternativa per le app.
 seo-title: Set di traduzioni
 solution: Experience Manager
 title: Set di traduzioni
-uuid: 88 b 705 e 5-57 c 8-4065-8 a 41-a 73546 bd 929 a
+uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
@@ -13,37 +13,32 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Set di traduzioni{#translation-sets}
 
-I set di traduzioni consentono di specificare lingua alternativa per le app.
+I set di traduzioni consentono di specificare la lingua alternativa per le app.
 
-Utilizzate le impostazioni di traduzione per localizzare le app in diverse lingue o per specificare testo alternativo per più app da una posizione in Studio. Ad esempio, puoi fare in modo che tutti i siti della lingua spagnola utilizzino lingua spagnolo per tutti i campi App. Potete inoltre modificare il testo in modo che tutti i campi corrispondano alla voce del sito o della rete.
+Utilizzate le impostazioni di traduzione per localizzare le app in diverse lingue o per specificare testo alternativo per più app da una posizione in Studio. Ad esempio, puoi fare in modo che tutti i siti in lingua spagnola utilizzino la lingua spagnola per tutti i campi App. È inoltre possibile modificare il testo in modo che tutti i campi corrispondano alla voce e al comportamento del sito o della rete.
 
-Potete specificare le impostazioni di conversione per tutte le app, ad eccezione di Storify 2. Per ulteriori informazioni sui campi che è possibile localizzare, vedere [Localizza stringhe](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings).
+Potete specificare le impostazioni di conversione per tutte le app, eccetto Storify 2. Per ulteriori informazioni sui campi che è possibile localizzare, vedere [Localize Strings](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings)(Localizzazione stringhe).
 
-Commenti, Blog live e Chat condividono lo stesso set di stringhe all&#39;interno di un set di traduzioni.
+Commenti, Live Blog e Chat condividono lo stesso set di stringhe all'interno di un set di traduzioni.
 
-Specifica un set di traduzioni per una rete, un sito, un&#39;app o un&#39;API.
+Specificate un set di traduzione per una rete, un sito, un'app o per l'utilizzo di un'API.
 
-I set di conversione a diversi livelli si sostituiscono a seconda di questo pattern:
+I set di conversione a diversi livelli si ignorano a vicenda seguendo questo pattern:
 
-Il set di traduzione API ha priorità rispetto a qualsiasi set di conversione a qualsiasi livello (App, rete e sito)
-e sostituisce i set di traduzione a livello di rete e a livello di sito.
-I set di traduzioni a livello di sito ignorano i set di traduzione a livello di rete.
+Il set di conversione API ha la priorità su qualsiasi set di conversione a qualsiasi livello (app, rete e sito)Il set di conversione delle app ha la precedenza sui set di conversione a livello di rete e di sito.
+I set di conversione a livello di sito ignorano i set di conversione a livello di rete.
 
 ## Rivedi stringhe di testo {#c_review_text_strings}
 
 Personalizzazione delle stringhe di testo per Livefyre Reviews.
 
-Questa pagina elenca e descrive le stringhe disponibili per la personalizzazione nelle app di revisione. Le stringhe elencate qui sono oltre alle sostituzioni per le app di base di Livefyre, elencate in Personalizzazione stringa. Se sono elencati i duplicati, le stringhe elencate in queste tabelle sono il valore predefinito per le app Revisione.
+Questa pagina elenca e descrive le stringhe disponibili per la personalizzazione nelle app di revisione. Le stringhe elencate di seguito sono oltre alle stringhe predefinite per le app di base Livefyre e sostituiscono tali stringhe, elencate in String Customizations. Se sono elencati i duplicati, le stringhe elencate in queste tabelle sono le stringhe predefinite per le app di revisione.
 
-Errori di implementazione dell&#39;implementazione/Interfaccia
-di valutazione Flusso di informazioni
-sull&#39;autore/Informazioni
-sulle azioni
-di Post
+ImplementationReview/Rating InterfaceStream InfoAuthor/Content InfoUser ActionsPost FunctionsErrors
 
 ## Implementazione {#section-vsy-1k4-xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all'oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -58,143 +53,136 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Interfaccia di revisione/valutazione {#section_iyv_zj4_xz}
+## Interfaccia revisione/valutazione {#section_iyv_zj4_xz}
 
-Stringhe disponibili per l&#39;interfaccia utente Revisione e Valutazione.
+Stringhe disponibili per l'interfaccia utente Revisione e Valutazione.
 
 | Elemento | Chiave | Testo predefinito |
 |--- |--- |--- |
-| Pulsanti | Editreviewbtn | Modifica revisione |
-|  | Reviewbtn | Revisione in scrittura |
-|  | Reviewsclosed | Revisioni chiuse |
-|  | Showreviewbtn | Mostra revisione |
-|  | segui | l&#39;m interessati |
-|  | Sharetext | Ho appena scritto una revisione. Check it out! |
-| Valutazione dei suggerimenti | Ratingvalues | Un array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: I valori nell&#39;array devono essere duplicati per assegnare allo stesso nome sia la metà sinistra che quella destra di ciascuna stella. |
-| Valutazione delle parti secondarie | Ratingsubpartplaceholder | Un array. Predefinito = [] |
-|  | Ratingsubparttitles | Un array. Predefinito = [] |
-|  | Reviewstreamtitle | Vuoto per impostazione predefinita. Titolo della sezione di riepilogo della revisione. |
-| Misc | Averagerating | Valutazione media utente |
-|  | Breakdownheader | Suddivisione valutazione |
-|  | utili | % s di % s trovato utile |
-|  | Helpfulplural | % s di % s trovato utile |
-|  | Outof | / |
-|  | Ratingtype | stella |
+| Pulsanti | editReviewBtn | Modifica revisione |
+|  | reviewBtn | Scrivi recensione |
+|  | reviewClosed | Recensioni chiuse |
+|  | showReviewBtn | Mostra revisione |
+|  | follow | Sono interessato |
+|  | shareText | Ho appena scritto una recensione. Guardate! |
+| Descrizioni comandi di valutazione | ratingValues | Un array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: I valori nella matrice devono essere duplicati per assegnare lo stesso nome sia alla metà sinistra che alla metà destra di ciascuna stella. |
+| Sottoparti valutazione | ratingSubpartPlaceholder | Un array. impostazione predefinita = [] |
+|  | ratingSubpartTitles | Un array. impostazione predefinita = [] |
+|  | reviewStreamTitle | Vuoto per impostazione predefinita. Titolo della sezione di riepilogo della revisione. |
+| Misc | averageRating | Valutazione utente media |
+|  | destHeader | Suddivisione valutazione |
+|  | assist | %s di %s trovato utile |
+|  | assistPlural | %s di %s trovato utile |
+|  | outOf | / |
+|  | ratingType | star |
 
 ## Informazioni flusso {#section_wmv_yj4_xz}
 
-Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizzazione.
+Stringhe disponibili per le informazioni e la visualizzazione del flusso di contenuto.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Ordinamento | Sortby | *Vuoto per impostazione predefinita.* |
-|  | Sorthighestrated | [Valutazione più elevata](https://d.pr/i/huTd) |
-|  | Sortlowestrated | [Valutazione più bassa](https://d.pr/i/huTd) |
-|  | Sortmosthelpful | [Molto utili](https://d.pr/i/huTd) |
-| Flusso misc. | Showmore | Mostra altro |
-| Velocità ad alta velocità | Newcomment | Nuova revisione |
-|  | Newcomments | Nuove recensioni |
-| Conteggio dei listener | Listenercount | persona ascolto |
-|  | Listenercountplural | persone ascolto |
-| Conteggio dei commenti | Commentcountlabel | Livereviews<strong> | </strong>% s |
-|  | Commentcountlabelpleral | Livereviews<strong> | </strong>% s |
-| Conteggio dei commenti dei commenti | Commentnotifier | Nuova revisione |
-|  | Commentnotifierplural | Nuove recensioni |
+| Ordinamento | sortBy | *Vuoto per impostazione predefinita.* |
+|  | sortHighestRated | [Valutazione più alta](https://d.pr/i/huTd) |
+|  | sortLowestRated | [Valutazione più bassa](https://d.pr/i/huTd) |
+|  | sortMostHelpful | [Molto utili](https://d.pr/i/huTd) |
+| Flusso diverso. | showMore | Mostra altro |
+| Velocità elevata flusso | newComment | Nuova revisione |
+|  | newComments | Nuove recensioni |
+| Conteggio listener | listenerCount | persona che ascolta |
+|  | listenerCountPlural | gente che ascolta |
+| Conteggio commenti | commentCountLabel | LiveReviews<strong> | </strong>%s |
+|  | commentCountLabelPlural | LiveReviews<strong> | </strong>%s |
+| Conteggio dei notifier dei commenti | commentNotifier | Nuova revisione |
+|  | commentNotifierPlural | Nuove recensioni |
 
 ## Autore/Informazioni contenuto {#section_osx_xj4_xz}
 
-Stings disponibili per informazioni sull&#39;autore e sul contenuto.
+Impostazioni disponibili per le informazioni sull’autore e i singoli contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Thread Breakout | Reviewpurchentnotfoundmsg | [La revisione non è più visibile](https://d.pr/i/svXs) |
-|  | Backtocomments | Torna alle revisioni |
+| Suddivisione thread | reviewContentNotFoundMsg | [Questa revisione non è più visibile](https://d.pr/i/svXs) |
+|  | backToComments | Torna alle recensioni |
 
 ## Azioni utente {#section_tlx_wj4_xz}
 
-Stringhe disponibili per le azioni dell&#39;utente: segnalazione, condivisione e contrassegno di contenuti esistenti come utili.
+Stringhe disponibili per le azioni dell'utente: potete contrassegnare i contenuti, condividerli e contrassegnarli come utili.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Piè di pagina commento | Wasreviewhelpful | [Utile?](https://d.pr/i/Q0mA) |
-|  | Wasreviewhelpfulmobile | Utile? |
-|  | Ownwasreviewhelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
-|  | Reviewwashelpful | [Sì](https://d.pr/i/Q0mA) |
-|  | Helpfuldivider | [&amp; amp; vert;](https://d.pr/i/Q0mA) |
-|  | Reviewwasnothelpful | [No](https://d.pr/i/Q0mA) |
-| Modale votazione | Votetitle | Questa revisione è utile? |
-|  | Votedownvote | No |
-|  | Livesteplytitle | Questa risposta è utile? |
-|  | Votetitle | Questo commento è stato utile? |
-|  | Voteupvote | Sì |
-| Flag modale | Flagtitle | Review % s&#39;s review |
-|  | Flagsuccessmsg | La revisione è stata segnalata. |
-| Flag Mobile | Flagconfirmationmessage | Flag % s&#39;s review as % s? |
-| Menzioni modali | Mentiondefaulttext | I mentioned you in a Livefyre review! |
-| Modale condivisione | Sharetitle | Condivisione condivisione |
+| Piè di pagina commento | wasReviewHelpful | [Utile?](https://d.pr/i/Q0mA) |
+|  | wasReviewHelpfulMobile | Utile? |
+|  | ownIsReviewHelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
+|  | reviewwasHelpful | [Sì](https://d.pr/i/Q0mA) |
+|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | reviewwasNotHelpful | [No](https://d.pr/i/Q0mA) |
+| Votazione modale | votiTitle | Questa revisione è stata utile? |
+|  | VotazioneDownVoto | No |
+|  | answerTitle | Questa risposta è stata utile? |
+|  | votiTitle | Questo commento è stato utile? |
+|  | votiUpvote | Sì |
+| Contrassegno modale | flagTitle | Flag %s revisione |
+|  | flagSuccessMsg | La revisione è stata contrassegnata. |
+| Flag Mobile | flagConfirmMessage | Flag %s revisione come %s? |
+| Menzione modale | namedDefaultText | Ti ho menzionato in una recensione di Livefyre! |
+| Condivisione modale | shareTitle | Condividi revisione |
 
-## Funzioni post {#section_yl1_wj4_xz}
+## Funzioni di post {#section_yl1_wj4_xz}
 
-Stringhe disponibili per gli utenti che pubblicano revisioni.
+Stringhe disponibili per gli utenti che pubblicano le revisioni.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Editor | Bodyplaceholder | Revisione scrittura… |
-|  | Posteditbutton | Modifica |
-|  | Posteditcancelbutton | Annulla |
-|  | Postasbutton | Post review as… |
-|  | Postbutton | Revisione post |
-|  | Postreplyasbutton | Pubblica come… |
-|  | Postreplybutton | Post |
-|  | Sharebutton | Condividi |
-|  | Titleplaceholder | Titolo… |
+| Editor | bodyPlaceholder | Scrivi recensione... |
+|  | postEditButton | Modificare       |
+|  | postEditCancelButton | Annulla |
+|  | postAsButton | Post review as... |
+|  | postButton | Post review |
+|  | postReplyAsButton | Invia come... |
+|  | postReplyButton | Post |
+|  | shareButton | Condividi |
+|  | titlePlaceholder | Titolo… |
 
 ## Errori {#section_jbc_vj4_xz}
 
-Stringhe disponibili per messaggi di errore generici.
+Stringhe disponibili per i messaggi di errore generali.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Errori | Erroralreadyposting | È possibile pubblicare una sola revisione. |
-|  | Errorautherror | Non sei autorizzato a pubblicare una revisione in questa conversazione |
-|  | Errorcommentsnotallowed | Le revisioni non possono essere pubblicate al momento |
-|  | Errordiswithowncomment | Non puoi disattivare la tua recensione |
-|  | Errorduplicate | Non è possibile pubblicare due volte la tua recensione. |
-|  | Erroreditduplicate | È necessario modificare il corpo della revisione quando la si modifica. |
-|  | Erroreditnotallowed | Non è possibile modificare le revisioni in questa conversazione. |
-|  | Erroredittimeexceeded | Il periodo di modifica della revisione è scaduto. |
-|  | Errorempty | Sembra che stiate tentando di pubblicare una revisione vuota. |
-|  | Erroremptytitle | Sembra che tu stia tentando di pubblicare un titolo vuoto |
-|  | Errorfieldrating | valutazione a stella |
-|  | Errorfieldreview | review |
-|  | Errorfieldtitle | title |
-|  | Errormaxchars | La revisione è troppo lunga. Please edit and try again. |
-|  | Errormissingfields | Immettete un |
-|  | Errorratingempty | Non è possibile inviare una valutazione vuota |
-|  | Errorratingnotset | Tutte le valutazioni devono essere impostate |
-|  | Errorratingnotvalid | La valutazione deve essere un oggetto |
-|  | Errorshowmore | Si è verificato un errore durante il caricamento di più revisioni. |
-|  | Errortitlemaxchars | Il titolo è troppo lungo. Please edit and try again. |
-|  | Errorvoteowncomment | Non potete votare nella vostra revisione |
+| Errori | errorAlreadyPosted | È possibile pubblicare una sola revisione. |
+|  | errorAuthError | Non sei autorizzato a pubblicare una revisione su questa conversazione |
+|  | errorCommentsNotAllowed | Al momento non è possibile pubblicare le recensioni |
+|  | errorDislikeOwnComment | Non puoi rifiutare la tua revisione |
+|  | errorDuplicate | Per quanto vi sia piaciuta la recensione, non potete pubblicarla due volte. |
+|  | errorEditDuplicate | È necessario modificare il corpo della revisione al momento della modifica. |
+|  | errorEditNotAllowed | In questa conversazione non è consentito modificare le revisioni. |
+|  | errorEditTimeExceeded | Il periodo di modifica della revisione è scaduto. |
+|  | errorEmpty | Si sta tentando di pubblicare una revisione vuota. |
+|  | errorEmptyTitle | Si sta tentando di inserire un titolo vuoto |
+|  | errorFieldRating | classificazione a stella |
+|  | errorFieldReview | review |
+|  | errorFieldTitle | title |
+|  | errorMaxChars | Spiacenti, la tua recensione è troppo lunga. Modificare e riprovare. |
+|  | errorMissingFields | Immettere un |
+|  | errorRatingEmpty | Non è possibile inviare una valutazione vuota |
+|  | errorRatingNotSet | Tutte le valutazioni devono essere impostate |
+|  | errorRatingNotInvalid | La valutazione deve essere un oggetto |
+|  | errorShowMore | Errore durante il caricamento di più revisioni. |
+|  | errorTitleMaxChars | Il titolo è troppo lungo. Modificare e riprovare. |
+|  | errorVoteOwnComment | Non puoi votare da solo |
 
-## Stringhe testo Sidenotes {#c_sidenotes_text_strings}
+## Note Di Testo Stringhe {#c_sidenotes_text_strings}
 
 Personalizzazione delle stringhe di testo per Livefyre Sidenotes
 
-Questa pagina elenca e descrive tutte le stringhe disponibili per la personalizzazione nelle app Sidenotes. Per informazioni sulle stringhe disponibili per le app di base Livefyre, consultate Personalizzazioni stringa.
+Questa pagina elenca e descrive tutte le stringhe disponibili per la personalizzazione nelle app Sidenotes. Per informazioni sulle stringhe disponibili per le app Livefyre di base, consultate Personalizzazioni delle stringhe.
 
-Implementazione
-di Auth
-Stream Info
-Author/Content Info
-User Actions
-Post Funzioni
-di interfaccia
-Moderatore
+ImplementationAuthStream InfoAuthor / Content InfoUser ActionsPost FunctionsModerator InterfaceErrors
 
 ## Implementazione {#section_wp2_ql4_xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all'oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -212,119 +200,119 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 
 ## Autenticazione {#section_pqf_3l4_xz}
 
-Stringhe disponibili per il processo Autenticazione e dai menu utente autenticati.
+Stringhe disponibili per il processo di autenticazione e dai menu utente autenticati.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Stringhe di menu di autenticazione | Menuauthsigninbtn | Accedi |
-|  | Menuauthsignedinmsg | È necessario accedere a {action} |
-|  | Menuusereditprofile | Modifica profilo |
-|  | Menuuseradmin | Admin Console |
-|  | Menuuserlogout | Esci |
-|  | Menuuserbackbtn | Tutto |
+| Stringhe del menu di autenticazione | menuAuthSignInBtn | Accedi |
+|  | menuAuthSignedInMsg | È necessario aver effettuato l'accesso a {action} |
+|  | menuUserEditProfile | Modifica profilo |
+|  | menuUserAdmin | Admin Console |
+|  | menuUserLogout | Disconnetti |
+|  | menuUserBackBtn | Tutte |
 
 ## Informazioni flusso {#section_wpy_gl4_xz}
 
-Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizzazione.
+Stringhe disponibili per le informazioni e la visualizzazione del flusso di contenuto.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Opzioni del menu Info | Menuinfocopyright | © Livefyre, Inc. 2014 |
-|  | Menuinfohelp | Aiuto |
-|  | Menuinfolivefyrelink | Visitate Livefyre.com |
+| Opzioni del menu Informazioni | menuInfoCopyright | © Livefyre, Inc. 2014 |
+|  | menuInfoHelp | Aiuto |
+|  | menuInfoLivefyreLink | Visita Livefyre.com |
 
 ## Autore/Informazioni contenuto {#section_dhb_gl4_xz}
 
-Stings disponibili per informazioni sull&#39;autore e sul contenuto.
+Impostazioni disponibili per le informazioni sull’autore e i singoli contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-|  | Commentmoderatortag | Mod |
-|  | Commentpendingtag | In sospeso |
-|  | Commentreadmorelink | Ulteriori informazioni |
-|  | Commentreplylink | Vedere {numero} risposte |
-|  | Commentreplylinksing | Vedere risposta |
-|  | Commentvotecount | voti |
-|  | Commentvotecountsing | votare |
-|  | Datetimeminuteprefix | m |
-|  | Datetimemonths | Un array. Default =[ &#39;January &#39;,&#39;febbraio &#39;,&#39;March &#39;,&#39;April &#39;,&#39;May &#39;,&#39;Junè,&#39;July &#39;,&#39;August &#39;,&#39;September &#39;,&#39;October &#39;,&#39;November &#39;,&#39;December &#39; ] |
-|  | Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia il testo</span> e fai clic sull <span class="&rdquo;fycon-write&rdquo;"></span> &#39;icona o fai clic sull&#39; <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
-|  | Questionmocktext | Ciò che è «noto» non è noto correttamente, per il motivo di «familiare». |
-|  | Questiontitle | Che cos&#39;è un Sidenote? |
+|  | commentModeratorTag | Mod |
+|  | commentPendingTag | In sospeso |
+|  | commentReadMoreLink | Leggi tutto |
+|  | commentReplyLink | Vedere {number} risposte |
+|  | commentReplyLinkSing | Vedere la risposta |
+|  | commentVoteCount | voti |
+|  | commentCountSing | Votazione |
+|  | datetimeMinutePrefix | m |
+|  | datetimeMonths | Un array. Default =[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] |
+|  | questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia il testo</span> e fai clic sull’ <span class="&rdquo;fycon-write&rdquo;"></span> icona o fai clic sull’ <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
+|  | questionMockText | Ciò che è "familiare" non è ben noto, solo per il motivo che è "familiare". |
+|  | questionTitle | Cos'è una Sidenote? |
 
 ## Azioni utente {#section_qxd_fl4_xz}
 
-Stringhe disponibili per le azioni dell&#39;utente: segnalazione, condivisione e livecing di contenuti esistenti.
+Stringhe disponibili per le azioni dell'utente: applicazione di flag, condivisione e collegamento ai contenuti esistenti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Opzioni del menu di risposta | Menurepliesviewtitle | Dettagli |
-|  | Menurepliesviewanswer | Rispondi alla conversazione |
-| Opzioni del menu Condividi | Menushareoptionfacebook | Facebook |
-|  | Menushareoptiontwitter | Twitter |
-|  | Menusharetitle | Condividi |
-| Opzioni del menu Flag | Menuflagoptiondisagree | Non d&#39;accordo |
-|  | Menuflagoptionoffensive | Offensivo |
-|  | Menuflagoptionofftopic | Argomento Off |
-|  | Menuflagoptionspam | Spam |
-|  | Menuflagtitle | Flag come… |
-|  | Facebooksharecaption | Filienalità su «{title}» |
-| Opzioni utente per dispositivi mobili | Slidercommenttally | di |
-|  | Sliderinviteread | Leggi |
-|  | Sliderinvitewrite | Scrittura |
-|  | Sliderloading | Caricamento in corso… |
-|  | Sliderwritetext | Che cosa pensate? Toccate per scrivere. |
+| Opzioni del menu Rispondi | menuRepliesViewTitle | Dettagli |
+|  | menuRepliesViewReply | Rispondi alla conversazione |
+| Opzioni del menu Condividi | menuShareOptionFacebook | Facebook |
+|  | menuShareOptionTwitter | Twitter |
+|  | menuShareTitle | Condividi |
+| Opzioni del menu Flag | menuFlagOptionDisagreement | Non d'accordo |
+|  | menuFlagOptionOffensive | Offensivo |
+|  | menuFlagOptionOffTopic | Disattiva argomento |
+|  | menuFlagOptionSpam | Spam |
+|  | menuFlagTitle | Contrassegna come... |
+|  | facebookShareCaption | Note su "{title}" |
+| Opzioni utente per dispositivi mobili | sliderCommentTally | di |
+|  | sliderInviteRead | Letto |
+|  | sliderInviteWrite | Write |
+|  | sliderLoading | Caricamento in corso... |
+|  | sliderWriteText | Che ne pensa? Toccate per scrivere. |
 
-## Funzioni post {#section_xzf_2l4_xz}
+## Funzioni di post {#section_xzf_2l4_xz}
 
-Stringhe disponibili per gli utenti che pubblicano contenuto.
-
-| Elemento | Chiave | Testo predefinito |
-|---|---|---|
-|  | Editoreditbtn | Salva |
-|  | Editoreditposting | Salvataggio in corso… |
-|  | Editoreditreplytitle | Modifica risposta |
-|  | Editoredittitle | Edit Sidenote (Modifica Sidenote) |
-|  | Editorplaceholder | Che cosa pensate? |
-|  | Editorpostbtn | Post Sidenote |
-|  | Editorpostbtnmobile | Post |
-|  | Editorposting | Pubblicazione in corso… |
-|  | Editorreplybtn | Post Reply |
-|  | Editorreplytitle | Scrivi risposta |
-|  | Editortitle | Scrivi sidenote |
-|  | Emptyimageblocktxt | Che cosa pensate? |
-|  | Emptytextblocktxt | + |
-|  | Responybtn | Risposta |
-|  | Threadreplybtn | Rispondi alla conversazione |
-| Opzioni del menu Elimina | Menuconfirmaccept | Sì, {action} |
-|  | Menuconfirmcancel | Annulla |
-|  | Menuconfirmtitle | Sei sicuro? |
-| Opzioni di menu ecc. | Menuetcoptionapprove | Approva |
-|  | Menuetcoptiondelete | Elimina |
-|  | Menuetcoptionedit | Modifica |
-|  | Menuetcoptionflag | Flag |
-|  | Menuetcoptionshare | Condividi |
-|  | Menuetcpostedat | Pubblicato in {data} |
-|  | Menuetctitle | Altro |
-
-## Interfaccia moderatore {#section_o5f_dl4_xz}
-
-Stringhe disponibili per l&#39;interfaccia moderatore autenticata dall&#39;utente.
+Stringhe disponibili per gli utenti che pubblicano contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Messaggi di conferma dal menu Altro | Notificationapproved | Approvato |
-|  | Notificationdelete | Eliminato |
-|  | Notificationflded | Segnalata |
+|  | editorEditBtn | Salva |
+|  | editorEditPosting | Salvataggio in corso... |
+|  | editorEditReplyTitle | Modifica risposta |
+|  | editorEditTitle | Modifica pannello |
+|  | editorPlaceholder | Che ne pensa? |
+|  | editorPostBtn | Post Sidenote |
+|  | editorPostBtnMobile | Post |
+|  | editorPosting | Registrazione in corso... |
+|  | editorReplyBtn | Pubblica risposta |
+|  | editorReplyTitle | Scrivi risposta |
+|  | editorTitle | Scrivi Sidenote |
+|  | emptyImageBlockTxt | Che ne pensa? |
+|  | emptyTextBlockTxt | + |
+|  | replyBtn | Rispondi |
+|  | threadReplyBtn | Rispondi alla conversazione |
+| Opzioni del menu Elimina | menuConfirmAccept | Sì, {action} |
+|  | menuConfirmCancel | Annulla |
+|  | menuConfirmTitle | Sei sicuro? |
+| Opzioni del menu Ecc | menuEtcOptionApprove | Approva |
+|  | menuEtcOptionDelete | Elimina |
+|  | menuEtcOptionEdit | Modificare       |
+|  | menuEtcOptionFlag | Contrassegna |
+|  | menuEtcOptionShare | Condividi |
+|  | menuEtcPostedAt | Pubblicato il {date} |
+|  | menuEtcTitle | Altro |
+
+## Interfaccia Moderatore {#section_o5f_dl4_xz}
+
+Stringhe disponibili per l'interfaccia del moderatore autenticato dall'utente.
+
+| Elemento | Chiave | Testo predefinito |
+|---|---|---|
+| Messaggi di conferma dal menu Altro | notificationEnabled | Approvato |
+|  | notificationDeleted | Eliminato |
+|  | notificationFlagged | Segnalato |
 
 ## Errori {#section_gtk_cl4_xz}
 
-Stringhe disponibili per messaggi di errore generici.
+Stringhe disponibili per i messaggi di errore generali.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-|  | Errorconnection | Ah-oh. L&#39;utente non sembra avere una buona connessione. |
-|  | Errorduplicate | Anche la tua nota mi piace, ma non puoi pubblicarla due volte. |
-|  | Errorgeneral | Si è verificato un errore. Riprovate. |
-|  | Errorserver | Si è verificato un errore nel nostro server. Riprovare? |
+|  | errorConnection | Oh-oh. Non sembra che tu abbia una buona connessione. |
+|  | errorDuplicate | Anche la nota è gradita, ma non può essere pubblicata due volte. |
+|  | errorGeneral | Si è verificato un errore. Prova ancora. |
+|  | errorServer | Si è verificato un problema con il nostro server. Provi ancora? |
 
