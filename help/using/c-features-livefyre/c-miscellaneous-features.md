@@ -1,10 +1,10 @@
 ---
-description: Livefyre offre funzioni aggiuntive per il tracciamento dei dati dai visitatori del sito e la sincronizzazione con le reti social media.
-seo-description: Livefyre offre funzioni aggiuntive per il tracciamento dei dati dai visitatori del sito e la sincronizzazione con le reti social media.
+description: Livefyre offre funzioni aggiuntive per il tracciamento dei dati dai visitatori del sito e la sincronizzazione con i social media.
+seo-description: Livefyre offre funzioni aggiuntive per il tracciamento dei dati dai visitatori del sito e la sincronizzazione con i social media.
 seo-title: Funzioni varie
 solution: Experience Manager
 title: Funzioni varie
-uuid: 76 ac 2102-622 d -48 d 3-8 b 1 d -6 ca 6 c 90 c 806 a
+uuid: 76ac2102-622d-48d3-8b1d-6ca6c90c806a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Funzioni varie{#miscellaneous-features}
 
-Livefyre offre funzioni aggiuntive per il tracciamento dei dati dai visitatori del sito e la sincronizzazione con le reti social media.
+Livefyre offre funzioni aggiuntive per il tracciamento dei dati dai visitatori del sito e la sincronizzazione con i social media.
 
-## Streaming tendenze contenuto {#section_w5y_kx4_h1b}
+## Tendenze contenuto flusso {#section_w5y_kx4_h1b}
 
-Gli utenti finali possono visualizzare un elenco delle raccolte più attive all&#39;interno di un sito.
+Gli utenti finali possono visualizzare un elenco delle raccolte più attive all'interno di un sito.
 
 App che utilizzano questa funzione:
 
