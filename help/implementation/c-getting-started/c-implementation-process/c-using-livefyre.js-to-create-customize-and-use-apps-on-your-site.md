@@ -2,24 +2,24 @@
 seo-title: Incorporare un'app
 solution: Experience Manager
 title: Incorporare un'app
-uuid: e 75 caf 0 e -04 ea -4 b 04-89 ed-fea 1183 ecf 63
+uuid: e75caf0e-04ea-4b04-89ed-fea1183ecf63
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Incorporare un&#39;app{#embed-an-app}
+# Incorporare un'app{#embed-an-app}
 
-Aggiungete Livefyre Apps alle pagine Web utilizzando la struttura di codice di Livefyre. js.
+Aggiungete le app Livefyre alle pagine Web mediante la struttura di codice incorporato Livefyre.js.
 
-Questa documentazione è destinata a un pubblico tecnico. Per [informazioni non tecniche sulle app](/help/using/c-about-apps/c-about-apps.md).
+Questa documentazione è destinata a un pubblico tecnico. Per informazioni [non tecniche sulle app](/help/using/c-about-apps/c-about-apps.md).
 
-In questa sezione viene descritta la struttura del codice che sarà necessario includere nel modello di pagina per incorporare le app Livefyre nel sito.
+Questa sezione descrive la struttura del codice che sarà necessario includere nel modello di pagina per incorporare le app Livefyre nel sito.
 
-1. Create un file.html con un segnaposto Livefyre.
+1. Create un file .html con un segnaposto Livefyre.
 
-   Create un nuovo file.html nell&#39;editor di testo desiderato. Create un segnaposto Livefyre `<div>` in cui verrà incorporata l&#39;app.
+   Create un nuovo file .html nell’editor di testo desiderato. Create un `<div>` elemento Livefyre segnaposto in cui l'app verrà incorporata.
 
    ```
    <html> 
@@ -30,9 +30,9 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
    </html>
    ```
 
-1. Include la libreria Livefyre. js.
+1. Includete la libreria Livefyre.js.
 
-   Quindi, includete la libreria Jvefyre JS. Inserite il riferimento seguente in un `<script>` elemento dell `<head>` &#39;elemento. Quindi, aprite la pagina in un browser e utilizzate il modulo di ispezione Web del browser per confermare che Livefyre è stato caricato.
+   Quindi, includete la libreria Livefyre JS. Inserite il seguente riferimento in un `<script>` elemento dell’ `<head>` elemento. Quindi, aprite la pagina in un browser e utilizzate la finestra di ispezione Web del browser per confermare che Livefyre sia caricato.
 
    ```
    <head> 
@@ -40,13 +40,13 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
    </head> 
    ```
 
-1. Create l&#39;app Livefyre.
+1. Create l’app Livefyre.
 
-   Utilizzate `Livefyre.require` per creare app di base e SDK passando i pacchetti Livefyre che pianificate di utilizzare.
+   Utilizzate questa opzione `Livefyre.require` per creare sia app core che SDK trasmettendo i pacchetti Livefyre che pianificate di utilizzare.
 
-   1. Creare un&#39;app di base.
+   1. Create un'app di base.
 
-      Per creare un&#39;app di base (Commenti, Blog live o Chat), utilizzate la struttura seguente:
+      Per creare un'app di base (commenti, blog dal vivo o chat), utilizzate la struttura seguente:
 
       ```
       Livefyre.require(['fyre.conv#@{fyre_conv_version_prod}'], function(Conv) { 
@@ -54,9 +54,9 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
       });  
       ```
 
-   1. Creare un&#39;app SDK.
+   1. Creare un'app SDK.
 
-      Per creare un&#39;app SDK come Media Wall o Feed, utilizzate la struttura seguente:
+      Per creare un'app SDK, ad esempio una bacheca o un feed, usa la struttura seguente:
 
       ```
              Livefyre.require(['app#{version_number}'], 
@@ -74,6 +74,6 @@ In questa sezione viene descritta la struttura del codice che sarà necessario i
       }); 
       ```
 
-      Ulteriori [informazioni su app specifiche](/help/using/c-about-apps/c-about-apps.md). Si consiglia di fissare l&#39;ultima versione principale del pacchetto (che è possibile trovare tramite [Livefyre. require](https://cdn.livefyre.com/packages.html)), per evitare integrazioni interrotte impreviste.
+      Consulta [ulteriori informazioni su app](/help/using/c-about-apps/c-about-apps.md)specifiche. È consigliabile fissare l'ultima versione principale del pacchetto (disponibile tramite [Livefyre.request](https://cdn.livefyre.com/packages.html)), per evitare integrazioni interrotte impreviste.
 
-Segue: Aggiungete l&#39;autenticazione al sito per consentire agli utenti di pubblicare commenti.
+Avanti: Aggiungete l'autenticazione al sito per consentire agli utenti di pubblicare commenti.
