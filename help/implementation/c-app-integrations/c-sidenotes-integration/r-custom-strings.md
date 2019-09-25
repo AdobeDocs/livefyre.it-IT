@@ -1,18 +1,18 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Stringhe personalizzate
-title: Stringhe personalizzate
-uuid: 73745273-d 3 fb -4569-8910-d 149 fb 37 a 7 b 4
+seo-title: Note Personalizzate
+title: Note Personalizzate
+uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 
 
-# Stringhe personalizzate{#sidenotes-custom-strings}
+# Note Personalizzate{#sidenotes-custom-strings}
 
-Le stringhe personalizzate vengono applicate tramite un oggetto inserito nella costruttore Sidenotes e ignorate le stringhe predefinite utilizzate tramite l&#39;applicazione. Possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche di stile o lingua. Le stringhe vengono unite automaticamente con le impostazioni predefinite.
+Le stringhe personalizzate vengono applicate attraverso un oggetto inserito nel costruttore Sidenotes e ignorano le stringhe predefinite utilizzate nell'applicazione. che possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche di stile o lingua. Le stringhe vengono automaticamente unite alle impostazioni predefinite.
 
 ```
 var customStrings = { 
@@ -23,78 +23,78 @@ new Livefyre.Sidenotes({
 });
 ```
 
-| Chiave | Predefinito |
+| Chiave | impostazione predefinita |
 |---|---|
-| Appname | Sidenotes |
-| Commentmoderatortag | Mod |
-| Commentpendingtag | In sospeso |
-| Commentreadmorelink | Ulteriori informazioni |
-| Commentreplylink | Vedere {numero} risposte |
-| Commentreplylinksing | Vedere risposta |
-| Commentvotecount | voti |
-| Commentvotecountsing | votare |
-| Editorplaceholder | Che cosa pensate? |
-| Editorpostbtn | Post Sidenote |
-| Editorpostbtnmobile | Post |
-| Editorposting | Pubblicazione in corso… |
-| Editorreplybtn | Post Reply |
-| Editorreplytitle | Scrivi risposta |
-| Editortitle | Nota |
-| Emptyimageblocktxt | Che cosa pensate? |
-| Emptytextblocktxt | + |
-| Errorconnection | Ah-oh. L&#39;utente non sembra avere una buona connessione. |
-| Errorduplicate | Anche la tua nota mi piace, ma non puoi pubblicarla due volte. |
-| Errorgeneral | Si è verificato un errore. Riprovate. |
-| Errorserver | Si è verificato un errore nel nostro server. Riprovare? |
-| Facebooksharecaption | Sidenotes su «{title}» |
-| Menuauthsignedinmsg | È necessario accedere a {action} |
-| Menuauthsigninbtn | Accedi |
-| Menubackbtn | Indietro |
-| Menuconfirmaccept | Sì, {action} |
-| Menuconfirmcancel | Annulla |
-| Menuconfirmtitle | Sei sicuro? |
-| Menuetcoptionapprove | Approva |
-| Menuetcoptiondelete | Elimina |
-| Menuetcoptionedit | Modifica |
-| Menuetcoptionflag | Flag |
-| Menuetcoptionshare | Condividi |
-| Menuetcpostedat | Pubblicato in {data} |
-| Menuetctitle | Altro |
-| Menuflagoptiondisagree | Non d&#39;accordo |
-| Menuflagoptionoffensive | Offensivo |
-| Menuflagoptionofftopic | Argomento Off |
-| Menuflagoptionspam | Spam |
-| Menuflagtitle | Flag come… |
-| Menuinfocopyright | © Livefyre, Inc. 2014 |
-| Menuinfohelp | Aiuto |
-| Menuinfolivefyrelink | Visitate Livefyre.com |
-| Menurepliesviewanswer | Rispondi alla conversazione |
-| Menurepliesviewtitle | Dettagli |
-| Menushareoptionfacebook | Facebook |
-| Menushareoptionlink | Copia permalink |
-| Menushareoptionlinkcomplete | Copiato |
-| Menushareoptionlinkfailed | Copia non riuscita |
-| Menushareoptiontwitter | Twitter |
-| Menusharetitle | Condividi |
-| Notificationapproved | Approvato |
-| Notificationdelete | Eliminato |
-| Notificationflded | Segnalata |
-| Permalinkbackbtn | Tutto |
-| Permalinktitle | Permalink |
-| Questionexplain | È ora possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e preventivi.<br><br>Evidenzia il testo e fai clic sull&#39;icona «fycon-write» o fai clic sull&#39;icona «fycon-action-view» alla fine di ciascun paragrafo. |
-| Questionmocktext | Ciò che è «noto» non è noto correttamente, per il motivo di «familiare». |
-| Questiontitle | Che cos&#39;è un Sidenote? |
-| Queuedcommentsplural | {numero} Nuove Sidenotes |
-| Queuedcommentssingular | 1 New Sidenote |
-| Queuedresolfantasy queuedRepliesPlural | {numero} Nuove risposte |
-| Queuedrepliessingular | 1 Nuova risposta |
-| Responybtn | Risposta |
-| Signintopost | Effettuate l&#39;accesso per scrivere un sidenote |
-| Slidercommenttally | di |
-| Sliderinviteread | Leggi |
-| Sliderinvitewrite | Scrittura |
-| Sliderwritetext | Che cosa pensate? Toccate per scrivere |
-| Threadcollapsebtn | Comprimi |
-| Threadexpandbtnplural | Espandi {numero} risposte |
-| Threadexpandbtnsingular | Espandi 1 risposta |
-| Threadreplybtn | Rispondi alla conversazione |
+| appName | Sidenotes |
+| commentModeratorTag | Mod |
+| commentPendingTag | In sospeso |
+| commentReadMoreLink | Leggi tutto |
+| commentReplyLink | Vedere {number} risposte |
+| commentReplyLinkSing | Vedere la risposta |
+| commentVoteCount | voti |
+| commentCountSing | Votazione |
+| editorPlaceholder | Che ne pensa? |
+| editorPostBtn | Post Sidenote |
+| editorPostBtnMobile | Post |
+| editorPosting | Registrazione in corso... |
+| editorReplyBtn | Pubblica risposta |
+| editorReplyTitle | Scrivi risposta |
+| editorTitle | Scrivi nota |
+| emptyImageBlockTxt | Che ne pensa? |
+| emptyTextBlockTxt | + |
+| errorConnection | Oh-oh. Non sembra che tu abbia una buona connessione. |
+| errorDuplicate | Anche la nota è gradita, ma non può essere pubblicata due volte. |
+| errorGeneral | Si è verificato un errore. Prova ancora. |
+| errorServer | Si è verificato un problema con il nostro server. Provi ancora? |
+| facebookShareCaption | SideNotes in "{title}" |
+| menuAuthSignedInMsg | È necessario aver effettuato l'accesso a {action} |
+| menuAuthSignInBtn | Accedi |
+| menuBackBtn | Indietro |
+| menuConfirmAccept | Sì, {action} |
+| menuConfirmCancel | Annulla |
+| menuConfirmTitle | Sei sicuro? |
+| menuEtcOptionApprove | Approva |
+| menuEtcOptionDelete | Elimina |
+| menuEtcOptionEdit | Modificare       |
+| menuEtcOptionFlag | Contrassegna |
+| menuEtcOptionShare | Condividi |
+| menuEtcPostedAt | Pubblicato il {date} |
+| menuEtcTitle | Altro |
+| menuFlagOptionDisagreement | Non d'accordo |
+| menuFlagOptionOffensive | Offensivo |
+| menuFlagOptionOffTopic | Disattiva argomento |
+| menuFlagOptionSpam | Spam |
+| menuFlagTitle | Contrassegna come... |
+| menuInfoCopyright | © Livefyre, Inc. 2014 |
+| menuInfoHelp | Aiuto |
+| menuInfoLivefyreLink | Visita Livefyre.com |
+| menuRepliesViewReply | Rispondi alla conversazione |
+| menuRepliesViewTitle | Dettagli |
+| menuShareOptionFacebook | Facebook |
+| menuShareOptionLink | Copia permalink |
+| menuShareOptionLinkComplete | Copiato |
+| menuShareOptionLinkFailed | Copia non riuscita |
+| menuShareOptionTwitter | Twitter |
+| menuShareTitle | Condividi |
+| notificationEnabled | Approvato |
+| notificationDeleted | Eliminato |
+| notificationFlagged | Segnalato |
+| permalinkBackBtn | Tutte |
+| permalinkTitle | Permalink |
+| questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br>Evidenzia il testo e fai clic sull’icona "fycon-write" o fai clic sull’icona "fycon-action-view" alla fine di ciascun paragrafo. |
+| questionMockText | Ciò che è "familiare" non è ben noto, solo per il motivo che è "familiare". |
+| questionTitle | Cos'è una Sidenote? |
+| queusedCommentsPlural | {number} Nuove note |
+| queusedCommentsSingular | 1 Nuova Sidenote |
+| queusedRepliesPlural | {number} Nuove risposte |
+| queusedRepliesSingular | 1 Nuova risposta |
+| replyBtn | Rispondi |
+| signInToPost | Accesso per scrivere una nota |
+| sliderCommentTally | di |
+| sliderInviteRead | Letto |
+| sliderInviteWrite | Write |
+| sliderWriteText | Che ne pensa? Toccate per scrivere |
+| threadCollapseBtn | Comprimi |
+| threadExpandBtnPlural | Espandi {numero} risposte |
+| threadExpandBtnSingular | Espandi 1 risposta |
+| threadReplyBtn | Rispondi alla conversazione |
