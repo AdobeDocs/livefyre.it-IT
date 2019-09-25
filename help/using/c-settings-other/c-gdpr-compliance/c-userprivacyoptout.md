@@ -1,49 +1,49 @@
 ---
-description: Aggiungete il flag userprivacyoptout alla pagina per consentire a un visitatore del sito di rifiutare il tracciamento.
-seo-description: Aggiungete il flag userprivacyoptout alla pagina per consentire a un visitatore del sito di rifiutare il tracciamento.
-seo-title: Userprivacyoptout
-title: Userprivacyoptout
-uuid: a 043 c 50 e -0 a 02-4 c 83-bbce -54 b 9 b 51316 a 5
+description: Aggiungete il flag userPrivacyOptOut alla pagina per consentire al visitatore del sito di rifiutare questo tracciamento.
+seo-description: Aggiungete il flag userPrivacyOptOut alla pagina per consentire al visitatore del sito di rifiutare questo tracciamento.
+seo-title: userPrivacyOptOut
+title: userPrivacyOptOut
+uuid: a043c50e-0a02-4c83-bit-54b9b51316a5
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
 
 ---
 
 
-# Userprivacyoptout{#userprivacyoptout}
+# userPrivacyOptOut{#userprivacyoptout}
 
-Aggiungete il `userPrivacyOptOut` flag alla pagina per consentire al visitatore di un sito di rifiutare il tracciamento.
+Aggiungete il `userPrivacyOptOut` flag alla pagina per consentire al visitatore del sito di non partecipare a questo tracciamento.
 
-Livefyre fornisce eventi javascript per tenere traccia dell&#39;attività utente nelle app di Livefyre.
+Livefyre fornisce eventi JavaScript per monitorare l'attività degli utenti nelle app Livefyre.
 
-Se incorporate Livefyre Apps e un visitatore non accetta il consenso, potete configurare in modo dinamico Livefyre per disabilitare la funzionalità per garantire la privacy del visitatore.
+Se incorporate le app Livefyre e un visitatore non accetta il tracciamento, potete configurare Livefyre in modo dinamico per disattivare la funzionalità per garantire la privacy del visitatore.
 
-Una volta configurato, Livefyre sarà in grado di:
+Una volta configurato, Livefyre:
 
-* Disabilitare il supporto dell&#39;autenticazione nelle app.
-* Disattivazione della generazione di Livecount e eventi
-* Eliminare i cookie esistenti creati da qualsiasi app presente nella pagina
-* File multimediali proxy con immagini di domini di terze parti per impedire ai terze parti di creare cookie
-* Abilita click-through maschera video per video di terze parti che richiedono un clic aggiuntivo per la visualizzazione
+* Disattiva il supporto dell'autenticazione nelle app.
+* Disattiva generazione di eventi e Livecount
+* Elimina i cookie esistenti creati da qualsiasi app presente sulla pagina
+* Proxy media con immagini da domini di terze parti per impedire a terzi di creare cookie
+* Abilita click-through maschera video per video di terze parti che richiedono un clic aggiuntivo per visualizzare
 
-## Configurare una pagina per la rinuncia
+## Configurare una pagina per il rifiuto
 
-Le integrazioni integrative Livefyre Apps possono configurare Livefyre quando un visitatore del sito non ha concesso il consenso utilizzando una sola variabile javascript.
+Le integrazioni che incorporano le app Livefyre possono configurare Livefyre quando un visitatore del sito non ha concesso il consenso utilizzando una singola variabile JavaScript.
 
 Istruzioni:
 
-1. Aggiungere il `userPrivacyOptOut` flag alla pagina prima di `Livefyre.js` javascript:
+1. Aggiungete il `userPrivacyOptOut` flag alla pagina prima di `Livefyre.js` JavaScript:
 
    ```
    window.Livefyre = {userPrivacyOptOut: true};
    ```
 
-1. Aggiungete `Livefyre.js` alla pagina ovunque dopo `userPrivacyOptOut`.
+1. Aggiungere `Livefyre.js` alla pagina in un punto qualsiasi successivo `userPrivacyOptOut`.
 
-   Livefyre Apps crea un&#39;istanza delle impostazioni di privacy avanzate.
+   Le app Livefyre creano un'istanza con le impostazioni di privacy elevate.
 
    >[!NOTE]
    >
-   >Non modificate il valore di `userPrivacyOptOut` una volta caricata Livefyre Apps.
+   >Non modificate il valore di una `userPrivacyOptOut` volta che le app Livefyre sono state caricate.
 
-Assicurati che il flusso di lavoro del consenso imposti su `userPrivacyOptOut` true se un visitatore sceglie di rifiutare.
+Assicurati che il flusso di lavoro del consenso imposti `userPrivacyOptOut` su true se un visitatore del sito sceglie di rifiutare.
