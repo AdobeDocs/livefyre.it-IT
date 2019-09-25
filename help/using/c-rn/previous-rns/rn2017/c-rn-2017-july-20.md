@@ -1,47 +1,47 @@
 ---
-description: Note sulla versione del 20 luglio 2017.
-seo-description: Note sulla versione del 20 luglio 2017.
+description: Note sulla versione per la release del 20 luglio 2017.
+seo-description: Note sulla versione per la release del 20 luglio 2017.
 seo-title: 20 luglio 2017
 title: 20 luglio 2017
-uuid: 550815 a 9-a 6 e 2-4 e 98-b 5 d 6-7 f 4897373716
+uuid: 550815a9-a6e2-4e98-b5d6-7f4897373716
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 20 luglio 2017{#july}
+# July 20, 2017{#july}
 
-Note sulla versione del 20 luglio 2017.
+Note sulla versione per la release del 20 luglio 2017.
 
 ## Nuova funzionalità {#section_swl_jsm_p1b}
 
-UGC Commerce consente di aggiungere un pulsante Call-to-action direttamente dalle app Livefyre. Per ulteriori informazioni su UGC Commerce, consultate [UGC Commerce](../../../c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce).
+UGC Commerce consente di aggiungere un pulsante Invito all’azione direttamente dalle app Livefyre. Per ulteriori informazioni su UGC Commerce, consulta [UGC Commerce](../../../c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce).
 
-## Note sulla versione {#section_bjq_3sm_p1b}
+## Note sulla versione{#section_bjq_3sm_p1b} 
 
-Nelle seguenti tabelle sono elencate le note sulla versione di produzione e UAT del 20 luglio 2017.
+Nelle tabelle seguenti sono elencate le Note sulla versione Produzione e UAT per la release del 20 luglio 2017.
 
-## Versione produzione
+## Release produzione
 
-| Tipo di edizione | Componente | Nota sulla versione |
+| Tipo problema | Componente | Note sulla versione |
 |--- |--- |--- |
-| Miglioramento | Tutto | Ecco la nuova iniziativa UGC Commerce di Livefyre. Ciò include la possibilità di: <br><ul><li>Aggiungete un pulsante di conversione a Mosaic e Media Wall. </li><li>Miglioramenti dell&#39;interfaccia utente a Mosaic, Media Wall e il modale del contenuto per entrambe le app. </li><li>Possibilità di caricare prodotti in Studio in Impostazioni di rete.</li><li> Possibilità di associare contenuto ai prodotti nella libreria Studio, Contenuto app e modq.</li><li> Possibilità di associare prodotti con regole Flusso per l&#39;assegnazione automatica dei tag.</li></ul> |
-| Bug | Autenticazione | È stato corretto un bug con la decodifica di Token Web JSON durante l&#39;autenticazione in Livefyre Apps. |
-| Miglioramento | Commenti | È stato aggiunto un miglioramento in modo che le schede Ordinamento commenti siano conformi a ADA. |
-| Bug | Media Wall | È stato corretto un bug in Media Wall che impediva il corretto funzionamento del pulsante Condividi in Firefox. |
-| Miglioramento | Mosaic | È stato aggiornato l&#39;aspetto della modale Dettagli sulle schede Mosaic. |
-| Miglioramento | Ricerca social network | Aggiunta del testo che spiega perché le richieste di diritti non possono essere richieste in una ricerca social quando sono selezionate più risorse, il provider social non è supportato per le richieste di diritti, né per i diritti attivato per un provider social network sulla rete. |
-| Bug | Storify 2 | È stato corretto un problema a causa del quale non era possibile aggiungere un ñ (n con un tilde sopra di esso) in Storify 2. |
-| Bug | Studio | È stato corretto un bug a causa del quale tutte le sezioni Impostazioni venivano caricate in Studio quando erano collegate a un sito specifico. |
+| Miglioramento | Tutte | Presentazione della nuova iniziativa UGC Commerce di Livefyre. Ciò include la capacità di:  <br><ul><li>Aggiungete un pulsante di conversione a Mosaico e Media Wall. </li><li>Miglioramenti dell’interfaccia utente per Mosaico, Media Wall e il modale del contenuto per entrambe le app. </li><li>Possibilità di caricare prodotti in Studio in Impostazioni di rete.</li><li> Possibilità di associare il contenuto ai prodotti in Libreria di Studio, Contenuto app e ModQ.</li><li> Possibilità di associare i prodotti alle regole di flusso per l'assegnazione automatica di tag.</li></ul> |
+| Bug | Autenticazione | È stato corretto un bug con la decodifica dei token Web JSON durante l'autenticazione nelle app Livefyre. |
+| Miglioramento | Commenti | È stato aggiunto un miglioramento in modo che le schede Ordine commenti siano conformi a ADA. |
+| Bug | Muro di supporto | È stato corretto un bug in Media Wall che impediva il corretto funzionamento del pulsante di condivisione in Firefox. |
+| Miglioramento | Mosaico | Aspetto aggiornato al modale Details sulle schede Mosaic. |
+| Miglioramento | Ricerca social | È stato aggiunto il testo che spiega perché le richieste di diritti non possono essere richieste in una ricerca social quando sono selezionate più risorse, il provider social non è supportato per le richieste di diritti, o non esistono account di richieste di diritti abilitati per un provider social sulla rete. |
+| Bug | Storify 2 | È stato corretto un problema a causa del quale non era possibile aggiungere un’immagine di tipo Condividi (n con una tilde sopra di essa) in Storify 2. |
+| Bug | Studio | È stato corretto un bug per consentire il caricamento di tutte le sezioni Settings (Impostazioni) in Studio quando l'ambito viene eseguito su un sito specifico. |
 
 
-## Versione UAT
+## Rilascio UAT
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Carosello | È stato corretto un bug a causa del quale i post del carosello istagram senza didascalie venivano inseriti in Studio. |
-| Miglioramento | Storify 2 | Sono stati rimossi i commenti di Facebook per l&#39;opzione di ricerca ID in Storify Search, a causa della deprecazione obsoleta di Facebook. |
-| Bug | Storify 2 | Migliorata la stabilità di acquisizione dei commenti Facebook per URL in Storify 2. |
-| Bug | Flussi | È stato corretto un bug a causa del quale le pillole di testo nelle caselle di testo di configurazione Regola di flusso venivano rimosse quando si faceva clic. |
+| Bug | Carosello | È stato corretto un bug a causa del quale i post di Instagram Carousel senza didascalie venivano inseriti in Studio. |
+| Miglioramento | Storify 2 | È stata rimossa l'opzione Commenti Facebook per ID nella Ricerca in Storify, a causa della rimozione della funzione da parte di Facebook. |
+| Bug | Storify 2 | È stata migliorata la stabilità del recupero dei commenti di Facebook tramite URL e risulta in Storify 2. |
+| Bug | Streams | È stato corretto un bug a causa del quale le pillole di testo nelle caselle di testo Configurazione regola di flusso venivano rimosse al clic. |
 
