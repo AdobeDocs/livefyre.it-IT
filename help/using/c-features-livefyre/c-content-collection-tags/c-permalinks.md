@@ -1,47 +1,47 @@
 ---
-description: Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink del contenuto.
-seo-description: Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink del contenuto.
-seo-title: Permalinks
+description: Utilizzate l'abbreviazione di URL bit.ly per personalizzare i permalink dei contenuti.
+seo-description: Utilizzate l'abbreviazione di URL bit.ly per personalizzare i permalink dei contenuti.
+seo-title: Permalink
 solution: Experience Manager
-title: Permalinks
-uuid: 40 ef 30 ec-dc 3 e -47 fe -87 a 9-f 9073 cd 4 c 4 ff
+title: Permalink
+uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# Permalinks{#permalinks}
+# Permalink{#permalinks}
 
-Utilizzate la abbreviazione URL bit. ly per personalizzare i permalinink del contenuto.
+Utilizzate l'abbreviazione di URL bit.ly per personalizzare i permalink dei contenuti.
 
-I collegamenti permalali consentono di collegare commenti archiviati o contenuti all&#39;interno dei flussi. Per abilitare questa funzione, Livefyre usa un formato URL predefinito: ** fyre. it**. Questo formato può essere personalizzato in base al formato bit. ly standard.
+I permalink consentono di impostare collegamenti a commenti o contenuti archiviati all’interno dei flussi. Per attivare questa funzione, Livefyre utilizza un formato URL predefinito:** fyre.it*. Questo formato può essere personalizzato in base al formato bit.ly standard.
 
 ## Visualizzazione Permalink {#section_mxd_wwg_wy}
 
-Se gli utenti fanno clic su un collegamento permalale da un social network a un&#39;app di contenuto Livefyre, verranno indirizzati al flusso di contenuto Livefyre. Il contenuto verrà visualizzato in una visualizzazione per sottogruppi di lavoro dello streaming, subito sotto l&#39;editor, con il contesto completo visualizzato. Sotto l&#39;avatar viene visualizzata una linea blu per il contenuto indefinito. (Questa linea blu scompare dopo alcuni secondi.)
+Se gli utenti fanno clic su un collegamento permalink da un social network a un'app di contenuti Livefyre, questi verrà portato nel flusso di contenuti Livefyre. Il contenuto verrà visualizzato in una visualizzazione per sottogruppi di lavoro del flusso, appena sotto l’editor, con il contesto completo visualizzato. Sotto l’avatar verrà visualizzata una linea blu per il contenuto collegato. Questa linea blu scomparirà dopo alcuni secondi.
 
-Se il contenuto con tendenze viene eliminato, nella visualizzazione sottogruppo di lavoro viene visualizzato un messaggio a tale effetto.
+(Se viene eliminato del contenuto permalcollegato, nella visualizzazione per sottogruppi di lavoro verrà visualizzato un messaggio a tale scopo.)
 
-## Autorizzazioni personalizzate {#section_uyn_5wg_wy}
+## Permalink personalizzati {#section_uyn_5wg_wy}
 
-Se desiderate creare collegamenti personalizzati per commenti durante la condivisione delle conversazioni, potete utilizzare l&#39;account Bitly, anziché l&#39;URL standard Livefyre (fyre. it). L&#39;utilizzo dell&#39;account Bitly ti aiuterà a ricordare agli utenti che visita il contenuto sul tuo sito quando fai clic su un problema.
+Se desiderate creare permalink personalizzati per i commenti durante la condivisione di conversazioni, potete utilizzare il vostro account Bito, anziché l'URL Livefyre standard abbreviato (fyre.it). L'utilizzo del tuo account Bito ti aiuterà a ricordare agli utenti che visiteranno il contenuto del tuo sito facendo clic su un collegamento permalink.
 
-Per implementare questa funzione, accedete a **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]** voi e inserite la chiave API Bitly e il nome utente.
+Per implementare questa funzione, accedete a **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]** e immettete la vostra chiave API implicita e il vostro nome utente.
 
 >[!NOTE]
 >
->Per evitare l&#39;uso di URL non necessari creati per nome, gli inchiostri Bitly vengono generati in base alle esigenze.
+>Per evitare URL non necessari creati per vostro conto, i collegamenti ipertestuali impliciti vengono generati in base alle esigenze.
 
 App che utilizzano questa funzione:
 
 * [Carosello](/help/using/c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Commenti](/help/using/c-about-apps/c-comments/c-comments.md)
-* [Scheda Funzioni](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
+* [Scheda](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [Mappa](/help/using/c-about-apps/c-map-app/c-map-app.md#c_map_app)
-* [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
-* [Mosaic](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
+* [Muro di supporto](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
+* [Mosaico](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [Recensioni](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
