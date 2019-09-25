@@ -1,23 +1,23 @@
 ---
-description: Potete registrare un utente tramite la console durante l'integrazione e il test per l'autorizzazione di debug.
-seo-description: Potete registrare un utente tramite la console durante l'integrazione e il test per l'autorizzazione di debug.
-seo-title: Debug di auth Delegate
+description: È possibile accedere a un utente dalla console durante l'integrazione e il test per eseguire il debug dell'autorizzazione.
+seo-description: È possibile accedere a un utente dalla console durante l'integrazione e il test per eseguire il debug dell'autorizzazione.
+seo-title: Debug delegato autenticazione
 solution: Experience Manager
-title: Debug di auth Delegate
-uuid: fb 0 c 7396-190 e -4 dc 9-bf 26-23 dde 9 efd 45 d
+title: Debug delegato autenticazione
+uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Debug di auth Delegate{#debugging-auth-delegate}
+# Debug delegato autenticazione{#debugging-auth-delegate}
 
-Potete registrare un utente tramite la console durante l&#39;integrazione e il test per l&#39;autorizzazione di debug.
+È possibile accedere a un utente dalla console durante l'integrazione e il test per eseguire il debug dell'autorizzazione.
 
-Inserite un utente nella console utilizzando il seguente `auth.authenticate` token (token) e passate un token utente Livefyre per l&#39;autenticazione degli utenti sulla pagina.
+Accedete a un utente tramite la console utilizzando il seguente `auth.authenticate` (token) e passate un token utente Livefyre per autenticare gli utenti sulla pagina.
 
-Potete anche modificare l&#39;esempio illustrato qui sopra e aggiungere il seguente snippet in linea nel codice javascript per registrare rapidamente un utente in Livefyre (richiede un riferimento a autenticazione).
+Potete anche modificare l'esempio riportato sopra e aggiungere il seguente snippet in linea nel codice JavaScript per registrare rapidamente un utente in Livefyre (richiede un riferimento ad auth).
 
 ```
 window.addEventListener('userAuthenticated', function(data) { 
