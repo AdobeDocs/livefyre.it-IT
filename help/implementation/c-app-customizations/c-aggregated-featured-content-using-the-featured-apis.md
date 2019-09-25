@@ -1,23 +1,23 @@
 ---
-description: Livefyre fornisce quattro API Featured, che consentono di recuperare i 50 elementi contenuti contenuti più di recente per la rete, il sito o la raccolta di input, oppure le due parti di contenuto indicato nella parte superiore di una raccolta di input.
-seo-description: Livefyre fornisce quattro API Featured, che consentono di recuperare i 50 elementi contenuti contenuti più di recente per la rete, il sito o la raccolta di input, oppure le due parti di contenuto indicato nella parte superiore di una raccolta di input.
-seo-title: Contenuto aggregato aggregato utilizzando le API contenuti
+description: Livefyre fornisce quattro API in evidenza, che consentono di recuperare i 50 elementi di contenuto più recenti per la rete di input, il sito o la raccolta, oppure i due elementi di contenuto presenti nella parte superiore di una raccolta di input.
+seo-description: Livefyre fornisce quattro API in evidenza, che consentono di recuperare i 50 elementi di contenuto più recenti per la rete di input, il sito o la raccolta, oppure i due elementi di contenuto presenti nella parte superiore di una raccolta di input.
+seo-title: Contenuto in evidenza aggregato tramite le API in evidenza
 solution: Experience Manager
-title: Contenuto aggregato aggregato utilizzando le API contenuti
-uuid: e 9 c 9 ff 26-37 b 6-4328-af 85-aa 550 e 7 ffdfd
+title: Contenuto in evidenza aggregato tramite le API in evidenza
+uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Contenuto aggregato aggregato utilizzando le API contenuti{#aggregated-featured-content-using-the-featured-apis}
+# Contenuto in evidenza aggregato tramite le API in evidenza{#aggregated-featured-content-using-the-featured-apis}
 
-Livefyre fornisce quattro API Featured, che consentono di recuperare i 50 elementi contenuti contenuti più di recente per la rete, il sito o la raccolta di input, oppure le due parti di contenuto indicato nella parte superiore di una raccolta di input.
+Livefyre fornisce quattro API in evidenza, che consentono di recuperare i 50 elementi di contenuto più recenti per la rete di input, il sito o la raccolta, oppure i due elementi di contenuto presenti nella parte superiore di una raccolta di input.
 
-## Contenuti (rete) {#section_cgm_1nw_xz}
+## In evidenza (rete) {#section_cgm_1nw_xz}
 
-Recupera i 50 pezzi più recenti dei contenuti contenuti (e i relativi autori) per la rete di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo il 50 più recente).
+Recupera i 50 contenuti più recenti (e i relativi autori) per la rete di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo i 50 più recenti.)
 
 **Risorsa**
 
@@ -151,9 +151,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
 }
 ```
 
-## Contenuti (Site) {#section_lq5_ymw_xz}
+## Disponibile (sito) {#section_lq5_ymw_xz}
 
-Restituisce i 50 pezzi più recenti dei contenuti contenuti (e i relativi autori) per il sito di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo il 50 più recente).
+Restituisce i 50 contenuti più recenti (e i relativi autori) per il sito di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo i 50 più recenti.)
 
 **Risorsa**
 
@@ -253,9 +253,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
 }
 ```
 
-## Indicato (raccolta) {#section_kgc_xmw_xz}
+## In evidenza (raccolta) {#section_kgc_xmw_xz}
 
-Restituisce i 50 pezzi più recenti di contenuto contenuti (e i relativi autori) per la raccolta di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo il 50 più recente).
+Restituisce i 50 contenuti più recenti (e i relativi autori) per la raccolta di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo i 50 più recenti.)
 
 **Risorsa**
 
@@ -355,9 +355,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
 }
 ```
 
-## Contenuti (intestazione) {#section_n4b_lmw_xz}
+## In evidenza (testa) {#section_n4b_lmw_xz}
 
-Restituisce i due contenuti Contenuti più recenti per la raccolta di input.
+Restituisce i due contenuti più recenti della raccolta di input disponibili.
 
 **Risorsa**
 
