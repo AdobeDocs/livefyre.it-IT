@@ -1,35 +1,35 @@
 ---
-description: Create un token univoco sul server che identifica tutte le raccolte create.
-seo-description: Create un token univoco sul server che identifica tutte le raccolte create.
-seo-title: Token collectionmeta
+description: Create un token univoco sul server che identifichi ogni raccolta creata.
+seo-description: Create un token univoco sul server che identifichi ogni raccolta creata.
+seo-title: CollectionMeta Token
 solution: Experience Manager
-title: Token collectionmeta
-uuid: d 5 db 0 b 0 f -2807-4392-874 a -94 ac 3 c 1 e 7550
+title: CollectionMeta Token
+uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Token collectionmeta{#collectionmeta-token}
+# CollectionMeta Token{#collectionmeta-token}
 
-Create un token univoco sul server che identifica tutte le raccolte create.
+Create un token univoco sul server che identifichi ogni raccolta creata.
 
 Livefyre assegna un identificatore univoco a ogni raccolta creata. Livefyre assegna un titolo, un URL e altri parametri, tra cui:
 
-## Parametri token collectionmeta
+## collectionMeta Token Parameters
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
-| Networkname | Stringa (facoltativa) | Il nome della rete Livefyre (disponibile da {! UICONTROL Studio &gt; Settings &gt; Integration Settings &gt; Credentials]). Questo è facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
-| Networkkey | Stringa (facoltativa) | La chiave segreta per la rete specifica (disponibile da Studio &gt; Impostazioni &gt; Impostazioni integrazione &gt; Credenziali). Questo è facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
-| Siteid | Stringa (facoltativa) | ID del sito (disponibile da [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Facoltativo quando si utilizza la libreria per creare un token collectionmeta. |
-| Sitekey | Stringa (facoltativa) | La chiave segreta del sito (disponibile da {! UICONTROL Studio &gt; Settings &gt; Integration Settings &gt; Credentials]). |
-| Articleid | Stringa (facoltativa) | ID univoco per la raccolta. |
-| title | Stringa (facoltativa) | Titolo da applicare alla raccolta. Generalmente corrisponde al titolo della pagina che visualizza l&#39;app. <br>Ad esempio: «Integrazione è molto divertente! »» <br>Nota: La lunghezza massima del carattere per il titolo è 255 caratteri. Il campo Titolo non supporta le entità HTML. Codificate caratteri speciali utilizzando UTF -8. |
-| url | Stringa (facoltativa) | L&#39;URL assoluto canonico che desiderate allegare a questa raccolta. Questo URL verrà utilizzato per generare collegamenti all&#39;app dal contenuto condiviso su Facebook e Twitter, notifiche e-mail e Livefyre Studio. <br>Nota: Se esegui il test localmente, usa un dominio URL di base valido (ad esempio: valid: `https://customer.com`; invalid: `https://localhost:5995`). |
-| tag | Stringa (facoltativa) | Un elenco separato da virgole di parole chiave o frasi. Cerca raccolte in base ai tag che utilizzano Studio. </br>Nota: I tag non possono contenere spazi. Usate i caratteri di sottolineatura per visualizzare uno spazio nell&#39;interfaccia utente. |
-| extensions | JSON (facoltativo) | Un set di parametri formattato JSON da passare alla raccolta. |
+| networkName | String (facoltativo) | Il nome della rete Livefyre (disponibile da {!UICONTROL Studio &gt; Settings &gt; Integration Settings &gt; Credentials]). Questo è facoltativo quando si utilizza la libreria per creare un token collectionMeta. |
+| networkKey | String (facoltativo) | La chiave segreta per la rete specifica (disponibile da Studio &gt; Impostazioni &gt; Impostazioni integrazione &gt; Credenziali ). Questo è facoltativo quando si utilizza la libreria per creare un token collectionMeta. |
+| siteId | String (facoltativo) | L’ID del sito (disponibile da [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Facoltativo quando si utilizza la libreria per creare un token collectionMeta. |
+| siteKey | String (facoltativo) | La chiave segreta per il sito (disponibile da {!UICONTROL Studio &gt; Impostazioni &gt; Impostazioni integrazione &gt; Credenziali]). |
+| articleId | String (facoltativo) | Un ID univoco per la raccolta. |
+| title | String (facoltativo) | Titolo da applicare alla raccolta. In genere corrisponde al titolo della pagina in cui è visualizzata l'app. <br>Ad esempio: "L'integrazione è così divertente!" <br>Nota:  La lunghezza massima dei caratteri per il titolo è di 255 caratteri. Il campo title non supporta le entità HTML. Codificare caratteri speciali utilizzando UTF-8. |
+| url | String (facoltativo) | L'URL assoluto canonico che si desidera allegare a questa raccolta. Questo URL verrà utilizzato per generare i collegamenti all'app dal contenuto condiviso su Facebook e Twitter, dalle notifiche e-mail e da Livefyre Studio. <br>Nota:  Se esegui il test localmente, usa un dominio URL di base valido (ad esempio: valid: `https://customer.com`; non valido: `https://localhost:5995`). |
+| tags | String (facoltativo) | Elenco separato da virgole di parole chiave singole o di frasi. Cercare le raccolte in base ai tag utilizzando Studio.  </br>Nota:I tag non possono contenere spazi. Utilizzate i caratteri di sottolineatura per visualizzare uno spazio nell’interfaccia utente. |
+| extensions | JSON (facoltativo) | Un set di param formattati JSON da passare alla raccolta. |
 
 ## Java {#section_orz_m4n_sz}
 
@@ -47,7 +47,7 @@ collection.getData().setTags("tags");
 String collectionMetaToken = collection.buildCollectionMetaToken();
 ```
 
-## Nodejs {#section_kpk_44n_sz}
+## NodeJS {#section_kpk_44n_sz}
 
 ```
 var livefyre = require('livefyre'); 
@@ -97,7 +97,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {importance = &quot;high&quot;}
+>[!NOTE] {important="high"}
 >
->Livefyre riceve il token collectionmeta che create e determina l&#39;univocità combinando siteid (Livefyre fornito) e articleid (specificato dal cliente).
+>Livefyre riceve il token collectionMeta generato e determina l’univocità combinando siteId (Livefyre fornito) e articleId (cliente specificato).
 
