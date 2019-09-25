@@ -1,67 +1,67 @@
 ---
-description: Personalizzate lo stile e il modo in cui i commenti vengono visualizzati nel blog dal vivo.
-seo-description: Personalizzate lo stile e il modo in cui i commenti vengono visualizzati nel blog dal vivo.
-seo-title: Personalizzazioni blog live
+description: Personalizzare lo stile e il modo in cui i commenti vengono visualizzati sul blog dal vivo.
+seo-description: Personalizzare lo stile e il modo in cui i commenti vengono visualizzati sul blog dal vivo.
+seo-title: Personalizzazioni Live Blog
 solution: Experience Manager
-title: Personalizzazioni blog live
-uuid: f 07 d 4 c 33-4 aef -4 d 69-b 9 dd -3 fd 3 c 27 ffd 6 d
+title: Personalizzazioni Live Blog
+uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Personalizzazioni blog live{#live-blog-customizations}
+# Personalizzazioni Live Blog{#live-blog-customizations}
 
-Personalizzate lo stile e il modo in cui i commenti vengono visualizzati nel blog dal vivo.
+Personalizzare lo stile e il modo in cui i commenti vengono visualizzati sul blog dal vivo.
 
 
 
-Utilizza Blog live per pubblicare aggiornamenti in tempo reale alle storie in corso, trasformando il tuo sito in un&#39;origine di notizie live.
+Utilizzate Live Blog per pubblicare aggiornamenti in tempo reale sulle storie in corso, trasformando il sito in una fonte di notizie dal vivo coinvolgente.
 
 * **[!UICONTROL Number of comments to load]**
 
-   Immettere il numero di commenti da visualizzare al momento del caricamento iniziale. È possibile immettere tra 1 e 50.
+   Immettere il numero di commenti da visualizzare al caricamento iniziale. È possibile immettere tra 1 e 50.
 
 * **[!UICONTROL Comments appear in cards]**
 
-   Se abilitata, i post vengono visualizzati con una casella circostante e il colore di sfondo determinato dalla selezione **del tema** applicata.
+   Se attivato, i post verranno visualizzati con una casella circostante e verrà applicato il colore di sfondo dettato dalla selezione del **tema** .
 
 * **[!UICONTROL Nest levels for replies]**
 
-   Definisce il numero di livelli nidificati per le risposte (2 o 3).
+   Definisce il numero di livelli di nidificazione visualizzati per le risposte (2 o 3).
 
 * **[!UICONTROL Expand media]**
 
-   Se abilitata, gli allegati multimediali verranno visualizzati come file multimediali completamente espansi nel flusso. Se disattivato, gli elementi multimediali vengono visualizzati solo come collegamenti.
+   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disabilitato, il supporto viene visualizzato solo come collegamenti.
 
 * **[!UICONTROL Number of listeners]**
 
-   Se abilitata, verrà visualizzato il numero di utenti attivi nella pagina.
+   Se attivato, verrà visualizzato il numero di utenti attivi sulla pagina.
 
 * **[!UICONTROL User tags]**
 
-   Se abilitata, i tag utente saranno visualizzati con il contenuto pubblicato.
+   Se attivato, i tag utente verranno visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL User avatars]**
 
-   Se abilitata, gli avatar dell&#39;utente vengono visualizzati con il contenuto pubblicato.
+   Se attivato, gli avatar degli utenti verranno visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL Users can reply to posts]**
 
-   Se abilitata, gli utenti possono rispondere ai post del blog live.
+   Se attivato, gli utenti possono rispondere ai post Live Blog.
 
 * **[!UICONTROL Users may upload photos]**
 
-   Se gli utenti abilitati possono caricare le foto,
+   Se abilitato, gli utenti possono caricare le foto.
 
 * **[!UICONTROL Users may share comments]**
 
-   Se abilitata, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o linkedin. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni integrazione &gt; Condivisione social network.
+   Se attivato, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni di integrazione &gt; Condivisione social network.
 
-Potete personalizzare il blog live utilizzando:
+Potete personalizzare Live Blog utilizzando:
 
-* **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sullo standard **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e **[!UICONTROL Config]** le opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sugli standard **[!UICONTROL Style]** e sulle **[!UICONTROL Config]** opzioni di tutte le app in **[!UICONTROL App Designer]**.
 
-* Strumenti di integrazione. Per ulteriori informazioni su come personalizzare le app mediante Strumenti di integrazione, consulta Blog live.
+* Strumenti di integrazione. Consulta Live Blog per ulteriori informazioni su come personalizzare le app tramite gli strumenti di integrazione.
 
