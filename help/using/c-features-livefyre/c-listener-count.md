@@ -1,27 +1,27 @@
 ---
-description: Il conteggio dei listener è un contatore che tiene traccia del numero di visitatori del sito per un'app su una pagina e visualizza questo numero.
-seo-description: Il conteggio dei listener è un contatore che tiene traccia del numero di visitatori del sito per un'app su una pagina e visualizza questo numero.
-seo-title: Conteggio listener
+description: Il conteggio listener è un contatore che tiene traccia del numero di visitatori del sito per un'app su una pagina e visualizza questo numero.
+seo-description: Il conteggio listener è un contatore che tiene traccia del numero di visitatori del sito per un'app su una pagina e visualizza questo numero.
+seo-title: Numero listener
 solution: Experience Manager
-title: Conteggio listener
-uuid: fdd 7 cfe 4-ae 69-4 d 31-baa 2-8978368 fc 3 e 8
+title: Numero listener
+uuid: fdd7cfe4-ae69-4d31-baa2-8978368fc3e8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Conteggio listener{#listener-count}
+# Numero listener{#listener-count}
 
-Il conteggio dei listener è un contatore che tiene traccia del numero di visitatori del sito per un&#39;app su una pagina e visualizza questo numero.
+Il conteggio listener è un contatore che tiene traccia del numero di visitatori del sito per un'app su una pagina e visualizza questo numero.
 
-Numero listener è il numero di visitatori del sito che hanno un browser aperto alla pagina su cui viene creata un&#39;istanza di un&#39;app. Questo consente di sapere quanti visitatori del sito si trovano sulla pagina in un determinato momento, in modo da poterli tenere traccia durante lo streaming o il contenuto live in tempo reale.
+Conteggio listener è il numero di visitatori del sito che dispongono di un browser aperto sulla pagina in cui viene creata un'istanza dell'app. Questo consente di sapere quanti visitatori del sito si trovano sulla pagina in un dato momento, in modo da poterli tracciare mentre guardano lo streaming o il contenuto live in tempo reale.
 
-Il conteggio dei listener di Livefyre funziona come segue:
+Il numero di Listener di Livefyre funziona così:
 
-1. Il sito contenente l&#39;app invia un ping a Livefyre Server ogni 60 secondi.
-1. Il server Livefyre risponde al numero di visitatori del sito nella pagina che visualizza l&#39;app (definito come numero di visitatori del sito con un browser aperto a quella pagina).
-1. Il numero di visitatori del sito nella pagina con l&#39;app viene visualizzato nell&#39;app.
+1. Il sito contenente l’app esegue il ping di un server Livefyre ogni 60 secondi.
+1. Il server Livefyre risponde con il numero di visitatori del sito sulla pagina che visualizza l'App (definito come il numero di visitatori del sito con un browser aperto alla pagina).
+1. Il numero di visitatori del sito sulla pagina con l'app viene visualizzato nell'app.
 
 App che utilizzano questa funzione:
 
@@ -29,15 +29,15 @@ App che utilizzano questa funzione:
 * [Commenti](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Recensioni](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## Avatar listener {#section_wcn_kxp_vz}
+## Avatar del listener {#section_wcn_kxp_vz}
 
-Il conteggio dei listener visualizza un massimo di 10 avatar e visualizza avatar solo per coloro che hanno fatto clic **[!UICONTROL Follow]** per la conversazione.
+Il numero di listener visualizza un massimo di 10 avatar e visualizza gli avatar solo per coloro che hanno fatto clic **[!UICONTROL Follow]** per la conversazione.
 
 >[!NOTE]
 >
->A causa di vincoli di spazio, l&#39;interfaccia mobile visualizza solo il numero di listener e un&#39;icona di tipo «persone».
+>A causa di vincoli di spazio, l'interfaccia mobile visualizza solo il numero di listener e una piccola icona "persone".
 
-Livefyre Listener Count visualizza il numero di persone attive sulla pagina in un determinato momento, oltre al numero di persone che seguono la conversazione. Se qualcuno si trova sulla pagina e dopo la conversazione, tale utente non sarà conteggiato due volte. Ad esempio, se un utente si trova su una pagina e su un clic **[!UICONTROL Follow]**, il conteggio dei listener non aumenterà; se l&#39;utente fa clic **[!UICONTROL Unfollow]** su di esso, il conteggio non diminuisce.
+Il conteggio listener Livefyre visualizza il numero di persone attive sulla pagina in un dato momento, più il numero di persone che seguono la conversazione. Se un utente è sulla pagina e segue la conversazione, non verrà conteggiato due volte. Ad esempio, se un utente si trova su una pagina e fa clic **[!UICONTROL Follow]**, il numero di listener non aumenta; se l’utente fa clic su **[!UICONTROL Unfollow]**, il conteggio non diminuirà.
 
 App che utilizzano questa funzione:
 
