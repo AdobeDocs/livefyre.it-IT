@@ -4,7 +4,7 @@ seo-description: Installazione delle librerie per le attività lato server di Li
 seo-title: Installazione
 solution: Experience Manager
 title: Installazione
-uuid: f 60 b 4 cc 7-178 f -4 a 16-ba 75-f 1 d 0 d 171 c 52 f
+uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -26,7 +26,7 @@ Per installare la libreria Java, aggiungete questa dipendenza al POM del progett
 </dependency>
 ```
 
-La libreria Java presenta dipendenze nei seguenti moduli:
+La libreria Java ha dipendenze dai seguenti moduli:
 
 ```
 <dependency> 
@@ -56,15 +56,15 @@ La libreria Java presenta dipendenze nei seguenti moduli:
 </dependency> 
 ```
 
-Per ulteriori informazioni, leggete i documenti Java o consultate la sorgente su [github](https://github.com/Livefyre/livefyre-java-utils).
+Per ulteriori informazioni, leggi i documenti Java o vedi l'origine su [GitHub](https://github.com/Livefyre/livefyre-java-utils).
 
-## Nodejs {#section_swj_pwq_rz}
+## NodeJS {#section_swj_pwq_rz}
 
-Per installare la libreria nodejs, eseguite questa riga:
+Per installare la libreria NodeJS, eseguire la riga seguente:
 
 `$ npm install livefyre`
 
-La libreria nodejs presenta dipendenze dai seguenti moduli:
+La libreria NodeJS ha dipendenze dai seguenti moduli:
 
 ```
 "restler":">=3.2.0", 
@@ -72,13 +72,13 @@ La libreria nodejs presenta dipendenze dai seguenti moduli:
 "jsonwebtoken": ">=5.0.0" 
 ```
 
-Per ulteriori informazioni, leggete i documenti nodejs o la sorgente su [github](https://github.com/Livefyre/livefyre-nodejs-utils).
+Per ulteriori informazioni, leggi i documenti NodeJs o vedi l'origine su [GitHub](https://github.com/Livefyre/livefyre-nodejs-utils).
 
 Collegamenti: [Restler](https://github.com/danwrong/restler), [Validator](https://www.npmjs.org/package/validator), [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
 
 ## PHP {#section_txj_xwq_rz}
 
-Per installare la libreria PHP con Composer, aggiungetela al composer. json:
+Per installare la libreria PHP con Composer, aggiungete questo a composer.json:
 
 ```
 "require": { 
@@ -86,7 +86,7 @@ Per installare la libreria PHP con Composer, aggiungetela al composer. json:
 }
 ```
 
-Quindi installate utilizzando:
+Quindi effettuate l’installazione utilizzando:
 
 ```
 composer.phar install 
@@ -104,7 +104,7 @@ Per utilizzare la libreria, aggiungere quanto segue allo script PHP:
 require_once("/path/to/livefyre-php-utils/src/Livefyre.php"); 
 ```
 
-La libreria PHP presenta dipendenze dai seguenti moduli:
+La libreria PHP ha dipendenze dai seguenti moduli:
 
 ```
 "ext-json": "*", 
@@ -112,9 +112,9 @@ La libreria PHP presenta dipendenze dai seguenti moduli:
 "firebase/php-jwt": ">=2.0" 
 ```
 
-Per ulteriori informazioni, leggete i documenti PHP o consultate la sorgente su [github](https://github.com/Livefyre/livefyre-php-utils).
+Per ulteriori informazioni, leggi i documenti PHP o vedi l'origine su [GitHub](https://github.com/Livefyre/livefyre-php-utils).
 
-Collegamenti: [ext-json](https://php.net/manual/en/book.json.php), [Richieste](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+Collegamenti: [ext-json](https://php.net/manual/en/book.json.php), [richieste](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 
@@ -122,7 +122,7 @@ Per installare la libreria Python, eseguite questa riga:
 
 `$ pip install livefyre`
 
-La libreria Python presenta dipendenze dai seguenti moduli:
+La libreria Python ha dipendenze dai seguenti moduli:
 
 ```
 PyJWT >= 1.0.1  
@@ -132,23 +132,23 @@ enum34 == 1.0
 ordereddict == 1.1 if sys.version_info[:2] < 2.7 
 ```
 
-Per ulteriori informazioni, leggete i documenti Python o consultate la sorgente su [github](https://github.com/Livefyre/livefyre-python-utils).
+Per ulteriori informazioni, leggi i documenti Python o vedi la fonte su [GitHub](https://github.com/Livefyre/livefyre-python-utils).
 
-Collegamenti: [Pyjwt](https://github.com/progrium/pyjwt), [Requests](https://github.com/kennethreitz/requests), [Python-Dateutil](https://pypi.python.org/pypi/python-dateutil), [Enum 34](https://pypi.python.org/pypi/enum34), [ordereddict](https://pypi.python.org/pypi/ordereddict)
+Collegamenti: [PyJWT](https://github.com/progrium/pyjwt), [Richieste](https://github.com/kennethreitz/requests), [Python-Dateutil](https://pypi.python.org/pypi/python-dateutil), [Enum34](https://pypi.python.org/pypi/enum34), [OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
 ## Ruby {#section_fv2_tzq_rz}
 
-Per installare la libreria Ruby, aggiungete questa riga al file Gemfile dell&#39;applicazione:
+Per installare la libreria Ruby, aggiungete questa riga al file Gemfile dell’applicazione:
 
 ```
 gem 'livefyre' 
 ```
 
-Oppure installatela personalmente:
+Oppure installalo autonomamente:
 
 `$ gem install livefyre`
 
-La libreria Ruby presenta dipendenze dai seguenti moduli:
+La libreria Ruby ha dipendenze dai seguenti moduli:
 
 ```
 "jwt", '~> 1.4', ">= 1.4.1"  
@@ -156,6 +156,6 @@ La libreria Ruby presenta dipendenze dai seguenti moduli:
 "addressable", '~> 2.3', ">= 2.3.6" 
 ```
 
-Per ulteriori informazioni, leggete i documenti Ruby o consultate la sorgente su [github](https://github.com/Livefyre/livefyre-ruby-utils).
+Per ulteriori informazioni, leggi i documenti Ruby o vedi l'origine su [GitHub](https://github.com/Livefyre/livefyre-ruby-utils).
 
-Collegamenti: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [REST Client](https://github.com/rest-client/rest-client/), [Addressable](https://github.com/sporkmonger/addressable)
+Collegamenti: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [REST Client](https://github.com/rest-client/rest-client/), [indirizzabile](https://github.com/sporkmonger/addressable)
