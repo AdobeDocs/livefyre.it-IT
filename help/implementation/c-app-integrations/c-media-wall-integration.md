@@ -1,39 +1,39 @@
 ---
-description: Create una bacheca media, con lo streaming di contenuti in tempo reale.
-seo-description: Create una bacheca media, con lo streaming di contenuti in tempo reale.
-seo-title: Media Wall
+description: Create una bacheca multimediale con streaming dei contenuti in tempo reale.
+seo-description: Create una bacheca multimediale con streaming dei contenuti in tempo reale.
+seo-title: Muro di supporto
 solution: Experience Manager
-title: Media Wall
-uuid: c 6087 c 80-a 35 b -44 d 2-9 dd 4-ba 9 cd 471172 d
+title: Muro di supporto
+uuid: c6087c80-a35b-44d2-9dd4-ba9cd471172d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Media Wall{#media-wall}
+# Muro di supporto{#media-wall}
 
-Create una bacheca media, con lo streaming di contenuti in tempo reale.
+Create una bacheca multimediale con streaming dei contenuti in tempo reale.
 
-Media Wall consente di creare una bacheca social in tempo reale per il sito. Utilizzate il pacchetto «streamer-wallpackage» di Livefyre Javascrire per visualizzare i feed social di Livefyre come un&#39;esperienza di contenuto a schermo intero, accattivante, a schermo intero che è grande per gli eventi in diretta, l&#39;hosting di concorsi fotografici e la capacità di gestire sezioni social del vostro sito Web.
+Media Wall consente di creare un muro sociale in tempo reale per il sito. Utilizzate il pacchetto di streaming per l'SDK JavaScript di Livefyre per visualizzare i feed social di Livefyre come un'esperienza di contenuto a schermo intero e coinvolgente dal punto di vista visivo, che è ideale per la copertura di eventi in diretta, l'hosting di concorsi fotografici e l'alimentazione di sezioni social del sito Web.
 
 ## Integrazione {#section_jfm_bwb_c1b}
 
-Il modo più rapido per aggiungere un file Media Wall consiste nell&#39;usare la versione integrata nella CDN di Livefyre.
+Il modo più rapido per aggiungere un Media Wall consiste nell’utilizzare la versione creata ospitata sulla rete CDN di Livefyre.
 
-Innanzitutto, aggiungete [Livefyre. js](https://github.com/Livefyre/Livefyre.js) al sito.
+Innanzitutto, aggiungete [Livefyre.js](https://github.com/Livefyre/Livefyre.js) al sito.
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-Quindi, posizionate l&#39;elemento in cui verrà visualizzato il file multimediale.
+Quindi, posizionate l’elemento in cui apparirà la Parete multimediale.
 
 ```
 <div id="wall"></div>
 ```
 
-Infine, utilizzate `Livefyre.require` per creare il componente.
+Infine, utilizzare `Livefyre.require` per creare il componente.
 
 ```
 <script> 
@@ -52,19 +52,19 @@ Livefyre.require([
 </script>
 ```
 
-Ora hai una Bacheca! Consultate questa sezione in [questo esempio](https://codepen.io/gobengo/pen/dFwDL).
+Ora hai un muro! Vedete tutto in azione in [questo esempio](https://codepen.io/gobengo/pen/dFwDL).
 
-**Hit un errore?** Verificate di aver superato il parametro dell&#39;ambiente corretto. Le opzioni includono `livefyre.com` (produzione) o `t402.livefyre.com` (UAT).
+**Ha avuto un errore?** Verificate di trasmettere il parametro di ambiente corretto. Le opzioni includono `livefyre.com` (produzione) o `t402.livefyre.com` (UAT).
 
 >[!NOTE]
 >
->Qualsiasi personalizzazione di stile dei tweet che viene resa dall&#39;app Media Wall deve essere eseguita in conformità ai requisiti [di visualizzazione di Twitter](https://dev.twitter.com/terms/display-requirements).
+>Qualsiasi personalizzazione stile dei tweet renderizzati dall’app Media Wall deve essere eseguita in conformità ai requisiti [di](https://dev.twitter.com/terms/display-requirements)visualizzazione di Twitter.
 
 ## Opzioni di configurazione {#section_ucv_qvb_c1b}
 
 `columns`
 
-Consente di definire il numero di colonne per i Media Wall durante la costruzione della bacheca. Se questa opzione è impostata, la larghezza di ogni colonna si adatta automaticamente alle dimensioni del contenitore di Media Wall, mantenendo il numero specificato di colonne.
+Consente di definire il numero di colonne per la parete multimediale durante la costruzione della parete. Se questa opzione è impostata, la larghezza di ciascuna colonna si adatta automaticamente alle dimensioni del contenitore di Media Wall, mantenendo al contempo il numero specificato di colonne.
 
 ```
 var wallView = new MediaWall({ 
@@ -75,7 +75,7 @@ var wallView = new MediaWall({
 
 `initial`
 
-Numero di elementi Contenuto da rappresentare al caricamento della pagina. Il valore predefinito è 50.
+Il numero di elementi di contenuto di cui eseguire il rendering al caricamento della pagina. Il valore predefinito è 50.
 
 ```
 var wallView = new MediaWall({ 
@@ -86,11 +86,11 @@ var wallView = new MediaWall({
 
 `minContentWidth`
 
-Consente di impostare la larghezza minima (pixel) per ogni colonna nell&#39;elemento contenitore di Media Wall. (Media Wall seleziona automaticamente un numero appropriato di colonne, a seconda della larghezza del suo elemento contenitore. Per impostazione predefinita, la larghezza di Media Wall divisa per la larghezza minima del contenuto (300 px, se non definito) determina il numero di colonne.
+Consente di impostare la larghezza minima (in pixel) per ogni colonna all’interno dell’elemento contenitore di Media Wall. (La Media Wall selezionerà automaticamente un numero appropriato di colonne, a seconda della larghezza del relativo elemento contenitore. Per impostazione predefinita, la larghezza di Media Wall divisa per la larghezza minima del contenuto (300 pixel, se non definita) determina il numero di colonne.)
 
 >[!NOTE]
 >
->Non utilizzate questa opzione in combinazione con l&#39;opzione colonne.
+>Non utilizzate questa opzione in combinazione con l'opzione relativa alle colonne.
 
 ```
 var wallView = new MediaWall({ 
@@ -101,7 +101,7 @@ var wallView = new MediaWall({
 
 `modal`
 
-Per impostazione predefinita, se sono presenti allegati per contenuti, Media Walls visualizza una miniatura selezionabile. Quando viene fatto clic su, l&#39;app apre una modale che visualizza l&#39;allegato di foto/video integralmente. Per disattivare questa opzione, impostate modale su false.
+Per impostazione predefinita, in presenza di allegati per una parte di contenuto, nelle mura dei supporti viene visualizzata una miniatura selezionabile. Quando un utente fa clic su di esso, l'app si apre una modalità con l'allegato foto/video interamente visualizzato. Per disattivare questa opzione, impostate modale su false.
 
 ```
 var wallView = new MediaWall({ 
@@ -113,15 +113,15 @@ var wallView = new MediaWall({
 
 `postButton`
 
-Definisce [!UICONTROL Post Content] il pulsante da visualizzare sulla bacheca. Questa opzione richiede l&#39;accesso `opts.collection`e aggiunge un&#39;integrazione di Livefyre. js alla pagina.
+Definisce il [!UICONTROL Post Content] pulsante da visualizzare sulla parete. Questa opzione richiede il passaggio `opts.collection`e l'aggiunta di un'integrazione Livefyre.js Auth alla pagina.
 
 `postButton` parametri:
 
-* `false` (predefinito): Non visualizzare un pulsante Post post. (Crea una Media Wall di sola lettura).
-* `true` (o `LiveMediaWall.postButtons.contentWithPhotos`): Includete un pulsante che consente agli utenti di aggiungere contenuto di testo, con foto allegate.
+* `false` (predefinito): Non mostrare un pulsante Post Content (Contenuto post). (Crea una bacheca di sola lettura).
+* `true` o `LiveMediaWall.postButtons.contentWithPhotos`: Includere un pulsante che consenta agli utenti di aggiungere del testo, con le foto allegate.
 
-* `LiveMediaWall.postButtons.content`: Includete un pulsante che consente agli utenti di aggiungere contenuto di testo, ma non di allegare foto.
-* `LiveMediaWall.postButtons.photo`: Includete un pulsante che consenta agli utenti di aggiungere una foto, ma nessun testo.
+* `LiveMediaWall.postButtons.content`: Include un pulsante che consente agli utenti di aggiungere del testo, ma non allegare foto.
+* `LiveMediaWall.postButtons.photo`: Include un pulsante che consente agli utenti di aggiungere una foto, ma nessun testo.
 
 ```
 var wallView = new MediaWall({ 
@@ -134,7 +134,7 @@ var wallView = new MediaWall({
 
 `showMore`
 
-Definisce il numero di elementi Contenuto da aggiungere alla bacheca quando si fa clic [!UICONTROL Show More] sul pulsante.
+Definisce il numero di elementi di contenuto da aggiungere alla bacheca quando si fa clic sul [!UICONTROL Show More] pulsante.
 
 ```
 var wallView = new LiveMediaWall({ 
@@ -143,9 +143,9 @@ var wallView = new LiveMediaWall({
 });
 ```
 
-## Opzioni di configurazione stile {#section_ztv_dvb_c1b}
+## Opzioni configurazione stile {#section_ztv_dvb_c1b}
 
-Media Wall offre inoltre diverse opzioni di configurazione che consentono di personalizzare colore, stile e dimensioni del testo. Per implementare queste opzioni, utilizzare la sintassi seguente:
+Media Wall offre inoltre diverse opzioni di configurazione che consentono di personalizzare il colore, lo stile e la dimensione del testo. Per implementare queste opzioni, utilizzate la sintassi seguente:
 
 ```
 var wall2 = window.wall2 = new MediaWall({ 
@@ -163,42 +163,42 @@ var wall2 = window.wall2 = new MediaWall({
 }); 
 ```
 
-Per un input valido, consultare gli standard W 3 C per le proprietà Famiglia [font CSS](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family), [Dimensione font](https://www.w3.org/TR/CSS2/fonts.html#font-size-props), [Altezza riga](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) e [Colore](https://www.w3.org/TR/css3-color/#colorunits) .
+Per un input valido, consultate gli standard W3C per le proprietà Famiglia [di](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family)font CSS, Dimensione [](https://www.w3.org/TR/CSS2/fonts.html#font-size-props)font, [Altezza](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) linea e [Colore](https://www.w3.org/TR/css3-color/#colorunits) .
 
-* **Bodyfontsize** *(CSS Font Size String)* La dimensione del font per il testo del corpo del contenuto.
+* **bodyFontSize** *(CSS Font Size String)* La dimensione del font per il testo del corpo del contenuto.
 
-* **Bodylineheight** *(Stringa altezza CSS)* L&#39;altezza della riga per il testo del corpo del contenuto.
+* **bodyLineHeight** *(CSS Line Height String)* L'altezza della riga per il testo del corpo del contenuto.
 
-* **Buttonactivebackgroundcolor** *(CSS Color String)** Il colore dello sfondo del pulsante attivato.
+* **buttonActiveBackgroundColor** *(CSS Color String)** Colore per lo sfondo del pulsante attivo.
 
-* **Buttonbordercolor** *(CSS Color String)** Il colore per i bordi dei pulsanti.
+* **buttonBorderColor** *(CSS Color String)** Il colore dei bordi del pulsante.
 
-* **Buttonhoverbackgroundcolor** *(CSS Color String)* Il colore per lo sfondo del pulsante al passaggio del mouse.
+* **buttonHoverBackgroundColor** *(CSS Color String)* Il colore dello sfondo del pulsante al passaggio del mouse.
 
-* **Buttontextcolor** *(CSS Color String)* Il colore per le etichette dei pulsanti.
+* **buttonTextColor** *(CSS Color String)* Il colore per le etichette dei pulsanti.
 
-* **Cardbackgroundcolor** *(CSS Color String)* Il colore di sfondo per le schede di contenuto nella bacheca del supporto.
+* **cardBackgroundColor** *(CSS Color String)* Il colore di sfondo per le schede di contenuto nella bacheca del supporto.
 
-* **Displaynamecolor** *(CSS Color String)* Il colore per i nomi visualizzati nel nome.
+* **displayNameColor** *(CSS Color String)* Il colore per i nomi di visualizzazione nel nome della riga.
 
-* **Fontfamily** *(CSS Font Family String)* La famiglia di font per il testo corpo.
+* **fontFamily** *(CSS Font Family String)* La famiglia di font per il testo del corpo.
 
-* **Footertextcolor** *(CSS Color String)* Il colore per il testo secondario (ad esempio il testo piè di pagina e il nome utente nella riga byte).
+* **footerTextColor** *(CSS Color String)* Il colore del testo secondario (ad esempio il testo del piè di pagina e il nome utente nel nome utente).
 
-* **Linkattachmentbackgroundcolor** *(CSS Color String)* Il colore di sfondo per gli allegati di collegamento (allegati impilati).
+* **linkAttachmentBackgroundColor** *(CSS Color String)* Colore di sfondo per gli allegati di collegamenti (allegati sovrapposti).
 
-* **Linkattachmentbordercolor** *(CSS Color String)* Il colore del bordo per gli allegati di collegamento (allegati impilati).
+* **linkAttachmentBorderColor** *(CSS Color String)* Colore del bordo per gli allegati di collegamenti (allegati sovrapposti).
 
-* **Linkattachmenttextcolor** *(CSS Color String)* Il colore per il testo allegato collegamento.
+* **linkAttachmentTextColor** *(CSS Color String)* Il colore del testo di collegamento.
 
-* **Linkcolor** *(CSS Color String)* Il colore per i collegamenti ipertestuali (ad esempio i collegamenti nel testo corpo e i collegamenti nome visualizzato).
+* **linkColor** *(CSS Color String)* Il colore dei collegamenti ipertestuali (ad esempio, i collegamenti nel testo del corpo e i collegamenti dei nomi visualizzati).
 
-* **Textcolor** *(CSS Color String)* Il colore del testo corpo.
+* **textColor** *(CSS Color String)* Il colore del testo del corpo.
 
-* **Titlefontsize** *(CSS Font Size String)* Dimensione del font per i titoli dei contenuti.
+* **titleFontSize** *(CSS Font Size String)* La dimensione del font per i titoli dei contenuti.
 
-* **Titleelineheight** *(Stringa altezza riga CSS)* Altezza della riga per i titoli dei contenuti.
+* **titleLineHeight** *(CSS Line Height String)* L'altezza della riga per i titoli del contenuto.
 
-* **Sourcelogocolor** *(CSS Color String)* Il colore del logo sorgente.
+* **sourceLogoColor** *(CSS Color String)* Il colore per il logo sorgente.
 
-* **Usernamecolor** *(CSS Color String)* Il colore per i nomi utente nel nome.
+* **usernameColor** *(Stringa colore CSS)* Il colore per i nomi utente nel nome utente.
