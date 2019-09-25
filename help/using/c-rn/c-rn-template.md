@@ -1,39 +1,39 @@
 ---
-description: Note sulla versione per < DATE > release.
-seo-description: Note sulla versione per < DATE > release.
+description: Note sulla versione per la versione <DATE>.
+seo-description: Note sulla versione per la versione <DATE>.
 seo-title: Note sulla versione
 solution: Experience Manager
 title: Note sulla versione
-uuid: 34 e 64943-dea 6-46 ac -9 fcc -8 febeab 6 aa 42
+uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: a314ad0bbc845c2f9e1a37d89137110e766529b4
 
 ---
 
 
-# Note sulla versione{#release-notes}
+# Note sulla versione{#release-notes} 
 
-Note sulla versione del `<DATE>` rilascio.
+Note sulla versione per la `<DATE>` versione.
 
 <!--- remove the carets and the quotes and fill in with actual values--->
 
 ## Problemi {#section_ehw_ndt_wcb}
 
-I problemi delle tabelle seguenti sono stati risolti in questa versione.
+In questa versione sono stati risolti i problemi riportati nelle tabelle seguenti.
 
-## Versione produzione
+## Release produzione
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
 | `<bug/enhancement>` | `<component>` | `<description>` |
 | `<bug/enhancement>` | `<component>` | `<description>` |
 
 
-## Versione UAT
+## Rilascio UAT
 
-## Versione produzione
+## Release produzione
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
 | `<bug/enhancement>` | `<component>` | `<description>` |
 | `<bug/enhancement>` | `<component>` | `<description>` |
