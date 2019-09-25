@@ -1,19 +1,19 @@
 ---
-description: Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere sondaggi ai vostri commenti o alle app di blog live.
-seo-description: Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere sondaggi ai vostri commenti o alle app di blog live.
-seo-title: Aggiungere un sondaggio a un commento o a un'app di blog live
+description: Utilizzate la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai vostri commenti o alle vostre app di blog dal vivo.
+seo-description: Utilizzate la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai vostri commenti o alle vostre app di blog dal vivo.
+seo-title: Aggiunta di un sondaggio a un'app Commenti o blog dal vivo
 solution: Experience Manager
-title: Aggiungere un sondaggio a un commento o a un'app di blog live
-uuid: eedb 63 c 1-7 d 31-40 d 9-ab 3 e-b 15765 cbe 804
+title: Aggiunta di un sondaggio a un'app Commenti o blog dal vivo
+uuid: eedb63c1-7d31-40d9-ab3e-b15765cbe804
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Aggiungere un sondaggio a un commento o a un&#39;app di blog live{#add-a-poll-to-a-comments-or-live-blog-app}
+# Aggiunta di un sondaggio a un'app Commenti o blog dal vivo{#add-a-poll-to-a-comments-or-live-blog-app}
 
-Utilizzate la funzione HTML personalizzato di Livefyre per aggiungere sondaggi ai vostri commenti o alle app di blog live.
+Utilizzate la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai vostri commenti o alle vostre app di blog dal vivo.
 
-1. Copiate il codice da incorporare per un sondaggio pubblicato dalla pagina App Manager o dalla finestra di dialogo visualizzata quando fate clic **[!UICONTROL Publish]** su.
-1. Incollate il codice da incorporare nel **[!UICONTROL Custom HTML]** campo dei commenti o dell&#39;app di blog live.
+1. Copiate il codice da incorporare per un sondaggio pubblicato dalla pagina App Manager o dalla finestra di dialogo visualizzata quando fate clic **[!UICONTROL Publish]**.
+1. Incollate il codice da incorporare nel **[!UICONTROL Custom HTML]** campo dei commenti o dell'app Live Blog.
