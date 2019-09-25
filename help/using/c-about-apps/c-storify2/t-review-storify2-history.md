@@ -1,10 +1,10 @@
 ---
-description: Studio salverà automaticamente tutte le modifiche apportate da tutti gli editor, generando una nuova versione per ogni modifica disponibile.
-seo-description: Studio salverà automaticamente tutte le modifiche apportate da tutti gli editor, generando una nuova versione per ogni modifica disponibile.
+description: In Studio verranno salvate automaticamente tutte le modifiche apportate da tutti gli editor e verrà generata una nuova versione per ogni modifica visibile.
+seo-description: In Studio verranno salvate automaticamente tutte le modifiche apportate da tutti gli editor e verrà generata una nuova versione per ogni modifica visibile.
 seo-title: Cronologia revisioni
 solution: Experience Manager
 title: Cronologia revisioni
-uuid: c 2 f 8 a 45 b -54 c 1-4667-893 a-b 3 bd 4 be 4546 a
+uuid: c2f8a45b-54c1-4667-893a-b3bd4be4546a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,14 +13,14 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Cronologia revisioni{#review-history}
 
-Studio salverà automaticamente tutte le modifiche apportate da tutti gli editor, generando una nuova versione per ogni modifica disponibile.
+In Studio verranno salvate automaticamente tutte le modifiche apportate da tutti gli editor e verrà generata una nuova versione per ogni modifica visibile.
 
 >[!NOTE]
 >
->L&#39;app potrebbe non essere modificata quando il riquadro Cronologia versione è aperto.
+>L'app potrebbe non essere modificata mentre è aperto il riquadro Cronologia versioni.
 
-1. Fai clic su **[!UICONTROL History]** per aprire un pannello che elenca tutte le versioni dell&#39;app. Le versioni elencate mostreranno l&#39;editor di ciascuna versione e l&#39;età.
-1. Fate clic su una versione per selezionarla e aggiornare l&#39;anteprima nel riquadro a destra.
-1. Fate clic per **[!UICONTROL Restore Version]** duplicare la versione selezionata e iniziate a lavorarci.
-1. Fare clic sul pulsante Indietro nel **[!UICONTROL Version History]** riquadro per tornare alla bozza di lavoro.
-1. Fate clic per **[!UICONTROL Share]** generare un URL per l&#39;anteprima, che può essere inviato a colleghi o amici per la revisione.
+1. Fate clic **[!UICONTROL History]** per aprire un pannello che elenca tutte le versioni dell'app. Le versioni elencate mostrano l’editor di ciascuna versione e la relativa età.
+1. Fate clic su una versione per selezionarla, quindi aggiornate la visualizzazione dell'anteprima nel riquadro a destra.
+1. Fare clic **[!UICONTROL Restore Version]** per duplicare la versione selezionata e iniziare a utilizzarla.
+1. Fare clic sul pulsante Indietro nel **[!UICONTROL Version History]** riquadro per ripristinare la bozza di lavoro.
+1. Fate clic **[!UICONTROL Share]** per generare un URL per l'anteprima, che può essere inviato a colleghi o amici per la revisione.
