@@ -1,9 +1,9 @@
 ---
-description: Visualizza i dettagli del contenuto per raccogliere ulteriori informazioni su una parte del contenuto prima di pubblicarla.
-seo-description: Visualizza i dettagli del contenuto per raccogliere ulteriori informazioni su una parte del contenuto prima di pubblicarla.
+description: Visualizzate i dettagli del contenuto per raccogliere ulteriori informazioni su un contenuto prima di pubblicarlo.
+seo-description: Visualizzate i dettagli del contenuto per raccogliere ulteriori informazioni su un contenuto prima di pubblicarlo.
 seo-title: Visualizza dettagli contenuto
 title: Visualizza dettagli contenuto
-uuid: bca 8 dcb 7-31 d 6-475 c -9898-1 b 6436 d 2457 d
+uuid: bca8dcb7-31d6-475c-9898-1b6436d2457d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -12,18 +12,18 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Visualizza dettagli contenuto{#view-content-details}
 
-Visualizza i dettagli del contenuto per raccogliere ulteriori informazioni su una parte del contenuto prima di pubblicarla.
+Visualizzate i dettagli del contenuto per raccogliere ulteriori informazioni su un contenuto prima di pubblicarlo.
 
-Passa il cursore su una parte del contenuto restituito, quindi seleziona **[!UICONTROL View Details]** per visualizzare ulteriori informazioni su una risorsa.
+Passate il puntatore del mouse su un contenuto restituito, quindi selezionate **[!UICONTROL View Details]** per visualizzare ulteriori informazioni su una risorsa.
 
 **[!UICONTROL Tweets]** display:
 
-* **[!UICONTROL Author information]**, inclusi nome e nome utente, il numero di Post, Successivo e Follower, la posizione e il sito Web (se disponibili), la data in cui è stato creato l&#39;account Twitter e un collegamento al profilo Twitter.
-* **[!UICONTROL Content information]**, inclusa la sorgente, la data di creazione, il numero di Retweets e Likes.
+* **[!UICONTROL Author information]**, compreso il nome e il nome utente dell’autore, il numero di Post, Seguenti e Followers, la posizione e il sito Web dell’autore (se disponibili), la data di creazione dell’account Twitter e un collegamento al profilo Twitter.
+* **[!UICONTROL Content information]**, compresa l'origine, la data di creazione, il numero di Retweet e Mi piace.
 
 **[!UICONTROL Instagram posts]** display:
 
-* **[!UICONTROL Author information]** inclusi il nome e il nome utente dell&#39;autore, il numero di Post, Successivo e Follower, il sito Web (se disponibile) e un collegamento per visualizzare il proprio profilo Istagram.
-* **[!UICONTROL Content information]** includere l&#39;origine, la data creata, il numero di Piace e Commenti e le dimensioni dell&#39;immagine.
+* **[!UICONTROL Author information]** inclusi nome e nome utente dell’autore, numero di post, seguiti e seguaci, il relativo sito Web (se disponibile) e un collegamento per visualizzarne il profilo Instagram.
+* **[!UICONTROL Content information]** inclusa l'origine, la data di creazione, il numero di Mi piace e Commenti e la dimensione dell'immagine.
 
-Il contenuto già salvato nella Libreria risorse ne visualizza il percorso all&#39;interno della libreria e tutti i tag o le stelle aggiunti.
+Il contenuto già salvato nella Libreria risorse visualizza la posizione all’interno della libreria ed eventuali tag o stelle aggiunti.
