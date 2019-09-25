@@ -1,34 +1,34 @@
 ---
-description: Abilitare o disabilitare i panorami dell'utente nel sito.
-seo-description: Abilitare o disabilitare i panorami dell'utente nel sito.
-seo-title: Schede
-title: Schede
-uuid: a 7336 a 4 d-b 92 f -4 b 3 b-a 3 de -713 aa 388 b 58 a
+description: Abilitare o disabilitare le schede utente nel sito.
+seo-description: Abilitare o disabilitare le schede utente nel sito.
+seo-title: Hovercard
+title: Hovercard
+uuid: a7336a4d-b92f-4b3b-a3de-713aa388b58a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# Schede{#hovercards}
+# Hovercard{#hovercards}
 
-Abilitare o disabilitare i panorami dell&#39;utente nel sito.
+Abilitare o disabilitare le schede utente nel sito.
 
-Livefyre Hovercard è una finestra a comparsa che visualizza un&#39;istantanea rapida delle informazioni utente, inclusi nome visualizzato, biografia, social network, utente, URL della pagina del profilo e collegamento per visualizzare il proprio profilo completo. I biglietti sono disponibili per tutti i flussi di Livefyre, inclusi Commenti, Blog live e Chat.
-
->[!NOTE]
->
->Gli host possono essere attivati o disattivati solo a livello di rete, e vengono implementati o disattivati in tutti i siti nella rete personalizzata. Contattate l&#39;Account Manager se desiderate che i caratteri siano attivati per la rete.
-
-## Visualizzazione di schede {#section_zjl_jtk_wy}
-
-Quando passate il puntatore del mouse sull&#39;avatar di un utente sui Commenti, sul blog live o sulla chat, viene visualizzato il relativo biglietto.
-
-Facendo clic, **[!UICONTROL View Full Profile]** l&#39;utente potrà passare alla pagina del profilo completa per quell&#39;utente.
+Livefyre Hovercard è un popup che mostra una rapida istantanea delle informazioni utente, tra cui nome visualizzato, bio, social network, Mi piace per l'utente, URL della pagina del profilo e un collegamento per visualizzarne il profilo completo. Le hovercard sono disponibili per tutti i flussi Livefyre, inclusi commenti, blog dal vivo e chat.
 
 >[!NOTE]
 >
->Le schede mostrano informazioni incluse nel sistema di profilo utente. Tutti i campi non inclusi in tale sistema non verranno visualizzati nei server. Se non hai pagine di profilo pubbliche, non verrà visualizzata alcuna pagina. Se desiderate disattivare i hovercards per la rete personalizzata, contattate il vostro Account Manager tecnico.
+>Gli hovercard possono essere attivati o disattivati solo a livello di rete e sono implementati o disattivati in tutti i siti della rete personalizzata. Contattate il vostro Account Manager se desiderate che le schede di rete siano attivate.
+
+## Visualizzazione delle hovercard {#section_zjl_jtk_wy}
+
+Quando passi il puntatore del mouse sull’avatar di un utente su Commenti, Blog dal vivo o Chat, viene visualizzata la relativa Hovercard.
+
+Facendo clic **[!UICONTROL View Full Profile]** l’utente passerà alla pagina del profilo completa per tale utente.
+
+>[!NOTE]
+>
+>Le informazioni di visualizzazione degli hovercard incluse nel sistema del profilo utente. Eventuali campi non inclusi in tale sistema non verranno visualizzati nelle schede madri. Se non avete pagine di profilo pubblico, non verrà visualizzata alcuna pagina. Se desiderate disattivare gli Hovercard per la rete personalizzata, contattate l'Account Manager tecnico.
 
 
 
