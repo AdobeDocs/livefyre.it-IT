@@ -1,21 +1,21 @@
 ---
-description: Filtrare il contenuto in Studio per tag Raccolta.
-seo-description: Filtrare il contenuto in Studio per tag Raccolta.
-seo-title: Filtrare la ricerca in base al tag Raccolta o Contenuto
+description: Filtrare le ricerche di contenuto in Studio per tag Raccolta.
+seo-description: Filtrare le ricerche di contenuto in Studio per tag Raccolta.
+seo-title: Filtrare la ricerca per raccolta o tag contenuto
 solution: Experience Manager
-title: Filtrare la ricerca in base al tag Raccolta o Contenuto
-uuid: e 690 a 6 fd-f 584-490 d -89 d 3-f 22550766698
+title: Filtrare la ricerca per raccolta o tag contenuto
+uuid: e690a6fd-f584-490d-89d3-f22550766698
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Filtrare la ricerca in base al tag Raccolta o Contenuto{#filter-search-by-collection-or-content-tag}
+# Filtrare la ricerca per raccolta o tag contenuto{#filter-search-by-collection-or-content-tag}
 
-Filtrare il contenuto in Studio per tag Raccolta.
+Filtrare le ricerche di contenuto in Studio per tag Raccolta.
 
 1. Selezionate **[!UICONTROL Tag]** nel menu a discesa di ricerca del **[!UICONTROL Collections]** pannello.
-1. Immettete il tag per la ricerca o fate clic sull&#39; **[!UICONTROL Tag]** elenco sotto a una raccolta.
+1. Immettendo il tag per la ricerca o facendo clic sull' **[!UICONTROL Tag]** elenco in una raccolta.
 
-   Tutte le raccolte con il tag selezionato verranno visualizzate nell&#39;elenco.
+   Tutte le raccolte con il tag selezionato verranno visualizzate nell'elenco.
