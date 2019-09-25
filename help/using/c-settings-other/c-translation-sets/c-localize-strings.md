@@ -1,10 +1,10 @@
 ---
-description: Personalizzazione delle stringhe di Livefyre Apps.
-seo-description: Personalizzazione delle stringhe di Livefyre Apps.
+description: Personalizzazione delle stringhe delle app Livefyre.
+seo-description: Personalizzazione delle stringhe delle app Livefyre.
 seo-title: Localizza stringhe
 solution: Experience Manager
 title: Localizza stringhe
-uuid: c 0 ab 352 d -5 d 3 a -45 d 7-bbd 0-aed 165835646
+uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
@@ -13,9 +13,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Localizza stringhe{#localize-strings}
 
-Personalizzazione delle stringhe di Livefyre Apps.
+Personalizzazione delle stringhe delle app Livefyre.
 
-Le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app Livefyre possono essere personalizzate. Ciò offre la flessibilità di modificare il testo degli elementi HTML renderizzati, ad esempio il pulsante «Post con nome», il testo «Conteggio commenti» o il pulsante «Accesso» a qualsiasi stringa UTF -8 valida. Utilizzate questa funzione per aggiungere personalità all&#39;implementazione del flusso o per localizzare la lingua nell&#39;app per la vostra base utente.
+È possibile personalizzare le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app Livefyre. Questo offre la flessibilità di modificare il testo degli elementi HTML di cui è stato effettuato il rendering, ad esempio il pulsante "Post As", il testo "Comment Count" o il pulsante "Sign In", in qualsiasi stringa UTF-8 valida. Utilizzate questa funzione per aggiungere personalità all'implementazione del flusso o per localizzare la lingua nell'app per la base di utenti.
 
 * Commenti, chat e blog dal vivo
 
@@ -24,27 +24,27 @@ Le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app L
    * [Informazioni flusso](#c-localize-strings/section_wx1_c24_xz)
    * [Ordinamento flusso](#c-localize-strings/section_ih2_124_xz)
    * [Informazioni contenuto](#c-localize-strings/section_llv_yd4_xz)
-   * [Contenuti contenuti](#c-localize-strings/section_gmw_vd4_xz)
+   * [Contenuto in evidenza](#c-localize-strings/section_gmw_vd4_xz)
    * [Editor di testo](#c-localize-strings/section_ky5_td4_xz)
-   * [Opzioni risposta](#c-localize-strings/section_zvt_qd4_xz)
-   * [Notifier Notifier](#c-localize-strings/section_qqt_pd4_xz)
+   * [Opzioni di risposta](#c-localize-strings/section_zvt_qd4_xz)
+   * [Modulo di notifica commenti](#c-localize-strings/section_qqt_pd4_xz)
    * [Messaggi di errore](#c-localize-strings/section_omz_jxn_xz)
 
-* [Formato data e ora](#c-localize-strings/section_yz4_g5n_xz)
-* [Media Wall](#c-localize-strings/section_vwt_d5n_xz)
+* [Formato ora e data](#c-localize-strings/section_yz4_g5n_xz)
+* [Muro di supporto](#c-localize-strings/section_vwt_d5n_xz)
 * [Mappa](#c-localize-strings/section_fxv_c5n_xz)
-* [Mosaic](#c-localize-strings/section_e2s_b5n_xz)
+* [Mosaico](#c-localize-strings/section_e2s_b5n_xz)
 * [Carosello](#c-localize-strings/section_l2z_hkn_xz)
-* [Scheda Funzioni](#c-localize-strings/section_mw2_hkn_xz)
+* [Scheda](#c-localize-strings/section_mw2_hkn_xz)
 * [Sondaggio](#c-localize-strings/section_pdg_fwh_xz)
-* [Livefyre Identity](#c-localize-strings/section_zc3_xvh_xz)
+* [Identità Livefyre](#c-localize-strings/section_zc3_xvh_xz)
 * Altro:
    * [Rivedi stringhe di testo](/help/using/c-settings-other/c-translation-sets/c-review-text-strings.md#c_review_text_strings)
    * [Sidenotes](/help/using/c-settings-other/c-translation-sets/c-sidenotes-text-strings.md#c_sidenotes_text_strings)
 
 ## Implementazione {#section_im4_224_xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all'oggetto di configurazione JavaScript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -60,321 +60,321 @@ var customStrings = {
 );
 ```
 
-Questa pagina elenca tutte le stringhe di testo che possono essere personalizzate per le app core Livefyre.
+In questa pagina sono elencate tutte le stringhe di testo che possono essere personalizzate per le app core Livefyre.
 
 ## Accesso account {#section_cm3_d24_xz}
 
-Stringhe disponibili per il processo Autenticazione e dai menu utente autenticati.
+Stringhe disponibili per il processo di autenticazione e dai menu utente autenticati.
 
 ![](assets/strings_threadheader-150x40.png)
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-|  | Displayname | % s |
-|  | Editprofile | Modifica profilo |
-|  | Notificationsettings | Impostazioni notifiche |
-|  | Siteadmin | Admin Console (collegamenti a Studio) |
-|  | Signout | Disconnetti |
+|  | displayName | %s |
+|  | editProfile | Modifica profilo |
+|  | notificationSettings | Impostazioni di notifica |
+|  | siteAdmin | Admin Console (collegamenti a Studio) |
+|  | signOut | Esci |
 
 ## Informazioni flusso {#section_wx1_c24_xz}
 
-Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizzazione. Mostra il numero di persone che ascolto, il numero di post all&#39;app e consente agli utenti di accedere o accedere alle informazioni sull&#39;account.
+Stringhe disponibili per le informazioni e la visualizzazione del flusso di contenuto. Mostra il numero di persone che ascoltano, il numero di post all'app e consente agli utenti di accedere o accedere alle informazioni sul loro account.
 
-| Chiave | Testo predefinito | Flusso dati |
+| Chiave | Testo predefinito | Dati flusso |
 |---|---|---|
-|  | Commentcountlabelzero | % s commento |
-|  | Commentcountlabel | % s commento |
-|  | Commentcountlabelpleral | % s commenti |
-|  | Listenercount | persona ascolto |
-|  | Listenercountplural | persone ascolto |
-|  | Liveblogpostcountlabelzero | post |
-|  | Liveblogpostcountlabel | post |
-|  | Liveblogpostcountlabelplural | post |
-| Opzioni Thread | Threadbreakoutbutton | Mostra intero thread |
-|  | Togglecollapse | Attiva/disattiva comprimi |
-| Commenti ad alta velocità/in coda | refresh | Aggiorna |
-|  | Newcomment | Nuovo commento |
-|  | Newcomments | Nuovi commenti |
-|  | Newreply | nuova risposta |
-|  | Newreplies | nuove risposte |
+|  | commentCountLabelZero | Commento %s |
+|  | commentCountLabel | Commento %s |
+|  | commentCountLabelPlural | %s commenti |
+|  | listenerCount | persona che ascolta |
+|  | listenerCountPlural | gente che ascolta |
+|  | liveblogPostCountLabelZero | post |
+|  | liveblogPostCountLabel | post |
+|  | liveblogPostCountLabelPlural | post |
+| Opzioni thread | threadBreakoutButton | Mostra intero thread |
+|  | toggleCollapse | Attiva/disattiva riduzione |
+| Alta velocità / commenti in coda | refresh | Aggiorna |
+|  | newComment | Nuovo commento |
+|  | newComments | Nuovi commenti |
+|  | newReply | nuova risposta |
+|  | newReplies | nuove risposte |
 
 ## Ordinamento flusso {#section_ih2_124_xz}
 
-Consente di ordinare i contenuti restituiti per età o popolarità.
+Consente agli utenti di ordinare i contenuti restituiti in base all'età o alla popolarità.
 
 ![](assets/strings_newestoldesttop-1-150x56.png)
 
-| Chiave | Testo predefinito | Opzioni dell&#39;intestazione |
+| Chiave | Testo predefinito | Opzioni intestazione |
 |---|---|---|
-|  | Sortnewest | Più recente |
-|  | Sortoldest | Meno recente |
-|  | Sorttopcomments | Commenti principali |
-|  | Sorthotthreads | Hot Thread |
-|  | Sortseparator |  |  |
-|  | Streamsorting | Caricamento |
-|  | Topcommentpurchentnotfoundmsg | Non ci sono ancora abbastanza mi piace. |
-|  | Hotthreadpurchentnotfoundmsg | Non ci sono ancora abbastanza thread. |
-|  | Streamrefreshmsg | Scopri le novità. |
-| Opzioni piè di pagina | Archiveheadertitle | Dall&#39;archivio |
-|  | Archiveshowmore | Mostra altro |
-|  | Showmore | Mostra altri commenti |
-|  | Showmoreliveblog | Mostra altri post |
+|  | sortNewest | Più recente |
+|  | sortOldest | Meno recente |
+|  | sortTopComments | Commenti principali |
+|  | sortHotThread | Thread sensibili |
+|  | sortSeparator |  |  |
+|  | streamSorting | Caricamento |
+|  | topCommentsContentNotFoundMsg | Non ci sono ancora abbastanza piaceri. |
+|  | hotThreadContentNotFoundMsg | Non ci sono ancora abbastanza thread. |
+|  | streamRefreshMsg | Scopri le novità. |
+| Opzioni piè di pagina | archiveHeaderTitle | Dall'archivio |
+|  | archiveShowMore | Mostra altro |
+|  | showMore | Mostra altri commenti |
+|  | showMoreLiveblog | Mostra altri post |
 
 ![](assets/strings_threadend-150x47.png)
 
 ## Informazioni contenuto {#section_llv_yd4_xz}
 
-Elenca le informazioni post: nome utente, tag utente applicati e tempo post.
+Elenca le informazioni sui post: nome utente, eventuali tag utente applicati e ora di pubblicazione.
 
 ![](assets/strings_authorinfo-150x52.png)  ![](assets/strings_posttime-150x45.png)
 
 | Chiave | Testo predefinito | Autore |
 |---|---|---|
 |  | moderatore | moderatore |
-|  | Hovercardviewprofile | Visualizza profilo completo |
-| Post info | Timejustnow | just now |
-|  | Timeminutesago | minuto fa |
-|  | Timeminutesagoplural | minuti fa |
-|  | Timehoursago | ora fa |
-|  | Timehoursagoplural | ore fa |
-|  | Timedaysago | giorno fa |
-|  | Timedaysagoplural | giorni fa |
-|  | Likoloeral | Mi piace |
-|  | Likessingular | Come |
-|  | Moderatoredittimestamp | Modificato da un moderatore |
-|  | Commenttombstone | Questo commento è stato eliminato |
-|  | Permalinknotfoundmsg | Questo commento non è più visibile. |
-|  | Quickprofiletooltip | Profilo rapido |
+|  | hovercardViewProfile | Visualizza profilo completo |
+| Informazioni post | timeJustNow | ora |
+|  | timeMinutesAgo | minuto fa |
+|  | timeMinutesAgoPlural | minuti fa |
+|  | timeHoursAgo | ora fa |
+|  | timeHoursAgoPlural | ore fa |
+|  | timeDaysAgo | giorno fa |
+|  | timeDaysAgoPlural | giorni fa |
+|  | likePlural | Mi piace |
+|  | likeSingular | Mi piace |
+|  | moderatorEditTimestamp | Modificato da un moderatore |
+|  | commentTombstone | Questo commento è stato eliminato |
+|  | permalinkNotFoundMsg | Questo commento non è più visibile. |
+|  | quickProfileTooltip | Profilo rapido |
 
-## Contenuti contenuti {#section_gmw_vd4_xz}
+## Contenuto in evidenza {#section_gmw_vd4_xz}
 
-Se abilitata, il contenuto visualizzato è elencato nella parte superiore dello stream.
+Se attivato, il contenuto disponibile viene elencato nella parte superiore del flusso.
 
 |  | Chiave | Testo predefinito |
 |---|---|---|
-| Etichette in evidenza |  |  |
-| ![](assets/strings_featuredcontent-150x40.png) | Featuredcommentstag | Contenuti |
-|  | Featuredcommentstitleplural | Commenti contenuti |
+| Etichette |  |  |
+| ![](assets/strings_featuredcontent-150x40.png) | featuredCommentsTag | In evidenza |
+|  | featuredCommentsTitlePlural | Commenti |
 
 ## Editor di testo {#section_ky5_td4_xz}
 
-Per impostazione predefinita, è disponibile nella parte superiore della pagina per tutti gli utenti.
+Per impostazione predefinita, disponibile nella parte superiore della pagina per tutti gli utenti.
 
 ![](assets/strings_texteditor-1-150x77.png)
 
 |  | Chiave | Testo predefinito |
 |---|---|---| 
-| Pulsanti Editor | segui | + Segui |
-|  | unfollow | - Non seguire |
-|  | Liveblogfollow | Seguite il blog Live |
-|  | Liveblogunfollow | Non seguire il blog Live |
-|  | Postbutton (disponibile per l&#39;accesso agli utenti.) | Commento post |
-|  | Postasbutton (disponibile per utenti non autenticati). | Invia commento come… |
-|  | Posteditbutton | Modifica commento |
-|  | Posteditasbutton | Modifica commento come… |
-|  | Posteditcancelbutton | Annulla |
-|  | Editordisabled | Questa conversazione è attualmente chiusa a nuovi commenti. |
-| Opzioni chat | Livechatpostbuttonlabel | Post |
-|  | Livechatposteditbutton | Modifica |
-|  | Livechatwindowsinpression | Premere Ctrl + enter per pubblicare |
-|  | Livechatotherinstruction | Premi comando + enter per pubblicare |
+| Pulsanti Editor | follow | + Segui |
+|  | non seguire | - Non seguire |
+|  | liveblogFollow | Segui blog dal vivo |
+|  | liveblogUnfollow | Non seguire il blog dal vivo |
+|  | postButton(Disponibile per gli utenti che hanno effettuato l’accesso) | Commento post |
+|  | postAsButton(Disponibile per utenti non autenticati). | Post comment as.. |
+|  | postEditButton | Modifica commento |
+|  | postEditAsButton | Modifica commento come... |
+|  | postEditCancelButton | Annulla |
+|  | editorDisabled | Questa conversazione è attualmente chiusa ai nuovi commenti. |
+| Opzioni chat | livechatPostButtonLabel | Post |
+|  | livechatPostEditButton | Modificare       |
+|  | livechatWindowsInostration | Premere Ctrl+Invio per pubblicare |
+|  | livechatOtherInstradation | Premere comando+Invio per pubblicare |
 
-## Opzioni risposta {#section_zvt_qd4_xz}
+## Opzioni di risposta {#section_zvt_qd4_xz}
 
-Se non diversamente specificato, è disponibile per tutti gli utenti che hanno eseguito l&#39;accesso. Passate il mouse su un pannello di contenuto per accedere.
+Salvo diversa indicazione, disponibile per tutti gli utenti connessi. Passate il puntatore del mouse su un pannello del contenuto per accedervi.
 
 ![](assets/strings_banusermodal-150x36.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Opzioni risposta utente | Disponibile per gli utenti finali. |  |
-| Flagbutton | Flag |
-|  | Flagcommenttooltip | Flag |
-|  | Editbutton (disponibile solo per autori e moderatori, se attivato.) | Modifica |
-|  | Deletebutton (disponibile solo per autori e moderatori, se attivato.) | Elimina |
-|  | Deletecommenttooltip | Elimina |
-|  | Sharebutton | Condividi |
-|  | Sharecommenttooltip | Condividi |
-|  | Likebutton | Come |
-|  | Unlikebutton | A differenza |
-|  | Replybutton | Risposta |
-|  | Replybuttonsingular (Disponibile per Chat e Blog live.) | Risposta |
-|  | Replybuttonplural (Disponibile per Chat e Blog live.) | Risposte |
+| Opzioni di risposta utente | Disponibile per gli utenti finali. |  |
+| flagButton | Contrassegna |
+|  | flagCommentTooltip | Contrassegna |
+|  | editButton(Disponibile solo per autori e moderatori, se attivato.) | Modificare       |
+|  | deleteButton(Disponibile solo per autori e moderatori, se attivato). | Elimina |
+|  | deleteCommentTooltip | Elimina |
+|  | shareButton | Condividi |
+|  | shareCommentTooltip | Condividi |
+|  | likeButton | Mi piace |
+|  | differentButton | Non mi piace |
+|  | answerButton | Rispondi |
+|  | replyButtonSingular(Disponibile per chat e blog dal vivo) | Rispondi |
+|  | replyButtonPlural(Disponibile per chat e blog dal vivo) | Risposte |
 
 ![](assets/strings_responseoptions-150x35.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Flag modale | Flagtitle | Segnala commento % s |
-|  | Flagsubtitle | Flag |
-|  | Flagdefaultselectoption | Seleziona |
-|  | Flagspam | Spam |
-|  | Flagspambutton | Spam |
-|  | Flagspamcommenttooltip | Spam |
-|  | Flagoffensive | Offensivo |
-|  | Flagorevsivebutton | Offensivo |
-|  | Flagorevsivecommenttooltip | Offensivo |
-|  | Flagd | Non d&#39;accordo |
-|  | Flagdisagreebutton | Non d&#39;accordo |
-|  | Flagdisagreecommenttooltip | Non d&#39;accordo |
-|  | Flagofftopic | Argomento Off |
-|  | Flagofftopicbutton | Argomento Off |
-|  | Flagofftopiccommenttooltip | Argomento Off |
-|  | Flagemail | E-mail |
-|  | Flagemailplaceholder | you@example.com |
-|  | Flagnotes | Note |
-|  | Flagnotesplaceholder | Inizia a digitare qui… |
-|  | Flagconfirmbutton | OK |
-|  | Flagcancelbutton | Annulla |
-|  | Flagconfirmationmessage | Segnalare il commento di % s come % s? |
-|  | Flagsuccessmsg | Commento contrassegnato. |
+| Flag Modal | flagTitle | Flag %s commento |
+|  | flagSubtitle | Contrassegna come |
+|  | flagDefaultSelectOption | Seleziona |
+|  | flagSpam | Spam |
+|  | flagSpamButton | Spam |
+|  | flagSpamCommentTooltip | Spam |
+|  | flagOffensive | Offensivo |
+|  | flagOffensiveButton | Offensivo |
+|  | flagOffensiveCommentTooltip | Offensivo |
+|  | flagDisagreement | Non d'accordo |
+|  | flagDisagreementButton | Non d'accordo |
+|  | flagDisagreementCommentTooltip | Non d'accordo |
+|  | flagOffTopic | Disattiva argomento |
+|  | flagOfftopicButton | Disattiva argomento |
+|  | flagOfftopicCommentTooltip | Disattiva argomento |
+|  | flagEmail | E-mail |
+|  | flagEmailPlaceholder | you@example.com |
+|  | flagNotes | Note |
+|  | flagNotesPlaceholder | Inizia a digitare qui... |
+|  | flagConfirmButton | OK |
+|  | flagCancelButton | Annulla |
+|  | flagConfirmMessage | Contrassegna il commento di %s come %s? |
+|  | flagSuccessMsg | Il commento è stato contrassegnato. |
 
 ![](assets/strings_flagmodal-150x87.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Modale condivisione | Sharetitle | Condividi commento |
-|  | Shareplaceholdertext | Che cosa pensate? |
-|  | Sharelabel | Condividi su: |
-|  | Sharetexttwitter | blank |
-|  | Sharetextfacebook | blank |
-|  | Sharetextlinkedin | blank |
-|  | Sharebuttontext | Condividi |
-|  | Sharepermalink | Permalink |
-|  | Loadingpermalink | Caricamento URL breve… |
-|  | Sharetext | Ho appena pubblicato un commento. Check it out! |
+| Condividi modale | shareTitle | Commento condivisione |
+|  | sharePlaceholderText | Che ne pensa? |
+|  | shareLabel | Condividi su: |
+|  | shareTextTwitter | vuoto |
+|  | shareTextFacebook | vuoto |
+|  | shareTextLinkedin | vuoto |
+|  | shareButtonText | Condividi |
+|  | sharePermalink | Permalink |
+|  | loadingPermalink | Caricamento URL breve in corso... |
+|  | shareText | Ho appena pubblicato un commento. Guardate! |
 
 ![](assets/strings_sharemodal-150x59.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Modale risposta | Postreplyasbutton | Invia commento come… |
-|  | Postreplybutton (disponibile per l&#39;accesso agli utenti.) | Commento post |
-|  | Backtohotthreads | Torna a Thread sensibili |
+| Metodo di risposta | postReplyAsButton | Post comment as.. |
+|  | postReplyButton(Disponibile per gli utenti che hanno effettuato l’accesso). | Commento post |
+|  | backToHotThread | Torna a Thread sensibili |
 
 ![](assets/strings_backto-150x48.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Twitter @ menzioni modale | Mentiontitle | Condividi |
-|  | Mentionsubtitletter | Condividi tweet per: |
-|  | Mentiondefaulttext | I mentioned you in a Livefyre comment! |
-|  | Mentionconfirmbutton | OK |
-|  | Mentioncancelbutton | Annulla |
-|  | Mentionerrorgeneral | Ops! Si è verificato un problema! Livefyre è stato avvisato. |
-|  | Mentionerrornoneselected | Devi avere almeno un nome abilitato. |
-|  | Mentionmenutitle | Per visualizzare e nominare i vostri amici |
-|  | Mentiontwitterconnect | Connetti a Twitter |
-|  | Mentiontwitterfetching | Recupero degli amici… |
-|  | Mentionsuccessmsg | Le menzioni sono state inviate correttamente. |
+| Twitter @menzioni modali | namedTitle | Condividi menzioni |
+|  | namedSubtitleTwitter | Condividi tweet con: |
+|  | namedDefaultText | L'ho menzionato in un commento di Livefyre! |
+|  | namedConfirmButton | OK |
+|  | visitCancelButton | Annulla |
+|  | namedErrorGeneral | Oops! È andato male qualcosa! Livefyre è stato avvisato. |
+|  | namedErrorNoneSelected | È necessario che sia attivato almeno un riferimento. |
+|  | namedMenuTitle | Per vedere e menzionare i tuoi amici |
+|  | referenceTwitterConnect | Connetti a Twitter |
+|  | referenceTwitterFetching | Recupero Amici... |
+|  | namedSuccessMsg | Le menzioni sono state inviate correttamente. |
 
 ![](assets/strings_sharemention-150x60.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Modifica modale | Disponibile per Amministratori di studio, Manager utente o Moderatori |  |
-| @ (@ menzioni.) | &lt;/&gt; (Apre la finestra HTML personalizzata.) |  |
-|  | Customhtmldialogtitle (viene visualizzato come intestazione del modale.) | Aggiungi HTML personalizzato |
+| Modifica modale | Disponibile per gli amministratori di studio, i manager utente o i moderatori |  |
+| @(@reference) | &lt;/&gt;(Apre la finestra HTML personalizzata.) |  |
+|  | customHtmlDialogTitle(Appare come intestazione per il modale.) | Aggiungi HTML personalizzato |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Opzioni di risposta moderatore | Disponibile per Amministratori di studio, Manager utente o Moderatori. |  |
-| Pendingcomment | pending |
-|  | Banuserbutton | Divieto utente |
-|  | Banusertooltip | Divieto utente |
-|  | Bozobutton | Bozo |
-|  | Bozocommenttooltip | Bozo |
-|  | Featurebutton | Funzione |
-|  | Featurecommenttooltip | Funzione |
-|  | Unfeaturebutton | Funzionalità |
-|  | Featuredcommenttooltip | Funzionalità |
+| Opzioni risposta moderatore | Disponibile per gli amministratori di studio, i manager utente o i moderatori. |  |
+| pendingComment | in sospeso |
+|  | banUserButton | Divieto utente |
+|  | banUserTooltip | Utente con divieto |
+|  | bozoButton | Bozo |
+|  | bozoCommentTooltip | Bozo |
+|  | featureButton | Funzione |
+|  | featureCommentTooltip | Funzione |
+|  | unfeatureButton | Funzione |
+|  | featuredCommentTooltip | Funzione |
 
 ![](assets/strings_adminoptions-150x33.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Divieto modale utente | Disponibile per Amministratori di studio, Manager utente o Moderatori. |  |
-| Bantitle | Divieto utente |  |
-|  | Banconfirmation | Volete veramente vietare questo utente? |
-|  | Banconfirmbutton | OK |
-|  | Bancancelbutton | Annulla |
+| Divieto modale utente | Disponibile per gli amministratori di studio, i manager utente o i moderatori. |  |
+| banTitle | Utente con divieto |  |
+|  | banConfirm | Vuoi davvero vietare questo utente? |
+|  | banConfirmButton | OK |
+|  | banCancelButton | Annulla |
 
-## Notifier Notifier {#section_qqt_pd4_xz}
+## Modulo di notifica commenti {#section_qqt_pd4_xz}
 
-Se abilitata, disponibile nella parte inferiore della pagina per tutte le app di conversazione di Livefyre.
+Se attivato, disponibile nella parte inferiore della pagina per tutte le app di conversazione Livefyre.
 
 ![](assets/strings_notifier-150x112.png)
 
 |  | Chiave | Testo predefinito |
 |---|---|---|
-| Etichette del modulo di notifica | Commentnotifier | Nuovo commento |
-|  | Commentnotifierplural | Nuovi commenti |
-|  | Liveblognotifier | Nuovo post |
-|  | Liveblognotifierplural | Nuovi post |
+| Etichette di avviso | commentNotifier | Nuovo commento |
+|  | commentNotifierPlural | Nuovi commenti |
+|  | liveblogNotifier | Nuovo post |
+|  | liveblogNotifierPlural | Nuovi post |
 
 ## Messaggi di errore {#section_omz_jxn_xz}
 
-Stringhe disponibili per messaggi di errore personalizzabili.
+Stringhe disponibili per i messaggi di errore personalizzabili.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Errorautherror | Non sei autorizzato a pubblicare un commento in questa conversazione |
-| Errorcommentsnotallowed | I commenti non sono consentiti in questa conversazione |
-| Errordefault | Si è verificato un errore. Riprovate. |
-| Errorduplicate | Non è possibile pubblicare due volte il commento. |
-| Erroreditduplicate | È necessario modificare il corpo del commento quando lo si modifica. |
-| Erroreditnotallowed | Non è possibile modificare i commenti in questa conversazione. |
-| Erroredittimeexceeded | Il periodo di modifica dei commenti è scaduto. |
-| Errorempty | Sembra che stiate tentando di pubblicare un commento vuoto. |
-| Errorexpired | La sessione è scaduta. Ricaricate la pagina. |
-| Errorflagnotselected | Selezionate un tipo di flag. |
-| Errorguestliked | Solo quelli con account possono disporre di contenuto. |
-| Errorinsufficientpermissions | Autorizzazioni insufficienti |
-| Errorinvalidchar | Sembra che stiate tentando di pubblicare un carattere non valido. |
-| Errorlikeowncomment | Non è possibile aggiungere un commento |
-| Errormalformat | Sembra che stiate tentando di pubblicare contenuti non formattati. |
-| Errormaxchars | Il commento è troppo lungo. Please edit and try again. |
-| Errormedianotavailable | Il file multimediale non è più visibile. |
-| Errorshowmore | Si è verificato un errore durante il caricamento di altri commenti. |
-| Moltiemedianotallowederror | Le autorizzazioni concedono solo un allegato multimediale alla volta. |
+| errorAuthError | Non siete autorizzati a pubblicare un commento su questa conversazione |
+| errorCommentsNotAllowed | Commenti non consentiti in questa conversazione |
+| errorDefault | Si è verificato un errore. Prova ancora. |
+| errorDuplicate | Il commento non può essere pubblicato due volte. |
+| errorEditDuplicate | È necessario modificare il corpo del commento al momento della modifica. |
+| errorEditNotAllowed | Non potete modificare i commenti in questa conversazione. |
+| errorEditTimeExceeded | Il periodo di modifica dei commenti è scaduto. |
+| errorEmpty | Si sta tentando di pubblicare un commento vuoto. |
+| errorExpired | La sessione è scaduta. Ricaricare la pagina. |
+| errorFlagNotSelected | Selezionare un tipo di flag. |
+| errorGuestLiked | Spiacenti, solo a quelli con account può piacere il contenuto. |
+| errorInsufficientePermissions | Autorizzazioni insufficienti |
+| errorInvalidChar | Si sta tentando di inserire un carattere non valido. |
+| errorLikeOwnComment | Non è possibile gradire il proprio commento |
+| errorMalformatted | Sembra che stiate tentando di pubblicare contenuto non corretto. |
+| errorMaxChars | Spiacenti, il tuo commento è troppo lungo. Modificare e riprovare. |
+| errorMediaNotAvailable | Il file multimediale non è più visibile. |
+| errorShowMore | Errore durante il caricamento di altri commenti. |
+| MultipleMediaNotAllowedError | Le autorizzazioni concesse solo un allegato multimediale alla volta. |
 
-## Formato data e ora {#section_yz4_g5n_xz}
+## Formato ora e data {#section_yz4_g5n_xz}
 
-Traducete e personalizzate il modo in cui le date vengono visualizzate sulle schede di contenuto all&#39;interno delle app di visualizzazione.
-
-| Chiave | Testo predefinito |
-|---|---|
-| Hoursago | {number} h |
-| Hoursagosingular | {number} h |
-| Justnow | 1s |
-| Minutesago | {numero} m |
-| Minutesagosingular | {numero} m |
-| Monthdayformat | {day} {monthabbrev} |
-| Monthdayyearformat | {day} {monthabbrev} {year} |
-| Monthnames | Gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre |
-| Monthnamesabbrev | Gen, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Ott, Nov |
-| Secondsago | {numero} |
-| Secondsagosingular | {numero} |
-
-## Media Wall {#section_vwt_d5n_xz}
-
-Stringhe disponibili per l&#39;app Media Wall.
+Traduci e personalizza il modo in cui le date vengono visualizzate sulle schede di contenuto all'interno delle app di visualizzazione.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Featuredtext | Contenuti |
-| Sharebuttontext | Condividi |
+| hoursAgo | {number}h |
+| hoursAgoSingular | {number}h |
+| JustNow | 1s |
+| minutesAgo | {number}m |
+| minutesAgoSingular | {number}m |
+| monthDayFormat | {day} {monthAbbrev} |
+| monthDayYearFormat | {day} {monthAbbrev} {year} |
+| monthNames | Gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre |
+| monthNamesAbbrev | gen, feb, mar, Apr, May, Jun, Jul, Aug, Set, ott, nov, dic |
+| SecondiAgo | {number}s |
+| secondiAgoSingular | {number}s |
+
+## Muro di supporto {#section_vwt_d5n_xz}
+
+Stringhe disponibili per l’app Media Wall.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Postbuttontext | Cosa c&#39;è sulla tua idea? |
-| Postmodaltitle | Invia commento |
-| Postmodalbutton | Invia commento |
-| Postmodalplaceholder | Cosa desideri dire? |
-| Showmorebuttontext | Carica altro |
-| Sharebuttontext | Condividi |
+| featuredText | In evidenza |
+| shareButtonText | Condividi |
+
+| Chiave | Testo predefinito |
+|---|---|
+| postButtonText | Cosa avete in mente? |
+| postModalTitle | Invia commento |
+| postModalButton | Invia commento |
+| postModalPlaceholder | Cosa vorresti dire? |
+| showMoreButtonText | Carica altro |
+| shareButtonText | Condividi |
 
 ## Mappa {#section_fxv_c5n_xz}
 
@@ -382,57 +382,57 @@ Stringhe disponibili per le mappe.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Featuredtext | Contenuti |
-| Sharebuttontext | Condividi |
+| featuredText | In evidenza |
+| shareButtonText | Condividi |
 
-## Mosaic {#section_e2s_b5n_xz}
+## Mosaico {#section_e2s_b5n_xz}
 
-Stringhe disponibili per Mosaics.
+Stringhe disponibili per i Mosaici.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Featuredtext | Contenuti |
-| Sharebuttontext | Condividi |
+| featuredText | In evidenza |
+| shareButtonText | Condividi |
 
 ## Carosello {#section_l2z_hkn_xz}
 
-Stringhe disponibili per Carosello.
+Stringhe disponibili per il carosello.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Featuredtext | Contenuti |
-| Sharebuttontext | Condividi |
+| featuredText | In evidenza |
+| shareButtonText | Condividi |
 
-## Scheda Funzioni {#section_mw2_hkn_xz}
+## Scheda {#section_mw2_hkn_xz}
 
-Stringhe disponibili per la scheda delle funzioni.
+Stringhe disponibili per la scheda di funzioni.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Featuredtext | Contenuti |
-| Sharebuttontext | Condividi |
+| featuredText | In evidenza |
+| shareButtonText | Condividi |
 
 ## Carica app {#section_grc_gkn_xz}
 
-Stringhe disponibili per l&#39;app di caricamento.
+Stringhe disponibili per l'app di caricamento.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Postbuttontext | Cosa c&#39;è sulla tua idea? |
-| Postmodaltitle | Invia commento |
-| Postmodalbutton | Invia commento |
-| Postmodaltitleplaceholder | Inserire un titolo |
-| Postmodalplaceholder | Cosa desideri dire? |
-| Postmodalconfirationtitle | Thank you for posting! |
-| Postmodalconfirmationmessage | Il post è in fase di revisione. |
-| Postmodalconfirmationbutton | Fine |
+| postButtonText | Cosa avete in mente? |
+| postModalTitle | Invia commento |
+| postModalButton | Invia commento |
+| postModalTitlePlaceholder | Inserire un titolo |
+| postModalPlaceholder | Cosa vorresti dire? |
+| postModalConfirationTitle | Grazie per aver postato! |
+| postModalConfirmMessage | Il tuo post è in fase di revisione. |
+| postModalConfirmButton | Fine |
 | title |  |
 | message |  |
-| Editorerrorattachmentsrequired | È necessario un allegato |
-| Editorerrorbody | Aggiungete un messaggio |
-| Editorerrorduplicate | Non è possibile pubblicare due volte la nota |
-| Editorerrorgeneric | Si è verificato un errore |
-| Editorerrortitlerequired | È necessario un titolo |
+| editorErrorAttachmentsRequired | È richiesto un allegato |
+| editorErrorBody | Aggiungi un messaggio |
+| editorErrorDuplicate | Per quanto vi piace la nota, non potete pubblicarla due volte |
+| editorErrorGeneric | Errore |
+| editorErrorTitleRequired | Titolo obbligatorio |
 
 ## Sondaggio {#section_pdg_fwh_xz}
 
@@ -440,107 +440,107 @@ Stringhe disponibili per i sondaggi.
 
 | Chiave | Testo predefinito |
 |---|---|
-| Totalvoteslabel | % s voti totali |
-| Sharestringtext | I just voted on % s what&#39;s your your vote? |
-| Pollclosedlabel | Il sondaggio è attualmente chiuso |
+| totalVotesLabel | %s voti totali |
+| shareStringText | Ho appena votato su %s, qual è il vostro voto? |
+| pollClosedLabel | Il sondaggio è attualmente chiuso |
 
-## Livefyre Identity {#section_zc3_xvh_xz}
+## Identità Livefyre {#section_zc3_xvh_xz}
 
-Stringhe disponibili per Livefyre Identity.
+Stringhe disponibili per l'identità Livefyre.
 
 | Chiave | Testo predefinito |
 |--- |--- |
-| Automaticallyfollowconversations | Segui automaticamente le conversazioni che partecipa |
+| automaticamenteFollowConversations | Segui automaticamente le conversazioni a cui mi unisco |
 | back | Indietro |
-| biografia | Biografia |
-| create | Crea |
-| Createanewaccount | Crea nuovo account |
-| Createnewaccountwithemail | Creazione di un nuovo account con e-mail |
-| Changeavatar | Modifica avatar |
-| Scegli choosefile | Scegli file |
-| Completeaccount | Account completo |
-| Emailwhensomeonereplies | E-mail quando qualcuno risponde a me |
-| Emailcommentsifollow | Commenti e-mail nelle conversazioni Segui |
-| Emailsenttoresetpassword | Email sent! Controlla la casella in entrata per reimpostare la password |
-| Emailquerationsent | Verifica e-mail inviata |
-| Firstname | Nome |
-| Forgotpassword | Password dimenticata? |
-| Forgotyourpassword | Password dimenticata? |
-| Forgotyourpasswordinstructions | Immetti il nome utente o l&#39;indirizzo e-mail di seguito e ti invieremo un collegamento per cambiare la password. |
-| Forminputclosebuttontext | Chiudi |
-| Forminputcancelbuttontext | Annulla |
-| Forminputsavebuttontext | Salva |
-| Hasnotleftanycomments | non ha lasciato alcun commento |
-| Locationisfrom | proviene da |
-| Labelavatar | Avatar |
-| Labelcomments | Commenti |
-| Labelconfirmnewpassword | Conferma nuova password |
-| Labelconfirmpassword | Conferma password |
-| Labelemail | Indirizzo e-mail |
-| Labellikes | Mi piace |
-| Labelloading | Caricamento |
-| Labelnewpassword | Nuova password |
-| Labelnotification | Notifiche |
-| Labelpassword | Password |
-| Labelprofile | Profilo |
-| Labelusername | Nome utente |
-| Labelusernameoremail | Nome utente o e-mail |
-| Lastname | Cognome |
-| Livefyreaccount | Account Livefyre |
-| location | Posizione |
-| Loadingprofile | Caricamento profilo |
-| Newpassword | Nuova password |
-| Oldpassword | Password vecchia |
-| su | su |
-| oppure | oppure |
-| Passwordlinkexpired | Il collegamento che hai fatto clic per reimpostare la password è scaduto. Reimposta nuovamente la password e ti invieremo un nuovo collegamento. |
-| Pleasecheckemailtocomplete | Controllate l&#39;e-mail per completare la registrazione. |
-| posted | Pubblicato |
-| Poweredby | powered by |
-| Profilenotificationimmediate | immediato |
-| Profilenotificationhourly | orario |
-| Profilenotificationnever | never |
-| Recentcomments | Commenti recenti |
-| reset | Reset (Ripristina) |
-| Resetpassword | Reimposta password |
-| Signin | Accesso |
-| Signinwith | Accesso con |
-| Signinwithemail | Accesso con e-mail |
-| Signup | Registrati |
-| Socialaccount | Social account |
-| Successpasswordchanged | Success! La password è stata modificata e hai effettuato l&#39;accesso |
-| Termsandcondition | Termini e condizioni |
-| Termsandconditionsintro | Accedendo all&#39;accettazione |
-| Termsofuse | Termini d&#39;uso |
-| Termsofuseintro | L&#39;accesso accetta accettato |
-| Thisuser | Questo utente |
-| Verifypassword | Verifica password |
-| Filesizelimit | 2 MB max |
+| bio | Bio |
+| create | Creare    |
+| createANewAccount | Crea nuovo account |
+| createNewAccountWithEmail | Creazione di un nuovo account tramite e-mail |
+| changeAvatar | Cambia avatar |
+| ChooseFile | Scegli file |
+| completeAccount | Account completo |
+| emailWhenSomeReplies | E-mail quando qualcuno risponde a me |
+| emailCommentsIFollow | Commenti e-mail nelle conversazioni che seguo |
+| emailSenttoResetPassword | E-mail inviata! Controllate la inbox per un collegamento per ripristinare la password |
+| emailVerificationSent | Verifica e-mail inviata |
+| firstName | First name |
+| dimenticataPassword | Password dimenticata? |
+| dimenticatePassword | Hai dimenticato la password? |
+| dimenticatePasswordIstruzioni | Inserite il vostro nome utente o indirizzo e-mail di seguito e vi invieremo un collegamento per cambiare la password. |
+| formInputCloseButtonText | Close |
+| formInputCancelButtonText | Annulla |
+| formInputSaveButtonText | Salva |
+| hasNotLeftAnyComments | non ha lasciato commenti |
+| locationIsFrom | is from |
+| labelAvatar | Avatar |
+| labelComments | Commenti |
+| labelConfirmNewPassword | Conferma nuova password |
+| labelConfirmPassword | Conferma password |
+| labelEmail | Email Address |
+| labelLikes | Mi piace |
+| labelLoading | Caricamento |
+| labelNewPassword | Nuova password |
+| labelNotification | Notifiche |
+| labelPassword | Password |
+| labelProfile | Profilo |
+| labelUsername | Nome utente |
+| labelUsernameOrEmail | Nome utente o e-mail |
+| lastName | Last name |
+| livefyreAccount | Account Livefyre |
+| la posizione | Posizione |
+| loadingProfile | Caricamento profilo |
+| newPassword | Nuova password |
+| oldPassword | Password precedente |
+| on | on |
+|  oppure  |  oppure  |
+| passwordLinkExpired | Il collegamento su cui hai fatto clic per ripristinare la password è scaduto. Reimposta la password e ti invieremo un nuovo collegamento. |
+| Per favore, controllaEmailToComplete | Per completare la registrazione, controllate l'e-mail. |
+| postato | Inserito |
+| powerby | alimentato da |
+| profileNotificationImmediate | nelle immediate vicinanze |
+| profileNotificationHourly | ogni ora |
+| profileNotificationNever | never |
+| recentComments | Commenti recenti |
+| reset | Reset |
+| resetPassword |  Ripristina password |
+| signIn | Accedi |
+| signInWith | Accedi con |
+| signInWithEmail | Accesso tramite e-mail |
+| signUp | Iscriviti |
+| socialAccount | Account Social |
+| successPasswordChanged | Completato! La password è stata modificata e hai effettuato l'accesso |
+| terminiECondizioni | Termini e condizioni |
+| termAndConditionIntro | Registrandosi si accetta il |
+| termOfUse | Condizioni d'uso |
+| termOfUseIntro | Effettuando l'accesso, accetti di |
+| thisUser | Questo utente |
+| verifyPassword | Verifica password |
+| fileSizeLimit | 2 MB max |
 | accountnotfound | Account non trovato |
-| Avatarimageexceedsize | L&#39;immagine avatar supera il limite di file di 2 MB |
-| fieldisrequired | Il campo accetta solo un numero intero |
-| fieldonlyacceptsavalidemail | Il campo accetta solo un messaggio e-mail valido |
-| fieldonlyacceptsletter | Il campo accetta solo lettere |
-| Filesizemustbelessthanmb | La dimensione del file deve essere minore di {#}MB |
+| avatarImageExceedSize | L'immagine avatar ha superato il limite di 2 MB |
+| fieldisRequired | Il campo accetta solo un numero intero |
+| fieldonlyaccettsavalidemail | Campo accetta solo un'e-mail valida |
+| fieldonlyaccettsletters | Il campo accetta solo lettere |
+| filesizemustbelessthanMB | La dimensione del file deve essere inferiore a {#}MB |
 | invalidusernameorpassword | Nome utente o password non validi |
-| riduzione al minimo dei caratteri | Lunghezza minima {#} caratteri |
-| maximumlengthofcharacters | Lunghezza massima {#} dei caratteri |
-| therewasanerror | Si è verificato un errore |
-| thisfieldisrichiesto | Questo campo è obbligatorio. |
-| validfileextensions | Estensioni di file valide |
-| valuemustmatch | Il valore deve corrispondere |
-| Passwordlength | va da 6 a 32 caratteri. |
-| Passwordcharacters | includere caratteri maiuscoli e minuscoli. |
-| Passwordsymbols | includere almeno un numero e un simbolo. |
-| Passwordusername | non contiene il nome utente. |
-| Passwordpoweaktitle | La password deve essere: |
-| Passworderrorcontainsfirstname | La password inserita contiene il nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Caratteri maiuscoli A Caratteri minuscoli Simboli Simboli |
-| Passworderrorcontainslastname | La password inserita contiene il nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Caratteri maiuscoli A Caratteri minuscoli Simboli Simboli |
-| Passworderrorcontainsusername | La password inserita contiene il nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Caratteri maiuscoli A Caratteri minuscoli Simboli Simboli |
-| Passworderrortooshort | Minimo di 6 caratteri per pasword |
-| Passworderrortoolong | Massimo di 32 caratteri per la password |
-| Passworderrormissinguppercase | La password deve contenere almeno un carattere maiuscolo |
-| Passworderrormissinglowercase | La passsword deve contenere almeno un carattere minuscolo |
-| Passworderrormissingsymbol | La password deve contenere almeno un simbolo nel set `!@#$%^&*()?.,<>\’;:”[]{}|` |
+| minimumlength dei caratteri | Lunghezza minima dei {#} caratteri |
+| maximumlength dei caratteri | Lunghezza massima dei {#} caratteri |
+| therwasanerror | Errore |
+| this fieldisRequired | Questo campo è obbligatorio. |
+| validfileextension | Estensioni file valide |
+| valueEmustmatch | Il valore deve corrispondere |
+| passwordLength | essere lungo da 6 a 32 caratteri. |
+| passwordCharacters | includete caratteri minuscoli e maiuscoli. |
+| passwordSymbol | includere almeno un numero e un simbolo. |
+| passwordNome utente | non contiene il nome utente. |
+| passwordProfileTitle | La password deve: |
+| passwordErrorContainsFirstName | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
+| passwordErrorContainsLastName | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
+| passwordErrorContainsUsername | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
+| passwordErrorToShort | Minimo 6 caratteri per la password |
+| passwordErrorToLong | Massimo 32 caratteri per la password |
+| passwordErrorMissingUppercase | La password deve contenere almeno un carattere maiuscolo |
+| passwordErrorMissingLowercase | La password deve contenere almeno un carattere minuscolo |
+| passwordErrorMissingSymbol | La password deve contenere almeno un simbolo nel set `!@#$%^&*()?.,<>\’;:”[]{}|` |
 
 
