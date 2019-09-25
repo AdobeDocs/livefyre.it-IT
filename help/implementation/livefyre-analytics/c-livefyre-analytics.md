@@ -1,27 +1,27 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Utilizzo di Livefyre con altro strumento Analytics
+seo-title: Utilizzo di Livefyre con altri strumenti di Analytics
 solution: Experience Manager
-title: Utilizzo di Livefyre con altro strumento Analytics
-uuid: 26 c 835 f 6-aced -41 f 7-aabe -418 afce 8 a 829
+title: Utilizzo di Livefyre con altri strumenti di Analytics
+uuid: 26c835f6-aced-41f7-ababe-418afce8a829
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Utilizzo di Livefyre con altro strumento Analytics{#use-livefyre-with-other-analytics-tool}
+# Utilizzo di Livefyre con altri strumenti di Analytics{#use-livefyre-with-other-analytics-tool}
 
-Potete utilizzare gli strumenti di analisi per raccogliere dati sulle interazioni degli utenti con Livefyre Apps. Potete utilizzare Adobe Analytics o uno strumento di vostra scelta.
+Potete utilizzare gli strumenti di analisi per raccogliere dati sulle interazioni degli utenti con le app Livefyre. Puoi utilizzare Adobe Analytics o uno strumento di tua scelta.
 
 Per utilizzare Livefyre con uno strumento di vostra scelta (non Adobe Analytics), seguite la procedura descritta in questa pagina.
 
-## Passaggio 1: Configurare il gestore di eventi {#section_ngm_gzl_pdb}
+## Passaggio 1: Impostazione del gestore eventi {#section_ngm_gzl_pdb}
 
-Configurate un gestore di eventi nelle pagine in cui utilizzate Livefyre Apps. Questo consente di raccogliere dati dalle app nella pagina che potete utilizzare per l&#39;analisi.
+Configurate un gestore eventi sulle pagine in cui vengono utilizzate le app Livefyre. Questo consente di raccogliere i dati dalle app in quella pagina che puoi utilizzare per l'analisi.
 
-Aggiungete Livefyre. js a una pagina per impostare il gestore di eventi. Livefyre. js viene caricato in modo asincrono. Per ridurre le dimensioni del file e migliorare le prestazioni di caricamento, l&#39;analisi non è immediatamente disponibile. È necessario eseguire il polling dell&#39;oggetto di analisi fino a quando i dati non sono disponibili. Posizionare questo script in qualsiasi punto della pagina o aggiungerlo all&#39;interno dei propri script compilati.
+Aggiungete Livefyre.js a una pagina per impostare il gestore eventi. Livefyre.js viene caricato in modo asincrono. Per ridurre le dimensioni dei file e migliorare le prestazioni di caricamento, l'analisi non è disponibile immediatamente. È necessario eseguire il polling dell'oggetto Analytics fino a quando i dati non sono disponibili. Posizionare lo script in un punto qualsiasi della pagina o includerlo in un pacchetto all'interno dei propri script compilati.
 
 ```
 /** 
@@ -51,11 +51,11 @@ function pollForAnalytics() {
 pollForAnalytics(); 
 ```
 
-## Passaggio 2: Funzione di implementazione del gestore
+## Passaggio 2: Implementa la funzione gestore
 
-Una volta che la funzionalità Livefyre. analytics è disponibile sulla pagina, implementate la funzione analyticshandler per inviare gli eventi ricevuti al provider di analisi desiderato.
+Una volta che la funzionalità Livefyre.analytics sarà disponibile sulla pagina, implementate la funzione analyticsHandler per inviare gli eventi ricevuti al provider di analisi di vostra scelta.
 
-1. Il gestore di analisi riceve un array di eventi che devono essere ripetuti e inviati singolarmente oppure come batch, se il fornitore lo supporta.
-1. Mappate i dati dell&#39;evento ricevuti dal gestore su un formato richiesto dal fornitore di analisi.
+1. Il gestore di analisi riceve un array di eventi che devono essere ripetuti e inviati singolarmente o in batch, se il provider lo supporta.
+1. Mappare i dati dell'evento ricevuti dal gestore in un formato richiesto dal provider di analisi.
 1. Inviate i dati al vostro provider di analisi.
 
