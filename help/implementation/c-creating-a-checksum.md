@@ -4,7 +4,7 @@ seo-description: Create un checksum utilizzando le librerie Livefyre.
 seo-title: Creazione di un checksum
 solution: Livefyre
 title: Creazione di un checksum
-uuid: 2 dddedaa -7 a 6 d -434 a -8 db 8-dc 179935 f 810
+uuid: 2dddedaa-7a6d-434a-8db8-dc179935f810
 translation-type: tm+mt
 source-git-commit: 6545445016517af1f1bbb071761d773ba5a9a597
 
@@ -31,7 +31,7 @@ collection.getData().setTags("tags");
 String collectionMetaToken = collection.buildCollectionMetaToken();
 ```
 
-## Nodejs {#section_hnx_jqj_tz}
+## NodeJS {#section_hnx_jqj_tz}
 
 ```
 var livefyre = require('livefyre'); 
