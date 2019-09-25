@@ -1,31 +1,31 @@
 ---
 description: Non tutti i tweet che corrispondono a una regola vengono visualizzati in un flusso.
 seo-description: Non tutti i tweet che corrispondono a una regola vengono visualizzati in un flusso.
-seo-title: Caratteristiche e frequenza dei tweet
+seo-title: Limitazione e frequenza dei tweet
 solution: Experience Manager
-title: Caratteristiche e frequenza dei tweet
-uuid: b 9 edfb 1 e-e 6 cf -4 a 48-8756-05 f 5 f 18 d 8799
+title: Limitazione e frequenza dei tweet
+uuid: b9edfb1e-e6cf-4a48-8756-05f5f18d8799
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Caratteristiche e frequenza dei tweet{#throttling-and-frequency-of-tweets}
+# Limitazione e frequenza dei tweet{#throttling-and-frequency-of-tweets}
 
 Non tutti i tweet che corrispondono a una regola vengono visualizzati in un flusso.
 
-L&#39;interpolazione della regola Twitter e le interruzioni di feed Twitter possono limitare il numero di tweet visibili nel flusso.
+La limitazione delle regole Twitter e le interruzioni dei feed Twitter possono limitare il numero di tweet visibili nel flusso.
 
 >[!NOTE]
 >
->Per verificare che i tweet specifici siano inclusi nel flusso, utilizzate l&#39;opzione Carica risorsa dalla pagina Tutte le risorse.
+>Per garantire l’inclusione di specifici tweet nel flusso, usate l’opzione Carica risorsa dalla pagina Tutte le risorse.
 
-* Regole Twitter rallentano il contenuto, richiamando 1 tweet per regola ogni 5 secondi. Questo consente di visualizzare in modo più bilanciato il contenuto in Livefyre Apps e non viene sostituito con tweet. La limitazione dei tweet in arrivo consente anche di impedire che il flusso diventi inaccessibile o non leggibile durante un periodo di traffico elevato.
+* Regole Twitter riducono il contenuto, richiamando 1 tweet per regola ogni 5 secondi. In questo modo il contenuto visualizzato nelle app Livefyre risulta più bilanciato e non viene sopraffatto dai tweet. Limitare i tweet in entrata in questo modo aiuta anche a evitare che il flusso possa essere inondato o illeggibile durante periodi di traffico elevato.
 
    >[!NOTE]
    >
-   >Per garantire che il contenuto degli autori di alto valore venga visualizzato nelle app, anche nei flussi ad alta velocità, le regole per gli autori specifici non vengono mai rallentate.
+   >Per garantire che il contenuto degli autori di alto valore venga visualizzato nelle app, anche nei flussi ad alta velocità, le regole per autori specifici non vengono mai limitate.
 
-* Le interruzioni dei feed Twitter possono verificarsi per diversi motivi. In alcuni casi, Twitter non invia i tweet, pertanto Livefyre non riceve la notifica del nuovo contenuto e non può essere visualizzato. Le interruzioni del servizio delle API di Twitter, o il traffico su hashtag/parole chiave ad alto volume, possono anche dare luogo a tweet mancanti.
+* Le interruzioni dei feed Twitter possono verificarsi per diversi motivi. In alcuni casi, Twitter non invia i tweet, pertanto Livefyre non riceve la notifica del nuovo contenuto e non può essere visualizzato. Le interruzioni del servizio delle API di Twitter, o il traffico su hashtag/parole chiave ad alto volume, possono causare la perdita di Tweet.
 
