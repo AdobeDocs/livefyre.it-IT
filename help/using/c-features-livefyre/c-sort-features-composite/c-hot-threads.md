@@ -1,49 +1,49 @@
 ---
 description: Visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità.
 seo-description: Visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità.
-seo-title: Hot Thread
+seo-title: Thread sensibili
 solution: Experience Manager
-title: Hot Thread
-uuid: 0011 f 769-6712-48 e 9-bb 10-a 43610 fef 595
+title: Thread sensibili
+uuid: 0011f769-6712-48e9-bb10-a43610fef595
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Hot Thread{#hot-threads}
+# Thread sensibili{#hot-threads}
 
-Visualizza i 25 thread più popolari all&#39;interno dell&#39;app, ordinati per popolarità.
+Visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità.
 
-La visualizzazione Hot Thread (Thread sensibile) visualizza i 25 thread più popolari all&#39;interno dell&#39;app, ordinati per popolarità. Ciò include tutto il contenuto dell&#39;app, inclusi i post manuali, contenuto da socialsync e contenuto dai flussi.
+La visualizzazione Thread sensibili visualizza i 25 thread più popolari all'interno dell'app, ordinati per popolarità. Questo include tutto il contenuto nell'app, inclusi post manuali, contenuto da SocialSync e contenuto dai flussi.
 
 >[!NOTE]
 >
->Hot Thread è disponibile sui commenti, ma non sul blog live o sulla chat.
+>I thread sensibili sono disponibili nei commenti, ma non in Live Blog o Chat.
 
-Per ulteriori informazioni sull&#39;abilitazione della visualizzazione Hot Thread, consultate Studio &gt; Impostazioni rete.
+Per ulteriori informazioni sull'abilitazione della visualizzazione Hot Thread, vedere Studio &gt; Impostazioni di rete.
 
 ## Anteprime {#section_xhh_2dl_wy}
 
-Facendo clic **[!UICONTROL Hot Threads]** sulla parte superiore del flusso viene sostituito il contenuto dell&#39;app con anteprime contenenti fino a 25 thread con i più alti «punteggi popolarità» dall&#39;app. Viene calcolato un punteggio popolarità per ogni thread utilizzando l&#39;algoritmo proprietario e evolutivo di Livefyre. L&#39;anteprima visualizza un commento di livello principale e fino a 5 delle risposte più comuni, nonché l&#39;elemento principale diretto di ciascuna di queste 5 risposte principali.
+Facendo clic **[!UICONTROL Hot Threads]** nella parte superiore dello streaming, il contenuto dell'app viene sostituito con anteprime fino a 25 thread con i "punteggi di popolarità" più alti dell'app. Per ciascun thread viene calcolato un punteggio di popolarità utilizzando l'algoritmo proprietario ed in evoluzione di Livefyre. Nell'anteprima viene visualizzato un commento di primo livello, e fino a 5 delle risposte più popolari, nonché l'elemento padre diretto di ciascuna di queste prime 5 risposte.
 
-In assenza di un thread nel flusso con valutazione popolarità, non verranno visualizzati commenti e gli utenti visualizzeranno il messaggio **[!UICONTROL There are not enough threads yet]** e un collegamento a **[!UICONTROL See what’s new]**.
+Se non sono presenti thread nel flusso con una valutazione della popolarità, non verrà visualizzato alcun commento e gli utenti vedranno il messaggio **[!UICONTROL There are not enough threads yet]** e un collegamento a **[!UICONTROL See what’s new]**.
 
-L&#39;elenco Hot Threads (Thread sensibile) non è in tempo reale e viene aggiornato solo quando la pagina viene aggiornata o è selezionata un&#39;altra vista (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**). (Se un commento è moderato e Bozò d o trashed, verrà rimosso immediatamente dall&#39;elenco).
+L'elenco di thread sensibili non è in tempo reale e si aggiorna solo quando la pagina viene aggiornata o viene selezionata un'altra visualizzazione (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**). (Se un commento è moderato e Bozo’d o viene cancellato, verrà rimosso immediatamente dall’elenco.)
 
-## Visualizzazione sottogruppo di lavoro {#section_zmf_ddl_wy}
+## Visualizzazione per sottogruppi di lavoro {#section_zmf_ddl_wy}
 
-Nell&#39;anteprima, fate clic per **[!UICONTROL Show entire Thread]** sostituire la visualizzazione Hot Thread con una visualizzazione per sottogruppi di lavoro del thread nel contesto, incluse tutte le risposte all&#39;interno del thread. (Nessun altro thread viene visualizzato nella visualizzazione per sottogruppi di lavoro.) Fate clic per **[!UICONTROL Hot Threads]** tornare alla visualizzazione Hot Thread.
+Nell’anteprima, fate clic **[!UICONTROL Show entire Thread]** per sostituire la visualizzazione Thread sensibili con una visualizzazione per sottogruppi di lavoro del thread nel contesto, comprese tutte le risposte all’interno del thread. Nella visualizzazione per sottogruppi di lavoro non vengono visualizzati altri thread. Fate clic **[!UICONTROL Hot Threads]** per tornare alla visualizzazione Thread sensibili.
 
-I moderatori possono visualizzare tutto il contenuto in sospeso nella visualizzazione per sottogruppi di lavoro e la moderazione in linea è disponibile. Mi piace, le risposte, le modifiche e le azioni di moderazione continueranno a essere trasmesse in tempo reale nella vista per sottogruppi di lavoro.
+I moderatori possono visualizzare tutto il contenuto in sospeso nella visualizzazione per sottogruppi di lavoro ed è disponibile la moderazione in linea. Le azioni di tipo Mi piace, risposte, modifiche e moderazione continueranno a essere trasmesse in tempo reale nella visualizzazione per sottogruppi di lavoro.
 
-## Pubblicazione dalla visualizzazione Hot Thread {#section_bmv_bdl_wy}
+## Registrazione dalla vista Thread sensibili {#section_bmv_bdl_wy}
 
-Quando si pubblica un commento dalla casella dei commenti nella vista Hot Threads, gli utenti tornano alla visualizzazione più recente.
+Quando si pubblica un commento dalla casella dei commenti superiore nella vista Thread sensibili, gli utenti torneranno alla visualizzazione più recente.
 
-Le risposte o i Mi piace pubblicati nella visualizzazione Hot Threads vengono visualizzati nel flusso senza modificarne le visualizzazioni. Le opzioni di ordinamento e il modulo di notifica dei commenti non sono disponibili nella visualizzazione Hot Thread.
+Le risposte o i piaceri inviati nella vista Hot Thread vengono visualizzati nel flusso senza modificare le viste. Le opzioni di ordinamento e il modulo di notifica dei commenti non sono disponibili nella visualizzazione Thread sensibili.
 
-Per ottimizzare le prestazioni, Livefyre memorizza i dati per un massimo di 2 minuti. Potrebbe verificarsi un leggero ritardo nell&#39;elenco dei thread più recenti.
+Per ottimizzare le prestazioni, Livefyre memorizza nella cache i dati per un massimo di 2 minuti. Potrebbe verificarsi un leggero ritardo nei filetti sensibili più recenti.
 
 
 
