@@ -1,19 +1,19 @@
 ---
-description: Recupera le informazioni della raccolta da Livefyre come jsonobject.
-seo-description: Recupera le informazioni della raccolta da Livefyre come jsonobject.
-seo-title: Getcollectioncontent Collection Method
+description: Recupera le informazioni sulla raccolta da Livefyre come JSONObject.
+seo-description: Recupera le informazioni sulla raccolta da Livefyre come JSONObject.
+seo-title: getCollectionContent, metodo di raccolta
 solution: Experience Manager
-title: Getcollectioncontent Collection Method
-uuid: 270 dcea 5-4 de 5-4 d 3 b-a 751-79 e 6 b 9 c 4 fd 93
+title: getCollectionContent, metodo di raccolta
+uuid: 270dcea5-4de5-4d3b-a751-79e6b9c4fd93
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Getcollectioncontent Collection Method{#getcollectioncontent-collection-method}
+# getCollectionContent, metodo di raccolta{#getcollectioncontent-collection-method}
 
-Recupera le informazioni della raccolta da Livefyre come jsonobject.
+Recupera le informazioni sulla raccolta da Livefyre come JSONObject.
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -21,25 +21,25 @@ Recupera le informazioni della raccolta da Livefyre come jsonobject.
 collection.getCollectionContent(); 
 ```
 
-## Esempio nodejs {#section_xkd_gds_rz}
+## Esempio NodeJS {#section_xkd_gds_rz}
 
 ```
 collection.getCollectionContent(callback); 
 ```
 
-## PHP Example {#section_ghf_gds_rz}
+## Esempio PHP {#section_ghf_gds_rz}
 
 ```
 $collection->getCollectionContent(); 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di Python {#section_dwg_gds_rz}
 
 ```
 collection.get_collection_content() 
 ```
 
-## Esempio Ruby {#section_enh_gds_rz}
+## Esempio di ruby {#section_enh_gds_rz}
 
 ```
 collection.get_collection_content 
