@@ -1,131 +1,131 @@
 ---
-description: Utilizzate la scheda Moderazione per impostare regole di premoderazione per i contenuti in arrivo, inclusi elenchi profaschi, regole di flag e indirizzi IP vietati.
-seo-description: Utilizzate la scheda Moderazione per impostare regole di premoderazione per i contenuti in arrivo, inclusi elenchi profaschi, regole di flag e indirizzi IP vietati.
-seo-title: Impostazione moderazione
+description: Utilizzate la scheda Moderazione per impostare le regole di moderazione per il contenuto in entrata, inclusi gli elenchi di profanità, le regole di flag e gli indirizzi IP vietati.
+seo-description: Utilizzate la scheda Moderazione per impostare le regole di moderazione per il contenuto in entrata, inclusi gli elenchi di profanità, le regole di flag e gli indirizzi IP vietati.
+seo-title: Impostazione della moderazione
 solution: Experience Manager
-title: Impostazione moderazione
-uuid: 0 ec 53 fdb -08 c 2-4058-88 cb -2 f 6 f 4 b 56 a 95 b
+title: Impostazione della moderazione
+uuid: 0ec53fdb-08c2-4058-88cb-2f6f4b56a95b
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# Impostazione moderazione{#setting-up-moderation}
+# Impostazione della moderazione{#setting-up-moderation}
 
-Utilizzate la scheda Moderazione per impostare regole di premoderazione per i contenuti in arrivo, inclusi elenchi profaschi, regole di flag e indirizzi IP vietati.
+Utilizzate la scheda Moderazione per impostare le regole di moderazione per il contenuto in entrata, inclusi gli elenchi di profanità, le regole di flag e gli indirizzi IP vietati.
 
-## Come funziona moderazione {#section_kyf_gvc_t1b}
+## Come funziona la moderazione {#section_kyf_gvc_t1b}
 
-Potete moderare il contenuto nei modi seguenti:
+Potete moderare i contenuti nei seguenti modi:
 
-* Premoderate automaticamente i contenuti per filtrare il contenuto indesiderato in base alle regole impostate prima di pubblicare il contenuto.
-* Eliminate o approvare manualmente i contenuti segnalati mediante la premoderazione automatica mediante la funzione modq o il contenuto dell&#39;app nella libreria.
-* Identificare i visitatori del sito che pubblicano ripetutamente contenuti offensivi per evitare di dover pubblicare, vietando utenti di Livefyre, utenti social o indirizzi IP specifici.
-* Identificare le persone e il contenuto che possono essere sempre visualizzati mediante la whitelist o la disattivazione dei filtri per flussi, siti o reti specifici.
+* Consente di premoderare automaticamente il contenuto per filtrare i contenuti indesiderati in base alle regole configurate prima della pubblicazione.
+* Eliminate o approvate manualmente il contenuto contrassegnato con la premoderazione automatica utilizzando ModQ o Contenuto app nella libreria.
+* Identificate i visitatori del sito che pubblicano ripetutamente contenuti offensivi per impedire loro di pubblicare contenuti, vietando specifici utenti Livefyre, utenti social o indirizzi IP.
+* Identificare le persone e i contenuti che possono essere sempre visualizzati dagli utenti autorizzati o disattivando i filtri per flussi, siti o reti specifici.
 
-Potete premoderare automaticamente il contenuto nei modi seguenti:
+Potete eseguire automaticamente la premoderazione dei contenuti nei seguenti modi:
 
-* Impostate le regole per segnalare automaticamente determinati tipi di contenuto:
+* Impostare regole per contrassegnare automaticamente determinati tipi di contenuto:
 
-   * Impostazione delle regole di segnalazione per il contenuto contrassegnato dai visitatori del sito utilizzando utilizzando **[!UICONTROL Settings > Moderation > Rules]**
-   * Configurare regole SAFE utilizzando **[!UICONTROL Settings > Moderation > Rules]**
-   * Divieto di utenti Twitter specifici **[!UICONTROL Settings > Streams]**
-   * Divieto di indirizzi IP **[!UICONTROL Settings > Bans]**
-   * Proibite le aree IP in base al codice del paese per richiesta. Il contenuto proibito verrà contrassegnato come SPAM.
+   * Imposta regole di flag per il contenuto contrassegnato dal flag dei visitatori del sito tramite **[!UICONTROL Settings > Moderation > Rules]**
+   * Configurare le regole SAFE utilizzando **[!UICONTROL Settings > Moderation > Rules]**
+   * Divieto di utilizzo di utenti Twitter specifici **[!UICONTROL Settings > Streams]**
+   * Divieto di indirizzi IP tramite **[!UICONTROL Settings > Bans]**
+   * Divieto di regione IP per codice paese per richiesta. I contenuti vietati saranno contrassegnati come SPAM.
 
-* Create un elenco di parole da utilizzare nell&#39;Elenco profanity per **[!UICONTROL Settings > Moderation > Rules]** la rete o il sito.
-* Gli utenti della whitelist (consenti sempre la visualizzazione del contenuto da questi utenti) utilizzano o disattivano i filtri per flussi, siti o reti specifici.
+* Crea un elenco di parole che consideri blanità nell'Elenco profitti **[!UICONTROL Settings > Moderation > Rules]** per la tua rete o il tuo sito.
+* Utenti della whitelist (consentono sempre la visualizzazione dei contenuti da parte di questi utenti) tramite l'uso o la disattivazione dei filtri per flussi, siti o reti specifici.
 
-Dopo aver impostato elenchi blasfemici, filtri SAFE e regole, puoi scegliere se premoderare i contenuti e applicare i filtri SAFE nei flussi. Per ulteriori informazioni, consultate [Opzioni regola di flusso per tutte le regole dei flussi](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Dopo aver impostato gli elenchi di profanità, i filtri SAFE e le regole, potete scegliere se eseguire la premoderazione del contenuto e applicare i filtri SAFE nei flussi. Per ulteriori informazioni, vedere Opzioni regola [flusso per tutte le regole](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)di flusso.
 
-Livefyre contrassegna i contenuti come **[!UICONTROL Approved]****[!UICONTROL Pending]****[!UICONTROL Junk]**, ecc. a seconda della provenienza del contenuto, della pubblicazione e delle regole impostate nel sistema. Nella tabella seguente sono descritte le azioni eseguite in Livefyre, in base a tali fattori.
+Livefyre contrassegna il contenuto come **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, **[!UICONTROL Junk]** ecc. a seconda di quale origine del contenuto, dove verrà pubblicato e quali regole avete impostato nel sistema. Nella tabella seguente sono descritte dettagliatamente le azioni eseguite da Livefyre, a seconda di questi fattori.
 
-## Come funziona moderazione
+## Come funziona la moderazione
 
-| Contenuto da: | Invio di contenuto a: | Stato approvazione |
+| Il Contenuto Viene Da: | Invio Di Contenuto A: | Stato approvazione |
 |--- |--- |--- |
 | Libreria | App | Contenuto approvato |
-| Ricerca social network | App | Contenuto approvato |
-| Regola di flusso | App | Il contenuto è contrassegnato come Ink da filtro SAFE? <br><ul><li>No - Flusso di lavoro per moderazione in-app</li><li>Sì - Contenuto trashed</li></ul> |
-| Libreria | Cartella | No status (in folder, not published, not trashed) |
-| Ricerca social network | Cartella | No status (in folder, not published, not trashed) |
-| Regola di flusso | Cartella | Il contenuto è contrassegnato come Ink da filtro SAFE? <br><ul><li>No - Nessuno stato (nella cartella, non pubblicato, non con tratto)</li><li>Sì - Contenuto trashed</li></ul> |
-| Post app | App | Il contenuto è contrassegnato come Ink da filtro SAFE? <br><ul><li>No - Flusso di lavoro di moderazione post-app</li><li>Sì - Contenuto trashed</li></ul> |
+| Ricerca social | App | Contenuto approvato |
+| Regola flusso | App | Il contenuto è contrassegnato come Junk dal filtro SAFE? <br><ul><li>No - Flusso di lavoro di moderazione da flusso a app</li><li>Sì - Contenuto con traccia</li></ul> |
+| Libreria | Cartella | Nessun stato (nella cartella, non pubblicato, non eliminato) |
+| Ricerca social | Cartella | Nessun stato (nella cartella, non pubblicato, non eliminato) |
+| Regola flusso | Cartella | Il contenuto è contrassegnato come Junk dal filtro SAFE? <br><ul><li>No - Nessuno stato (nella cartella, non pubblicato, non cancellato)</li><li>Sì - Contenuto con traccia</li></ul> |
+| Post app | App | Il contenuto è contrassegnato come Junk dal filtro SAFE? <br><ul><li>No - Flusso di lavoro di moderazione post-app</li><li>Sì - Contenuto con traccia</li></ul> |
 
-## Flusso di lavoro per moderazione in-app {#section_z5z_w4d_t1b}
+## Flusso di lavoro di moderazione da flusso a app {#section_z5z_w4d_t1b}
 
 ![](assets/stream_to_app_workflow.png)
 
-Prima che il contenuto di un flusso venga pubblicato su un&#39;app, Livefyre esegue i seguenti controlli per determinare cosa fare con il contenuto:
+Prima che il contenuto di un flusso venga pubblicato su un’app, Livefyre esegue i seguenti controlli per determinare le operazioni da eseguire con il contenuto:
 
-1. Se SAFE contrassegna il contenuto come posta indesiderata o rilascia, Livefyre trasmette il contenuto.
-1. Se SAFE non segnala il contenuto come incrinatura, Livefyre verifica se la premoderazione è attivata.
-1. Se la premoderazione è attivata, Livefyre contrassegna il contenuto come in sospeso.
-1. Se configurate le regole modq, Livefyre invia il contenuto a modq.
-1. Se la premoderazione non è attiva, Livefyre verifica se il contenuto è stato segnalato correttamente.
-1. Se SAFE ha segnalato il contenuto, Livefyre approva il contenuto e pubblica il contenuto nell&#39;app.
-1. Se SAFE contrassegna il contenuto e non hai impostato regole SAFE, Livefyre approva il contenuto e pubblica il contenuto nell&#39;app.
-1. Se SAFE contrassegna il contenuto e impostate regole SAFE, Livefyre verifica se configurate regole SAFE per il flusso.
-1. Se imposti regole SAFE per il flusso, Livefyre approva il contenuto e pubblica il contenuto nell&#39;app. Se non hai impostato regole SAFE per il flusso, Livefyre usa le regole SAFE moderazione per determinare come gestire il contenuto (inviato a modq, cestino, ecc.).
+1. Se SAFE contrassegna il contenuto come spazzatura o rilascio, Livefyre trascina il contenuto.
+1. Se SAFE non contrassegna il contenuto come spazzatura, Livefyre verifica se la moderazione è attivata.
+1. Se la moderazione è attivata, Livefyre contrassegna il contenuto come in sospeso.
+1. Se configurate le regole ModQ, Livefyre invia il contenuto a ModQ.
+1. Se la moderazione non è attivata, Livefyre verifica se SAFE ha contrassegnato il contenuto.
+1. Se SAFE ha segnalato il contenuto, Livefyre approva il contenuto e lo pubblica nell'app.
+1. Se SAFE contrassegna il contenuto e non avete impostato regole SAFE, Livefyre approva il contenuto e lo pubblica nell'app.
+1. Se SAFE contrassegna il contenuto e imposti regole SICUREZZA, Livefyre verifica se avete impostato regole SICURE per il Flusso.
+1. Se configurate le regole SAFE per il flusso, Livefyre approva il contenuto e lo pubblica nell'app. Se non avete impostato regole SAFE per il flusso, Livefyre utilizza le regole SAFE di moderazione per determinare come gestire il contenuto (invio a ModQ, cestino, ecc.).
 
 ## Flusso di lavoro di moderazione post-app {#section_fwn_w4d_t1b}
 
 ![](assets/post_to_app_workflow.png)
 
-Prima che il contenuto di un post app venga pubblicato su un&#39;app, Livefyre esegue i seguenti controlli per determinare cosa fare con il contenuto:
+Prima che il contenuto di un post dell'app venga pubblicato su un'app, Livefyre esegue i seguenti controlli per determinare le operazioni da eseguire con il contenuto:
 
 1. Se il filtro SAFE contrassegna il contenuto come rilascio, Livefyre rilascia il contenuto.
-1. Se SAFE non segnala il contenuto come rilascio, Livefyre verifica se la premoderazione è attivata. Se la premoderazione è attivata, Livefyre contrassegna il contenuto come in sospeso. Se configurate le regole modq, Livefyre invia il contenuto a modq come sospeso. In caso contrario, il contenuto rimane in sospeso in Contenuto app nella libreria.
-1. Se la premoderazione non è attiva, Livefyre verifica se il contenuto è stato segnalato correttamente. In caso contrario Livefyre approva il contenuto e pubblica il contenuto nell&#39;app.
-1. Se SAFE contrassegna il contenuto e configurate regole SAFE, Livefyre usa la regola SAFE per determinare come gestire il contenuto (inviato a modq, cestino, ecc.). Se SAFE contrassegna il contenuto e non hai impostato regole SAFE, Livefyre approva il contenuto e pubblica il contenuto nell&#39;app.
+1. Se SAFE non contrassegna il contenuto come rilascio, Livefyre verifica se la moderazione è attivata. Se la moderazione è attivata, Livefyre contrassegna il contenuto come in sospeso. Se configurate le regole ModQ, Livefyre invia il contenuto a ModQ come in sospeso. In caso contrario, il contenuto rimane in sospeso in Contenuto app nella libreria.
+1. Se la moderazione non è attivata, Livefyre verifica se SAFE ha contrassegnato il contenuto. In caso contrario, Livefyre approva il contenuto e lo pubblica nell'app.
+1. Se SAFE contrassegna il contenuto e imposti regole SAFE, Livefyre utilizza la regola SAFE per determinare come gestire il contenuto (invio a ModQ, cestino, ecc.). Se SAFE contrassegna il contenuto e non avete impostato regole SAFE, Livefyre approva il contenuto e lo pubblica nell'app.
 
-## Filtri in massa {#section_lyk_ktx_vy}
+## Filtri di massa {#section_lyk_ktx_vy}
 
-Il filtro in blocco cerca contenuti ripetitivi pubblicati in tutte le reti Livefyre entro un breve intervallo di tempo. Se rilevato, questo contenuto viene contrassegnato come In blocco e quindi ritagliato per impostazione predefinita. Mentre il contenuto in massa può essere generato dall&#39;utente (ad esempio «Touchdown». »» viene pubblicata ripetutamente in una chat durante un gioco di calcio più diffuso), la maggior parte dei quali è dotata di campagne spam. Questo filtro è indipendente dalla lingua e funziona con qualsiasi lingua. Per personalizzare il filtro in blocco, contattate il supporto Livefyre.
+Il filtro di massa cerca contenuti ripetitivi pubblicati su tutte le reti Livefyre entro un breve intervallo di tempo. Se rilevato, il contenuto viene contrassegnato come Bulk e quindi eliminato per impostazione predefinita. Anche se il contenuto in massa può essere generato dall’utente (ad esempio, "Touchdown!") pubblicato ripetutamente in una chat durante una partita di calcio popolare), la maggior parte ha origine con campagne di spam. Questo filtro è indipendente dalla lingua e funziona con qualsiasi lingua. Per personalizzare il filtro di massa, dovete contattare il supporto Livefyre.
 
 ## Regole {#section_gqz_ksk_f1b}
 
-Utilizza la sezione Regole per creare regole di premoderazione basate su SAFE e su quelli applicati dall&#39;utente. Questo pannello offre due tipi di regole:
+Utilizzate la sezione Regole per creare regole di pre-moderazione, basate su flag SICURI e applicati dall'utente. Questo pannello offre due tipi di regole:
 
-* **[!UICONTROL Flag Rules:]** specificare un&#39;azione che deve essere eseguita su un commento segnalata dagli utenti un numero di volte definito.
-* ****[!UICONTROL SAFE Rules:]combinare flag SAFE con azioni da utilizzare per il contenuto contrassegnato.
+* **[!UICONTROL Flag Rules:]** specificate un’azione da eseguire su un commento contrassegnato dagli utenti un numero definito di volte.
+* **[!UICONTROL SAFE Rules:]**combinare i flag SAFE con le azioni da eseguire sul contenuto contrassegnato.
 
-Per creare regole di segnalazione, selezionate il flag (Offensivo, Non d&#39;accordo, Non d&#39;accordo o Spam), immettete il numero di volte che deve essere applicato a una parte del contenuto e selezionate l&#39;azione da intraprendere. Potete impostare una Regola di flag per ogni opzione di flag (Offensiva, Fuori argomento, Non d&#39;accordo o Spam).
+Per creare regole di contrassegno, selezionate il flag (Offensivo, Disattivato, Non d’accordo o Spam), immettete il numero di volte in cui deve essere applicato a un contenuto e selezionate l’azione da intraprendere. È possibile impostare una regola di contrassegno per ciascuna opzione di flag (Offensivo, Disattivato, Non d'accordo o Spam).
 
-Potete creare regole a livello di rete, sito e flusso. Le regole a livello di sito ereditano le regole di rete, a meno che tu non configura le regole del sito in modo diverso. Le regole del flusso ereditano le regole del sito a meno che non siano configurate in modo diverso.
+Puoi creare regole a livello di rete, sito e flusso. Le regole a livello di sito ereditano le regole di rete, a meno che le regole del sito non vengano configurate in modo diverso. Le regole di flusso ereditano le regole del sito a meno che non le configuriate in modo diverso.
 
 Azioni disponibili:
 
-* ****[!UICONTROL Trash it:]invia il commento contrassegnato al cestino.
-* **[!UICONTROL Bozo it:]** nasconde il commento segnalato da tutti gli utenti, tranne il relativo scrittore, a cui resta visibile.
-* **[!UICONTROL Pending:]** imposta il contenuto in sospeso. Se impostate Premoderazione su Attivato, **[!UICONTROL Settings > ModQ]** questo si troverà in modq. In caso contrario, sarà disponibile solo in Contenuto app.
+* **[!UICONTROL Trash it:]**invia il commento contrassegnato al cestino.
+* **[!UICONTROL Bozo it:]** nasconde il commento contrassegnato da tutti gli utenti, tranne il relativo autore, a cui resta visibile.
+* **[!UICONTROL Pending:]** imposta il contenuto come in sospeso. Se si imposta Premoderazione su Attivato in **[!UICONTROL Settings > ModQ]**, il valore sarà in ModQ. In caso contrario si troverà solo in Contenuto app.
 
 >[!NOTE]
 >
->Livefyre consiglia di creare regole ai commenti Bozo segnalati come Spam o Offensivi da cinque utenti.
+>Livefyre consiglia di creare delle regole per i commenti Bozo contrassegnati come Spam o Offensive da cinque utenti.
 
-## Raccomandazioni moderazione {#section_ec3_vr3_2cb}
+## Raccomandazioni per moderazione {#section_ec3_vr3_2cb}
 
-Potete utilizzare raccomandazioni di moderazione per determinare come moderare i contenuti pubblicati dai visitatori del sito in Livefyre Apps. L&#39;indicatore raccomandazione moderazione consiglia quando è probabile che una parte del contenuto venga scaricata, in base alle azioni eseguite in precedenza su contenuti simili. Per utilizzare Recommendations moderazione:
+Potete utilizzare le raccomandazioni di moderazione per determinare come moderare il contenuto pubblicato dai visitatori del sito nelle app Livefyre. L'indicatore di raccomandazione moderazione consiglia di specificare quando è probabile che una parte del contenuto venga eliminata, in base alle azioni precedentemente eseguite su contenuti simili. Per utilizzare le raccomandazioni di moderazione:
 
-1. Attivate la funzionalità di Moderazione di Moderazione contattando il vostro tecnico di supporto Adobe Livefyre.
-1. Configurare raccomandazioni di moderazione in Impostazioni di rete.
+1. Attivate la funzionalità Moderation Recommendations (Raccomandazioni per moderazione) contattando il vostro tecnico del supporto Adobe Livefyre.
+1. Configurate le raccomandazioni di moderazione in Impostazioni di rete.
 
-   Configurate le raccomandazioni di moderazione utilizzando l&#39; **[!UICONTROL Livefyre Recommends Trash]** impostazione sotto **[!UICONTROL Network Settings]**.
+   Configurate le raccomandazioni di moderazione utilizzando l' **[!UICONTROL Livefyre Recommends Trash]** impostazione in **[!UICONTROL Network Settings]**.
 
    ![](assets/image_mod_reco_trash.png)
 
-1. Configurate una regola SAFE per indicare a Livefyre cosa fare con il contenuto identificato dalla raccomandazione moderazione come contenuto che sarà probabilmente sottoposto a tradimento. Per ulteriori informazioni su come impostare una regola SAFE per l&#39; **[!UICONTROL Livefyre Recommends Trash]** opzione, vedi [Moderazione](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
+1. Configurate una regola SAFE per indicare a Livefyre cosa fare con il contenuto che la raccomandazione di moderazione identifica come contenuto che verrà probabilmente ignorato. Per ulteriori informazioni su come impostare una regola SAFE per l' **[!UICONTROL Livefyre Recommends Trash]** opzione, vedere [Moderazione](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
 
    ![](assets/modreco4.png)
 
-1. Utilizzate il **[!UICONTROL Moderation Recommendation Indicator]** metodo modq o in Content Content (Contenuto app) per filtrare il contenuto che la raccomandazione moderazione identifica con la massima probabilità.
+1. Utilizzate **[!UICONTROL Moderation Recommendation Indicator]** in ModQ o in Contenuto app per filtrare il contenuto che la raccomandazione di moderazione identifica come probabile che venga cancellato.
 
-   In modq, l&#39;indicatore ha l&#39;aspetto seguente: ![](assets/mod_reco1.png)
+   In ModQ, l’indicatore si presenta così:  ![](assets/mod_reco1.png)
 
-   Per ulteriori informazioni su come utilizzare Recommendations Recommendations (Raccomandazioni moderazione) per moderare il contenuto in modq, vedere [modq](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
+   Per ulteriori informazioni su come utilizzare le raccomandazioni per moderare il contenuto in ModQ, consultate [ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
 
-   In Contenuto app, le raccomandazioni di moderazione si presentano come segue: ![](assets/modreco3.png)
+   Nel contenuto dell'app, le raccomandazioni di moderazione hanno l'aspetto seguente:  ![](assets/modreco3.png)
 
-   Per ulteriori informazioni su come utilizzare Recommendations Recommendations (Raccomandazioni moderazione) in Content Content (Contenuto app), vedi [Moderare il contenuto mediante il contenuto dell&#39;app](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
+   Per ulteriori informazioni sull'utilizzo di Recommendations per moderazione in Contenuto app, consultate [Moderate Content Using App Content (Utilizzo di contenuti](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)app per moderazione).
