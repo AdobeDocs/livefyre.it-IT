@@ -1,10 +1,10 @@
 ---
-description: Consente ai clienti di esprimere le proprie opinioni in tempo reale.
-seo-description: Consente ai clienti di esprimere le proprie opinioni in tempo reale.
+description: Consentire ai clienti di esprimere le loro opinioni in tempo reale.
+seo-description: Consentire ai clienti di esprimere le loro opinioni in tempo reale.
 seo-title: Sondaggi
 solution: Experience Manager
 title: Sondaggi
-uuid: 19264 eb 2-53 f 8-4 a 66-a 265-38 efb 634 a 207
+uuid: 19264eb2-53f8-4a66-a265-38efb634a207
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Sondaggi{#polls}
 
-Consente ai clienti di esprimere le proprie opinioni in tempo reale.
+Consentire ai clienti di esprimere le loro opinioni in tempo reale.
 
-I sondaggi consentono di creare e pubblicare sondaggi rapidi e una tantum sul sito. Utilizzare sondaggi per incoraggiare la partecipazione di Reader, raccogliere feedback, opinioni e richieste da parte dei visitatori del sito.
+I sondaggi consentono di creare e pubblicare sondaggi veloci con una sola domanda sul sito. Utilizzate Sondaggi per incoraggiare la partecipazione dei lettori, raccogliere feedback, opinioni e richieste dai visitatori del sito.
 
 >[!NOTE]
 >
->I sondaggi non collegano a un flusso.
+>I sondaggi non si collegano a un flusso.
 
