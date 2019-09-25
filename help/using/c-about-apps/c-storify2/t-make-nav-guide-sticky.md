@@ -1,19 +1,19 @@
 ---
-description: Scegliete se la Guida di navigazione deve essere inserita in un'area specifica dello schermo.
-seo-description: Scegliete se la Guida di navigazione deve essere inserita in un'area specifica dello schermo.
-seo-title: Aprite la Guida di navigazione
+description: Scegliere di impostare la Guida di navigazione su un'area specifica dello schermo.
+seo-description: Scegliere di impostare la Guida di navigazione su un'area specifica dello schermo.
+seo-title: Impostazione della guida di navigazione
 solution: Experience Manager
-title: Aprite la Guida di navigazione
-uuid: baa 74 ecb-d 6 eb -4191-ac 15-9 a 878 f 70 bd 96
+title: Impostazione della guida di navigazione
+uuid: baa74ecb-d6eb-4191-ac15-9a878f70bd96
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Aprite la Guida di navigazione{#make-the-navigation-guide-sticky}
+# Impostazione della guida di navigazione{#make-the-navigation-guide-sticky}
 
-Scegliete se la Guida di navigazione deve essere inserita in un&#39;area specifica dello schermo.
+Scegliere di impostare la Guida di navigazione su un'area specifica dello schermo.
 
-1. In Storify 2 App Designer, attivate l&#39; **[!UICONTROL Navigation Guide]** interruttore.
-1. Attivate l&#39; **[!UICONTROL Stickiness]** interruttore.
+1. In Storify 2 App Designer, attivare l' **[!UICONTROL Navigation Guide]** interruttore.
+1. Accendere l' **[!UICONTROL Stickiness]** interruttore.
