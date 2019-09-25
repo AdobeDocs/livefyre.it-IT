@@ -1,10 +1,10 @@
 ---
-description: L'app Sidenotes offre queste funzioni per il sito.
-seo-description: L'app Sidenotes offre queste funzioni per il sito.
+description: L'app Sidenotes offre queste funzionalità per il sito.
+seo-description: L'app Sidenotes offre queste funzionalità per il sito.
 seo-title: Funzioni Sidenotes
 solution: Experience Manager
 title: Funzioni Sidenotes
-uuid: f 175 c 1 a 7-2 ccb -43 f 9-bc 21-cc 418 dbbeb 48
+uuid: f175c1a7-2ccb-43f9-bc21-cc418dbbeb48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,16 +13,16 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Funzioni Sidenotes{#sidenotes-features}
 
-L&#39;app Sidenotes offre queste funzioni per il sito.
+L'app Sidenotes offre queste funzionalità per il sito.
 
 
 
-* Per rispondere a una parte di un paragrafo, evidenziate il testo su cui desiderate inserire dei commenti e fate clic sull&#39;icona a forma di matita per scrivere il relativo Sidenote.
-* Aggiungete filiali a un paragrafo facendo clic sull&#39;icona Sidenotes visualizzata alla fine del paragrafo e aggiungendo il commento.
-* Commenta un&#39;immagine facendo clic sull&#39;icona Sidenoli all&#39;angolo dell&#39;immagine e aggiungendo il commento.
-* Per condividere il testo su Facebook o Twitter, selezionatelo e fate clic sull&#39;icona Condividi su Facebook o Condividi su Twitter. La condivisione di contenuto evidenziato consente agli utenti di modificare il testo che verrà condiviso e invia un collegamento al contenuto originale con la condivisione.
-* Leggere i commenti di altri, facendo clic sulla bolla pensiero Livefyre che mostra il numero di commenti inclusi in una parte della pagina.
-* Rispondi alle filigrane esistenti.
-* Votate sulla fruizione delle note, quindi inviate note più utili all&#39;inizio dell&#39;elenco delle annotazioni.
-* Condividi specifici utenti su Facebook o Twitter facendo clic sulle ellissi che appaiono quando passa il mouse sulla nota.
+* Rispondete a qualsiasi parte di un paragrafo, evidenziando il testo sul quale desiderate aggiungere dei commenti, quindi facendo clic sull’icona matita per scrivere la nota.
+* Aggiungete note a un paragrafo, facendo clic sull’icona Sidenotes visualizzata alla fine del paragrafo e aggiungendo il relativo commento.
+* Aggiungete un commento a un’immagine facendo clic sull’icona Note nell’angolo dell’immagine e aggiungendo il relativo commento.
+* Condividi il testo su Facebook o Twitter, selezionando il testo, quindi facendo clic sull’icona Condividi su Facebook o Condividi su Twitter. La condivisione di contenuti evidenziati consente agli utenti di modificare il testo che verrà condiviso e invia un collegamento al contenuto originale con la condivisione.
+* Per leggere i commenti di altri utenti, fare clic sulla bolla del pensiero di Livefyre che mostra il numero di commenti inclusi per qualsiasi parte della pagina.
+* Rispondi alle note esistenti.
+* Votate sull'utilità delle note, quindi inviate note più utili in cima all'elenco delle annotazioni.
+* Per condividere note specifiche su Facebook o Twitter, fate clic sulle ellissi visualizzate quando passate il puntatore del mouse sulla nota.
 
