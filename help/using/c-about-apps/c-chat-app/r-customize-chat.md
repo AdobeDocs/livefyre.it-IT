@@ -1,10 +1,10 @@
 ---
-description: Personalizzate le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di partecipare in tempo reale agli eventi in diretta o agli annunci.
-seo-description: Personalizzate le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di partecipare in tempo reale agli eventi in diretta o agli annunci.
+description: Potete personalizzare le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di avviare una conversazione in tempo reale intorno a eventi o annunci in diretta.
+seo-description: Potete personalizzare le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di avviare una conversazione in tempo reale intorno a eventi o annunci in diretta.
 seo-title: Personalizzazioni chat
 solution: Experience Manager
 title: Personalizzazioni chat
-uuid: eac 7 be 2 f -2 dcd -4 a 6 b-ac 84-e 5 e 650 af 82 e 0
+uuid: eac7be2f-2dcd-4a6b-ac84-e5e650af82e0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,47 +13,47 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Personalizzazioni chat{#chat-customizations}
 
-Personalizzate le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di partecipare in tempo reale agli eventi in diretta o agli annunci.
+Potete personalizzare le app chat per visualizzare il contenuto come un flusso continuo di chat non thread, consentendo al pubblico di avviare una conversazione in tempo reale intorno a eventi o annunci in diretta.
 
 
 
-Queste opzioni sono disponibili nell&#39;app chat:
+Queste opzioni sono disponibili dall'app chat:
 
 * **[!UICONTROL Number of posts to load]**
 
-   Immettete il numero di post da visualizzare al momento del caricamento iniziale. È possibile immettere tra 1 e 50.
+   Immettere il numero di post da visualizzare al caricamento iniziale. È possibile immettere tra 1 e 50.
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Se abilitata, i post vengono visualizzati con una casella circostante e il colore di sfondo determinato dalla selezione **del tema** applicata.
+   Se attivato, i post verranno visualizzati con una casella circostante e verrà applicato il colore di sfondo dettato dalla selezione del **tema** .
 
 * **[!UICONTROL Preview media]**
 
-   Se abilitata, gli allegati multimediali verranno visualizzati come file multimediali completamente espansi nel flusso. Se disattivato, gli elementi multimediali vengono visualizzati solo come collegamenti.
+   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disabilitato, il supporto viene visualizzato solo come collegamenti.
 
 * **[!UICONTROL Number of listeners]**
 
-   Se abilitata, verrà visualizzato il numero di utenti attivi nella pagina.
+   Se attivato, verrà visualizzato il numero di utenti attivi sulla pagina.
 
 * **[!UICONTROL User tags]**
 
-   Se abilitata, i tag utente saranno visualizzati con il contenuto pubblicato.
+   Se attivato, i tag utente verranno visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL User avatars]**
 
-   Se abilitata, gli avatar dell&#39;utente vengono visualizzati con il contenuto pubblicato.
+   Se attivato, gli avatar degli utenti verranno visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL Users may share comments]**
 
-   Se abilitata, gli utenti possono condividere i commenti pubblicati su Twitter, Facebook o linkedin. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni integrazione &gt; Condivisione social network.
+   Se attivato, gli utenti possono condividere i commenti postati su Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni di integrazione &gt; Condivisione social network.
 
 * **[!UICONTROL Additional sort option]**
 
-   Consente di ordinare le opzioni di ordinamento per gli utenti finali: ** [!UICONTROL Most liked]** o **[!UICONTROL Most active]**.
+   Consente di offrire opzioni di ordinamento per gli utenti finali:** [!UICONTROL Most liked]** o **[!UICONTROL Most active]**.
 
-Potete personalizzare Chat utilizzando:
+Potete personalizzare la chat utilizzando:
 
-* **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sullo standard **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e **[!UICONTROL Config]** le opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sugli standard **[!UICONTROL Style]** e sulle **[!UICONTROL Config]** opzioni di tutte le app in **[!UICONTROL App Designer]**.
 
-* Strumenti di integrazione. Per ulteriori informazioni su come personalizzare Chat mediante Strumenti di integrazione, consultate la Chat.
+* Strumenti di integrazione. Consultate Usare la chat per ulteriori informazioni su come personalizzare la chat mediante gli strumenti di integrazione.
 
