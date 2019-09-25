@@ -1,46 +1,46 @@
 ---
-description: Il filtro di UGC per ID prodotto consente di incorporare la stessa app su più pagine, visualizzando UGC specifico per ogni pagina.
-seo-description: Il filtro di UGC per ID prodotto consente di incorporare la stessa app su più pagine, visualizzando UGC specifico per ogni pagina.
-seo-title: Filtrare UGC per ID prodotto
-title: Filtrare UGC per ID prodotto
-uuid: 98108 ddb -5710-4331-891 b -7 e 1 bbb 106059
+description: Il filtro UGC per ID prodotto consente di incorporare la stessa app esattamente su più pagine, mostrando allo stesso tempo UGC per ogni pagina.
+seo-description: Il filtro UGC per ID prodotto consente di incorporare la stessa app esattamente su più pagine, mostrando allo stesso tempo UGC per ogni pagina.
+seo-title: Filtra UGC per ID prodotto
+title: Filtra UGC per ID prodotto
+uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
 source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
 
 ---
 
 
-# Filtrare UGC per ID prodotto {#filter-ugc-product-id}
+# Filtra UGC per ID prodotto {#filter-ugc-product-id}
 
-Il filtro di UGC per ID prodotto consente di incorporare la stessa app su più pagine, visualizzando UGC specifico per ogni pagina.
+Il filtro UGC per ID prodotto consente di incorporare la stessa app esattamente su più pagine, mostrando allo stesso tempo UGC per ogni pagina.
 
-Per filtrare UGC per ID prodotto, effettuate le seguenti operazioni:
+Per filtrare gli UGC per ID prodotto, attenetevi alla seguente procedura:
 
-1. In Livefyre Studio, passate alla **[!UICONTROL Apps]** scheda.
+1. In Livefyre Studio, andate alla **[!UICONTROL Apps]** scheda.
 
-1. Selezionate l&#39;app da modificare.
+1. Selezionate l'app da modificare.
 
 1. Selezionare la scheda Designer nella barra a sinistra.
 
-1. Abilita **[!UICONTROL Filter UGC by Product ID]**.
+1. Enable **[!UICONTROL Filter UGC by Product ID]**.
 
 ![](assets/filter-ugc-product-id.png)
 
-1. Selezionate le cartelle di prodotto di livello principale contenenti il prodotto o i prodotti di cui desiderate filtrare UGC.
-Usate CTRL/Comando + clic per selezionare più cartelle.
+1. Selezionate le cartelle di prodotti di livello principale che contengono il prodotto o i prodotti per i quali desiderate filtrare l’utilizzo di UGC.
+Per selezionare più cartelle, usate Ctrl/Comando + clic.
 
-1. Disattiva **[!UICONTROL Show related content]**.
-Quando abilitato, il contenuto filtrato utilizzando l&#39; `data-lf-attr-product` attributo verrà visualizzato per primo, seguita da tutti gli altri contenuti dell&#39;app.
+1. Disable **[!UICONTROL Show related content]**.
+Quando attivato, il contenuto filtrato utilizzando l' `data-lf-attr-product` attributo viene visualizzato per primo, seguito da tutti gli altri contenuti nell'app.
 
-1. Fate clic **[!UICONTROL Publish]** su.
+1. Fai clic su **[!UICONTROL Publish]**.
 
-1. Inserite gli ID prodotto che desiderate filtrare nel codice risultante.
+1. Inserite gli ID prodotto da filtrare nel codice risultante.
 
 >[!NOTE]
 >
->Per individuare gli ID prodotto, andate alla **[!UICONTROL Settings > Products]** pagina. Individua il prodotto desiderato e selezionalo e l&#39;ID viene visualizzato.
+>Per individuare gli ID prodotto, passa a **[!UICONTROL Settings > Products]**. Individuate il prodotto desiderato e selezionatelo e viene visualizzato l’ID.
 
-Ad esempio, per un&#39;app Media Wall viene generato il seguente codice:
+Ad esempio, per un'app Media Wall viene generato il seguente codice:
 
 ```
 <script type="text/javascript" src="https://cdn.livefyre.com/
@@ -53,9 +53,9 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-Per assegnare tag a un prodotto, sostituitelo `<product 1>` nell `data-lf-attr-product` &#39;attributo con l&#39;ID prodotto desiderato. Potete assegnare un tag a un prodotto o più semplicemente aggiungendo altri ID prodotto separati da virgola. I prodotti devono essere contenuti nella cartella di prodotto o cartelle di livello principale selezionate al Passaggio 5.
+Per assegnare un tag a un prodotto, sostituite `<product 1>` nell’ `data-lf-attr-product` attributo con l’ID prodotto desiderato. Potete assegnare tag a uno o più prodotti aggiungendo ID prodotto separati da virgola aggiuntivi. I prodotti devono essere contenuti nella cartella o nelle cartelle di livello superiore selezionate al punto 5.
 
-Il segmento di codice modificato viene visualizzato come:
+Il segmento di codice modificato viene visualizzato come segue:
 
 ```
 <script type="text/javascript" src="https://cdn.livefyre.com/
@@ -68,4 +68,4 @@ Livefyre.js"></script><div class="lf-app-embed" data-lfapp="
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-L&#39;app ora visualizza solo gli ID prodotto con tag.
+L'app ora visualizzerà solo gli ID prodotto con tag.
