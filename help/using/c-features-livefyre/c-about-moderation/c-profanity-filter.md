@@ -1,90 +1,90 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Utilizzo del filtro profanity
+seo-title: Utilizzo del filtro Profanity
 solution: Experience Manager
-title: Utilizzo del filtro profanity
-uuid: b 0 b 1 fbae-c 88 c -403 c -9 b 91-df 6620675 f 39
+title: Utilizzo del filtro Profanity
+uuid: b0b1fbae-c88c-403c-9b91-df6620675f39
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Utilizzo del filtro profanity{#using-the-profanity-filter}
+# Utilizzo del filtro Profanity{#using-the-profanity-filter}
 
-Tutto il contenuto pubblicato in un&#39;app Livefyre viene controllato. Se una parola inclusa nell&#39;elenco blasfemia si trova nel contenuto o nel nome visualizzato di un utente, il contenuto verrà contrassegnato come «Profanity», consentendo di filtrarlo per Premoderazione, Regole, modq o ricerche generiche in Contenuto app.
-
->[!NOTE]
->
->Il contenuto degli amministratori di studio e i manager non sono soggetti alla verifica della regola profanity e il contenuto pubblicato da un moderatore non verrà segnalato.
-
-Livefyre fornisce un elenco profanity predefinito. Potete scegliere di applicare questo elenco a livello di rete, fornire un elenco personalizzato o utilizzare un totale di entrambi. I singoli siti all&#39;interno della rete possono ereditare l&#39;elenco profanity di rete, oppure utilizzare un elenco personalizzato per essere specifico del sito.
-
-Per fornire un elenco profanity personalizzato come predefinito di rete, inviatelo al vostro account manager Livefyre.
-
-## Abilitazione del filtro profanity {#section_yqc_qsk_f1b}
-
-Abilita e configura il filtro blasfemico sia a livello di rete che di sito. Disattivate il filtro blasfemico a livello di rete per disattivare automaticamente il filtro blasfemia per tutti i siti che ereditano dalla rete.
+Tutto il contenuto pubblicato in un'app Livefyre viene controllato per verificarne la correttezza. Se una parola inclusa nell'elenco delle profanità si trova nel contenuto o nel nome visualizzato di un utente, il contenuto verrà contrassegnato come "Profanity", consentendo di filtrarlo per la verifica preliminare, le regole, il ModQ o le ricerche generali in Contenuto app.
 
 >[!NOTE]
 >
->Tutti i contenuti passati a Livefyre sono soggetti a controllo. Se viene trovato contenuto che include parole contenute nell&#39;elenco fittizio SAFE o nell&#39;elenco Profanity personalizzato, viene segnalata «Profanity. »» Per impostare Livefyre per intervenire automaticamente su questi elementi, passate **[!UICONTROL Enable Profanity Checking]****[!UICONTROL ON]** a.
+>I contenuti degli amministratori e dei manager di Studio non sono soggetti al controllo Regola di profitto e i contenuti pubblicati da un moderatore non vengono contrassegnati.
 
-## Abilitare il filtro profanity per una rete {#section_twd_ssk_f1b}
+Livefyre fornisce un elenco di profanità predefinito. È possibile scegliere di applicare questo elenco a livello di rete, fornire un proprio elenco o utilizzare un aggregato dei due. I singoli siti all'interno della rete possono ereditare l'elenco delle proprietà della rete o utilizzare un elenco personalizzato per essere specifici del sito.
 
-1. Selezionate **[!UICONTROL Network]** dal menu a discesa di rete.
-1. **[!UICONTROL Settings > Network Settings > Moderation]** Vai a.
-1. Scorrete verso il basso fino alla **[!UICONTROL Profanity List]** e **[!UICONTROL Enable Profanity Checking]** impostate su **[!UICONTROL ON]**.
+Per fornire il proprio elenco di redditività personalizzato come impostazione predefinita della rete, inviatelo al vostro account manager Livefyre.
 
-1. Utilizzare il **[!UICONTROL Update Network Profanity List]** campo per aggiungere parole all&#39;elenco o fare clic su una parola per rimuoverla dall&#39;elenco.
+## Abilitazione del filtraggio della redditività {#section_yqc_qsk_f1b}
+
+Abilitare e configurare il filtro di profanità a livello di rete e di sito. Disattiva il filtro di profondità a livello di rete per disattivare automaticamente il filtro di profanità per tutti i siti che ereditano dalla rete.
 
 >[!NOTE]
 >
->La modifica dell&#39;elenco profanity a livello di rete non influirà sugli elenchi a livello di sito già inseriti. Per fare in modo che le modifiche dalla rete siano effettuate al sito, selezionate **[!UICONTROL Restore Network List]** per il sito una volta apportate le modifiche.
+>Tutto il contenuto che passa attraverso Livefyre viene controllato per verificarne la blasfemia. Se viene trovato del contenuto che include le parole contenute nell'elenco di profanità SAFE predefinito o nell'elenco di Profanity personalizzato, viene contrassegnato come "Profanity". Per impostare Livefyre affinché adotti automaticamente azioni su questi elementi, passate **[!UICONTROL Enable Profanity Checking]** a **[!UICONTROL ON]**.
 
-## Attivare il filtro profanity per un sito {#section_fld_wsk_f1b}
+## Abilitare il filtro Profanity per una rete {#section_twd_ssk_f1b}
+
+1. Selezionare **[!UICONTROL Network]** dal menu a discesa di rete.
+1. Vai a **[!UICONTROL Settings > Network Settings > Moderation]**.
+1. Scorrete verso il basso fino a **[!UICONTROL Profanity List]**, quindi impostate **[!UICONTROL Enable Profanity Checking]** su **[!UICONTROL ON]**.
+
+1. Utilizzare il **[!UICONTROL Update Network Profanity List]** campo per aggiungere parole all'elenco, oppure fare clic su una parola per rimuoverlo dall'elenco.
+
+>[!NOTE]
+>
+>La modifica dell'elenco delle proprietà a livello di rete non influisce sugli elenchi già esistenti a livello di sito. Per assicurarsi che le modifiche dalla rete siano apportate al sito, selezionare **[!UICONTROL Restore Network List]** il sito dopo che sono state apportate le modifiche.
+
+## Abilitare il filtro Profanity per un sito {#section_fld_wsk_f1b}
 
 1. Selezionate il sito dal menu a discesa di rete.
-1. **[!UICONTROL Settings > Site Settings > Moderation]** Vai a.
-1. Scorrete verso il basso fino alla **[!UICONTROL Profanity List]****[!UICONTROL Enable Profanity Checking]** posizione desiderata **[!UICONTROL ON]**.
+1. Vai a **[!UICONTROL Settings > Site Settings > Moderation]**.
+1. Scorrete verso il basso fino a **[!UICONTROL Profanity List]** e impostate **[!UICONTROL Enable Profanity Checking]** su **[!UICONTROL ON]**.
 
-1. Scegliete una delle opzioni seguenti:
+1. Scegliete una delle seguenti opzioni:
 
-   * To inherit the Profanity List from the network (this is not common), set **[!UICONTROL Use Site Profanity List]** to **[!UICONTROL OFF]**.
+   * Per ereditare l'Elenco profitti dalla rete (non comune), impostare **[!UICONTROL Use Site Profanity List]** su **[!UICONTROL OFF]**.
 
-   * Per modificare l&#39;elenco Profanity specifico per il sito, impostato **[!UICONTROL Use Site Profanity List]** su **[!UICONTROL On]** Aperto **[!UICONTROL Update Profanity List]** , dove potete modificare l&#39;elenco:
+   * Per modificare l'Elenco profitti specifico per il sito, impostare **[!UICONTROL Use Site Profanity List]** per **[!UICONTROL On]** **[!UICONTROL Update Profanity List]** aprire il campo, dove è possibile modificare l'elenco:
 
-      * Per rimuovere una parola, fate clic sulla parola.
-      * Per aggiungere una parola, digitate la parola nella **[!UICONTROL Add new word]** casella e toccate **[!UICONTROL Return]**.
+      * Per rimuovere una parola, fare clic sulla parola.
+      * Per aggiungere una parola, digitare la parola nella **[!UICONTROL Add new word]** casella e premere **[!UICONTROL Return]**.
 
-      * Per verificare se una parola è inclusa nell&#39;elenco, digitate la parola nella **[!UICONTROL Test profanity filter]** casella.
-   * Per reimportare l&#39;elenco Profetico di rete e applicarlo al sito, fate clic **[!UICONTROL Restore Network List]** su.
-   * Per cancellare tutto il contenuto dall&#39;elenco e iniziare da zero, fate clic **[!UICONTROL Clear List]** su.
+      * Per verificare se una parola è inclusa nell'elenco, digitare la parola nella **[!UICONTROL Test profanity filter]** casella.
+   * Per reimportare l'elenco delle proprietà della rete e applicarlo al sito, fare clic su **[!UICONTROL Restore Network List]**.
+   * Per cancellare tutto il contenuto dall'elenco e iniziare da zero, fare clic **[!UICONTROL Clear List]**.
 
 
-## Utilizzo del contenuto che contiene profanity {#section_epy_dtk_f1b}
+## Utilizzo di contenuti che contengono proprietà {#section_epy_dtk_f1b}
 
-Utilizzate l&#39;elenco Profanity per filtrare le ricerche dei contenuti e creare regole di premoderazione per modq.
+Utilizzate l'Elenco profitti per filtrare le ricerche di contenuto e creare regole di moderazione per ModQ.
 
-Per cercare contenuti con blasfemia, vai a **[!UICONTROL Library > App Content]** e **[!UICONTROL Filter by Flags]** seleziona la **[!UICONTROL Profanity]** casella di controllo. Viene visualizzato tutto il contenuto che è stato rilevato dal filtro profanity per il sito o la rete selezionata. Questo elenco includerà il contenuto inserito nell&#39;app tramite socialsync e flussi.
+Per cercare contenuti contenenti profanità, andate a **[!UICONTROL Library > App Content]** e **[!UICONTROL Filter by Flags]** selezionate la **[!UICONTROL Profanity]** casella di controllo. Viene visualizzato tutto il contenuto catturato dal filtro di profitto per il sito o la rete selezionati. Questo elenco includerà il contenuto estratto nell'app tramite SocialSync e Streams.
 
-To create Premoderation rules, from Studio select **[!UICONTROL Settings > Network Settings > Moderation]**. Quando il filtro profeity è stato abilitato, viene visualizzata una nuova regola che consente di segnalare o limitare il contenuto che contiene la profasità. Per impostazione predefinita, questa regola abilita **[!UICONTROL Premoderate]** automaticamente il contenuto profano, che può essere cambiato in o **[!UICONTROL Trash it]****[!UICONTROL Bozo it]**.
+Per creare regole di moderazione, selezionare Studio **[!UICONTROL Settings > Network Settings > Moderation]**. Una volta attivato il filtro di profanità, verrà visualizzata una nuova regola che consente di contrassegnare o moderare il contenuto contenente una profanità. Per impostazione predefinita, questa regola attiva automaticamente **[!UICONTROL Premoderate]** i contenuti profondi, che possono essere modificati in **[!UICONTROL Trash it]** o **[!UICONTROL Bozo it]**.
 
 >[!NOTE]
 >
->Se un singolo contenuto è soggetto a più tipi di regole (come sia SAFE che flag), verranno applicati i più rigorosi. Ad esempio: Se la regola Premoderazione dice di premoderare una parte del contenuto, ma una regola SICURA dice di cestarlo, verrà suddiviso.
+>Se un singolo contenuto è soggetto a più tipi di regole (come le regole SICUREZZA e Contrassegno), verrà applicato il più rigoroso. Ad esempio: Se la regola di moderazione dice di moderare un contenuto, ma una regola di sicurezza dice che lo cestino, sarà Trash.
 
-## Visualizzare e aggiornare l&#39;elenco profetico per una rete {#section_qdb_btk_f1b}
+## Visualizzare e aggiornare l'elenco delle proprietà per una rete {#section_qdb_btk_f1b}
 
-1. **[!UICONTROL Settings > Network Settings > Moderation]** Vai a.
+1. Vai a **[!UICONTROL Settings > Network Settings > Moderation]**.
 1. Scorrete verso il basso fino alla **[!UICONTROL Profanity List]** sezione.
-1. Impostate su **[!UICONTROL Enable Profanity Checking]****[!UICONTROL On]** per visualizzare l&#39;elenco abilitato per la rete (predefinito Livefyre o l&#39;elenco personalizzato caricato) e modificarlo. Potete modificare l&#39;elenco nei modi seguenti:
-   * Per rimuovere una parola, fate clic sulla parola.
-   * Per aggiungere una parola, digitate la parola nella **[!UICONTROL Add new word]** casella e toccate **[!UICONTROL Return]**.
-   * Per verificare se una parola è inclusa nell&#39;elenco, digitate la parola nella **[!UICONTROL Test profanity filter]** casella.
+1. Impostato **[!UICONTROL Enable Profanity Checking]** per **[!UICONTROL On]** visualizzare l’elenco abilitato per la rete (predefinito Livefyre o elenco personalizzato caricato) e modificarlo. Potete modificare l’elenco nei seguenti modi:
+   * Per rimuovere una parola, fare clic sulla parola.
+   * Per aggiungere una parola, digitare la parola nella **[!UICONTROL Add new word]** casella e premere **[!UICONTROL Return]**.
+   * Per verificare se una parola è inclusa nell'elenco, digitare la parola nella **[!UICONTROL Test profanity filter]** casella.
 
 >[!NOTE]
 >
->Solo gli amministratori di studio e i moderatori possono modificare elenchi profanistici.
+>Solo gli amministratori e i moderatori di studio possono modificare gli elenchi di redditività.
 
