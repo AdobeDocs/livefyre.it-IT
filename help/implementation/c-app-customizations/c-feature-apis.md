@@ -1,22 +1,22 @@
 ---
-description: Automatizzare il processo utilizzando le API delle funzionalità
-seo-description: Automatizzare il processo utilizzando le API delle funzionalità
-seo-title: API funzionalità
-title: API funzionalità
-uuid: eac 3 a 156-0 b 60-4 ffa -8 b 6 f-e 451 eb 03 da 77
+description: Automatizzare il processo utilizzando le API delle funzioni
+seo-description: Automatizzare il processo utilizzando le API delle funzioni
+seo-title: API delle funzionalità
+title: API delle funzionalità
+uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# API funzionalità{#feature-apis}
+# API delle funzionalità{#feature-apis}
 
-Automatizzare il processo utilizzando le API delle funzionalità
+Automatizzare il processo utilizzando le API delle funzioni
 
-Utilizzate le API delle funzionalità per automatizzare il processo in base al quale è contenuto il contenuto. Ad esempio, quando create un&#39;app di blog live o commento, funzione tutto il contenuto pubblicato da un moderatore selezionato per guidare la conversazione e stabilire coerenza nel flusso.
+Utilizzate le API delle funzioni per automatizzare il processo con cui viene presentato il contenuto. Ad esempio, quando crei un'app Live Blog o Comment, puoi usare tutte le funzioni di un moderatore selezionato per indirizzare la conversazione e stabilire coerenza all'interno del flusso.
 
-Livefyre offre entrambe le API Feature e Unfeature.
+Livefyre offre API Feature e Unfeature.
 
 ## Funzione {#section_jpw_nqw_xz}
 
@@ -26,15 +26,15 @@ Livefyre offre entrambe le API Feature e Unfeature.
 POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/feature/<commentId>/?lftoken=<base64userToken>
 ```
 
-Immettete il token utente per il moderatore selezionato.
+&#x200B; Immettere il token utente per il moderatore selezionato.
 
-**Post dati**
+**Post Data**
 
 ```
 {value: <number>} 
 ```
 
-Il valore verrà utilizzato per ordinare contenuti contenuti, più piccoli (10 appariranno prima del 1 nell&#39;elenco dei contenuti contenuti). Questo valore è predefinito **ora** in ora epoch, quindi i commenti contenuti verranno generalmente ordinati più in base alla meno recente.
+Il valore viene utilizzato per ordinare i contenuti contenuti in primo piano, dal più grande al più piccolo (10 verrà visualizzato prima di 1 nell'elenco dei contenuti in primo piano). Questo valore predefinito **ora** vieneimpostato in epoch time, pertanto i commenti contenuti vengono in genere ordinati dal più recente al meno recente.
 
 **Risposta di esempio**
 
@@ -44,9 +44,9 @@ Il valore verrà utilizzato per ordinare contenuti contenuti, più piccoli (10 a
 
 >[!NOTE]
 >
->Il campo dati non è ancora utilizzato.
+>Il campo dati non è ancora in uso.
 
-## Funzionalità {#section_knh_mqw_xz}
+## Funzione {#section_knh_mqw_xz}
 
 **Risorsa**
 
@@ -54,7 +54,7 @@ Il valore verrà utilizzato per ordinare contenuti contenuti, più piccoli (10 a
 POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/unfeature/<commentId>/?lftoken=<base64userToken>
 ```
 
-Immettete il token utente per il moderatore selezionato.
+Immettere il token utente per il moderatore selezionato.
 
 **Risposta di esempio**
 
@@ -64,5 +64,5 @@ Immettete il token utente per il moderatore selezionato.
 
 >[!NOTE]
 >
->Il campo dati non è ancora utilizzato.
+>Il campo dati non è ancora in uso.
 
