@@ -1,23 +1,23 @@
 ---
-description: Informa Livefyre per aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore booleano.
-seo-description: Informa Livefyre per aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore booleano.
-seo-title: Metodo di rete setusersyncurl
+description: Informa Livefyre ad aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore Boolean.
+seo-description: Informa Livefyre ad aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore Boolean.
+seo-title: setUserSyncUrl, metodo di rete
 solution: Experience Manager
-title: Metodo di rete setusersyncurl
-uuid: cd 067 e 90-a 2 da -4 e 3 d -8 e 60-7 eabfd 86 fc 7 f
+title: setUserSyncUrl, metodo di rete
+uuid: cd067e90-a2da-4e3d-8e60-7eabfd86fc7f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Metodo di rete setusersyncurl{#setusersyncurl-network-method}
+# setUserSyncUrl, metodo di rete{#setusersyncurl-network-method}
 
-Informa Livefyre per aggiornare l&#39;URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore booleano.
+Informa Livefyre ad aggiornare l'URL di sincronizzazione utente della rete a quello fornito. Restituisce un valore Boolean.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| Urltemplate | Stringa | L&#39;URL per registrarsi con Livefyre per sincronizzare gli ID utente. Richiede «`{id}`» per far parte della stringa URL fornita. |
+| urlTemplate | Stringa | URL per la registrazione con Livefyre per la sincronizzazione degli ID utente. Richiede "`{id}`" per far parte della stringa URL fornita. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -25,55 +25,55 @@ Informa Livefyre per aggiornare l&#39;URL di sincronizzazione utente della rete 
 network.setUserSyncUrl(urlTemplate); 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 true
 ```
 
-## Esempio nodejs {#section_xkd_gds_rz}
+## Esempio NodeJS {#section_xkd_gds_rz}
 
 ```
 network.setUserSyncUrl(urlTemplate); 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 true
 ```
 
-## PHP Example {#section_ghf_gds_rz}
+## Esempio PHP {#section_ghf_gds_rz}
 
 ```
 $network->setUserSyncUrl(urlTemplate); 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 true
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di Python {#section_dwg_gds_rz}
 
 ```
 network.set_user_sync_url(urlTemplate) 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 True
 ```
 
-## Esempio Ruby {#section_enh_gds_rz}
+## Esempio di ruby {#section_enh_gds_rz}
 
 ```
 network.set_user_sync_url(urlTemplate) 
 ```
 
-Output di esempio:
+Output campione:
 
 ```
 True
