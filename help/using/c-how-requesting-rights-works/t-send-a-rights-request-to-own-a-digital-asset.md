@@ -1,30 +1,30 @@
 ---
-description: Puoi richiedere il diritto di riutilizzare l'elemento a scopi commerciali dalla Libreria, Contenuto app o modq.
-seo-description: Puoi richiedere il diritto di riutilizzare l'elemento a scopi commerciali dalla Libreria, Contenuto app o modq.
-seo-title: Inviare una richiesta di diritti Twitter
+description: Potete richiedere il diritto di riutilizzare l'elemento per scopi commerciali dalla libreria, dal contenuto dell'app o da ModQ.
+seo-description: Potete richiedere il diritto di riutilizzare l'elemento per scopi commerciali dalla libreria, dal contenuto dell'app o da ModQ.
+seo-title: Invio di una richiesta di diritti per Twitter
 solution: Experience Manager
-title: Inviare una richiesta di diritti Twitter
-uuid: bf 3 e 84 a 6-dc 67-47 bc -9707-bd 30882 cbbf 0
+title: Invio di una richiesta di diritti per Twitter
+uuid: bf3e84a6-dc67-47bc-9707-bd30882cbbf0
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 
 
-# Inviare una richiesta di diritti Twitter{#send-a-twitter-rights-request}
+# Invio di una richiesta di diritti per Twitter{#send-a-twitter-rights-request}
 
-Puoi richiedere il diritto di riutilizzare l&#39;elemento a scopi commerciali dalla Libreria, Contenuto app o modq.
+Potete richiedere il diritto di riutilizzare l'elemento per scopi commerciali dalla libreria, dal contenuto dell'app o da ModQ.
 
-Prima di inviare una richiesta diritti dovete:
+Prima di poter inviare una richiesta di diritti dovete:
 
-* Aggiungete un account social Twitter. Per ulteriori informazioni su come configurare un account social, consultate [Aggiungere un account social](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
-* Configurare Rights Management. Per ulteriori informazioni su come configurare la gestione dei diritti, consulta [la sezione relativa alla richiesta di diritti](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
+* Aggiungete un account Twitter per social network. Per ulteriori informazioni su come configurare un account social, consultate [Aggiungere un account](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram)social.
+* Configurare Rights Management. Per ulteriori informazioni su come impostare la gestione dei diritti, consulta [Richiesta di diritti](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
 
-Potete inviare richieste di diritti dalla libreria, dal contenuto dell&#39;app o da modq. Nella libreria e in Contenuto app, dovete salvare una risorsa Twitter prima di poter richiedere i diritti per tale risorsa. Fate clic sui dettagli di una risorsa per richiedere i diritti.
+Potete inviare richieste di diritti dalla libreria, dal contenuto dell’app o dal ModQ. Nella libreria e nel contenuto dell’app, è necessario salvare una risorsa Twitter prima di poter richiedere i diritti per tale risorsa. Fate clic sui dettagli di una risorsa per richiedere i diritti.
 
-Per modq, potete richiedere diritti facendo clic **[!UICONTROL More Details]** su una risorsa Twitter.
+Per ModQ, potete richiedere i diritti facendo clic **[!UICONTROL More Details]** su una risorsa Twitter.
 
 1. Aprite la **[!UICONTROL Rights options]** finestra.
-1. Selezionate l&#39;account da utilizzare per richiedere i diritti.
-1. (Facoltativo) Modificate il messaggio di richiesta. Se al messaggio manca un elemento o un elemento obbligatorio viene errato, viene visualizzato un messaggio di errore che specifica le informazioni errate o mancanti.
-1. Fate clic per **[!UICONTROL Send]** inviare la richiesta al proprietario del contenuto.
+1. Selezionate l’account da utilizzare per richiedere i diritti.
+1. (Facoltativo) Modificate il messaggio di richiesta. Se nel messaggio manca un elemento o un elemento obbligatorio è errato, viene visualizzato un messaggio di errore che specifica le informazioni errate o mancanti.
+1. Fate clic **[!UICONTROL Send]** per inviare la richiesta al proprietario del contenuto.
