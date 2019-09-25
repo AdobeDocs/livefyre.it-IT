@@ -1,10 +1,10 @@
 ---
-description: Installate il pacchetto di autenticazione per abilitare l'autenticazione degli utenti in modo che gli utenti possano interagire con le vostre app.
-seo-description: Installate il pacchetto di autenticazione per abilitare l'autenticazione degli utenti in modo che gli utenti possano interagire con le vostre app.
+description: Installate il pacchetto di autenticazione per abilitare l'autenticazione utente in modo che gli utenti possano interagire con le vostre app.
+seo-description: Installate il pacchetto di autenticazione per abilitare l'autenticazione utente in modo che gli utenti possano interagire con le vostre app.
 seo-title: Pacchetto di autenticazione
 solution: Experience Manager
 title: Pacchetto di autenticazione
-uuid: 4 eec 30 cf -66 b 6-408 d -985 d -3 e 23 b 8 b 70 d 01
+uuid: 4eec30cf-66b6-408d-985d-3e23b8b70d01
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,17 +13,17 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Pacchetto di autenticazione{#authentication-package}
 
-Installate il pacchetto di autenticazione per abilitare l&#39;autenticazione degli utenti in modo che gli utenti possano interagire con le vostre app.
+Installate il pacchetto di autenticazione per abilitare l'autenticazione utente in modo che gli utenti possano interagire con le vostre app.
 
-Livefyre Apps utilizza il pacchetto di autenticazione globale per associare gli utenti alle azioni app. Il pacchetto di autenticazione è `Livefyre.require`disponibile.
+Le app Livefyre utilizzano il pacchetto di autenticazione globale per associare gli utenti alle azioni dell'app. Il pacchetto di autenticazione è disponibile tramite `Livefyre.require`.
 
-Per abilitare l&#39;autenticazione sulla pagina, aggiungete `Livefyre.js` innanzitutto all&#39; `<head>` elemento della pagina Web o del modello di sito Web.
+Per abilitare l’autenticazione sulla pagina, aggiungete prima `Livefyre.js` l’ `<head>` elemento della pagina Web o del modello di sito Web.
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script>
 ```
 
-L&#39;utilizzo di Livefyre. require per abilitare l&#39;autenticazione è simile a quello richiesto per richiamare altri pacchetti. Il codice di integrazione per richiedere l&#39;autenticazione è simile al seguente:
+L'utilizzo di Livefyre.request per abilitare l'autenticazione è simile all'utilizzo dell'obbligo di chiamare altri pacchetti. Il codice di integrazione necessario per l’autenticazione è simile al seguente:
 
 ```
 Livefyre.require(['auth'], function (auth) {  
@@ -33,12 +33,12 @@ Livefyre.require(['auth'], function (auth) {
 
 ## Metodi {#section_ojx_1lz_fz}
 
-Una volta incluso come descritto sopra, `Livefyre.require`il modulo Autenticazione espone i metodi seguenti che puoi chiamare per inviare ad altre app sulla pagina gli eventi relativi all&#39;autenticazione.
+Una volta incluso come sopra `Livefyre.require`, il modulo Auth espone i seguenti metodi che potete chiamare per notificare ad altre app sulla pagina gli eventi correlati all'autenticazione.
 
 | Metodo | Descrizione |
 |--- |--- |
-| `.login(callback)` | Attiva il flusso di accesso implementato dall&#39;authdelegate registrato. In genere, solo le app abilitate all&#39;autenticazione chiameranno questa e non la pagina host stessa. |
-| `.logout(callback)` | Notifica all&#39;utente che l&#39;utente finale ha disconnesso alcuni mezzi esterni e che tutte le app assegnano il proprio stato di autenticazione al successivo login. Ciò cancella la sessione interna gestita da Autenticazione. |
-| `.authenticate(credentials)` | Notifica all&#39;autenticazione che un utente è stato autenticato con alcuni mezzi esterni e un token di autenticazione Livefyre è stato ottenuto per l&#39;utente finale. Utilizzate questa azione se impostate un cookie con il token Livefyre, oppure disponete di un token per l&#39;utente e desiderate registrare esplicitamente l&#39;utente in. Ad esempio: <br>`auth.authenticate({&nbsp;livefyre:&nbsp;`<br>`'<insert&nbsp;lftoken&nbsp;string&nbsp;for&nbsp;newly&nbsp;logged-in&nbsp;user>'&nbsp;});` |
-| `.delegate(authDelegate)` | Delega i dettagli di implementazione dell&#39;autenticazione (ad esempio, il flusso di autenticazione personalizzato) a un oggetto definito dall&#39;utente. Questo deve essere invocato dalla pagina ospitante per abilitare le funzionalità interattive di Livefyre Apps. |
+| `.login(callback)` | Attiva il flusso di login come implementato dal AuthDelegate registrato. Generalmente solo le app abilitate all'autenticazione lo chiameranno, e non la pagina host stessa. |
+| `.logout(callback)` | Notifica all'utente finale che ha eseguito il logout con alcuni mezzi esterni e che tutte le app attendibili devono cancellare il proprio stato di autenticazione fino al login successivo. In questo modo verrà cancellata la sessione interna gestita da Auth. |
+| `.authenticate(credentials)` | Notifica all'autenticazione che un utente è stato autenticato con mezzi esterni e che è stato acquistato un token di autenticazione Livefyre per l'utente finale. Utilizzate questa opzione se impostate un cookie con il token Livefyre o se disponete di un token per l'utente e desiderate accedere in modo esplicito all'utente. Ad esempio: <br>`auth.authenticate({&nbsp;livefyre:&nbsp;`<br>`'<insert&nbsp;lftoken&nbsp;string&nbsp;for&nbsp;newly&nbsp;logged-in&nbsp;user>'&nbsp;});` |
+| `.delegate(authDelegate)` | Delegare i dettagli di implementazione dell'autenticazione (ad esempio, il flusso di autenticazione personalizzato) a un oggetto definito dall'utente. Questo deve essere chiamato dalla pagina host per abilitare le funzionalità interattive delle app Livefyre. |
 
