@@ -1,27 +1,27 @@
 ---
-description: Scopri come passare da una conversazione App Type a un'altra.
-seo-description: Scopri come passare da una conversazione App Type a un'altra.
-seo-title: Cambiare i tipi di app di base
+description: Scopri come passare da una conversazione Tipo di app a un'altra.
+seo-description: Scopri come passare da una conversazione Tipo di app a un'altra.
+seo-title: Cambia tipi di app di base
 solution: Experience Manager
-title: Cambiare i tipi di app di base
-uuid: 442 a 517 c -3809-46 c 5-bb 5 f -8668 a 29 dc 3 e 8
+title: Cambia tipi di app di base
+uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 ---
 
 
-# Cambiare i tipi di app di base{#switch-core-app-types}
+# Cambia tipi di app di base{#switch-core-app-types}
 
-Scopri come passare da una conversazione App Type a un&#39;altra.
+Scopri come passare da una conversazione Tipo di app a un'altra.
 
-Lifefyre consente di modificare le raccolte da un tipo di applicazione di base Livefyre a un altro (Commenti, Blog live o Chat) modificando semplicemente alcune impostazioni nei `collectionMeta` tuoi dati.
+Lifefyre consente di cambiare le raccolte da un tipo di applicazione di base Livefyre a un altro (Commenti, Live Blog o Chat) semplicemente modificando alcune impostazioni nei `collectionMeta` dati.
 
-Per implementare un tipo specifico di app, aggiungere un nuovo campo all `collectionMeta` &#39;oggetto. I commenti sono l&#39;impostazione predefinita, pertanto non dovrai effettuare questi aggiornamenti se si tratta dell&#39;app desiderata. Per passare a un&#39;app diversa dopo la creazione di una raccolta, passa un valore checksum durante l&#39;inizializzazione dell&#39;app. Ulteriori informazioni sulla creazione di un valore checksum nella documentazione `collectionMeta` token.
+Per implementare un tipo specifico di app, aggiungi un nuovo campo all' `collectionMeta` oggetto. Commenti è l'impostazione predefinita, pertanto non sarà necessario effettuare questi aggiornamenti se si tratta dell'app desiderata. Per passare a un'app diversa dopo la creazione di una raccolta, passate un valore di checksum durante l'inizializzazione dell'app. Per ulteriori informazioni sulla creazione di un valore di checksum, consulta la nostra documentazione `collectionMeta` sui token.
 
-## Blog live {#section_kvj_3jj_11b}
+## Live Blog {#section_kvj_3jj_11b}
 
-### PHP Example
+### Esempio PHP
 
 ```
 use LivefyreLivefyre; 
@@ -51,7 +51,7 @@ $convConfig = array(
 );
 ```
 
-### Esempio Python
+### Esempio di Python
 
 ```
 from livefyre import Livefyre 
@@ -81,7 +81,7 @@ conv_config = dict(
 )
 ```
 
-### Esempio Ruby
+### Esempio di ruby
 
 ```
 require 'livefyre'  
@@ -110,9 +110,9 @@ conv_config = {
 }
 ```
 
-## Blog live {#section_bqt_cjj_11b}
+## Live Blog {#section_bqt_cjj_11b}
 
-### PHP Example
+### Esempio PHP
 
 ```
 use LivefyreLivefyre; 
@@ -142,7 +142,7 @@ $convConfig = array(
 );
 ```
 
-### Esempio Python
+### Esempio di Python
 
 ```
 from livefyre import Livefyre 
@@ -172,7 +172,7 @@ conv_config = dict(
 )
 ```
 
-### Esempio Ruby
+### Esempio di ruby
 
 ```
 require 'livefyre' 
@@ -234,7 +234,7 @@ $convConfig = array(
 );
 ```
 
-### Esempio Python
+### Esempio di Python
 
 ```
 from livefyre import Livefyre 
@@ -263,7 +263,7 @@ conv_config = dict( "el" = "targetElement",
 )
 ```
 
-### Esempio Ruby
+### Esempio di ruby
 
 ```
 require 'livefyre' 
