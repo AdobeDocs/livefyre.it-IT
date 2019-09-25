@@ -1,23 +1,23 @@
 ---
-description: L'incorporazione dell'app commenti segue il processo per incorporare un'app di base.
-seo-description: L'incorporazione dell'app commenti segue il processo per incorporare un'app di base.
+description: L'incorporazione dell'app dei commenti segue il processo di incorporazione di un'app di base.
+seo-description: L'incorporazione dell'app dei commenti segue il processo di incorporazione di un'app di base.
 seo-title: Incorpora un'app commenti
 solution: Experience Manager
 title: Incorpora un'app commenti
-uuid: e 4982 ad 3-cab 1-4805-a 55 c -594 cca 3 b 7203
+uuid: e4982ad3-CAB1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 ---
 
 
-# Incorpora un&#39;app commenti{#embed-a-comments-app}
+# Incorpora un'app commenti{#embed-a-comments-app}
 
-L&#39;incorporazione dell&#39;app commenti segue il processo per incorporare un&#39;app di base.
+L'incorporazione dell'app dei commenti segue il processo di incorporazione di un'app di base.
 
-L&#39;incorporazione dell&#39;app commenti segue il processo per incorporare un&#39;app di base descritta in [Incorpora un&#39;app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+L'incorporazione dell'app dei commenti segue il processo di incorporazione di un'app di base descritto in [Incorpora un'app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
-## Esempio
+## Esempio 
 
 ```
 <html> 
@@ -54,7 +54,7 @@ L&#39;incorporazione dell&#39;app commenti segue il processo per incorporare un&
 </html>
 ```
 
-Come indicato nella sezione Building collectionmeta, collectionmeta è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON prende il seguente formato prima che sia codificato in JWT:
+Come indicato nella sezione Building CollectionMeta, CollectionMeta è un oggetto JSON codificato. Nell'esempio precedente, l'oggetto JSON ha il formato seguente prima che sia codificato JWT:
 
 ```
 { 
