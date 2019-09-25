@@ -1,49 +1,49 @@
 ---
-description: Note sulla versione del 23 marzo 2018.
-seo-description: Note sulla versione del 23 marzo 2018.
+description: Note sulla versione per la release del 23 marzo 2018.
+seo-description: Note sulla versione per la release del 23 marzo 2018.
 seo-title: 23 marzo 2018
 solution: Experience Manager
 title: 23 marzo 2018
-uuid: b 69 b 8715-ace 4-48 e 0-8 f 54-ce 4 e 12170 ef 3
+uuid: b69b8715-ace4-48e0-8f54-ce4e12170ef3
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 23 marzo 2018{#march}
+# March 23, 2018{#march}
 
-Note sulla versione del 23 marzo 2018.
+Note sulla versione per la release del 23 marzo 2018.
 
 ## Nuove funzionalità {#section_syx_mdt_wcb}
 
 Le seguenti funzionalità sono nuove nella versione di produzione di questa versione:
 
-* **Novità in Produzione:** Facebook ha creato un aggiornamento di sicurezza all&#39;accesso Facebook che causerà il malfunzionamento di Facebook Login di Facebook. Per risolvere questo problema dovete:
+* **** Nuovo in produzione: Facebook ha creato un aggiornamento di sicurezza su Facebook che causerà il malfunzionamento del login di Facebook di un cliente. Per risolvere il problema, è necessario:
 
-   1. Aggiungi il seguente URL al **[!UICONTROL Valid OAuth redirect URIs]** campo in Impostazioni client oauth. Sostituite `<networkname>` con il nome di rete corretto:
+   1. Aggiungi il seguente URL al **[!UICONTROL Valid OAuth redirect URIs]** campo in Impostazioni OAuth client. Sostituire `<networkname>` con il nome di rete corretto:
       `https://identity.livefyre.com/<networkname>/api/v1.0/public/profile/social/complete/facebook_fyre`
 
-   1. Passa **[!UICONTROL Use Strict Mode for Redirect URI]****[!UICONTROL Yes]** a.
+   1. Passa **[!UICONTROL Use Strict Mode for Redirect URI]** a **[!UICONTROL Yes]**.
 
-* **Nuovo nell&#39;UAT:** Ora potete scegliere la soglia di confidenza per i tag avanzati nei flussi. L&#39;impostazione della valutazione di precisione (0-100) per i tag consente di controllare la precisione delle risorse che stiamo recuperando.
+* **** Novità in UAT:Ora potete scegliere la soglia di confidenza per gli smart tag nei flussi. L’impostazione del punteggio di precisione (0-100) per i tag consente di controllare l’accuratezza delle risorse recuperate.
 
 ## Problemi {#section_ehw_ndt_wcb}
 
-I problemi delle tabelle seguenti sono stati risolti in questa versione.
+In questa versione sono stati risolti i problemi riportati nelle tabelle seguenti.
 
-## Versione produzione
+## Release produzione
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Media Wall | È stato risolto un problema in Media Wall che impediva ai tag di fare clic quando un post di Instagram veniva aggiunto da una regola di flusso. |
-| Bug | Modq | Risolto un problema che impediva il caricamento di modq. |
-| Bug | Modq | Risolto un problema per il quale l&#39;incorporazione dell&#39;audio causava la cessazione di modq. |
+| Bug | Muro di supporto | È stato risolto un problema in Media Wall a causa del quale non era possibile fare clic sui tag quando un post di Instagram veniva aggiunto da una regola di flusso. |
+| Bug | ModQ | È stato risolto un problema che impediva il caricamento corretto di ModQ. |
+| Bug | ModQ | È stato risolto un problema a causa del quale l’incorporamento dell’audio causava il blocco di ModQ. |
 
-## Versione UAT
+## Rilascio UAT
 
-| **Tipo di edizione** | **Componente** | **Nota sulla versione** |
+| **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | Filmstrip | Sono stati corretti alcuni problemi per rendere Filmstrip più accessibile. |
+| Miglioramento | Filmstrip | Sono stati risolti alcuni problemi per rendere più accessibile Filmstrip. |
 | Miglioramento | Studio | Ora potete accedere a Livefyre utilizzando un login IMS. |
 
