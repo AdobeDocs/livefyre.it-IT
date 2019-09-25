@@ -1,34 +1,34 @@
 ---
-description: Potete utilizzare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con App sul sito.
-seo-description: Potete utilizzare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con App sul sito.
-seo-title: Create un Yahoo! App da utilizzare con Livefyre Identity
+description: Puoi usare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con le app sul sito.
+seo-description: Puoi usare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con le app sul sito.
+seo-title: Crea uno Yahoo! App da utilizzare con identità Livefyre
 solution: Experience Manager
-title: Create un Yahoo! App da utilizzare con Livefyre Identity
-uuid: 6863 cd 2 e-eb 0 d -465 b-b 706-88 ecaccf 41 bc
+title: Crea uno Yahoo! App da utilizzare con identità Livefyre
+uuid: 6863cd2e-eb0d-465b-b706-88ecaccf41bc
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Create un Yahoo! App da utilizzare con Livefyre Identity{#create-a-yahoo-app-for-use-with-livefyre-identity}
+# Crea uno Yahoo! App da utilizzare con identità Livefyre{#create-a-yahoo-app-for-use-with-livefyre-identity}
 
-Potete utilizzare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con App sul sito.
+Puoi usare Livefyre Identity con Yahoo! per consentire agli utenti di utilizzare il proprio Yahoo! login per interagire con le app sul sito.
 
-Per consentire agli utenti di accedere con le credenziali Yahoo, Livefyre richiede le seguenti informazioni sull&#39;app Yahoo:
+Per consentire ai vostri utenti di accedere con le loro credenziali Yahoo, Livefyre richiede le seguenti informazioni per l'app Yahoo:
 
-* ID client (chiave consumatore)
+* ID client (chiave consumer)
 * Segreto cliente (Segreto consumatore)
 
-Per creare un aahoo! app da utilizzare con Livefyre Identity:
+Per creare uno Yahoo! app per l'uso con identità Livefyre:
 
-1. Andate a [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/)e accedete al vostro Yahoo! per creare un nuovo o selezionare un&#39;app esistente da utilizzare con Livefyre Identity.
-1. Seleziona **[!UICONTROL Application Type: Web Application]**.
-1. Immetti **[!UICONTROL Callback Domain:]**`https://identity.livefyre.com`
+1. Andate a [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/)e accedete al vostro Yahoo! per creare una nuova app o selezionarne una esistente da utilizzare con Livefyre Identity.
+1. Select **[!UICONTROL Application Type: Web Application]**.
+1. Invio **[!UICONTROL Callback Domain:]**`https://identity.livefyre.com`
 1. Selezionate **[!UICONTROL API Permissions: Profiles (Social Directory)]** e **[!UICONTROL Read Public]**.
 
-   Al termine, la pagina dei dettagli dell&#39;app di Yahoo indicherà l&#39;ID client dell&#39;app (Chiave consumatore) e Segreto cliente (Segreto consumatore) da utilizzare nella pagina Impostazioni integrazione di Studio.
+   Al termine, la pagina dei dettagli dell'app di Yahoo elenca l'ID client (Chiave di consumo) e il Segreto cliente (Segreto di consumo) dell'app da utilizzare nella pagina Impostazioni integrazione di Studio.
 
    >[!NOTE]
    >
-   >Se abilitate Yahoo! accedere senza creare un aahoo! e se in Studio lasciate vuoto i campi ID client e Segreto cliente, Livefyre utilizzerà openid per registrare questi utenti nelle app di Livefyre. Oauth e personalizzazione personalizzata non saranno disponibili in questo caso.
+   >Se attivi Yahoo! login senza creare un Yahoo! e se lasciate vuoti i campi ID client e Segreto cliente in Studio, Livefyre utilizzerà OpenID per registrare questi utenti nelle app Livefyre. OAuth e il marchio personalizzato non saranno disponibili in questo caso.
