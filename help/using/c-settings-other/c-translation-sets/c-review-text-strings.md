@@ -4,7 +4,7 @@ seo-description: Personalizzazione delle stringhe di testo per Livefyre Reviews.
 seo-title: Rivedi stringhe di testo
 solution: Experience Manager
 title: Rivedi stringhe di testo
-uuid: 86251 e 49-bc 73-4 eec -9 f 9 b-b 4 b 0 a 5 b 42099
+uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
@@ -15,17 +15,13 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Personalizzazione delle stringhe di testo per Livefyre Reviews.
 
-Questa pagina elenca e descrive le stringhe disponibili per la personalizzazione nelle app di revisione. Le stringhe elencate qui sono oltre alle sostituzioni per le app di base di Livefyre, elencate in Personalizzazione stringa. Se sono elencati i duplicati, le stringhe elencate in queste tabelle sono il valore predefinito per le app Revisione.
+Questa pagina elenca e descrive le stringhe disponibili per la personalizzazione nelle app di revisione. Le stringhe elencate di seguito sono oltre alle stringhe predefinite per le app di base Livefyre e sostituiscono tali stringhe, elencate in String Customizations. Se sono elencati i duplicati, le stringhe elencate in queste tabelle sono le stringhe predefinite per le app di revisione.
 
-Errori di implementazione dell&#39;implementazione/Interfaccia
-di valutazione Flusso di informazioni
-sull&#39;autore/Informazioni
-sulle azioni
-di Post
+ImplementationReview/Rating InterfaceStream InfoAuthor/Content InfoUser ActionsPost FunctionsErrors
 
 ## Implementazione {#section-vsy-1k4-xz}
 
-Per implementare questa funzione, passare una mappatura di oggetti 1-1 delle stringhe che desiderate ignorare all&#39;oggetto di configurazione Javascript. Se non fornite un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all'oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -40,122 +36,122 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Interfaccia di revisione/valutazione {#section_iyv_zj4_xz}
+## Interfaccia revisione/valutazione {#section_iyv_zj4_xz}
 
-Stringhe disponibili per l&#39;interfaccia utente Revisione e Valutazione.
+Stringhe disponibili per l'interfaccia utente Revisione e Valutazione.
 
 | Elemento | Chiave | Testo predefinito |
 |--- |--- |--- |
-| Pulsanti | Editreviewbtn | Modifica revisione |
-|  | Reviewbtn | [Revisione in scrittura](https://d.pr/i/QscA) |
-|  | Reviewsclosed | [Revisioni chiuse](https://d.pr/i/zr7M) |
-|  | Showreviewbtn | [Mostra revisione](https://d.pr/i/onxU) |
-|  | segui | l&#39;m interessati |
-|  | Sharetext | Ho appena scritto una revisione. Check it out! |
-| Valutazione dei suggerimenti | Ratingvalues | Un array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: I valori nell&#39;array devono essere duplicati per assegnare allo stesso nome sia la metà sinistra che quella destra di ciascuna stella. |
-| Valutazione delle parti secondarie | Ratingsubpartplaceholder | Un array. Predefinito = `[]` |
-|  | Ratingsubparttitles | Un array. Predefinito = `[]` |
-|  | Reviewstreamtitle | Vuoto per impostazione predefinita. Titolo della sezione di riepilogo della revisione. |
-| Misc | Averagerating | [Valutazione media utente](https://d.pr/i/QscA) |
-|  | Breakdownheader | [Suddivisione valutazione](https://d.pr/i/QscA) |
-|  | utili | % s di % s trovato utile |
-|  | Helpfulplural | % s di % s trovato utile |
-|  | Outof | / |
-|  | Ratingtype | stella |
+| Pulsanti | editReviewBtn | Modifica revisione |
+|  | reviewBtn | [Scrivi recensione](https://d.pr/i/QscA) |
+|  | reviewClosed | [Recensioni chiuse](https://d.pr/i/zr7M) |
+|  | showReviewBtn | [Mostra revisione](https://d.pr/i/onxU) |
+|  | follow | Sono interessato |
+|  | shareText | Ho appena scritto una recensione. Guardate! |
+| Descrizioni comandi di valutazione | ratingValues | Un array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: I valori nella matrice devono essere duplicati per assegnare lo stesso nome sia alla metà sinistra che alla metà destra di ciascuna stella. |
+| Sottoparti valutazione | ratingSubpartPlaceholder | Un array. Impostazione predefinita = `[]` |
+|  | ratingSubpartTitles | Un array. Impostazione predefinita = `[]` |
+|  | reviewStreamTitle | Vuoto per impostazione predefinita. Titolo della sezione di riepilogo della revisione. |
+| Misc | averageRating | [Valutazione utente media](https://d.pr/i/QscA) |
+|  | destHeader | [Suddivisione valutazione](https://d.pr/i/QscA) |
+|  | assist | %s di %s trovato utile |
+|  | assistPlural | %s di %s trovato utile |
+|  | outOf | / |
+|  | ratingType | star |
 
 ## Informazioni flusso {#section_wmv_yj4_xz}
 
-Stringhe disponibili per le informazioni sul flusso di contenuto e la visualizzazione.
+Stringhe disponibili per le informazioni e la visualizzazione del flusso di contenuto.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Ordinamento | Sortby | Vuoto per impostazione predefinita. |
-|  | Sorthighestrated | [Valutazione più elevata](https://d.pr/i/huTd) |
-|  | Sortlowestrated | [Valutazione più bassa](https://d.pr/i/huTd) |
-|  | Sortmosthelpful | [Molto utili](https://d.pr/i/huTd) |
-| Flusso misc. | Showmore | Mostra altro |
-| Velocità ad alta velocità | Newcomment | Nuova revisione |
-|  | Newcomments | Nuove recensioni |
-| Conteggio dei listener | Listenercount | persona ascolto |
-|  | Listenercountplural | persone ascolto |
-| Conteggio dei commenti | Commentcountlabel | Livereviews<strong> | </strong>% s |
-|  | Commentcountlabelpleral | Livereviews<strong> | </strong>% s |
-| Conteggio dei commenti dei commenti | Commentnotifier | Nuova revisione |
-|  | Commentnotifierplural | Nuove recensioni |
+| Ordinamento | sortBy | Vuoto per impostazione predefinita. |
+|  | sortHighestRated | [Valutazione più alta](https://d.pr/i/huTd) |
+|  | sortLowestRated | [Valutazione più bassa](https://d.pr/i/huTd) |
+|  | sortMostHelpful | [Molto utili](https://d.pr/i/huTd) |
+| Flusso diverso. | showMore | Mostra altro |
+| Velocità elevata flusso | newComment | Nuova revisione |
+|  | newComments | Nuove recensioni |
+| Conteggio listener | listenerCount | persona che ascolta |
+|  | listenerCountPlural | gente che ascolta |
+| Conteggio commenti | commentCountLabel | LiveReviews<strong> | </strong>%s |
+|  | commentCountLabelPlural | LiveReviews<strong> | </strong>%s |
+| Conteggio dei notifier dei commenti | commentNotifier | Nuova revisione |
+|  | commentNotifierPlural | Nuove recensioni |
 
 ## Autore/Informazioni contenuto {#section_osx_xj4_xz}
 
-Stings disponibili per informazioni sull&#39;autore e sul contenuto.
+Impostazioni disponibili per le informazioni sull’autore e i singoli contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Thread Breakout | Reviewpurchentnotfoundmsg | [La revisione non è più visibile](https://d.pr/i/svXs) |
-|  | Backtocomments | Torna alle revisioni |
+| Suddivisione thread | reviewContentNotFoundMsg | [Questa revisione non è più visibile](https://d.pr/i/svXs) |
+|  | backToComments | Torna alle recensioni |
 
 ## Azioni utente {#section_tlx_wj4_xz}
 
-Stringhe disponibili per le azioni dell&#39;utente: segnalazione, condivisione e contrassegno di contenuti esistenti come utili.
+Stringhe disponibili per le azioni dell'utente: potete contrassegnare i contenuti, condividerli e contrassegnarli come utili.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Piè di pagina commento | Wasreviewhelpful | [Utile?](https://d.pr/i/Q0mA) |
-|  | Wasreviewhelpfulmobile | Utile? |
-|  | Ownwasreviewhelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
-|  | Reviewwashelpful | [Sì](https://d.pr/i/Q0mA) |
-|  | Helpfuldivider | [&amp; amp; vert;](https://d.pr/i/Q0mA) |
-|  | Reviewwasnothelpful | [No](https://d.pr/i/Q0mA) |
-| Modale votazione | Votetitle | Questa revisione è utile? |
-|  | Votedownvote | No |
-|  | Livesteplytitle | Questa risposta è utile? |
-|  | Votetitle | Questo commento è stato utile? |
-|  | Voteupvote | Sì |
-| Flag modale | Flagtitle | Review % s&#39;s review |
-|  | Flagsuccessmsg | La revisione è stata segnalata. |
-| Flag Mobile | Flagconfirmationmessage | Flag % s&#39;s review as % s? |
-| Menzioni modali | Mentiondefaulttext | I mentioned you in a Livefyre review! |
-| Modale condivisione | Sharetitle | Condivisione condivisione |
+| Piè di pagina commento | wasReviewHelpful | [Utile?](https://d.pr/i/Q0mA) |
+|  | wasReviewHelpfulMobile | Utile? |
+|  | ownIsReviewHelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
+|  | reviewwasHelpful | [Sì](https://d.pr/i/Q0mA) |
+|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | reviewwasNotHelpful | [No](https://d.pr/i/Q0mA) |
+| Votazione modale | votiTitle | Questa revisione è stata utile? |
+|  | VotazioneDownVoto | No |
+|  | answerTitle | Questa risposta è stata utile? |
+|  | votiTitle | Questo commento è stato utile? |
+|  | votiUpvote | Sì |
+| Contrassegno modale | flagTitle | Flag %s revisione |
+|  | flagSuccessMsg | La revisione è stata contrassegnata. |
+| Flag Mobile | flagConfirmMessage | Flag %s revisione come %s? |
+| Menzione modale | namedDefaultText | Ti ho menzionato in una recensione di Livefyre! |
+| Condivisione modale | shareTitle | Condividi revisione |
 
-## Funzioni post {#section_yl1_wj4_xz}
+## Funzioni di post {#section_yl1_wj4_xz}
 
-Stringhe disponibili per gli utenti che pubblicano revisioni.
+Stringhe disponibili per gli utenti che pubblicano le revisioni.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Editor | Bodyplaceholder | Revisione scrittura… |
-|  | Posteditbutton | Modifica |
-|  | Posteditcancelbutton | Annulla |
-|  | Postasbutton | Post review as… |
-|  | Postbutton | Revisione post |
-|  | Postreplyasbutton | Pubblica come… |
-|  | Postreplybutton | Post |
-|  | Sharebutton | Condividi |
-|  | Titleplaceholder | Titolo… |
+| Editor | bodyPlaceholder | Scrivi recensione... |
+|  | postEditButton | Modificare       |
+|  | postEditCancelButton | Annulla |
+|  | postAsButton | Post review as... |
+|  | postButton | Post review |
+|  | postReplyAsButton | Invia come... |
+|  | postReplyButton | Post |
+|  | shareButton | Condividi |
+|  | titlePlaceholder | Titolo… |
 
 ## Errori {#section_jbc_vj4_xz}
 
-Stringhe disponibili per messaggi di errore generici.
+Stringhe disponibili per i messaggi di errore generali.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Errori | Erroralreadyposting | È possibile pubblicare una sola revisione. |
-|  | Errorautherror | Non sei autorizzato a pubblicare una revisione in questa conversazione |
-|  | Errorcommentsnotallowed | Le revisioni non possono essere pubblicate al momento |
-|  | Errordiswithowncomment | Non puoi disattivare la tua recensione |
-|  | Errorduplicate | Non è possibile pubblicare due volte la tua recensione. |
-|  | Erroreditduplicate | È necessario modificare il corpo della revisione quando la si modifica. |
-|  | Erroreditnotallowed | Non è possibile modificare le revisioni in questa conversazione. |
-|  | Erroredittimeexceeded | Il periodo di modifica della revisione è scaduto. |
-|  | Errorempty | Sembra che stiate tentando di pubblicare una revisione vuota. |
-|  | Erroremptytitle | Sembra che tu stia tentando di pubblicare un titolo vuoto |
-|  | Errorfieldrating | valutazione a stella |
-|  | Errorfieldreview | review |
-|  | Errorfieldtitle | title |
-|  | Errormaxchars | La revisione è troppo lunga. Please edit and try again. |
-|  | Errormissingfields | Immettete un |
-|  | Errorratingempty | Non è possibile inviare una valutazione vuota |
-|  | Errorratingnotset | Tutte le valutazioni devono essere impostate |
-|  | Errorratingnotvalid | La valutazione deve essere un oggetto |
-|  | Errorshowmore | Si è verificato un errore durante il caricamento di più revisioni. |
-|  | Errortitlemaxchars | Il titolo è troppo lungo. Please edit and try again. |
-|  | Errorvoteowncomment | Non potete votare nella vostra revisione |
+|  Errori | errorAlreadyPosted | È possibile pubblicare una sola revisione. |
+|  | errorAuthError | Non sei autorizzato a pubblicare una revisione su questa conversazione |
+|  | errorCommentsNotAllowed | Al momento non è possibile pubblicare le recensioni |
+|  | errorDislikeOwnComment | Non puoi rifiutare la tua revisione |
+|  | errorDuplicate | Per quanto vi sia piaciuta la recensione, non potete pubblicarla due volte. |
+|  | errorEditDuplicate | È necessario modificare il corpo della revisione al momento della modifica. |
+|  | errorEditNotAllowed | In questa conversazione non è consentito modificare le revisioni. |
+|  | errorEditTimeExceeded | Il periodo di modifica della revisione è scaduto. |
+|  | errorEmpty | Si sta tentando di pubblicare una revisione vuota. |
+|  | errorEmptyTitle | Si sta tentando di inserire un titolo vuoto |
+|  | errorFieldRating | classificazione a stella |
+|  | errorFieldReview | review |
+|  | errorFieldTitle | title |
+|  | errorMaxChars | Spiacenti, la tua recensione è troppo lunga. Modificare e riprovare. |
+|  | errorMissingFields | Immettere un |
+|  | errorRatingEmpty | Non è possibile inviare una valutazione vuota |
+|  | errorRatingNotSet | Tutte le valutazioni devono essere impostate |
+|  | errorRatingNotInvalid | La valutazione deve essere un oggetto |
+|  | errorShowMore | Errore durante il caricamento di più revisioni. |
+|  | errorTitleMaxChars | Il titolo è troppo lungo. Modificare e riprovare. |
+|  | errorVoteOwnComment | Non puoi votare da solo |
 
