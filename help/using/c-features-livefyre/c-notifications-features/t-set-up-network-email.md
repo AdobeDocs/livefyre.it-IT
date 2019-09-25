@@ -1,30 +1,30 @@
 ---
-description: Personalizzate i campi di notifica e-mail disponibili.
-seo-description: Personalizzate i campi di notifica e-mail disponibili.
-seo-title: Configurare l'e-mail di rete
+description: Personalizzare i campi di notifica e-mail disponibili.
+seo-description: Personalizzare i campi di notifica e-mail disponibili.
+seo-title: Imposta e-mail di rete
 solution: Experience Manager
-title: Configurare l'e-mail di rete
-uuid: c 368 d 236-e 25 a -4118-8 abc -5230618 c 97 ee
+title: Imposta e-mail di rete
+uuid: c368d236-e25a-4118-8abc-5230618c97ee
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Configurare l&#39;e-mail di rete{#set-up-network-email}
+# Imposta e-mail di rete{#set-up-network-email}
 
-Potete configurare diversi tipi di notifiche per i visitatori del sito e Livefyre Moderatori da utilizzare per interagire con l&#39;utente finale.
+Potete impostare diversi tipi di notifiche per i visitatori del sito e i moderatori Livefyre da usare per interagire con l'utente finale.
 
-Personalizzate i campi di notifica e-mail disponibili.
+Personalizzare i campi di notifica e-mail disponibili.
 
 Configurate le notifiche e-mail.
 
-* **Logo per e-mail:** selezionate il file che verrà usato come logo nelle notifiche e-mail dei clienti.
-* **Invia e-mail da:** immettete l&#39;indirizzo e-mail che verrà visualizzato nel campo Da.
+* **** Logo per e-mail: selezionate il file che verrà utilizzato come logo nelle notifiche e-mail dei clienti.
+* **** E-mail da: immettete l’indirizzo e-mail che verrà visualizzato nel campo Da.
 
    >[!NOTE]
    >
-   >Se questo campo è vuoto, non viene inviata alcuna notifica e-mail.
+   >Se questo campo è vuoto, non verranno inviate notifiche e-mail.
 
-* **Nome visualizzato e-mail:** inserite il nome che verrà posto al posto dell&#39;indirizzo e-mail nelle notifiche e-mail dei commenti.
+* **** Nome visualizzato e-mail: immettete il nome che verrà visualizzato al posto dell’indirizzo e-mail nelle notifiche e-mail dei commenti.
 
