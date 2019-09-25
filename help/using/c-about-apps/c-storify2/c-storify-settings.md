@@ -1,23 +1,23 @@
 ---
-description: Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione e contenuti consentiti.
-seo-description: Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione e contenuti consentiti.
-seo-title: Impostazioni di storify
+description: Regolate le impostazioni per i brani di Storify 2, ad esempio tag, moderazione e contenuti consentiti.
+seo-description: Regolate le impostazioni per i brani di Storify 2, ad esempio tag, moderazione e contenuti consentiti.
+seo-title: Impostazioni di archiviazione
 solution: Experience Manager
-title: Impostazioni di storify
-uuid: 030936 fb -7 c 8 b -487 e-b 468-7128 b 641 c 8 ed
+title: Impostazioni di archiviazione
+uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Impostazioni di storify{#storify-settings}
+# Impostazioni di archiviazione{#storify-settings}
 
-Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione e contenuti consentiti.
+Regolate le impostazioni per i brani di Storify 2, ad esempio tag, moderazione e contenuti consentiti.
 
 >[!NOTE]
 >
->La maggior parte delle impostazioni elencate per le opzioni di controllo di Storify 2 Apps per Sidenotes, se attivata.
+>La maggior parte delle impostazioni elencate per le opzioni di controllo Storify 2 Apps per le note, se abilitate.
 
 * **[!UICONTROL Tags]**
 
@@ -25,31 +25,31 @@ Regolare le impostazioni per Storify 2 storie, ad esempio tag, moderazione e con
 
 * **[!UICONTROL Allow New Content]**
 
-   Consenti aggiunta di nuove filienine al racconto.
+   Consentite l’aggiunta di nuove note alla storia.
 
 * **[!UICONTROL Article URL]**
 
-   URL da utilizzare per socialsync e permalink.
+   URL da utilizzare per SocialSync e permalink.
 
 * **[!UICONTROL Premoderate Content]**
 
-   Richiedi approvazione moderatore prima che Sidenotes venga reso pubblico.
+   Richiedi l'approvazione del moderatore prima che i Sidenotes siano resi pubblici.
 
 * **[!UICONTROL Display Media]**
 
-   Visualizzare miniature selezionabili per foto e video.
+   Visualizzare le miniature selezionabili per foto e video.
 
 * **[!UICONTROL Premoderate Media]**
 
-   Richiedi approvazione moderatore prima del contenuto multimediale Sidenotes.
+   Richiedi l'approvazione del moderatore prima che i contenuti multimediali di Sidenotes vengano resi pubblici.
 
 * **[!UICONTROL Queue New Content]**
 
-   Disabilitare lo streaming live e mettere in coda nuovi contenuti e risposte.
+   Disattiva lo streaming live e mette in coda il nuovo contenuto e le risposte.
 
 * **[!UICONTROL Throttle Content]**
 
-   Riducete in modo intelligente il numero di post Sidenotes visualizzati con elevati volumi.
+   Riducete in modo intelligente il numero di post di Sidenotes visualizzati con un volume elevato.
 
 * **[!UICONTROL Allow Bulk Content]**
 
