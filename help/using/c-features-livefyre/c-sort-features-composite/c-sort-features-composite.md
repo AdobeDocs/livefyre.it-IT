@@ -1,10 +1,10 @@
 ---
-description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app e di cosa desiderate fare ai visitatori del sito.
-seo-description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app e di cosa desiderate fare ai visitatori del sito.
+description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app e delle operazioni che desiderate vengano eseguite dai visitatori del sito.
+seo-description: Potete scegliere diverse opzioni di ordinamento a seconda dell'app e delle operazioni che desiderate vengano eseguite dai visitatori del sito.
 seo-title: Funzioni di ordinamento
 solution: Experience Manager
 title: Funzioni di ordinamento
-uuid: e 40 f 5877-acdc -48 c 2-a 2 c 3-8 a 8 d 253 cdb 93
+uuid: e40f5877-acdc-48c2-a2c3-8a8d253cdb93
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
@@ -13,29 +13,29 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Funzioni di ordinamento{#sort-features}
 
-Potete scegliere diverse opzioni di ordinamento a seconda dell&#39;app e di cosa desiderate fare ai visitatori del sito.
+Potete scegliere diverse opzioni di ordinamento a seconda dell'app e delle operazioni che desiderate vengano eseguite dai visitatori del sito.
 
 ## Ordina per valutazione {#section_elc_hfs_d1b}
 
-Questa funzione è disponibile solo per le revisioni. Ordinare i contenuti per numero di stelle o di altra valutazione di qualità.
+Questa funzione è disponibile solo per le recensioni. Ordinare il contenuto per numero di stelle o per altre metriche di qualità.
 
 App che utilizzano questa funzione:
 
 * [Recensioni](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## Ordina per helptà {#section_grr_hfs_d1b}
+## Ordina per utilità {#section_grr_hfs_d1b}
 
-Questa funzione è disponibile solo per le revisioni. Ordinate i contenuti in base al numero di visitatori del sito che hanno trovato un contenuto utile.
+Questa funzione è disponibile solo per le recensioni. Ordinare il contenuto in base al numero di visitatori del sito che hanno trovato utile una parte del contenuto.
 
 App che utilizzano questa funzione:
 
 * [Recensioni](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## Ordina per più recente, da più recente a Ultimo {#section_t4s_hfs_d1b}
+## Ordina per più recente a meno recente, dal primo all'ultimo {#section_t4s_hfs_d1b}
 
-Per l&#39;app commenti, potete scegliere di consentire agli utenti di ordinare dall&#39;ultimo contenuto pubblicato ai contenuti pubblicati meno di recente.
+Per l'app dei commenti, potete scegliere di consentire agli utenti di ordinare dal contenuto pubblicato più recente a quello pubblicato meno recente.
 
-In Storify 2, i visitatori del sito possono ordinare dal primo post all&#39;ultimo post o dall&#39;ultimo post al primo post. I post di Storify 2 vengono visualizzati nell&#39;ordine scelto da un moderatore, non sulla base dell&#39;ora pubblicata.
+In Storify 2, i visitatori del sito possono ordinare il post dal primo all'ultimo post o dall'ultimo al primo. Storify 2 post vengono visualizzati nell'ordine deciso dal moderatore, non in base all'ora pubblicata.
 
 App che utilizzano questa funzione:
 
