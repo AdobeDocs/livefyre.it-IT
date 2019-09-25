@@ -1,21 +1,21 @@
 ---
-description: Le filienine possono essere caricate su (quasi) qualsiasi pagina esistente.
-seo-description: Le filienine possono essere caricate su (quasi) qualsiasi pagina esistente.
-seo-title: Bookenotes Bookmarklet
-title: Bookenotes Bookmarklet
-uuid: b 6 f 6263 e -85 b 1-4 e 49-ba 3 c -7 f 12746 a 4 f 59
+description: Le note possono essere caricate su (quasi) qualsiasi pagina esistente.
+seo-description: Le note possono essere caricate su (quasi) qualsiasi pagina esistente.
+seo-title: Segnalibro Sidenotes
+title: Segnalibro Sidenotes
+uuid: b6f6263e-85b1-4e49-ba3c-7f12746a4f59
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Bookenotes Bookmarklet{#sidenotes-bookmarklet}
+# Segnalibro Sidenotes{#sidenotes-bookmarklet}
 
-Le filienine possono essere caricate su (quasi) qualsiasi pagina esistente.
+Le note possono essere caricate su (quasi) qualsiasi pagina esistente.
 
-Per demo Sidenotes utilizzate il bookmarklet di seguito:
+Per demo Sidenotes utilizzare il bookmarklet seguente:
 
-Bookenotes Bookmarklet
+Segnalibro Sidenotes
 
-È sufficiente copiare il bookmarklet nei segnalibri, quindi fare clic sul collegamento per caricare Sidenotes. Vi verrà richiesto di inserire i selettori che verranno utilizzati per decorare Sidenotes nella pagina corrente.
+È sufficiente copiare il bookmarklet nei segnalibri, quindi fare clic sul collegamento per caricare le note. Viene richiesto di inserire i selettori che verranno utilizzati per decorare le note sulla pagina corrente.
