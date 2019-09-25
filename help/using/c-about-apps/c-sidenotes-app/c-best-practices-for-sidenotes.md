@@ -1,48 +1,48 @@
 ---
-description: Trasformate ogni pagina del sito nel sito in un quadro collaborativo e interattivo.
-seo-description: Trasformate ogni pagina del sito nel sito in un quadro collaborativo e interattivo.
-seo-title: Best practice per Sidenotes
+description: Trasformate ogni singola pagina del sito in un quadro collaborativo e interattivo.
+seo-description: Trasformate ogni singola pagina del sito in un quadro collaborativo e interattivo.
+seo-title: Best practice per le note
 solution: Experience Manager
-title: Best practice per Sidenotes
-uuid: 0 f 511 fff -275 a -436 f-a 81 f-dbdf 0 bd 39900
+title: Best practice per le note
+uuid: 0f511fff-275a-436f-a81f-dbdf0bd39900
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Best practice per Sidenotes{#best-practices-for-sidenotes}
+# Best practice per le note{#best-practices-for-sidenotes}
 
-Trasformate ogni pagina del sito nel sito in un quadro collaborativo e interattivo.
+Trasformate ogni singola pagina del sito in un quadro collaborativo e interattivo.
 
-Sidenotes offre una nuova prospettiva nuova sui commenti, che consente alla community di coinvolgervi **. Il nostro obiettivo con Sidenotes è quello di incoraggiare gli utenti a creare conversazioni mirate e mirate attorno al contenuto. Se i lettori intendono accettare, non accettare o porre una domanda, possono Sidenote qualsiasi parte dell&#39;articolo: un paragrafo, una frase, un preventivo o un&#39;immagine. Sidenotes è leggermente inchiostri nei tuoi contenuti, in modo che i lettori possano partecipare e partecipare alla conversazione quando consumano i tuoi contenuti.
+Sidenotes offre una nuova prospettiva sui commenti, consentendo alla comunità di interagire ** mentre legge. Il nostro obiettivo con Sidenotes è incoraggiare i vostri utenti a generare una conversazione attenta e focalizzata intorno ai vostri contenuti. Che i lettori vogliano concordare, non essere d'accordo o porre una domanda, possono prendere nota di qualsiasi parte dell'articolo — un paragrafo, una frase, una citazione o un'immagine. Le note sono strettamente collegate ai contenuti, in modo che i lettori possano partecipare e partecipare alle conversazioni mentre consumano i contenuti.
 
-## Elevate Quality Commentary {#section_x15_csn_sy}
+## Commenti di alta qualità {#section_x15_csn_sy}
 
-Molti clienti arrivano in Livefyre per chiedermi come aumentare il livello di disordine civile e significativo nei commenti. Sappiamo che i nostri clienti vogliono incoraggiare la partecipazione sulla bacheca senza sacrificare la qualità. Sidenotes risolve questo problema stimolando in modo ereditivo i lettori a lasciare commenti mirati e mirati su una frase specifica, un paragrafo o un elemento multimediale. Questo impedisce agli utenti di interagire con i vostri contenuti, ma non con altri.
+Molti clienti vengono a Livefyre chiedendo come aumentare il livello di discorso civile e significativo all'interno dei loro commenti. Sappiamo che i nostri clienti vogliono incoraggiare la partecipazione globale senza sacrificare la qualità. Sidenotes affronta questo problema incoraggiando intrinsecamente i lettori a lasciare commenti ponderati e mirati su una frase, paragrafo o elemento multimediale specifico. Questo fa sì che gli utenti interagiscano con i contenuti, non solo tra loro.
 
 ## Aumenta coinvolgimento {#section_dzr_pc4_sy}
 
-Poiché Sidenotes offre un nuovo metodo di commenti, i team di progettazione e progettazione di Livefyre hanno eseguito ricerche approfondite durante lo sviluppo del prodotto. Durante queste sessioni, abbiamo notato che gli utenti tendono a leggere gli articoli insieme al mouse. Con l&#39;icona Sidenotes sotto ogni paragrafo al passaggio del mouse, il prodotto offre una chiamata coerente ma coerente all&#39;azione che gli utenti possono intraprendere per l&#39;intera lettura, aumentando il coinvolgimento e il tempo trascorso sul sito.
+Dal momento che Sidenotes presenta un nuovo modo di commentare, i team di prodotti e design qui a Livefyre hanno fatto un'ampia ricerca degli utenti durante lo sviluppo del prodotto. Durante queste sessioni, abbiamo notato che gli utenti tendono a leggere gli articoli con il mouse. Toccando l'icona Sidenotes sotto ogni paragrafo al passaggio del mouse, il prodotto offre agli utenti un invito all'azione sottile ma coerente affinché possano partecipare all'intera esperienza di lettura, aumentando il coinvolgimento e il tempo dedicato al sito.
 
-## Espandi portata {#section_w1c_rc4_sy}
+## Espandi raggio {#section_w1c_rc4_sy}
 
-Non solo Sidenotes offre una nuova prospettiva sui commenti, ma anche sulla condivisione social network. Quando i lettori evidenziano una parte del testo, Sidenotes visualizza un pulsante per condividere i contenuti direttamente su Twitter o Facebook con due clic. Questa piccola esperienza di attrito aumenta la portata virale, offrendo agli utenti un nuovo metodo per coinvolgere facilmente i contenuti.
+Sidenotes offre non solo una nuova prospettiva sui commenti, ma anche sulla condivisione dei contenuti socialmente. Quando i lettori mettono in evidenza un testo, vengono visualizzate delle note che consentono loro di condividere i contenuti direttamente su Twitter o Facebook con due clic. Questa esperienza a basso attrito aumenta il raggio d'azione virale e allo stesso tempo offre agli utenti un nuovo modo per interagire facilmente con i contenuti.
 
-## Iscrizione alla community {#section_ipc_xc4_sy}
+## Iscrizione della community {#section_ipc_xc4_sy}
 
-Poiché Sidenotes introduce un modo di commentare potenzialmente non familiare, ti invitiamo a formare la community su come funziona Sidenotes e perché si tratta di un valido strumento commentario. Consigliamo di introdurre Sidenotes alla community con un post dedicato e l&#39;aggiornamento delle linee guida della community per includere procedure ottimali per l&#39;uscita da Sidenotes o commenti.
+Poiché Sidenotes introduce un modo di commentare potenzialmente sconosciuto, vi incoraggiamo a formare la vostra comunità su come funziona Sidenotes e perché è uno strumento di commento prezioso. Consigliamo di introdurre Sidenotes nella vostra community con un post dedicato e di aggiornare le linee guida della community, in modo da includere le best practice per lasciare Sidenotes o commenti.
 
 ## Sidenotes {#section_px4_yc4_sy}
 
-Anche se incoraggiamo sempre il personale a partecipare alla conversazione, Sidenotes offre un modo particolarmente coinvolgente di coinvolgere il team. Consigliamo di far sì che l&#39;autore del post abbia la conversazione lasciando un Sidenote direttamente dopo la pubblicazione. È un modo semplice per richiedere la discussione su un segmento che il giornalista sente sia particolarmente interessante o controverso. Assicura inoltre che i lettori che arrivano sulla pagina vedano almeno un Sidenote, che attirerà la loro attenzione e li inviterà a coinvolgere.
+Anche se incoraggiamo sempre il vostro staff a partecipare alla conversazione, Sidenotes rappresenta un modo particolarmente efficace per coinvolgere il vostro team. È consigliabile che l'autore del post modifichi la conversazione lasciando una nota direttamente dopo la pubblicazione. È un modo semplice per dare una spinta alla discussione su un segmento che il giornalista sente particolarmente interessante o controverso. Inoltre, assicura che i lettori che accedono sulla pagina vedano almeno un Sidenote, che catturerà la loro attenzione e li incoraggerà a impegnarsi.
 
-## Utilizzare i commenti insieme ai commenti {#section_lxv_1d4_sy}
+## Usa note insieme ai commenti {#section_lxv_1d4_sy}
 
-Alcuni clienti ci chiedono se devono scegliere tra Sidenotes e Commenti, quindi è opportuno notare che Sidenotes è progettato come complemento all&#39;esperienza dei commenti di un articolo. La sezione dei commenti tradizionali offre ancora un grande valore, offrendo agli utenti un unico punto di partenza per discutere dell&#39;intero articolo, stimolando le conversazioni con più livelli di threading e contenuti multimediali espansi.
+Alcuni clienti ci chiedono se devono scegliere tra Sidenotes e Commenti, quindi vale la pena notare che Sidenotes è progettato come complemento all'esperienza dei commenti riportata di seguito. La sezione tradizionale dei commenti offre ancora grande valore dando agli utenti un unico punto di riferimento per discutere l'intero articolo, incoraggiando conversazioni avanti e indietro con più livelli di thread e supporti espansi.
 
-## Ottieni Creative {#section_jxz_bd4_sy}
+## Acquisisci creativo {#section_jxz_bd4_sy}
 
-Le filienine hanno molti casi d&#39;uso interessanti all&#39;esterno di una pagina di articolo tradizionale. Elenchi, trascrizioni, testi, ricette e presentazioni sono tutte fantastiche opportunità per incorporare Sidenotes. Inoltre, se pubblicate contenuto come team playoff o vincitori, Sidenotes consente agli utenti di disporre di micro conversazioni su ogni riga.
+Sidenotes ha molti casi di utilizzo interessanti al di fuori di una pagina di articolo tradizionale. Elenchi, trascrizioni, testi, ricette e presentazioni sono tutte ottime opportunità per incorporare note. Inoltre, se pubblicate contenuti come team di playoff o candidati ai premi, le note di partecipazione consentono agli utenti di avere micro-conversazioni su ogni riga.
 
-L&#39;artista di Gruppo Musica universale Darius Rucker utilizza Sidenotes per consentire agli utenti di lasciare commenti sui propri testi, consentendo ai fan di avere una conversazione specifica su ogni linea del brano.
+Darius Rucker, artista del gruppo musicale universale, utilizza Sidenotes per consentire agli utenti di lasciare commenti sui suoi testi, consentendo ai fan di avere una conversazione specifica su ogni riga della canzone.
