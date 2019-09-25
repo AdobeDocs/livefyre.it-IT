@@ -1,39 +1,39 @@
 ---
-description: Personalizzate i timestamp con Livefyre. js.
-seo-description: Personalizzate i timestamp con Livefyre. js.
-seo-title: Personalizzare la data e l'ora
+description: Mediante Livefyre.js potete personalizzare i timbri relativi a data e ora.
+seo-description: Mediante Livefyre.js potete personalizzare i timbri relativi a data e ora.
+seo-title: Personalizzare il timbro di data e ora
 solution: Experience Manager
-title: Personalizzare la data e l'ora
-uuid: 632 ea 405-56 b 7-4664-8 d 2 b -0 dd 0 a 7611 bd 8
+title: Personalizzare il timbro di data e ora
+uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Personalizzare la data e l&#39;ora{#customize-the-date-and-time-stamp}
+# Personalizzare il timbro di data e ora{#customize-the-date-and-time-stamp}
 
-Personalizzate i timestamp con Livefyre. js.
+Mediante Livefyre.js potete personalizzare i timbri relativi a data e ora.
 
-Livefyre Apps fornisce il parametro di opzione datetimeformat per specificare il formato della data come descritto di seguito.
+Le app Livefyre forniscono il parametro di opzione, datetimeFormat, per specificare il formato della data come descritto di seguito.
 
 * [Terminologia](#c_date_time_stamp/section_xsk_jn4_xz)
 * [Formattazione](#c_date_time_stamp/section_ynx_gn4_xz)
-* [Designazione simboli](#c_date_time_stamp/section_inq_2n4_xz)
+* [Designazione simbolo](#c_date_time_stamp/section_inq_2n4_xz)
 
 ## Terminologia {#section_xsk_jn4_xz}
 
-* **Le marche temporali assolute** sono definite come temporali specifici e specifici (ad esempio, 1 gennaio 2012 alle 12:00 PM)
-* **Le marche temporali** relative sono definite come ora generale e meno precisa (ad esempio 25 secondi fa, 14 minuti fa, 1 giorno fa, 1 anno fa, ecc.)
+* **Marca temporale** assoluta: data esatta e ora specifica (ad esempio 1 gennaio 2012 12:00)
+* **Le marche temporali** relative sono definite come tempi generali e meno precisi (ad esempio, 25 secondi fa, 14 minuti fa, 1 giorno fa, 1 anno fa, ecc.)
 
 ## Formattazione {#section_ynx_gn4_xz}
 
-Quando non viene fornito alcun argomento, il parametro datetimeformat ha il comportamento predefinito seguente:
+Il parametro datetimeFormat ha il seguente comportamento predefinito quando non viene fornito alcun argomento:
 
-* Formato Datetime di: MMMM g yyyy (per il 8 gennaio 2012)
-* 20160 minuti (14 giorni) fino alla durata assoluta (14 giorni fino a quando le marche temporali relative diventano marche temporali assolute)
+* Formato data/ora di: MMMM aaaa (per l’8 gennaio 2012)
+* 20160 Minuti (14 giorni) fino a tempo assoluto (14 giorni fino a quando le marche temporali relative diventano timestamp assoluti)
 
-Il parametro datetimeformat accetta tre possibili tipi di argomenti: datetime, format e stringa.
+Il parametro datetimeFormat accetta tre possibili tipi di argomenti: datetime, format e string.
 
 ```
 // Example 1 (Datetime format string)  
@@ -48,7 +48,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-Un oggetto che specifica absoluteformat e/o minutesuntilabsolutetime. Un minutesuntilabsolutetime con un valore pari a -1 renderà immediatamente più immediato il tempo assoluto.
+Un oggetto che specifica AbsoluteFormat e/o minutesBeforeAbsoluteTime. Un valore di MinutiFinoAssolutoTime con un valore pari a -1 renderà immediato il tempo assoluto.
 
 ```
 // Example 2 (Object)  
@@ -66,7 +66,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-Funzione che considera l&#39;argomento di un oggetto Date e restituisce una stringa datetime da visualizzare
+Una funzione che utilizza come argomento un oggetto Date e restituisce una stringa data/ora da visualizzare
 
 ```
 // Example 3 (Function accepting a Date object, returning a datetime string to display) 
@@ -83,9 +83,9 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-## Designazione simboli {#section_inq_2n4_xz}
+## Designazione simbolo {#section_inq_2n4_xz}
 
-Funzioni di formattazione dati che seguono le specifiche del pattern definite in JDK, ICU e CLDR, con modifiche minori per l&#39;utilizzo tipico in JS. Per ulteriori informazioni, consulta la Documentazione della libreria di chiusura [di Google](https://developers.google.com/closure/library/docs/overview).
+Funzioni di formattazione di datetime seguendo la specifica del pattern definita in JDK, ICU e CLDR, con lievi modifiche per l'uso tipico in JS. Per ulteriori informazioni, consulta la Documentazione [della libreria](https://developers.google.com/closure/library/docs/overview)Google Closure.
 
 ```
   Symbol Meaning Presentation        Example 
@@ -119,14 +119,14 @@ Funzioni di formattazione dati che seguono le specifiche del pattern definite in
   ''       single quote            (Literal)           'o''clock'
 ```
 
-Gli elementi contrassegnati con &#39;*&#39;non sono ancora supportati.
+Gli elementi contrassegnati con ‘*’ non sono ancora supportati.
 
-Gli elementi contrassegnati con &#39;#&#39;funzionano in modo diverso da Java.
+Gli elementi contrassegnati con ‘#’ funzionano in modo diverso da Java.
 
 Il numero di lettere del pattern determina il formato.
 
-* **Testo:** 4 o più, utilizzare il modulo completo. Meno di 4, utilizzare il modulo breve o abbreviato, se esistente. (Ad esempio: «EEEE» genera «Lunedì», «EEE» genera «Lun».)
-* **Numero:** il numero minimo di cifre. A valori più brevi corrisponde zero a questo valore (ad esempio: Se «m» genera «6», «mm» genera «06».) L&#39;anno è gestito in modo specifico; ovvero, se il conteggio dì y&#39;è 2, l&#39;anno verrà troncato a 2 cifre. (Ad esempio: se «aaaa» genera «1997», «yy» genera «97».) A differenza di altri campi, i secondi frazionari vengono inseriti sulla destra con zero.
-* **Testo &amp; numero:** 3 o sopra, utilizzate il testo. Meno di 3, usa il numero. (Ad esempio: «M» produce «1», «MM» genera «01», «MMM» genera «Gen» e «MMMM» produce «Gennaio».)
+* **** Testo: 4 o più, utilizzare il modulo completo. Meno di 4, utilizzare il formato breve o abbreviato, se esiste. Ad esempio: "EEEE" produce "lunedì", "EEE" produce "lun".)
+* **** Numero: il numero minimo di cifre. Numeri più brevi vengono aggiunti zero a questo importo (ad esempio: Se "m" produce "6", "mm" produce "06".) l'anno è trattato in modo speciale; ovvero, se il numero di "y" è 2, l'Anno verrà troncato a 2 cifre. Ad esempio: se "yyyy" produce "1997", "yy" produce "97".) A differenza di altri campi, i secondi frazionari vengono aggiunti a destra con zero.
+* **** Testo e numero: 3 o superiore, utilizzate il testo. Meno di 3, utilizzare numero. Ad esempio: "M" produce "1", "MM" produce "01", "MMM" produce "Jan" e "MMMM" produce "gennaio".)
 
-Qualsiasi caratteri nel pattern che non si trova negli intervalli di [&#39;a &#39;. &#39;z&#39;] and [&#39;A &#39;. &#39;Z&#39;] verrà trattato come testo citato. Ad esempio, caratteri comè: &#39;,&#39;. &#39;,&#39;&#39;,&#39;#&#39;è@&#39;saranno visualizzati nel testo ora risultante persino se non vengono incorporati all&#39;interno di virgolette singole.
+Qualsiasi carattere del pattern che non sia compreso negli intervalli di ["a".z’] e ["A"."Z’] sarà trattato come testo tra virgolette. Ad esempio, i caratteri come ‘:’, ‘.’, ‘, ‘#’ e ‘@’ verranno visualizzati nel testo temporale risultante anche se non sono racchiusi tra virgolette singole.
