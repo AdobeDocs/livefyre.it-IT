@@ -1,10 +1,10 @@
 ---
-description: Storify gestisce più editor simultanei, impedendo la sovrascrittura accidentale o le modifiche perdute.
-seo-description: Storify gestisce più editor simultanei, impedendo la sovrascrittura accidentale o le modifiche perdute.
+description: Storify gestisce più editor simultanei, evitando sovrascritture accidentali o modifiche perse.
+seo-description: Storify gestisce più editor simultanei, evitando sovrascritture accidentali o modifiche perse.
 seo-title: Utilizzo di più editor sullo stesso brano
 solution: Experience Manager
 title: Utilizzo di più editor sullo stesso brano
-uuid: c 9 b 8 bf 70-84 c 3-4 e 58-bbd 0-f 3 d 0 ea 74 fc 68
+uuid: c9b8bf70-84c3-4e58-bbd0-f3d0ea74fc68
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,17 +13,17 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Utilizzo di più editor sullo stesso brano{#working-with-multiple-editors-on-the-same-story}
 
-Storify gestisce più editor simultanei, impedendo la sovrascrittura accidentale o le modifiche perdute.
+Storify gestisce più editor simultanei, evitando sovrascritture accidentali o modifiche perse.
 
-Storify consente a più editor di collaborare, modificare e curare contenuti per un singolo Story. Le modifiche sono visibili in tempo reale e vengono inserite in tag con il nome utente e l&#39;avatar dell&#39;editor.
+Storify consente a più editor di collaborare, modificare e curare i contenuti per un singolo brano. Le modifiche sono visibili in tempo reale e contrassegnate con il nome utente e l’avatar dell’editor.
 
-Più editor che lavorano su un unico brano vedranno altri utenti che lavorano sulla pagina in tempo reale. Vengono visualizzati nuovi elementi, modifiche di testo e modifiche di formattazione, con la posizione dell&#39;editor nella pagina indicata con una selezione di testo codificata a colori, banner name e avatar (se disponibile).
+Più editor che lavorano su un singolo brano vedranno altri utenti lavorare sulla pagina in tempo reale. Nuovi elementi, modifiche di testo e modifiche di formattazione vengono visualizzati così come vengono aggiunti, con la posizione dell’editor sulla pagina indicata con una selezione di testo con colori diversi, un banner del nome e un avatar (se disponibile).
 
-Tutti gli editor dispongono di diritti e privilegi per modificare Story, incluso il diritto a:
+Tutti gli editor dispongono di tutti i diritti e privilegi necessari per modificare il brano, compreso il diritto di:
 
-* Annulla e Ripristina il lavoro di altri.
+* Annulla e Ripristina il lavoro di altri utenti.
 * Pubblicare nuovi contenuti o modifiche
-* Eliminare il contenuto
+* Elimina contenuto
 * Modificare i blocchi di testo.
-* Aggiungere titoli.
+* Aggiungete i titoli.
 
