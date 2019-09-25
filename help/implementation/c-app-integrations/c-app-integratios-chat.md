@@ -4,7 +4,7 @@ seo-description: Aggiunta di chat live alla pagina.
 seo-title: Chat
 solution: Experience Manager
 title: Chat
-uuid: d 6761 a 69-efa 5-4 ad 3-abaf -1 ba 8 e 6 c 17 f 94
+uuid: d6761a69-efa5-4ad3-abaf-1ba8e6c17f94
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
@@ -15,13 +15,13 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 Aggiunta di chat live alla pagina.
 
-Chat consente al pubblico di partecipare in tempo reale agli eventi in diretta. Il contenuto viene visualizzato come flusso continuo, stimolando la partecipazione rapida nella finestra di dialogo di annullamento della folio.
+La chat consente al pubblico di avviare una conversazione in tempo reale intorno agli eventi in diretta. Il contenuto viene visualizzato come un flusso continuo che incoraggia una rapida partecipazione al dialogo in corso.
 
-Versione corrente: La chat utilizza `fyre.conv v3.0.0.`
+Versione corrente: Utilizzo della chat `fyre.conv v3.0.0.`
 
 ## Integrazione {#concept_0A99792A7E89403F95D082D52D600F17}
 
-L&#39;incorporazione dell&#39;app chat segue il processo per incorporare un&#39;app di base descritta in Guida introduttiva &gt; [Incorporazione di un&#39;app](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps).
+L'incorporazione dell'app chat segue il processo di incorporazione di un'app di base descritto in Guida introduttiva &gt; [Incorporazione di un'app](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps).
 
 Esempio:
 
@@ -60,7 +60,7 @@ Esempio:
 </html>
 ```
 
-Come indicato nella [sezione Token](../c-getting-started/c-implementation-process/c-collectionmeta-tokent.md#collectionmeta-tokent) collectionmeta, collectionmeta è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON prende il seguente formato prima della codifica JWT:
+Come indicato nella sezione [CollectionMeta Token](../c-getting-started/c-implementation-process/c-collectionmeta-tokent.md#collectionmeta-tokent) , CollectionMeta è un oggetto JSON codificato. Nell'esempio precedente, l'oggetto JSON ha il formato seguente prima della codifica JWT corrispondente:
 
 ```
 { 
@@ -71,94 +71,94 @@ Come indicato nella [sezione Token](../c-getting-started/c-implementation-proces
 }
 ```
 
-## Oggetto networkconfig {#c-networkconfig-object}
+## Oggetto NetworkConfig {#c-networkconfig-object}
 
-`NetworkConfig` L&#39;oggetto è un oggetto JSON che personalizza il sistema di autenticazione per gli utenti di rete.
+L' `NetworkConfig` oggetto è un oggetto JSON che personalizza il sistema di autenticazione per gli utenti della rete.
 
-`NetworkConfig` L&#39;oggetto è un oggetto JSON contenente i seguenti parametri:
+L' `NetworkConfig` oggetto è un oggetto JSON contenente i seguenti parametri:
 
 | Parametro | Tipo | Descrizione |
 |---|---|---|
-| Authdelegate | *required* object | Utilizzato per personalizzare il sistema di autenticazione per gli utenti di rete personalizzati. |
-| network | *required* string | Un nome di rete di Livefyre. Ad esempio: *nomeserver. fyre. co.* |
-| Attachmentdelegate | Oggetto | Utilizzato per specificare i tipi di allegati multimediali visibili nel flusso app. Per ulteriori informazioni, consultate [Limitazione dei file multimediali](../c-app-customizations/c-restrict-media.md#c_restrict_media). |
-| stringhe | *optional* object | Utilizzato per personalizzare le stringhe di testo degli elementi HTML in una qualsiasi delle app core Livefyre. Per ulteriori informazioni, consultate [Personalizzazione delle stringhe](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md). |
+| authDelegate | *oggetto obbligatorio* | Utilizzato per personalizzare il sistema di autenticazione per gli utenti di rete personalizzati. |
+| network | *stringa obbligatoria* | Un nome di rete Livefyre. Ad esempio: *nomeutente.fyre.co.* |
+| attachmentDelegate | Oggetto | Utilizzato per specificare i tipi di allegati multimediali visibili nel flusso App. Per ulteriori informazioni, consultate [Limitazione dei file multimediali](../c-app-customizations/c-restrict-media.md#c_restrict_media). |
+| strings | *oggetto facoltativo* | Utilizzato per personalizzare le stringhe di testo degli elementi HTML in una qualsiasi delle app core Livefyre. Per ulteriori informazioni, vedere Personalizzazioni di [stringhe](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md). |
 
-## Oggetto convconfig {#c-convconfig-object}
+## Oggetto ConvConfig {#c-convconfig-object}
 
-`convConfig` L&#39;oggetto è un oggetto JSON utilizzato per specificare il contenuto renderizzato nell&#39;app Livefyre.
-
->[!NOTE]
->
->I `convConfig` parametri oggetto elencati qui non sono validi per l&#39;app Reviews. Per informazioni sull&#39;integrazione sull&#39;app Recensioni con l&#39; `convConfig` oggetto, consultate Integrazione revisioni.
-
-`ConvConfig` L&#39;oggetto contiene i seguenti parametri richiesti:
-
-| Parametro | Tipo | Descrizione |
-|--- |--- |--- |
-| Articleid | *required* string | Identifica in modo univoco una raccolta all&#39;interno del sito. Generalmente corrisponde a una chiave primaria del database o all&#39;ID post all&#39;interno del CMS. Ad esempio: «post -42». Limite di 255 caratteri. Nota: Se utilizzate l&#39;URL articolo come articleid, accertatevi che la stringa sia MD 5 o SHA -1. |
-| Collectionmeta | *required* string | Metadati codificati in JWT sulla raccolta. Per [ulteriori informazioni, vedere](../c-getting-started/c-implementation-process/c-collectionmeta-tokent.md#collectionmeta-tokent) Oggetto collectionmeta. |
-| el | *required* string | L&#39;ID di un elemento DOM a cui verrà eseguito il rendering del flusso di contenuto. |
-| Siteid | *required* string | L&#39;ID di Livefyre per il sito Web o l&#39;applicazione a cui appartiene la raccolta. Ad esempio: «303617». |
+L' `convConfig` oggetto è un oggetto JSON utilizzato per specificare il contenuto di cui viene eseguito il rendering nell'app Livefyre sulla pagina.
 
 >[!NOTE]
 >
->Il `app` parametro non è richiesto per l&#39;implementazione di un&#39;app commenti.
+>I parametri `convConfig` oggetto elencati qui non si applicano all'app Reviews. Per informazioni sull'integrazione dell'app Reviews tramite l' `convConfig` oggetto, vedere Integrazione delle recensioni.
 
-L `ConvConfig` &#39;oggetto può contenere anche i seguenti parametri facoltativi:
+L' `ConvConfig` oggetto contiene i seguenti parametri obbligatori:
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
-| Actionbuttons | *optional* array | Un array di pulsanti di azione personalizzati da aggiungere a una parte di contenuto accanto ai pulsanti Condividi e Flag. Per ulteriori informazioni, consultate Aggiunta di pulsanti personalizzati. |
-| animazioni | *optional* boolean | Definisce se le animazioni verranno eseguite nell&#39;app Livefyre. Impostate su false per disabilitare le animazioni. Impostazione predefinita: true. |
-| Anonousflaggingenabled | *optional* boolean | Definisce se gli utenti ospiti hanno la possibilità di segnalare il contenuto. Il valore predefinito è true. |
-| Browsertype | *optional* string | Definisce il dispositivo per il quale deve essere generato il contenuto di visualizzazione. In questo modo, i CSS e alcune funzionalità saranno modificati in base al tipo di dispositivo di input. Le opzioni sono desktop, dispositivi mobili o tablet. (Se lasciato vuoto, predefinito la determinazione Agente Google per il formato di visualizzazione.) |
-| checksum | *stringa consigliata* (consigliato) | Identifica lo stato corrente della raccolta collectionmeta. Modificando questo valore, Livefyre può aggiornare i dati sul server con i nuovi valori in collectionmeta. |
-| Datetimeformat | *funzione oggetto* stringa opzionale | Specifica il formato datetime del contenuto in streaming. Per ulteriori informazioni, consultate Timbri data e ora. |
-| Disableavatars | *optional* boolean | Impedisce il rendering di avatar nel flusso app e riduce quindi il numero di elementi caricati nel browser. Il valore predefinito è false. |
-| disableIE8Shim | *optional* boolean | Disattiva l&#39;ombreggiatura predefinita utilizzata da Livefyre per il polifill Internet Explorer 8, in modo che gli elementi HTML 5 siano supportati. Livefyre usa il seguente progetto: [https://github.com/aFarkas/html5shiv](https://github.com/aFarkas/html5shiv). Il valore predefinito è false. Nota: Se questo valore è false, è necessario utilizzare il polifill di some sort prima che sia richiamato Livefyre Chat per il supporto di Internet Explorer 8. |
-| Disablethirdpartyanalytics | *optional* bboolean | Disabilita i sistemi di analisi di terze parti (Quantserve e Google Analytics) che Livefyre può utilizzare per le misure interne. Il valore predefinito è false. |
-| Editorcss | *optional* object | Utilizzato per personalizzare lo stile dell&#39;editor commento. Potete definire lo stile del colore dello sfondo del campo dell&#39;editor, nonché il colore, le dimensioni e la famiglia del testo che vengono visualizzati all&#39;interno dell&#39;editor. Ad esempio: `{background: ‘#ccc’, color: ‘red’, font: ’30px “Helvetica Neue”, Helvetica, Arial, Geneva, sans-serif’}` |
-| Initialnumvisible | *numero* intero opzionale | Consente di impostare il numero predefinito di commenti visibili nell&#39;app al momento del caricamento. Può essere un numero intero compreso tra 1 e 50. |
-| Initialnumvisiblelegacy | *numero* intero opzionale | Consente di impostare il numero predefinito di elementi di contenuto precedenti visibili nell&#39;app al momento del caricamento. Può essere un numero intero compreso tra 1 e 50. Se questo parametro non è specificato, predefinito initialnumvisible. Ad esempio: Se la raccolta include 100 commenti attivi e 100 precedenti, impostare initalnumvisible: 10 e initialnumvisiblelegacy: 5, per visualizzare 10 commenti attivi (con un pulsante Mostra più) + 5 archivio (con un pulsante Mostra più). |
-| Maxvisible | *numero* intero opzionale | Imposta il numero massimo di parti visibili del contenuto di livello principale nell&#39;app chat. Se sono presenti nuove parti di flusso contenuto in, il contenuto nella parte inferiore del flusso verrà rimosso dalla pagina. Se viene fatto clic sul pulsante Mostra più…, il parametro viene ignorato e l&#39;utente è gratuito per mostrare il contenuto desiderato. (Utilizzate questo parametro per controllare il numero di elementi visualizzati sulla pagina in flussi ad alta velocità). |
-| Posttobuttons | *optional* array | Utilizzato per configurare i fornitori visualizzati durante l&#39;incorporazione dell&#39;app blog live. Le opzioni disponibili sono tw (Twitter), fb (Facebook) e li (linkedin). Impostazione predefinita [ : tb ]. |
-| Readonly | *optional* boolean | Disattiva tutte le interattività per la raccolta. Se è true, gli utenti non potranno effettuare l&#39;accesso al flusso e non possono pubblicare, modificare, rispondere o come il contenuto. Se è true, gli utenti potranno segnalare e condividere il contenuto. Il valore predefinito è false. |
-| stream | *optional* object | Contiene opzioni per configurare lo streaming dell&#39;app. |
-| stream. catchup | *numero* intero opzionale | Specifica il numero di secondi precedente al momento corrente in cui il flusso deve essere caricato. Per impostazione predefinita, Livefyre carica 50 pezzi di contenuto, quindi carica tutto il contenuto inviato tra questi e il tempo corrente. Nei casi d&#39;uso molto veloci, il contenuto potrebbe venire postato troppo rapidamente per consentire all&#39;app di eseguire il&#39;accessò al presente. Utilizzate questa impostazione per definire il numero di secondi precedente per il quale verrà pubblicato il contenuto (dopo il caricamento iniziale del contenuto). |
-| stream. delay | *numero* intero opzionale | Specifica il numero di secondi tra richieste di streaming. Utilizzate questo parametro per controllare il flusso dei contenuti e ritardare la frequenza con cui il DOM viene aggiornato. Nota: Se il valore è troppo elevato, il flusso potrebbe cadere dietro. |
+| articleId | *stringa obbligatoria* | Identifica in modo univoco una raccolta all'interno del sito. In genere corrisponde a una chiave primaria del database o a un ID Post all’interno del CMS. Ad esempio: "post-42". Limite di 255 caratteri.  Nota:  Se utilizzate l'URL dell'articolo come articleId, accertatevi che la stringa sia codificata MD5 o SHA-1. |
+| collectionMeta | *stringa obbligatoria* | Metadati codificati JWT per la raccolta. Per ulteriori informazioni, consulta [CollectionMeta Object](../c-getting-started/c-implementation-process/c-collectionmeta-tokent.md#collectionmeta-tokent) . |
+| el | *stringa obbligatoria* | L'ID di un elemento DOM a cui verrà eseguito il rendering del flusso di contenuto. |
+| siteId | *stringa obbligatoria* | L'ID Livefyre fornito per il sito Web o l'applicazione a cui appartiene la raccolta. Ad esempio: "303617". |
+
+>[!NOTE]
+>
+>Il `app` parametro non è richiesto per l'implementazione di un'app di commenti.
+
+L' `ConvConfig` oggetto può anche contenere i seguenti parametri facoltativi:
+
+| Parametro | Tipo | Descrizione |
+|--- |--- |--- |
+| actionButtons | *array facoltativo* | Un array di pulsanti di azione personalizzati da aggiungere a un contenuto accanto ai pulsanti Condividi e Contrassegna. Per ulteriori informazioni, consultate Aggiunta di pulsanti personalizzati. |
+| animazioni | *facoltativo* boolean | Definisce se le animazioni verranno eseguite nell'app Livefyre. Impostate su false per disabilitare le animazioni. Il valore predefinito è true. |
+| anonimoFlaggingEnabled | *facoltativo* boolean | Definisce se gli utenti ospiti dispongono dell’opzione per contrassegnare il contenuto. Il valore predefinito è true. |
+| browserType | *stringa facoltativa* | Definisce il dispositivo per il quale generare il contenuto di visualizzazione. Ciò causerà la modifica del CSS e di alcune funzionalità per adattarlo al tipo di dispositivo di input. Le opzioni sono desktop, mobile o tablet. Se lasciato vuoto, per impostazione predefinita verrà utilizzata la determinazione di Google Agent per il formato di visualizzazione. |
+| checksum | *stringa consigliata* (consigliato) | Identifica lo stato corrente di CollectionMeta. Modificando questo valore, Livefyre aggiornerà i dati sul server con i nuovi valori in CollectionMeta. |
+| datetimeFormat | *funzione oggetto stringa opzionale* | Specifica il formato datetime del contenuto in streaming. Per ulteriori informazioni, vedere Personalizzazione dei timbri data e ora. |
+| disableAvatars | *facoltativo* boolean | Impedisce il rendering degli avatar nel flusso App e riduce quindi il numero di elementi caricati nel browser. Il valore predefinito è false. |
+| disableIE8Shim | *facoltativo* boolean | Disattiva lo shiv predefinito utilizzato da Livefyre per polilizzare Internet Explorer 8 in modo che gli elementi HTML5 siano supportati. Livefyre utilizza il seguente progetto:  [https://github.com/aFarkas/html5shiv](https://github.com/aFarkas/html5shiv). Il valore predefinito è false.  Nota:  Se questo valore è false, è necessario utilizzare il polifugo di un certo tipo prima che Livefyre Chat venga richiamato per il supporto di Internet Explorer 8. |
+| disableThirdPartyAnalytics | *bBoolean facoltativo* | Disattiva i sistemi di analisi di terze parti (Quantserve e Google Analytics) che Livefyre può utilizzare per le misurazioni interne. Il valore predefinito è false. |
+| editorCss | *oggetto facoltativo* | Utilizzato per personalizzare lo stile dell’editor dei commenti. È possibile formattare il colore di sfondo del campo dell’editor, nonché il colore del font, le dimensioni e la famiglia del testo che appare all’interno dell’editor.  Ad esempio: `{background: ‘#ccc’, color: ‘red’, font: ’30px “Helvetica Neue”, Helvetica, Arial, Geneva, sans-serif’}` |
+| initialNumVisible | *numero intero facoltativo* | Consente di impostare il numero predefinito di commenti visibili nell'app al momento del caricamento. Può essere un numero intero compreso tra 1 e 50. |
+| initialNumVisibleLegacy | *numero intero facoltativo* | Consente di impostare il numero predefinito di elementi di contenuto legacy visibili nell'app al momento del caricamento. Può essere un numero intero compreso tra 1 e 50. Se questo parametro non viene specificato, per impostazione predefinita viene utilizzato initialNumVisible.  Ad esempio: Se la raccolta include 100 commenti attivi e 100 legacy, impostare i commenti inizialiNumVisible:10 e initialNumVisibleLegacy:5 per visualizzare 10 commenti attivi (con un pulsante Mostra più) + 5 commenti dell'archivio (con un pulsante Mostra più). |
+| maxVisible | *numero intero facoltativo* | Imposta il numero massimo di parti visibili del contenuto di livello principale nell'app chat. Se vengono inserite nuove parti di contenuto, il contenuto nella parte inferiore del flusso verrà rimosso dalla pagina. Se si fa clic sul pulsante Show more (Mostra altro), il parametro viene ignorato e l'utente può visualizzare tutto il contenuto desiderato. (Usate questo parametro per controllare il numero di elementi visualizzati sulla pagina in flussi ad alta velocità.) |
+| postToButtons | *array facoltativo* | Utilizzato per configurare quali fornitori vengono visualizzati quando si incorpora l'app Live Blog. Le opzioni disponibili sono due (Twitter), fb (Facebook) e li (LinkedIn). Il valore predefinito è [ due, fb ]. |
+| readOnly | *facoltativo* boolean | Disattiva tutte le interattività per la raccolta. Se true, gli utenti non potranno accedere al flusso e non potranno pubblicare contenuti Post, Edit, Reply to o Come. Se true, gli utenti potranno contrassegnare e condividere il contenuto. Il valore predefinito è false. |
+| stream | *oggetto facoltativo* | Contiene opzioni per configurare lo streaming dell'app. |
+| stream.catchup | *numero intero facoltativo* | Specifica il numero di secondi precedenti al momento in cui il flusso deve essere caricato. Per impostazione predefinita, Livefyre carica 50 parti di contenuto, quindi carica tutto il contenuto inviato tra quelle e l'ora attuale. In casi di utilizzo molto rapidi, il contenuto potrebbe essere pubblicato troppo rapidamente per consentire all'app di "raggiungere" il presente. Utilizzate questa impostazione per definire il numero di secondi precedenti al momento per il quale verrà pubblicato il contenuto (dopo il caricamento iniziale del contenuto). |
+| stream.delay | *numero intero facoltativo* | Specifica il numero di secondi tra le richieste di streaming. Utilizzate questo parametro per controllare il flusso di contenuto e ritardare la frequenza con cui il DOM viene aggiornato.  Nota:  Se impostato su un valore troppo elevato, il flusso potrebbe rimanere indietro. |
 
 
 >[!NOTE]
 >
->È possibile trasmettere uno o più `convConfig` oggetti durante l&#39;inizializzazione dell&#39;app per visualizzare più app sulla stessa pagina. Tenete presente che altre app utilizzano risorse browser e le prestazioni possono degradarsi a mano a mano che il numero aumenta.
+>Durante l'inizializzazione dell'app è possibile passare uno o più `convConfig` oggetti per visualizzare più app sulla stessa pagina. Tenete presente che ulteriori app utilizzano risorse del browser e che le prestazioni potrebbero peggiorare con l'aumento del numero.
 
-## Oggetto collectionmeta {#c-collectionmeta-object}
+## CollectionMetaObject {#c-collectionmeta-object}
 
-`CollectionMeta` L&#39;oggetto è un oggetto JSON che specifica i metadati da memorizzare all&#39;interno della raccolta.
+L' `CollectionMeta` oggetto è un oggetto JSON che specifica i metadati da memorizzare all'interno della raccolta.
 
-`CollectionMeta` è sempre codificata prima di essere passata a Livefyre per la sicurezza. Il valore codificato viene passato nell&#39; `ConvConfig` oggetto indicato sopra.
+`CollectionMeta` viene sempre codificato prima di essere passato a Livefyre per motivi di sicurezza. Il valore codificato viene passato all' `ConvConfig` oggetto indicato sopra.
 
 >[!NOTE]
 >
->È necessario aggiungere un codice lato server per codificare l&#39;oggetto `CollectionMeta` JSON. Per ulteriori informazioni, consultate Creazione di token lato server.
+>È necessario aggiungere codice lato server per codificare l'oggetto `CollectionMeta` JSON. Per ulteriori informazioni, consulta Creazione di token sul lato server.
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
-| Articleid | *required* string | ID univoco per la raccolta. |
-| title | *required* string | Titolo da applicare alla raccolta. Spesso corrisponde al titolo della pagina che visualizza l&#39;app. Ad esempio: «Integrazione è molto divertente! »» Nota: La lunghezza massima del carattere per il titolo è 255 caratteri. Il campo Titolo non supporta le entità HTML. Codificate caratteri speciali utilizzando UTF -8. |
-| url | *required* string | L&#39;URL assoluto canonico che desiderate allegare a questa raccolta. Questo URL verrà utilizzato per generare collegamenti all&#39;app dal contenuto condiviso su Facebook e Twitter, notifiche e-mail e Livefyre Studio. Nota: Livefyre richiede l&#39;utilizzo di un nome di dominio qualificato, il numero di porta o un callback per risolvere la configurazione locale non è richiesto. In caso di test localmente, assicuratevi che sia utilizzato un dominio URL di base valido. (Ad esempio: `https://customer.com` is valid, while `https://localhost:5995` not.) Una volta configurato il server Web locale per accettare un nome di dominio qualificato, non sono necessari callback o risoluzioni e lo sviluppo locale può procedere come previsto. |
-| type | *required* string | Il tipo di raccolta. Deve essere live. |
+| articleId | *stringa obbligatoria* | Un ID univoco per la raccolta. |
+| title | *stringa obbligatoria* | Titolo da applicare alla raccolta. Questo spesso corrisponde al titolo della pagina che visualizza l'app.  Ad esempio: "L'integrazione è così divertente!"  Nota:  La lunghezza massima dei caratteri per il titolo è di 255 caratteri. Il campo title non supporta le entità HTML. Codificare caratteri speciali utilizzando UTF-8. |
+| url | *stringa obbligatoria* | L'URL assoluto canonico che si desidera allegare a questa raccolta. Questo URL verrà utilizzato per generare i collegamenti all'app dal contenuto condiviso su Facebook e Twitter, dalle notifiche e-mail e da Livefyre Studio.  Nota:  Livefyre richiede l’uso di un nome di dominio completo; il numero di porta o un callback per risolvere la configurazione locale non è richiesto. Se il test avviene localmente, accertatevi di utilizzare un dominio URL di base valido. Ad esempio: `https://customer.com` è valido, ma non `https://localhost:5995` lo è.) Una volta configurato il server Web locale per accettare un nome di dominio completo, non sono necessari callback o risoluzioni e lo sviluppo locale può procedere come previsto. |
+| type | *stringa obbligatoria* | Il tipo Collection. Deve essere livechat. |
 
-L `CollectionMeta` &#39;oggetto può contenere anche il seguente parametro opzionale:
+L' `CollectionMeta` oggetto può anche contenere il seguente parametro opzionale:
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
-| tag | *optional* string | Un elenco separato da virgole di parole chiave o frasi. Cerca raccolte in base ai tag in Studio o nell&#39;API di ricerca. Nota: I tag aggiunti tramite Studio possono contenere spazi, i tag inseriti tramite l&#39;API non possono. Utilizzate i caratteri di sottolineatura per definire i tag che visualizzeranno gli spazi nell&#39;interfaccia utente. (Ad esempio: use Monday_ Quarterback per visualizzare Lunedì Quarterback in Studio.) |
+| tags | *stringa facoltativa* | Elenco separato da virgole di parole chiave singole o di frasi. Consente di eseguire ricerche nelle raccolte in base ai tag in Studio o con l'API di ricerca.  Nota: Anche se i tag aggiunti tramite Studio possono contenere spazi, i tag immessi tramite l'API non possono. Utilizzate i caratteri di sottolineatura per definire i tag che visualizzeranno gli spazi nell'interfaccia utente. Ad esempio: utilizzate Monday_Quarterback per visualizzare il Quarterback del lunedì in Studio.) |
 
-## Aggiunta di un gestore di eventi {#concept_E7C17EFB43F24F1A8572E60C69176C6D}
+## Aggiunta di un gestore eventi {#concept_E7C17EFB43F24F1A8572E60C69176C6D}
 
-Per registrare i gestori di eventi, utilizzate la chiamata al widget. on all&#39;interno della funzione di callback dell&#39;app.
+Per registrare i gestori di eventi, utilizza la chiamata widget.on all'interno della funzione di callback dell'app.
 
 Ad esempio:
 
@@ -172,4 +172,4 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 });
 ```
 
-Per ulteriori informazioni, e per un elenco degli eventi disponibili, vedere [Eventi Javascript](../c-app-customizations/c-javascript-events.md#c_javascript_events).
+Per ulteriori informazioni e per un elenco degli eventi disponibili, consultate Eventi [](../c-app-customizations/c-javascript-events.md#c_javascript_events)JavaScript.
