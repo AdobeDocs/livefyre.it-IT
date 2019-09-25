@@ -1,10 +1,10 @@
 ---
-description: Caricare immagini in un flusso Live, Chat, Recensioni o Commenti.
-seo-description: Caricare immagini in un flusso Live, Chat, Recensioni o Commenti.
+description: Caricate le immagini in un flusso di blog, chat, revisioni o commenti dal vivo.
+seo-description: Caricate le immagini in un flusso di blog, chat, revisioni o commenti dal vivo.
 seo-title: Caricamento foto
 solution: Experience Manager
 title: Caricamento foto
-uuid: 1 fc 92 fbe -1 dd 4-43 f 3-a 43 f-cc 9 a 5 ac 3 aea 1
+uuid: 1fc92fbe-1dd4-43f3-a43f-cc9a5ac3aea1
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
@@ -13,13 +13,13 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Caricamento foto{#photo-upload}
 
-Caricare immagini in un flusso Live, Chat, Recensioni o Commenti.
+Caricate le immagini in un flusso di blog, chat, revisioni o commenti dal vivo.
 
-Le foto possono essere caricate direttamente in qualsiasi app da una libreria fotografica, un disco rigido del computer o un account social network di un utente.
+Le foto possono essere caricate direttamente in qualsiasi app dalla libreria fotografica mobile di un utente, dal disco rigido del computer o dagli account dei social network.
 
-Le Impostazioni di una raccolta o di un sito consentono di definire se gli utenti possono caricare le foto in un&#39;app. Questa opzione può essere attivata a livello di rete, sito o raccolta. I proprietari e i moderatori sono sempre in grado di caricare le foto in qualsiasi app.
+Le impostazioni per una raccolta o un sito consentono di definire se gli utenti possono caricare le foto in un'app. Questa opzione può essere abilitata a livello di rete, sito o raccolta. I proprietari e i moderatori sono sempre in grado di caricare le foto in qualsiasi app.
 
-Questa funzione di caricamento foto può essere utilizzata insieme all&#39;impostazione «File multimediali preimpostati».
+Questa funzione di caricamento delle foto può essere utilizzata insieme all'impostazione "File multimediali pre-moderati".
 
 App che utilizzano questa funzione:
 
