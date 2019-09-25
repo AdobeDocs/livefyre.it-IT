@@ -1,27 +1,27 @@
 ---
-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
-seo-description: Modificare le opzioni di dimensione, larghezza e interazione dell'app Mappa.
-seo-title: Personalizzazione mappe
+description: Modificate le opzioni di dimensione, larghezza e interazione dell’app Mappa.
+seo-description: Modificate le opzioni di dimensione, larghezza e interazione dell’app Mappa.
+seo-title: Personalizzazioni mappa
 solution: Experience Manager
-title: Personalizzazione mappe
-uuid: 3 a 3 bffde -5 d 1 b -41 da -9 aa 8-d 25 b 43 d 0 df 76
+title: Personalizzazioni mappa
+uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Personalizzazione mappe{#map-customizations}
+# Personalizzazioni mappa{#map-customizations}
 
-Modificare le opzioni di dimensione, larghezza e interazione dell&#39;app Mappa.
+Modificate le opzioni di dimensione, larghezza e interazione dell’app Mappa.
 
 
 
-Le seguenti opzioni sono disponibili nell&#39;app Mappa:
+Le seguenti opzioni sono disponibili dall'app Mappa:
 
 * **[!UICONTROL Cluster number]**
 
-   Imposta il colore per i numeri elencati sopra ogni cluster di contenuti nell&#39;app.
+   Imposta il colore per i numeri elencati sopra ogni cluster di contenuti nell'app.
 
 * **[!UICONTROL Show zoom controls]**
 
@@ -29,31 +29,31 @@ Le seguenti opzioni sono disponibili nell&#39;app Mappa:
 
 * **[!UICONTROL Allow panning]**
 
-   Abilita lo scorrimento della mappa, consentendo agli utenti di trascinare e riposizionare la mappa.
+   Abilita la panoramica per la mappa, consentendo agli utenti di trascinare e riposizionare la mappa.
 
 * **[!UICONTROL Enable content modal]**
 
-   Consente agli utenti di fare clic su una parte del contenuto per aprirla in una finestra a comparsa.
+   Consente agli utenti di fare clic su un contenuto per aprirlo in una finestra a comparsa.
 
 * **[!UICONTROL Enable clustering]**
 
-   Crea gruppi di contenuto cliccabili, ridimensionati allo zoom dell&#39;utente.
+   Consente di creare gruppi di contenuti selezionabili, ridimensionati per consentire lo zoom dell’utente.
 
 * **[!UICONTROL Embedded height / Embedded width]**
 
-   Consente di impostare la dimensione pixel in cui la mappa verrà incorporata sul sito. (Facoltativo)
+   Consente di impostare la dimensione in pixel in base alla quale la mappa verrà incorporata nel sito. (Facoltativo.)
 
    >[!NOTE]
    >
-   >Se gli sviluppatori Web hanno definito una **[!UICONTROL height]** mappa per la pagina, questi saranno ignorati e la mappa seguirà le convenzioni di ridimensionamento reattive. Se non hanno definito un&#39;altezza, questi saranno utilizzati e la mappa viene inserita in una dimensione impostata (progettazione non reattiva). Se questi campi vengono lasciati vuoti, il valore predefinito sarà 600 px per 400 px alta e la mappa non sarà reattiva.
+   >Se gli sviluppatori Web hanno definito una mappa **[!UICONTROL height]** per la mappa sulla pagina, questi valori verranno ignorati e la mappa seguirà le convenzioni di ridimensionamento reattiva. Se non hanno definito un'altezza, questi valori verranno utilizzati e la mappa verrà posizionata in una dimensione impostata (progettazione non reattiva). Se questi campi sono lasciati vuoti, per impostazione predefinita il valore sarà largo 600 px per 400 px e la mappa non sarà reattiva.
 
 * **[!UICONTROL Location]**
 
-   Inserite la posizione intorno alla quale desiderate centrare la mappa. Usate il cursore sotto la mappa di anteprima per definire lo zoom.
+   Inserire la posizione intorno alla quale si desidera centrare la mappa. Usate il cursore sotto la mappa di anteprima per definire lo zoom.
 
-Puoi personalizzare l&#39;app Mappa utilizzando:
+Potete personalizzare l'app Mappa utilizzando:
 
-* **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sullo standard **[!UICONTROL Style]** e **[!UICONTROL Config]** opzioni per tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e **[!UICONTROL Config]** le opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sugli standard **[!UICONTROL Style]** e sulle **[!UICONTROL Config]** opzioni di tutte le app in **[!UICONTROL App Designer]**.
 
-* Strumenti di integrazione. Per ulteriori informazioni su come personalizzare le app mediante Strumenti di integrazione, consulta Mappa.
+* Strumenti di integrazione. Per ulteriori informazioni su come personalizzare le app tramite gli strumenti di integrazione, consulta Mappa.
 
