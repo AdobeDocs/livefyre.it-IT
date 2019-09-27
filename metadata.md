@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Livefyre
+solution-title: Informazioni e supporto
 solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Introduzione
@@ -10,28 +10,28 @@ tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-video
 mini-toc-levels: '2'
 git-repo: https://github.com/AdobeDocs/livefyre.en
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 170fa6b446345d5e2e272294a3267d1ebbb0cd09
 
 ---
 
 
 # Metadati per uso interno
 
-Il file metadata. md include metadati reattivi che passano ai file TOC. md della guida utente nel repo. Se desiderate modificare il contenuto metadati. md per qualsiasi guida utente, eseguite questa operazione in qualsiasi file TOC. md.
+Il file metadata.md include metadati a livello di repo che passano ai file TOC.md della guida utente nella repo. Se desiderate modificare il contenuto metadata.md per qualsiasi guida utente, effettuate questa operazione in qualsiasi file TOC.md.
 
-| metadata | azione |
+| metadata | cosa |
 |--- |--- |
-| solution-title | Utilizzato nell&#39;intestazione dell&#39;articolo come collegamento |
-| solution-hub-url | Apre la pagina hub helpx |
-| solution-icon | Visualizza l&#39;icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
-| getting-started-url | Collegamento alla pagina introduttiva helpx |
-| tutorials-url | Collegamento alle esercitazioni video—esercitazioni helpx o esercitazioni KT |
-| mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. il valore predefinito è 2 |
-| git-repo | Specifica la posizione del repo principale per uso interno |
+| solution-title | Utilizzato nell'intestazione dell'articolo come collegamento |
+| solution-hub-url | Apre la pagina centrale helpx |
+| solution-icon | Visualizza l'icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
+| getting-started | Link alla pagina di guida introduttiva |
+| tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o esercitazioni KT |
+| mini-livelli | Determines the number of heading levels that appear in right rail. Il valore predefinito è 2 |
+| git-repo | Specifies the location of the master repo for internal use |
 
-Nel file TOC. md
+In TOC.md file
 
-| metadata | azione |
+| metadata | cosa |
 |--- |--- |
-| user-guide-title | Utilizzato nell&#39;intestazione dell&#39;articolo come collegamento |
-| user-guide-url | Apre la pagina hub helpx |
+| user-guide-title | Used in article header as link |
+| user-guide-url | Opens helpx hub page |
