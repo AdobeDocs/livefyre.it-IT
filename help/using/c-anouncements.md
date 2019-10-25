@@ -6,12 +6,18 @@ solution: Experience Manager
 title: Annunci
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
+source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
 
 ---
 
 
 # Annunci{#announcements}
+
+## 25 ottobre 2019
+
+Il 4 settembre 2019, Facebook ha improvvisamente rimosso l'accesso a determinate autorizzazioni e funzionalità dal flusso di lavoro di Livefyre, che ha interrotto la possibilità di effettuare ricerche o trasmettere contenuti di Facebook. Se l'app necessita dell'accesso a publish_pages, user_friends o all'accesso al contenuto pubblico della pagina, richiedetela tramite il processo di revisione dell'app esistente. Abbiamo richiesto formalmente di ripristinare l'accesso a queste autorizzazioni e stiamo aspettando l'approvazione da Facebook. Non appena l'approvazione sarà stata concessa e il contenuto sarà nuovamente disponibile.
+
+I contenuti già pubblicati sui siti Web non verranno interessati.
 
 ## 11 giugno 2019
 
