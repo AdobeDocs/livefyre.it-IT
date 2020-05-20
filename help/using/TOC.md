@@ -1,14 +1,17 @@
 ---
 product: livefyre
-audience: utente finale
-user-guide-title: Guida utente di Experience Manager Livefyre
+audience: end-user
+user-guide-title: Documentazione Livefyre
 translation-type: tm+mt
-source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 4%
 
 ---
 
 
-# Guida utente di Experience Manager Livefyre {#using}
+# Documentazione Livefyre {#using}
 
 + [Guida di Livefyre](home.md)
 + [Annunci](c-anouncements.md)
@@ -16,7 +19,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
 + [Informazioni su Livefyre](c-product.md)
 + iOS {#apps}
    + [iOS](c-about-apps/c-about-apps.md)
-   + [Creare un'app](c-about-apps/c-create-an-app.md)
+   + [Creare un&#39;app](c-about-apps/c-create-an-app.md)
    + Carosello {#carousel}
       + [Carosello](c-about-apps/c-carousel-app/c-carousel-app.md)
       + [Funzioni carosello](c-about-apps/c-carousel-app/r-carousel-features.md)
@@ -37,8 +40,8 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
       + [Funzioni Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
       + [Personalizzazioni Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + Live Blog {#liveblog}
-      + [Live Blog](c-about-apps/c-liveblog-app/c-liveblog-app.md)
+   + Blog dal vivo {#liveblog}
+      + [Blog dal vivo](c-about-apps/c-liveblog-app/c-liveblog-app.md)
       + [Funzioni Live Blog](c-about-apps/c-liveblog-app/r-live-blog-features.md)
       + [Personalizzazioni Live Blog](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
    + Mappa {#map}
@@ -55,12 +58,12 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [Personalizzazioni Mosaico](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
    + Sondaggi {#polls}
       + [Sondaggi](c-about-apps/c-polls-app/c-polls-app.md)
-      + [Aggiunta di un sondaggio a un'app Commenti o blog dal vivo](c-about-apps/c-polls-app/t-integrate-poll-site.md)
+      + [Aggiunta di un sondaggio a un&#39;app Commenti o blog dal vivo](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [Aggiunta di immagini a un sondaggio](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [Personalizzazioni dei sondaggi](c-about-apps/c-polls-app/r-polls-customizations.md)
    + Recensioni {#reviews}
       + [Recensioni](c-about-apps/c-reviews-app/c-reviews-app.md)
-      + [Creazione di un'app di revisione](c-about-apps/c-reviews-app/c-creating-reviews.md)
+      + [Creazione di un&#39;app di revisione](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [Pubblicazione di una revisione](c-about-apps/c-reviews-app/t-using-reviews.md)
    + Sidenotes {#sidenotes}
       + [Sidenotes](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
@@ -79,11 +82,11 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [Pubblicare un brano](c-about-apps/c-storify2/t-publish-a-story.md)
       + [Cronologia revisioni](c-about-apps/c-storify2/t-review-storify2-history.md)
       + [Utilizzo di più editor sullo stesso brano](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
-      + [Utilizzo dei flussi per aggiungere contenuti social alla storia](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
+      + [Utilizzo dei flussi per aggiungere contenuti social alla propria storia](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [Fissare un post su Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
       + Guida di navigazione {#navigation-guide}
          + [Guida di navigazione](c-about-apps/c-storify2/c-navigation-guide.md)
-         + [Aggiungere una guida di navigazione a uno storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
+         + [Aggiunta di una guida di navigazione a uno storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [Aggiungere un titolo alla guida di navigazione](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
          + [Aggiungere post alla guida di navigazione](c-about-apps/c-storify2/t-add-posts-to-the-navigation-guide.md)
          + [Impostare il numero di post nella guida di navigazione](c-about-apps/c-storify2/t-set-the-number-of-posts-nav-guide.md)
@@ -100,7 +103,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
 + Funzioni app {#app-features}
    + [Funzioni di accessibilità](c-features-livefyre/c-accessibility-features.md)
    + [Funzioni di autenticazione](c-features-livefyre/c-authentication.md)
-   + [Pulsante Invito all'azione personalizzato](c-features-livefyre/c-call-to-action-button.md)
+   + [Pulsante Invito all&#39;azione personalizzato](c-features-livefyre/c-call-to-action-button.md)
    + Funzioni di comportamento dei contenuti {#content-behavior-features}
       + [Funzioni di comportamento dei contenuti](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
       + [Caricamento foto](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
@@ -110,7 +113,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [Cambia raccolta](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [Filtrare la ricerca per raccolta o tag contenuto](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
       + [Filtra ricerca per tag contenuto](c-features-livefyre/c-content-collection-tags/t-filter-search-by-content-tag.md)
-      + [Integrazione Embedly](c-features-livefyre/c-content-collection-tags/c-embedly-integration.md)
+      + [Integrazione Embedly ](c-features-livefyre/c-content-collection-tags/c-embedly-integration.md)
       + [Contenuto in evidenza](c-features-livefyre/c-content-collection-tags/c-featured-content.md)
       + [Feature Content](c-features-livefyre/c-content-collection-tags/t-feature-content.md)
       + [Seleziona il contenuto da utilizzare in Studio](c-features-livefyre/c-content-collection-tags/t-select-content-to-feature-from-studio.md)
@@ -132,7 +135,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [Utilizzo del filtro Profanity](c-features-livefyre/c-about-moderation/c-profanity-filter.md)
       + [Utenti moderati](c-features-livefyre/c-about-moderation/t-moderate-users-modq.md)
       + [Contenuto moderato con ModQ](c-features-livefyre/c-about-moderation/c-modq.md)
-      + [Aggiunta di un elemento con traccia in un'app](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
+      + [Aggiunta di un elemento con traccia in un&#39;app](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
       + [Scelte rapide da tastiera ModQ](c-features-livefyre/c-about-moderation/r-modq-keyboard-shortcuts.md)
       + [Contenuto moderato da un flusso](c-features-livefyre/c-about-moderation/c-moderate-inline.md)
       + [Contenuto moderato mediante contenuto app](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
@@ -189,7 +192,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + [Utilizzo di Adobe Launch Livefyre Extension](c-library/launch-extension.md)
 + Streams {#streams}
    + [Streams](c-streams/c-streams.md)
-   + [Crea nuovo flusso](c-streams/t-create-a-new-stream.md)
+   + [Creare un nuovo flusso](c-streams/t-create-a-new-stream.md)
    + [Aggiungi regole per il flusso](c-streams/t-add-rules-for-your-stream.md)
    + [Opzioni regola di flusso per tutte le regole di flusso](c-streams/c-stream-rule-options-for-all-stream-rules.md)
    + [Regole pagina Facebook](c-streams/c-facebook-page-rules.md)
@@ -219,13 +222,13 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + [Divieto di utilizzo](c-users/t-ban-a-user.md)
    + [Whitelist a User](c-users/t-whitelist-a-user.md)
    + [Collega account utente](c-users/t-link-user-accounts.md)
-   + [Utenti che passano da una rete all'altra](c-users/c-users-switching-networks.md)
+   + [Utenti che passano da una rete all&#39;altra](c-users/c-users-switching-networks.md)
    + [Sincronizzazione utente](c-users/t-set-up-user-sync.md)
 + Utenti: Creazione di account utente {#users-creating-accounts}
    + [Utenti: Creazione di account utente](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [Invito di un utente a creare un account Studio](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [Accettare un invito per creare un account Studio](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
-   + [Accesso a Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
+   + [Accedere a Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
    + [Gestisci autorizzazioni di studio per gli utenti](c-users-creating-accounts-with-studio-access/t-manage-studio-permissions-for-users.md)
    + [Ruoli utente e autorizzazioni](c-users-creating-accounts-with-studio-access/c-user-types.md)
    + Aggiungere un account Social {#add-social-account}
