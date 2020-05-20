@@ -2,18 +2,21 @@
 seo-title: Guida utente di Livefyre
 solution: Experience Manager
 title: Guida utente di Livefyre
-uuid: codice9b-88d3-4e6e-9105-662e984002d5
+uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
-source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
 
-# Guida utente di Experience Manager Livefyre {#livefyre-help}
+# Guida utente di Livefyre {#livefyre-help}
 
-Utilizzate Livefyre Studio per creare app, raccogliere contenuti generati dall'utente e contenuti moderati.
+Utilizzate Livefyre Studio per creare app, raccogliere contenuti generati dall&#39;utente e contenuti moderati.
 
-Per informazioni su come implementare e personalizzare le app Livefyre sul sito mediante gli strumenti di sviluppo, consultate la Guida all'implementazione di [*Adobe Experience Manager Livefyre*](/help/implementation/home.md).
+Per informazioni su come implementare e personalizzare le app Livefyre sul sito mediante gli strumenti di sviluppo, consultate la Guida all&#39;implementazione di [*Adobe Experience Manager Livefyre *](/help/implementation/home.md).
 
 ## Argomenti comuni
 
