@@ -1,58 +1,61 @@
 ---
 product: livefyre
-audience: utente finale
-user-guide-title: Guida all'implementazione di Experience Manager Livefyre
+audience: end-user
+user-guide-title: Guida all'implementazione di Livefyre
 translation-type: tm+mt
-source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
 
-# Guida all'implementazione di Experience Manager Livefyre {#implementation}
+# Guida all&#39;implementazione di Livefyre {#implementation}
 
-+ [Guida all'implementazione di Livefyre](home.md)
++ [Guida all&#39;implementazione di Livefyre](home.md)
 + Introduzione {#getting-started}
-   + [Guida introduttiva all'integrazione con Livefyre](c-getting-started/c-getting-started.md)
+   + [Guida introduttiva all&#39;integrazione con Livefyre](c-getting-started/c-getting-started.md)
    + Implementation Process {#implementation-process}
       + [Processo di implementazione](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [Tipi di integrazione delle app](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [Implementazione app](c-getting-started/designer-app-implementation.md)
-      + [Implementazione di Livefyre con l'integrazione di terze parti](c-app-integrations/implement-livefyre-3rd-party.md)
+      + [Implementazione di Livefyre con l&#39;integrazione di terze parti](c-app-integrations/implement-livefyre-3rd-party.md)
       + [Architettura](c-getting-started/c-implementation-process/c-architecture.md)
-      + [Incorporare un'app](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
-      + [Aggiungere l'autenticazione a un'app tramite Livefyre.js](c-getting-started/c-implementation-process/c-add-authetication-to-an-app-using-livefyre.js.md)
+      + [Incorporare un&#39;app](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+      + [Aggiungere l&#39;autenticazione a un&#39;app tramite Livefyre.js](c-getting-started/c-implementation-process/c-add-authetication-to-an-app-using-livefyre.js.md)
       + [Crea token lato server](c-getting-started/c-implementation-process/c-build-server-side-tokens.md)
       + [CollectionMeta Token](c-getting-started/c-implementation-process/c-collectionmeta-tokent.md)
       + [Token autenticazione utente](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [Creare una raccolta utilizzando CollectionMeta Token](t-create-a-collectionmeta-token.md)
       + [Creazione di un checksum](c-creating-a-checksum.md)
 + Integrazione identità {#identity-integration}
-   + [Identity Integration](t-about-identity-integration/t-about-identity-integration.md)
+   + [Integrazione identità](t-about-identity-integration/t-about-identity-integration.md)
    + [Pacchetto di autenticazione](t-about-identity-integration/c-authorization-package.md)
    + [Oggetto AuthDelegate](t-about-identity-integration/c-building-an-auth-delegate.md)
-   + [Posting User Permissions to External Systems (Optional)](t-about-identity-integration/c-posting-user-permissions-to-external-systems.md)
-   + Implement SSO {#implementing-sso}
-      + [Implementing SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
-      + [Debugging Auth Delegate](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
-   + Sync with Livefyre {#sync-ping-for-pull}
-      + [Sync with Livefyre Using Ping for Pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
-      + [Build the Pull Endpoint](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
-      + [Registra l'endpoint con Studio](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
-      + [Build the Ping](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-ping.md)
-      + [Pull Request Structure](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-pull-request-structure.md)
-      + [Build the Ping for Pull Response](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-build-the-ping-for-pull-response.md)
-+ Livefyre Identity {#livefyre-identity}
-   + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
+   + [Registrazione delle autorizzazioni utente a sistemi esterni (facoltativo)](t-about-identity-integration/c-posting-user-permissions-to-external-systems.md)
+   + Implementa SSO {#implementing-sso}
+      + [Implementazione SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
+      + [Debug delegato autenticazione](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
+   + Sincronizzazione con Livefyre {#sync-ping-for-pull}
+      + [Sincronizzazione con Livefyre tramite Ping per pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
+      + [Creazione dell&#39;endpoint di pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
+      + [Registra l&#39;endpoint con Studio](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
+      + [Creare il ping](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-ping.md)
+      + [Struttura richiesta pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-pull-request-structure.md)
+      + [Creare il ping per la risposta pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-build-the-ping-for-pull-response.md)
++ Identità Livefyre {#livefyre-identity}
+   + [Identità Livefyre](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [Abilita identità Livefyre](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
    + Utilizzo delle app social con identità Livefyre {#use-social-apps-with-livefyre-identity}
-      + [Creare le app social](c-livefyre-identity-comp/t-create-your-social-apps.md)
-      + [Creare un'app Facebook da utilizzare con l'identità Livefyre](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
-      + [Creare un'app Twitter da utilizzare con l'identità Livefyre](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
+      + [Creare le app per social network](c-livefyre-identity-comp/t-create-your-social-apps.md)
+      + [Creare un&#39;app Facebook da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
+      + [Creare un&#39;app Twitter da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
       + [Crea uno Yahoo! App da utilizzare con identità Livefyre](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
-      + [Creare un'app di identità Microsoft Live da utilizzare con l'identità Livefyre](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
-      + [Creare un'app LinkedIn da utilizzare con l'identità Livefyre](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
-      + [Creare un'app di identità GitHub da utilizzare con l'identità Livefyre](c-livefyre-identity-comp/c-create-a-github-identity.md)
-      + [Utilizzo di Studio per collegare le app Social all'implementazione Livefyre](c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md)
+      + [Creare un&#39;app di identità Microsoft Live da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
+      + [Creare un&#39;app LinkedIn da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
+      + [Creare un&#39;app di identità GitHub da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/c-create-a-github-identity.md)
+      + [Utilizzo di Studio per collegare le app Social all&#39;implementazione Livefyre](c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md)
    + [Aggiungi Livefyre.js alla pagina](c-livefyre-identity-comp/t-add-livefyre.js-to-the-page.md)
    + [Inizializza identità Livefyre](c-livefyre-identity-comp/t-initialize-livefyre-identity.md)
    + [E-mail per identità Livefyre](c-livefyre-identity-comp/c-emails-for-livefyre-identity.md)
@@ -99,7 +102,7 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
    + [Chat](c-app-integrations/c-app-integratios-chat.md)
    + Commenti {#comments}
       + [Commenti](c-app-integrations/c-comments-integration/c-comments-integration.md)
-   + [Live Blog](c-app-integrations/c-live-blog-integration.md)
+   + [Blog dal vivo](c-app-integrations/c-live-blog-integration.md)
    + [Recensioni](c-app-integrations/c-reviews-integration.md)
    + Sidenotes {#sidenotes}
       + [Integrazione Sidenotes](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
@@ -113,8 +116,8 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
    + [Mappa](c-app-integrations/c-map-integration.md)
    + [Muro di supporto](c-app-integrations/c-media-wall-integration.md)
    + [Tendenza](c-app-integrations/c-trending-integration.md)
-+ Personalizzazioni app {#app-customizations}
-   + [Personalizzazioni app](c-app-customizations/c-app-customizations.md)
++ Personalizzazioni delle app {#app-customizations}
+   + [Personalizzazioni delle app](c-app-customizations/c-app-customizations.md)
    + [Modifica delle opzioni di visualizzazione](c-app-customizations/c-change-display-options.md)
    + [Classi CSS](c-app-customizations/c-css-classes.md)
    + [Storify classi CSS](c-app-customizations/c-storify-css-classes.md)
@@ -145,7 +148,7 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
       + [Eventi JavaScript per le app di visualizzazione](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [Eventi JavaScript per Media Wall](c-app-customizations/c-javascript-events-media-wall.md)
       + [Eventi JavaScript per le app di conversazione](c-app-customizations/c-javascript-events-for-conversation-apps.md)
-   + [Incorpora un'app commenti](c-app-customizations/c-embed-a-comments-app.md)
+   + [Incorpora un&#39;app commenti](c-app-customizations/c-embed-a-comments-app.md)
    + [Tracciamento riferimento](c-app-customizations/c-referral-tracking.md)
    + [Supporto per dispositivi e browser](c-app-customizations/c-device-and-browser-support.md)
    + [Requisiti di visualizzazione Twitter](c-app-customizations/c-twitter-display-requirements.md)
@@ -165,4 +168,4 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
    + [Raccolte multiple](c-advanced-topics/c-multiple-collections.md)
    + [Cambia tipi di app di base](c-advanced-topics/c-switch-core-app-types.md)
    + [Contatore social](c-advanced-topics/c-social-counter.md)
-   + [Utilizzare l'API Bootsrap e Stream con le app Livefyre](c-advanced-topics/bootstrap-stream-api.md)
+   + [Utilizzare l&#39;API Bootsrap e Stream con le app Livefyre](c-advanced-topics/bootstrap-stream-api.md)
