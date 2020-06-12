@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Ruoli utente e autorizzazioni
 uuid: d9261cfd-ae60-40d8-9816-25aef541506f
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Stud
 
 >[!NOTE]
 >
->Per tutti i ruoli tranne Amministratore, gli utenti possono accedere solo a Cartelle o Siti pubblici o condivisi con loro.
+>Per tutti i ruoli tranne Amministratore, gli utenti possono accedere solo a Cartelle o Siti che sono pubblici o che sono stati condivisi con loro.
 
 * **Amministratore di Studio**
    * Accesso a tutti i diritti e le autorizzazioni in Studio
@@ -39,10 +42,10 @@ I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Stud
    * Creare e modificare le cartelle condivise e le risorse nelle cartelle condivise
 
 * **User Manager**
-   * Visualizzazione e modifica dei dettagli dell'account utente finale
-   * Divieto o Whitelist per gli utenti finali
+   * Visualizzazione e modifica dei dettagli dell&#39;account utente finale
+   * Divieto o uso consentito degli utenti finali
 
-* **** Data Manager: concede l'accesso per l'utilizzo del dashboard di Livefyre Analytics.
+* **Data Manager:** concede l&#39;accesso per l&#39;utilizzo del dashboard di Livefyre Analytics.
 * **App Manager**
    * Creazione e modifica di app
    * Creazione e modifica di flussi che puntano ad app
@@ -58,4 +61,4 @@ I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Stud
 
 >[!NOTE]
 >
->I ruoli utente a livello di sito concedono l'autorizzazione solo al sito selezionato. I ruoli assegnati a questo livello non avranno accesso ad altri siti o reti.
+>I ruoli utente a livello di sito concedono l&#39;autorizzazione solo al sito selezionato. I ruoli assegnati a questo livello non avranno accesso ad altri siti o reti.
