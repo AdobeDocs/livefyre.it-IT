@@ -5,31 +5,34 @@ seo-title: Contenuto moderato con ModQ
 title: Contenuto moderato con ModQ
 uuid: c630fb85-7bd0-4da0-ac7e-080e970fb4f9
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 0%
 
 ---
 
 
 # Contenuto moderato con ModQ{#moderate-content-using-modq}
 
-Consente di moderare i contenuti da un'unica interfaccia intelligente.
+Consente di moderare i contenuti da un&#39;unica interfaccia intelligente.
 
 ModQ crea una coda in tempo reale di tutto il contenuto del sito o della rete che corrisponde alle regole di moderazione definite, consentendo ai moderatori di concentrarsi solo sul contenuto che richiede la loro attenzione.
 
-Una volta definite le impostazioni ModQ, alla coda verrà aggiunto nuovo contenuto che entra nel flusso o contenuto esistente contrassegnato dagli utenti. Le modifiche alle regole non rimuoveranno il contenuto dal ModQ, ma aggiungeranno nuovo contenuto alla coda in base alle nuove impostazioni.
+Una volta definite le impostazioni ModQ, alla coda verrà aggiunto nuovo contenuto che entra nel flusso o contenuto esistente contrassegnato dagli utenti. Le modifiche apportate alle regole non rimuoveranno il contenuto dal ModQ, ma aggiungeranno nuovo contenuto alla coda in base alle nuove impostazioni.
 
 ModQ consente di:
 
 * Consente di moderare nel contesto, visualizzare interi thread e Approvare, Cestino o Bozo singole parti di contenuto o completare i thread con un solo clic.
 * Maggiore velocità ed efficienza del flusso di lavoro.
 * Rispondi ai contenuti, aumentando il coinvolgimento con la community.
-* Consente a più moderatori di lavorare attraverso il contenuto, senza duplicare il lavoro dell'altro.
+* Consente a più moderatori di lavorare attraverso il contenuto, senza duplicare il lavoro dell&#39;altro.
 
 Il contenuto Livefyre è elencato in ModQ per un massimo di 6 settimane, mentre il contenuto dei flussi premoderati che non è stato risolto viene elencato in ModQ per 90 giorni.
 
 >[!NOTE]
 >
->Un singolo contenuto può essere elencato più volte se corrisponde a più regole per l’inclusione in ModQ. Ad esempio, se una parte di contenuto attiva una regola di flag utente per Offensive, in seguito attiva un'altra regola per Profane, questa verrà elencata due volte in ModQ.
+>Un singolo contenuto può essere elencato più volte se corrisponde a più regole per l’inclusione in ModQ. Ad esempio, se una parte di contenuto attiva una regola di flag utente per Offensive, in seguito attiva un&#39;altra regola per Profane, questa verrà elencata due volte in ModQ.
 
 Il contenuto non visualizzato in ModQ include:
 
@@ -42,13 +45,13 @@ Il contenuto non visualizzato in ModQ include:
 ModQ è suddiviso in due pannelli a schede:
 
 * **[!UICONTROL Items]** elenca tutti i contenuti Livefyre nativi e SocialSync destinati alla moderazione. Questa scheda include qualsiasi contenuto Social Search o Stream contrassegnato o modificato dopo la moderazione.
-* **[!UICONTROL Streams Premoderation]** elenca tutti i contenuti che entrano nelle vostre app dai flussi con Premoderato abilitato. Per ulteriori informazioni, consultate Creazione di flussi.
+* **[!UICONTROL Streams Premoderation]** elenca tutti i contenuti che entrano nelle app dai flussi con l&#39;opzione Premoderato abilitata. Per ulteriori informazioni, consultate Creazione di flussi.
 
 Entrambe le schede offrono molti degli stessi filtri e strumenti di moderazione.
 
-* **[!UICONTROL Item Count]** Il numero di elementi rimanenti nella coda viene visualizzato nell'angolo superiore sinistro di ModQ.
+* **[!UICONTROL Item Count]** Il numero di elementi rimanenti nella coda viene visualizzato nell&#39;angolo superiore sinistro di ModQ.
 * **[!UICONTROL Filter]** Fate clic **[!UICONTROL Filter]** per definire i parametri in base ai quali il contenuto verrà elencato nel riquadro.
-* **[!UICONTROL History]** Fate clic sul **[!UICONTROL History]** pulsante in alto a destra dello schermo per aprire un elenco di contenuti moderati di recente, che consente di rivedere il lavoro o di modificare una moderazione recente. Fate nuovamente clic sul pulsante per tornare al contenuto in coda. Verranno visualizzate solo le 100 azioni più recenti. **La cronologia** non elenca le azioni eseguite da un altro moderatore.
+* **[!UICONTROL History]** Fate clic sul **[!UICONTROL History]** pulsante in alto a destra dello schermo per aprire un elenco di contenuti moderati di recente, che consente di rivedere il lavoro o di modificare una moderazione recente. Fate di nuovo clic sul pulsante per tornare al contenuto in coda. Verranno visualizzate solo le 100 azioni più recenti. **La cronologia** non elenca le azioni eseguite da un altro moderatore.
 
 * **[!UICONTROL User Pane]** Fate clic sui pulsanti di espansione o riduzione in alto a destra della pagina per aprire o chiudere il riquadro Utente.
 
@@ -58,20 +61,20 @@ Ogni contenuto elencato presenta informazioni di anteprima, compreso il sito in 
 
 >[!NOTE]
 >
->Il contenuto nativo di Livefyre visualizzerà più informazioni del contenuto aggiunto all'app tramite Streams o altre fonti di social media.
+>Il contenuto nativo di Livefyre visualizzerà più informazioni del contenuto aggiunto all&#39;app tramite Streams o altre fonti di social media.
 
 Quando selezionate un elemento vengono visualizzate le informazioni seguenti:
 
 * **[!UICONTROL Time in Queue:]** elenca il tempo durante il quale il contenuto è stato aggiunto a ModQ.
-* **[!UICONTROL App name:]** l'app in cui viene visualizzato il contenuto. Collegamenti al sito con l'app.
+* **[!UICONTROL App name:]** l&#39;app in cui viene visualizzato il contenuto. Collegamenti al sito con l&#39;app.
 * **[!UICONTROL Content Body:]** miniatura del testo e del supporto, se disponibile.
 * **[!UICONTROL Status:]** lo stato corrente del contenuto (In sospeso, Con cestino e così via).
 * **[!UICONTROL Author information:]** nome e nome utente dell’autore.
-* **[!UICONTROL Timestamp:]** la marca temporale relativa di quando è stato creato il contenuto. Consente di collegare i contenuti nella pagina Contenuto app di Studio.
-* **[!UICONTROL Flag Type:]** Offensiva, non d'accordo, spam e così via
+* **[!UICONTROL Timestamp:]** la marca temporale relativa di quando è stato creato il contenuto. Esegue il collegamento a una parte del contenuto nella pagina Contenuto app di Studio.
+* **[!UICONTROL Flag Type:]** Offensiva, non d&#39;accordo, spam e così via
 
-   * Flag SICURI: Spam e Bulk.
-   * Flag applicato dall'elenco delle funzionalità di rete e sito: Profanità.
+   * Flag SICUREZZA: Spam e Bulk.
+   * Flag applicato dall&#39;elenco delle funzionalità di rete e sito: Profanità.
    * Flag applicati da SAFE: Discorsi di odio, PII (Informazioni personali), Insulti e Profanità.
    * Flag utente: Spam, Off-topic, Offensive e in disaccordo.
 
@@ -80,7 +83,7 @@ Quando selezionate un elemento vengono visualizzate le informazioni seguenti:
 
 ## Opzioni filtro nel ModQ {#section_r2c_qc2_yy}
 
-Fate clic **[!UICONTROL Filter]** in alto a sinistra nella finestra ModQ per aprire un pannello con le opzioni di filtro disponibili per i contenuti elencati. Quando si selezionano le opzioni, ModQ si aggiorna automaticamente per elencare solo il contenuto filtrato. Fare clic **[!UICONTROL Clear filters]** per cancellare tutte le opzioni selezionate e ricaricare l'elenco completo degli elementi.
+Fate clic **[!UICONTROL Filter]** in alto a sinistra nella finestra ModQ per aprire un pannello con le opzioni di filtro disponibili per i contenuti elencati. Quando si selezionano le opzioni, ModQ si aggiorna automaticamente per elencare solo il contenuto filtrato. Fare clic **[!UICONTROL Clear filters]** per cancellare tutte le opzioni selezionate e ricaricare l&#39;elenco completo degli elementi.
 
 Sono disponibili diverse opzioni di filtro per le **[!UICONTROL Items]** schede e **[!UICONTROL Streams Premoderation]** .
 
@@ -90,23 +93,23 @@ Per ModQ sono disponibili le seguenti opzioni sia in **[!UICONTROL Items]** che 
 * **[!UICONTROL System Flags]**. Filtrare il contenuto in base a regole quali Spam, Profanity, SAFE e Premoderazione.
 
    * La selezione **[!UICONTROL Spam]** elenca tutti i contenuti contrassegnati come Spam by SAFE (Spam by SAFE).
-   * La selezione **[!UICONTROL Profanity]** elenca tutti i contenuti con tag Profane (Profane) per la rete o l'elenco delle proprietà del sito.
+   * La selezione **[!UICONTROL Profanity]** elenca tutti i contenuti con tag Profane (Profane) per la rete o l&#39;elenco delle proprietà del sito.
    * La selezione **[!UICONTROL SAFE]** elenca tutti i contenuti che immettono ModQ come risultato delle regole SICURE.
-   * La selezione **[!UICONTROL Premoderation]** elenca tutti i contenuti contrassegnati per la moderazione dalla rete, dal flusso o dalle impostazioni dell'app.
+   * La selezione **[!UICONTROL Premoderation]** elenca tutti i contenuti contrassegnati per la moderazione dalla rete, dal flusso o dalle impostazioni dell&#39;app.
 
-* **[!UICONTROL User Flags]** Filtrare il contenuto in base ai flag utente. Le opzioni includono Offensiva, Spam, Off-topic e Non d'accordo.
+* **[!UICONTROL User Flags]** Filtrare il contenuto in base ai flag utente. Le opzioni includono Offensiva, Spam, Off-topic e Non d&#39;accordo.
 * **[!UICONTROL Rights Requests.]** Per visualizzare solo il contenuto per il quale sono stati concessi i diritti, fate clic sulla casella di controllo.
-* **[!UICONTROL Entered the queue.]** Filtrare il contenuto in base all’intervallo di tempo durante il quale il contenuto è stato inviato a ModQ. Il contenuto dell'ora che è stato inviato a ModQ non è necessariamente l'ora in cui il contenuto è stato pubblicato nella relativa app.
+* **[!UICONTROL Entered the queue.]** Filtrare il contenuto in base all’intervallo di tempo durante il quale il contenuto è stato inviato a ModQ. Il contenuto dell&#39;ora che è stato inviato a ModQ non è necessariamente l&#39;ora in cui il contenuto è stato pubblicato nella relativa app.
 
 Per ModQ sono disponibili le seguenti opzioni in **[!UICONTROL Streams Premoderation]**:
 
-* **[!UICONTROL Social Source]** Filtrare il contenuto in base all'origine del social network. Ad esempio, le opzioni delle fonti sociali includono Twitter, Instagram, Facebook e RSS.
+* **[!UICONTROL Social Source]** Filtrare il contenuto in base all&#39;origine del social network. Ad esempio, le opzioni delle fonti sociali includono Twitter, Instagram, Facebook e RSS.
 
 L’opzione seguente è disponibile per ModQ in **[!UICONTROL Items]**:
 
 **[!UICONTROL Moderation Recommendations]**. Filtrare il contenuto in base alla raccomandazione fornita dalla raccomandazione di moderazione automatica.
 
-Le immagini seguenti mostrano l'aspetto di Moderation Recommendations in ModQ:  ![](assets/mod_reco1.png)
+Le immagini seguenti mostrano l&#39;aspetto di Moderation Recommendations in ModQ:  ![](assets/mod_reco1.png)
 
 La raccomandazione di moderazione viene data per il contenuto quando è configurata in **[!UICONTROL Network Settings > Moderation]** e **[!UICONTROL Network Settings > ModQ]**.
 
@@ -117,12 +120,12 @@ Potete decidere cosa fare con ogni contenuto nel ModQ.
 Selezionate una delle seguenti opzioni:
 
 * Icona **[!UICONTROL Checkbox]** per approvare il contenuto
-* Icona **[!UICONTROL Trash can]** per inviare il contenuto al cestino
+* L&#39; **[!UICONTROL Trash can]** icona per inviare il contenuto al cestino
 * **[!UICONTROL Request Rights]** per richiedere i diritti al contenuto al proprietario del contenuto.
 
    >[!NOTE]
    >
-   >Non potete richiedere i diritti in ModQ per il contenuto da Instagram. Devi usare la libreria o il contenuto dell'app per inviare richieste di diritti per il contenuto da Instagram.
+   >Non potete richiedere i diritti in ModQ per il contenuto da Instagram. Devi usare la libreria o il contenuto dell&#39;app per inviare richieste di diritti per il contenuto da Instagram.
 
 * **[!UICONTROL Feature and Approve]** per approvare il contenuto e includere anche il contenuto.
 * **[!UICONTROL Product Tag and Approve]** per aggiungere al contenuto un prodotto dal catalogo prodotti e quindi approvarlo.
@@ -130,7 +133,7 @@ Selezionate una delle seguenti opzioni:
 
 >[!NOTE]
 >
->Una volta eseguito il cestino di una parte del contenuto, la parte del contenuto e tutte le risposte al contenuto vengono rimosse da ModQ in modo permanente. Per inserire un contenuto spazzatura in un'app, vedi [Aggiungere un elemento con cestino in un'app](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
+>Una volta eseguito il cestino di una parte del contenuto, la parte del contenuto e tutte le risposte al contenuto vengono rimosse da ModQ in modo permanente. Per inserire un contenuto spazzatura in un&#39;app, vedi [Aggiungere un elemento con cestino in un&#39;app](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
 
 Se il contenuto è già nello stato desiderato, scegliendo Cestino, Bozo o Approva lo stato verrà confermato e l’elemento verrà rimosso dall’elenco. Moderare un contenuto lo rimuove immediatamente dalla coda e lo disattiva nelle code di altri moderatori.
 
@@ -138,7 +141,7 @@ Se il contenuto è già nello stato desiderato, scegliendo Cestino, Bozo o Appro
 >
 >Il contenuto del flusso potrebbe non essere Bozo’d. Il tracciamento del contenuto del flusso lo rimuove definitivamente dal flusso e non può essere annullato.
 
-Dopo che il contenuto è stato moderato, verrà rimosso dal ModQ del moderatore e l'autore non potrà più modificarlo dall'interno del flusso. Se un moderatore ignora un elemento o se un utente elimina un commento, questo viene visualizzato in grigio nelle code degli altri moderatori in tempo reale. Quando il contenuto è stato disattivato, il **[!UICONTROL Clear Moderated]** pulsante viene visualizzato sulla pagina, consentendo ai moderatori di rimuoverlo dagli elenchi e di mantenere la propria posizione sulla pagina indipendentemente dalle altre attività dei moderatori.
+Dopo che il contenuto è stato moderato, verrà rimosso dal ModQ del moderatore e l&#39;autore non potrà più modificarlo dall&#39;interno del flusso. Se un moderatore ignora un elemento o se un utente elimina un commento, questo viene visualizzato in grigio nelle code degli altri moderatori in tempo reale. Quando il contenuto è stato disattivato, il **[!UICONTROL Clear Moderated]** pulsante viene visualizzato sulla pagina, consentendo ai moderatori di rimuoverlo dagli elenchi e di mantenere la propria posizione sulla pagina indipendentemente dalle altre attività dei moderatori.
 
 ## Utilizzo della funzione Cestino in ModQ {#section_tpx_qgz_y1b}
 
@@ -146,17 +149,17 @@ Utilizzate la sezione delle impostazioni per selezionare le opzioni disponibili 
 
 * ****[!UICONTROL Confirm Trash]**** Abilitate questa opzione per richiedere che i moderatori confermino la propria azione quando impostate il contenuto sul cestino. Quando questa opzione è attivata, quando si seleziona **[!UICONTROL Trash]** il contenuto viene visualizzata una finestra di dialogo in cui viene richiesto un contenuto **[!UICONTROL Reason for Moderation]** e viene offerto un campo in cui **[!UICONTROL Note]** è possibile immettere un contenuto.
 
-   Questa impostazione è disponibile **[!UICONTROL only]** a livello di rete e si applica a tutti i siti della rete.
+   (Questa impostazione è disponibile **[!UICONTROL only]** a livello di rete e si applica a tutti i siti della rete.)
 
 * ****[!UICONTROL Hide Replies]**** Abilitate questa opzione per ignorare automaticamente le risposte quando un commento principale viene eliminato o se è stato impostato Bozo’d.
 
 ## Modifica dello stato utente in ModQ {#section_tmw_lg1_z1b}
 
-Fate clic sul **[!UICONTROL User actions]** pulsante Riepilogo utenti per disattivare, bandire o inserire nella whitelist l’utente.
+Fate clic sul **[!UICONTROL User actions]** pulsante dal pannello Riepilogo utenti per disattivare, bandire o consentire l’elenco degli utenti.
 
-* **[!UICONTROL Mute:]** consente di disattivare i flag dell’utente che ha segnalato il contenuto elencato. Utilizzate questa opzione per escludere i flag dell'utente dai filtri di moderazione. Il contenuto a cui viene applicato il contrassegno non verrà inserito in ModQ come risultato del flag e i relativi flag non saranno inclusi nelle regole di contrassegno.
+* **[!UICONTROL Mute:]** consente di disattivare i flag dell’utente che ha segnalato il contenuto elencato. Utilizzate questa opzione per escludere i flag dell&#39;utente dai filtri di moderazione. Il contenuto a cui viene applicato il contrassegno non verrà inserito in ModQ come risultato del flag e i relativi flag non saranno inclusi nelle regole di contrassegno.
 * **[!UICONTROL Ban:]** consente di vietare l’utente elencato dal sito o dalla rete. Solo gli amministratori di studio o i manager utente possono vietare la rete a un utente.
-* **[!UICONTROL Whitelist:]** consente di inserire in una whitelist l’utente elencato per il sito o la rete. Solo gli amministratori di studio o i manager utente possono inserire in una whitelist di rete un utente.
+* **[!UICONTROL Whitelist:]** consente di consentire l’elenco degli utenti elencati per il sito o la rete. Solo gli amministratori di studio o i manager utente possono consentire l&#39;elenco di un utente mediante la rete.
 
 
 
