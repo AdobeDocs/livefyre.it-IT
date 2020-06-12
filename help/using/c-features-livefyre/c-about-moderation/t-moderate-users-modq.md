@@ -1,25 +1,28 @@
 ---
-description: Il riquadro Riepilogo utente fornisce informazioni utente per facilitare la moderazione.
-seo-description: Il riquadro Riepilogo utente fornisce informazioni utente per facilitare la moderazione.
+description: Il riquadro Riepilogo utente fornisce informazioni sugli utenti per facilitare la moderazione.
+seo-description: Il riquadro Riepilogo utente fornisce informazioni sugli utenti per facilitare la moderazione.
 seo-title: Utenti moderati
 solution: Experience Manager
 title: Utenti moderati
 uuid: b801cdfe-05ea-4c29-bb9b-0f6a33cb11d1
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 0%
 
 ---
 
 
 # Utenti moderati{#moderate-users}
 
-Il riquadro Riepilogo utente fornisce informazioni utente per facilitare la moderazione.
+Il riquadro Riepilogo utente fornisce informazioni sugli utenti per facilitare la moderazione.
 
-Per impostazione predefinita, vengono visualizzate le informazioni relative all'autore del contenuto selezionato. Fate clic sul nome utente di un flagger per visualizzarne le informazioni.
+Per impostazione predefinita, vengono visualizzate le informazioni relative all&#39;autore del contenuto selezionato. Fate clic sul nome utente di un flagger per visualizzarne le informazioni.
 
 >[!NOTE]
 >
->Il contenuto in streaming visualizza solo l’origine del contenuto, nonché il nome utente e l’avatar dell’autore (se disponibili). La moderazione dell'utente non è disponibile per gli autori del contenuto del flusso.
+>Il contenuto in streaming visualizza solo l’origine del contenuto, nonché il nome utente e l’avatar dell’autore (se disponibili). La moderazione dell&#39;utente non è disponibile per gli autori del contenuto del flusso.
 
 Le seguenti informazioni vengono visualizzate (se disponibili) per ciascuno degli utenti Livefyre registrati:
 
@@ -33,6 +36,6 @@ Le seguenti informazioni vengono visualizzate (se disponibili) per ciascuno degl
 * **[!UICONTROL IP Address]**: il loro indirizzo IP, come determinato da Livefyre.
 * **[!UICONTROL Bio]**: descrizione dell’utente.
 * **[!UICONTROL Bans]**: elenca i siti per i quali l’utente è stato censurato o Bozo’d.
-* **[!UICONTROL Whitelists]**: elenca i siti per i quali l’utente è stato autorizzato.
+* **[!UICONTROL Whitelists]**: elenca i siti per i quali l’utente è stato incluso nell’elenco.
 
-Per ulteriori informazioni su come moderare gli utenti nella scheda Contenuto app, consultate [Utilizzo moderato del contenuto](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)dell'app.
+Per ulteriori informazioni su come moderare gli utenti nella scheda Contenuto app, consultate [Utilizzo moderato del contenuto](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)dell&#39;app.
