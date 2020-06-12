@@ -3,7 +3,7 @@ product: livefyre
 audience: end-user
 user-guide-title: Documentazione Livefyre
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
@@ -220,7 +220,7 @@ ht-degree: 4%
    + [Cerca utenti](c-users/t-search-for-users.md)
    + [Visualizzazione dei dettagli account](c-users/c-viewing-account-details.md)
    + [Divieto di utilizzo](c-users/t-ban-a-user.md)
-   + [Whitelist a User](c-users/t-whitelist-a-user.md)
+   + [Consenti elenco utenti](c-users/allow-list-a-user.md)
    + [Collega account utente](c-users/t-link-user-accounts.md)
    + [Utenti che passano da una rete all&#39;altra](c-users/c-users-switching-networks.md)
    + [Sincronizzazione utente](c-users/t-set-up-user-sync.md)
