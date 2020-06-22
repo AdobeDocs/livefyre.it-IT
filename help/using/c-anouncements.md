@@ -6,22 +6,43 @@ solution: Experience Manager
 title: Annunci
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
+source-git-commit: 7a36b890dd828b0da2c95acce5a074eeacb7ea5d
+workflow-type: tm+mt
+source-wordcount: '1587'
+ht-degree: 0%
 
 ---
 
 
 # Annunci{#announcements}
 
+## 22 giugno 2020
+
+Desideriamo fornire un aggiornamento sulla modifica delle dinamiche dei contenuti generati dagli utenti (UGC, user generated content) e sull&#39;impatto che ciò ha sui contenuti di Facebook e Twitter nel prodotto.
+
+L&#39;anno scorso Facebook ha dichiarato obsoleta l&#39;API dei feed pubblici. Siamo stati in conversazioni per cercare di trovare una strada da percorrere. Ci è stato chiesto di rimuovere i dati di Facebook dal prodotto Livefyre. Stiamo rispettando la richiesta di Facebook e Adobe sta lavorando rapidamente per garantire la protezione dei nostri clienti.
+
+L&#39;accesso ai contenuti Facebook nuovi e salvati verrà rimosso nel corso delle prossime settimane.
+
+* 22 giugno 2020: la possibilità di cercare nuovi contenuti di Facebook in Livefyre terminerà.
+* 7 luglio 2020: l&#39;accesso al contenuto salvato nella libreria delle risorse Livefyre e il contenuto dell&#39;app terminerà.
+* 10 agosto 2020: I contenuti di Facebook pubblicati su siti Web che risiedono in visualizzazioni Livefyre come muri multimediali, schede caratteristiche, mosaici, caroselli e molto altro saranno rimossi.
+
+Questa modifica non influisce sul contenuto di Instagram che continuerà ad essere accessibile in Livefyre.
+
+Vogliamo anche condividere che, a causa della limitata richiesta di contenuti su Twitter da parte dei clienti, l&#39;accesso a Twitter verrà rimosso da Livefyre il 3 maggio 2021. Fino a tale data continuerete ad avere accesso completo ai contenuti Twitter nuovi e salvati.
+
+Oltre a questo, continueranno a essere disponibili tutte le altre funzioni, tra cui Valutazioni e Recensioni, Commenti, Note e Live Blogging. Adobe continuerà inoltre a fornire supporto continuo per correzioni di bug e aggiornamenti del sistema operativo e della sicurezza.
+
 ## 25 ottobre 2019
 
-Il 4 settembre 2019, Facebook ha improvvisamente rimosso l'accesso a determinate autorizzazioni e funzionalità dal flusso di lavoro di Livefyre, che ha interrotto la possibilità di effettuare ricerche o trasmettere contenuti di Facebook. Se l'app necessita dell'accesso a publish_pages, user_friends o all'accesso al contenuto pubblico della pagina, richiedetela tramite il processo di revisione dell'app esistente. Abbiamo richiesto formalmente di ripristinare l'accesso a queste autorizzazioni e stiamo aspettando l'approvazione da Facebook. Non appena l'approvazione sarà stata concessa e il contenuto sarà nuovamente disponibile.
+Il 4 settembre 2019, Facebook ha improvvisamente rimosso l&#39;accesso a determinate autorizzazioni e funzionalità dal flusso di lavoro di Livefyre, che ha interrotto la possibilità di effettuare ricerche o trasmettere contenuti di Facebook. Se l&#39;app necessita dell&#39;accesso a publish_pages, user_friends o all&#39;accesso al contenuto pubblico della pagina, richiedetela tramite il processo di revisione dell&#39;app esistente. Abbiamo richiesto formalmente di ripristinare l&#39;accesso a queste autorizzazioni e stiamo aspettando l&#39;approvazione da Facebook. Non appena l&#39;approvazione sarà stata concessa e il contenuto sarà nuovamente disponibile.
 
 I contenuti già pubblicati sui siti Web non verranno interessati.
 
 ## 11 giugno 2019
 
-Siamo lieti di informarvi che il contenuto della pagina Facebook Fanpage è stato ripreso in streaming nelle cartelle e nelle app in Livefyre. Non sono necessarie azioni da parte dell'utente per consentire lo scorrimento di questo contenuto.
+Siamo lieti di informarvi che il contenuto della pagina Facebook Fanpage è stato ripreso in streaming nelle cartelle e nelle app in Livefyre. Non sono necessarie azioni da parte dell&#39;utente per consentire lo scorrimento di questo contenuto.
 
 Apprezziamo molto la vostra pazienza durante questa inattesa interruzione.
 
@@ -39,20 +60,20 @@ Grazie per la sua continua pazienza con questa inattesa interruzione del servizi
 
 ## 5 giugno 2019
 
-Sebbene Facebook fornisca generalmente una notifica avanzata delle modifiche quando possibile, ieri ha deciso rapidamente di disabilitare l'accesso ai contenuti Facebook e Instagram in Livefyre. A causa di questa modifica, non sarà possibile trasmettere in streaming, cercare o condividere contenuti Facebook o Instagram.  Ci scusiamo sinceramente per non essere stati in grado di fornirvi un'idea di questo cambiamento.
+Sebbene Facebook fornisca generalmente una notifica avanzata delle modifiche quando possibile, ieri ha deciso rapidamente di disabilitare l&#39;accesso ai contenuti di Facebook e Instagram in Livefyre. A causa di questa modifica, non sarà possibile trasmettere in streaming, cercare o condividere contenuti Facebook o Instagram.  Ci scusiamo sinceramente per non essere stati in grado di fornirvi un&#39;idea di questo cambiamento.
 
 Al momento, tenete presente che esistono ancora modi per accedere ai contenuti di Facebook e Instagram:
 
 * I contenuti già pubblicati sui siti Web non verranno interessati
-* Il contenuto già presente nella cartella dei flussi è ancora disponibile per l'uso
+* Il contenuto già presente nella cartella dei flussi è ancora disponibile per l&#39;uso
 
-Stiamo lavorando a stretto contatto con Facebook per ripristinare questa funzionalità e speriamo in una risoluzione a breve. Grazie e fatemi sapere se posso rispondere a qualsiasi domanda. Vogliamo estendere il nostro costante apprezzamento per la vostra pazienza e la vostra collaborazione.
+Stiamo lavorando a stretto contatto con Facebook per ripristinare questa funzionalità e speriamo in una risoluzione a breve. Grazie e per favore fatemi sapere se posso rispondere a qualsiasi domanda. Vogliamo estendere il nostro costante apprezzamento per la vostra pazienza e la vostra collaborazione.
 
 
 
 ## 15° novembre 2018 {#section_yx3_hnp_5fb}
 
-Due funzioni aggiuntive che risolvono i casi di obsolescenza delle API di Instagram a partire dall'inizio di maggio sono ora live:
+Due funzioni aggiuntive che risolvono i problemi di obsolescenza dell&#39;API di Instagram a partire dall&#39;inizio di maggio sono ora live:
 
 * **Ricerca e streaming di contenuti da account aziendali**
 
@@ -60,7 +81,7 @@ Due funzioni aggiuntive che risolvono i casi di obsolescenza delle API di Instag
 
 * **Monitoraggio automatico delle risposte delle richieste di diritti di utilizzo per ricerche aziendali basate su account**
 
-   Facebook ha anche rimosso la possibilità per partner come Adobe di inviare messaggi di richiesta di diritti da Instagram per conto dei propri clienti, eliminando la possibilità di gestire i diritti completamente automatizzati da Livefyre. A maggio abbiamo fornito funzionalità manuali, di taglio e incolla per consentire ai clienti di riprendere il tracciamento delle approvazioni dei diritti di utilizzo e di mantenere i record per il controllo. Da oggi, solo per le ricerche basate su account aziendali, è disponibile la possibilità di monitorare automaticamente le risposte alle richieste di diritti e aggiornare la cronologia delle attività in Livefyre.
+   Facebook ha anche rimosso la possibilità per partner come Adobe di inviare messaggi di richiesta di diritti da Instagram per conto dei propri clienti, eliminando la possibilità di gestire i diritti completamente automatizzati da Livefyre. A maggio abbiamo fornito funzionalità manuali, di taglio e incolla per consentire ai clienti di riprendere il tracciamento delle approvazioni dei diritti di utilizzo e di mantenere i record per il controllo. A partire da oggi, solo per le ricerche basate su account aziendali, è disponibile la possibilità di monitorare automaticamente le risposte alle richieste di diritti e aggiornare la cronologia delle attività in Livefyre.
 
 ## 22 giugno 2018 {#section_k1t_vmv_g2b}
 
@@ -72,15 +93,15 @@ Leggi gli ultimi aggiornamenti sullo stato delle funzionalità relative alle dep
 
 * **Ricerca e streaming di contenuti da account aziendali**
 
-   Come annunciato all'inizio di maggio, le API obsolete hanno rimosso la possibilità di effettuare ricerche negli account Instagram personali. In alternativa, il team di Livefyre ha sviluppato funzionalità che consentono di cercare e trasmettere contenuti dagli account aziendali. Mentre il team di Livefyre ha completato questo lavoro, il suo rilascio è in attesa dell'approvazione da parte di Facebook. In questo modo, prevediamo che questa funzionalità sarà disponibile entro la fine dell'estate e vi invieremo una notifica non appena sarà disponibile.
+   Come annunciato all&#39;inizio di maggio, le API obsolete hanno rimosso la possibilità di effettuare ricerche negli account Instagram personali. In alternativa, il team di Livefyre ha sviluppato funzionalità che consentono di cercare e trasmettere contenuti dagli account aziendali. Mentre il team di Livefyre ha completato questo lavoro, il suo rilascio è in attesa dell&#39;approvazione da parte di Facebook. In questo modo, prevediamo che questa funzionalità sarà disponibile entro la fine dell&#39;estate e vi invieremo una notifica non appena sarà disponibile.
 
 * **Flusso di lavoro per richieste di diritti di utilizzo**
 
-   Il 24 maggio, abbiamo fornito una soluzione manuale nel flusso di lavoro di richiesta dei diritti di utilizzo per i contenuti Instagram. Continuiamo a lavorare per ripristinare la funzionalità che controlla automaticamente la risposta alla richiesta dei diritti e aggiorna la cronologia delle attività. Prevediamo che questa funzionalità sarà disponibile entro la fine dell'estate e vi invieremo una notifica non appena sarà disponibile.
+   Il 24 maggio, abbiamo fornito una soluzione manuale nel flusso di lavoro di richiesta dei diritti di utilizzo per i contenuti di Instagram. Continuiamo a lavorare per ripristinare la funzionalità che controlla automaticamente la risposta alla richiesta dei diritti e aggiorna la cronologia delle attività. Prevediamo che questa funzionalità sarà disponibile entro la fine dell&#39;estate e vi invieremo una notifica non appena sarà disponibile.
 
 ## May 24, 2018 {#section_xbk_wvd_ydb}
 
-È ora disponibile la prima parte di due aggiornamenti al flusso di lavoro della richiesta di diritti di utilizzo per il contenuto Instagram. Da Contenuto app e dalla libreria, ora è possibile copiare il messaggio dei diritti di richiesta da Livefyre Studio e incollarlo nel post Instagram esatto che si sta cercando di utilizzare. La possibilità di farlo in ModQ verrà fornita in una versione futura. Entro il 14 giugno 2018, ripristineremo la funzionalità che controlla automaticamente la risposta alla richiesta dei diritti e aggiorna la cronologia delle attività.
+È ora disponibile la prima parte di due aggiornamenti al flusso di lavoro della richiesta di diritti di utilizzo per il contenuto Instagram. Da Contenuto app e dalla libreria, ora è possibile copiare il messaggio dei diritti di richiesta da Livefyre Studio e incollarlo nel post Instagram esatto che si sta cercando di utilizzare. La possibilità di eseguire questa operazione in ModQ verrà fornita in una versione futura. Entro il 14 giugno 2018, ripristineremo la funzionalità che controlla automaticamente la risposta alla richiesta dei diritti e aggiorna la cronologia delle attività.
 
 Per ulteriori informazioni e istruzioni su come utilizzare questa funzionalità, leggi le note [sulla versione del 24](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) maggio 2018.
 
@@ -98,11 +119,11 @@ A tutti i clienti Livefyre,
 
 Giovedì 3 maggio 2018, Facebook ha dichiarato obsolete alcune API di Instagram utilizzate da partner terze parti per accedere a diversi aspetti dei contenuti di Instagram allo scopo di proteggere la privacy personale e i dati dei loro utenti.
 
-Apprezziamo la vostra pazienza analizzando l'impatto sul sistema Livefyre. La panoramica seguente chiarisce quali funzionalità di Livefyre continuano a funzionare senza soluzione di continuità e quali funzionalità hanno avuto un impatto negativo sull'API, e come e quando verranno affrontate le modifiche.
+Apprezziamo la vostra pazienza analizzando l&#39;impatto sul sistema Livefyre. La panoramica seguente chiarisce quali funzionalità di Livefyre continuano a funzionare senza soluzione di continuità e quali funzionalità hanno avuto un impatto negativo sull&#39;API, e come e quando verranno affrontate le modifiche.
 
 Innanzitutto, state certi che la maggior parte delle funzionalità di Livefyre su Instagram rimangono invariate. I contenuti Instagram possono ancora essere trasmessi in streaming tramite hashtag e posizione e verranno pubblicati nelle cartelle e nelle app di visualizzazione Livefyre. I contenuti in streaming per tutte le altre fonti (Twitter, Facebook, YouTube, Tumblr, RSS ed e-mail) restano invariati.
 
-Dopo un'analisi completa del sistema, ecco le funzionalità interessate dalla obsolescenza dell'API e le date in base alle quali prevediamo che verranno affrontate.
+Dopo un&#39;analisi completa del sistema, ecco le funzionalità interessate dalla obsolescenza dell&#39;API e le date in base alle quali prevediamo che verranno affrontate.
 
 **Le funzioni seguenti non sono al momento disponibili e dovrebbero essere rese disponibili entro il 17 maggio 2018:**
 
@@ -113,11 +134,11 @@ Dopo un'analisi completa del sistema, ecco le funzionalità interessate dalla ob
 
 * **Flusso di lavoro della richiesta dei diritti di utilizzo - 24 maggio 2018**
 
-   Livefyre non può più inviare messaggi per conto di un account utente. La richiesta di diritti di utilizzo per il contenuto Instagram ora deve essere eseguita manualmente. Livefyre fornirà un semplice flusso di lavoro Taglia e Incolla per aiutare i clienti a monitorare le approvazioni e mantenere i record di controllo.
+   Livefyre non può più inviare messaggi per conto di un account utente. La richiesta di diritti di utilizzo per il contenuto di Instagram ora deve essere eseguita manualmente. Livefyre fornirà un semplice flusso di lavoro Taglia e Incolla per aiutare i clienti a monitorare le approvazioni e mantenere i record di controllo.
 
 * **Flusso di lavoro di ricerca utenti e flussi di lavoro - 14 giugno 2018**
 
-   Anche se è ancora possibile effettuare ricerche tramite hashtag e parole chiave, la capacità di cercare account personali di Instagram è stata eliminata. In alternativa, Livefyre creerà funzionalità che consentono di cercare e trasmettere contenuti dagli account aziendali. Se utilizzate Livefyre per cercare e trasmettere in streaming i contenuti Instagram della vostra azienda, per sfruttare questa funzionalità accertatevi di [eseguire l'aggiornamento](https://help.instagram.com/502981923235522?helpref=search&sr=2&query=change%20personal%20account%20to%20business%20account) a un account aziendale.
+   Anche se è ancora possibile effettuare ricerche tramite hashtag e parole chiave, la capacità di cercare account personali di Instagram è stata eliminata. In alternativa, Livefyre creerà una funzionalità che consente di cercare e trasmettere contenuti dagli account aziendali. Se utilizzate Livefyre per cercare e trasmettere in streaming i contenuti Instagram della vostra azienda, per sfruttare questa funzionalità accertatevi di [eseguire l&#39;aggiornamento](https://help.instagram.com/502981923235522?helpref=search&amp;sr=2&amp;query=change%20personal%20account%20to%20business%20account) a un account aziendale.
 
 **Continuiamo a valutare le soluzioni per le seguenti funzionalità che non possiamo sostituire a breve termine:**
 
