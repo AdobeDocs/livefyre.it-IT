@@ -1,8 +1,8 @@
 ---
-source-git-commit: 4990e04d913b95ab903b358c78bf4263f4eb6a7f
+source-git-commit: 06ed2854bc5905e963c5dbf6c6b04725670796ec
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 6%
 
 ---
@@ -58,5 +58,3 @@ Nell&#39;archivio pubblico, le etichette automatizzate vengono assegnate alle ri
 
 * **Modifica inviata all’autore**: L&#39;autore è stato informato della richiesta di pull in sospeso.
 * **Pronto per l&#39;unione**: Pronto per la revisione da parte del team di revisione della richiesta di pull.
-
-Test Webhook - Ignora
