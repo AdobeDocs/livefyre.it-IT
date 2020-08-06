@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Visualizza conteggio commenti
 uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
 translation-type: tm+mt
-source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
+source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +32,9 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
    </script>
    ```
 
-1. Eseguire il binding dell'elemento HTML.
+1. Eseguire il binding dell&#39;elemento HTML.
 
-   Una volta caricato lo script, si tenta di trovare altri elementi sulla pagina con il nome di classe `livefyre-commentcount`. Per ciascuno di questi elementi, lo script cercherà gli attributi `data-lf-site-id` e `data-lf-article-id` HTML e li utilizzerà per recuperare il contenuto da Livefyre e aggiornare ogni elemento con il valore più recente.
+   Una volta caricato lo script, si tenterà di trovare altri elementi sulla pagina con il nome di classe `livefyre-commentcount`. Per ciascuno di questi elementi, lo script cercherà gli attributi `data-lf-site-id` e `data-lf-article-id` HTML, e li utilizzerà per recuperare il contenuto da Livefyre e aggiornare ogni elemento con il valore più recente.
 
    Ad esempio, viene aggiornato il seguente elemento:
 
@@ -41,11 +44,11 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
    </span>
    ```
 
-   >[!NOTE] {important="high"}
+   >[!NOTE]
    >
    >Il `CommentCount.js` codice verifica la presenza di un valore numerico da aggiornare con il conteggio effettivo. Accertarsi di includere un valore numerico tra i tag.
 
-   **Esempio 1** (utilizzo dell'URL come ID articolo):
+   **Esempio 1** (utilizzo dell&#39;URL come ID articolo):
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="https://mikesoldner.com/blog.php">  
@@ -63,16 +66,16 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
 
    Per un maggiore controllo sulla modalità di sostituzione dei conteggi dei contenuti, chiamate `LF.CommentCount()` e passate un oggetto contenente le opzioni di configurazione. Accertarsi di chiamare la funzione dopo che tutti gli elementi da sostituire si trovano nel DOM. La posizione migliore per chiamare questo metodo è nel piè di pagina, quindi si verifica quando il DOM viene caricato, ma prima degli eventi document e window ready.
 
-   Sono disponibili le seguenti opzioni di configurazione:
+   Consentiamo le seguenti opzioni di configurazione:
 
-* **** sostituto: Funzione o Regex utilizzata per sostituire il testo di ciascun conteggio di contenuti.
+* **sostituto:** Funzione o Regex utilizzata per sostituire il testo di ciascun conteggio di contenuti.
 
-* **** function: Utilizzato per eseguire la sostituzione su ogni elemento. Gli argomenti della funzione sono:
+* **function:** Utilizzato per eseguire la sostituzione su ogni elemento. Gli argomenti della funzione sono:
 
-   **** element: The HTML element that is being updated.
-   **** count: Conteggio dei contenuti per questo elemento.
+   **element:** L&#39;elemento HTML in fase di aggiornamento.
+   **count:** Conteggio dei contenuti per questo elemento.
 
-* **** regex: Used to determine which part of the element’s text should be replaced by the count.
+* **regex:** Utilizzato per determinare quale parte del testo dell&#39;elemento deve essere sostituita dal conteggio.
 
    **Esempio**:
 
@@ -87,4 +90,4 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
 
    >[!NOTE]
    >
-   >Use the replacer to customize or internationalize the comment count message.
+   >Utilizzate il carattere sostitutivo per personalizzare o internazionalizzare il messaggio del conteggio dei commenti.
