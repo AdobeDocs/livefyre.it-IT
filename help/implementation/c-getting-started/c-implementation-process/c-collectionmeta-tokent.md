@@ -6,10 +6,10 @@ solution: Experience Manager
 title: CollectionMeta Token
 uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
 translation-type: tm+mt
-source-git-commit: acba83da6abd919062025322beeced500a3db662
+source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 1%
+source-wordcount: '345'
+ht-degree: 2%
 
 ---
 
@@ -24,10 +24,10 @@ Livefyre assegna un identificatore univoco a ogni raccolta creata. Livefyre asse
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
-| networkName | String (facoltativo) | Il nome della rete Livefyre (disponibile da {!UICONTROL Studio > Settings > Integration Settings > Credentials]). Questo è facoltativo quando si utilizza la libreria per creare un token collectionMeta. |
+| networkName | String (facoltativo) | Il nome della rete Livefyre (disponibile da [!UICONTROL Studio] > [!UICONTROL Settings] > [!UICONTROL Integration Settings] > [!UICONTROL Credentials] ). Questo è facoltativo quando si utilizza la libreria per creare un token collectionMeta. |
 | networkKey | String (facoltativo) | La chiave segreta per la rete specifica (disponibile da Studio > Impostazioni > Impostazioni integrazione > Credenziali ). Questo è facoltativo quando si utilizza la libreria per creare un token collectionMeta. |
 | siteId | String (facoltativo) | L’ID del sito (disponibile da [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Facoltativo quando si utilizza la libreria per creare un token collectionMeta. |
-| siteKey | String (facoltativo) | La chiave segreta per il sito (disponibile da {!UICONTROL Studio > Impostazioni > Impostazioni integrazione > Credenziali]). |
+| siteKey | String (facoltativo) | La chiave segreta per il sito (disponibile da [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). |
 | articleId | String (facoltativo) | Un ID univoco per la raccolta. |
 | title | String (facoltativo) | Titolo da applicare alla raccolta. In genere corrisponde al titolo della pagina in cui è visualizzata l&#39;app. <br>Ad esempio: &quot;L&#39;integrazione è così divertente!&quot; <br>Nota:  La lunghezza massima dei caratteri per il titolo è di 255 caratteri. Il campo title non supporta le entità HTML. Codificare caratteri speciali utilizzando UTF-8. |
 | url | String (facoltativo) | L&#39;URL assoluto canonico che si desidera allegare a questa raccolta. Questo URL verrà utilizzato per generare i collegamenti all&#39;app dal contenuto condiviso su Facebook e Twitter, dalle notifiche e-mail e da Livefyre Studio. <br>Nota:  Se esegui il test localmente, usa un dominio URL di base valido (ad esempio: valid: `https://customer.com`; non valido: `https://localhost:5995`). |
