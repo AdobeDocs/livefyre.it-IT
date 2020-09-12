@@ -1,9 +1,9 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Documentazione Livefyre
+user-guide-title: Guida di Livefyre
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 ---
 
 
-# Documentazione Livefyre {#using}
+# Guida di Livefyre {#using}
 
 + [Guida di Livefyre](home.md)
 + [Annunci](c-anouncements.md)
@@ -188,8 +188,8 @@ ht-degree: 4%
    + [Pubblica contenuto](c-library/t-publish-content.md)
    + [Scheda Contenuto app](c-library/c-app-content.md)
    + [Utilizzo di Adobe Experience Manager Livefyre con Hootsuite](c-library/c-hootsuite-livefyre.md)
-   + [Utilizzo di Adobe Experience Manager Livefyre con Adobe Target](c-library/livefyre-target.md)
-   + [Utilizzo di Adobe Launch Livefyre Extension](c-library/launch-extension.md)
+   + [Utilizzo di Adobe Experience Manager Livefyre con  Adobe Target](c-library/livefyre-target.md)
+   + [Utilizzo  lancio di Livefyre Extension](c-library/launch-extension.md)
 + Streams {#streams}
    + [Streams](c-streams/c-streams.md)
    + [Creare un nuovo flusso](c-streams/t-create-a-new-stream.md)
@@ -208,7 +208,7 @@ ht-degree: 4%
 + Richieste di diritti {#rights-requests}
    + [Richiesta dei diritti](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
    + [Gestione delle richieste di diritti](c-how-requesting-rights-works/c-managing-rights-requests.md)
-   + [Configurare Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
+   + [Imposta Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
    + [Invio di una richiesta di diritti per Twitter](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
    + [Invio di una richiesta di diritti Instagram parzialmente automatizzata](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
    + [Invio manuale di richieste di diritti di Instagram](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
