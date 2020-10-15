@@ -1,18 +1,18 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Guida di Livefyre
-user-guide-description: Use Livefyre Studio to create apps, gather user-generated content, and moderate content.
+user-guide-title: Guida a Livefyre
+user-guide-description: Utilizzare Livefyre Studio per creare app, raccogliere contenuti generati dall’utente e moderare contenuti.
 translation-type: tm+mt
 source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 4%
+source-wordcount: '855'
+ht-degree: 6%
 
 ---
 
 
-# Guida di Livefyre {#using}
+# Guida a Livefyre {#using}
 
 + [Guida di Livefyre](home.md)
 + [Annunci](c-anouncements.md)
@@ -257,7 +257,7 @@ ht-degree: 4%
       + [Creare una richiesta di privacy](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
       + [Visualizzazione di un rapporto sulla privacy](c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md)
       + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
-+ Note sulla versione{#release-notes} 
++ Note sulla versione {#release-notes}
    + [Note sulla versione più recenti](c-rn/c-rn.md)
    + Release Notes 2019 {#rn2019}
       + [21 marzo 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
