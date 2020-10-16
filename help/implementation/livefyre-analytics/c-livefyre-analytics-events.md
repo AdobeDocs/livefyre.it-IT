@@ -6,12 +6,15 @@ solution: Experience Manager
 title: Eventi di Livefyre Analytics
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 2%
 
 ---
 
 
-# Eventi di Livefyre Analytics {#livefyre-analytics-events}
+# Eventi di Livefyre Analytics
 
 ## Definizione oggetto evento {#section_dh1_yhn_pdb}
 
@@ -44,7 +47,7 @@ Il codice seguente definisce i campi nell&#39;oggetto evento che vengono ricevut
 
 ## Eventi e eVar di Livefyre Analytics {#section_u3k_tft_mcb}
 
-I seguenti eventi Livefyre da mappare a eventi personalizzati da utilizzare nei rapporti tramite Report Suite Manager. Per ulteriori informazioni sulle suite di rapporti in Adobe Analytics, vedi [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Per ulteriori informazioni sull&#39;utilizzo degli eventi Livefyre con Report Suite Manager, consulta [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+I seguenti eventi Livefyre da mappare a eventi personalizzati da utilizzare nei rapporti tramite Report Suite Manager. Per ulteriori informazioni sulle suite di rapporti in  Adobe Analytics, consulta [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Per ulteriori informazioni sull&#39;utilizzo degli eventi Livefyre con Report Suite Manager, consulta [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Eventi di Livefyre Analytics
 
