@@ -1,15 +1,18 @@
 ---
-source-git-commit: 06ed2854bc5905e963c5dbf6c6b04725670796ec
+source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '517'
 ht-degree: 6%
 
 ---
 # Articolo di Contribute
 
-Accogliamo con favore i contributi della nostra comunità e di  dipendenti dei Adobi esterni ai team di documentazione.
+| EXL-PR | EXL | Anteprima | Attiva | Pubblicato | Aiuto |
+|--- |--- |--- |--- |--- |--- |
+| [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [URL anteprima](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL dal vivo](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [Guida all’authoring](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
+Accogliamo con favore i contributi della nostra comunità e di  dipendenti dei Adobi esterni ai team di documentazione.
 
 ## Codice di condotta open source  Adobe
 
