@@ -5,7 +5,10 @@ seo-title: Cerca contenuto Twitter
 title: Cerca contenuto Twitter
 uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
 translation-type: tm+mt
-source-git-commit: 3a50e3cfce40a74ce1ee354a9ce28da17eb85463
+source-git-commit: df5991d9d70282b289f2cca954dc8727c82d699f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
@@ -33,13 +36,13 @@ Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella lib
    * **[!UICONTROL Only Include:]** consente di limitare il contenuto restituito solo a quello che include **[!UICONTROL Links]** o **[!UICONTROL Media]**.
 
    * **[!UICONTROL Tweet Types:]** consente di limitare i ritorni solo a Retweet.
-   * **[!UICONTROL Location:]** consente di definire un raggio entro il quale includere il contenuto con tag. Utilizzate la modale Posizione per immettere una città, quindi utilizzate la barra di scorrimento per definire il raggio all'interno del quale verrà originato il contenuto.
+   * **[!UICONTROL Location:]** consente di definire un raggio entro il quale includere il contenuto con tag. Utilizzate la modale Posizione per immettere una città, quindi utilizzate la barra di scorrimento per definire il raggio all&#39;interno del quale verrà originato il contenuto.
    * **[!UICONTROL Language:]** consente di filtrare in una lingua selezionata.
 
       >[!NOTE]
       >
-      >Social Search supporta complesse query di ricerca Twitter e tutti gli input standard di sintassi Twitter. Per impostazione predefinita, più stringhe vengono trattate come query AND. Fare clic sul **[!UICONTROL info]** pulsante per visualizzare alcuni esempi di input validi.
+      >Social Search supporta complesse query di ricerca Twitter e tutti gli input di sintassi standard di Twitter. Per impostazione predefinita, più stringhe vengono trattate come query AND. Fare clic sul **[!UICONTROL info]** pulsante per visualizzare alcuni esempi di input validi.
+      >
+      >=I risultati restituiti verranno elencati tra quelli più recenti e quelli meno recenti.
 
->=I risultati restituiti verranno elencati tra quelli più recenti e quelli meno recenti.
-
-Gli elementi che corrispondono alla ricerca vengono visualizzati in una visualizzazione griglia. Passate il puntatore del mouse su un elemento per **[!UICONTROL View Details]** aggiungerlo alla libreria delle risorse o **[!UICONTROL Publish]** a un'app.
+Gli elementi che corrispondono alla ricerca vengono visualizzati in una visualizzazione griglia. Passate il puntatore del mouse su un elemento per **[!UICONTROL View Details]** aggiungerlo alla libreria delle risorse o **[!UICONTROL Publish]** a un&#39;app.
