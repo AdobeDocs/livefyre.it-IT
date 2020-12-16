@@ -6,11 +6,14 @@ title: 28 settembre 2017
 uuid: 496134d2-1c1e-4097-9af2-6ea65efeb8e2
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 7%
 
 ---
 
 
-# September 28, 2017{#september}
+# 28 settembre 2017{#september}
 
 Note sulla versione per la release del 28 settembre 2017.
 
@@ -25,5 +28,5 @@ Note sulla versione per la release del 28 settembre 2017.
 
 | **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | Libreria | I file caricati nella libreria da un cliente ricevono automaticamente i diritti. Si tratta di una funzione utile quando gli utenti hanno attivato il filtro "Richiedi diritti concessi" nelle loro app. |
+| Miglioramento | Libreria | I file caricati nella libreria da un cliente ricevono automaticamente i diritti. Si tratta di una funzione utile quando gli utenti hanno attivato il filtro &quot;Richiedi diritti concessi&quot; nelle loro app. |
 
