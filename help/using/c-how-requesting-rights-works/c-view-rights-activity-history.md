@@ -4,9 +4,12 @@ seo-description: Livefyre tiene una traccia di controllo dell’attività dei di
 seo-title: Visualizza cronologia attività diritti
 solution: Experience Manager
 title: Visualizza cronologia attività diritti
-uuid: data0587d-8d7f-431d-bae2-cd73c0de15f0
+uuid: daa0587d-8d7f-431d-bae2-cd73c0de15f0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +32,9 @@ Tracce Livefyre:
 
 1. Fate clic su **[!UICONTROL Library]** per accedere alla Libreria risorse.
 1. (Facoltativo) Aggiungete contenuto alle cartelle utilizzando la ricerca per social network.
-1. Aprite una cartella e fate clic su un contenuto salvato da Twitter o Instagram. Potete vedere da dove sono nati i contenuti guardando l'icona sulla parte di contenuto. Ad esempio, un contenuto di Twitter contiene il logo Twitter.
-1. Fate clic sull'icona con i puntini di sospensione che viene visualizzata quando passate il puntatore del mouse sulla scheda del contenuto per **[!UICONTROL More Options]**.
-1. Fare clic **[!UICONTROL Rights]** per aprire la **[!UICONTROL Rights options]** finestra.
+1. Aprite una cartella e fate clic su un contenuto salvato da Twitter o Instagram. Potete vedere da dove sono stati generati i contenuti guardando l&#39;icona sulla parte di contenuto. Ad esempio, un contenuto di Twitter contiene il logo Twitter.
+1. Fate clic sull&#39;icona con i puntini di sospensione che viene visualizzata quando passate il puntatore del mouse sulla scheda del contenuto per **[!UICONTROL More Options]**.
+1. Fare clic su **[!UICONTROL Rights]** per aprire la finestra **[!UICONTROL Rights options]**.
 
-1. Visualizzare la cronologia sotto **[!UICONTROL Activity History]**.
+1. Visualizzare la cronologia in **[!UICONTROL Activity History]**.
 
