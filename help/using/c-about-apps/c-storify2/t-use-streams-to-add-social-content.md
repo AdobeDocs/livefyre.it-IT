@@ -1,23 +1,26 @@
 ---
 description: Indirizzare un flusso a un brano di Storify 2.
 seo-description: Indirizzare un flusso a un brano di Storify 2.
-seo-title: Utilizzo dei flussi per aggiungere contenuti social alla storia
+seo-title: Utilizzo dei flussi per aggiungere contenuti social alla propria storia
 solution: Experience Manager
-title: Utilizzo dei flussi per aggiungere contenuti social alla storia
+title: Utilizzo dei flussi per aggiungere contenuti social alla propria storia
 uuid: 4999c880-a896-4ad2-bf8f-3fd9736a64d6
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
 
-# Utilizzo dei flussi per aggiungere contenuti social alla storia{#use-streams-to-add-social-content-to-your-story}
+# Utilizzare i flussi per aggiungere contenuti social alla propria storia{#use-streams-to-add-social-content-to-your-story}
 
 Indirizzare un flusso a un brano di Storify 2.
 
 >[!NOTE]
 >
->You cannot edit the Streams a story uses from the Storify 2 App.
+>Non potete modificare i flussi utilizzati da un brano dall&#39;app Storify 2.
 
 Quando le regole SICURE sono abilitate in Impostazioni di rete, il contenuto in streaming verrà filtrato tramite SAFE. Il contenuto non sicuro non verrà visualizzato nella scheda Streams (Streams).
 
