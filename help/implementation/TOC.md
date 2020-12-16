@@ -16,7 +16,7 @@ ht-degree: 3%
 + [Guida all&#39;implementazione di Livefyre](home.md)
 + Introduzione {#getting-started}
    + [Guida introduttiva all&#39;integrazione con Livefyre](c-getting-started/c-getting-started.md)
-   + Implementation Process {#implementation-process}
+   + Processo di implementazione {#implementation-process}
       + [Processo di implementazione](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [Tipi di integrazione delle app](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [Implementazione app](c-getting-started/designer-app-implementation.md)
@@ -47,11 +47,11 @@ ht-degree: 3%
 + Identità Livefyre {#livefyre-identity}
    + [Identità Livefyre](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [Abilita identità Livefyre](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-   + Utilizzo delle app social con identità Livefyre {#use-social-apps-with-livefyre-identity}
+   + Utilizzare le app social con identità Livefyre {#use-social-apps-with-livefyre-identity}
       + [Creare le app per social network](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [Creare un&#39;app Facebook da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
       + [Creare un&#39;app Twitter da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
-      + [Crea uno Yahoo! App da utilizzare con identità Livefyre](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
+      + [Crea uno Yahoo! App da utilizzare con Livefyre Identity](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [Creare un&#39;app di identità Microsoft Live da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
       + [Creare un&#39;app LinkedIn da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
       + [Creare un&#39;app di identità GitHub da utilizzare con l&#39;identità Livefyre](c-livefyre-identity-comp/c-create-a-github-identity.md)
@@ -81,7 +81,7 @@ ht-degree: 3%
       + [Metodo di raccolta buildChecksum](c-installing-libraries/r-buildchecksum-collection-method.md)
       + [getCollectionContent, metodo di raccolta](c-installing-libraries/t-getcollectioncontent-collection-method.md)
       + [getUrn, metodo di raccolta](c-installing-libraries/r-geturn-collection-method.md)
-      + [Metodi della classe Site](c-installing-libraries/c-site-methods.md)
+      + [Metodi della classe del sito](c-installing-libraries/c-site-methods.md)
       + [Metodo del sito buildBlogCollection](c-installing-libraries/r-buildblogcollection-site-method.md)
       + [Metodo del sito buildChatCollection](c-installing-libraries/r-buildchatcollection-site-method.md)
       + [Metodo del sito buildCommentsCollection](c-installing-libraries/r-buildcommentscollection-site-method.md)
@@ -104,7 +104,7 @@ ht-degree: 3%
       + [Commenti](c-app-integrations/c-comments-integration/c-comments-integration.md)
    + [Blog dal vivo](c-app-integrations/c-live-blog-integration.md)
    + [Recensioni](c-app-integrations/c-reviews-integration.md)
-   + Sidenotes {#sidenotes}
+   + Note {#sidenotes}
       + [Integrazione Sidenotes](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
       + [Aggiunta di note a una pagina](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
       + [Sidenotes Eventi App](c-app-integrations/c-sidenotes-integration/r-app-events.md)
@@ -116,7 +116,7 @@ ht-degree: 3%
    + [Mappa](c-app-integrations/c-map-integration.md)
    + [Muro di supporto](c-app-integrations/c-media-wall-integration.md)
    + [Tendenza](c-app-integrations/c-trending-integration.md)
-+ Personalizzazioni delle app {#app-customizations}
++ Personalizzazioni app {#app-customizations}
    + [Personalizzazioni delle app](c-app-customizations/c-app-customizations.md)
    + [Modifica delle opzioni di visualizzazione](c-app-customizations/c-change-display-options.md)
    + [Classi CSS](c-app-customizations/c-css-classes.md)
@@ -128,7 +128,7 @@ ht-degree: 3%
    + [Cambia icona @mention](c-app-customizations/c-change-mention-icon.md)
    + [Evidenzia contenuto](c-app-customizations/c-highlight-content.md)
    + [Personalizzare il timbro di data e ora](c-app-customizations/c-date-time-stamp.md)
-   + Feature Content {#feature-content}
+   + Contenuto funzionalità {#feature-content}
       + [Feature Content](c-app-customizations/t-feature-content.md)
       + [Abilita la funzionalità dei contenuti in Studio](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [Selezionare il contenuto da utilizzare in una specifica app](c-app-customizations/t-select-content-to-feature.md)
@@ -155,7 +155,7 @@ ht-degree: 3%
 + [Criterio test di stress](c-stress-test-policy.md)
 + Analytics {#analytics}
    + [Analytics](livefyre-analytics/livefyre-analytics.md)
-   + [Utilizzo di Livefyre con Adobe Analytics e Dynamic Tag Manager (DTM)](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
+   + [Utilizzo di Livefyre con  Adobe Analytics e Dynamic Tag Manager (DTM)](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
    + [Utilizzo di Livefyre con altri strumenti di Analytics](livefyre-analytics/c-livefyre-analytics.md)
    + [Eventi di Livefyre Analytics](livefyre-analytics/c-livefyre-analytics-events.md)
 + [Integrazione di Livefyre con AEM](c-livefyre-aem-integration.md)
