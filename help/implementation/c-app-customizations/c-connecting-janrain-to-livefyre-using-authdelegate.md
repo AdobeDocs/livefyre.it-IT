@@ -6,15 +6,18 @@ title: Connessione di Janrain a Livefyre tramite AuthDelegate
 uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
 
 # Connessione di Janrain a Livefyre tramite AuthDelegate{#connecting-janrain-to-livefyre-using-authdelegate}
 
-Livefyre.request fornisce un plugin che consente all'auth di ascoltare il bus Janrain Backplane.
+Livefyre.request fornisce un plugin che consente all&#39;auth di ascoltare il bus Janrain Backplane.
 
-Quando un messaggio di identità/login viene trasmesso sul canale Backplane, auth.authenticate() verrà chiamato con il token di autenticazione Livefyre dell'utente. Devi ancora implementare un AuthDelegate.
+Quando un messaggio di identità/login viene trasmesso sul canale Backplane, auth.authenticate() verrà chiamato con il token di autenticazione Livefyre dell&#39;utente. Devi ancora implementare un AuthDelegate.
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -29,9 +32,9 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->L'oggetto window.Backplane deve essere definito sulla pagina prima di chiamare auth.plugin con il plug-in Livefyre Backplane. Per essere certi che l'oggetto Backplane sia disponibile, chiamate il codice di creazione dell'istanza Livefyre da un callback onReady. Consultate il contatto di Janrain per determinare quando altre applicazioni possono utilizzare l'oggetto Backplane.
+>L&#39;oggetto window.Backplane deve essere definito sulla pagina prima di chiamare auth.plugin con il plug-in Livefyre Backplane. Per essere certi che l&#39;oggetto Backplane sia disponibile, chiamate il codice di creazione dell&#39;istanza Livefyre da un callback onReady. Consultate il contatto di Janrain per determinare quando altre applicazioni possono utilizzare l&#39;oggetto Backplane.
 
-Di seguito sono riportati alcuni esempi di come un delegato audio potrebbe cercare un'integrazione di Janrain Capture.
+Di seguito sono riportati alcuni esempi di come un delegato audio potrebbe cercare un&#39;integrazione di Janrain Capture.
 
 >[!NOTE]
 >
@@ -39,9 +42,9 @@ Di seguito sono riportati alcuni esempi di come un delegato audio potrebbe cerca
 
 <!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
-*  Callback passato al metodo di login del delegato di autenticazione
-*  Il riferimento alla variabile di acquisizione Janrain.
-* : Riferimento all'oggetto Backplane.
+* Callback passato al metodo di login del delegato dell’autenticazione
+* Il riferimento alla variabile di acquisizione Janrain.
+* : Un riferimento all&#39;oggetto Backplane.
 
 ```
 /** 
@@ -76,9 +79,9 @@ authDelegate.login = function(finishLogin) {
 
 Logout
 
-* **** completionLogout: Il callback passato al metodo di login del delegato dell’autenticazione.
+* **completionLogout:** callback passati al metodo di login del delegato di autenticazione.
 
-* **** window.Backplane: Riferimento all'oggetto Backplane.
+* **window.Backplane:** un riferimento all&#39;oggetto Backplane.
 
 ```
 /** 
@@ -96,7 +99,7 @@ authDelegate.logout = function(finishLogout) {
 
 Modifica profilo
 
-Questo può essere collegato a qualsiasi parte del sito che desideri che gli utenti visitino per visualizzare la propria pagina del profilo. In questo esempio viene semplicemente stampato l'oggetto autore passato.
+Questo può essere collegato a qualsiasi parte del sito che desideri che gli utenti visitino per visualizzare la propria pagina del profilo. In questo esempio viene semplicemente stampato l&#39;oggetto autore passato.
 
 ```
 /** 
@@ -110,7 +113,7 @@ authDelegate.editProfile = function(user) {
 
 Visualizza profilo
 
-Come Edit Profile (Modifica profilo), questo collegamento deve essere collegato a una pagina dell'utente diversa dall'utente attualmente connesso. Questa funzione può essere implementata a seconda delle esigenze. In questo esempio il parametro author viene semplicemente registrato nella console.
+Come Edit Profile (Modifica profilo), questo collegamento deve essere collegato a una pagina dell&#39;utente diversa dall&#39;utente attualmente connesso. Questa funzione può essere implementata a seconda delle esigenze. In questo esempio il parametro author viene semplicemente registrato nella console.
 
 ```
 /** 
