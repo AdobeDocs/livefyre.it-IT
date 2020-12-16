@@ -7,17 +7,20 @@ title: Eventi JavaScript per le app di conversazione
 uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 72%
 
 ---
 
 
-# Eventi JavaScript per le app di conversazione{#javascript-events-for-conversation-apps}
+# Eventi JavaScript per app di conversazione{#javascript-events-for-conversation-apps}
 
 Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
 
-## Matrice delle app di conversazione ed eventi {#section_y4j_x4m_ybb}
+## Matrice app ed eventi di conversazione {#section_y4j_x4m_ybb}
 
-Di seguito è riportata una matrice degli eventi disponibili per le app di conversazione. Una X indica che l'evento è disponibile per l'app, N/D indica che l'evento non si applica all'app e nessun contrassegno indica che l'evento non è disponibile per l'app:
+Di seguito è riportata una matrice degli eventi disponibili per le app di conversazione. Una X indica che l&#39;evento è disponibile per l&#39;app, N/D indica che l&#39;evento non si applica all&#39;app e nessun contrassegno indica che l&#39;evento non è disponibile per l&#39;app:
 
 ### Conversazione eventi app
 
@@ -61,6 +64,6 @@ Di seguito è riportata una matrice degli eventi disponibili per le app di conve
 | ID contesto | X | X | X | X |  |  |  |
 | Tipo di app | X | X | X | X |  |  |  |
 | Tipo di contenuto | X | X | X | X |  |  |  |
-| Data pubblicazione nell'app |  |  |  |  |  |  |  |
-| Accesso all'app dell'utente finale |  |  |  |  |  |  |  |
+| Data di pubblicazione nell&#39;app |  |  |  |  |  |  |  |
+| Accesso all&#39;app dell&#39;utente finale |  |  |  |  |  |  |  |
 
