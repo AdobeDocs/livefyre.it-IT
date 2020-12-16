@@ -7,6 +7,9 @@ title: Identità Livefyre
 uuid: 5e9219b4-fbd7-40c6-9d57-129bb0649714
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +20,9 @@ Saltate questa sezione se utilizzate un sistema di gestione utenti personalizzat
 
 Gli utenti possono accedere alle app utilizzando i propri account di social media o un account basato su e-mail creato esclusivamente per il sito.
 
-Il pacchetto Identità Livefyre contiene le informazioni necessarie per delegare l'autenticazione. (Di conseguenza, per l'identità Livefyre non è necessario un delegato di autenticazione esplicito).
+Il pacchetto Identità Livefyre contiene le informazioni necessarie per delegare l&#39;autenticazione. (Di conseguenza, per l&#39;identità Livefyre non è necessario un delegato di autenticazione esplicito).
 
-Per aggiungere l'accesso tramite social network all'integrazione Livefyre:
+Per aggiungere l&#39;accesso tramite social network all&#39;integrazione Livefyre:
 
 1. Create le vostre app per social network.
 1. Collegate le app a Livefyre.
