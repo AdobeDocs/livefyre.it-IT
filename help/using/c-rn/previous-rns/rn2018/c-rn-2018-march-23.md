@@ -7,11 +7,14 @@ title: 23 marzo 2018
 uuid: b69b8715-ace4-48e0-8f54-ce4e12170ef3
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 5%
 
 ---
 
 
-# March 23, 2018{#march}
+# 23 marzo 2018{#march}
 
 Note sulla versione per la release del 23 marzo 2018.
 
@@ -19,14 +22,14 @@ Note sulla versione per la release del 23 marzo 2018.
 
 Le seguenti funzionalità sono nuove nella versione di produzione di questa versione:
 
-* **** Nuovo in produzione: Facebook ha creato un aggiornamento di sicurezza su Facebook che causerà il malfunzionamento del login di Facebook di un cliente. Per risolvere il problema, è necessario:
+* **Novità in produzione:** Facebook ha creato un aggiornamento di sicurezza per l&#39;accesso a Facebook che causerà il malfunzionamento dell&#39;accesso a Facebook di un cliente. Per risolvere il problema, è necessario:
 
-   1. Aggiungi il seguente URL al **[!UICONTROL Valid OAuth redirect URIs]** campo in Impostazioni OAuth client. Sostituire `<networkname>` con il nome di rete corretto:
+   1. Aggiungete il seguente URL al campo **[!UICONTROL Valid OAuth redirect URIs]** in Impostazioni OAuth client. Sostituire `<networkname>` con il nome di rete corretto:
       `https://identity.livefyre.com/<networkname>/api/v1.0/public/profile/social/complete/facebook_fyre`
 
-   1. Passa **[!UICONTROL Use Strict Mode for Redirect URI]** a **[!UICONTROL Yes]**.
+   1. Passare da **[!UICONTROL Use Strict Mode for Redirect URI]** a **[!UICONTROL Yes]**.
 
-* **** Novità in UAT:Ora potete scegliere la soglia di confidenza per gli smart tag nei flussi. L’impostazione del punteggio di precisione (0-100) per i tag consente di controllare l’accuratezza delle risorse recuperate.
+* **Novità in UAT:** ora potete scegliere la soglia di confidenza per gli smart tag nei flussi. L’impostazione del punteggio di precisione (0-100) per i tag consente di controllare l’accuratezza delle risorse recuperate.
 
 ## Problemi {#section_ehw_ndt_wcb}
 
