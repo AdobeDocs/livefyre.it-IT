@@ -7,19 +7,22 @@ title: Mappa
 uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 2%
 
 ---
 
 
 # Mappa{#map}
 
-Tracciare il contenuto dell'utente su una mappa interattiva.
+Tracciare il contenuto dell&#39;utente su una mappa interattiva.
 
-La mappa consente di trasmettere in streaming contenuti con geotagged su una mappa del mondo, per individuare il social brusio intorno alle notizie più importanti o a un evento in diretta. Viene visualizzato tutto il contenuto applicabile, inclusi testo, commenti, foto e tweet.
+La mappa consente di trasmettere in streaming contenuti con geotagged su una mappa del mondo, consentendo di individuare il social brusio intorno alle notizie più importanti o a un evento in diretta. Viene visualizzato tutto il contenuto applicabile, inclusi testo, commenti, foto e tweet.
 
 >[!NOTE]
 >
->Le mappe sono alimentate da [©OpenStreetMap](https://www.openstreetmap.org/copyright), che fornisce i dati utilizzati da Livefyre per il rendering delle sue mappe.
+>Le mappe sono alimentate da [ ©OpenStreetMap](https://www.openstreetmap.org/copyright), che fornisce i dati utilizzati da Livefyre per eseguire il rendering delle mappe.
 
 ## Integrazione {#section_w2m_db2_d1b}
 
@@ -31,7 +34,7 @@ Innanzitutto, aggiungete [Livefyre.js](https://github.com/Livefyre/Livefyre.js) 
 <script src="https://cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-Quindi, posizionate l'elemento in cui apparirà l'app mappa.
+Quindi, posizionate l&#39;elemento in cui apparirà l&#39;app mappa.
 
 ```
 <div id="map" style="height: 500px;"></div>
@@ -56,7 +59,7 @@ function (Map, SDK) {
 </script>
 ```
 
-Guardate questo [esempio](https://codepen.io/cheung31/pen/wkmbF)live.
+Controlla questo [esempio live](https://codepen.io/cheung31/pen/wkmbF).
 
 ## Configurazione {#section_jc5_gxb_c1b}
 
@@ -73,7 +76,7 @@ var map = new Map({
 
 `leafletMapOptions`
 
-Opzioni per passare alla mappa [Opuscolo](https://leafletjs.com/) sottostante, utilizzata dalla mappa per il rendering. Usate questa opzione per impostare le opzioni [Mappa](https://leafletjs.com/reference.html#map-options)opuscolo, compreso il punto centrale iniziale della mappa, e i livelli di zoom iniziali e massimi. (Facoltativo.)
+Opzioni per passare alla mappa [Opuscolo](https://leafletjs.com/) sottostante, utilizzata dalla mappa per il rendering. Utilizzate questa opzione per impostare le [opzioni mappa foglia](https://leafletjs.com/reference.html#map-options), compreso il punto centrale iniziale della mappa, e i livelli di zoom iniziali e massimi. (Facoltativo.)
 
 ```
 var map = new Map({ 
