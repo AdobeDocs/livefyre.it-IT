@@ -7,11 +7,14 @@ title: Storify classi CSS
 uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
 
-# Storify classi CSS{#storify-css-classes}
+# Storizzare le classi CSS{#storify-css-classes}
 
 Classi CSS disponibili per le app di Storify.
 
@@ -41,7 +44,7 @@ Consente di personalizzare la sezione di intestazione della pagina del racconto.
 | .super-header | Intestazione principale |
 | .external-header | Riga intestazione principale 1 |
 | .s-conto alla rovescia | Timer conto alla rovescia per riga intestazione principale 1 |
-| .s vivacità | Riga di intestazione principale 1 Stato "Live" |
+| .s vivacità | Riga di intestazione principale 1 Stato &quot;Live&quot; |
 | .base-header | Riga intestazione principale 2 |
 | .s-menu a discesa | Riga di intestazione principale 2 Attivazione del menu a discesa Ordina. |
 | .s-menu a discesa | Riga di intestazione principale 2 Menu a discesa Ordina. |
@@ -60,9 +63,9 @@ Consente di personalizzare lo stile degli elementi del brano del post.
 | **Classe** | **Descrizione** |
 |---|---|
 | .s-liveblog | Contenitore per l’intero elemento Story |
-| s-post | Il contenitore di posta |
+| .s-post | Il contenitore di posta |
 | .s-modale-content | Contenitore modale |
-| .s-element-content | Tutti gli elementi di contenuto all'interno di un post |
+| .s-element-content | Tutti gli elementi di contenuto all&#39;interno di un post |
 | .s-element-text ul | Elemento testo |
 | .s-element-text h2 | Titolo elemento di testo |
 | .s-element-text p | Paragrafo elemento testo |
@@ -70,14 +73,14 @@ Consente di personalizzare lo stile degli elementi del brano del post.
 | .s-element-text ol | Elenco ordinato elemento di testo |
 | .s-element-text li | Elementi di elenco degli elementi di testo |
 | .s-element-text blockquote | Blockquote |
-| .s-element-text blockquote:before | Icona per l'inizio di un'offerta di blocco |
+| .s-element-text blockquote:before | Icona per l&#39;inizio di un&#39;offerta di blocco |
 | .s-element-text blockquote:after | Icona per la fine di un blockquote |
 | .s-element-image | Contenitore di elementi immagine in linea |
 | .s-img | `<img>` element |
-| .s-image-caption | Didascalia per immagini e video trovati sui social media (ad esempio: Immagine Instagram) |
+| .s-image-caption | Didascalia per immagini e video trovati sui social media (ad esempio: Immagine di Instagram) |
 | .s-upload-image-caption | Didascalia per immagini e video caricati tramite l’editor Story |
 | .s-element-video | Elemento video |
-| .s-element-quote | Elemento del preventivo (ad esempio: Solo tweet con testo) |
+| .s-element-quote | Elemento del preventivo (ad esempio: Tweet con solo testo) |
 | .s-element-quote-image | Preventivo con elemento immagine (ad esempio: Tweet con immagine) |
 | .s-element-quote-video | Preventivo con elemento video (ad esempio: Tweet con video) |
 | .s-link-body | Anteprima collegamento all’interno di un’offerta (ad esempio: Tweet con anteprima collegamento) |
@@ -90,6 +93,6 @@ Consente di personalizzare la sezione piè di pagina per ogni singolo post.
 
 | **Classe** | **Descrizione** |
 |---|---|
-| s-post-piè di pagina | Il piè di pagina del post. |
+| .s-post-piè di pagina | Il piè di pagina del post. |
 | .s-sidenotes a | Il pulsante Note nel piè di pagina del post. |
-| tipo s | Il pulsante "Mi piace" nel piè di pagina del post. |
+| tipo s | Il pulsante &quot;Mi piace&quot; nel piè di pagina del post. |
