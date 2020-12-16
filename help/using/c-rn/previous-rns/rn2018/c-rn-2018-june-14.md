@@ -7,11 +7,14 @@ title: 14 giugno 2018
 uuid: f1bba3af-2020-4dfc-9938-05b1183c30ab
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 8%
 
 ---
 
 
-# June 14, 2018{#june}
+# 14 giugno 2018{#june}
 
 Note sulla versione per la release del 14 giugno 2018.
 
@@ -25,7 +28,7 @@ Il valore di evars.appType javascript e generator.name è stato modificato in nu
 
 | Nome precedente | Nuovo nome |
 |---|---|
-| componente blog | Live Blog |
+| componente blog | Blog dal vivo |
 | scheda-componente | Scheda |
 | componente carosello | Carosello |
 | chat-component | Chat |
@@ -45,8 +48,8 @@ In questa versione sono stati risolti i problemi riportati nelle tabelle seguent
 
 | **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Libreria/Ricerca | È stato risolto un problema per il quale i video di Instagram non venivano visualizzati correttamente in Social Search o nei contenuti dell'app. |
-| Bug | Tag avanzati | È stato risolto un problema che impediva la visualizzazione degli smart tag per il contenuto raccolto da Instagram. |
+| Bug | Libreria/Ricerca | È stato risolto un problema per il quale i video di Instagram non venivano visualizzati correttamente in Social Search o nei contenuti dell&#39;app. |
+| Bug | Tag avanzati | È stato corretto un problema a causa del quale gli smart tag non venivano visualizzati per il contenuto raccolto da Instagram. |
 
 ## Rilascio UAT
 
