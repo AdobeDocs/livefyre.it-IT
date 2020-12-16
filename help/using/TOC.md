@@ -34,14 +34,14 @@ ht-degree: 6%
       + [Commenti](c-about-apps/c-comments/c-comments.md)
       + [Funzioni dei commenti](c-about-apps/c-comments/r-comments-features.md)
       + [Personalizzazioni commenti](c-about-apps/c-comments/r-comments-customizations.md)
-   + Scheda {#featurecard}
+   + Scheda funzione {#featurecard}
       + [Scheda](c-about-apps/c-feature-card-app/c-feature-card-app.md)
       + [Personalizzazioni scheda funzioni](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
    + Filmstrip {#filmstrip}
       + [Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
       + [Funzioni Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
       + [Personalizzazioni Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + Blog dal vivo {#liveblog}
+   + Blog live {#liveblog}
       + [Blog dal vivo](c-about-apps/c-liveblog-app/c-liveblog-app.md)
       + [Funzioni Live Blog](c-about-apps/c-liveblog-app/r-live-blog-features.md)
       + [Personalizzazioni Live Blog](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
@@ -49,7 +49,7 @@ ht-degree: 6%
       + [Mappa](c-about-apps/c-map-app/c-map-app.md)
       + [Funzioni mappa](c-about-apps/c-map-app/r-map-features.md)
       + [Personalizzazioni mappa](c-about-apps/c-map-app/r-map-customizations.md)
-   + Muro di supporto {#mediawall}
+   + Muro supporto {#mediawall}
       + [Muro di supporto](c-about-apps/c-media-wall-app/c-media-wall-app.md)
       + [Caratteristiche della parete multimediale](c-about-apps/c-media-wall-app/r-media-wall-features.md)
       + [Personalizzazioni di Media Wall](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
@@ -66,7 +66,7 @@ ht-degree: 6%
       + [Recensioni](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [Creazione di un&#39;app di revisione](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [Pubblicazione di una revisione](c-about-apps/c-reviews-app/t-using-reviews.md)
-   + Sidenotes {#sidenotes}
+   + Note {#sidenotes}
       + [Sidenotes](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
       + [Funzioni Sidenotes](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
       + [Personalizzazioni Sidenotes](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
@@ -101,7 +101,7 @@ ht-degree: 6%
       + [Pulsante Carica](c-about-apps/c-upload-button-app/c-upload-button-app.md)
       + [Personalizzazioni dei pulsanti di caricamento](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
       + [Stringhe di testo pulsante Carica](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
-+ Funzioni app {#app-features}
++ Funzioni dell&#39;app {#app-features}
    + [Funzioni di accessibilità](c-features-livefyre/c-accessibility-features.md)
    + [Funzioni di autenticazione](c-features-livefyre/c-authentication.md)
    + [Pulsante Invito all&#39;azione personalizzato](c-features-livefyre/c-call-to-action-button.md)
@@ -109,7 +109,7 @@ ht-degree: 6%
       + [Funzioni di comportamento dei contenuti](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
       + [Caricamento foto](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
       + [Post utente](c-features-livefyre/c-content-behavior-features/c-user-posts.md)
-   + Tag raccolta e contenuto {#collection-content-tags}
+   + Tag per raccolta e contenuto {#collection-content-tags}
       + [Tag raccolta e contenuto](c-features-livefyre/c-content-collection-tags/c-content-collection-tags.md)
       + [Cambia raccolta](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [Filtrare la ricerca per raccolta o tag contenuto](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
@@ -153,7 +153,7 @@ ht-degree: 6%
    + Condivisione social {#social-sharing}
       + [Condivisione social](c-features-livefyre/c-social-sharing/c-social-sharing.md)
       + [Impostazione della condivisione per social network](c-features-livefyre/c-social-sharing/c-setting-up-social-sharing.md)
-   + Funzioni di ordinamento {#sort-features}
+   + Ordina funzioni {#sort-features}
       + [Funzioni di ordinamento](c-features-livefyre/c-sort-features-composite/c-sort-features-composite.md)
       + [Commenti principali](c-features-livefyre/c-sort-features-composite/c-top-comments.md)
       + [Thread sensibili](c-features-livefyre/c-sort-features-composite/c-hot-threads.md)
@@ -191,7 +191,7 @@ ht-degree: 6%
    + [Utilizzo di Adobe Experience Manager Livefyre con Hootsuite](c-library/c-hootsuite-livefyre.md)
    + [Utilizzo di Adobe Experience Manager Livefyre con  Adobe Target](c-library/livefyre-target.md)
    + [Utilizzo  lancio di Livefyre Extension](c-library/launch-extension.md)
-+ Streams {#streams}
++ Flussi {#streams}
    + [Streams](c-streams/c-streams.md)
    + [Creare un nuovo flusso](c-streams/t-create-a-new-stream.md)
    + [Aggiungi regole per il flusso](c-streams/t-add-rules-for-your-stream.md)
@@ -232,7 +232,7 @@ ht-degree: 6%
    + [Accedere a Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
    + [Gestisci autorizzazioni di studio per gli utenti](c-users-creating-accounts-with-studio-access/t-manage-studio-permissions-for-users.md)
    + [Ruoli utente e autorizzazioni](c-users-creating-accounts-with-studio-access/c-user-types.md)
-   + Aggiungere un account Social {#add-social-account}
+   + Aggiungi un account Social {#add-social-account}
       + [Aggiungere un account Social](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [Informazioni sugli account Instagram](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [Aggiornare un token per un account Social](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
@@ -259,14 +259,14 @@ ht-degree: 6%
       + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + Note sulla versione {#release-notes}
    + [Note sulla versione più recenti](c-rn/c-rn.md)
-   + Release Notes 2019 {#rn2019}
+   + Note sulla versione 2019 {#rn2019}
       + [21 marzo 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
       + [14 marzo 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
       + [21 febbraio 2019](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
       + [7 febbraio 2019](c-rn/previous-rns/rn2019/c-rn-2019-february-7.md)
       + [31 gennaio 2019](c-rn/previous-rns/rn2019/c-rn-2019-january-31.md)
       + [17 gennaio 2019](c-rn/previous-rns/rn2019/c-rn-2019-january-17.md)
-   + Release Notes 2018 {#rn2018}
+   + Note sulla versione 2018 {#rn2018}
       + [18 dicembre 2018](c-rn/previous-rns/rn2018/c-rn-2018-december-18.md)
       + [13 dicembre 2018](c-rn/previous-rns/rn2018/c-rn-2018-december-13.md)
       + [15° novembre 2018](c-rn/previous-rns/rn2018/c-rn-2018-november-15.md)
@@ -287,7 +287,7 @@ ht-degree: 6%
       + [15 febbraio 2018](c-rn/previous-rns/rn2018/c-rn-2018-february-15.md)
       + [1° febbraio 2018](c-rn/previous-rns/rn2018/c-2018-february-1.md)
       + [18 gennaio 2018](c-rn/previous-rns/rn2018/c-rn-2018-january-18.md)
-   + Release Notes 2017 {#rn2017}
+   + Note sulla versione 2017 {#rn2017}
       + [16 novembre 2017](c-rn/previous-rns/rn2017/c-rn-2017-november-16.md)
       + [2 novembre 2017](c-rn/previous-rns/rn2017/c-rn-2017-november-2.md)
       + [19 ottobre 2017](c-rn/previous-rns/rn2017/c-rn-2017-october-19.md)
