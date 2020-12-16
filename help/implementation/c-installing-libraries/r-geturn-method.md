@@ -7,11 +7,14 @@ title: getUrn, metodo di rete
 uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
 
-# getUrn, metodo di rete{#geturn-network-method}
+# getUrn Network Method{#geturn-network-method}
 
 Questo metodo restituisce l’URL della rete.
 
@@ -51,7 +54,7 @@ Output campione:
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Esempio di Python {#section_dwg_gds_rz}
+## Esempio Python {#section_dwg_gds_rz}
 
 ```
 network.urn 
