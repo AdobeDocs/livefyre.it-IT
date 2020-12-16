@@ -6,6 +6,9 @@ title: Supporto per dispositivi e browser
 uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
 translation-type: tm+mt
 source-git-commit: 7d7af443eeffdbb09c2fa58006813c328785ad56
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 8%
 
 ---
 
@@ -19,17 +22,17 @@ Livefyre supporta i seguenti dispositivi, sistemi operativi e browser.
 |  | App di base | Storify 2 | Studio | ModQ |
 |---|---|---|---|---|
 | **Browser desktop** |  |  |  |  |
-| Chrome | ✓ | ✓ | ✓ | ✓ |
-| Edge | ✓ | ✓ | ✓ | ✓ |
+| Chrome | AND | AND | AND | AND |
+| Edge | AND | AND | AND | AND |
 | IE 11 | Limitato | Limitato | Limitato | Limitato |
-| Firefox | ✓ | ✓ | ✓ | ✓ |
-| Safari | ✓ | ✓ | ✓ | ✓ |
+| Firefox | AND | AND | AND | AND |
+| Safari | AND | AND | AND | AND |
 |  |  |  |  |  |
 | **Dispositivi** |  |  |  |  |
 | Browser Android 2.3+ | Limitato | Limitato | N/D | Limitato |
 | Google Chrome su Android 4.1+ | Limitato | Limitato | N/D | Limitato |
 | Versioni precedenti di iOS | Limitato | Limitato | N/D | Limitato |
-| iOS current version | Limitato | Limitato | N/D | Limitato |
+| Versione corrente iOS | Limitato | Limitato | N/D | Limitato |
 
 >[!NOTE]
 >
