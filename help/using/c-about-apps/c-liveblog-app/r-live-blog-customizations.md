@@ -7,11 +7,14 @@ title: Personalizzazioni Live Blog
 uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
 
-# Personalizzazioni Live Blog{#live-blog-customizations}
+# Personalizzazioni blog live{#live-blog-customizations}
 
 Personalizzare lo stile e il modo in cui i commenti vengono visualizzati sul blog dal vivo.
 
@@ -25,7 +28,7 @@ Utilizzate Live Blog per pubblicare aggiornamenti in tempo reale sulle storie in
 
 * **[!UICONTROL Comments appear in cards]**
 
-   Se attivato, i post verranno visualizzati con una casella circostante e verrà applicato il colore di sfondo dettato dalla selezione del **tema** .
+   Se attivato, i post verranno visualizzati con una casella circostante e verrà applicato il colore di sfondo dettato dalla selezione **Tema**.
 
 * **[!UICONTROL Nest levels for replies]**
 
@@ -33,7 +36,7 @@ Utilizzate Live Blog per pubblicare aggiornamenti in tempo reale sulle storie in
 
 * **[!UICONTROL Expand media]**
 
-   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disabilitato, il supporto viene visualizzato solo come collegamenti.
+   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disabilitato, i contenuti multimediali vengono visualizzati solo come collegamenti.
 
 * **[!UICONTROL Number of listeners]**
 
@@ -57,11 +60,11 @@ Utilizzate Live Blog per pubblicare aggiornamenti in tempo reale sulle storie in
 
 * **[!UICONTROL Users may share comments]**
 
-   Se attivato, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni di integrazione &gt; Condivisione social network.
+   Se attivato, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni > Impostazioni di integrazione > Condivisione social network.
 
 Potete personalizzare Live Blog utilizzando:
 
-* **[!UICONTROL Style]** e **[!UICONTROL Config]** le opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sugli standard **[!UICONTROL Style]** e sulle **[!UICONTROL Config]** opzioni di tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
 
 * Strumenti di integrazione. Consulta Live Blog per ulteriori informazioni su come personalizzare le app tramite gli strumenti di integrazione.
 
