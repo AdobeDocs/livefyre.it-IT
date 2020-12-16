@@ -23,7 +23,7 @@ In ModQ sono disponibili le seguenti scelte rapide da tastiera per i moderatori.
 | Elemento successivo | Selezionare l&#39;elemento sotto l&#39;elemento selezionato | Freccia Giù | J |
 | Approvare il contenuto | Contrassegna contenuto come approvato | a |  |
 | Contenuto del cestino | Contrassegna contenuto come scorrevole | x |  |
-| Contenuto del bozo | Contrassegnare il contenuto come Bozo’d | b |  |
+| Contenuto del bozo | Contrassegnare i contenuti come Bozo | b |  |
 | Parte superiore della coda | Passare al primo elemento nella parte superiore della coda | l |  |
 | Disattiva o disattiva l’audio dei flag | Disattiva o disattiva l’audio dei flag dell’utente selezionato | Maiusc + M |  |
 | Divieto utente | Divieto dell&#39;utente selezionato solo per il sito | Maiusc + B |  |
