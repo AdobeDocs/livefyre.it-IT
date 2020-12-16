@@ -18,6 +18,6 @@ Consente a un utente di inserire un elenco per consentirgli di inviare direttame
 
 Consenti agli utenti di essere inseriti nell&#39;elenco di pubblicare direttamente le app. Il contenuto pubblicato dagli utenti inclusi nell&#39;elenco di autorizzazioni non passerà attraverso i filtri SICURI, di profanità o di premoderazione di Livefyre e verrà automaticamente approvato e aggiunto all&#39;app.
 
-1. Fate clic **[!UICONTROL +Add]** per **[!UICONTROL Whitelists]**.
+1. Fare clic su **[!UICONTROL +Add]** per **[!UICONTROL Whitelists]**.
 1. Viene visualizzata una finestra a comparsa che consente di elencare l’utente per l’intera rete o per un sito specifico. (Utilizzare il tasto CTR o Comando per selezionare più siti.)
-1. Fare clic **[!UICONTROL Whitelist]** per completare il processo.
+1. Fare clic su **[!UICONTROL Whitelist]** per completare il processo.
