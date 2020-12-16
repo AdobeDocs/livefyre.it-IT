@@ -7,6 +7,9 @@ title: Metodi di rete
 uuid: f237fead-36b5-4ea1-bfdd-55194d3306e1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Una descrizione dei metodi della classe Network.
 
-Per l'oggetto Network sono disponibili i metodi seguenti:
+Per l&#39;oggetto Network sono disponibili i metodi seguenti:
 
 * [setSSL, metodo di rete](#r_setssl_method)
 * [Metodo di rete buildLivefyreToken](#r_buildlivefyretoken_method)
