@@ -7,11 +7,14 @@ title: Personalizzare il timbro di data e ora
 uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 0%
 
 ---
 
 
-# Personalizzare il timbro di data e ora{#customize-the-date-and-time-stamp}
+# Personalizza il timbro data e ora{#customize-the-date-and-time-stamp}
 
 Mediante Livefyre.js potete personalizzare i timbri relativi a data e ora.
 
@@ -23,8 +26,8 @@ Le app Livefyre forniscono il parametro di opzione, datetimeFormat, per specific
 
 ## Terminologia {#section_xsk_jn4_xz}
 
-* **Marca temporale** assoluta: data esatta e ora specifica (ad esempio 1 gennaio 2012 12:00)
-* **Le marche temporali** relative sono definite come tempi generali e meno precisi (ad esempio, 25 secondi fa, 14 minuti fa, 1 giorno fa, 1 anno fa, ecc.)
+* **Le marche** temporali assolute sono definite come ore esatte e specifiche (ad esempio 1 gennaio 2012 12:00)
+* **I** timestamp relativi sono definiti come orari generali e meno precisi (ad esempio, 25 secondi fa, 14 minuti fa, 1 giorno fa, 1 anno fa, ecc.)
 
 ## Formattazione {#section_ynx_gn4_xz}
 
@@ -85,7 +88,7 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 ## Designazione simbolo {#section_inq_2n4_xz}
 
-Funzioni di formattazione di datetime seguendo la specifica del pattern definita in JDK, ICU e CLDR, con lievi modifiche per l'uso tipico in JS. Per ulteriori informazioni, consulta la Documentazione [della libreria](https://developers.google.com/closure/library/docs/overview)Google Closure.
+Funzioni di formattazione di datetime seguendo la specifica del pattern definita in JDK, ICU e CLDR, con lievi modifiche per l&#39;uso tipico in JS. Per ulteriori informazioni, vedere la [Documentazione della libreria di chiusura Google](https://developers.google.com/closure/library/docs/overview).
 
 ```
   Symbol Meaning Presentation        Example 
@@ -125,8 +128,8 @@ Gli elementi contrassegnati con ‘#’ funzionano in modo diverso da Java.
 
 Il numero di lettere del pattern determina il formato.
 
-* **** Testo: 4 o più, utilizzare il modulo completo. Meno di 4, utilizzare il formato breve o abbreviato, se esiste. Ad esempio: "EEEE" produce "lunedì", "EEE" produce "lun".)
-* **** Numero: il numero minimo di cifre. Numeri più brevi vengono aggiunti zero a questo importo (ad esempio: Se "m" produce "6", "mm" produce "06".) l'anno è trattato in modo speciale; ovvero, se il numero di "y" è 2, l'Anno verrà troncato a 2 cifre. Ad esempio: se "yyyy" produce "1997", "yy" produce "97".) A differenza di altri campi, i secondi frazionari vengono aggiunti a destra con zero.
-* **** Testo e numero: 3 o superiore, utilizzate il testo. Meno di 3, utilizzare numero. Ad esempio: "M" produce "1", "MM" produce "01", "MMM" produce "Jan" e "MMMM" produce "gennaio".)
+* **Testo:** 4 o superiore, utilizzare il modulo completo. Meno di 4, utilizzare il formato breve o abbreviato, se esiste. Ad esempio: &quot;EEEE&quot; produce &quot;Lunedì&quot;, &quot;EEE&quot; produce &quot;Luna&quot;.)
+* **Numero:** il numero minimo di cifre. Numeri più brevi vengono aggiunti zero a questo importo (ad esempio: Se &quot;m&quot; produce &quot;6&quot;, &quot;mm&quot; produce &quot;06&quot;.) l&#39;anno è trattato in modo speciale; ovvero, se il numero di &quot;y&quot; è 2, l&#39;Anno verrà troncato a 2 cifre. Ad esempio: se &quot;yyyy&quot; produce &quot;1997&quot;, &quot;yy&quot; produce &quot;97&quot;.) A differenza di altri campi, i secondi frazionari vengono aggiunti a destra con zero.
+* **Testo e numero:** 3 o superiore, utilizzate il testo. Meno di 3, utilizzare numero. Ad esempio: &quot;M&quot; produce &quot;1&quot;, &quot;MM&quot; produce &quot;01&quot;, &quot;MMM&quot; produce &quot;Jan&quot; e &quot;MMMM&quot; produce &quot;gennaio&quot;.)
 
-Qualsiasi carattere del pattern che non sia compreso negli intervalli di ["a".z’] e ["A"."Z’] sarà trattato come testo tra virgolette. Ad esempio, i caratteri come ‘:’, ‘.’, ‘, ‘#’ e ‘@’ verranno visualizzati nel testo temporale risultante anche se non sono racchiusi tra virgolette singole.
+Qualsiasi carattere del pattern che non sia compreso negli intervalli di [‘a’...z’] e [&quot;A&quot;.Z&#39;] verrà trattato come testo tra virgolette. Ad esempio, i caratteri come ‘:’, ‘.’, ‘, ‘#’ e ‘@’ verranno visualizzati nel testo temporale risultante anche se non sono racchiusi tra virgolette singole.
