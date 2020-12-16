@@ -6,15 +6,18 @@ title: Commenti principali
 uuid: 23c4a766-b3e8-4fab-a7f9-78cdb601652a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
 
 # Commenti principali{#top-comments}
 
-Top Comments elenca i 25 commenti più graditi nella conversazione. Nella **[!UICONTROL Top Comments]** vista sono visualizzati i 25 commenti più graditi della raccolta. Se un post originale riceve il maggior numero di like, verrà elencato il post, ma non le relative risposte. Se una risposta riceve il maggior numero di Mi piace, viene visualizzato anche il suo genitore immediato, fino al post di primo livello. Questo elenco non è in tempo reale e si aggiorna solo quando la pagina viene aggiornata o viene selezionata un'altra visualizzazione di ordinamento (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**).
+Top Comments elenca i 25 commenti più graditi nella conversazione. Nella vista **[!UICONTROL Top Comments]** sono visualizzati i 25 commenti più graditi della raccolta. Se un post originale riceve il maggior numero di like, verrà elencato il post, ma non le relative risposte. Se una risposta riceve il maggior numero di Mi piace, viene visualizzato anche il suo genitore immediato, fino al post di primo livello. Questo elenco non è in tempo reale e verrà aggiornato solo quando la pagina viene aggiornata o viene selezionata un&#39;altra visualizzazione di ordinamento (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**).
 
-Se un utente pubblica un commento dall’editor dei commenti durante la visualizzazione, **[!UICONTROL Top Comments]** l’utente tornerà alla **[!UICONTROL Newest]** visualizzazione. Se un utente gradisce o risponde a uno dei commenti principali, verrà trasmesso nella **[!UICONTROL Top Comments]** visualizzazione affinché l'utente possa visualizzarlo.
+Se un utente pubblica un commento dall&#39;editor dei commenti durante la visualizzazione della **[!UICONTROL Top Comments]**, l&#39;utente tornerà alla visualizzazione **[!UICONTROL Newest]**. Se un utente ama o risponde a uno dei commenti principali, lo streaming avviene nella visualizzazione **[!UICONTROL Top Comments]** che l&#39;utente può visualizzare.
 
 Per ottimizzare le prestazioni, Livefyre memorizza nella cache i dati per un massimo di 2 minuti. Potrebbe esserci un leggero ritardo nei più recenti esempi di questo tipo.
 
@@ -24,7 +27,7 @@ Se nella raccolta non sono presenti commenti con Mi piace, gli utenti visualizze
 >
 >I commenti principali e i thread sensibili potrebbero non essere inclusi nella stessa raccolta.
 
-Per informazioni su come abilitare la visualizzazione Commenti principali, consultate **[!UICONTROL Studio > Network Settings]**.
+Per informazioni sull&#39;abilitazione della visualizzazione Commenti principali, vedere **[!UICONTROL Studio > Network Settings]**.
 
 App che utilizzano questa funzione:
 
