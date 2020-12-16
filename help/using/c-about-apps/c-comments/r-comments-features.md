@@ -7,13 +7,16 @@ title: Funzioni dei commenti
 uuid: ec00fcc9-1b5e-4d0b-b1da-95f9f26b4cc1
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 5%
 
 ---
 
 
 # Funzioni dei commenti{#comments-features}
 
-Molte funzioni vengono fornite con l'app Commenti per incorporare conversazioni in tempo reale nel sito.
+Molte funzioni vengono fornite con l&#39;app Commenti per incorporare conversazioni in tempo reale nel sito.
 
 * [Autenticazione](/help/using/c-features-livefyre/c-authentication.md#c_authentication)
 * [Avatar](/help/using/c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)
@@ -25,7 +28,7 @@ Molte funzioni vengono fornite con l'app Commenti per incorporare conversazioni 
 * [Stringhe di testo personalizzate](/help/using/c-features-livefyre/c-custom-text-strings.md#c_custom_text_strings)
 * [Data e marca temporale](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
 * [Notifiche e-mail](/help/using/c-features-livefyre/c-notifications-features/c-email-notifications.md#c_email_notifications)
-* [Integrazione Embedly](/help/using/c-features-livefyre/c-content-collection-tags/c-embedly-integration.md#c_embedly_integration)
+* [Integrazione Embedly ](/help/using/c-features-livefyre/c-content-collection-tags/c-embedly-integration.md#c_embedly_integration)
 * [Contenuto in evidenza](/help/using/c-features-livefyre/c-content-collection-tags/c-featured-content.md#c_featured_content)
 * [Cenni Di Amici](/help/using/c-features-livefyre/c-enagement-features.md#section_yw5_fdm_d1b)
 * [Segui conversazione](/help/using/c-features-livefyre/c-enagement-features.md#section_bw3_ndm_d1b)
