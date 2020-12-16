@@ -7,19 +7,22 @@ title: Cambia tipi di app di base
 uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
 
-# Cambia tipi di app di base{#switch-core-app-types}
+# Switch Core App Types{#switch-core-app-types}
 
-Scopri come passare da una conversazione Tipo di app a un'altra.
+Scopri come passare da una conversazione Tipo di app a un&#39;altra.
 
-Lifefyre consente di cambiare le raccolte da un tipo di applicazione di base Livefyre a un altro (Commenti, Live Blog o Chat) semplicemente modificando alcune impostazioni nei `collectionMeta` dati.
+Lifefyre consente di cambiare le raccolte da un tipo di applicazione di base Livefyre a un altro (Commenti, Live Blog o Chat) semplicemente modificando alcune impostazioni nei dati `collectionMeta`.
 
-Per implementare un tipo specifico di app, aggiungi un nuovo campo all' `collectionMeta` oggetto. Commenti è l'impostazione predefinita, pertanto non sarà necessario effettuare questi aggiornamenti se si tratta dell'app desiderata. Per passare a un'app diversa dopo la creazione di una raccolta, passate un valore di checksum durante l'inizializzazione dell'app. Per ulteriori informazioni sulla creazione di un valore di checksum, consulta la nostra documentazione `collectionMeta` sui token.
+Per implementare un tipo specifico di app, aggiungi un nuovo campo all&#39;oggetto `collectionMeta`. Commenti è l&#39;impostazione predefinita, pertanto non sarà necessario effettuare questi aggiornamenti se si tratta dell&#39;app desiderata. Per passare a un&#39;app diversa dopo la creazione di una raccolta, passate un valore di checksum durante l&#39;inizializzazione dell&#39;app. Per ulteriori informazioni sulla creazione di un valore di checksum, consulta la documentazione relativa ai token `collectionMeta`.
 
-## Live Blog {#section_kvj_3jj_11b}
+## Blog live {#section_kvj_3jj_11b}
 
 ### Esempio PHP
 
@@ -110,7 +113,7 @@ conv_config = {
 }
 ```
 
-## Live Blog {#section_bqt_cjj_11b}
+## Blog live {#section_bqt_cjj_11b}
 
 ### Esempio PHP
 
