@@ -5,6 +5,9 @@ title: Accesso ai video di formazione
 uuid: 64438e2f-dd51-4c10-98ff-e1b62db1b0ca
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Per accedere ai video di formazione di Livefyre:
 
-1. Accedi alle esercitazioni [di](https://helpx.adobe.com/experience-manager/tutorials.html)Adobe Experience Manager.
+1. Accedere a [Tutorials Adobe Experience Manager](https://helpx.adobe.com/experience-manager/tutorials.html).
 1. Scorrete la pagina verso il basso fino a visualizzare le tre categorie di esercitazione di Livefyre:
 
    * Creazione, gestione e navigazione degli account di studio in Adobe Experience Manager Livefyre
