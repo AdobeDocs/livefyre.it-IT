@@ -6,11 +6,14 @@ title: 12 gennaio 2017
 uuid: fb92ea52-7184-4f08-814c-15e45d684371
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 7%
 
 ---
 
 
-# January 12, 2017{#january}
+# 12 gennaio 2017{#january}
 
 Note sulla versione del 12 gennaio 2017.
 
@@ -19,15 +22,15 @@ Note sulla versione del 12 gennaio 2017.
 | Tipo problema | Componente | Note sulla versione |
 |--- |--- |--- |
 | Bug | Contenuto app | È stato corretto un bug che impediva il funzionamento delle opzioni di passaggio del mouse su un profilo utente in Contenuto app. |
-| Bug | App | È stato corretto un bug in tutte le app per rimuovere i titoli di contenuto per il contenuto RSS quando corrispondeva al titolo dell'allegato del collegamento. |
-| Miglioramento | Commenti | Miglioramento dei commenti per soddisfare gli standard di accessibilità fornendo un migliore supporto per gli assistenti vocali e assicurando che tutti gli elementi interattivi possano essere raggiunti con la navigazione esclusivamente tramite tastiera. |
+| Bug | App | È stato corretto un bug in tutte le app per rimuovere i titoli di contenuto per il contenuto RSS quando corrispondeva al titolo dell&#39;allegato del collegamento. |
+| Miglioramento | Commenti | Miglioramento dei commenti per soddisfare gli standard di accessibilità fornendo un migliore supporto per gli assistenti vocali e assicurandosi che tutti gli elementi interattivi possano essere raggiunti con la navigazione esclusivamente tramite tastiera. |
 | Bug | Commenti | È stato corretto un bug in Commenti a causa del quale in alcuni casi il codice da incorporare veniva visualizzato sopra i video. |
 | Miglioramento | Identità Livefyre | Identità Livefyre migliorata per soddisfare gli standard di accessibilità fornendo un supporto migliore per gli assistenti vocali e assicurandosi che tutti gli elementi interattivi possano essere raggiunti con la navigazione esclusivamente tramite tastiera. |
-| Bug | Sondaggi | Sondaggi migliorati per rendere più nitida e migliorare la qualità dell'immagine quando vengono caricati in Designer. |
+| Bug | Sondaggi | Sondaggi migliorati per rendere più nitida e migliorare la qualità dell&#39;immagine quando vengono caricati in Designer. |
 | Bug | Recensioni | È stato corretto un bug che impediva la corretta visualizzazione delle modifiche di valutazione. |
 | Miglioramento | Richieste di diritti | È stato aggiunto un miglioramento per impedire l’utilizzo di collegamenti bit.ly nelle impostazioni dell’account di diritti di Instagram per impedire che le richieste vengano contrassegnate come spam. |
 | Bug | Richieste di diritti | È stato corretto un bug che impediva la chiusura della modale dei diritti dopo l’invio di una richiesta su una risorsa nella libreria. |
-| Bug | SICURO | È stato corretto un bug che impediva l'aggiornamento affidabile degli elenchi Personalizzato di Profanità. |
+| Bug | SICURO | È stato corretto un bug che impediva l&#39;aggiornamento affidabile degli elenchi Personalizzato di Profanità. |
 | Bug | Impostazioni | È stato corretto un bug che impediva il salvataggio degli URL di richiamo profilo nelle impostazioni di Studio. |
 | Miglioramento | Sidenotes | Miglioramento delle note per soddisfare gli standard di accessibilità fornendo un migliore supporto per gli assistenti vocali e assicurando che tutti gli elementi interattivi possano essere raggiunti con la navigazione esclusivamente tramite tastiera. |
 | Miglioramento | Ricerca social | È stata aggiunta una funzione che visualizza una notifica quando viene segnalata una risorsa. |
