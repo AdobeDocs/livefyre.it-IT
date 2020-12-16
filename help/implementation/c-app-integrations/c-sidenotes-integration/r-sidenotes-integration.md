@@ -7,21 +7,24 @@ title: Integrazione Sidenotes
 uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 1%
 
 ---
 
 
-# Integrazione Sidenotes{#sidenotes-integration}
+# Integrazione delle note{#sidenotes-integration}
 
-Integrare un'app Sidenotes seguendo un processo simile alle applicazioni di base.
+Integrare un&#39;app Sidenotes seguendo un processo simile alle applicazioni di base.
 
-Come regola generale, se l'integrazione dell'applicazione di base è completa, il codice scritto per generare l' `collectionMeta` oggetto può essere riutilizzato per le note.
+Come regola generale, se l&#39;integrazione dell&#39;applicazione di base è completa, il codice scritto per generare l&#39;oggetto `collectionMeta` può essere riutilizzato per le note.
 
-Potete anche riutilizzare i `auth` delegati esistenti fornendo un `auth` delegato creato con `fyre.conv` i Sidenotes nel campo (facoltativo) `authDelegate` .
+È inoltre possibile riutilizzare i delegati `auth` esistenti fornendo un delegato `auth` creato con `fyre.conv` a Sidenotes nel campo (facoltativo) `authDelegate`.
 
 >[!NOTE]
 >
->Le note consentono di includere `network`, `siteId`e `articleId` in un singolo oggetto, anziché trasmetterle separatamente in altre parti del costruttore.
+>Le note consentono di includere `network`, `siteId` e `articleId` in un singolo oggetto, anziché trasmetterli separatamente in altre parti del costruttore.
 
 ```
 <!DOCTYPE html> 
@@ -53,7 +56,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-Come indicato nella `collectionMeta` sezione Building, `collectionMeta` è un oggetto JSON codificato. Nell'esempio precedente, l'oggetto JSON ha il formato seguente prima che sia codificato JWT.
+Come indicato nella sezione Building `collectionMeta`, `collectionMeta` è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON ha il formato seguente prima che sia codificato JWT.
 
 ```
 { 
@@ -65,7 +68,7 @@ Come indicato nella `collectionMeta` sezione Building, `collectionMeta` è un og
 }
 ```
 
-Per ulteriori informazioni, vedete il `collectionMeta` token.
+Per ulteriori informazioni, vedere il token `collectionMeta`.
 
 ## Configurazione mobile
 
