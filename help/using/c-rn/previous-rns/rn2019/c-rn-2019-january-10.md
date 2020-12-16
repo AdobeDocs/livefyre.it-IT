@@ -7,6 +7,9 @@ title: Note sulla versione
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
@@ -17,4 +20,4 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ## Correzioni di bug
 
-* È stato risolto un problema che impediva la visualizzazione di alcuni contenuti dell'app nell'interfaccia utente di Designer.
+* È stato risolto un problema che impediva la visualizzazione di alcuni contenuti dell&#39;app nell&#39;interfaccia utente di Designer.
