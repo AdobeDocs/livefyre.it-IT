@@ -32,7 +32,7 @@ La pagina Profilo fornisce informazioni sull’account utente, compresa la data 
 
 Aggiungete tag utente agli account sia per cercare più facilmente gli utenti con tag, sia per distinguere stilisticamente il contenuto degli utenti con tag da quello degli altri siti.
 
-Per ulteriori informazioni sull’utilizzo dei tag utente per formattare il contenuto dell’utente in modo diverso rispetto ad altri contenuti del sito, consultate **[!UICONTROL App Customizations > Style User Group Content]**.
+Per ulteriori informazioni sull&#39;utilizzo dei tag utente per formattare il contenuto dell&#39;utente in modo diverso rispetto ad altri contenuti del sito, vedere **[!UICONTROL App Customizations > Style User Group Content]**.
 
 >[!NOTE]
 >
@@ -44,11 +44,11 @@ Nella sezione Stato sono elencati i divieti o le whitelist associati all&#39;acc
 
 ## Divieto di utilizzo {#section_l5b_5gr_vdb}
 
-Se un utente pubblica commenti inappropriati o spam su un articolo o sul sito, puoi scegliere di vietare l&#39;utente alla rete. Una volta vietato l&#39;accesso, tutti i contenuti pubblicati dall&#39;utente verranno automaticamente impostati sullo stato ***Bozo*** e saranno visibili solo all&#39;utente che effettua l&#39;invio. Gli utenti banditi possono accedere al flusso, pubblicare commenti e visualizzare il loro contenuto nell&#39;app. Gli utenti banditi crederanno di essere ancora parte della conversazione. Tuttavia, nessun altro utente sul sito potrà visualizzare questo contenuto.
+Se un utente pubblica commenti inappropriati o spam su un articolo o sul sito, puoi scegliere di vietare l&#39;utente alla rete. Una volta vietato l&#39;accesso, tutti i contenuti inviati dall&#39;utente verranno automaticamente impostati sullo stato ***Bozo*** e saranno visibili solo all&#39;utente che effettua l&#39;invio. Gli utenti banditi possono accedere al flusso, pubblicare commenti e visualizzare il loro contenuto nell&#39;app. Gli utenti banditi crederanno di essere ancora parte della conversazione. Tuttavia, nessun altro utente sul sito potrà visualizzare questo contenuto.
 
 Poiché il loro contenuto è diventato Bozo’d, gli utenti censurati possono continuare a pubblicare contenuti inappropriati, ma non saranno più visibili al resto della community.
 
-For more information, please see **[!UICONTROL Studio > App Content > Bozo Content]**.
+Per ulteriori informazioni, vedere **[!UICONTROL Studio > App Content > Bozo Content]**.
 
 ## Consenti elenco utenti {#section_kr4_ptp_vz}
 
