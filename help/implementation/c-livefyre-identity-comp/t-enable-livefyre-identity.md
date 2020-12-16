@@ -7,13 +7,16 @@ title: Abilita identità Livefyre
 uuid: 9bb5e168-4596-42a7-9105-e09c65c5e3ae
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 3%
 
 ---
 
 
-# Abilita identità Livefyre{#enable-livefyre-identity}
+# Abilita Livefyre Identity{#enable-livefyre-identity}
 
-Attivate il pacchetto Identità Livefyre per consentire ai vostri utenti di accedere alle vostre App Livefyre tramite un'e-mail, un account Twitter, Facebook, Yahoo! o un login Google.
+Attivate il pacchetto Identità Livefyre per consentire ai vostri utenti di accedere alle vostre App Livefyre tramite un&#39;e-mail, un account Twitter, Facebook, Yahoo! o un login Google.
 
 Per abilitare questa funzionalità:
 
