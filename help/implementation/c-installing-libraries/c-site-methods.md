@@ -1,21 +1,24 @@
 ---
 description: Creare un oggetto sito utilizzando i metodi di classe del sito.
 seo-description: Creare un oggetto sito utilizzando i metodi di classe del sito.
-seo-title: Metodi della classe Site
+seo-title: Metodi della classe del sito
 solution: Experience Manager
-title: Metodi della classe Site
+title: Metodi della classe del sito
 uuid: cf1e641a-d4ef-4c92-a7d1-985380434fc2
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 1%
 
 ---
 
 
-# Metodi della classe Site{#site-class-methods}
+# Metodi della classe del sito{#site-class-methods}
 
 Creare un oggetto sito utilizzando i metodi di classe del sito.
 
-Vedere la classe Network per istruzioni sulla creazione di un oggetto Site. Creare un'istanza dell'oggetto sito nella sessione prima di utilizzare i metodi della classe del sito.
+Vedere la classe Network per istruzioni sulla creazione di un oggetto Site. Creare un&#39;istanza dell&#39;oggetto sito nella sessione prima di utilizzare i metodi della classe del sito.
 
 * [Metodo del sito buildBlogCollection](../c-installing-libraries/r-buildblogcollection-site-method.md#r_buildblogcollection_site_method)
 * [Metodo del sito buildChatCollection](../c-installing-libraries/r-buildchatcollection-site-method.md#r_buildchatcollection_site_method)
