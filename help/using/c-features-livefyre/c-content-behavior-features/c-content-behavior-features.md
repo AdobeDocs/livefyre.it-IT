@@ -7,6 +7,9 @@ title: Funzioni di comportamento dei contenuti
 uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +20,7 @@ Livefyre offre funzionalità nelle app che consentono di scegliere come i visita
 
 ## Streaming in tempo reale {#section_emd_syl_d1b}
 
-Le app Livefyre eseguono il flusso del contenuto in tempo reale quando il contenuto viene pubblicato manualmente da Studio o da un flusso di contenuti. ciò significa che il contenuto appena pubblicato verrà visualizzato nell'app senza che l'utente finale debba aggiornare la pagina dell'app.
+Le app Livefyre eseguono il flusso del contenuto in tempo reale quando il contenuto viene pubblicato manualmente da Studio o da un flusso di contenuti. ciò significa che il contenuto appena pubblicato verrà visualizzato nell&#39;app senza che l&#39;utente finale debba aggiornare la pagina dell&#39;app.
 
 App che utilizzano questa funzione:
 
@@ -31,9 +34,9 @@ App che utilizzano questa funzione:
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [Tendenza](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 
-## Paginazione {#section_mb5_lzl_d1b}
+## Impaginazione {#section_mb5_lzl_d1b}
 
-Scelta del numero di parti di contenuto da visualizzare nell'app. Per alcune app, potete scegliere se utilizzare il pulsante "Mostra più informazioni" o consentire lo scorrimento continuo del contenuto.
+Scelta del numero di parti di contenuto da visualizzare nell&#39;app. Per alcune app, potete scegliere se utilizzare il pulsante &quot;Mostra più informazioni&quot; o consentire lo scorrimento continuo del contenuto.
 
 App che utilizzano questa funzione:
 
@@ -45,7 +48,7 @@ App che utilizzano questa funzione:
 
 ## Elementi da caricare {#section_q5w_mzl_d1b}
 
-La capacità di impostare il numero iniziale di elementi da caricare quando si visualizza l'app.
+La capacità di impostare il numero iniziale di elementi da caricare quando si visualizza l&#39;app.
 
 App che utilizzano questa funzione:
 
@@ -58,7 +61,7 @@ App che utilizzano questa funzione:
 
 Interrompi lo streaming live e mette in coda il contenuto nella parte superiore del flusso per controllare le conversazioni ad alta velocità.
 
-Utilizzare i commenti coda per offrire agli utenti un'esperienza migliore con conversazioni ad alta velocità. Progettata per incoraggiare una lettura attenta, piuttosto che un'esperienza in tempo reale dei commenti pubblicati, questa funzione mette in coda nuovi commenti nella parte superiore del flusso e visualizza un contatore del numero di nuovi post, piuttosto che dei post stessi. Facendo clic su questo numero, i 10 commenti più vecchi vengono inseriti nella conversazione. Facendo clic di nuovo, si passerà in streaming ai successivi 10. Quando vengono pubblicate nuove risposte, queste vengono aggiunte alla coda.
+Utilizzare i commenti coda per offrire agli utenti un&#39;esperienza migliore con conversazioni ad alta velocità. Progettata per incoraggiare una lettura attenta, piuttosto che un&#39;esperienza in tempo reale dei commenti pubblicati, questa funzione mette in coda nuovi commenti nella parte superiore del flusso e visualizza un contatore del numero di nuovi post, piuttosto che dei post stessi. Facendo clic su questo numero, i 10 commenti più vecchi vengono inseriti nella conversazione. Facendo clic di nuovo, si passerà in streaming ai successivi 10. Quando vengono pubblicate nuove risposte, queste vengono aggiunte alla coda.
 
 La funzione Commenti coda è disponibile per Commenti e può essere impostata a livello di rete, sito o conversazione dalla scheda Impostazioni di Studio.
 
@@ -71,13 +74,13 @@ App che utilizzano questa funzione:
 
 Limitate i contenuti utilizzando regole intelligenti per controllare le conversazioni ad alta velocità.
 
-Utilizzate Limita contenuto per controllare le chat ad alta velocità, quando la natura in tempo reale del contenuto è importante. Se abilitata, la funzione di limitazione dei contenuti limita i flussi di contenuti ad alta velocità e visualizza solo i contenuti che il sistema ritiene più "intelligenti".
+Utilizzate Limita contenuto per controllare le chat ad alta velocità, quando la natura in tempo reale del contenuto è importante. Se abilitata, la funzione di limitazione dei contenuti limita i flussi di contenuti ad alta velocità e visualizza solo i contenuti che il sistema ritiene più &quot;intelligenti&quot;.
 
 Quando questa funzione è attivata:
 
-* Gli utenti visualizzano il proprio flusso di contenuti nella pagina, in quanto viene considerato "contenuto intelligente" per quell'utente.
+* Gli utenti visualizzano il proprio flusso di contenuti nella pagina, in quanto viene considerato &quot;contenuto intelligente&quot; per quell&#39;utente.
 * Gli utenti possono visualizzare tutto il contenuto precedente al caricamento o all’aggiornamento della pagina.
-* I moderatori non sperimenteranno un flusso rallentato; visualizzano tutti i flussi di contenuto.
+* I moderatori non sperimenteranno un flusso rallentato; visualizzano tutti i flussi di contenuto in.
 * Poiché i contenuti generati dai moderatori sono considerati intelligenti, verranno sempre inseriti nella raccolta per tutti gli utenti.
 
 Se la velocità scende, Livefyre visualizzerà tutti i contenuti, in streaming in tempo reale.
