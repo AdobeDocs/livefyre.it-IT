@@ -6,11 +6,14 @@ title: 29 giugno 2017
 uuid: f7d901fc-fe5a-463c-92ac-b77cda3bff1b
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 6%
 
 ---
 
 
-# June 29, 2017{#june}
+# 29 giugno 2017{#june}
 
 Note sulla versione per la release del 29 giugno 2017.
 
@@ -18,8 +21,8 @@ Note sulla versione per la release del 29 giugno 2017.
 
 | **Tipo problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Libreria | Quando cancellate i filtri nella libreria, rimarrete nella stessa selezione di cartelle, anziché essere reindirizzati a un'altra pagina. |
-| Bug | Recensioni | È stato corretto un bug in Recensioni per garantire il caricamento di supporti tramite HTTPS in tutte le implementazioni. |
+| Bug | Libreria | Quando cancellate i filtri nella libreria, rimarrete nella stessa selezione di cartelle, anziché essere reindirizzati a un&#39;altra pagina. |
+| Bug | Recensioni | È stato corretto un bug in Recensioni per garantire il caricamento di contenuti multimediali tramite HTTPS in tutte le implementazioni. |
 | Bug | Recensioni | È stato corretto un bug in Recensioni che impediva il caricamento corretto di alcune immagini a causa di errori HTTPS. |
 | Miglioramento | Social Sync | Sincronizzazione social Twitter obsoleta. |
 
@@ -27,9 +30,9 @@ Note sulla versione per la release del 29 giugno 2017.
 
 | Tipo problema | Componente | Note sulla versione |
 |--- |--- |--- |
-| Miglioramento | Tutte | Presentazione della nuova iniziativa UGC Commerce di Livefyre. Ciò include la capacità di:  <br><ul><li>Aggiungere un pulsante di conversione a Mosaico e Media Wall</li><li> Miglioramenti dell'interfaccia utente a Mosaico, Media Wall e al modale del contenuto per entrambe le app</li><li>Possibilità di caricare prodotti in Studio in Impostazioni di rete</li><li>Possibilità di associare il contenuto ai prodotti in Libreria studio, Contenuto app e ModQ</li><li>Possibilità di associare i prodotti alle regole di flusso per l'assegnazione automatica di tag</li></ul> |
+| Miglioramento | Tutte | Presentazione della nuova iniziativa UGC Commerce di Livefyre. Ciò include la capacità di:  <br><ul><li>Aggiungere un pulsante di conversione a Mosaico e Media Wall</li><li> Miglioramenti dell&#39;interfaccia utente a Mosaico, Media Wall e il modale del contenuto per entrambe le app</li><li>Possibilità di caricare prodotti in Studio in Impostazioni di rete</li><li>Possibilità di associare il contenuto ai prodotti in Libreria studio, Contenuto app e ModQ</li><li>Possibilità di associare i prodotti con le regole di flusso per l&#39;assegnazione automatica di tag</li></ul> |
 | Miglioramento | Commenti | È stato aggiunto un miglioramento in modo che le schede Ordine commenti siano conformi a ADA. |
-| Miglioramento | Commenti | È stato aggiunto un miglioramento dell'accessibilità in modo che gli Avatar nei commenti siano conformi a ADA. |
+| Miglioramento | Commenti | È stato aggiunto un miglioramento dell&#39;accessibilità in modo che gli Avatar nei commenti siano conformi a ADA. |
 | Miglioramento | Ricerca Instagram | È stato aggiunto il supporto per il salvataggio e la pubblicazione di post Instagram con più immagini/video. |
 | Bug | Libreria | È stato aggiunto un miglioramento durante le ricerche nella libreria contenente apostrofi. |
 | Bug | Muro di supporto | È stato corretto un bug in Media Wall che impediva il corretto funzionamento del pulsante di condivisione in Firefox. |
