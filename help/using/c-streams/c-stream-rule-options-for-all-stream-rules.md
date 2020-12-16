@@ -7,6 +7,9 @@ title: Opzioni regola di flusso per tutte le regole di flusso
 uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
 translation-type: tm+mt
 source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 0%
 
 ---
 
@@ -17,21 +20,21 @@ Queste opzioni si applicano a qualsiasi regola di flusso da tutti i social netwo
 
 Funzioni di ricerca per campi di testo e parole chiave:
 
-* Quando si immettono le parole chiave, Livefyre utilizza automaticamente l'operatore booleano **OR** quando per le singole parole. Ad esempio, per cercare post con la parola *torta* o *ricetta*, immettete *torta*, quindi immettete *ricetta* nel **[!UICONTROL keyword]** campo.
+* Quando si immettono le parole chiave, Livefyre utilizza automaticamente l&#39;operatore booleano **OR** per le singole parole. Ad esempio, per cercare post con la parola *torta* o *ricetta*, immettete *torta*, quindi immettete *recipe* nel campo **[!UICONTROL keyword]**.
 
-* Potete cercare frasi esatte racchiudendo tra virgolette il testo esatto della frase. Ad esempio, per cercare la frase esatta *torta ricetta*, immettere *"torta ricetta"* nel **[!UICONTROL keyword]** campo.
+* Potete cercare frasi esatte racchiudendo tra virgolette il testo esatto della frase. Ad esempio, per cercare la frase esatta *torta recipe*, immettere *&quot;torta recipe&quot;* nel campo **[!UICONTROL keyword]**.
 
-* È possibile combinare le ricerche di frasi booleane e esatte in un'unica regola di flusso. Ad esempio, potete cercare *torta*, *ricetta* e *"torta"* immettendo ciascuna frase uno alla volta.
+* È possibile combinare le ricerche di frasi booleane e esatte in un&#39;unica regola di flusso. Ad esempio, è possibile cercare *torta*, *ricetta* e *&quot;torta recipe&quot;* inserendo ciascuna frase uno alla volta.
 
 **[!UICONTROL Additional Filters]**:
 
 * **[!UICONTROL Media]**. Selezionate una delle seguenti opzioni:
 
    * **[!UICONTROL All Content.]** Consente qualsiasi contenuto.
-   * **[!UICONTROL Media Required.]** Consente solo il contenuto con immagini e video. (Per i contenuti Instagram e Facebook, potete specificare **[!UICONTROL Photos]** o **[!UICONTROL Videos]** solo).
+   * **[!UICONTROL Media Required.]** Consente solo il contenuto con immagini e video. (Per i contenuti Instagram e Facebook, potete specificare solo **[!UICONTROL Photos]** o **[!UICONTROL Videos]**).
 
-* **[!UICONTROL Language]**. Scegliete la lingua in cui effettuare la ricerca. L'inglese è la lingua predefinita.
-* **[!UICONTROL Smart Tags]**. Scegliete i tag da utilizzare per identificare il contenuto. Livefyre utilizza la tecnologia per la visione computerizzata per identificare foto e video con smart tag specifici per rendere la ricerca più precisa. Utilizzate il **[!UICONTROL ANY]** modificatore per filtrare il contenuto nel flusso utilizzando qualsiasi tag o **[!UICONTROL ALL]** modificatore per filtrare il contenuto nel flusso che utilizza tutti i tag. Usate il **[!UICONTROL Image contains none of these smart tags]** campo per inserire i tag per le foto che contengono il contenuto che non desiderate inserire nel flusso. Questa opzione non funziona per il contenuto di testo.
+* **[!UICONTROL Language]**. Scegliete la lingua in cui effettuare la ricerca. L&#39;inglese è la lingua predefinita.
+* **[!UICONTROL Smart Tags]**. Scegliete i tag da utilizzare per identificare il contenuto. Livefyre utilizza la tecnologia per la visione computerizzata per identificare foto e video con smart tag specifici per rendere la ricerca più precisa. Utilizzate il modificatore **[!UICONTROL ANY]** per filtrare il contenuto nel flusso utilizzando qualsiasi tag o il modificatore **[!UICONTROL ALL]** per filtrare il contenuto nel flusso che utilizza tutti i tag. Utilizzate il campo **[!UICONTROL Image contains none of these smart tags]** per inserire i tag per le foto che contengono il contenuto che non desiderate inserire nel flusso. Questa opzione non funziona per il contenuto di testo.
 
 * **[!UICONTROL Products]**. Aggiungi tag di prodotto per far corrispondere la regola di flusso ai prodotti del catalogo di prodotti.
 * **[!UICONTROL Premoderate]**. Selezionate una delle seguenti opzioni:
