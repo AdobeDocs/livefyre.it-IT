@@ -7,6 +7,9 @@ title: Funzioni varie
 uuid: 76ac2102-622d-48d3-8b1d-6ca6c90c806a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Livefyre offre funzioni aggiuntive per il tracciamento dei dati dai visitatori d
 
 ## Tendenze contenuto flusso {#section_w5y_kx4_h1b}
 
-Gli utenti finali possono visualizzare un elenco delle raccolte più attive all'interno di un sito.
+Gli utenti finali possono visualizzare un elenco delle raccolte più attive all&#39;interno di un sito.
 
 App che utilizzano questa funzione:
 
