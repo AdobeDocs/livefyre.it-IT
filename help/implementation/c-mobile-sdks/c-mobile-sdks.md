@@ -7,6 +7,9 @@ title: Kit di sviluppo software per dispositivi mobili (Mobile SDK)
 uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 5%
 
 ---
 
@@ -27,9 +30,9 @@ I clienti che aprono una pagina Web su un dispositivo mobile ricevono automatica
 
 >[!NOTE]
 >
->Quando si utilizza un'app Livefyre in una visualizzazione Web Android, il parametro Android [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) deve essere impostato su true. Se localStorage non è abilitato, Livefyre non sarà in grado di registrare un utente nell'app Livefyre.
+>Quando si utilizza un&#39;app Livefyre in una visualizzazione Web Android, il parametro Android [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) deve essere impostato su true. Se localStorage non è abilitato, Livefyre non sarà in grado di accedere a un utente nell&#39;app Livefyre.
 
-Per ottimizzare l'app per dispositivi mobili, Livefyre limita le funzioni Commenti, Blog dal vivo e App chat impostate in modo da includere:
+Per ottimizzare l&#39;app per dispositivi mobili, Livefyre limita le funzioni Commenti, Blog dal vivo e App chat impostate in modo da includere:
 
 * Post
 * Modificare      
@@ -46,9 +49,9 @@ Per ottimizzare l'app per dispositivi mobili, Livefyre limita le funzioni Commen
 
 Nelle app Web per dispositivi mobili, facendo clic sul nome di un autore si aprono le informazioni del carrello in una nuova pagina.
 
-## Livefyre Android SDK o iOS SDK {#section_zdz_spb_11b}
+## SDK per Android Livefyre o iOS {#section_zdz_spb_11b}
 
-Livefyre fornisce anche due SDK per dispositivi mobili: un SDK iOS e un SDK Android. Questi SDK sono racchiusi intorno ai nostri endpoint HTTP, creati per fornire un metodo più semplice per inviare e ricevere dati. Con questi SDK non viene fornita alcuna interfaccia, per una maggiore flessibilità nella visualizzazione e nell'utilizzo del contenuto all'interno dell'app mobile.
+Livefyre fornisce anche due SDK per dispositivi mobili: un SDK iOS e un SDK Android. Questi SDK sono racchiusi intorno ai nostri endpoint HTTP, creati per fornire un metodo più semplice per inviare e ricevere i dati. Con questi SDK non viene fornita alcuna interfaccia, per una maggiore flessibilità nella visualizzazione e nell&#39;utilizzo del contenuto all&#39;interno dell&#39;app mobile.
 
 Gli SDK per Android e iOS supportano le seguenti funzionalità per Commenti, Blog dal vivo e Chat:
 
@@ -58,9 +61,9 @@ Gli SDK per Android e iOS supportano le seguenti funzionalità per Commenti, Blo
 
 ## API HTTP {#section_yqb_qpb_11b}
 
-Le API HTTP sono il gruppo di endpoint che consente di creare conversazioni e contenuti sulla piattaforma Livefyre. Inoltre, alimenta tutti i flussi di Livefyre. Sebbene questa soluzione richieda più tempo per lo sviluppo da parte del team di progettazione, offre maggiore flessibilità quando si utilizza la suite di prodotti Livefyre e consente l'integrazione mobile nativa.
+Le API HTTP sono il gruppo di endpoint che consente di creare conversazioni e contenuti sulla piattaforma Livefyre. Inoltre, alimenta tutti i flussi di Livefyre. Sebbene questa soluzione richieda più tempo per lo sviluppo da parte del team di progettazione, offre maggiore flessibilità quando si utilizza la suite di prodotti Livefyre e consente l&#39;integrazione mobile nativa.
 
 >[!IMPORTANT]
 >
->**Non** create token di autenticazione utente all'interno del client mobile, perché ciò richiederebbe l'esposizione della chiave di rete segreta Livefyre all'interno di un'app non protetta. Per una soluzione più solida e sicura, consultate la sezione Token di autenticazione utente.
+>**Non** create token di autenticazione utente all&#39;interno del client mobile, perché ciò richiederebbe l&#39;esposizione della chiave di rete segreta Livefyre all&#39;interno di un&#39;app non protetta. Per una soluzione più solida e sicura, consultate la sezione Token di autenticazione utente.
 
