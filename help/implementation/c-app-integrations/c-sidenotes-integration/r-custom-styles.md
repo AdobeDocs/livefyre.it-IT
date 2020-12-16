@@ -6,15 +6,18 @@ title: Note Stili Personalizzati
 uuid: 0f6d7ad6-1f6a-4ed2-b86a-0d03782e591e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 0%
 
 ---
 
 
-# Note Stili Personalizzati{#sidenotes-custom-styles}
+# Note Stili personalizzati{#sidenotes-custom-styles}
 
 Gli stili personalizzati vengono applicati attraverso un oggetto inserito nel costruttore Sidenotes.
 
-Le "chiavi" sono chiavi oggetto che rappresentano elementi DOM, mentre le "proprietà" sono supportate per la chiave specifica. Ad esempio, per personalizzare lo stile del bloccoBtn (che è il pulsante che avvia il puntatore Sidenotes), si crea un oggetto come:
+Le &quot;chiavi&quot; sono chiavi oggetto che rappresentano elementi DOM, mentre le &quot;proprietà&quot; sono supportate per la chiave specifica. Ad esempio, per personalizzare lo stile del bloccoBtn (che è il pulsante che avvia il puntatore Sidenotes), si crea un oggetto come:
 
 ```
 var styles = { 
@@ -31,27 +34,27 @@ new Livefyre.Sidenotes({
 
 | **Chiave** | **Proprietà** | Descrizione |
 |---|---|---|
-| `anonymousAvatar` | "height", "width" | Immagine avatar anonima, a sinistra dell’editor dell’area di testo. |
-| `blockBtn` | "fontColor", "fontSize", "left", "position", "right", "top" | L'icona "Launcher" posizionata accanto agli elementi specificati come barra laterale. |
-| `blockBtnActive` | "fontColor", "fontSize", "left", "position", "right", "top" | Icona di avvio quando si trova in uno stato attivo. |
-| `commentAvatar` | "height", "width" | Immagine avatar a sinistra delle note di livello superiore. |
-| `commentBody` | "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight" | Corpo del testo delle note concatenate. |
-| `commentDisplayName` | "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight" | Nome visualizzato dell’utente che ha lasciato una nota. |
-| `commentDownvote` | "fontColor", "fontSize" | Pulsante di voto su una nota. |
-| `commentReplyExpand` | "backgroundColor", "borderColor", "borderWidth", "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight" | Pulsante per espandere i thread con un numero elevato di risposte. |
-| `commentTags` | "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight" | Tag relativi a un utente su una nota. |
-| `commentUpvote` | "fontColor", "fontSize" | Pulsante di voto su una nota. |
-| `editorTextarea` | "height", "width", "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight" | Casella di immissione area di testo per lasciare le note. |
-| `mediaBlockBtn` | "fontColor", "fontSize", "left", "position", "right", "top" | Icona del modulo di avvio multimediale quando si trova sopra un elemento multimediale (img, video). |
-| `mediaBlockBtnActive` | "fontColor", "fontSize", "left", "position", "right", "top" | Icona del modulo di avvio multimediale in stato attivo. |
-| `numSidenotes` | "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight", "backgroundColor", "borderColor", "borderWidth", "height", "width" | Fate clic sul pulsante che mostra il numero di note nella raccolta. |
-| `numSidenotesPopover` | "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight", "backgroundColor", "borderColor", "borderWidth", "height", "width" | Puntatore con una breve spiegazione dei punti di interesse per l’utente. |
-| `popover` | "backgroundColor" | Profilo visualizzato quando viene richiamata l'icona di avvio. |
-| `popoverArrowLeft` | "backgroundImage", "height", "left", "right", "top", "width" | Elemento freccia sinistra sul puntatore che punta all'elemento DOM contenente un'icona di avvio. |
-| `popoverArrorRight` | "backgroundImage", "height", "left", "right", "top", "width" | Elemento freccia destra sul puntatore che punta all'elemento DOM contenente un'icona di avvio. |
-| `popoverArrowTop` | "backgroundImage", "height", "left", "right", "top", "width" | Elemento freccia in alto sul puntatore che punta all'elemento DOM contenente un'icona di avvio. |
-| `replyAvatar` | "height", "width" | Immagine avatar a sinistra delle note sul livello di risposta. |
-| `streamPoweredBy` | "backgroundColor", "borderColor", "lineHeight" | Piè di pagina "Alimentato da" sul puntatore. |
-| `streamQueueButton` | "backgroundColor", "borderColor", "borderWidth", "fontColor", "fontFamily", "fontSize", "fontWeight", "lineHeight" | Pulsante per indicare quando le nuove note scorrono in un contenitore aperto. |
-| `userAvatar` | "height", "width" | Immagine avatar dell’utente autenticata, a sinistra dell’editor dell’area di testo. |
+| `anonymousAvatar` | &quot;height&quot;, &quot;width&quot; | Immagine avatar anonima, a sinistra dell’editor dell’area di testo. |
+| `blockBtn` | &quot;fontColor&quot;, &quot;fontSize&quot;, &quot;left&quot;, &quot;position&quot;, &quot;right&quot;, &quot;top&quot; | L&#39;icona &quot;Launcher&quot; posizionata accanto agli elementi specificati come barra laterale. |
+| `blockBtnActive` | &quot;fontColor&quot;, &quot;fontSize&quot;, &quot;left&quot;, &quot;position&quot;, &quot;right&quot;, &quot;top&quot; | Icona di avvio quando si trova in uno stato attivo. |
+| `commentAvatar` | &quot;height&quot;, &quot;width&quot; | Immagine avatar a sinistra delle note di livello superiore. |
+| `commentBody` | &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot; | Corpo del testo delle note concatenate. |
+| `commentDisplayName` | &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot; | Nome visualizzato dell’utente che ha lasciato una nota. |
+| `commentDownvote` | &quot;fontColor&quot;, &quot;fontSize&quot; | Pulsante di voto su una nota. |
+| `commentReplyExpand` | &quot;backgroundColor&quot;, &quot;borderColor&quot;, &quot;borderWidth&quot;, &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot; | Pulsante per espandere i thread con un numero elevato di risposte. |
+| `commentTags` | &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot; | Tag relativi a un utente su una nota. |
+| `commentUpvote` | &quot;fontColor&quot;, &quot;fontSize&quot; | Pulsante di voto su una nota. |
+| `editorTextarea` | &quot;height&quot;, &quot;width&quot;, &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot; | Casella di immissione area di testo per lasciare le note. |
+| `mediaBlockBtn` | &quot;fontColor&quot;, &quot;fontSize&quot;, &quot;left&quot;, &quot;position&quot;, &quot;right&quot;, &quot;top&quot; | Icona del modulo di avvio multimediale quando si trova sopra un elemento multimediale (img, video). |
+| `mediaBlockBtnActive` | &quot;fontColor&quot;, &quot;fontSize&quot;, &quot;left&quot;, &quot;position&quot;, &quot;right&quot;, &quot;top&quot; | Icona del modulo di avvio multimediale in stato attivo. |
+| `numSidenotes` | &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot;, &quot;backgroundColor&quot;, &quot;borderColor&quot;, &quot;borderWidth&quot;, &quot;height&quot;, &quot;width&quot; | Fate clic sul pulsante che mostra il numero di note nella raccolta. |
+| `numSidenotesPopover` | &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot;, &quot;backgroundColor&quot;, &quot;borderColor&quot;, &quot;borderWidth&quot;, &quot;height&quot;, &quot;width&quot; | Puntatore con una breve spiegazione dei punti di interesse per l’utente. |
+| `popover` | &quot;backgroundColor&quot; | Profilo visualizzato quando viene richiamata l&#39;icona di avvio. |
+| `popoverArrowLeft` | &quot;backgroundImage&quot;, &quot;height&quot;, &quot;left&quot;, &quot;right&quot;, &quot;top&quot;, &quot;width&quot; | Elemento freccia sinistra sul puntatore che punta all&#39;elemento DOM contenente un&#39;icona di avvio. |
+| `popoverArrorRight` | &quot;backgroundImage&quot;, &quot;height&quot;, &quot;left&quot;, &quot;right&quot;, &quot;top&quot;, &quot;width&quot; | Elemento freccia destra sul puntatore che punta all&#39;elemento DOM contenente un&#39;icona di avvio. |
+| `popoverArrowTop` | &quot;backgroundImage&quot;, &quot;height&quot;, &quot;left&quot;, &quot;right&quot;, &quot;top&quot;, &quot;width&quot; | Elemento freccia in alto sul puntatore che punta all&#39;elemento DOM contenente un&#39;icona di avvio. |
+| `replyAvatar` | &quot;height&quot;, &quot;width&quot; | Immagine avatar a sinistra delle note sul livello di risposta. |
+| `streamPoweredBy` | &quot;backgroundColor&quot;, &quot;borderColor&quot;, &quot;lineHeight&quot; | Piè di pagina &quot;Alimentato da&quot; sul puntatore. |
+| `streamQueueButton` | &quot;backgroundColor&quot;, &quot;borderColor&quot;, &quot;borderWidth&quot;, &quot;fontColor&quot;, &quot;fontFamily&quot;, &quot;fontSize&quot;, &quot;fontWeight&quot;, &quot;lineHeight&quot; | Pulsante per indicare quando le nuove note scorrono in un contenitore aperto. |
+| `userAvatar` | &quot;height&quot;, &quot;width&quot; | Immagine avatar dell’utente autenticata, a sinistra dell’editor dell’area di testo. |
 
