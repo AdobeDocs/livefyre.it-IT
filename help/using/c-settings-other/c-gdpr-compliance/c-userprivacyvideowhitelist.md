@@ -22,10 +22,10 @@ Se utilizzate video e lettori personalizzati come parte dei video visualizzati i
 >
 >Utilizzate percorsi specifici per garantire che siano elencati solo i video sicuri. Se inserite un percorso ampio (ad esempio, sampledomain.com), potete consentire l’utilizzo di elenchi non sicuri per i video.
 
-* Aggiungi `userPrivacyVideoWhitelist` dopo `userPrivacyOptOut`. Potete aggiungere tutti i flag di privacy di Livefyre contemporaneamente come parte di un oggetto Livefyre.
+* Aggiungere `userPrivacyVideoWhitelist` dopo `userPrivacyOptOut`. Potete aggiungere tutti i flag di privacy di Livefyre contemporaneamente come parte di un oggetto Livefyre.
 * `userPrivacyVideoWhitelist` si applica solo ai contenuti non incorporati dai social media.
 
-Nell&#39;esempio seguente, i video visualizzati in App con il `sampledomain.com/cdn/videos` percorso sono inclusi nell&#39;elenco:
+Nell&#39;esempio seguente, i video visualizzati in App con il percorso `sampledomain.com/cdn/videos` sono inclusi nell&#39;elenco:
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]
