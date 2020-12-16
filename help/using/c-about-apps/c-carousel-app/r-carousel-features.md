@@ -7,13 +7,16 @@ title: Funzioni carosello
 uuid: c5c95675-d7ca-4677-b293-16de5ccf0022
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
 
 # Funzioni carosello {#carousel-features}
 
-L'app carosello offre queste funzionalità per il sito.
+L&#39;app carosello offre queste funzionalità per il sito.
 
 In un carosello sono disponibili le seguenti funzioni:
 
