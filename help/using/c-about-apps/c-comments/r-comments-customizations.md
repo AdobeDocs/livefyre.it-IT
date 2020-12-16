@@ -7,6 +7,9 @@ title: Personalizzazioni commenti
 uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Se attivato, i post verranno visualizzati all'interno di una casella circostante e il colore di sfondo dettato dalla **[!UICONTROL Theme]** selezione applicata.
+   Se attivato, i post verranno visualizzati all&#39;interno di una casella circostante e verrà applicato il colore di sfondo dettato dalla selezione **[!UICONTROL Theme]**.
 
 * **[!UICONTROL Expand media]**
 
-   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disabilitato, il supporto viene visualizzato solo come collegamenti.
+   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disabilitato, i contenuti multimediali vengono visualizzati solo come collegamenti.
 
 * **[!UICONTROL Number of listeners]**
 
@@ -49,7 +52,7 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Number of replies to load]**
 
-   Numero di risposte a un commento da caricare. Eventuali risposte aggiuntive a un commento dopo questo numero verranno ridotte, con un contatore che visualizzerà il numero di risposte.
+   Il numero di risposte a un commento da caricare. Eventuali risposte aggiuntive a un commento dopo questo numero verranno ridotte, con un contatore che visualizzerà il numero di risposte.
 
 * **[!UICONTROL Users may upload photos]**
 
@@ -57,11 +60,11 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Users may share posts]**
 
-   Se gli utenti abilitati possono condividere i post. Se attivato, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull'abilitazione della condivisione, consultate Impostazioni &gt; Impostazioni di integrazione &gt; Condivisione social network.
+   Se gli utenti abilitati possono condividere i post. Se attivato, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni > Impostazioni di integrazione > Condivisione social network.
 
 * **[!UICONTROL Featured content at top of stream]**
 
-   Quando abilitata, il contenuto disponibile viene visualizzato sopra l'editor nell'app.
+   Quando abilitata, il contenuto disponibile viene visualizzato sopra l&#39;editor nell&#39;app.
 
 * **[!UICONTROL High velocity comment queuing]**
 
@@ -69,11 +72,11 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Most liked comment sort]**
 
-   Se abilitata, consente agli utenti di ordinare i dati per **[!UICONTROL Top Comments]** o **[!UICONTROL Hot Threads]** (in aggiunta alle opzioni di ordinamento **[!UICONTROL Newest]** e **[!UICONTROL Oldest]** ordinamento predefinite).
+   Se attivato, consente agli utenti di ordinare in base alle opzioni di ordinamento **[!UICONTROL Top Comments]** o **[!UICONTROL Hot Threads]** (oltre alle opzioni di ordinamento **[!UICONTROL Newest]** e **[!UICONTROL Oldest]** predefinite).
 
 È possibile personalizzare i commenti utilizzando:
 
-* **[!UICONTROL Style]** e **[!UICONTROL Config]** le opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sugli standard **[!UICONTROL Style]** e sulle **[!UICONTROL Config]** opzioni di tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
 
 * **[!UICONTROL Integration tools]**. Per ulteriori informazioni sulla personalizzazione dei commenti mediante gli strumenti di integrazione, vedere Commenti.
 
