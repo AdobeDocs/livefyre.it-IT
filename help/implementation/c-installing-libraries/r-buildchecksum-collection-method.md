@@ -7,6 +7,9 @@ title: Metodo di raccolta buildChecksum
 uuid: 692e8e13-6218-4e38-abc8-7cf49bebde9c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +54,7 @@ Output campione:
 6e2e4faf7b95f896260fe695eafb34ba 
 ```
 
-## Esempio di Python {#section_dwg_gds_rz}
+## Esempio Python {#section_dwg_gds_rz}
 
 ```
 collection.build_checksum() 
