@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# User Roles and Permissions{#user-roles-and-permissions}
+# Ruoli utente e autorizzazioni{#user-roles-and-permissions}
 
 Livefyre offre diversi tipi di utenti con diversi livelli di autorizzazioni.
 
@@ -45,7 +45,7 @@ I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Stud
    * Visualizzazione e modifica dei dettagli dell&#39;account utente finale
    * Divieto o uso consentito degli utenti finali
 
-* **Data Manager:** concede l&#39;accesso per l&#39;utilizzo del dashboard di Livefyre Analytics.
+* **Data Manager:** concede l&#39;accesso per utilizzare il dashboard di Livefyre Analytics.
 * **App Manager**
    * Creazione e modifica di app
    * Creazione e modifica di flussi che puntano ad app
