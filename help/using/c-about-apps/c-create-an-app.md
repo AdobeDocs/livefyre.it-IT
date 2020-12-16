@@ -7,128 +7,131 @@ title: Creare un'app
 uuid: 8c2c07fb-a951-47d9-b498-4c487ee83a18
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 0%
 
 ---
 
 
-# Creare un'app {#create-an-app}
+# Creare un&#39;app {#create-an-app}
 
-Per aggiungere un'app al sito, dovete prima creare un'app in Livefyre Studio.
+Per aggiungere un&#39;app al sito, dovete prima creare un&#39;app in Livefyre Studio.
 
 Per creare una nuova app:
 
-1. Fai clic **[!UICONTROL +New App]** dalla pagina App, quindi seleziona un tipo di app dal menu a discesa.
-1. Viene visualizzata la **[!UICONTROL New App]** finestra di dialogo. Immetti un **[!UICONTROL App Title]**, seleziona un **[!UICONTROL Site]** oggetto e fai clic **[!UICONTROL Create]** per aprire la pagina Panoramica app.
+1. Fate clic su **[!UICONTROL +New App]** nella pagina App, quindi selezionate un tipo di app dal menu a discesa.
+1. Viene visualizzata la finestra di dialogo **[!UICONTROL New App]**. Immettete un **[!UICONTROL App Title]**, selezionate un **[!UICONTROL Site]** e fate clic su **[!UICONTROL Create]** per aprire la pagina Panoramica app.
 
 La pagina Riepilogo app include 4 schede:
 
-* **[!UICONTROL App Summary]**: fornisce una panoramica del contenuto e dello stato dell'app e fornisce strumenti per accedere all'app sul suo sito e generare il codice da incorporare.
-* **[!UICONTROL Designer]**: consente di selezionare le opzioni di progettazione per l'app, inclusi font, combinazioni di colori e opzioni di configurazione specifiche per l'app.
-* **[!UICONTROL Streams]**: elenca tutte le origini di flusso per il contenuto dell'app. Fate clic sul titolo del flusso per aprire la pagina Dettagli flusso, dalla quale può essere modificato.
-* **[!UICONTROL Settings]**: consente di selezionare le impostazioni specifiche dell'app, comprese le regole per l'aggiunta di contenuto all'app, e i tipi di contenuto da visualizzare. Fate clic sulla **[!UICONTROL Settings]** scheda per ignorare le impostazioni di rete e del sito per l'app.
+* **[!UICONTROL App Summary]**: fornisce una panoramica del contenuto e dello stato dell&#39;app e fornisce strumenti per accedere all&#39;app sul suo sito e generare il codice da incorporare.
+* **[!UICONTROL Designer]**: consente di selezionare le opzioni di progettazione per l&#39;app, inclusi font, combinazioni di colori e opzioni di configurazione specifiche per l&#39;app.
+* **[!UICONTROL Streams]**: elenca tutte le origini di flusso per il contenuto dell&#39;app. Fate clic sul titolo del flusso per aprire la pagina Dettagli flusso, dalla quale può essere modificato.
+* **[!UICONTROL Settings]**: consente di selezionare le impostazioni specifiche dell&#39;app, comprese le regole per l&#39;aggiunta di contenuto all&#39;app, e i tipi di contenuto da visualizzare. Fate clic sulla scheda **[!UICONTROL Settings]** per ignorare le impostazioni di rete e sito per l&#39;app.
 
 ## Elenco app {#section_eyp_ykt_bbb}
 
-La pagina dell'elenco App consente di accedere a tutte le app Livefyre esistenti.
+La pagina dell&#39;elenco App consente di accedere a tutte le app Livefyre esistenti.
 
-Nella pagina dell'elenco App sono visualizzate le informazioni seguenti:
+Nella pagina dell&#39;elenco App sono visualizzate le informazioni seguenti:
 
-* **[!UICONTROL Title]**: Elenca il titolo dell'app e include un'icona che indica il tipo di app.
-* **[!UICONTROL Site]**: Elenca il percorso dell'app, per sito.
-* **[!UICONTROL Content Count]**: Mostra il numero di parti di contenuto pubblicate nell'app.
-* **[!UICONTROL Date Modified]**: Elenca l'ultima volta che l'app è stata modificata in App Designer.
-* **[!UICONTROL Embed Code (</>)]**: Click the icon to generate the embed code for your App.
+* **[!UICONTROL Title]**: Elenca il titolo dell&#39;app e include un&#39;icona che indica il tipo di app.
+* **[!UICONTROL Site]**: Elenca il percorso dell&#39;app, per sito.
+* **[!UICONTROL Content Count]**: Mostra il numero di parti di contenuto pubblicate nell&#39;app.
+* **[!UICONTROL Date Modified]**: Elenca l&#39;ultima volta che l&#39;app è stata modificata in App Designer.
+* **[!UICONTROL Embed Code (</>)]**: Fate clic sull&#39;icona per generare il codice da incorporare per l&#39;app.
 
 ## Personalizzazione app {#section_lvj_xlt_bbb}
 
-You can use the App Designer tab to select  and  options to customize your Apps.**[!UICONTROL Style]****[!UICONTROL Configuration]**
+È possibile utilizzare la scheda App Designer per selezionare le opzioni **[!UICONTROL Style]** e **[!UICONTROL Configuration]** per personalizzare le app.
 
-**[!UICONTROL Style]** Options are consistent across all App types; **[!UICONTROL Configuration]** Options vary by App. The bottom of the  and  pane lists the Livefyre App version for your App.**[!UICONTROL Style]****[!UICONTROL Configuration]**
+**[!UICONTROL Style]** Le opzioni sono coerenti tra tutti i tipi di app;  **[!UICONTROL Configuration]** Le opzioni variano in base all&#39;app. Nella parte inferiore del riquadro **[!UICONTROL Style]** e **[!UICONTROL Configuration]** è elencata la versione dell&#39;app Livefyre per l&#39;app.
 
-**Select Style Options**
+**Selezionare le opzioni di stile**
 
-Style Apps to fit your site’s branding. Use the **[!UICONTROL Style]** options to select the App’s color and font styles.
+Applicare stili alle app per adattarle al marchio del sito. Utilizzate le opzioni **[!UICONTROL Style]** per selezionare il colore e gli stili di font dell&#39;app.
 
-* **[!UICONTROL Theme]**. Select **[!UICONTROL Light]** or **[!UICONTROL Dark]** to define the background color for your displayed content. Le modifiche apportate a questa impostazione si rifletteranno immediatamente nell’anteprima a destra. This setting controls background, content text, user handle, timestamp, share button, and social icon color selection for the App.
+* **[!UICONTROL Theme]**. Selezionare **[!UICONTROL Light]** o **[!UICONTROL Dark]** per definire il colore di sfondo per il contenuto visualizzato. Le modifiche apportate a questa impostazione si rifletteranno immediatamente nell’anteprima a destra. Questa impostazione controlla lo sfondo, il testo del contenuto, la maniglia dell&#39;utente, la marca temporale, il pulsante di condivisione e la selezione del colore dell&#39;icona social per l&#39;app.
 
-* **[!UICONTROL Brand color]**. Select a color for your App. This color will be used for hashtags, URLs, usernames, @mentions, bar charts, and other App-specific components, as displayed in the preview pane to the right.
-* **[!UICONTROL Font family]**. Select a font for user generated content in your App. Selecting Georgia or Times New Roman will assign that font to content, and Helvetica Neue to usernames and display names. Selecting Helvetica, Verdana, or Trebuchet will assign those fonts to content, usernames, and display names.
-* **[!UICONTROL Font size]**. Selezionare una dimensione font predefinita. Questa impostazione interesserà tutto il contenuto generato dall'utente e tutti i titoli visualizzati nell'app.
+* **[!UICONTROL Brand color]**. Seleziona un colore per l&#39;app. Questo colore verrà utilizzato per hashtag, URL, nomi utente, @menzioni, grafici a barre e altri componenti specifici per l&#39;app, come visualizzato nel riquadro di anteprima a destra.
+* **[!UICONTROL Font family]**. Seleziona un font per il contenuto generato dall&#39;utente nell&#39;app. Selezionando Georgia o Times New Roman, il font verrà assegnato al contenuto e Helvetica Neue ai nomi utente e ai nomi visualizzati. Selezionando Helvetica, Verdana o Trebuchet tali font verranno assegnati a contenuti, nomi utente e nomi visualizzati.
+* **[!UICONTROL Font size]**. Selezionare una dimensione font predefinita. Questa impostazione interesserà tutto il contenuto generato dall&#39;utente e tutti i titoli visualizzati nell&#39;app.
 
 ## Aggiornamento delle app {#section_iwb_4bz_vcb}
 
-Se esiste una versione più recente dell'app, viene visualizzato un **[!UICONTROL Update]** pulsante.
+Se esiste una versione più recente dell&#39;app, viene visualizzato un pulsante **[!UICONTROL Update]**.
 
-Fate clic sul pulsante per effettuare l'aggiornamento alla versione più recente. Aggiornate l'app per utilizzare tutti i miglioramenti delle funzioni e le correzioni di bug disponibili. Dopo l'aggiornamento, puoi visualizzare in anteprima le modifiche eventualmente apportate all'app, quindi accettare o rifiutare l'aggiornamento.
+Fate clic sul pulsante per effettuare l&#39;aggiornamento alla versione più recente. Aggiornate l&#39;app per utilizzare tutti i miglioramenti delle funzioni e le correzioni di bug disponibili. Dopo l&#39;aggiornamento, puoi visualizzare in anteprima le modifiche eventualmente apportate all&#39;app, quindi accettare o rifiutare l&#39;aggiornamento.
 
-## Aggiunta di un pulsante di invito all'azione a un'app {#section_cpf_cmt_bbb}
+## Aggiunta di un pulsante di invito all&#39;azione a un&#39;app {#section_cpf_cmt_bbb}
 
 Aggiungi un pulsante Invito all’azione per guidare la conversione dall’UGC.
 
-Per aggiungere un pulsante Invito all'azione a un'app:
+Per aggiungere un pulsante Invito all&#39;azione a un&#39;app:
 
-1. Create un'app Mosaic o Media Wall.
+1. Create un&#39;app Mosaic o Media Wall.
 
-   Per informazioni sulle personalizzazioni disponibili in una bacheca Mosaico o Media, consultate Personalizzazioni [Mosaiche o Personalizzazioni](/help/using/c-about-apps/c-mosaic-app/c-mosaic-customizations.md) Media Wall [](../c-about-apps/c-media-wall-app/r-media-wall-customizations.md#r_media_wall_customizations).
-1. Aprire Designer per l'app.
-1. Scorrere fino alla **[!UICONTROL Call-to-Action Button]** sezione di Designer.
-1. Passa **[!UICONTROL Call-to-Action Button]** a **[!UICONTROL on]**.
+   Per informazioni sulle personalizzazioni disponibili in una bacheca Mosaico o Multimedia, vedere [Personalizzazioni Mosaiche](/help/using/c-about-apps/c-mosaic-app/c-mosaic-customizations.md) o [Personalizzazioni di Media Wall](../c-about-apps/c-media-wall-app/r-media-wall-customizations.md#r_media_wall_customizations).
+1. Aprire Designer per l&#39;app.
+1. Scorrere fino alla sezione **[!UICONTROL Call-to-Action Button]** in Designer.
+1. Passare da **[!UICONTROL Call-to-Action Button]** a **[!UICONTROL on]**.
 
 1. Configurare le opzioni del pulsante Invito all’azione.
 
 ## Anteprime app {#section_eyy_4mt_bbb}
 
-App Designer consente di visualizzare l'anteprima dell'app in più formati di distribuzione e di visualizzare i dati personali o di esempio.
+App Designer consente di visualizzare l&#39;anteprima dell&#39;app in più formati di distribuzione e di visualizzare i dati personali o di esempio.
 
-Selezionate **[!UICONTROL Exit Preview]** per tornare alla modalità di progettazione.
+Selezionare **[!UICONTROL Exit Preview]** per tornare alla modalità di progettazione.
 
 La modalità Anteprima offre le seguenti opzioni:
 
-* **[!UICONTROL Preview Options]**: Utilizzate il menu a discesa per selezionare un formato di anteprima (mobile, tablet o desktop) e se visualizzare **[!UICONTROL Sample Data]** o meno i dati Stream dell'app.
+* **[!UICONTROL Preview Options]**: Utilizzate il menu a discesa per selezionare un formato di anteprima (mobile, tablet o desktop) e se visualizzare  **[!UICONTROL Sample Data]** o meno i dati Stream dell&#39;app.
 
 * 
 
 >[!NOTE]
 >
->Se deselezionate **[!UICONTROL Sample Data]** e per l'app non è attivato alcun flusso, non viene visualizzato alcun contenuto in modalità Anteprima.
+>Se deselezionate **[!UICONTROL Sample Data]** e non è abilitato alcun flusso per l&#39;app, non viene visualizzato alcun contenuto in modalità Anteprima.
 
-* **[!UICONTROL Share]**: Apre l'app in una nuova scheda del browser e genera un URL che può essere utilizzato per consentire ad amici, colleghi o utenti non di Studio di rivedere l'app e testarla in browser e dispositivi diversi.
+* **[!UICONTROL Share]**: Apre l&#39;app in una nuova scheda del browser e genera un URL che può essere utilizzato per consentire ad amici, colleghi o utenti non di Studio di rivedere l&#39;app e testarla in browser e dispositivi diversi.
 
    >[!NOTE]
    >
-   >Eventuali contenuti pubblicati in una versione di revisione dell'app verranno aggiunti all'app. Se non desiderate che questo contenuto venga visualizzato nell'app pubblicata, dovete eliminarlo prima di fare clic su **Pubblica**.
+   >Eventuali contenuti pubblicati in una versione di revisione dell&#39;app verranno aggiunti all&#39;app. Se non desiderate che questo contenuto venga visualizzato nell&#39;app pubblicata, dovete eliminarlo prima di fare clic su **Pubblica**.
 
 * **[!UICONTROL Exit Preview]**: Consente di tornare alla modalità di modifica.
 
 >[!NOTE]
 >
->La modalità Anteprima è completamente interattiva e consente di verificare l'esperienza utente per l'app. Se abilitate questa opzione, **[!UICONTROL Allow user posts]** gli utenti con il collegamento di anteprima possono fare clic sul **[!UICONTROL What’s on your mind]** pulsante e pubblicare il contenuto nella versione di prova. Studio elenca il contenuto come pubblicato.
+>La modalità Anteprima è completamente interattiva e consente di verificare l&#39;esperienza utente per l&#39;app. Se abilitate **[!UICONTROL Allow user posts]**, gli utenti con collegamento di anteprima possono fare clic sul pulsante **[!UICONTROL What’s on your mind]** e pubblicare il contenuto nella versione di prova. Studio elenca il contenuto come pubblicato.
 
-## App Publishing {#section_df1_smt_bbb}
+## Pubblicazione app {#section_df1_smt_bbb}
 
-App Designer automatically saves your App after you make a change. You can use  to generate an embed code, or to update any previously published versions of this App with the current version.**[!UICONTROL Publish]**
-
->[!NOTE]
->
->Clicking  generates an embed code for the App, and updates all existing instances of the App if previously published.**[!UICONTROL Publish]**
-
-## Review App History {#section_jsk_vmt_bbb}
-
-App Designer salva automaticamente l'app dopo aver apportato una modifica e genera una nuova versione per ogni modifica. You can use  to open a panel listing all versions of your App. **[!UICONTROL History]** Listed versions will show each version’s editor and its age.
-
-To review App history:
-
-1. Click on a version to select it.
-1. Refresh the preview display.
-1. Click  to clone the selected version and work from it.**[!UICONTROL Restore Version]**
-1. Click the back button in  to revert to your working draft.**[!UICONTROL Version History]**
-1. Click  to generate a URL for the preview.**[!UICONTROL Share]**
+App Designer salva automaticamente l&#39;app dopo aver apportato una modifica. Potete utilizzare **[!UICONTROL Publish]** per generare un codice da incorporare o per aggiornare le versioni pubblicate in precedenza di questa app con la versione corrente.
 
 >[!NOTE]
 >
->You can not edit an App while the  pane is open.**[!UICONTROL Version History]**
+>Facendo clic su **[!UICONTROL Publish]** si genera un codice da incorporare per l&#39;app e, se pubblicato in precedenza, vengono aggiornate tutte le istanze esistenti dell&#39;app.
 
-If another editor makes changes while your browser window is open, Livefyre issues a warning message when you try to edit the App, asking if you wish to return to your (older) draft version. In questo modo, più editor simultanei non possono ignorare accidentalmente le modifiche apportate l'uno dall'altro. Fate clic **[!UICONTROL Update to Latest]** per iniziare a lavorare dalla versione più recente. Fate clic **[!UICONTROL Overwrite]** per tornare allo stato di lavoro (precedente), incrementare il numero di versione dal più recente e continuare a lavorare.
+## Rivedi cronologia app {#section_jsk_vmt_bbb}
+
+App Designer salva automaticamente l&#39;app dopo aver apportato una modifica e genera una nuova versione per ogni modifica. Potete utilizzare **[!UICONTROL History]** per aprire un pannello che elenca tutte le versioni dell&#39;app. Le versioni elencate mostrano l’editor di ciascuna versione e la relativa età.
+
+Per esaminare la cronologia delle app:
+
+1. Fate clic su una versione per selezionarla.
+1. Aggiornare la visualizzazione dell&#39;anteprima.
+1. Fare clic su **[!UICONTROL Restore Version]** per duplicare la versione selezionata e utilizzarla.
+1. Fare clic sul pulsante Indietro in **[!UICONTROL Version History]** per ripristinare la bozza di lavoro.
+1. Fate clic su **[!UICONTROL Share]** per generare un URL per l&#39;anteprima.
+
+>[!NOTE]
+>
+>Non è possibile modificare un&#39;app mentre il riquadro **[!UICONTROL Version History]** è aperto.
+
+Se un altro editor apporta delle modifiche mentre la finestra del browser è aperta, Livefyre invia un messaggio di avviso quando tentate di modificare l&#39;app, chiedendovi se desiderate tornare alla versione bozza (precedente). In questo modo, più editor simultanei non possono ignorare accidentalmente le modifiche apportate l&#39;uno dall&#39;altro. Fare clic su **[!UICONTROL Update to Latest]** per iniziare a lavorare dalla versione più recente. Fare clic su **[!UICONTROL Overwrite]** per tornare allo stato di lavoro (precedente), incrementare il numero di versione dall&#39;ultimo e continuare a funzionare.
 
 ## Scheda Riepilogo app {#section_rxx_xmt_bbb}
 
@@ -136,39 +139,39 @@ Utilizzate la scheda Riepilogo app per gestire le informazioni per le singole ap
 
 La scheda Riepilogo app consente di:
 
-* **[!UICONTROL See on Site]**: Apre l'app sul sito.
+* **[!UICONTROL See on Site]**: Apre l&#39;app sul sito.
 * **[!UICONTROL Embed code]**: Disponibile solo per le app pubblicate, fornisce un collegamento selezionabile per generare il codice da incorporare per qualsiasi app pubblicata.
 
    >[!NOTE]
    >
-   >Utilizzate questo codice da incorporare per aggiungere sondaggi all'app Commenti o Blog in diretta. Per ulteriori informazioni, consultate Interazioni personalizzate &gt; HTML personalizzato.
+   >Utilizzate questo codice da incorporare per aggiungere sondaggi all&#39;app Commenti o Blog in diretta. Per ulteriori informazioni, consultate Interazioni personalizzate > HTML personalizzato.
 
-* **[!UICONTROL View Content]**: Apre la pagina Contenuto, in cui è elencato tutto il contenuto pubblicato nell'app.
-* **[!UICONTROL Moderate]**: Apre ModQ, elencando tutti i contenuti in attesa di moderazione per l'app.
-* **[!UICONTROL Developer Info]**: Fornisce l'ID raccolta dell'app, l'ID articolo e l'ID sito.
+* **[!UICONTROL View Content]**: Apre la pagina Contenuto, in cui è elencato tutto il contenuto pubblicato nell&#39;app.
+* **[!UICONTROL Moderate]**: Apre ModQ, elencando tutti i contenuti in attesa di moderazione per l&#39;app.
+* **[!UICONTROL Developer Info]**: Fornisce l&#39;ID raccolta dell&#39;app, l&#39;ID articolo e l&#39;ID sito.
 
-## Incorporare un'app sul sito utilizzando Studio {#section_w3h_1nt_bbb}
+## Incorpora un&#39;app sul tuo sito utilizzando Studio {#section_w3h_1nt_bbb}
 
 Generate il codice da incorporare.
 
-Quando viene pubblicata un'app, Livefyre genera e visualizza un codice da incorporare, che può essere utilizzato per incorporare l'app in qualsiasi pagina della rete. Per rigenerare lo snippet HTML utilizzato per incorporare l'app in una pagina:
+Quando viene pubblicata un&#39;app, Livefyre genera e visualizza un codice da incorporare, che può essere utilizzato per incorporare l&#39;app in qualsiasi pagina della rete. Per rigenerare lo snippet HTML utilizzato per incorporare l&#39;app in una pagina:
 
-1. Dalla schermata Panoramica app, fate clic sul **[!UICONTROL </> Embed Code]** pulsante.
-1. Dal **[!UICONTROL Embed Code]** pannello che si apre, copiate e incollate lo snippet di codice HTML visualizzato nella pagina Web.
+1. Dalla schermata Panoramica app, fate clic sul pulsante **[!UICONTROL </> Embed Code]**.
+1. Dal pannello **[!UICONTROL Embed Code]** che si apre, copiate e incollate lo snippet di codice HTML visualizzato nella pagina Web.
 
-   Per le app che richiedono l'autenticazione dell'utente, l'integrazione per l'autenticazione dell'utente deve essere completa e trovarsi sulla pagina prima di aggiungere il codice da incorporare.
+   Per le app che richiedono l&#39;autenticazione dell&#39;utente, l&#39;integrazione per l&#39;autenticazione dell&#39;utente deve essere completa e trovarsi sulla pagina prima di aggiungere il codice da incorporare.
 
-## Eliminare un'app {#section_zyx_zyx_xcb}
+## Eliminare un&#39;app {#section_zyx_zyx_xcb}
 
-Puoi eliminare un'app dall'elenco App in Livefyre Studio. Quando eliminate l'app da Studio, l'app viene nascosta dalla visualizzazione e non viene eliminata o arrestata:
+Puoi eliminare un&#39;app dall&#39;elenco App in Livefyre Studio. Quando eliminate l&#39;app da Studio, l&#39;app viene nascosta dalla visualizzazione e non viene eliminata o arrestata:
 
-* L'app non può continuare a funzionare su un sito.
+* L&#39;app non può continuare a funzionare su un sito.
 * Flussi associati.
 * Raccolte associate in Livefyre.
 
-Per eliminare un'app:
+Per eliminare un&#39;app:
 
-1. Fai clic su **[!UICONTROL Apps]**.
-1. Fate clic sui puntini di sospensione a destra del nome dell'app da eliminare.
-1. Fate clic **[!UICONTROL Delete App]** per eliminare l'app.
+1. Clic **[!UICONTROL Apps]**.
+1. Fate clic sui puntini di sospensione a destra del nome dell&#39;app da eliminare.
+1. Fate clic su **[!UICONTROL Delete App]** per eliminare l&#39;app.
 
