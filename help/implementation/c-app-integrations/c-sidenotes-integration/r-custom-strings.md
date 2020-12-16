@@ -6,13 +6,16 @@ title: Note Personalizzate
 uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 7%
 
 ---
 
 
-# Note Personalizzate{#sidenotes-custom-strings}
+# Note Stringhe personalizzate{#sidenotes-custom-strings}
 
-Le stringhe personalizzate vengono applicate attraverso un oggetto inserito nel costruttore Sidenotes e ignorano le stringhe predefinite utilizzate nell'applicazione. che possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche di stile o lingua. Le stringhe vengono automaticamente unite alle impostazioni predefinite.
+Le stringhe personalizzate vengono applicate attraverso un oggetto inserito nel costruttore Sidenotes e ignorano le stringhe predefinite utilizzate nell&#39;applicazione. che possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche di stile o lingua. Le stringhe vengono automaticamente unite alle impostazioni predefinite.
 
 ```
 var customStrings = { 
@@ -46,8 +49,8 @@ new Livefyre.Sidenotes({
 | errorDuplicate | Anche la nota è gradita, ma non può essere pubblicata due volte. |
 | errorGeneral | Si è verificato un errore. Prova ancora. |
 | errorServer | Si è verificato un problema con il nostro server. Provi ancora? |
-| facebookShareCaption | SideNotes in "{title}" |
-| menuAuthSignedInMsg | È necessario aver effettuato l'accesso a {action} |
+| facebookShareCaption | SideNotes in &quot;{title}&quot; |
+| menuAuthSignedInMsg | È necessario aver effettuato l&#39;accesso a {action} |
 | menuAuthSignInBtn | Accedi |
 | menuBackBtn | Indietro |
 | menuConfirmAccept | Sì, {action} |
@@ -60,7 +63,7 @@ new Livefyre.Sidenotes({
 | menuEtcOptionShare | Condividi |
 | menuEtcPostedAt | Pubblicato il {date} |
 | menuEtcTitle | Altro |
-| menuFlagOptionDisagreement | Non d'accordo |
+| menuFlagOptionDisagreement | Non d&#39;accordo |
 | menuFlagOptionOffensive | Offensivo |
 | menuFlagOptionOffTopic | Disattiva argomento |
 | menuFlagOptionSpam | Spam |
@@ -81,9 +84,9 @@ new Livefyre.Sidenotes({
 | notificationFlagged | Segnalato |
 | permalinkBackBtn | Tutte |
 | permalinkTitle | Permalink |
-| questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br>Evidenzia il testo e fai clic sull’icona "fycon-write" o fai clic sull’icona "fycon-action-view" alla fine di ciascun paragrafo. |
-| questionMockText | Ciò che è "familiare" non è ben noto, solo per il motivo che è "familiare". |
-| questionTitle | Cos'è una Sidenote? |
+| questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br>Evidenzia il testo e fai clic sull’icona &quot;fycon-write&quot; o fai clic sull’icona &quot;fycon-action-view&quot; alla fine di ciascun paragrafo. |
+| questionMockText | Ciò che è &quot;familiare&quot; non è ben noto, solo per il motivo che è &quot;familiare&quot;. |
+| questionTitle | Cos&#39;è una Sidenote? |
 | queusedCommentsPlural | {number} Nuove note |
 | queusedCommentsSingular | 1 Nuova Sidenote |
 | queusedRepliesPlural | {number} Nuove risposte |
