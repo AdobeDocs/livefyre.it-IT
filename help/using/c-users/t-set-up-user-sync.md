@@ -7,6 +7,9 @@ title: Sincronizzazione utente
 uuid: 6259e6fa-0541-4f5b-9d14-4c7c932ef997
 translation-type: tm+mt
 source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 1%
 
 ---
 
@@ -15,10 +18,10 @@ source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
 
 La sincronizzazione utenti consente di inserire l’endpoint utilizzato per recuperare i dati del profilo utente dal sistema di gestione utenti.
 
-Per ulteriori informazioni **[!UICONTROL Identity Integration > Your Identity Service]** su come Livefyre utilizza questo URL per sincronizzare i dati utente con Livefyre tramite Ping for Pull.
+Per ulteriori informazioni su come Livefyre utilizza questo URL per sincronizzare i dati utente con Livefyre tramite Ping for Pull, consultate **[!UICONTROL Identity Integration > Your Identity Service]**.
 
 ## Sincronizzazione profilo utente personalizzata
 
-**** URL sincronizzazione profilo: immettete l'URL dal quale Livefyre recupererà le informazioni aggiornate sul profilo utente.
+**URL sincronizzazione profilo:** immettete l&#39;URL dal quale Livefyre recupererà le informazioni aggiornate sul profilo utente.
 * Ad esempio: `https://example.yoursite.com/some_path/?id={***id***}`
 
