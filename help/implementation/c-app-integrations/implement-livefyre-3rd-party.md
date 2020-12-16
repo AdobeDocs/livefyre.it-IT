@@ -30,17 +30,17 @@ b. Integrate le app Livefyre nei siti mediante la struttura di codice Livefyre.j
 
    * Per ulteriori informazioni sull&#39;utilizzo della struttura del codice da incorporare di Livefyre.js, consultate [Incorporare un&#39;app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
 
-   * Per informazioni su come integrare l&#39;app Commenti, vedere [Commenti](/help/using/c-about-apps/c-comments/c-comments.md).
+   * Per informazioni su come integrare l&#39;app dei commenti, vedere [Commenti](/help/using/c-about-apps/c-comments/c-comments.md).
 
-   * Per informazioni su come integrare l&#39;app Chat, consulta [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md).
+   * Per informazioni su come integrare l&#39;app Chat, consultate [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md).
 
-   * Per informazioni su come integrare l&#39;app Live Blog, consulta [Live Blog](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md).
+   * Per informazioni su come integrare l&#39;app Live Blog, vedere [Live Blog](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md).
 
-   * Per informazioni su come integrare l&#39;app Sidenotes, vedi [Note](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md).
+   * Per informazioni su come integrare l&#39;app Sidenotes, consultate [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md).
 
 1. Eseguire l&#39;integrazione dell&#39;autenticazione.
 a. Create token di autenticazione utente per trasmettere e archiviare i dati utente in Livefyre.
-b. Integrare piattaforme di autenticazione e utenti di terze parti. Per un elenco delle piattaforme supportate, vedete Integrazione [](/help/implementation/t-about-identity-integration/t-about-identity-integration.md)identità.
+b. Integrare piattaforme di autenticazione e utenti di terze parti. Per un elenco delle piattaforme supportate, vedere [Integrazione identità](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 1. Esegui personalizzazioni app. Opzioni Personalizzazione app per adattarle al proprio marchio e stile e per aggiungere funzionalità personalizzate.
 
@@ -50,18 +50,18 @@ Per creare un’app di visualizzazione (Mappa, Muro file multimediale, Tendenza,
 a. Create una raccolta utilizzando CollectionMeta Token.
 b. Integrate le app Livefyre nei siti mediante la struttura di codice Livefyre.js incorporato. Per ulteriori informazioni sull&#39;utilizzo della struttura del codice da incorporare di Livefyre.js, consultate [Incorporare un&#39;app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
 
-   * Per informazioni su come integrare l’app Mappa, consultate [Mappa](/help/using/c-about-apps/c-map-app/c-map-app.md).
+   * Per informazioni su come integrare l&#39;app Mappa, vedi [Mappa](/help/using/c-about-apps/c-map-app/c-map-app.md).
 
-   * Per informazioni su come integrare l’app Media Wall, consulta [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md).
+   * Per informazioni su come integrare l&#39;app Media Wall, consultate [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md).
 
-   * Per informazioni su come integrare l&#39;app di tendenze, vedi [Tendenza](/help/using/c-about-apps/c-trending-app/c-trending-app.md).
+   * Per informazioni su come integrare l&#39;app di tendenze, vedi [Trending](/help/using/c-about-apps/c-trending-app/c-trending-app.md).
 
 1. Eseguire l&#39;integrazione dell&#39;autenticazione.
 a. Create token di autenticazione utente per trasmettere e archiviare i dati utente in Livefyre.
-b. Integrare piattaforme di autenticazione e utenti di terze parti. Per un elenco delle piattaforme supportate, vedete Integrazione [](/help/implementation/t-about-identity-integration/t-about-identity-integration.md)identità.
+b. Integrare piattaforme di autenticazione e utenti di terze parti. Per un elenco delle piattaforme supportate, vedere [Integrazione identità](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 >[!NOTE]
 >
 >Livefyre non supporta le app Carosello, Filmstrip, Storify, Feature Card, Mosaic e Polls tramite Livefyre.js.
 
-Integra queste app utilizzando il processo [Crea un&#39;app](/help/using/c-about-apps/c-create-an-app.md) .
+Integra queste app utilizzando il processo [Crea un&#39;app](/help/using/c-about-apps/c-create-an-app.md).
