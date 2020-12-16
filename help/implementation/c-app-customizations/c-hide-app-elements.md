@@ -7,17 +7,20 @@ title: Nascondi elementi app
 uuid: ea090b6e-99f5-4bd7-aa9e-d39a4dff1543
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 1%
 
 ---
 
 
 # Nascondi elementi app{#hide-app-elements}
 
-Rimuovere dall'app i componenti standard dell'app Livefyre.
+Rimuovere dall&#39;app i componenti standard dell&#39;app Livefyre.
 
-Utilizzare i CSS per nascondere gli elementi predefiniti dell'app Livefyre dalla pagina, consentendo di personalizzare l'esperienza utente in base alle proprie esigenze.
+Utilizzare i CSS per nascondere gli elementi predefiniti dell&#39;app Livefyre dalla pagina, consentendo di personalizzare l&#39;esperienza utente in base alle proprie esigenze.
 
-Per nascondere gli elementi dall'app, è sufficiente impostare la visualizzazione su Nessuno.
+Per nascondere gli elementi dall&#39;app, è sufficiente impostare la visualizzazione su Nessuno.
 
 Esempi:
 
