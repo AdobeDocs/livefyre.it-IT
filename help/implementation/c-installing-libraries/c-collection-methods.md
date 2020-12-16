@@ -7,13 +7,16 @@ title: Metodi della classe Collection
 uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 1%
 
 ---
 
 
-# Metodi della classe Collection{#collection-class-methods}
+# Metodi della classe di raccolta{#collection-class-methods}
 
-Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell'oggetto classe Collection.
+Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell&#39;oggetto classe Collection.
 
 Per istruzioni sulla creazione di un oggetto Collection, vedere Metodi di classe Site. Il resto della pagina presuppone che nella sessione sia presente un oggetto Collection con istanza.
 
