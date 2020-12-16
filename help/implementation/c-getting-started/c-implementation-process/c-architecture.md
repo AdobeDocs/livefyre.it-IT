@@ -7,11 +7,14 @@ title: Architettura
 uuid: 94358e6c-954a-4a52-9bb2-d800b2933130
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
 
 
-# Architettura{#architecture}
+# Architecture{#architecture}
 
 Scoprite le convenzioni di Livefyre e come Livefyre organizza i contenuti.
 
@@ -29,7 +32,7 @@ Le impostazioni di configurazione possono essere applicate a siti, reti e raccol
 
 >[!NOTE]
 >
->Alcune impostazioni sono disponibili solo a livello di rete (come le preferenze di notifica e-mail, e-mail dall'indirizzo e loghi personalizzati e-mail). Se desiderate che queste impostazioni siano diverse per ciascun dominio, dovete utilizzare più reti.
+>Alcune impostazioni sono disponibili solo a livello di rete (come le preferenze di notifica e-mail, e-mail dall&#39;indirizzo e loghi personalizzati e-mail). Se desiderate che queste impostazioni siano diverse per ciascun dominio, dovete utilizzare più reti.
 
 ## Informazioni sui siti {#section_vjw_nm4_xz}
 
@@ -39,19 +42,19 @@ Un sito è un raggruppamento arbitrario di articoli. Il raggruppamento è utile 
 >
 >Non esiste alcun limite al numero di siti che si possono avere nella rete personalizzata.
 
-## Diagramma della sequenza delle app {#section_mw2_lm4_xz}
+## Diagramma sequenza app {#section_mw2_lm4_xz}
 
-Sia che desideriate implementare una funzione personalizzata con gli endpoint forniti da Livefyre, o che dobbiate semplicemente eseguire il debug di un problema, è importante comprendere il funzionamento del flusso di richieste/risposte dell'app Livefyre.
+Sia che desideriate implementare una funzione personalizzata con gli endpoint forniti da Livefyre, o che dobbiate semplicemente eseguire il debug di un problema, è importante comprendere il funzionamento del flusso di richieste/risposte dell&#39;app Livefyre.
 
 ![](assets/appsequencediagram.png)
 
-1. Quando il cliente accede al sito, create un'istanza dell'app Livefyre con l'ID sito e l'ID articolo.
+1. Quando il cliente accede al sito, create un&#39;istanza dell&#39;app Livefyre con l&#39;ID sito e l&#39;ID articolo.
 1. Se desiderate autenticare l’utente (utile per la valutazione del traffico e per la protezione del sito), inviate a Livefyre le informazioni sul sito e il token del profilo utente.
-1. Inviate a Livefyre l'ID sito e l'ID articolo per inizializzare l'app.
+1. Inviate a Livefyre l&#39;ID sito e l&#39;ID articolo per inizializzare l&#39;app.
 
    Livefyre restituisce il contenuto iniziale.
 
-   Inviate questo contenuto alla pagina e visualizzate l'app.
+   Inviate questo contenuto alla pagina e visualizzate l&#39;app.
 
 1. Per aggiornare il contenuto visualizzato sulla pagina, inviate a Livefyre l’ID evento più recente dalla pagina. Se sono disponibili nuovi contenuti, questi verranno restituiti.
 
