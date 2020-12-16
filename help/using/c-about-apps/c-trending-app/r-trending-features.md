@@ -7,13 +7,16 @@ title: Funzioni di tendenza
 uuid: 7e7b1d05-2154-43d8-92e7-63152934c785
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 0%
 
 ---
 
 
 # Funzioni di tendenza{#trending-features}
 
-L'app di tendenza offre queste funzionalità per il sito.
+L&#39;app di tendenza offre queste funzionalità per il sito.
 
 
 
