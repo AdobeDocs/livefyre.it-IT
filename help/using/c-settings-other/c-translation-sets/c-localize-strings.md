@@ -7,6 +7,9 @@ title: Localizza stringhe
 uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '1996'
+ht-degree: 5%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Personalizzazione delle stringhe delle app Livefyre.
 
-È possibile personalizzare le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app Livefyre. Questo offre la flessibilità di modificare il testo degli elementi HTML di cui è stato effettuato il rendering, ad esempio il pulsante "Post As", il testo "Comment Count" o il pulsante "Sign In", in qualsiasi stringa UTF-8 valida. Utilizzate questa funzione per aggiungere personalità all'implementazione del flusso o per localizzare la lingua nell'app per la base di utenti.
+È possibile personalizzare le stringhe di testo per la maggior parte degli elementi HTML in qualsiasi app Livefyre. Questo offre la flessibilità di modificare il testo degli elementi HTML di cui è stato effettuato il rendering, ad esempio il pulsante &quot;Post As&quot;, il testo &quot;Comment Count&quot; o il pulsante &quot;Sign In&quot;, in qualsiasi stringa UTF-8 valida. Utilizzate questa funzione per aggiungere personalità all&#39;implementazione del flusso o per localizzare la lingua nell&#39;app per la base di utenti.
 
 * Commenti, chat e blog dal vivo
 
@@ -44,7 +47,7 @@ Personalizzazione delle stringhe delle app Livefyre.
 
 ## Implementazione {#section_im4_224_xz}
 
-Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all'oggetto di configurazione JavaScript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all&#39;oggetto di configurazione JavaScript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -73,12 +76,12 @@ Stringhe disponibili per il processo di autenticazione e dai menu utente autenti
 |  | displayName | %s |
 |  | editProfile | Modifica profilo |
 |  | notificationSettings | Impostazioni di notifica |
-|  | siteAdmin | Admin Console (collegamenti a Studio) |
+|  | siteAdmin | Admin Console  (collegamenti a Studio) |
 |  | signOut | Esci |
 
 ## Informazioni flusso {#section_wx1_c24_xz}
 
-Stringhe disponibili per le informazioni e la visualizzazione del flusso di contenuto. Mostra il numero di persone che ascoltano, il numero di post all'app e consente agli utenti di accedere o accedere alle informazioni sul loro account.
+Stringhe disponibili per le informazioni e la visualizzazione del flusso di contenuto. Mostra il numero di persone che ascoltano, il numero di post all&#39;app e consente agli utenti di accedere o accedere alle informazioni sul loro account.
 
 | Chiave | Testo predefinito | Dati flusso |
 |---|---|---|
@@ -86,7 +89,7 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 |  | commentCountLabel | Commento %s |
 |  | commentCountLabelPlural | %s commenti |
 |  | listenerCount | persona che ascolta |
-|  | listenerCountPlural | gente che ascolta |
+|  | listenerCountPlural | persone che ascoltano |
 |  | liveblogPostCountLabelZero | post |
 |  | liveblogPostCountLabel | post |
 |  | liveblogPostCountLabelPlural | post |
@@ -100,7 +103,7 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 
 ## Ordinamento flusso {#section_ih2_124_xz}
 
-Consente agli utenti di ordinare i contenuti restituiti in base all'età o alla popolarità.
+Consente agli utenti di ordinare i contenuti restituiti in base all&#39;età o alla popolarità.
 
 ![](assets/strings_newestoldesttop-1-150x56.png)
 
@@ -115,7 +118,7 @@ Consente agli utenti di ordinare i contenuti restituiti in base all'età o alla 
 |  | topCommentsContentNotFoundMsg | Non ci sono ancora abbastanza piaceri. |
 |  | hotThreadContentNotFoundMsg | Non ci sono ancora abbastanza thread. |
 |  | streamRefreshMsg | Scopri le novità. |
-| Opzioni piè di pagina | archiveHeaderTitle | Dall'archivio |
+| Opzioni piè di pagina | archiveHeaderTitle | Dall&#39;archivio |
 |  | archiveShowMore | Mostra altro |
 |  | showMore | Mostra altri commenti |
 |  | showMoreLiveblog | Mostra altri post |
@@ -152,7 +155,7 @@ Se attivato, il contenuto disponibile viene elencato nella parte superiore del f
 
 |  | Chiave | Testo predefinito |
 |---|---|---|
-| Etichette |  |  |
+| Etichette disponibili |  |  |
 | ![](assets/strings_featuredcontent-150x40.png) | featuredCommentsTag | In evidenza |
 |  | featuredCommentsTitlePlural | Commenti |
 
@@ -205,7 +208,7 @@ Salvo diversa indicazione, disponibile per tutti gli utenti connessi. Passate il
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Flag Modal | flagTitle | Flag %s commento |
+| Flag Modal | flagTitle | Contrassegno del commento di %s |
 |  | flagSubtitle | Contrassegna come |
 |  | flagDefaultSelectOption | Seleziona |
 |  | flagSpam | Spam |
@@ -214,9 +217,9 @@ Salvo diversa indicazione, disponibile per tutti gli utenti connessi. Passate il
 |  | flagOffensive | Offensivo |
 |  | flagOffensiveButton | Offensivo |
 |  | flagOffensiveCommentTooltip | Offensivo |
-|  | flagDisagreement | Non d'accordo |
-|  | flagDisagreementButton | Non d'accordo |
-|  | flagDisagreementCommentTooltip | Non d'accordo |
+|  | flagDisagreement | Non d&#39;accordo |
+|  | flagDisagreementButton | Non d&#39;accordo |
+|  | flagDisagreementCommentTooltip | Non d&#39;accordo |
 |  | flagOffTopic | Disattiva argomento |
 |  | flagOfftopicButton | Disattiva argomento |
 |  | flagOfftopicCommentTooltip | Disattiva argomento |
@@ -258,14 +261,14 @@ Salvo diversa indicazione, disponibile per tutti gli utenti connessi. Passate il
 |---|---|---|
 | Twitter @menzioni modali | namedTitle | Condividi menzioni |
 |  | namedSubtitleTwitter | Condividi tweet con: |
-|  | namedDefaultText | L'ho menzionato in un commento di Livefyre! |
+|  | namedDefaultText | L&#39;ho menzionato in un commento di Livefyre! |
 |  | namedConfirmButton | OK |
 |  | visitCancelButton | Annulla |
 |  | namedErrorGeneral | Oops! È andato male qualcosa! Livefyre è stato avvisato. |
 |  | namedErrorNoneSelected | È necessario che sia attivato almeno un riferimento. |
 |  | namedMenuTitle | Per vedere e menzionare i tuoi amici |
 |  | referenceTwitterConnect | Connetti a Twitter |
-|  | referenceTwitterFetching | Recupero Amici... |
+|  | referenceTwitterFetching | Recupero Amici In Corso... |
 |  | namedSuccessMsg | Le menzioni sono state inviate correttamente. |
 
 ![](assets/strings_sharemention-150x60.png)
@@ -273,14 +276,14 @@ Salvo diversa indicazione, disponibile per tutti gli utenti connessi. Passate il
 | Chiave | Testo predefinito |  |
 |---|---|---|
 | Modifica modale | Disponibile per gli amministratori di studio, i manager utente o i moderatori |  |
-| @(@reference) | &lt;/&gt;(Apre la finestra HTML personalizzata.) |  |
+| @(@reference) | &lt;/>(Apre la finestra HTML personalizzata.) |  |
 |  | customHtmlDialogTitle(Appare come intestazione per il modale.) | Aggiungi HTML personalizzato |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
 
 | Chiave | Testo predefinito |  |
 |---|---|---|
-| Opzioni risposta moderatore | Disponibile per gli amministratori di studio, i manager utente o i moderatori. |  |
+| Opzioni di risposta del moderatore | Disponibile per gli amministratori di studio, i manager utente o i moderatori. |  |
 | pendingComment | in sospeso |
 |  | banUserButton | Divieto utente |
 |  | banUserTooltip | Utente con divieto |
@@ -301,7 +304,7 @@ Salvo diversa indicazione, disponibile per tutti gli utenti connessi. Passate il
 |  | banConfirmButton | OK |
 |  | banCancelButton | Annulla |
 
-## Modulo di notifica commenti {#section_qqt_pd4_xz}
+## Modulo di notifica dei commenti {#section_qqt_pd4_xz}
 
 Se attivato, disponibile nella parte inferiore della pagina per tutte le app di conversazione Livefyre.
 
@@ -337,12 +340,12 @@ Stringhe disponibili per i messaggi di errore personalizzabili.
 | errorMalformatted | Sembra che stiate tentando di pubblicare contenuto non corretto. |
 | errorMaxChars | Spiacenti, il tuo commento è troppo lungo. Modificare e riprovare. |
 | errorMediaNotAvailable | Il file multimediale non è più visibile. |
-| errorShowMore | Errore durante il caricamento di altri commenti. |
+| errorShowMore | Si è verificato un errore durante il caricamento di altri commenti. |
 | MultipleMediaNotAllowedError | Le autorizzazioni concesse solo un allegato multimediale alla volta. |
 
 ## Formato ora e data {#section_yz4_g5n_xz}
 
-Traduci e personalizza il modo in cui le date vengono visualizzate sulle schede di contenuto all'interno delle app di visualizzazione.
+Traduci e personalizza il modo in cui le date vengono visualizzate sulle schede di contenuto all&#39;interno delle app di visualizzazione.
 
 | Chiave | Testo predefinito |
 |---|---|
@@ -358,7 +361,7 @@ Traduci e personalizza il modo in cui le date vengono visualizzate sulle schede 
 | SecondiAgo | {number}s |
 | secondiAgoSingular | {number}s |
 
-## Muro di supporto {#section_vwt_d5n_xz}
+## Muro supporto {#section_vwt_d5n_xz}
 
 Stringhe disponibili per l’app Media Wall.
 
@@ -403,7 +406,7 @@ Stringhe disponibili per il carosello.
 | featuredText | In evidenza |
 | shareButtonText | Condividi |
 
-## Scheda {#section_mw2_hkn_xz}
+## Scheda funzione {#section_mw2_hkn_xz}
 
 Stringhe disponibili per la scheda di funzioni.
 
@@ -414,7 +417,7 @@ Stringhe disponibili per la scheda di funzioni.
 
 ## Carica app {#section_grc_gkn_xz}
 
-Stringhe disponibili per l'app di caricamento.
+Stringhe disponibili per l&#39;app di caricamento.
 
 | Chiave | Testo predefinito |
 |---|---|
@@ -446,7 +449,7 @@ Stringhe disponibili per i sondaggi.
 
 ## Identità Livefyre {#section_zc3_xvh_xz}
 
-Stringhe disponibili per l'identità Livefyre.
+Stringhe disponibili per l&#39;identità Livefyre.
 
 | Chiave | Testo predefinito |
 |--- |--- |
@@ -461,12 +464,12 @@ Stringhe disponibili per l'identità Livefyre.
 | completeAccount | Account completo |
 | emailWhenSomeReplies | E-mail quando qualcuno risponde a me |
 | emailCommentsIFollow | Commenti e-mail nelle conversazioni che seguo |
-| emailSenttoResetPassword | E-mail inviata! Controllate la inbox per un collegamento per ripristinare la password |
+| emailSenttoResetPassword | E-mail inviata! Controllate nella casella in entrata se è presente un collegamento per ripristinare la password |
 | emailVerificationSent | Verifica e-mail inviata |
-| firstName | First name |
+| firstName | Nome |
 | dimenticataPassword | Password dimenticata? |
 | dimenticatePassword | Hai dimenticato la password? |
-| dimenticatePasswordIstruzioni | Inserite il vostro nome utente o indirizzo e-mail di seguito e vi invieremo un collegamento per cambiare la password. |
+| dimenticYourPasswordInstructions | Inserite il vostro nome utente o indirizzo e-mail di seguito e vi invieremo un collegamento per cambiare la password. |
 | formInputCloseButtonText | Close |
 | formInputCancelButtonText | Annulla |
 | formInputSaveButtonText | Salva |
@@ -485,7 +488,7 @@ Stringhe disponibili per l'identità Livefyre.
 | labelProfile | Profilo |
 | labelUsername | Nome utente |
 | labelUsernameOrEmail | Nome utente o e-mail |
-| lastName | Last name |
+| lastName | Cognome |
 | livefyreAccount | Account Livefyre |
 | la posizione | Posizione |
 | loadingProfile | Caricamento profilo |
@@ -493,50 +496,50 @@ Stringhe disponibili per l'identità Livefyre.
 | oldPassword | Password precedente |
 | on | on |
 |  oppure  |  oppure  |
-| passwordLinkExpired | Il collegamento su cui hai fatto clic per ripristinare la password è scaduto. Reimposta la password e ti invieremo un nuovo collegamento. |
-| Per favore, controllaEmailToComplete | Per completare la registrazione, controllate l'e-mail. |
+| passwordLinkExpired | Il collegamento su cui hai fatto clic per ripristinare la password è scaduto. Ripristina di nuovo la password e ti invieremo un nuovo collegamento. |
+| Per favore, controllaEmailToComplete | Per completare la registrazione, controllate l&#39;e-mail. |
 | postato | Inserito |
 | powerby | alimentato da |
 | profileNotificationImmediate | nelle immediate vicinanze |
 | profileNotificationHourly | ogni ora |
 | profileNotificationNever | never |
 | recentComments | Commenti recenti |
-| reset | Reset |
-| resetPassword |  Ripristina password |
+| reset | Reimposta |
+| resetPassword | Ripristina password |
 | signIn | Accedi |
 | signInWith | Accedi con |
 | signInWithEmail | Accesso tramite e-mail |
 | signUp | Iscriviti |
 | socialAccount | Account Social |
-| successPasswordChanged | Completato! La password è stata modificata e hai effettuato l'accesso |
+| successPasswordChanged | Completato! La password è stata modificata e hai effettuato l&#39;accesso |
 | terminiECondizioni | Termini e condizioni |
 | termAndConditionIntro | Registrandosi si accetta il |
-| termOfUse | Condizioni d'uso |
-| termOfUseIntro | Effettuando l'accesso, accetti di |
+| termOfUse | Condizioni d&#39;uso |
+| termOfUseIntro | Effettuando l&#39;accesso, l&#39;utente accetta di: |
 | thisUser | Questo utente |
 | verifyPassword | Verifica password |
 | fileSizeLimit | 2 MB max |
 | accountnotfound | Account non trovato |
-| avatarImageExceedSize | L'immagine avatar ha superato il limite di 2 MB |
+| avatarImageExceedSize | L&#39;immagine avatar ha superato il limite di 2 MB |
 | fieldisRequired | Il campo accetta solo un numero intero |
-| fieldonlyaccettsavalidemail | Campo accetta solo un'e-mail valida |
+| fieldonlyaccettsavalidemail | Campo accetta solo un&#39;e-mail valida |
 | fieldonlyaccettsletters | Il campo accetta solo lettere |
 | filesizemustbelessthanMB | La dimensione del file deve essere inferiore a {#}MB |
 | invalidusernameorpassword | Nome utente o password non validi |
-| minimumlength dei caratteri | Lunghezza minima dei {#} caratteri |
-| maximumlength dei caratteri | Lunghezza massima dei {#} caratteri |
+| minimumlength dei caratteri | Lunghezza minima dei caratteri {#} |
+| maximumlength dei caratteri | Lunghezza massima dei caratteri {#} |
 | therwasanerror | Errore |
 | this fieldisRequired | Questo campo è obbligatorio. |
 | validfileextension | Estensioni file valide |
 | valueEmustmatch | Il valore deve corrispondere |
 | passwordLength | essere lungo da 6 a 32 caratteri. |
-| passwordCharacters | includete caratteri minuscoli e maiuscoli. |
+| passwordCharacters | includete sia i caratteri minuscoli che i caratteri maiuscoli. |
 | passwordSymbol | includere almeno un numero e un simbolo. |
 | passwordNome utente | non contiene il nome utente. |
 | passwordProfileTitle | La password deve: |
-| passwordErrorContainsFirstName | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
-| passwordErrorContainsLastName | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
-| passwordErrorContainsUsername | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
+| passwordErrorContainsFirstName | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga il vostro nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
+| passwordErrorContainsLastName | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga il vostro nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
+| passwordErrorContainsUsername | La password immessa contiene nome utente, nome o cognome. Per motivi di sicurezza, immettete una password che non contenga il vostro nome utente, nome o cognome. Ricorda anche che la password deve contenere: Da 6 a 32 caratteri Un carattere maiuscolo Un carattere minuscolo A un simbolo |
 | passwordErrorToShort | Minimo 6 caratteri per la password |
 | passwordErrorToLong | Massimo 32 caratteri per la password |
 | passwordErrorMissingUppercase | La password deve contenere almeno un carattere maiuscolo |
