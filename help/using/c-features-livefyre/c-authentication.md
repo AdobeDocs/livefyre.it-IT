@@ -7,6 +7,9 @@ title: Funzioni di autenticazione
 uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Potete scegliere se e come i visitatori del sito possono accedere alle vostre app.
 
-Configurare l'autenticazione tramite livefyre.js. Per ulteriori informazioni, consultate [Aggiungere l'autenticazione a un'app tramite Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+Configurare l&#39;autenticazione tramite livefyre.js. Per ulteriori informazioni, consultate [Aggiungi autenticazione a un&#39;app tramite Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 App che utilizzano questa funzione:
 
