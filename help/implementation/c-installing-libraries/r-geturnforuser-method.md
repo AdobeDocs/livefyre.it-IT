@@ -7,11 +7,14 @@ title: getUrnForUser, metodo di rete
 uuid: b70b8b0f-2b3a-4a1d-90d0-93a97a137ad4
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
 
-# getUrnForUser, metodo di rete{#geturnforuser-network-method}
+# getUrnForUser Network Method{#geturnforuser-network-method}
 
 Questo metodo restituisce l’URL per l’utente della rete.
 
@@ -55,7 +58,7 @@ Output campione:
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
 ```
 
-## Esempio di Python {#section_dwg_gds_rz}
+## Esempio Python {#section_dwg_gds_rz}
 
 ```
 network.get_urn_for_user(userId) 
