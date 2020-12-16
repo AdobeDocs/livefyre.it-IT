@@ -13,7 +13,7 @@ ht-degree: 6%
 ---
 
 
-# January 26, 2017{#january}
+# 26 gennaio 2017{#january}
 
 Note sulla versione del 26 gennaio 2017.
 
@@ -38,7 +38,7 @@ Note sulla versione del 26 gennaio 2017.
 | Bug | Mosaico | È stato aggiunto ulteriore supporto per l&#39;accessibilità a Mosaic per consentire agli utenti di passare dalla scheda al contenuto e viceversa. |
 | Bug | Recensioni | È stato corretto un bug che impediva la corretta visualizzazione delle modifiche di valutazione. |
 | Bug | Ricerca social | È stato corretto un bug a causa del quale il pulsante Show More (Mostra altro) veniva disattivato nei risultati della ricerca nell’elenco Twitter. |
-| Bug | Streams | Contenuto avanzato (immagini e video) dalle regole flusso e-mail affinché sia disponibile tramite HTTPS. |
+| Bug | Streams | Contenuto avanzato (immagini e video) da Regole flusso e-mail affinché sia disponibile tramite HTTPS. |
 | Miglioramento | Streams | È stata apportata una modifica all&#39;impostazione dell&#39;opzione &quot;Solo conti verificati&quot; da disattivare per impostazione predefinita. |
 | Bug | Streams | È stato corretto un bug a causa del quale le impostazioni &quot;Premoderato&quot; e &quot;Media Premoderato&quot; venivano trasferite a una regola Stream appena creata. |
 | Miglioramento | Streams | È stata aggiunta una nuova funzione per consentire alle categorie di contenuto (tramite una regola di flusso) di essere incluse nell&#39;elenco e ignorare la moderazione. |
