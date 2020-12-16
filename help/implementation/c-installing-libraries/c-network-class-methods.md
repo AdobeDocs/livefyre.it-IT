@@ -7,15 +7,18 @@ title: Metodi delle classi di rete
 uuid: 4130beda-dd09-49ae-aafb-f6b956e30b51
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 13%
 
 ---
 
 
-# Metodi delle classi di rete{#network-class-methods}
+# Metodi di classe di rete{#network-class-methods}
 
 Creare un oggetto Network.
 
-Una volta creato un oggetto di rete, il resto della pagina suppone che nella sessione sia presente un oggetto di rete con un'istanza.
+Una volta creato un oggetto di rete, il resto della pagina suppone che nella sessione sia presente un oggetto di rete con un&#39;istanza.
 
 ## Oggetto di rete
 
