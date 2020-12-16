@@ -14,13 +14,13 @@ ht-degree: 0%
 ---
 
 
-# Linee guida sui contenuti Instagram{#instagram-content-guidelines}
+# Linee guida sui contenuti di Instagram{#instagram-content-guidelines}
 
 Quando curate contenuti da Instagram, dovete seguire le loro linee guida e best practice.
 
-Devi configurare un account *aziendale* Instagram per creare flussi Instagram da un altro account aziendale Instagram specifico utilizzando il **[!UICONTROL By Author]** campo. L&#39;account utente identificato nel **[!UICONTROL By Author]** campo deve essere un account aziendale.
+Devi configurare un account aziendale *Instagram* per creare flussi Instagram da un altro account aziendale Instagram specifico utilizzando il campo **[!UICONTROL By Author]**. L&#39;account utente identificato nel campo **[!UICONTROL By Author]** deve essere un account aziendale.
 
-Per ulteriori informazioni su come impostare un account aziendale Instagram in Livefyre, consultate [Informazioni sugli account](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)Instagram.
+Per ulteriori informazioni su come impostare un account aziendale Instagram in Livefyre, vedere [Informazioni sugli account Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 Instagram applica le seguenti regole per ottenere contenuti dalla piattaforma:
 
@@ -36,9 +36,9 @@ Livefyre consiglia di seguire le seguenti linee guida per massimizzare la funzio
 * Evitare di utilizzare account aziendali su più reti.
 * Assegnare priorità ai flussi attivi ed eliminare quelli non utilizzati per ridurre il numero di hashtag utilizzati.
 
-Instagram, come altri marchi, ha anche dei requisiti per l&#39;utilizzo delle risorse del proprio marchio. Ad esempio, le foto devono:
+Instagram, come altri marchi, ha anche dei requisiti per l&#39;utilizzo dei propri brand assets. Ad esempio, le foto devono:
 
 * Attribuzione a Instagram e al proprietario del contenuto.
 * Se visualizzati insieme ad altri social media, distinguete chiaramente dagli altri contenuti dei social media.
 
-Per ulteriori informazioni, consulta il documento di Instagram: [Utilizzo di Risorse](https://help.instagram.com/304689166306603)del marchio Instagram.
+Per ulteriori informazioni, consulta il documento di Instagram: [Utilizzo di Risorse del marchio Instagram](https://help.instagram.com/304689166306603).
