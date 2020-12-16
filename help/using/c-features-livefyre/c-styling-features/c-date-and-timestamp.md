@@ -6,6 +6,9 @@ title: Data e marca temporale
 uuid: 3022059f-cfdc-4e13-aa3d-7537875ef431
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 1%
 
 ---
 
