@@ -6,6 +6,9 @@ solution: Experience Manager
 title: Note sulla versione di Livefyre per il 21 marzo 2019
 translation-type: tm+mt
 source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 5%
 
 ---
 
@@ -14,13 +17,13 @@ source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
 
 >[!NOTE]
 >
->Livefyre disattiverà HTTP (porta 80) nel nostro ambiente di produzione giovedì 23 maggio.  Questo completerà gli aggiornamenti di sicurezza in conformità con gli standard di sicurezza Adobe.  Per problemi con l'integrazione, contattate [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) .
+>Livefyre disattiverà HTTP (porta 80) nel nostro ambiente di produzione giovedì 23 maggio.  Questo completerà gli aggiornamenti di sicurezza in conformità con  standard di sicurezza Adobe.  Se si verificano problemi durante l&#39;integrazione, contattare [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com).
 
 ## Miglioramenti
 
-* Implementata l'abilitazione del pulsante Invito all'azione per impostazione predefinita.
+* Implementata l&#39;abilitazione del pulsante Invito all&#39;azione per impostazione predefinita.
 
 
 ## Correzioni di bug
 
-* È stato risolto un problema che impediva la rimozione di post Instagram "Non definiti" in ModQ.
+* È stato risolto un problema che impediva la rimozione di post Instagram &quot;Non definiti&quot; in ModQ.
