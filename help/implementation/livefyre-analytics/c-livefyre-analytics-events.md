@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Eventi di Livefyre Analytics
 
-## Definizione oggetto evento {#section_dh1_yhn_pdb}
+## Definizione dell&#39;oggetto evento {#section_dh1_yhn_pdb}
 
 Il codice seguente definisce i campi nell&#39;oggetto evento che vengono ricevuti dal gestore di analisi su una pagina.
 
@@ -45,9 +45,9 @@ Il codice seguente definisce i campi nell&#39;oggetto evento che vengono ricevut
 }
 ```
 
-## Eventi e eVar di Livefyre Analytics {#section_u3k_tft_mcb}
+## Eventi ed eVar di Livefyre Analytics {#section_u3k_tft_mcb}
 
-I seguenti eventi Livefyre da mappare a eventi personalizzati da utilizzare nei rapporti tramite Report Suite Manager. Per ulteriori informazioni sulle suite di rapporti in  Adobe Analytics, consulta [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Per ulteriori informazioni sull&#39;utilizzo degli eventi Livefyre con Report Suite Manager, consulta [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+I seguenti eventi Livefyre da mappare a eventi personalizzati da utilizzare nei rapporti tramite Report Suite Manager. Per ulteriori informazioni sulle suite di rapporti in  Adobe Analytics, vedere [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Per ulteriori informazioni sull&#39;utilizzo degli eventi Livefyre con Report Suite Manager, vedere [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Eventi di Livefyre Analytics
 
@@ -96,11 +96,11 @@ Di seguito è riportato un elenco delle variabili di conversione (eVar) fornite 
 | Tipo di app | Tipo di app Livefyre. Opzioni: <br><ul><li>Blog dal vivo  </li><li> Scheda</li><li>Carosello</li><li>Chat </li><li>Commenti</li><li>Filmstrip</li><li>Mappa</li><li>Mosaico</li><li>Muro di supporto</li><li>Tendenza</li><li>Pulsante Carica</li></ul> |
 | Tipo di contenuto | Instagram, Twitter, Facebook, LiveFyre, YouTube, ecc |
 
-## More Info {#section_b3d_4yl_pdb}
+## Ulteriori informazioni {#section_b3d_4yl_pdb}
 
 Per ulteriori informazioni sugli argomenti trattati in questa pagina, vedi:
 
-* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
+* [Report Suite ](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
 * [Regole](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
