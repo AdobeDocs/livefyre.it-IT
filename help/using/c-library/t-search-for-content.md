@@ -20,16 +20,16 @@ Utilizzate la ricerca per social network per cercare il contenuto di Instagram d
 
 >[!NOTE]
 >
->Prima di poter eseguire una ricerca social per Instagram, è necessario aggiungere un account aziendale Instagram alla **[!UICONTROL Social Accounts]** sezione in **[!UICONTROL Network Settings]** e autorizzare Livefyre a utilizzare tale account. Per informazioni su come impostare un account aziendale Instagram in  Adobe Livefyre Studio, vedere [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+>Prima di poter eseguire una ricerca social per Instagram, è necessario aggiungere un account aziendale Instagram alla sezione **[!UICONTROL Social Accounts]** in **[!UICONTROL Network Settings]** e autorizzare Livefyre a utilizzare tale account. Per informazioni su come impostare un account aziendale Instagram in  Adobe Livefyre Studio, vedere [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 Potete salvare e riutilizzare le ricerche. Fate clic sulla barra di ricerca per visualizzare un elenco delle ricerche recenti e salvate.
 
 Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella libreria vengono contrassegnate con un segno di spunta.
 
 1. Configurare un account aziendale Instagram.
-1. Passa a **[!UICONTROL Library]** > **[!UICONTROL Social Search]**.
-1. Selezionate **[!UICONTROL Instagram]** per cercare il contenuto di Instagram.
-1. Inserite i criteri di ricerca, fate clic **[!UICONTROL Show Filter]** per perfezionare la ricerca.
+1. Passare a **[!UICONTROL Library]** > **[!UICONTROL Social Search]**.
+1. Selezionate **[!UICONTROL Instagram]** per cercare nel contenuto di Instagram.
+1. Inserite i criteri di ricerca, fate clic su **[!UICONTROL Show Filter]** per perfezionare la ricerca.
 
    * **[!UICONTROL Business User Search:]** Cerca i post di Instagram dall&#39;autore di input.
 
@@ -41,4 +41,4 @@ Quando aggiungete nuove risorse alla libreria, le risorse già incluse nella lib
 
    * **[!UICONTROL Recent Tags Search]**: Cerca i post più recenti con l&#39;hashtag .
 
-Vengono visualizzati gli elementi che corrispondono alla ricerca. Passate il puntatore del mouse su un elemento per **[!UICONTROL View Details]** aggiungerlo alla libreria delle risorse o **[!UICONTROL Publish]** a un&#39;app.
+Vengono visualizzati gli elementi che corrispondono alla ricerca. Passa il puntatore del mouse su un elemento su **[!UICONTROL View Details]**, aggiungilo alla Libreria risorse o **[!UICONTROL Publish]** a un&#39;app.
