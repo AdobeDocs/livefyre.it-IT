@@ -13,7 +13,7 @@ ht-degree: 4%
 ---
 
 
-# February 9, 2017{#february}
+# 9 febbraio 2017{#february}
 
 Note sulla versione per la versione del 9 febbraio 2017.
 
@@ -45,11 +45,11 @@ SocialSync per Twitter è stato parte della nostra funzionalità principale per 
 | Bug | Mosaico | È stato corretto un bug che ora trasmette tutte le immagini Twitter tramite HTTPS. |
 | Bug | Ricerca social | È stato corretto un bug a causa del quale il segno di spunta verde &quot;salvato&quot; non veniva visualizzato quando si salvavano le risorse in Social Search e si visualizzavano le risorse nella libreria. |
 | Bug | Ricerca social | È stato corretto un bug che impediva il corretto funzionamento dell’opzione &quot;Immagini esplicite codifiche&quot;. |
-| Miglioramento | Storify 2 | Miglioramento di Storify 2 per supportare i permalink che aprono una modale (in precedenza l&#39;app scorre fino alla posizione del post sulla pagina). In Designer di Storify 2, è stata aggiunta una configurazione per alternare tra il comportamento Scorrimento e il comportamento Collegamento modale. Il comportamento del permalink modale sarà il comportamento predefinito. |
+| Miglioramento | Storify 2 | Miglioramento di Storify 2 per supportare i permalink che aprono una modale (in precedenza l&#39;app scorre fino alla posizione del post sulla pagina). In Designer di Storify 2, è stata aggiunta una configurazione per alternare tra il comportamento Scorrimento e Collegamento modale. Il comportamento del permalink modale sarà il comportamento predefinito. |
 | Miglioramento | Storify 2 | Migliorata l&#39;integrazione Storify 2 Google AMP per produrre un file CSS più piccolo. |
-| Bug | Streams | Contenuto avanzato (immagini e video) dalle regole flusso e-mail affinché sia disponibile tramite HTTPS. |
-| Bug | Streams | È stata aggiunta un&#39;etichetta per il valore del raggio del file multimediale nelle mappe nelle regole di flusso di Twitter. |
-| Bug | Streams | È stato corretto un bug con le regole di streaming delle pagine Facebook e Facebook per inserire correttamente i post con più allegati multimediali. |
+| Bug | Streams | Contenuto avanzato (immagini e video) da Regole flusso e-mail affinché sia disponibile tramite HTTPS. |
+| Bug | Streams | È stata aggiunta un&#39;etichetta per il valore del raggio del file nelle mappe nelle regole di flusso di Twitter. |
+| Bug | Streams | È stato corretto un bug con le regole di Facebook e Facebook Page Steam per inserire correttamente i post con più allegati multimediali. |
 | Bug | Studio | È stato corretto un bug a causa del quale più &amp; s venivano aggiunti all&#39;URL quando si utilizzavano i filtri in Studio. |
 | Bug | Studio | È stato corretto un bug a causa del quale alcune caselle di controllo nei filtri Studio non consentivano l&#39;annullamento della selezione. |
 
