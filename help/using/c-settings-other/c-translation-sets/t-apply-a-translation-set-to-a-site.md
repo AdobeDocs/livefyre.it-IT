@@ -7,6 +7,9 @@ title: Applicare un set di traduzioni a un sito
 uuid: 750f4ca2-0350-40c9-9176-ce56581bf8ab
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 3%
 
 ---
 
@@ -19,5 +22,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 1. Selezionate un sito.
 1. Selezionate Impostazioni sito.
 1. Seleziona Impostazioni app.
-1. Andate a Impostazioni predefinite &gt; Set di conversione.
+1. Andate a Impostazioni predefinite > Set di traduzioni.
 1. Selezionate un set di traduzioni dal menu a discesa.
