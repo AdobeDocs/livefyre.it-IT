@@ -38,4 +38,4 @@ Le seguenti informazioni vengono visualizzate (se disponibili) per ciascuno degl
 * **[!UICONTROL Bans]**: elenca i siti per i quali l’utente è stato censurato o Bozo’d.
 * **[!UICONTROL Whitelists]**: elenca i siti per i quali l’utente è stato incluso nell’elenco.
 
-Per ulteriori informazioni su come moderare gli utenti nella scheda Contenuto app, consultate [Utilizzo moderato del contenuto](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)dell&#39;app.
+Per ulteriori informazioni su come moderare gli utenti nella scheda Contenuto app, consultate [Utilizzo moderato dei contenuti dell&#39;app](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
