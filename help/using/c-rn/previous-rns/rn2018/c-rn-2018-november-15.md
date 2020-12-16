@@ -14,7 +14,7 @@ ht-degree: 5%
 ---
 
 
-# Note sulla versione{#release-notes} 
+# Note sulla versione{#release-notes}
 
 Note sulla versione per la versione del 15 novembre 2018.
 
@@ -22,7 +22,7 @@ Note sulla versione per la versione del 15 novembre 2018.
 
 Nella versione di produzione di questa versione sono state rilasciate le seguenti nuove funzioni:
 
-* **Aggiornamenti alla ricerca e allo streaming di Instagram.** Puoi utilizzare un account *aziendale* Instagram per:
+* **Aggiornamenti alla ricerca e allo streaming di Instagram.** Puoi utilizzare un  *account aziendale* di Instagram:
 
    * Effettuate una ricerca tramite social network Instagram per utente (l&#39;utente deve essere anche un account aziendale di Instagram).
 
@@ -30,13 +30,13 @@ Nella versione di produzione di questa versione sono state rilasciate le seguent
 
    * Richiedete i diritti per le risorse da Instagram tramite un flusso di lavoro parzialmente automatizzato.
 
-   * Per informazioni sul tipo di account Instagram da impostare e richiedere i diritti da Instagram, consultate [Informazioni sugli account](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)Instagram.
+   * Per informazioni sul tipo di account Instagram da impostare e richiedere i diritti da Instagram, vedere [Informazioni su account Instagram](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md).
 
 * **Monitoraggio automatico delle risposte delle richieste di diritti di utilizzo per ricerche basate su account aziendali.** Solo per ricerche basate su account aziendali, è disponibile la possibilità di monitorare automaticamente le risposte alle richieste di diritti e aggiornare la cronologia delle attività in Livefyre.
 
-Per ulteriori informazioni su come richiedere i diritti per gli account Instagram, consultate [Inviare manualmente](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) le richieste di diritti Instagram e [Inviare una richiesta](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)di diritti Instagram parzialmente automatizzata.
+Per ulteriori informazioni su come richiedere i diritti per gli account Instagram, consultate [Invia richiesta di diritti Instagram manualmente](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) e [Invia una richiesta di diritti Instagram parzialmente automatizzata](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
 
-* **Integrazione di Adobe Target.** È stata aggiunta l&#39;integrazione con  Adobe Target che consente di condividere le app Livefyre direttamente nella  Adobe Target Offers Library. Per ulteriori informazioni sull&#39;utilizzo di Livefyre con  Adobe Target, consultate la documentazione [di](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html)Target.
+* **Integrazione di Adobe Target.** È stata aggiunta l&#39;integrazione con  Adobe Target che consente di condividere le app Livefyre direttamente nella  Adobe Target Offers Library. Per ulteriori informazioni sull&#39;utilizzo di Livefyre con  Adobe Target, consultate la [documentazione di Target](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
 
 ## Problemi {#section_ehw_ndt_wcb}
 
