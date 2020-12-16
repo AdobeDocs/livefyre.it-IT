@@ -7,6 +7,9 @@ title: Streams
 uuid: 01ea5d33-5ec1-46f4-b724-8431cda443a1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +26,9 @@ I flussi definiti con le destinazioni delle cartelle consentono di salvare il co
 
 Più flussi possono essere inviati a una singola destinazione (cartella o app).
 
-I flussi definiti con le destinazioni app invieranno i contenuti direttamente all'app e saranno disponibili dalla scheda Pubblicato nella libreria.
+I flussi definiti con le destinazioni app invieranno i contenuti direttamente all&#39;app e saranno disponibili dalla scheda Pubblicato nella libreria.
 
-Utilizzate l'interfaccia Streams per definire le regole in base alle quali Studio distribuirà il contenuto selezionato nelle app Livefyre o nella Libreria risorse.
+Utilizzate l&#39;interfaccia Streams per definire le regole in base alle quali Studio distribuirà il contenuto selezionato nelle app Livefyre o nella Libreria risorse.
 
 >[!NOTE]
 >
