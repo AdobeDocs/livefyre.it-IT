@@ -6,17 +6,20 @@ title: Caratteristiche dello stile
 uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 3%
 
 ---
 
 
-# Caratteristiche dello stile{#styling-features}
+# Funzioni di stile{#styling-features}
 
 Potete personalizzare le vostre app Livefyre in modo che si comportino in vari modi o cambiarle per assomigliare al resto della campagna del vostro marchio.
 
 ## Stile predefinito {#section_yjl_rfs_d1b}
 
-È possibile personalizzare un'app in Studio in App Designer senza dover utilizzare Livefyre.js per personalizzare l'app.
+È possibile personalizzare un&#39;app in Studio in App Designer senza dover utilizzare Livefyre.js per personalizzare l&#39;app.
 
 App che utilizzano questa funzione:
 
@@ -36,7 +39,7 @@ App che utilizzano questa funzione:
 
 ## Animazione {#section_kl2_n4s_d1b}
 
-Potete animare un'app utilizzando i CSS.
+Potete animare un&#39;app utilizzando i CSS.
 
 App che utilizzano questa funzione:
 
