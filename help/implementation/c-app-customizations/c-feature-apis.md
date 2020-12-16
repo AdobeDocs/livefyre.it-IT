@@ -6,6 +6,9 @@ title: API delle funzionalità
 uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Automatizzare il processo utilizzando le API delle funzioni
 
-Utilizzate le API delle funzioni per automatizzare il processo con cui viene presentato il contenuto. Ad esempio, quando crei un'app Live Blog o Comment, puoi usare tutte le funzioni di un moderatore selezionato per indirizzare la conversazione e stabilire coerenza all'interno del flusso.
+Utilizzate le API delle funzioni per automatizzare il processo con cui viene presentato il contenuto. Ad esempio, quando crei un&#39;app Live Blog o Comment, puoi usare tutte le funzioni di un moderatore selezionato per indirizzare la conversazione e stabilire coerenza all&#39;interno del flusso.
 
 Livefyre offre API Feature e Unfeature.
 
@@ -34,7 +37,7 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/fea
 {value: <number>} 
 ```
 
-Il valore viene utilizzato per ordinare i contenuti contenuti in primo piano, dal più grande al più piccolo (10 verrà visualizzato prima di 1 nell'elenco dei contenuti in primo piano). Questo valore predefinito **ora** vieneimpostato in epoch time, pertanto i commenti contenuti vengono in genere ordinati dal più recente al meno recente.
+Il valore viene utilizzato per ordinare i contenuti contenuti in primo piano, dal più grande al più piccolo (10 verrà visualizzato prima di 1 nell&#39;elenco dei contenuti in primo piano). Il valore predefinito di questo valore è **now** in epoch time, pertanto i commenti contenuti vengono in genere ordinati dal più recente al meno recente.
 
 **Risposta di esempio**
 
