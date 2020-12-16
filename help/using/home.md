@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Utilizzate Livefyre Studio per creare app, raccogliere contenuti generati dall&#39;utente e contenuti moderati.
 
-Per informazioni su come implementare e personalizzare le app Livefyre sul sito mediante gli strumenti di sviluppo, consultate la Guida all&#39;implementazione di [*Adobe Experience Manager Livefyre *](/help/implementation/home.md).
+Per informazioni su come implementare e personalizzare le app Livefyre sul sito mediante gli strumenti di sviluppo, consultate la [*Guida all&#39;implementazione di Adobe Experience Manager Livefyre*](/help/implementation/home.md).
 
 ## Argomenti comuni
 
@@ -33,9 +33,9 @@ Per informazioni su come implementare e personalizzare le app Livefyre sul sito 
 * [Utilizzo delle app Livefyre con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 
-* [Utilizzo di Livefyre con Adobe Target](/help/using/c-library/livefyre-target.md)
+* [Utilizzo di Livefyre con  Adobe Target](/help/using/c-library/livefyre-target.md)
 
-* [Utilizzo di Livefyre con Adobe Launch Livefyre Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
+* [Utilizzo di Livefyre con  lancio Adobe di Livefyre Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
 
 * [Note sulla versione](c-rn/c-rn.md#c_rn)
 
