@@ -7,15 +7,18 @@ title: Contenuto in evidenza aggregato tramite le API in evidenza
 uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 1%
 
 ---
 
 
-# Contenuto in evidenza aggregato tramite le API in evidenza{#aggregated-featured-content-using-the-featured-apis}
+# Contenuto in evidenza aggregato mediante le API in evidenza{#aggregated-featured-content-using-the-featured-apis}
 
 Livefyre fornisce quattro API in evidenza, che consentono di recuperare i 50 elementi di contenuto più recenti per la rete di input, il sito o la raccolta, oppure i due elementi di contenuto presenti nella parte superiore di una raccolta di input.
 
-## In evidenza (rete) {#section_cgm_1nw_xz}
+## Disponibile (rete) {#section_cgm_1nw_xz}
 
 Recupera i 50 contenuti più recenti (e i relativi autori) per la rete di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo i 50 più recenti.)
 
