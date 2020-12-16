@@ -7,11 +7,14 @@ title: getCollectionContent, metodo di raccolta
 uuid: 270dcea5-4de5-4d3b-a751-79e6b9c4fd93
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 0%
 
 ---
 
 
-# getCollectionContent, metodo di raccolta{#getcollectioncontent-collection-method}
+# getCollectionContent Collection Method{#getcollectioncontent-collection-method}
 
 Recupera le informazioni sulla raccolta da Livefyre come JSONObject.
 
@@ -33,7 +36,7 @@ collection.getCollectionContent(callback);
 $collection->getCollectionContent(); 
 ```
 
-## Esempio di Python {#section_dwg_gds_rz}
+## Esempio Python {#section_dwg_gds_rz}
 
 ```
 collection.get_collection_content() 
