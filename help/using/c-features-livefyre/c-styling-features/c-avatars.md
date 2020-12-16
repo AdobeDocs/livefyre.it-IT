@@ -6,15 +6,18 @@ title: Avatar
 uuid: bf20f3bc-3dcc-4e16-a629-3380d1a7a3f2
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
 
-# Avatar{#avatars}
+# Avatars{#avatars}
 
 Consente agli utenti di personalizzare l’immagine visualizzata con il relativo contenuto.
 
-Gli avatar degli utenti vengono visualizzati (per impostazione predefinita) accanto al contenuto in tutte le app e vengono estratti dal sistema del profilo di identità utilizzato nell'implementazione. Questi avatar hanno dimensioni diverse, a seconda dell'app in cui sono visualizzati.
+Gli avatar degli utenti vengono visualizzati (per impostazione predefinita) accanto al contenuto in tutte le app e vengono estratti dal sistema del profilo di identità utilizzato nell&#39;implementazione. Questi avatar hanno dimensioni diverse, a seconda dell&#39;app in cui sono visualizzati.
 
 (Livefyre consente di disattivare gli Avatar se non si desidera visualizzarli nelle app.)
 
@@ -22,13 +25,13 @@ Gli avatar degli utenti vengono visualizzati (per impostazione predefinita) acca
 >
 >Gli avatar sono visualizzati a 25p x 25p per Chat e 50p x 50p nella maggior parte delle altre app.
 
-## Archiviazione Avatar {#section_zbh_x1f_wy}
+## Archiviazione avatar {#section_zbh_x1f_wy}
 
-Gli avatar vengono caricati in modo asincrono in Livefyre. Quando un utente accede per la prima volta all'app o modifica il file immagine avatar associato, l'immagine del profilo viene aggiunta a una coda di attività. (Un avatar predefinito viene visualizzato temporaneamente mentre quello dell’utente viene caricato nel percorso di memorizzazione dell’avatar di Livefyre).
+Gli avatar vengono caricati in modo asincrono in Livefyre. Quando un utente accede per la prima volta all&#39;app o modifica il file immagine avatar associato, l&#39;immagine del profilo viene aggiunta a una coda di attività. (Un avatar predefinito viene visualizzato temporaneamente mentre quello dell’utente viene caricato nel percorso di memorizzazione dell’avatar di Livefyre).
 
-## Gravatar {#section_mqh_p1f_wy}
+## Gravatars {#section_mqh_p1f_wy}
 
-Livefyre supporta l'uso dei Gravatars. Se un utente non dispone di un avatar personalizzato come parte del suo profilo utente, Livefyre verificherà la presenza di un Gravatar per tale utente. Se non esiste un Gravatar, verrà utilizzato l'avatar predefinito.
+Livefyre supporta l&#39;uso dei Gravatars. Se un utente non dispone di un avatar personalizzato come parte del suo profilo utente, Livefyre verificherà la presenza di un Gravatar per tale utente. Se non esiste un Gravatar, verrà utilizzato l&#39;avatar predefinito.
 
 
 App che utilizzano questa funzione:
