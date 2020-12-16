@@ -22,7 +22,7 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
 
 1. Caricate il codice JavaScript.
 
-   Per utilizzare `CommentCount.js`, incorporate innanzitutto il file JavaScript nella `<head>` sezione della pagina o del modello in cui desiderate utilizzarlo.
+   Per utilizzare `CommentCount.js`, incorporare prima il file JavaScript nella sezione `<head>` della pagina o del modello in cui si desidera utilizzarlo.
 
    ```
    <script 
@@ -34,7 +34,7 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
 
 1. Eseguire il binding dell&#39;elemento HTML.
 
-   Una volta caricato lo script, si tenterà di trovare altri elementi sulla pagina con il nome di classe `livefyre-commentcount`. Per ciascuno di questi elementi, lo script cercherà gli attributi `data-lf-site-id` e `data-lf-article-id` HTML, e li utilizzerà per recuperare il contenuto da Livefyre e aggiornare ogni elemento con il valore più recente.
+   Una volta caricato lo script, si tenterà di trovare altri elementi sulla pagina con un nome di classe `livefyre-commentcount`. Per ciascuno di questi elementi, lo script cercherà gli attributi HTML `data-lf-site-id` e `data-lf-article-id` e li utilizzerà per recuperare il contenuto da Livefyre e aggiornare ogni elemento con il valore più recente.
 
    Ad esempio, viene aggiornato il seguente elemento:
 
@@ -46,7 +46,7 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
 
    >[!NOTE]
    >
-   >Il `CommentCount.js` codice verifica la presenza di un valore numerico da aggiornare con il conteggio effettivo. Accertarsi di includere un valore numerico tra i tag.
+   >Il codice `CommentCount.js` verifica la presenza di un valore numerico da aggiornare con il conteggio effettivo. Accertarsi di includere un valore numerico tra i tag.
 
    **Esempio 1** (utilizzo dell&#39;URL come ID articolo):
 
@@ -68,14 +68,14 @@ Livefyre `CommentCount.js` consente di recuperare i conteggi dei contenuti per l
 
    Consentiamo le seguenti opzioni di configurazione:
 
-* **sostituto:** Funzione o Regex utilizzata per sostituire il testo di ciascun conteggio di contenuti.
+* **replace:** Funzione o Regex utilizzata per sostituire il testo di ciascun conteggio di contenuti.
 
-* **function:** Utilizzato per eseguire la sostituzione su ogni elemento. Gli argomenti della funzione sono:
+* **funzione:** utilizzata per eseguire la sostituzione su ogni elemento. Gli argomenti della funzione sono:
 
-   **element:** L&#39;elemento HTML in fase di aggiornamento.
-   **count:** Conteggio dei contenuti per questo elemento.
+   **element:** l&#39;elemento HTML in fase di aggiornamento.
+   **count:** il conteggio del contenuto per questo elemento.
 
-* **regex:** Utilizzato per determinare quale parte del testo dell&#39;elemento deve essere sostituita dal conteggio.
+* **regex:** utilizzato per determinare quale parte del testo dell&#39;elemento deve essere sostituita dal conteggio.
 
    **Esempio**:
 
