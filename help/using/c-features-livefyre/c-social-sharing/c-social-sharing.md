@@ -7,6 +7,9 @@ title: Condivisione social
 uuid: 3fd8a628-2414-45b5-b91c-2ad33aad2634
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 1%
 
 ---
 
@@ -15,47 +18,47 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Condividete il contenuto o il contenuto da un altro utente, fino a Facebook, Twitter o LinkedIn.
 
-La condivisione per social network consente alla community di condividere i propri pensieri dall'App ai propri amici sui social network, inclusi Facebook, Twitter e LinkedIn, e di condividere i contenuti di altri utenti su Facebook e Twitter. Abilitando la condivisione per social network, la community può diffondere la risposta migliore ai contenuti e incrementare il traffico sul sito.
+La condivisione per social network consente alla community di condividere i propri pensieri dall&#39;App ai propri amici sui social network, inclusi Facebook, Twitter e LinkedIn, e di condividere i contenuti di altri utenti su Facebook e Twitter. Abilitando la condivisione per social network, la community può diffondere la risposta migliore ai contenuti e incrementare il traffico sul sito.
 
 ## Condivisione di contenuti sui social network {#section_t1q_mz2_wy}
 
-Potete configurare la rete per consentire agli utenti di condividerla su Twitter, Facebook o LinkedIn quando pubblicate contenuti sulle vostre app Livefyre. Il file Livefyre predefinito **[!UICONTROL Share Modal]** include collegamenti a tutti e tre i siti. Potete personalizzare questo modale utilizzando l'API Post To per ignorare il valore predefinito di Livefyre e implementarne uno personalizzato. Per ulteriori informazioni, consultate Argomenti avanzati &gt; Abilitazione della condivisione per social network.
+Potete configurare la rete per consentire agli utenti di condividerla su Twitter, Facebook o LinkedIn quando pubblicate contenuti sulle vostre app Livefyre. Il codice Livefyre predefinito **[!UICONTROL Share Modal]** include collegamenti a tutti e tre i siti. Potete personalizzare questo modale utilizzando l&#39;API Post To per ignorare il valore predefinito di Livefyre e implementarne uno personalizzato. Per ulteriori informazioni, consultate Argomenti avanzati > Abilitazione della condivisione per social network.
 
-Quando gli utenti fanno clic **[!UICONTROL Share]** per pubblicare i loro commenti sui social network (Facebook, Twitter o LinkedIn), viene richiesto loro di accedere tramite l'app social. È possibile personalizzare l'elenco delle opzioni di condivisione disponibili. Per impostazione predefinita, le caselle di controllo di condivisione di Facebook e Twitter sono visualizzate su tutte le app. Per le reti personalizzate, le app social devono essere configurate come app social. Come parte del processo di integrazione, aggiungi le credenziali dell'app tramite la pagina Impostazioni integrazione in Studio.
+Quando gli utenti fanno clic su **[!UICONTROL Share]** per pubblicare i propri commenti sui social network (Facebook, Twitter o LinkedIn), viene richiesto loro di accedere all&#39;app social. (È possibile personalizzare l&#39;elenco delle opzioni di condivisione disponibili. Per impostazione predefinita, le caselle di controllo di condivisione di Facebook e Twitter sono visualizzate su tutte le app. Per le reti personalizzate, le app social devono essere configurate come app social. Come parte del processo di integrazione, aggiungi le credenziali dell&#39;app tramite la pagina Impostazioni integrazione in Studio.
 
 >[!NOTE]
 >
->LinkedIn è incluso per impostazione predefinita nei commenti della community di Livefyre. Le reti personalizzate devono trasmettere il valore "li" quando si incorpora l'app per abilitare il pulsante LinkedIn sulla barra degli strumenti dei commenti. Per ulteriori informazioni, consultate Abilitazione della condivisione per social network nei documenti per sviluppatori.
+>LinkedIn è incluso per impostazione predefinita nei commenti della community di Livefyre. Le reti personalizzate devono trasmettere il valore &quot;li&quot; quando si incorpora l&#39;app per abilitare il pulsante LinkedIn sulla barra degli strumenti dei commenti. Per ulteriori informazioni, consultate Abilitazione della condivisione per social network nei documenti per sviluppatori.
 
 ## Condivisione di contenuti di altri utenti sui social network {#section_blw_vy2_wy}
 
-Facendo clic **[!UICONTROL Share]** sul post di un altro utente si apre il riquadro Condividi commento, che include un campo di testo modificabile, le opzioni di condivisione abilitate e un collegamento diretto al post.
+Facendo clic su **[!UICONTROL Share]** nel post di un altro utente, si apre il riquadro Condividi commento, che include un campo di testo modificabile, le opzioni di condivisione abilitate e un collegamento diretto al post.
 
-Facendo clic **[!UICONTROL Share]** per un post:
-
-* Gli utenti possono connettersi ai propri social network facendo clic sulle icone Twitter o Facebook.
-* Dopo aver autorizzato la pagina a essere pubblicata sui social network dell’utente, i pulsanti Twitter o Facebook si attivano per informare l’utente che sono attivi.
-* Gli utenti possono personalizzare il contenuto all'interno della casella del post di condivisione.
-* Facendo clic **[!UICONTROL Share]** si invierà il contenuto ai social network attivi dell'utente, con un collegamento che porterà altri utenti al post esatto che l'utente desidera condividere.
-* Gli utenti possono anche scegliere di condividere un collegamento a un commento specifico incollando il Permalink in un'e-mail, un post di blog o un social network.
-
->[!NOTE]
->
->Durante l'integrazione, potete determinare quali social network sono disponibili per la condivisione da parte degli utenti. È inoltre possibile integrare un Permalink personalizzato per consentire l'uniformità con i collegamenti multimediali correnti.
-
-Facendo clic **[!UICONTROL Share]** sul post di un altro utente si apre il **[!UICONTROL Share Comment]** riquadro, che include un campo di testo modificabile, le opzioni di condivisione abilitate e un collegamento diretto al post.
-
-Facendo clic **[!UICONTROL Share]** per un post:
+Facendo clic su **[!UICONTROL Share]** per un post:
 
 * Gli utenti possono connettersi ai propri social network facendo clic sulle icone Twitter o Facebook.
 * Dopo aver autorizzato la pagina a essere pubblicata sui social network dell’utente, i pulsanti Twitter o Facebook si attivano per informare l’utente che sono attivi.
-* Gli utenti possono personalizzare il contenuto all'interno della casella del post di condivisione.
-* Facendo clic **[!UICONTROL Share]** si invierà il contenuto ai social network attivi dell'utente, con un collegamento che porterà altri utenti al post esatto che l'utente desidera condividere.
-* Gli utenti possono anche scegliere di condividere un collegamento a un commento specifico incollando il Permalink in un'e-mail, un post di blog o un social network.
+* Gli utenti possono personalizzare il contenuto all&#39;interno della casella del post di condivisione.
+* Facendo clic su **[!UICONTROL Share]** i contenuti verranno inviati ai social network attivi dell&#39;utente, con un collegamento che porterà altri utenti al post esatto che l&#39;utente desidera condividere.
+* Gli utenti possono anche scegliere di condividere un collegamento a un commento specifico incollando il Permalink in un&#39;e-mail, un post di blog o un social network.
 
 >[!NOTE]
 >
->Durante l'integrazione, potete determinare quali social network sono disponibili per la condivisione da parte degli utenti. È inoltre possibile integrare un Permalink personalizzato per consentire l'uniformità con i collegamenti multimediali correnti.
+>Durante l&#39;integrazione, potete determinare quali social network sono disponibili per la condivisione da parte degli utenti. È inoltre possibile integrare un Permalink personalizzato per consentire l&#39;uniformità con i collegamenti multimediali correnti.
+
+Facendo clic su **[!UICONTROL Share]** nel post di un altro utente si apre il riquadro **[!UICONTROL Share Comment]**, che include un campo di testo modificabile, le opzioni di condivisione abilitate e un collegamento permanente al post.
+
+Facendo clic su **[!UICONTROL Share]** per un post:
+
+* Gli utenti possono connettersi ai propri social network facendo clic sulle icone Twitter o Facebook.
+* Dopo aver autorizzato la pagina a essere pubblicata sui social network dell’utente, i pulsanti Twitter o Facebook si attivano per informare l’utente che sono attivi.
+* Gli utenti possono personalizzare il contenuto all&#39;interno della casella del post di condivisione.
+* Facendo clic su **[!UICONTROL Share]** i contenuti verranno inviati ai social network attivi dell&#39;utente, con un collegamento che porterà altri utenti al post esatto che l&#39;utente desidera condividere.
+* Gli utenti possono anche scegliere di condividere un collegamento a un commento specifico incollando il Permalink in un&#39;e-mail, un post di blog o un social network.
+
+>[!NOTE]
+>
+>Durante l&#39;integrazione, potete determinare quali social network sono disponibili per la condivisione da parte degli utenti. È inoltre possibile integrare un Permalink personalizzato per consentire l&#39;uniformità con i collegamenti multimediali correnti.
 
 
 
