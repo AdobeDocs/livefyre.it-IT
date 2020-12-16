@@ -7,6 +7,9 @@ title: Creare il ping
 uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
 translation-type: tm+mt
 source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
 
 Crea il ping in modo che la tua pagina possa scorrere Livefyre quando gli utenti aggiornano il loro profilo.
 
-Quando Livefyre riceve una notifica di aggiornamento con `networkName` e, `user_id`il sistema invia una richiesta pull al Ping per l’URL pull.
+Quando Livefyre riceve una notifica di aggiornamento con `networkName` e `user_id`, il sistema invia una richiesta pull al Ping per l&#39;URL pull.
 
 >[!NOTE]
 >
->403/Non autorizzato in risposta al Ping indica che alla richiesta Ping è `lftoken` stato aggiunto un valore non valido. Assicurarsi che `lftoken` sia per un utente `user_id` con privilegi di proprietario della rete o l&#39;utente del sistema. Se utilizzate le librerie Livefyre, utilizzate il `buildLivefyreToken` metodo per generare un token di sistema valido per la richiesta.
+>403/Non autorizzato in risposta al Ping indica un `lftoken` non valido aggiunto alla richiesta Ping. Assicurarsi che il `lftoken` sia per un `user_id` con privilegi di proprietario della rete o per l&#39;utente del sistema. Se utilizzate le librerie Livefyre, utilizzate il metodo `buildLivefyreToken` per generare un token di sistema valido per la richiesta.
 
 1. Aggiungete alla pagina del codice che collega Livefyre quando gli utenti aggiornano il loro profilo. Create l’URL in questo modo:
 
