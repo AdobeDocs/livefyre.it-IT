@@ -7,13 +7,16 @@ title: Risorse
 uuid: 21ab781a-3a05-4725-b77d-92decc2d2e1f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 
 # Risorse{#assets}
 
-Raccogliete, organizzate e mantenete il contenuto selezionato per l'utilizzo nelle app Livefyre.
+Raccogliete, organizzate e mantenete il contenuto selezionato per l&#39;utilizzo nelle app Livefyre.
 
 Le risorse sono contenuti salvati nella libreria. Le risorse sono ricercabili e riutilizzabili e possono includere informazioni aggiuntive, inclusi tag e diritti di riutilizzo.
 
