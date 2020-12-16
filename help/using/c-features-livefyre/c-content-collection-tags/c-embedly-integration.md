@@ -7,13 +7,16 @@ title: Integrazione Embedly
 uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 11%
 
 ---
 
 
-# Integrazione Embedly{#embedly-integration}
+# Integrazione Embedly {#embedly-integration}
 
-Use `embed.ly` to display multiple media formats, directly in the App.
+Utilizzate `embed.ly` per visualizzare più formati multimediali direttamente nell&#39;app.
 
 Per abilitare meglio i contenuti multimediali incorporati da diverse fonti, tra cui Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify e Tumblr, le app Livefyre utilizzano Incorporatamente come provider di terze parti per l’espansione degli URL. Se un utente o un moderatore include un collegamento supportato in un post, i contenuti multimediali inclusi nel collegamento si espandono quando vengono inviati alla raccolta.
 
@@ -21,21 +24,21 @@ In questo modo, le app Livefyre possono accedere alle oltre 250 diverse opzioni 
 
 >[!NOTE]
 >
->Livefyre espande solo un sottoinsieme dell'elenco completo dei fornitori di Embedded. Le immagini incorporate si espanderanno sulle pagine HTTPS solo se il provider è Twitter, YouTube, Imgur, Vine, Wikipedia o SoundCloud. Per ulteriori informazioni sull'espansione dei collegamenti o sulle origini, contattate l'Account Manager tecnico.
+>Livefyre espande solo un sottoinsieme dell&#39;elenco completo dei fornitori di Embedded. Le immagini incorporate si espandono sulle pagine HTTPS solo se il provider è Twitter, YouTube, Imgur, Vine, Wikipedia o SoundCloud. Per ulteriori informazioni sull&#39;espansione dei collegamenti o sulle origini, contattate l&#39;Account Manager tecnico.
 
-In questa pagina sono riportati alcuni esempi di tipi di supporti incorporati diffusi e i relativi pattern URL accettabili. `Embed.ly` aggiunge continuamente nuove fonti. Per un elenco completo dei fornitori, visitate `https://embed.ly/embed/features/providers`.
+In questa pagina sono riportati alcuni esempi di tipi di supporti incorporati diffusi e i relativi pattern URL accettabili. `Embed.ly` aggiunge continuamente nuove fonti. Per un elenco completo dei fornitori, andate a `https://embed.ly/embed/features/providers`.
 
 >[!NOTE]
 >
 >La formattazione Incorporata richiede un collegamento permalink completo. I collegamenti abbreviati non funzioneranno.
 
-È possibile incorporare solo contenuti visualizzabili al pubblico. Se tentate di incorporare un contenuto che non è pubblico, il collegamento al contenuto verrà visualizzato nel post del blog e verrà accompagnato da un'icona segnaposto. Quando un utente fa clic sul collegamento, il lettore riceve un messaggio di errore dal servizio in cui è ospitato il contenuto, ad esempio un messaggio Facebook per una foto solo per gli amici. Contattate l'Account Manager se notate che i supporti non sono espansi come previsto.
+È possibile incorporare solo contenuti visualizzabili al pubblico. Se tentate di incorporare un contenuto che non è pubblico, il collegamento al contenuto verrà visualizzato nel post del blog e verrà accompagnato da un&#39;icona segnaposto. Quando un utente fa clic sul collegamento, il lettore riceve un messaggio di errore dal servizio in cui è ospitato il contenuto, ad esempio un messaggio Facebook per una foto solo per gli amici. Contattate l&#39;Account Manager se notate che i supporti non sono espansi come previsto.
 
 ## URL incorporati di esempio
 
 | Type (Tipo) | Provider | URL |
 |--- |--- |--- |
-| Mappe | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Nota**: L'URL deve iniziare con `http` e non con `https.` |
+| Mappe | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Nota**: L&#39;URL deve iniziare con  `http` e non  `https.` |
 | Social Networking | Google Plus | <ul><li>`https://plus.google.com/*`</li><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li>`https://google.com/profiles/*`</li></ul> |
 | Video | YouTube | <ul><li>`https://*youtube.com/watch*`</li><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul> |
 | Foto | Flickr | `https://www.flickr.com/photos/*`<br>`https://flic.kr/*` |
