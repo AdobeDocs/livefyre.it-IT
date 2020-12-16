@@ -28,7 +28,7 @@ Livefyre utilizza un&#39;interfaccia PUSH per inviare a un sistema esterno infor
 | none | Questo utente è un utente standard e non dispone di autorizzazioni speciali. |
 | emarginato | A questo utente è stato vietato di partecipare a qualsiasi conversazione. |
 
-Per pubblicare le autorizzazioni degli utenti nei sistemi esterni, dovete registrare un URL che riceve i dati delle autorizzazioni come richieste POST.
+Per pubblicare le autorizzazioni degli utenti nei sistemi esterni, è necessario registrare un URL che riceve i dati delle autorizzazioni come richieste di POST.
 
 Ad esempio:
 
@@ -49,4 +49,4 @@ L’URL registrato deve accettare i POST con i seguenti dati come tipo di conten
 | jid | JID dell&#39;utente la cui affiliazione viene modificata. Un JID è una stringa del modulo `user_id@network`. |
 | affiliazione | Nome delle autorizzazioni assegnate, che deve essere una delle seguenti:  `{admin | member | none | outcast | owner}` |
 
-Per ulteriori informazioni sull’aggiornamento delle impostazioni di affiliazione degli utenti, consultate [Aggiungi riferimento](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)API di affiliazione utenti.
+Per ulteriori informazioni sull&#39;aggiornamento delle impostazioni di affiliazione degli utenti, consultate la sezione [Add User Affiliation API Reference](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post) (Aggiungi riferimento API di affiliazione utenti).
