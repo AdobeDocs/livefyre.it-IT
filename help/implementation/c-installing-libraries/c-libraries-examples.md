@@ -7,13 +7,16 @@ title: Esempi
 uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 9%
 
 ---
 
 
 # Esempi{#examples}
 
-Alcuni esempi sull'utilizzo delle librerie.
+Alcuni esempi sull&#39;utilizzo delle librerie.
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -280,7 +283,7 @@ class LivefyreExample {
 }
 ```
 
-## Esempio di Python {#section_dwg_gds_rz}
+## Esempio Python {#section_dwg_gds_rz}
 
 ```
 from livefyre import Livefyre 
