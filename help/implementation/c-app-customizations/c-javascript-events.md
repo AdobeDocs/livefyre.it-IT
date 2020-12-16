@@ -7,6 +7,9 @@ title: Definizioni ed esempi di eventi JavaScript
 uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 15%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
 
-Livefyre fornisce eventi JavaScript per monitorare l'attività degli utenti nelle app Livefyre. Ad esempio, potete decidere di aggiornare la pagina quando gli utenti desiderano o condividono contenuti su Twitter o Facebook, oppure quando vengono pubblicati nuovi contenuti.
+Livefyre fornisce eventi JavaScript per monitorare l&#39;attività degli utenti nelle app Livefyre. Ad esempio, potete decidere di aggiornare la pagina quando gli utenti desiderano o condividono contenuti su Twitter o Facebook, oppure quando vengono pubblicati nuovi contenuti.
 
-Livefyre consente inoltre di aggiungere eventi alle integrazioni di analisi di terze parti (Adobe Analytics JS, Google Analytics, Gestione tag dinamica, ecc.) per tenere traccia degli eventi delle app. Per ulteriori informazioni, rivolgiti al tuo responsabile dell'integrazione di terze parti per fornire gli eventi corretti.
+Livefyre consente inoltre di aggiungere eventi alle integrazioni di analisi di terze parti ( Adobe Analytics JS, Google Analytics, Gestione tag dinamica, ecc.) per tenere traccia degli eventi delle app. Per ulteriori informazioni, rivolgiti al tuo responsabile dell&#39;integrazione di terze parti per fornire gli eventi corretti.
 
-Per eseguire un binding con questi eventi, aggiungi il codice seguente alla pagina quando crei un'istanza dell'app su una pagina. Sostituite il nome dell’evento per `{eventName}`:
+Per eseguire un binding con questi eventi, aggiungi il codice seguente alla pagina quando crei un&#39;istanza dell&#39;app su una pagina. Sostituire il nome dell&#39;evento per `{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -40,8 +43,8 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 Un utente ha pubblicato un commento.
 
 * Un elemento padre di null è un nuovo commento.
-* Un elemento padre di None è un commento modificato.
-* Un numero per parent è l'ID padre della risposta.
+* Un elemento padre di None (Nessuno) è un commento modificato.
+* Un numero per parent è l&#39;ID padre della risposta.
 
 ```
 data = { 
@@ -56,7 +59,7 @@ data = {
 } 
 ```
 
-## commentFlagged {#section_szy_s1p_xz}
+## commentFlag {#section_szy_s1p_xz}
 
 Un utente ha segnalato un commento.
 
@@ -102,7 +105,7 @@ data: 34 // The total number of visible comments in the conversation (integer).
 
 ## userLoggedIn {#section_yjt_vz4_xz}
 
-Un utente ha eseguito l'accesso.
+Un utente ha eseguito l&#39;accesso.
 
 ```
 data = { 
@@ -148,19 +151,19 @@ data = {
 
 ## initialRenderComplete {#section_odc_4z4_xz}
 
-Il flusso dei commenti è stato caricato e il set iniziale di contenuti è stato recuperato dal server e visualizzato all'utente.
+Il flusso dei commenti è stato caricato e il set iniziale di contenuti è stato recuperato dal server e visualizzato all&#39;utente.
 
 data non definito.
 
 ## showMore {#section_pqg_nz4_xz}
 
-Un utente ha fatto clic sul **[!UICONTROL Show More]** pulsante.
+Un utente ha fatto clic sul pulsante **[!UICONTROL Show More]**.
 
 data non definito.
 
-## userFollowed {#section_xxw_jz4_xz}
+## userSegued {#section_xxw_jz4_xz}
 
-Restituisce true quando un utente fa clic sul **[!UICONTROL Follow]** pulsante, false quando il contenuto viene inviato al flusso.
+Restituisce true quando un utente fa clic sul pulsante **[!UICONTROL Follow]** e false quando il contenuto viene inviato al flusso.
 
 ```
 data = { 
