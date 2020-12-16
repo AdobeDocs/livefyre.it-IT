@@ -7,21 +7,24 @@ title: Personalizzazioni mappa
 uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
 
-# Personalizzazioni mappa{#map-customizations}
+# Mappa personalizzazioni{#map-customizations}
 
 Modificate le opzioni di dimensione, larghezza e interazione dell’app Mappa.
 
 
 
-Le seguenti opzioni sono disponibili dall'app Mappa:
+Le seguenti opzioni sono disponibili dall&#39;app Mappa:
 
 * **[!UICONTROL Cluster number]**
 
-   Imposta il colore per i numeri elencati sopra ogni cluster di contenuti nell'app.
+   Imposta il colore per i numeri elencati sopra ogni cluster di contenuti nell&#39;app.
 
 * **[!UICONTROL Show zoom controls]**
 
@@ -45,15 +48,15 @@ Le seguenti opzioni sono disponibili dall'app Mappa:
 
    >[!NOTE]
    >
-   >Se gli sviluppatori Web hanno definito una mappa **[!UICONTROL height]** per la mappa sulla pagina, questi valori verranno ignorati e la mappa seguirà le convenzioni di ridimensionamento reattiva. Se non hanno definito un'altezza, questi valori verranno utilizzati e la mappa verrà posizionata in una dimensione impostata (progettazione non reattiva). Se questi campi sono lasciati vuoti, per impostazione predefinita il valore sarà largo 600 px per 400 px e la mappa non sarà reattiva.
+   >Se gli sviluppatori Web hanno definito una **[!UICONTROL height]** per la mappa sulla pagina, questi valori verranno ignorati e la mappa seguirà le convenzioni di ridimensionamento reattiva. Se non hanno definito un&#39;altezza, questi valori verranno utilizzati e la mappa verrà posizionata in una dimensione impostata (progettazione non reattiva). Se questi campi sono lasciati vuoti, per impostazione predefinita il valore sarà largo 600 px per 400 px e la mappa non sarà reattiva.
 
 * **[!UICONTROL Location]**
 
    Inserire la posizione intorno alla quale si desidera centrare la mappa. Usate il cursore sotto la mappa di anteprima per definire lo zoom.
 
-Potete personalizzare l'app Mappa utilizzando:
+Potete personalizzare l&#39;app Mappa utilizzando:
 
-* **[!UICONTROL Style]** e **[!UICONTROL Config]** le opzioni per tutte le app in **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sugli standard **[!UICONTROL Style]** e sulle **[!UICONTROL Config]** opzioni di tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
 
 * Strumenti di integrazione. Per ulteriori informazioni su come personalizzare le app tramite gli strumenti di integrazione, consulta Mappa.
 
