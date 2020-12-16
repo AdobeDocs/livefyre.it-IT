@@ -7,6 +7,9 @@ title: Note sulla versione di Livefyre 18 dicembre 2018
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ## Miglioramento
 
-* Implementata un'impostazione che abilita le impostazioni dell'account aziendale Instagram per impostazione predefinita.
+* Implementata un&#39;impostazione che abilita le impostazioni dell&#39;account aziendale Instagram per impostazione predefinita.
 
 ## Correzioni di bug
 
