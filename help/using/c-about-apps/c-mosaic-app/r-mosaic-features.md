@@ -7,17 +7,20 @@ title: Funzioni Mosaico
 uuid: 95129d56-a4c4-42d5-8c68-c5fc159017e6
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 2%
 
 ---
 
 
-# Funzioni Mosaico{#mosaic-features}
+# Funzioni per mosaico{#mosaic-features}
 
-L'app Mosaic offre queste funzionalità per il sito.
+L&#39;app Mosaic offre queste funzionalità per il sito.
 
 
 
-L'app Mosaic ha le seguenti caratteristiche:
+L&#39;app Mosaic ha le seguenti caratteristiche:
 
 * [Avatar](/help/using/c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)
 * [Stile CSS](/help/using/c-features-livefyre/c-styling-features/c-css-styling-branding.md#c_css_styling_branding)
