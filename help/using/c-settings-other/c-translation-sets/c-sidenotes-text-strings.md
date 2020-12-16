@@ -7,21 +7,31 @@ title: Note Di Testo Stringhe
 uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 8%
 
 ---
 
 
-# Note Di Testo Stringhe{#sidenotes-text-strings}
+# Note per stringhe di testo{#sidenotes-text-strings}
 
 Personalizzazione delle stringhe di testo per Livefyre Sidenotes
 
 Questa pagina elenca e descrive tutte le stringhe disponibili per la personalizzazione nelle app Sidenotes. Per informazioni sulle stringhe disponibili per le app Livefyre di base, consultate Personalizzazioni delle stringhe.
 
-ImplementationAuthStream InfoAuthor / Content InfoUser ActionsPost FunctionsModerator InterfaceErrors
+Implementazione
+Auth
+Informazioni flusso
+Autore/Informazioni contenuto
+Azioni utente
+Funzioni di post
+Interfaccia Moderatore
+Errori
 
 ## Implementazione {#section_wp2_ql4_xz}
 
-Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all'oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all&#39;oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -44,7 +54,7 @@ Stringhe disponibili per il processo di autenticazione e dai menu utente autenti
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
 | Stringhe del menu di autenticazione | menuAuthSignInBtn | Accedi |
-|  | menuAuthSignedInMsg | È necessario aver effettuato l'accesso a {action} |
+|  | menuAuthSignedInMsg | È necessario aver effettuato l&#39;accesso a {action} |
 |  | menuUserEditProfile | Modifica profilo |
 |  | menuUserAdmin | Admin Console |
 |  | menuUserLogout | Disconnetti |
@@ -60,7 +70,7 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 |  | menuInfoHelp | Aiuto |
 |  | menuInfoLivefyreLink | Visita Livefyre.com |
 
-## Autore/Informazioni contenuto {#section_dhb_gl4_xz}
+## Autore / Informazioni contenuto {#section_dhb_gl4_xz}
 
 Impostazioni disponibili per le informazioni sull’autore e i singoli contenuti.
 
@@ -75,13 +85,13 @@ Impostazioni disponibili per le informazioni sull’autore e i singoli contenuti
 |  | commentCountSing | Votazione |
 |  | datetimeMinutePrefix | m |
 |  | datetimeMonths | Un array. Impostazione predefinita =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]` |
-|  | questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia il testo</span> e fai clic sull’ <span class="&rdquo;fycon-write&rdquo;"></span> icona o fai clic sull’ <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
-|  | questionMockText | Ciò che è "familiare" non è ben noto, solo per il motivo che è "familiare". |
-|  | questionTitle | Cos'è una Sidenote? |
+|  | questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia </span> il testo e fai clic sull’ <span class="&rdquo;fycon-write&rdquo;"></span> icona o fai clic sull’ <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
+|  | questionMockText | Ciò che è &quot;familiare&quot; non è ben noto, solo per il motivo che è &quot;familiare&quot;. |
+|  | questionTitle | Cos&#39;è una Sidenote? |
 
 ## Azioni utente {#section_qxd_fl4_xz}
 
-Stringhe disponibili per le azioni dell'utente: applicazione di flag, condivisione e collegamento ai contenuti esistenti.
+Stringhe disponibili per le azioni dell&#39;utente: applicazione di flag, condivisione e collegamento ai contenuti esistenti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
@@ -90,19 +100,19 @@ Stringhe disponibili per le azioni dell'utente: applicazione di flag, condivisio
 | Opzioni del menu Condividi | menuShareOptionFacebook | Facebook |
 |  | menuShareOptionTwitter | Twitter |
 |  | menuShareTitle | Condividi |
-| Opzioni del menu Flag | menuFlagOptionDisagreement | Non d'accordo |
+| Opzioni del menu Contrassegno | menuFlagOptionDisagreement | Non d&#39;accordo |
 |  | menuFlagOptionOffensive | Offensivo |
 |  | menuFlagOptionOffTopic | Disattiva argomento |
 |  | menuFlagOptionSpam | Spam |
 |  | menuFlagTitle | Contrassegna come... |
-|  | facebookShareCaption | Note su "{title}" |
+|  | facebookShareCaption | Note su &quot;{title}&quot; |
 | Opzioni utente per dispositivi mobili | sliderCommentTally | di |
 |  | sliderInviteRead | Letto |
 |  | sliderInviteWrite | Write |
 |  | sliderLoading | Caricamento in corso... |
 |  | sliderWriteText | Che ne pensa? Toccate per scrivere. |
 
-## Funzioni di post {#section_xzf_2l4_xz}
+## Funzioni post {#section_xzf_2l4_xz}
 
 Stringhe disponibili per gli utenti che pubblicano contenuti.
 
@@ -111,7 +121,7 @@ Stringhe disponibili per gli utenti che pubblicano contenuti.
 |  | editorEditBtn | Salva |
 |  | editorEditPosting | Salvataggio in corso... |
 |  | editorEditReplyTitle | Modifica risposta |
-|  | editorEditTitle | Modifica pannello |
+|  | editorEditTitle | Modifica Sidenote |
 |  | editorPlaceholder | Che ne pensa? |
 |  | editorPostBtn | Post Sidenote |
 |  | editorPostBtnMobile | Post |
@@ -134,9 +144,9 @@ Stringhe disponibili per gli utenti che pubblicano contenuti.
 |  | menuEtcPostedAt | Pubblicato il {date} |
 |  | menuEtcTitle | Altro |
 
-## Interfaccia Moderatore {#section_o5f_dl4_xz}
+## Interfaccia moderatore {#section_o5f_dl4_xz}
 
-Stringhe disponibili per l'interfaccia del moderatore autenticato dall'utente.
+Stringhe disponibili per l&#39;interfaccia del moderatore autenticato dall&#39;utente.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
