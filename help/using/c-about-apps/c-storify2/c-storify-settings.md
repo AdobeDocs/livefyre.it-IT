@@ -7,6 +7,9 @@ title: Impostazioni di archiviazione
 uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Regolate le impostazioni per i brani di Storify 2, ad esempio tag, moderazione e
 
 * **[!UICONTROL Tags]**
 
-   Utilizza i tag per cercare più facilmente le app in Studio.
+   Utilizzate i tag per cercare più facilmente le app in Studio.
 
 * **[!UICONTROL Allow New Content]**
 
@@ -33,7 +36,7 @@ Regolate le impostazioni per i brani di Storify 2, ad esempio tag, moderazione e
 
 * **[!UICONTROL Premoderate Content]**
 
-   Richiedi l'approvazione del moderatore prima che i Sidenotes siano resi pubblici.
+   Richiedi l&#39;approvazione del moderatore prima che i Sidenotes siano resi pubblici.
 
 * **[!UICONTROL Display Media]**
 
@@ -41,7 +44,7 @@ Regolate le impostazioni per i brani di Storify 2, ad esempio tag, moderazione e
 
 * **[!UICONTROL Premoderate Media]**
 
-   Richiedi l'approvazione del moderatore prima che i contenuti multimediali di Sidenotes vengano resi pubblici.
+   Richiedi l&#39;approvazione del moderatore prima che i contenuti multimediali di Sidenotes vengano resi pubblici.
 
 * **[!UICONTROL Queue New Content]**
 
