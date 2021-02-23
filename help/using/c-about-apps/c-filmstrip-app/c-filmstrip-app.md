@@ -1,14 +1,14 @@
 ---
-description: Filmstrip è un’app di visualizzazione che mostra i contenuti generati dall’utente in una singola striscia dinamica di foto orizzontali, simile a una striscia di pellicola proveniente da una fotocamera.
+description: 'Scopri tutte le informazioni sull''app Filmstrip con la nostra guida completa. L’app di visualizzazione mostra le immagini in una striscia di pellicola retrò. Padroneggia con i nostri suggerimenti. '
 seo-description: Filmstrip è un’app di visualizzazione che mostra i contenuti generati dall’utente in una singola striscia dinamica di foto orizzontali, simile a una striscia di pellicola proveniente da una fotocamera.
 seo-title: Filmstrip
 solution: Experience Manager
-title: Filmstrip
+title: Guida all'app Filmstrip
 uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Filmstrip è un’app di visualizzazione che mostra i contenuti generati dall’utente in una singola striscia dinamica di foto orizzontali, simile a una striscia di pellicola proveniente da una fotocamera.
 
-## Filmstrip {#section_tng_slj_yy}
+## Scoprite come utilizzare Filmstrip {#section_tng_slj_yy}
 
 Potete utilizzare Filmstrip con UGC in scenari di e-commerce, ad esempio pagine di prodotti o siti Web transazionali. Gli utenti finali possono spostarsi nell’area Filmstrip facendo clic sulle frecce laterali per scorrere il contenuto disponibile da sinistra a destra. Il nuovo contenuto viene visualizzato a sinistra mentre entra nell&#39;app. Potete scegliere se l&#39;UGC di recente streaming avrà un&#39;etichetta che riporta *New* per aiutare i visitatori del sito a identificare rapidamente il nuovo contenuto.
 
