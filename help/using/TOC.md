@@ -1,7 +1,7 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Guida a Livefyre
+user-guide-title: Guida di Livefyre
 user-guide-description: Utilizzare Livefyre Studio per creare app, raccogliere contenuti generati dall’utente e moderare contenuti.
 translation-type: tm+mt
 source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
@@ -12,7 +12,7 @@ ht-degree: 6%
 ---
 
 
-# Guida a Livefyre {#using}
+# Guida di Livefyre {#using}
 
 + [Guida di Livefyre](home.md)
 + [Annunci](c-anouncements.md)
