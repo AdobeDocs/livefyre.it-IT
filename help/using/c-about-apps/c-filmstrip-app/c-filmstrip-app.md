@@ -1,28 +1,24 @@
 ---
-description: 'Scopri tutte le informazioni sull''app Filmstrip con la nostra guida completa. L’app di visualizzazione mostra le immagini in una striscia di pellicola retrò. Padroneggia con i nostri suggerimenti. '
-seo-description: Filmstrip è un’app di visualizzazione che mostra i contenuti generati dall’utente in una singola striscia dinamica di foto orizzontali, simile a una striscia di pellicola proveniente da una fotocamera.
-seo-title: Filmstrip
-solution: Experience Manager
-title: Guida all'app Filmstrip
-uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
+description: 'Scopri tutte le informazioni sull’app Filmstrip con la nostra guida completa. L''app di visualizzazione mostra le tue immagini in una striscia di pellicola retrò. Padroneggialo con i nostri consigli. '
+title: Guida all’app Filmstrip
+exl-id: a96e5de0-bebb-42ee-ae10-813ad8b9e960
 translation-type: tm+mt
-source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
 
-
 # Filmstrip{#filmstrip}
 
-Filmstrip è un’app di visualizzazione che mostra i contenuti generati dall’utente in una singola striscia dinamica di foto orizzontali, simile a una striscia di pellicola proveniente da una fotocamera.
+Filmstrip è un’app di visualizzazione che presenta i contenuti generati dall’utente in una singola e dinamica striscia orizzontale di foto, simile a una striscia di film proveniente da una fotocamera.
 
-## Scoprite come utilizzare Filmstrip {#section_tng_slj_yy}
+## Scopri come utilizzare Filmstrip {#section_tng_slj_yy}
 
-Potete utilizzare Filmstrip con UGC in scenari di e-commerce, ad esempio pagine di prodotti o siti Web transazionali. Gli utenti finali possono spostarsi nell’area Filmstrip facendo clic sulle frecce laterali per scorrere il contenuto disponibile da sinistra a destra. Il nuovo contenuto viene visualizzato a sinistra mentre entra nell&#39;app. Potete scegliere se l&#39;UGC di recente streaming avrà un&#39;etichetta che riporta *New* per aiutare i visitatori del sito a identificare rapidamente il nuovo contenuto.
+È possibile utilizzare Filmstrip con UGC in scenari di e-commerce, ad esempio pagine di prodotto o siti web transazionali. Gli utenti finali possono navigare in Filmstrip facendo clic sulle frecce laterali per scorrere il contenuto disponibile da sinistra a destra. Il nuovo contenuto viene visualizzato a sinistra durante l’accesso all’app. Puoi scegliere se l’UGC appena inviato in streaming avrà un’etichetta che indica *Nuovo* per aiutare i visitatori del sito a identificare rapidamente nuovi contenuti.
 
-Potete scegliere se i visitatori del sito possono visualizzare un pulsante di invito all&#39;azione su una scheda e passare il mouse sul pulsante per visualizzare un&#39;anteprima dei prodotti in vendita. Potete scegliere di associare i prodotti dal catalogo prodotti al contenuto del Filmstrip. I visitatori di siti mobili e non mobili possono fare clic su una scheda per visualizzare un&#39;immagine più grande, condividere contenuti, riprodurre video o visualizzare prodotti associati e un pulsante di invito all&#39;azione per acquistare gli elementi.
+Puoi scegliere se i visitatori del sito possono visualizzare un pulsante di invito all’azione su una scheda e passare il cursore del mouse sul pulsante per visualizzare un’anteprima dei prodotti in vendita. È possibile scegliere di associare i prodotti del catalogo prodotti con i contenuti del Filmstrip. I visitatori di siti mobili e non mobili possono fare clic su una scheda per visualizzare un’immagine più grande, condividere contenuti, riprodurre video o visualizzare prodotti associati e un pulsante di invito all’azione per acquistare gli elementi.
 
 ## Che tipo di contenuto posso pubblicare in un Filmstrip? {#section_b5h_qlj_yy}
 
@@ -42,45 +38,45 @@ Origini di contenuto supportate:
 * Tumblr
 * Livefyre
 
-Non potete pubblicare contenuto contenente testo solo in un Filmstrip. Potete pubblicare il testo solo se fa parte di un post di foto o video.
+Non è possibile pubblicare contenuti contenenti testo solo in un Filmstrip. Puoi pubblicare il testo solo se fa parte di un post di foto o video.
 
 ## In che modo un visitatore del sito vede il contenuto in un Filmstrip? {#section_w5c_plj_yy}
 
-Un visitatore del sito visualizza il contenuto popolato in un Filmstrip da Studio da un flusso di studio, una libreria o una ricerca social network. Se il nuovo contenuto viene pubblicato nell&#39;app mentre un visitatore del sito si trova sulla pagina, il nuovo contenuto viene visualizzato a sinistra e invia il contenuto precedente a destra in tempo reale, senza che il visitatore del sito debba aggiornare la propria pagina. Se scegliete di notificare al visitatore del sito il nuovo contenuto, il visitatore del sito visualizzerà una notifica con la dicitura &quot;new&quot; e una freccia verso sinistra per indicare che deve scorrere a sinistra per visualizzare il nuovo contenuto.
+Un visitatore del sito visualizza il contenuto popolato in un Filmstrip da Studio da uno Studio Stream, una Libreria o una Ricerca Social. Se i nuovi contenuti vengono pubblicati nell’app mentre un visitatore del sito si trova sulla pagina, il nuovo contenuto viene visualizzato a sinistra e invia i vecchi contenuti a destra in tempo reale senza che un visitatore del sito debba aggiornare la propria pagina. Se scegli di avvisare il visitatore del sito di nuovi contenuti, il visitatore del sito visualizza una notifica che indica &quot;nuovo&quot; e una freccia rivolta verso sinistra per indicare che deve scorrere a sinistra per visualizzare nuovi contenuti.
 
 ## Cosa succede quando un visitatore del sito fa clic su un elemento in un Filmstrip? {#section_cvz_nlj_yy}
 
-Su un computer o un dispositivo mobile, fate clic su una scheda per condividere il contenuto, visualizzare un&#39;immagine più grande, guardare un video, vedere più elementi multimediali o visualizzare i prodotti associati con tag nell&#39;UGC.
+Su un computer o un dispositivo mobile, fai clic su una scheda per condividere il contenuto, visualizzare un’immagine più grande, guardare un video, vedere più elementi multimediali o visualizzare i prodotti associati con tag nell’UGC.
 
-Su un computer, passate il mouse sul pulsante di invito all’azione per visualizzare i prodotti associati al contenuto.
+In un computer, passa il puntatore del mouse sul pulsante di invito all’azione per visualizzare i prodotti associati al contenuto.
 
-## Un visitatore del sito può condividere il contenuto di un Filmstrip? {#section_zzz_mlj_yy}
+## Un visitatore del sito può condividere il contenuto da un Filmstrip? {#section_zzz_mlj_yy}
 
-Sì. Un visitatore del sito può condividere tutti i tipi di contenuto in un Filmstrip. Su un computer o un dispositivo mobile, fate clic su una scheda per aprirla e fate clic sull&#39;icona Condividi.
+Sì. Un visitatore del sito può condividere tutti i tipi di contenuto su un Filmstrip. Su un computer o su un dispositivo mobile, fai clic su una scheda per aprirla e fai clic sull&#39;icona di condivisione.
 
 ## In che modo i nuovi contenuti vengono aggiunti a un Filmstrip? {#section_f4w_klj_yy}
 
-Aggiungete contenuto a un Filmstrip tramite:
+Aggiungere contenuto a un Filmstrip:
 
 * Pubblicazione manuale dalla libreria, dal contenuto dell’app o da ModQ.
 * Impostazione di un flusso per la pubblicazione automatica.
 
-Il nuovo contenuto viene inviato automaticamente nell’app Filmstrip a sinistra e in tempo reale a destra, senza che il visitatore del sito debba aggiornare la propria pagina. Se scegliete di notificare al visitatore del sito il nuovo contenuto, il visitatore del sito visualizzerà una notifica con la dicitura &quot;new&quot; e una freccia rivolta verso sinistra per indicare che se desidera visualizzare il nuovo contenuto, dovrà scorrere a sinistra per visualizzare il nuovo contenuto.
+Il nuovo contenuto viene automaticamente inviato all’app Filmstrip sulla sinistra e in tempo reale viene inviato a destra il vecchio contenuto senza che un visitatore del sito debba aggiornare la propria pagina. Se scegli di avvisare il visitatore del sito del nuovo contenuto, il visitatore del sito visualizza una notifica che indica &quot;nuovo&quot; e una freccia rivolta verso sinistra per indicare che se desidera visualizzare il nuovo contenuto deve scorrere a sinistra per visualizzare il nuovo contenuto.
 
-## In che modo il contenuto solo testo viene visualizzato nell&#39;app? {#section_h31_klj_yy}
+## Come viene visualizzato il contenuto solo testo nell’app? {#section_h31_klj_yy}
 
-Filmstrip non visualizza contenuto solo testuale. Filmstrip consente di visualizzare solo immagini e video.
+Filmstrip non visualizza contenuto solo testuale. Filmstrip mostra solo immagini e video.
 
-## Perché alcuni dei miei contenuti non vengono visualizzati sul sito anche se vengono visualizzati in Studio? {#section_upr_hlj_yy}
+## Perché alcuni dei miei contenuti non vengono visualizzati sul mio sito anche se il contenuto viene visualizzato in Studio? {#section_upr_hlj_yy}
 
-Per impostazione predefinita, Filmstrip visualizza il contenuto in una striscia orizzontale di cinque elementi. Il numero di sezioni dipende dalle dimensioni del contenitore in cui viene visualizzata l&#39;app e dalla dimensione della sezione scelta in App Designer. Livefyre consiglia di aggiungere almeno da 5 a 10 contenuti nell’app Filmstrip per fornire un numero adeguato di sezioni con contenuti e consentire agli utenti di scorrere per trovare altro.
+Per impostazione predefinita, il contenuto viene visualizzato in una striscia orizzontale di cinque punti. Il numero di riquadri dipende dalle dimensioni del contenitore in cui viene visualizzata l’app e dalla dimensione del riquadro scelta in App Designer. Livefyre consiglia di aggiungere almeno da cinque a dieci parti di contenuto nell’app Filmstrip per fornire un numero adeguato di porzioni con contenuto e consentire agli utenti di scorrere fino a trovare altro.
 
-A volte il contenuto non viene visualizzato perché è stato attivato **[!UICONTROL Require rights]**. Se attivate questa opzione, dovete disporre dei diritti concessi per tutto il contenuto nell&#39;app. Se lo stato dei diritti non è &quot;concesso&quot; per una parte del contenuto, non verrà visualizzato nell&#39;app.
+A volte il contenuto non viene visualizzato perché è stato attivato **[!UICONTROL Require rights]**. Se lo attivi, devi avere i diritti concessi per tutto il contenuto dell’app. Se lo stato dei diritti non è &quot;concesso&quot; per un contenuto, non verrà visualizzato nell’app.
 
-## In che modo un visitatore del sito sa quando viene aggiunto un nuovo prodotto? {#section_ttt_xps_mbb}
+## Come fa un visitatore del sito a sapere quando viene aggiunto un nuovo prodotto? {#section_ttt_xps_mbb}
 
-Potete scegliere di aggiungere notifiche di nuovo contenuto mentre viene aggiunto passando da **[!UICONTROL Show Notifications]** a **[!UICONTROL On]**.
+Puoi scegliere di aggiungere notifiche di nuovo contenuto mentre viene aggiunto passando da **[!UICONTROL Show Notifications]** a **[!UICONTROL On]**.
 
-## Crea Filmstrip con Studio {#section_dwb_glj_yy}
+## Creare sequenze utilizzando Studio {#section_dwb_glj_yy}
 
-Tutte le app vengono create nello stesso modo in Livefyre Studio. Consultate Creazione di app per informazioni dettagliate su come creare un’app Filmstrip App in Studio utilizzando il processo standard.
+Crea tutte le app in Livefyre Studio allo stesso modo. Per informazioni dettagliate su come creare un’app Filmstrip in Studio utilizzando il processo standard, consulta Creazione di app .
