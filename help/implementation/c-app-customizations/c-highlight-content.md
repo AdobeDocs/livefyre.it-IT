@@ -1,29 +1,25 @@
 ---
-description: Utilizzate lo stile per feature e promuovere contenuti o gruppi di utenti selezionati.
-seo-description: Utilizzate lo stile per feature e promuovere contenuti o gruppi di utenti selezionati.
-seo-title: Evidenzia contenuto
-solution: Experience Manager
+description: Utilizza lo stile per caratterizzare e promuovere contenuti o gruppi di utenti selezionati.
 title: Evidenzia contenuto
-uuid: 89876b89-3ee2-40cd-9431-377e43ea1e89
+exl-id: 2c287965-bce9-4d50-849a-f3ad9af39f87
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-
 # Evidenzia contenuto{#highlight-content}
 
-Utilizzate lo stile per feature e promuovere contenuti o gruppi di utenti selezionati.
+Utilizza lo stile per caratterizzare e promuovere contenuti o gruppi di utenti selezionati.
 
-Evidenzia i contenuti selezionati all&#39;interno delle tue App per richiamare i post più rilevanti e gli utenti più controllati.
+Evidenzia contenuti selezionati all’interno delle tue app per richiamare i post più rilevanti e gli utenti più controllati.
 
 >[!NOTE]
 >
->Le personalizzazioni sono disponibili solo per le App che consentono i post utente e sono configurate utilizzando un oggetto ConvConfig: ad esempio Chat, Commenti, Live Blog, Recensioni e note.
+>Le personalizzazioni sono disponibili solo per le app che consentono i post utente e sono configurate utilizzando un oggetto ConvConfig: ad esempio Chat, Commenti, Live Blog, Recensioni e Note a margine.
 
-La funzione di contenuto consente di richiamare l’attenzione su specifici post utente. Il contenuto in primo piano potrebbe avere uno stile diverso rispetto ad altri contenuti della pagina e il contenuto in primo piano in LiveCycle viene visualizzato sopra l&#39;editor.
+I contenuti consentono di richiamare l’attenzione su specifici post utente. Il contenuto in primo piano può essere formattato in modo diverso rispetto agli altri contenuti della pagina, e il contenuto nativo in primo piano di Livefyre viene visualizzato sopra l’editor.
 
-Lo stile del contenuto di un gruppo di utenti consente di evidenziare i contenuti pubblicati da tipi di utenti specifici, quali moderatori, editor o qualsiasi altro gruppo di utenti da definire.
+Lo stile dei contenuti dei gruppi di utenti consente di evidenziare i contenuti pubblicati da tipi di utenti specifici, come moderatori, editor o qualsiasi altro gruppo di utenti che desideri definire.
