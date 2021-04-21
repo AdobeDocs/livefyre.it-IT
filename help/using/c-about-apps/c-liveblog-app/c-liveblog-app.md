@@ -1,34 +1,29 @@
 ---
-description: Live Blog consente a scrittori ed editor di pubblicare aggiornamenti in tempo reale, trasformando il sito in una fonte di notizie dal vivo accattivante.
-seo-description: Live Blog consente a scrittori ed editor di pubblicare aggiornamenti in tempo reale, trasformando il sito in una fonte di notizie dal vivo accattivante.
-seo-title: Blog dal vivo
-solution: Experience Manager
+description: Live Blog permette ai tuoi autori e editor di pubblicare aggiornamenti in tempo reale, trasformando il tuo sito in una fonte di notizie dal vivo coinvolgente.
 title: Blog dal vivo
-uuid: 40ae3120-c630-440e-b224-49cd99677dc2
+exl-id: 9a356e8b-7120-466b-8c78-4e7d6d21d0c4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
+# Blog live{#live-blog}
 
-# Live Blog{#live-blog}
+Live Blog permette ai tuoi autori e editor di pubblicare aggiornamenti in tempo reale, trasformando il tuo sito in una fonte di notizie dal vivo coinvolgente.
 
-Live Blog consente a scrittori ed editor di pubblicare aggiornamenti in tempo reale, trasformando il sito in una fonte di notizie dal vivo accattivante.
-
-I post del tuo team, ricchi di immagini, video, audio e contenuti incorporati, diventano la fonte di nuove conversazioni e thread. Live Blog è perfetto quando viene utilizzato per rivelazioni di prodotti, programmi di premi ed eventi sportivi.
+I post del tuo team, ricchi di immagini, video, audio e contenuti incorporati, diventano la fonte di nuove conversazioni e thread. Live Blog è perfetto quando viene distribuito per rivelazioni di prodotti, programmi di premi ed eventi sportivi.
 
 Live Blog è diverso dai Commenti nei seguenti modi:
 
 * Solo i proprietari e i moderatori possono visualizzare la casella dei commenti e creare post di primo livello.
-* Le risposte degli utenti potrebbero essere disattivate per creare un&#39;esperienza di soli blogger.
+* Le risposte dell&#39;utente possono essere disattivate per creare un&#39;esperienza di solo blogger.
 * Gli utenti possono scrivere, caricare foto o pubblicare collegamenti incorporabili dal proprio computer o dispositivo mobile.
-* Il font del commento è più grande e gli avatar più piccoli per enfatizzare il contenuto.
-* Se necessario, gli avatar possono essere disattivati.
+* Il font del commento è più grande e gli avatar sono più piccoli per enfatizzare il contenuto.
+* Gli avatar possono essere disattivati, se necessario.
 
-Con un&#39;altra tempesta di neve in arrivo, Slate voleva fornire ai lettori aggiornamenti istantanei sulle oscillazioni del tempo selvaggio sulla costa orientale. Attraverso un blog dal vivo, gli editor di Slate hanno potuto condividere istantaneamente gli aggiornamenti sulla tempesta, incluse le proprie foto, i tweet degli utenti e le informazioni sulla nevicata. Il Live Blog è stato così utile che ha creato la prima pagina del sito di Slate.
+Con un&#39;altra tempesta di neve in arrivo, Slate voleva fornire ai lettori aggiornamenti istantanei sulle oscillazioni del tempo selvaggio sulla costa orientale. Con un blog dal vivo, gli editor di Slate hanno immediatamente condiviso gli aggiornamenti sulla tempesta, incluse le loro foto, i tweet degli utenti e le informazioni sulla nevicata. Il blog dal vivo è stato così utile che ha creato la prima pagina del sito di Slate.
 
 ![](assets/LiveBlogSlate_example.png)
-
