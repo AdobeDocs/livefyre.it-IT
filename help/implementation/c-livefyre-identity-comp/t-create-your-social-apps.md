@@ -1,23 +1,19 @@
 ---
-description: nulle
-seo-description: nulle
-seo-title: Creare le app per social network
-solution: Experience Manager
-title: Creare le app per social network
-uuid: b3698e44-19ba-489f-a4d2-072ba5430974
+title: Creare le app Social
+description: Creare le app Social
+exl-id: 414953f4-ae5e-4b45-a4e1-ec1e77c67d79
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
+# Crea le tue app social{#create-your-social-apps}
 
-# Creare le app per social network{#create-your-social-apps}
-
-Per consentire agli utenti di accedere utilizzando le proprie credenziali per i provider di servizi sociali seguenti:
+Per consentire agli utenti di accedere utilizzando le proprie credenziali per questi provider di social network:
 
 1. Creare app da utilizzare con Livefyre.
-1. Accedete al sito sviluppatore per i fornitori selezionati.
-1. Create le app necessarie per consentire ai vostri utenti di accedere utilizzando le loro credenziali social.
+1. Accedi al sito degli sviluppatori per i provider selezionati.
+1. Crea le app necessarie per consentire agli utenti di accedere utilizzando le loro credenziali social.
