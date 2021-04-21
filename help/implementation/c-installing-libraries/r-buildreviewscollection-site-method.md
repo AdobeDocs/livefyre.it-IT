@@ -1,28 +1,24 @@
 ---
-description: Restituisce un oggetto Collection istanziato come tipo Reviews. Eseguire create_or_update() dall'oggetto Collection per completare il processo di compilazione.
-seo-description: Restituisce un oggetto Collection istanziato come tipo Reviews. Eseguire create_or_update() dall'oggetto Collection per completare il processo di compilazione.
-seo-title: Metodo del sito buildReviewsCollection
-solution: Experience Manager
-title: Metodo del sito buildReviewsCollection
-uuid: 88af4c68-57de-4ae9-9394-550c94ede48f
+description: Restituisce un oggetto Collection istanziato come tipo Reviews. Esegui create_or_update() dall'oggetto Collection per completare il processo di compilazione.
+title: Metodo Site buildReviewsCollection
+exl-id: 581ad24c-d115-4ffb-93eb-936c2da6e3fa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
 
-
 # Metodo del sito buildReviewsCollection{#buildreviewscollection-site-method}
 
-Restituisce un oggetto Collection istanziato come tipo Reviews. Eseguire create_or_update() dall&#39;oggetto Collection per completare il processo di compilazione.
+Restituisce un oggetto Collection istanziato come tipo Reviews. Esegui create_or_update() dall&#39;oggetto Collection per completare il processo di compilazione.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
 | title | Stringa | Titolo della raccolta. |
 | articleId | Stringa | Un ID articolo univoco scelto per identificare una raccolta all&#39;interno del sito. |
-| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
+| url | Stringa | URL assoluto canonico per questa raccolta. |
 
 
 ## Esempio Java {#section_nyl_ycs_rz}
@@ -43,7 +39,7 @@ var collection = site.buildReviewsCollection(title, articleId, url);
 $collection = site->buildReviewsCollection(title, articleId, url); 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 collection = site.build_reviews_collection(title, articleId, url) 
@@ -54,4 +50,3 @@ collection = site.build_reviews_collection(title, articleId, url)
 ```
 collection = site.build_reviews_collection(title, articleId, url) 
 ```
-
