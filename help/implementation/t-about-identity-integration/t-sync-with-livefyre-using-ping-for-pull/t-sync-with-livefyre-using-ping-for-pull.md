@@ -1,55 +1,51 @@
 ---
-description: Utilizzate Ping for Pull per mantenere Livefyre sincronizzato con il sistema di gestione degli utenti.
-seo-description: Utilizzate Ping for Pull per mantenere Livefyre sincronizzato con il sistema di gestione degli utenti.
-seo-title: Sincronizzazione con Livefyre tramite Ping per pull
-solution: Experience Manager
-title: Sincronizzazione con Livefyre tramite Ping per pull
-uuid: 7b059064-1cca-46d7-8055-dfe59f493ac1
+description: Utilizza Ping per Pull per mantenere Livefyre sincronizzato con il tuo sistema di gestione degli utenti.
+title: Sincronizzazione con Livefyre utilizzando Ping per Pull
+exl-id: 01b5851d-9dc0-44dc-9c0d-0c467502450d
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
+# Sincronizzazione con Livefyre utilizzando Ping per Pull{#sync-with-livefyre-using-ping-for-pull}
 
-# Sincronizzazione con Livefyre utilizzando il ping per pull{#sync-with-livefyre-using-ping-for-pull}
+Utilizza Ping per Pull per mantenere Livefyre sincronizzato con il tuo sistema di gestione degli utenti.
 
-Utilizzate Ping for Pull per mantenere Livefyre sincronizzato con il sistema di gestione degli utenti.
-
-In generale, ***Ping*** Livefyre ogni volta che un utente del tuo sito Web/app aggiorna il proprio profilo (nome visualizzato, avatar, ecc.) e Livefyre ***Pulls*** il profilo aggiornato dell&#39;utente.
+In generale, ***Ping*** Livefyre ogni volta che un utente del tuo sito web/app aggiorna il suo profilo (nome visualizzato, avatar, ecc.) e Livefyre ***Pulls*** il profilo aggiornato dell&#39;utente.
 
 ![](assets/Ping-for-Pull.png)
 
-Ping per sequenza pull:
+Ping per sequenza di trazione:
 
-1. Il cliente invia una richiesta di ping a Livefyre (incluso l’utente da aggiornare).
-1. Livefyre conferma la ricezione del ping con HTTP 200/Success.
-1. Livefyre elabora la richiesta pull.
-1. Code Livefyre Richiesta pull.
-1. Livefyre esegue la richiesta pull all’endpoint per acquisire le informazioni utente aggiornate.
-1. Il cliente riceve la risposta pull e la convalida.
-1. Livefyre aggiorna i profili remoti con le informazioni di profilo esterne incluse nell&#39;endpoint pull.
+1. Il cliente invia una richiesta Ping a Livefyre (incluso l’utente da aggiornare).
+1. Livefyre conferma la ricezione di ping con HTTP 200/Success.
+1. Livefyre elabora la richiesta Pull.
+1. Richiesta di pull in coda di Livefyre.
+1. Livefyre esegue la richiesta di pull all’endpoint per acquisire le informazioni utente aggiornate.
+1. Il cliente riceve la risposta Pull e convalida.
+1. Livefyre aggiorna i profili remoti con le informazioni di profilo esterne incluse nell’endpoint Pull.
 
-Ping Livefyre ogni volta che un utente aggiorna le informazioni del proprio profilo. Mentre il tempo di completamento Ping for Pull può variare a seconda del carico di rete, aggiorna le informazioni utente tra 1 e 10 minuti. Le modifiche del profilo aggiornate verranno visualizzate prima in Livefyre Studio > Utenti.
+Effettua il ping di Livefyre ogni volta che un utente aggiorna le sue informazioni sul profilo. Mentre Ping per il tempo di completamento del pull può variare a seconda del carico di rete, aggiorna le informazioni utente tra 1 e 10 minuti. Le modifiche del profilo aggiornate verranno visualizzate prima in Livefyre Studio > Utenti.
 
-Le informazioni sul profilo aggiornate verranno visualizzate nelle app Livefyre dopo due eventi:
+Le informazioni sul profilo aggiornato verranno visualizzate nelle app Livefyre dopo due eventi:
 
-* Un utente si disconnette, quindi accede nuovamente all&#39;app. I valori dei nomi visualizzati in userAuthToken hanno precedenza rispetto a Ping per gli aggiornamenti pull. Un logout/login utente aggiornerà il token per aggiornare la sessione.
+* Un utente si disconnette, quindi accede di nuovo all’app. I valori del nome visualizzato in userAuthToken hanno la precedenza su Ping per gli aggiornamenti di Pull. Un utente disconnesso/login aggiornerà il token per aggiornare la sessione.
 
-   Per generare un nuovo userAuthToken quando vengono aggiornate le informazioni del profilo, utilizza SSO authDelegate per disconnettere l’utente e quindi di nuovo in background.
+   Per generare nuovi userAuthToken quando le informazioni sul profilo vengono aggiornate, utilizza l&#39;SSO authDelegate per disconnettersi e quindi accedere di nuovo in background.
 
-* Un aggiornamento di avvio alla raccolta includerà le informazioni aggiornate (al massimo ogni 5-10 minuti).
+* Un aggiornamento bootstrap della raccolta includerà le informazioni aggiornate (al massimo ogni 5-10 minuti).
 
-Per implementare Ping for Pull per il tuo sistema di profili utente:
+Per implementare Ping for Pull per il tuo sistema di profilo utente:
 
-1. [Create l&#39;endpoint](#t_build_the_pull_endpoint) pull.
+1. [Creare l’endpoint](#t_build_the_pull_endpoint) Pull.
 
    >[!NOTE]
    >
-   >La libreria Livefyre include un metodo syncUser per tenere aggiornati i profili utente. Se utilizzate la libreria Livefyre, saltate i due passaggi successivi.
+   >La libreria Livefyre include un metodo syncUser per mantenere i profili utente aggiornati. Ignora i due passaggi successivi se utilizzi la libreria Livefyre .
 
-1. [Registra l’endpoint pull in Studio](#register_the_endpoint_with_studio).
-1. [Create il ping](#t_build_the_ping).
-1. [Create il ping per la risposta] pull.(#reference_n3x_pzb_mz)
+1. [Registra l&#39;endpoint Pull in Studio](#register_the_endpoint_with_studio).
+1. [Crea il ping](#t_build_the_ping).
+1. [Genera il ping per la risposta] di pull.(#reference_n3x_pzb_mz)
