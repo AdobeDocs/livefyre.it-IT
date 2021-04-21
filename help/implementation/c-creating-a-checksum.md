@@ -1,21 +1,18 @@
 ---
-description: Create un checksum utilizzando le librerie Livefyre.
-seo-description: Create un checksum utilizzando le librerie Livefyre.
-seo-title: Creazione di un checksum
+description: Crea un checksum utilizzando le librerie Livefyre.
 title: Creazione di un checksum
-uuid: 2dddedaa-7a6d-434a-8db8-dc179935f810
+exl-id: 3ec42137-7a30-4c9f-a593-d1fab1a3d917
 translation-type: tm+mt
-source-git-commit: deae9c7c98fa0417f1ed553239da630817c13f02
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
-
 # Creazione di un checksum {#creating-a-checksum}
 
-Create un checksum utilizzando le librerie Livefyre.
+Crea un checksum utilizzando le librerie Livefyre.
 
 ## Java {#section_pfr_lqj_tz}
 
