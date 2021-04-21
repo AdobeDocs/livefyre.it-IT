@@ -1,28 +1,24 @@
 ---
 description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
-seo-description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
-seo-title: Definizioni ed esempi di eventi JavaScript
-solution: Experience Manager
 title: Definizioni ed esempi di eventi JavaScript
-uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
+exl-id: 5b865974-69aa-4d51-ac26-60f1d8a114fc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 15%
+source-wordcount: '375'
+ht-degree: 11%
 
 ---
-
 
 # Definizioni ed esempi di eventi JavaScript{#javascript-events-definitions-and-examples}
 
 Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
 
-Livefyre fornisce eventi JavaScript per monitorare l&#39;attività degli utenti nelle app Livefyre. Ad esempio, potete decidere di aggiornare la pagina quando gli utenti desiderano o condividono contenuti su Twitter o Facebook, oppure quando vengono pubblicati nuovi contenuti.
+Livefyre fornisce eventi JavaScript per monitorare l’attività dell’utente nelle app Livefyre. Ad esempio, puoi aggiornare la pagina quando gli utenti amano o condividono contenuti su Twitter o Facebook o quando vengono pubblicati nuovi contenuti.
 
-Livefyre consente inoltre di aggiungere eventi alle integrazioni di analisi di terze parti ( Adobe Analytics JS, Google Analytics, Gestione tag dinamica, ecc.) per tenere traccia degli eventi delle app. Per ulteriori informazioni, rivolgiti al tuo responsabile dell&#39;integrazione di terze parti per fornire gli eventi corretti.
+Livefyre consente inoltre di aggiungere eventi alle integrazioni di analisi di terze parti (Adobe Analytics JS, Google Analytics, Dynamic Tag Management, ecc.) per tenere traccia degli eventi delle app. Per ulteriori informazioni, collabora con il tuo gestore di integrazione di terze parti per fornire gli eventi corretti.
 
-Per eseguire un binding con questi eventi, aggiungi il codice seguente alla pagina quando crei un&#39;istanza dell&#39;app su una pagina. Sostituire il nome dell&#39;evento per `{eventName}`:
+Per eseguire il binding a questi eventi, aggiungi il codice seguente alla pagina durante la creazione di un’istanza dell’app su una pagina. Sostituisci il nome dell&#39;evento per `{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -36,15 +32,15 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->Gli oggetti dati sono forniti per tutti i gestori di eventi. Gli oggetti dati di esempio seguono ogni evento.
+>Gli oggetti dati vengono forniti per tutti i gestori eventi. Gli oggetti dati di esempio seguono ogni evento.
 
 ## commentPosted {#section_qfr_51p_xz}
 
-Un utente ha pubblicato un commento.
+Un utente ha postato un commento.
 
 * Un elemento padre di null è un nuovo commento.
-* Un elemento padre di None (Nessuno) è un commento modificato.
-* Un numero per parent è l&#39;ID padre della risposta.
+* Un elemento padre di Nessuno è un commento modificato.
+* Un numero per padre è l&#39;ID padre della risposta.
 
 ```
 data = { 
@@ -59,7 +55,7 @@ data = {
 } 
 ```
 
-## commentFlag {#section_szy_s1p_xz}
+## commentContrassegnato {#section_szy_s1p_xz}
 
 Un utente ha segnalato un commento.
 
@@ -73,7 +69,7 @@ data = {
 
 ## commentLiked {#section_vc1_r1p_xz}
 
-A un utente è piaciuto un commento.
+A un utente piaceva un commento.
 
 ```
 data = { 
@@ -85,7 +81,7 @@ data = {
 
 ## commentShared {#section_nqb_31p_xz}
 
-Un utente ha condiviso un commento dal flusso. (Questo evento non viene attivato quando gli utenti condividono l’audio dall’editor commenti). Questo evento viene attivato quando si fa clic sul pulsante Condividi.
+Un utente ha condiviso un commento dal flusso. (Questo evento non si attiva quando gli utenti condividono dall’editor Commenti). Questo evento viene attivato quando si fa clic sul pulsante Condividi .
 
 ```
 data = { 
@@ -97,7 +93,7 @@ data = {
 
 ## commentCountUpdated {#section_qdq_f1p_xz}
 
-Il numero totale di commenti visibili in questa conversazione è cambiato (incrementato o decrementato).
+Il numero totale di commenti visibili in questa conversazione è cambiato (incrementato o diminuito).
 
 ```
 data: 34 // The total number of visible comments in the conversation (integer). 
@@ -105,7 +101,7 @@ data: 34 // The total number of visible comments in the conversation (integer).
 
 ## userLoggedIn {#section_yjt_vz4_xz}
 
-Un utente ha eseguito l&#39;accesso.
+Un utente ha effettuato l&#39;accesso.
 
 ```
 data = { 
@@ -121,11 +117,11 @@ data = {
 
 Un utente si è disconnesso.
 
-data non definito.
+i dati non sono definiti.
 
 ## socialMention {#section_a1w_tz4_xz}
 
-Un utente ha incluso un @reference in un commento. Restituisce un array dei seguenti elementi:
+Un utente ha incluso un @mention in un commento. Restituisce una matrice dei seguenti elementi:
 
 ```
 data = { 
@@ -139,7 +135,7 @@ data = {
 
 ## commentFeatured
 
-Un utente moderatore ha presentato un commento. Restituisce un array dei seguenti elementi:
+Un utente moderatore ha presentato un commento. Restituisce una matrice dei seguenti elementi:
 
 ```
 data = { 
@@ -151,17 +147,17 @@ data = {
 
 ## initialRenderComplete {#section_odc_4z4_xz}
 
-Il flusso dei commenti è stato caricato e il set iniziale di contenuti è stato recuperato dal server e visualizzato all&#39;utente.
+Il flusso dei commenti è stato caricato e il set iniziale di contenuti è stato recuperato dal server e visualizzato all’utente.
 
-data non definito.
+i dati non sono definiti.
 
 ## showMore {#section_pqg_nz4_xz}
 
-Un utente ha fatto clic sul pulsante **[!UICONTROL Show More]**.
+Un utente ha fatto clic sul pulsante **[!UICONTROL Show More]** .
 
-data non definito.
+i dati non sono definiti.
 
-## userSegued {#section_xxw_jz4_xz}
+## userSeguito {#section_xxw_jz4_xz}
 
 Restituisce true quando un utente fa clic sul pulsante **[!UICONTROL Follow]** e false quando il contenuto viene inviato al flusso.
 
@@ -172,7 +168,7 @@ data = {
 }
 ```
 
-## userUnFollow {#section_wm1_gz4_xz}
+## utenteNon seguito {#section_wm1_gz4_xz}
 
 Restituisce true quando un utente fa clic sul pulsante **Non seguire** e false quando il contenuto viene inviato al flusso.
 
@@ -182,4 +178,3 @@ data = {
    optOut: true 
 }
 ```
-
