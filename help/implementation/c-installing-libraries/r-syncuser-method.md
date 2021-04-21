@@ -1,26 +1,22 @@
 ---
-description: Informa Livefyre a richiamare le informazioni utente da un URL di sincronizzazione utente precedentemente impostato. Restituisce un valore Boolean.
-seo-description: Informa Livefyre a richiamare le informazioni utente da un URL di sincronizzazione utente precedentemente impostato. Restituisce un valore Boolean.
-seo-title: syncUser, metodo di rete
-solution: Experience Manager
-title: syncUser, metodo di rete
-uuid: 2affb03d-3907-4b01-9a64-02ba1b06da14
+description: Informa Livefyre a richiamare informazioni utente da un URL di sincronizzazione utente precedentemente impostato. Restituisce un valore Boolean.
+title: Metodo di rete syncUser
+exl-id: a21ff487-2ab1-4788-b455-84941f03a98f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '84'
+ht-degree: 4%
 
 ---
 
-
 # syncUser Network Method{#syncuser-network-method}
 
-Informa Livefyre a richiamare le informazioni utente da un URL di sincronizzazione utente precedentemente impostato. Restituisce un valore Boolean.
+Informa Livefyre a richiamare informazioni utente da un URL di sincronizzazione utente precedentemente impostato. Restituisce un valore Boolean.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| userId | Stringa | L&#39;ID utente da sincronizzare con Livefyre. Prima di richiamare questo metodo, dovete disporre di un URL di sincronizzazione utente impostato con Livefyre. |
+| userId | Stringa | ID utente da sincronizzare con Livefyre. Prima di chiamare questo metodo, è necessario disporre di un URL di sincronizzazione utente impostato con Livefyre. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -58,7 +54,7 @@ Output campione:
 true
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 network.sync_user(userId) 
