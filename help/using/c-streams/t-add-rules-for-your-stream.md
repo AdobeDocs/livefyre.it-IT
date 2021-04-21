@@ -1,27 +1,23 @@
 ---
-description: Aggiungi regole in Streams per consentire al contenuto di compilare automaticamente un'app o una cartella in base a tali regole.
-seo-description: Aggiungi regole in Streams per consentire al contenuto di compilare automaticamente un'app o una cartella in base a tali regole.
-seo-title: Aggiungi regole per il flusso
-solution: Experience Manager
+description: Aggiungi regole in Streams per consentire al contenuto di compilare automaticamente un'app o una cartella in base a queste regole.
 title: Aggiungi regole per il flusso
-uuid: 7a3fb400-95e4-49f9-ae39-90654df14665
+exl-id: e3fe5785-ddb3-4a6c-ac58-0ec988dda8bf
 translation-type: tm+mt
-source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 5%
+source-wordcount: '140'
+ht-degree: 6%
 
 ---
 
+# Aggiungi regole per il tuo flusso{#add-rules-for-your-stream}
 
-# Aggiungi regole per il flusso{#add-rules-for-your-stream}
+Aggiungi regole in Streams per consentire al contenuto di compilare automaticamente un&#39;app o una cartella in base a queste regole.
 
-Aggiungi regole in Streams per consentire al contenuto di compilare automaticamente un&#39;app o una cartella in base a tali regole.
-
-Aggiungi le regole di flusso al flusso da uno o più dei seguenti social network o tipi di contenuto:
+Aggiungi le regole Stream al flusso da uno o più dei seguenti social network o tipi di contenuto:
 
 * Facebook
-* Pagine Facebook
+* Pagine facebook
 * E-mail
 * Instagram
 * Tumblr
@@ -31,10 +27,10 @@ Aggiungi le regole di flusso al flusso da uno o più dei seguenti social network
 
 1. Crea o apri un flusso.
 1. Aggiungi una nuova regola.
-1. Selezionare il tipo di regola.
-1. Compila le informazioni. Il tipo di informazioni da completare dipende dal sito Web o metodo di estrazione del contenuto. Per ulteriori informazioni sulle opzioni delle regole di flusso, vedere [Opzioni delle regole di flusso per tutte le regole di flusso](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)e la documentazione per ogni singola rete.
+1. Seleziona il tipo di regola.
+1. Compila le informazioni. Il tipo di informazioni da completare dipende dal sito Web o dal metodo con cui si estrae il contenuto. Per ulteriori informazioni sulle opzioni delle regole di flusso, vedere [Opzioni delle regole di flusso per tutte le regole di flusso](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)e la documentazione per ogni singola rete.
 
-   * [Pagine Facebook](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
+   * [Pagine facebook](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
    * [E-mail](../c-streams/c-email-rules.md#c_email_rules)
    * [Instagram](../c-streams/c-instagram-rules.md#c_instagram_rules)
    * [Tumblr](../c-streams/c-tumblr-rules.md#c_tumblr_rules)
@@ -42,4 +38,4 @@ Aggiungi le regole di flusso al flusso da uno o più dei seguenti social network
    * [YouTube](../c-streams/c-youtube-rules/c-youtube-rules.md#c_youtube_rules)
    * [RSS](../c-streams/c-rss-rules-streams.md#c_rss_rules_streams)
 
-1. Salvate la regola.
+1. Salva la regola.
