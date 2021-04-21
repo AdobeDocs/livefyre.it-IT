@@ -1,32 +1,30 @@
 ---
-seo-title: Guida di Livefyre
-solution: Experience Manager
-title: Guida all'implementazione di Livefyre
-uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
+title: Guida all’implementazione di Livefyre
+description: Guida all’implementazione di Livefyre
+exl-id: 510826ea-3313-4388-ad82-63fe07d018bf
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '92'
 ht-degree: 6%
 
 ---
 
+# Guida all’implementazione di Livefyre {#livefyre-help}
 
-# Guida all&#39;implementazione di Livefyre {#livefyre-help}
+Implementa Livefyre Studio e le app Livefyre sul tuo sito web utilizzando strumenti per sviluppatori per personalizzare la tua esperienza.
 
-Implementate Livefyre Studio e Livefyre Apps sul vostro sito Web utilizzando gli strumenti di sviluppo per personalizzare la vostra esperienza.
-
-Per informazioni sull&#39;utilizzo di Livefyre Studio e delle app Livefyre in Livefyre Studio, consultate la [*Guida utente di Adobe Experience Manager Livefyre*](/help/using/home.md).
+Per informazioni su come utilizzare le app Livefyre Studio e Livefyre in Livefyre Studio, consulta la [*Guida utente di Adobe Experience Manager Livefyre*](/help/using/home.md).
 
 ## Argomenti comuni
 
-* [Guida introduttiva all’implementazione](c-getting-started/c-getting-started.md)
+* [Guida introduttiva all&#39;implementazione](c-getting-started/c-getting-started.md)
 
-* [Utilizzo delle app Livefyre con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [Utilizzare le app Livefyre con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
-* [Android SDK per dispositivi mobili](c-mobile-sdks/c-android-sdk.md)
+* [SDK per Android per dispositivi mobili](c-mobile-sdks/c-android-sdk.md)
 
-* [Integrazione dei commenti mediante gli strumenti per sviluppatori](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
+* [Integrazione dei commenti tramite gli strumenti per sviluppatori](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
 
 * [Integrazione delle app tramite gli strumenti per sviluppatori](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
 
