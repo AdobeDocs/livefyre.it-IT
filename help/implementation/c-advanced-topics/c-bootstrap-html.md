@@ -1,46 +1,42 @@
 ---
 description: Rendi il contenuto della community disponibile per i crawler dei motori di ricerca.
-seo-description: Rendi il contenuto della community disponibile per i crawler dei motori di ricerca.
-seo-title: Bootstrap HTML
-solution: Experience Manager
 title: Bootstrap HTML
-uuid: 137e4382-4e7b-4124-9d35-1d872a497bc7
+exl-id: 22ab4f2d-f433-4805-b0dd-16d4531e425d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
-
 
 # Bootstrap HTML
 
 Rendi il contenuto della community disponibile per i crawler dei motori di ricerca.
 
-Per un elenco completo degli endpoint disponibili, consultate la sezione Livefyre [API Reference](https://api.livefyre.com/docs).
+Per un elenco completo degli endpoint disponibili, consulta la sezione Livefyre [Riferimento API](https://api.livefyre.com/docs) .
 
-Le app Livefyre richiedono l&#39;esecuzione di JavaScript sulla pagina per visualizzare il contenuto per le raccolte. Poiché la maggior parte dei crawler dei motori di ricerca non è in grado di eseguire JavaScript, non sono in grado di visualizzare il contenuto pubblicato dalla community. Utilizzate l&#39;API HTML Bootstrap per aggiungere frammenti ricercabili di questo contenuto alla risposta HTTP iniziale della pagina, consentendo al contenuto e alle parole chiave di migliorare l&#39;ottimizzazione del motore di ricerca.
+Le app Livefyre richiedono l’esecuzione di JavaScript sulla pagina per visualizzare il contenuto per le raccolte. Poiché la maggior parte dei crawler dei motori di ricerca non possono eseguire JavaScript, non sono in grado di visualizzare il contenuto pubblicato dalla community. Utilizza l’API HTML Bootstrap per aggiungere frammenti ricercabili di questo contenuto alla risposta HTTP iniziale della pagina, consentendo al contenuto e alle parole chiave di migliorare l’ottimizzazione del motore di ricerca.
 
 >[!NOTE]
 >
->Questa API è disponibile solo per i tipi di commenti e raccolte di blog dal vivo.
+>Questa API è disponibile solo per i tipi di Raccolta commenti e Live Blog.
 
 ## Integrazione
 
-L&#39;API HTML Bootstrap di Livefyre restituirà un frammento HTML del contenuto utente, che potrebbe essere incluso nella risposta HTTP della pagina. Questa risposta sarà leggibile dai crawler dei motori di ricerca senza eseguire JavaScript. Una volta che la pagina è live nel browser di un utente, il frammento HTML viene sostituito con il widget interattivo completo e l&#39;utente potrà pubblicare contenuti.
+L’API HTML Bootstrap di Livefyre restituirà un frammento HTML del contenuto utente, che potrebbe essere incluso nella risposta HTTP della pagina. Questa risposta sarà leggibile dai crawler dei motori di ricerca senza eseguire alcun JavaScript. Una volta che la pagina è attiva nel browser di un utente, il frammento HTML viene sostituito con il widget interattivo completo e l’utente può pubblicare contenuti.
 
-Per implementare l’API HTML di Bootstrap:
+Per implementare l’API HTML Bootstrap:
 
-1. Eseguite una richiesta dall&#39;API server all&#39;endpoint HTML Bootstrap come descritto di seguito.
+1. Effettua una richiesta server-to-server API all’endpoint HTML Bootstrap descritto di seguito.
 
    >[!NOTE]
    >
-   >Se state tentando di acquisire l&#39;Bootstrap HTML per una conversazione che non esiste ancora (ovvero, se dovete ancora incorporare l&#39;app o creare la raccolta), riceverete un messaggio di 200, ma con contenuto simile al seguente: `<!- HTTP 404 example.fyre.co/000000/MTEwMTo2NDEyOD1RS/bootstrap.html ->`
+   >Se cerchi di recuperare la Bootstrap HTML per una conversazione che non esiste ancora (ovvero, se devi ancora incorporare l’app o creare la raccolta), riceverai un 200, ma con contenuti che hanno un aspetto simile al seguente: `<!- HTTP 404 example.fyre.co/000000/MTEwMTo2NDEyOD1RS/bootstrap.html ->`
 
-1. Se la restituzione non include il contenuto con un codice &quot;404&quot;, salvatelo in una stringa. Potete memorizzare nella cache questa risposta per un utilizzo successivo per evitare di richiedere l&#39;Bootstrap dell&#39;API HTML su ogni caricamento di pagina.
-1. Inserite la stringa HTML Bootstrap nella pagina Web in cui desiderate visualizzare il contenuto.
-1. Trasmettere la pagina Web al browser (o al crawler del motore di ricerca).
+1. Se nella restituzione non è incluso contenuto con un &quot;404&quot;, salvarlo in una stringa. Puoi memorizzare in cache questa risposta per un utilizzo successivo per evitare di richiedere l’API HTML Bootstrap su ogni caricamento di pagina.
+1. Inserisci la stringa HTML Bootstrap nella pagina web in cui desideri visualizzare il contenuto.
+1. Distribuisci la pagina web al browser (o al crawler del motore di ricerca).
 
 ## Risorsa
 
@@ -50,8 +46,8 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{networkName}.fyre.co/{siteId}/{
 
 ## Parametri
 
-* **Nome** reteLivefyre ha fornito il nome di rete. Ad esempio: *labs* in `labs.fyre.co`.
-* **** siteIdL&#39;ID del sito della raccolta.
+* **** networkNameYour Livefyre ha fornito il nome di rete. Ad esempio: *laboratori* in `labs.fyre.co`.
+* **** siteIdL&#39;ID sito della raccolta.
 * **b64** articleIdL&#39;ID articolo della raccolta utilizzando la codifica base64url.
 
 ## Esempio 
