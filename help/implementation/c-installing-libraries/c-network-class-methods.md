@@ -1,31 +1,27 @@
 ---
 description: Creare un oggetto Network.
-seo-description: Creare un oggetto Network.
-seo-title: Metodi delle classi di rete
-solution: Experience Manager
 title: Metodi delle classi di rete
-uuid: 4130beda-dd09-49ae-aafb-f6b956e30b51
+exl-id: 5a011120-05d0-4768-9038-6a312e8c5dd1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 14%
 
 ---
 
-
-# Metodi di classe di rete{#network-class-methods}
+# Metodi delle classi di rete{#network-class-methods}
 
 Creare un oggetto Network.
 
-Una volta creato un oggetto di rete, il resto della pagina suppone che nella sessione sia presente un oggetto di rete con un&#39;istanza.
+Una volta creato un oggetto di rete, il resto della pagina presuppone che nella sessione sia presente un oggetto di rete con istanza.
 
 ## Oggetto di rete
 
 | Parametro | Tipo | Descrizione |
 |---|---|---|
-| *`network`* | Stringa | La rete Livefyre. Ad esempio: “`labs.fyre.co`”. |
-| *`networkKey`* | Stringa | Chiave segreta Livefyre specificata per la rete. |
+| *`network`* | Stringa | La tua rete Livefyre. Ad esempio: “`labs.fyre.co`”. |
+| *`networkKey`* | Stringa | La chiave segreta fornita da Livefyre per la rete. |
 
 ## Java {#section_myk_dzs_kbb}
 
