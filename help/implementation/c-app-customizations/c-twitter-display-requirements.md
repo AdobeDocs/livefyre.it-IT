@@ -1,40 +1,36 @@
 ---
 description: Panoramica dei requisiti di visualizzazione di Twitter.
-seo-description: Panoramica dei requisiti di visualizzazione di Twitter.
-seo-title: Requisiti di visualizzazione Twitter
-solution: Experience Manager
-title: Requisiti di visualizzazione Twitter
-uuid: 705c25b8-4a25-4640-9843-074f50ebae4f
+title: Requisiti di visualizzazione di twitter
+exl-id: f985a47e-4bab-4e60-8b8b-d8c6e5321be7
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
+# Requisiti di visualizzazione di twitter{#twitter-display-requirements}
 
-# Requisiti di visualizzazione Twitter{#twitter-display-requirements}
+I social media spesso richiedono che i loro contenuti siano visualizzati in modo conforme ai loro standard di marchio. Quando si utilizza la piattaforma Livefyre per ripresentare i contenuti Twitter, si è sempre responsabili della conformità ai termini di utilizzo, compresi i requisiti di visualizzazione. Prima di mostrare il contenuto nelle app Livefyre, leggi e comprendi i loro termini e condizioni.
 
-I social media spesso richiedono che i loro contenuti siano visualizzati in conformità con i loro standard di marchio. Quando si utilizza la piattaforma Livefyre per ripresentare i contenuti di Twitter, si è sempre responsabili della conformità ai termini di utilizzo, inclusi i requisiti di visualizzazione. Prima di visualizzare il contenuto nelle app Livefyre, è necessario essere certi di leggere e comprendere i termini e le condizioni di tale visualizzazione.
-
-Per ulteriori informazioni, consultare la documentazione [Requisiti di visualizzazione di Twitter](https://about.twitter.com/company/display-requirements).
+Per ulteriori informazioni, consulta la documentazione [Requisiti di visualizzazione di Twitter](https://about.twitter.com/company/display-requirements) .
 
 Twitter impone i seguenti requisiti di presentazione:
 
-* La visualizzazione online (Web e mobile) deve includere tutti i seguenti elementi:
+* La visualizzazione online (web e mobile) deve includere tutti i seguenti elementi:
 
-   * Logo Twitter
+   * Logo twitter
    * Nome utente, @handle, avatar
-   * Testo tweet inalterato
-   * Azioni Twitter (Risposta, Retweet, Mi piace)
+   * Testo tweet non modificato
+   * Azioni twitter (Risposta, Retweet, Mi piace)
    * Timestamp
 
-* La visualizzazione passiva (broadcast, in-venue, digital out help) deve includere almeno quanto segue:
+* La visualizzazione passiva (broadcast, in-venue, digitale fuori aiuto) deve includere almeno i seguenti elementi:
 
-   * Logo Twitter
-   * Testo Tweet inalterato (può rimuovere i collegamenti se non pertinente dal punto di vista contestuale)
+   * Logo twitter
+   * Testo tweet inalterato (può rimuovere i link se non pertinente dal punto di vista contestuale)
    * Nome utente e handle
 
-* I tweet non possono essere utilizzati vicino alla pubblicità o in un modo che implichi l&#39;approvazione.
-* I tweet o il contenuto di Twitter possono essere utilizzati in un annuncio solo se l&#39;utente ha espresso il suo consenso.
+* I tweet non possono essere utilizzati vicino alla pubblicità o in un modo che implica l&#39;approvazione.
+* I tweet o i contenuti Twitter non possono essere utilizzati in un annuncio a meno che l&#39;utente non abbia espresso il suo consenso.
