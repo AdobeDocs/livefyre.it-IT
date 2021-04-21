@@ -1,32 +1,28 @@
 ---
-description: Note sulla versione per la release del 28 settembre 2017.
-seo-description: Note sulla versione per la release del 28 settembre 2017.
-seo-title: 28 settembre 2017
+description: Note sulla versione per la versione del 28 settembre 2017.
 title: 28 settembre 2017
-uuid: 496134d2-1c1e-4097-9af2-6ea65efeb8e2
+exl-id: fa572f36-0b6f-4451-8a4e-1437469ce906
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 7%
 
 ---
 
-
 # 28 settembre 2017{#september}
 
-Note sulla versione per la release del 28 settembre 2017.
+Note sulla versione per la versione del 28 settembre 2017.
 
-## Release produzione
+## Versione di produzione
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | SICURO | Miglioramenti minori aggiunti al rilevamento di spam SAFE. |
+| Miglioramento | SICURO | Sono stati aggiunti miglioramenti minori al rilevamento di spam SAFE. |
 | Bug | Studio | Gli utenti che non dispongono di e-mail valide dispongono di e-mail costruite per loro. È stato risolto un problema relativo ai registri di produzione a causa del quale il sistema non inviava e-mail a tali utenti. |
 
-## Rilascio UAT
+## Versione UAT
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | Libreria | I file caricati nella libreria da un cliente ricevono automaticamente i diritti. Si tratta di una funzione utile quando gli utenti hanno attivato il filtro &quot;Richiedi diritti concessi&quot; nelle loro app. |
-
+| Miglioramento | Libreria | I file caricati nella libreria da un cliente ricevono automaticamente i diritti. Questa è una funzione utile quando gli utenti hanno attivato il filtro &quot;Richiedi diritti concessi&quot; nelle loro app. |
