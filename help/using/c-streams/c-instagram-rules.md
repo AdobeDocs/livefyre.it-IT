@@ -1,60 +1,57 @@
 ---
-description: Puoi creare regole di flusso che richiamano il contenuto da Instagram.
-seo-description: Puoi creare regole di flusso che richiamano il contenuto da Instagram.
-seo-title: Regole Instagram
-title: Regole Instagram
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+description: Puoi creare regole di flusso per estrarre contenuto da Instagram.
+title: Regole di Instagram
+exl-id: ac00a12c-94b1-4464-ad3f-991382759d71
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-
 # Regole Instagram{#instagram-rules}
 
-Puoi creare regole di flusso che richiamano il contenuto da Instagram.
+Puoi creare regole di flusso per estrarre contenuto da Instagram.
 
 >[!NOTE]
 >
->Prima di creare un flusso Instagram, è necessario aggiungere almeno un account aziendale Instagram alla sezione **[!UICONTROL Social Accounts]** in **[!UICONTROL Network Settings]**. Per ulteriori informazioni sulla configurazione di un account Instagram, vedere [Informazioni su account Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+>Prima di creare un flusso Instagram, è necessario aggiungere almeno un account aziendale Instagram alla sezione **[!UICONTROL Social Accounts]** in **[!UICONTROL Network Settings]**. Per ulteriori informazioni su come configurare un account Instagram, consulta [Informazioni sugli account Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
-Crea le regole di Instagram in base a @menzioni o hashtag.
+Crea regole Instagram basate su @mentions o hashtag.
 
 >[!NOTE]
 >
->Tutte le regole di Instagram richiedono almeno un hashtag. L&#39;aggiunta di parole chiave e di un nome utente per la regola restituirà il contenuto che include entrambe le voci.
+>Tutte le regole di Instagram richiedono almeno un hashtag. L’aggiunta di parole chiave e di un nome utente per la regola restituirà contenuto che include entrambe le voci.
 
-Per creare regole di Instagram per estrarre contenuto dai feed di Instagram nell&#39;app o nella cartella, filtra per:
+Per creare regole Instagram per estrarre contenuto dai feed Instagram nell’app o nella cartella, filtra in base a:
 
 * **[!UICONTROL Words]**
 
-   * Immettere **[!UICONTROL hashtags]** per essere incluso o escluso dal flusso di Instagram. Se si specificano valori per i campi **[!UICONTROL Contains]** e **[!UICONTROL Does not contain]**, verranno restituite immagini che contengono il primo e non il secondo.
+   * Inserisci **[!UICONTROL hashtags]** da includere o escludere dal flusso Instagram. Se si specificano i valori per i campi **[!UICONTROL Contains]** e **[!UICONTROL Does not contain]**, verranno restituite immagini contenenti il primo e non il secondo.
 
-   * Ad esempio, immettendo **[!UICONTROL Contains]** parole chiave Giants, Posey e **[!UICONTROL Does not contain]** parola chiave Dodger, verranno restituiti tutti i post che includono la parola Giants o Posey e non la parola Dodger.
+   * Ad esempio, l’immissione di **[!UICONTROL Contains]** parole chiave Giants, Posey e **[!UICONTROL Does not contain]** parola chiave Dodger restituirà tutti i post che includono la parola Giants o Posey e non includerà la parola Dodger.
 
       >[!NOTE]
       >
-      >Instagram Rules restituisce i post che includono l’hashtag elencato nei commenti dell’autore, che potrebbero non essere visualizzati nel flusso.
+      >Instagram Rules restituirà post che includono l&#39;hashtag elencato nei commenti dell&#39;autore, che potrebbero non essere visualizzati nel flusso.
 
 * **[!UICONTROL Mentions]**
 
-   * Immettere **[!UICONTROL @mentions]** per eseguire il pull nel flusso o escludere dal flusso.
+   * Immettere **[!UICONTROL @mentions]** per effettuare il pull nel flusso o escludere dal flusso.
 
 * **[!UICONTROL Authors]**
 
    >[!NOTE]
    >
-   >È necessario disporre di un account aziendale Instagram configurato in Livefyre per utilizzare la ricerca Author in una regola di flusso Instagram. Per ulteriori informazioni sulla configurazione di account aziendali Instagram in Livefyre, vedere [Informazioni su account Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+   >Per utilizzare la ricerca Author in una regola Instagram Stream, è necessario disporre di un account aziendale Instagram configurato in Livefyre. Per ulteriori informazioni sulla configurazione degli account aziendali Instagram in Livefyre, consulta [Informazioni sugli account Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
-   * Immettere **[!UICONTROL @usernames]** per eseguire il pull nel flusso. L&#39;account associato al **@username** deve essere un account aziendale di Instagram.
+   * Immettere **[!UICONTROL @usernames]** per eseguire il pull nel flusso. L&#39;account associato al **@username** deve essere un account aziendale Instagram.
 
-   * Immettere **@usernames** per escludere dal flusso.
+   * Inserisci il **@usernames** per escludere dal flusso.
 
 * **[!UICONTROL Additional Filters]**
 
-   * Selezionare se si desidera includere **[!UICONTROL All Content]**, **[!UICONTROL Videos Only]** o **[!UICONTROL Photos Only]** nel flusso.
+   * Seleziona se includere **[!UICONTROL All Content]**, **[!UICONTROL Videos Only]** o **[!UICONTROL Photos Only]** nel flusso.
 
-Per ulteriori opzioni della regola di flusso per tutte le regole di flusso, vedere [Opzioni regola di flusso per tutte le regole di flusso](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Per ulteriori opzioni della regola Stream per tutte le regole Stream, vedere [Opzioni della regola Stream per tutte le regole Stream](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
