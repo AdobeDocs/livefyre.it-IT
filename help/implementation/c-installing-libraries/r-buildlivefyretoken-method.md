@@ -1,26 +1,22 @@
 ---
-description: Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API Livefyre per la rete da cui viene chiamato.
-seo-description: Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API Livefyre per la rete da cui viene chiamato.
-seo-title: Metodo di rete buildLivefyreToken
-solution: Experience Manager
+description: Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API Livefyre per la rete da cui viene richiamato.
 title: Metodo di rete buildLivefyreToken
-uuid: 7c72a05f-669b-4df3-8117-aa4af2f7a179
+exl-id: 2b303606-e8de-41e5-9c01-b41cc7bd8437
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
+# buildLivefyreToken Network Method{#buildlivefyretoken-network-method}
 
-# Metodo di rete buildLivefyreToken{#buildlivefyretoken-network-method}
+Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API Livefyre per la rete da cui viene richiamato.
 
-Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API Livefyre per la rete da cui viene chiamato.
+Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API Livefyre per la rete da cui viene richiamato.
 
-Restituisce un token Livefyre valido crittografato che può essere utilizzato per interagire con altre API Livefyre per la rete da cui viene chiamato.
-
-Per impostazione predefinita, questo token scade dopo 24 ore dalla creazione.
+Per impostazione predefinita, questo token è impostato per scadere in 24 ore dal momento della creazione.
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -58,7 +54,7 @@ Output campione:
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 network.build_livefyre_token() 
@@ -81,4 +77,3 @@ Output campione:
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo 
 ```
-
