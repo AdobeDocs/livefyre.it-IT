@@ -1,30 +1,25 @@
 ---
-description: Scoprite come iniziare a creare un’app Livefyre completamente funzionante. Create l'app per gestire l'autenticazione di base, la condivisione su social network e il tracciamento degli eventi.
-seo-description: Scoprite come iniziare a creare un’app Livefyre completamente funzionante. Create l'app per gestire l'autenticazione di base, la condivisione su social network e il tracciamento degli eventi.
-seo-title: Guida introduttiva all'integrazione con Livefyre
-solution: Experience Manager
-title: Guida introduttiva all'integrazione con Livefyre
-uuid: babf5f9e-a139-45b1-8ae9-bd725820bc93
+description: Scopri come iniziare a creare un’app Livefyre completamente funzionante. Genera l’app per gestire l’autenticazione di base, la condivisione social network e il tracciamento degli eventi.
+title: Guida introduttiva all’integrazione con Livefyre
+exl-id: 398ca85f-2b68-41ba-9d1a-09a9917859cf
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-
 # Inizia qui {#getting-started-with-livefyre-integration}
 
-Quando iniziate a usare Livefyre, potete:
+Quando inizi a usare Livefyre, dovrai:
 
-* Eseguire il [processo di implementazione](../c-getting-started/c-implementation-process/c-implementation-process.md#c_implementation_process).
-* Decidete il caso d’uso per l’implementazione delle app Livefyre.
-* Decidete se desiderate utilizzare le app di visualizzazione, le app di conversazione o entrambe.
+* Esegui il [processo di implementazione](../c-getting-started/c-implementation-process/c-implementation-process.md#c_implementation_process).
+* Decidi il tuo caso d’uso per l’implementazione delle app Livefyre.
+* Decidi se desideri utilizzare le app di visualizzazione, le app di conversazione o entrambi.
 
-   Le app di visualizzazione sono app che visualizzano i contenuti visivamente, inclusi carosello, Filmstrip, Media Wall e Mosaico.
+   Le app di visualizzazione sono app che visualizzano i contenuti visivamente, compresi Carosello, Filmstrip, Media Wall e Mosaic.
 
-   Le app per conversazioni sono App che coinvolgono un visitatore del sito nella scrittura di contenuto leggibile da altri visitatori del sito, inclusi Commenti, Chat e Recensioni.
+   Le app di conversazione sono app che coinvolgono un visitatore del sito e scrivono contenuti che altri visitatori del sito possono leggere, inclusi Commenti, Chat e Recensioni.
 
-* Decidete se sarà necessaria l&#39;autenticazione. Se disponete già di un sistema di gestione utenti (ad esempio, Janrain, Giya), potete integrarlo con Livefyre. In caso contrario, potete utilizzare Livefyre Identity, un sistema di gestione utente leggero e integrato. Per [ulteriori informazioni sull&#39;integrazione dell&#39;autenticazione](../t-about-identity-integration/t-about-identity-integration.md#t_about_identity_integration).
-
+* Decidi se hai bisogno di autenticazione. Se disponi già di un sistema di gestione degli utenti (ad esempio, Janrain, Giya), puoi integrarlo con Livefyre. In caso contrario, puoi utilizzare Livefyre Identity, un sistema integrato e leggero di gestione degli utenti. Per [ulteriori informazioni sull&#39;integrazione di authentication](../t-about-identity-integration/t-about-identity-integration.md#t_about_identity_integration).
