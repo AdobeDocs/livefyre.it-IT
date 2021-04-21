@@ -1,25 +1,21 @@
 ---
-description: Potete selezionare il contenuto da visualizzare in Studio invece che in un'app.
-seo-description: Potete selezionare il contenuto da visualizzare in Studio invece che in un'app.
-seo-title: Seleziona il contenuto da utilizzare in Studio
-solution: Experience Manager
-title: Seleziona il contenuto da utilizzare in Studio
-uuid: 50cb620c-ef45-4ccb-829f-f5b2e3c521dd
+description: È possibile selezionare il contenuto da visualizzare da Studio anziché da un’app.
+title: Selezionare il contenuto da Studio per la funzione
+exl-id: b17e3c4f-6ec6-4c9b-9db0-5169cdb0ffaa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
+# Seleziona il contenuto da Studio{#select-content-to-feature-from-studio}
 
-# Selezionare il contenuto da utilizzare in Studio{#select-content-to-feature-from-studio}
+È possibile selezionare il contenuto da visualizzare da Studio anziché da un’app.
 
-Potete selezionare il contenuto da visualizzare in Studio invece che in un&#39;app.
+1. Da Studio, fai clic sul segno **[!UICONTROL +]** accanto a un contenuto.
+1. Seleziona il tag **[!UICONTROL Featured]** nell’elenco a discesa.
+1. Fai clic su **[!UICONTROL Enter]** per Feature il contenuto.
 
-1. Da Studio, fate clic sul segno **[!UICONTROL +]** accanto a una parte del contenuto.
-1. Selezionare il tag **[!UICONTROL Featured]** nell&#39;elenco a discesa.
-1. Fate clic su **[!UICONTROL Enter]** per Feature il contenuto.
-
-   Il tag viene salvato e visualizzato accanto al contenuto. 1. Per interrompere la presentazione di una parte del contenuto, fate clic sul tag **[!UICONTROL x]** nel tag **[!UICONTROL Featured]** visualizzato sul contenuto.
+   Il tag viene salvato e visualizzato accanto al contenuto. 1. Per interrompere la caratterizzazione di un contenuto, fai clic sul tag **[!UICONTROL x]** nel tag **[!UICONTROL Featured]** visualizzato sul contenuto.
