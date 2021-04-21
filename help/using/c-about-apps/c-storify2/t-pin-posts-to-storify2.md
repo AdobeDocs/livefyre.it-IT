@@ -1,32 +1,28 @@
 ---
-description: Fissare un post per attirare l'attenzione su contenuti specifici quando si accende per la prima volta su una pagina con Storify 2 incorporato.
-seo-description: Fissare un post per attirare l'attenzione su contenuti specifici quando si accende per la prima volta su una pagina con Storify 2 incorporato.
-seo-title: Fissare un post su Storify 2
-solution: Experience Manager
+description: Aggiungi un post per concentrare l'attenzione su contenuti specifici quando arrivi per la prima volta a una pagina con Storify 2 incorporato.
 title: Fissare un post su Storify 2
-uuid: c4043ea6-8763-4afb-bc1b-d69e1c8eca61
+exl-id: 09064707-1797-4f7b-891d-ef86880f94c0
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-
 # Fissare un post su Storify 2{#pin-a-post-to-storify}
 
-Fissare un post per attirare l&#39;attenzione su contenuti specifici quando si accende per la prima volta su una pagina con Storify 2 incorporato.
+Aggiungi un post per concentrare l&#39;attenzione su contenuti specifici quando arrivi per la prima volta a una pagina con Storify 2 incorporato.
 
-Potete evidenziare informazioni importanti sulle quali il pubblico può concentrarsi per primo, ad esempio un momento cruciale in una notizia o in un match score correnti e una foto dell&#39;ultimo obiettivo.
+È possibile evidenziare informazioni importanti sulle quali il pubblico può concentrarsi per primo, come un momento cruciale in una storia di notizie o i punteggi attuali e una foto dell&#39;ultimo obiettivo.
 
 Quando fissate un post:
 
-* È possibile fissare un solo post alla volta. Se scegliete di fissare un post diverso, il post bloccato corrente viene disattivato.
-* L&#39;icona a forma di spillo viene visualizzata su un post pubblicato immediatamente quando lo si blocca.
-* Il contenuto bloccato rimane nella parte superiore del brano e altri flussi di contenuto pubblicati dopo il post bloccato.
+* Puoi fissare un solo post alla volta. Se scegli di fissare un post diverso, il post attualmente bloccato viene rimosso.
+* L’icona a forma di pin viene visualizzata su un post pubblicato immediatamente quando lo si blocca.
+* Il contenuto bloccato rimane nella parte superiore della storia e gli altri flussi di contenuto pubblicati dopo il post bloccato.
 * La modifica dell’ordine dei post da più recente a meno recente non influisce sul post bloccato.
 
-1. Creare post con Storify 2 e pubblicare contenuti.
-1. Fate clic sull’icona a forma di spillo per fissare il post.
-1. Confermate che desiderate fissare il post nella finestra di dialogo.
+1. Crea post di Storify 2 e pubblica contenuti.
+1. Fai clic sull&#39;icona a forma di pin per fissare il post.
+1. Conferma di voler fissare il post nella finestra di dialogo.
