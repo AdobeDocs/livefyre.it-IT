@@ -1,18 +1,14 @@
 ---
-description: Note sulla versione per la release di Livefyre del 7 febbraio 2019.
-seo-description: Note sulla versione per la release di Livefyre del 7 febbraio 2019.
-seo-title: Note sulla versione
-solution: Experience Manager
+description: Note sulla versione per la versione di Livefyre del 7 febbraio 2019.
 title: Note sulla versione
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: b04ded96-ebeb-4385-8fcf-a870044fbd85
 translation-type: tm+mt
-source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
-
 
 # Note sulla versione - 7 febbraio 2019 {#rn020719}
 
@@ -20,8 +16,8 @@ ht-degree: 11%
 
 ## Miglioramento
 
-* Rimuovere l&#39;opzione Regola flusso Facebook dall&#39;interfaccia utente.
+* Rimuovi l’opzione Regola di flusso Facebook dall’interfaccia utente.
 
 ## Correzioni di bug
 
-* È stato risolto un problema che impediva la visualizzazione del contenuto contrassegnato da Moderazione Recommendations come *cestino* quando si tentava di visualizzare tutto il contenuto, incluso il contenuto spazzatura.
+* È stato risolto un problema a causa del quale il contenuto contrassegnato da Recommendations moderazione come *eliminato* non veniva visualizzato quando si tentava di visualizzare tutti i contenuti, inclusi i contenuti eliminati.
