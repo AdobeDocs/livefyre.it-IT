@@ -1,26 +1,22 @@
 ---
-description: Utilizzate gli eventi Javascript per ascoltare gli eventi che si verificano in un Media Wall e inviarli allo strumento di analisi di vostra scelta.
-seo-description: Utilizzate gli eventi Javascript per ascoltare gli eventi che si verificano in un Media Wall e inviarli allo strumento di analisi di vostra scelta.
-seo-title: Eventi JavaScript per Media Wall
-solution: Experience Manager
+description: Utilizza gli eventi JavaScript per ascoltare gli eventi che si verificano in una bacheca di contenuti multimediali e inviarli allo strumento di analisi desiderato.
 title: Eventi JavaScript per Media Wall
-uuid: 8afc0529-4640-476a-b207-91b2c70101f0
+exl-id: 3fe76467-65e2-4f8b-bd75-5a2ffc3e7e15
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
-
 # Eventi JavaScript per Media Wall{#javascript-events-for-media-wall}
 
-Utilizzate gli eventi Javascript per ascoltare gli eventi che si verificano in un Media Wall e inviarli allo strumento di analisi di vostra scelta.
+Utilizza gli eventi JavaScript per ascoltare gli eventi che si verificano in una bacheca di contenuti multimediali e inviarli allo strumento di analisi desiderato.
 
-Livefyre fornisce eventi JavaScript per monitorare l&#39;attività degli utenti nelle app Livefyre. Ad esempio, potete decidere di aggiornare la pagina quando gli utenti desiderano o condividono contenuti su Twitter o Facebook, oppure quando vengono pubblicati nuovi contenuti.
+Livefyre fornisce eventi JavaScript per monitorare l’attività dell’utente nelle app Livefyre. Ad esempio, puoi aggiornare la pagina quando gli utenti amano o condividono contenuti su Twitter o Facebook o quando vengono pubblicati nuovi contenuti.
 
-Di seguito è riportato un esempio di come ricevere gli eventi. Sostituisci `console.log` con il codice per mappare e inviare l’evento all’integrazione di Analytics (Gestione tag dinamica,  Adobe Analytics JS, Google Analytics ecc.):
+Ecco un esempio di come ricevere gli eventi. Sostituisci `console.log` con il codice per mappare e inviare l’evento alla tua integrazione di analytics (Dynamic Tag Management, Adobe Analytics JS, Google Analytics, ecc.):
 
 ```
 document.body.addEventListener('insights', function (data) { 
@@ -30,20 +26,20 @@ document.body.addEventListener('insights', function (data) {
 
 Elenco degli eventi Media Wall supportati:
 
-## Eventi di Media Wall
+## Eventi muri multimediali
 
 | Evento | Definizione |
 |---|---|
 | `Init` | Quando una Media Wall è inclusa in una pagina. |
-| `Load` | Quando Media Wall è stato caricato su una pagina, indipendentemente dalla posizione. |
-| `PostButtonClick` | Quando un utente fa clic su un pulsante di caricamento su una bacheca multimediale. |
-| `RequestMore` | Quando un utente carica più contenuto in una Media Wall. |
-| `TwitterReplyClick` | Quando un utente fa clic sul pulsante Rispondi su Twitter dal Media Wall. |
-| `TwitterRetweetClick` | Quando un utente fa clic sul pulsante Retweet di Twitter dal Media Wall. |
-| `TwitterLikeClick` | Quando un utente fa clic sul pulsante Mi piace/Preferito di Twitter nella Media Wall. |
+| `Load` | Quando Media Wall è stato caricato su una pagina indipendentemente dalla posizione. |
+| `PostButtonClick` | Quando un utente fa clic su un pulsante Carica su una parete di supporto. |
+| `RequestMore` | Quando l&#39;utente carica più contenuto in una Media Wall. |
+| `TwitterReplyClick` | Quando un utente fa clic sul pulsante Risposta di Twitter dalla Media Wall. |
+| `TwitterRetweetClick` | Quando un utente fa clic sul pulsante Twitter Retweet dalla Media Wall. |
+| `TwitterLikeClick` | Quando un utente fa clic sul pulsante Mi piace/Preferito di Twitter dalla Media Wall. |
 | `ModalView` | Quando l&#39;utente fa clic per visualizzare il contenuto di Media Wall in una finestra modale più grande. |
-| `Like` | Quando un utente fa clic sul pulsante Mi piace da Media Wall. |
-| `ShareButtonClick` | Ogni volta che un utente fa clic sul pulsante Condividi su una scheda Media Wall. |
-| `ShareURL` | Quando l’opzione Condividi su area di testo URL è selezionata/copiata da Media Wall. |
-| `ShareFacebook` | Quando si fa clic su Condividi su Facebook dal Media Wall. |
-| `ShareTwitter` | Quando si fa clic su Condividi su Twitter dal Media Wall. |
+| `Like` | Quando un utente fa clic sul pulsante Mi piace dalla Media Wall. |
+| `ShareButtonClick` | Ogni volta che un utente fa clic sul pulsante di condivisione su una scheda Media Wall. |
+| `ShareURL` | Quando Share to URL text area (Condividi su area di testo URL) viene selezionato/copiato dalla Media Wall. |
+| `ShareFacebook` | Quando si fa clic su Condividi su Facebook da Media Wall. |
+| `ShareTwitter` | Quando si fa clic su Condividi su Twitter da Media Wall. |
