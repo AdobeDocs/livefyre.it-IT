@@ -1,46 +1,42 @@
 ---
 description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
-seo-description: Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
-seo-title: Eventi JavaScript per le app di conversazione
-solution: Experience Manager
 title: Eventi JavaScript per le app di conversazione
-uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
+exl-id: 2497346e-b2cc-44b2-bcd9-906dd443fe38
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 72%
+source-wordcount: '516'
+ht-degree: 71%
 
 ---
 
-
-# Eventi JavaScript per app di conversazione{#javascript-events-for-conversation-apps}
+# Eventi JavaScript per le app di conversazione{#javascript-events-for-conversation-apps}
 
 Eventi disponibili a cui è possibile associare JavaScript per le app di conversazione (ad esempio Commenti, Chat, Blog live, Recensioni e Note a margine).
 
-## Matrice app ed eventi di conversazione {#section_y4j_x4m_ybb}
+## Matrice di app ed eventi per conversazioni {#section_y4j_x4m_ybb}
 
-Di seguito è riportata una matrice degli eventi disponibili per le app di conversazione. Una X indica che l&#39;evento è disponibile per l&#39;app, N/D indica che l&#39;evento non si applica all&#39;app e nessun contrassegno indica che l&#39;evento non è disponibile per l&#39;app:
+Di seguito è riportata una matrice degli eventi disponibili per le app di conversazione. Una X indica che l’evento è disponibile per l’app, N/D indica che l’evento non è applicabile all’app e nessun contrassegno indica che l’evento non è disponibile per l’app:
 
-### Conversazione eventi app
+### Eventi delle app conversazioni
 
-| Eventi | Commenti | Chat | Liveblog | Recensioni | Sidenotes | Sondaggi | Tendenza |
+| Eventi | Commenti | Chat | Liveblog | Recensioni | Note | Sondaggi | Tendenza |
 |---|---|---|---|---|---|---|---|
 | Init | X | X | X | X | X |  |  |
-| Caricamento | X | X | X | X |  |  |  |
+| Load | X | X | X | X |  |  |  |
 | Visualizzazione | X | X | X | X |  |  |  |
 | Post | X | X | X | X |  | N/D | N/D |
-| Inserito | X | X | X | X | X | N/D | N/D |
+| Pubblicato | X | X | X | X | X | N/D | N/D |
 | Risposta Twitter | X | X | X | N/D | N/D | N/D | N/D |
-| Twitter piace | X | X | X | N/D | N/D | N/D | N/D |
+| Twitter Like | X | X | X | N/D | N/D | N/D | N/D |
 | LF | X | X | X | X | N/D | N/D | N/D |
 | LF | X | X | X | X | N/D | N/D | N/D |
-| Condividi su post | X | X |  | X | N/D | N/D | N/D |
+| Condividi sul post | X | X |  | X | N/D | N/D | N/D |
 | Pulsante Condividi | X | X | X | X |  | N/D | N/D |
 | Condividi Twitter | X | X | X | X | X | N/D | N/D |
 | Condividi Facebook | X | X | X | X | X | N/D | N/D |
 | URL condivisione | X | X | X | X |  | N/D | N/D |
-| ExpandReplies | X | N/D | X | X | N/D | N/D | N/D |
+| Espandi risposte | X | N/D | X | X | N/D | N/D | N/D |
 | Comprimi risposte | X | N/D | X | X | N/D | N/D | N/D |
 | Pulsante contrassegno | X | X | X | X | N/D | N/D | N/D |
 | Contrassegna | X | X | X | X | X | N/D | N/D |
@@ -48,13 +44,13 @@ Di seguito è riportata una matrice degli eventi disponibili per le app di conve
 | Segui | X | N/D | X | X | N/D | N/D | N/D |
 | Non seguire | X | N/D | X | X | N/D | N/D | N/D |
 | RequestMore | X | X | X | X | N/D | N/D | N/D |
-| ModalView |  | N/D | N/D | N/D | N/D | N/D | N/D |
+| Visualizzazione modale |  | N/D | N/D | N/D | N/D | N/D | N/D |
 | Twitter Retweet | X | X | X | N/D | N/D | N/D | N/D |
-| Pulsante Pubblica | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
+| Pulsante del post | N/D | N/D | N/D | N/D | N/D | N/D | N/D |
 | Conteggio commenti aggiornato | X | X | X | X | N/D | N/D | N/D |
-| Utente connesso |  |  |  |  |  | N/D | N/D |
+| Accesso utente effettuato |  |  |  |  |  | N/D | N/D |
 | Utente disconnesso |  |  |  |  |  | N/D | N/D |
-| Commenti contenuti |  | N/D |  |  | N/D | N/D | N/D |
+| Commento in primo piano |  | N/D |  |  | N/D | N/D | N/D |
 | Commento non disponibile |  | N/D |  |  | N/D | N/D | N/D |
 | Commento votato | N/D | N/D | N/D | X | X | N/D | N/D |
 | Selezione sondaggio | N/D | N/D | N/D | N/D | N/D |  | N/D |
@@ -64,6 +60,5 @@ Di seguito è riportata una matrice degli eventi disponibili per le app di conve
 | ID contesto | X | X | X | X |  |  |  |
 | Tipo di app | X | X | X | X |  |  |  |
 | Tipo di contenuto | X | X | X | X |  |  |  |
-| Data di pubblicazione nell&#39;app |  |  |  |  |  |  |  |
-| Accesso all&#39;app dell&#39;utente finale |  |  |  |  |  |  |  |
-
+| Data di pubblicazione nell’app |  |  |  |  |  |  |  |
+| Accesso all’app dell’utente finale |  |  |  |  |  |  |  |
