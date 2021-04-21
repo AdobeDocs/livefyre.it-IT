@@ -1,55 +1,51 @@
 ---
-description: Fate clic su un utente per visualizzare i dettagli sull’account.
-seo-description: Fate clic su un utente per visualizzare i dettagli sull’account.
-seo-title: Visualizzazione dei dettagli account
-solution: Experience Manager
+description: Fai clic su un utente per visualizzare i dettagli dell’account.
 title: Visualizzazione dei dettagli account
-uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
+exl-id: f60aed5c-c737-48ed-afb8-73a991f21a90
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
-
 # Visualizzazione dei dettagli account{#viewing-account-details}
 
-Fate clic su un utente per visualizzare i dettagli sull’account.
+Fai clic su un utente per visualizzare i dettagli dell’account.
 
 ## Profilo {#section_mpn_ttp_vz}
 
-La pagina Profilo fornisce informazioni sull’account utente, compresa la data di creazione dell’account, l’ID utente e l’indirizzo e-mail associati, un elenco di tutte le attività utente per l’account e un elenco di eventuali tag utente, divieti o whitelist associati.
+La pagina Profilo fornisce informazioni sull’account utente, inclusa la data di creazione dell’account, l’ID utente e l’indirizzo e-mail associati, un elenco di tutte le attività utente per l’account e un elenco di eventuali tag utente, divieti o whitelist associati.
 
 >[!NOTE]
 >
->Queste informazioni sono disponibili solo per gli amministratori di studio, i manager di studio e i manager utente. Per bloccare da questa vista gli indirizzi IP e e-mail dei vostri utenti, contattate il vostro responsabile commerciale di Livefyre.
+>Queste informazioni sono disponibili solo per gli amministratori di Studio, i manager di Studio e i manager utente. Per bloccare gli indirizzi IP e e-mail degli utenti da questa vista, contatta il tuo account manager tecnico Livefyre.
 
 ![](assets/UsersProfile-1024x699.png)
 
 ## Tag utente {#section_vk2_stp_vz}
 
-Aggiungete tag utente agli account sia per cercare più facilmente gli utenti con tag, sia per distinguere stilisticamente il contenuto degli utenti con tag da quello degli altri siti.
+Aggiungi tag utente agli account per cercare più facilmente gli utenti con tag e per differenziare stilisticamente il contenuto degli utenti con tag da quello degli altri sul tuo sito.
 
-Per ulteriori informazioni sull&#39;utilizzo dei tag utente per formattare il contenuto dell&#39;utente in modo diverso rispetto ad altri contenuti del sito, vedere **[!UICONTROL App Customizations > Style User Group Content]**.
+Per ulteriori informazioni sull’utilizzo dei tag utente per assegnare uno stile diverso al contenuto dell’utente rispetto ad altro contenuto del sito, consulta **[!UICONTROL App Customizations > Style User Group Content]**.
 
 >[!NOTE]
 >
->I tag utente non fanno distinzione tra maiuscole e minuscole e possono contenere spazi.
+>I tag utente non sono sensibili all’uso di maiuscole e minuscole e possono contenere spazi.
 
 ## Stato {#section_yhn_rtp_vz}
 
-Nella sezione Stato sono elencati i divieti o le whitelist associati all&#39;account e potete aggiungere l&#39;account a qualsiasi rete o blocco siti e whitelist esistente.
+La sezione Stato elenca eventuali divieti o whitelist associati all’account e consente di aggiungere l’account a eventuali divieti di rete o siti e whitelist esistenti.
 
-## Divieto di utilizzo {#section_l5b_5gr_vdb}
+## Divieto degli utenti {#section_l5b_5gr_vdb}
 
-Se un utente pubblica commenti inappropriati o spam su un articolo o sul sito, puoi scegliere di vietare l&#39;utente alla rete. Una volta vietato l&#39;accesso, tutti i contenuti inviati dall&#39;utente verranno automaticamente impostati sullo stato ***Bozo*** e saranno visibili solo all&#39;utente che effettua l&#39;invio. Gli utenti banditi possono accedere al flusso, pubblicare commenti e visualizzare il loro contenuto nell&#39;app. Gli utenti banditi crederanno di essere ancora parte della conversazione. Tuttavia, nessun altro utente sul sito potrà visualizzare questo contenuto.
+Se un utente pubblica commenti inappropriati o spam su un articolo o attraverso il tuo sito, puoi scegliere di vietare l&#39;utente dalla tua rete. Una volta vietato, tutti i contenuti pubblicati dall&#39;utente verranno automaticamente impostati sullo stato ***Bozo*** e saranno visibili solo all&#39;utente che ha effettuato la pubblicazione. Gli utenti banditi possono accedere al flusso, inviare commenti e visualizzare il loro contenuto nell’app. Gli utenti banditi crederanno di essere ancora parte della conversazione. Tuttavia, nessun altro utente del sito potrà vedere questo contenuto.
 
-Poiché il loro contenuto è diventato Bozo’d, gli utenti censurati possono continuare a pubblicare contenuti inappropriati, ma non saranno più visibili al resto della community.
+Poiché il loro contenuto è ora Bozo’d, gli utenti banditi possono continuare a pubblicare contenuti inappropriati, ma non saranno più visibili al resto della tua comunità.
 
-Per ulteriori informazioni, vedere **[!UICONTROL Studio > App Content > Bozo Content]**.
+Per ulteriori informazioni, consulta **[!UICONTROL Studio > App Content > Bozo Content]**.
 
-## Consenti elenco utenti {#section_kr4_ptp_vz}
+## Utenti dell&#39;elenco Consentiti {#section_kr4_ptp_vz}
 
-Consenti agli utenti di essere inseriti nell&#39;elenco di pubblicare direttamente le app. Il contenuto pubblicato dagli utenti inclusi nell&#39;elenco di autorizzazioni non passerà attraverso i filtri SICURI, di profanità o di premoderazione di Livefyre e verrà automaticamente approvato e aggiunto all&#39;app.
+Gli utenti dell’inserimento nell’elenco Consentiti consentono loro di inviare direttamente le proprie app. I contenuti pubblicati da utenti inseriti nell’elenco Consentiti non passeranno attraverso i filtri SAFE (SAFE), profility (profanità) o premoderazione di Livefyre e verranno automaticamente approvati e aggiunti all’app.
