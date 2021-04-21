@@ -1,14 +1,10 @@
 ---
-description: Potete consentire l’elenco del dominio video.
-seo-description: Potete consentire l’elenco del dominio video.
-seo-title: userPrivacyVideoWhitelist
-solution: Experience Manager
+description: Puoi inserire nell’elenco Consentiti il dominio video.
 title: userPrivacyVideoWhitelist
-uuid: adfead18-b73b-4ac4-97a0-d39f528b7606
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -16,16 +12,16 @@ ht-degree: 0%
 
 # userPrivacyVideoWhitelist{#userprivacyvideowhitelist}
 
-Se utilizzate video e lettori personalizzati come parte dei video visualizzati in un’app di visualizzazione Livefyre, potete consentire l’elenco del dominio del video. L’elenco dei domini video consente di rimuovere la maschera video per i video e i lettori personalizzati.
+Se utilizzi video e lettori personalizzati come parte dei video visualizzati in un’app di visualizzazione Livefyre, puoi inserire nell’elenco dei domini video consentiti. L’inserimento nell’elenco Consentiti del dominio video rimuove la maschera video per i video e i lettori personalizzati.
 
 >[!NOTE]
 >
->Utilizzate percorsi specifici per garantire che siano elencati solo i video sicuri. Se inserite un percorso ampio (ad esempio, sampledomain.com), potete consentire l’utilizzo di elenchi non sicuri per i video.
+>Utilizza percorsi specifici per garantire che solo i video sicuri siano inseriti nell’elenco Consentiti. Se inserisci un percorso ampio (ad esempio, sampledomain.com), puoi inserire nell’elenco dei video non sicuri.
 
-* Aggiungere `userPrivacyVideoWhitelist` dopo `userPrivacyOptOut`. Potete aggiungere tutti i flag di privacy di Livefyre contemporaneamente come parte di un oggetto Livefyre.
+* Aggiungi `userPrivacyVideoWhitelist` dopo `userPrivacyOptOut`. È possibile aggiungere tutti i flag per la privacy di Livefyre contemporaneamente come parte di un oggetto Livefyre.
 * `userPrivacyVideoWhitelist` si applica solo ai contenuti non incorporati dai social media.
 
-Nell&#39;esempio seguente, i video visualizzati in App con il percorso `sampledomain.com/cdn/videos` sono inclusi nell&#39;elenco:
+Nell’esempio seguente, i video visualizzati in App con il percorso `sampledomain.com/cdn/videos` sono inseriti nell’elenco Consentiti:
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]
