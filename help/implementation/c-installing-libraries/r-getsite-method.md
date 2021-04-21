@@ -1,18 +1,14 @@
 ---
 description: Restituisce un nuovo oggetto Site.
-seo-description: Restituisce un nuovo oggetto Site.
-seo-title: getSite, metodo di rete
-solution: Experience Manager
 title: getSite, metodo di rete
-uuid: 67de781e-5240-4be5-9e93-c614828e0bb5
+exl-id: 88782da9-88c6-4e60-9a23-e46d68675d59
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # getSite Network Method{#getsite-network-method}
 
@@ -40,7 +36,7 @@ var site = network.getSite(siteId, siteKey);
 $site = $network->getSite(siteId, siteKey);
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 site = network.get_site(siteId, siteKey) 
@@ -51,4 +47,3 @@ site = network.get_site(siteId, siteKey)
 ```
 site = network.get_site(siteId, siteKey) 
 ```
-
