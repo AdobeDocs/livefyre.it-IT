@@ -1,26 +1,22 @@
 ---
-description: Livefyre fornisce quattro API in evidenza, che consentono di recuperare i 50 elementi di contenuto più recenti per la rete di input, il sito o la raccolta, oppure i due elementi di contenuto presenti nella parte superiore di una raccolta di input.
-seo-description: Livefyre fornisce quattro API in evidenza, che consentono di recuperare i 50 elementi di contenuto più recenti per la rete di input, il sito o la raccolta, oppure i due elementi di contenuto presenti nella parte superiore di una raccolta di input.
-seo-title: Contenuto in evidenza aggregato tramite le API in evidenza
-solution: Experience Manager
-title: Contenuto in evidenza aggregato tramite le API in evidenza
-uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
+description: Livefyre fornisce quattro API in primo piano, che consentono di recuperare i 50 elementi di contenuto più recenti per Network, Site o Collection di input, oppure i due contenuti In primo piano in una raccolta di input.
+title: Contenuto in primo piano aggregato tramite le API supportate
+exl-id: 19f146bf-f406-4667-8ed9-7c7fb3672c05
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 1%
+source-wordcount: '200'
+ht-degree: 2%
 
 ---
 
+# Contenuto in primo piano aggregato utilizzando le API in primo piano{#aggregated-featured-content-using-the-featured-apis}
 
-# Contenuto in evidenza aggregato mediante le API in evidenza{#aggregated-featured-content-using-the-featured-apis}
+Livefyre fornisce quattro API in primo piano, che consentono di recuperare i 50 elementi di contenuto più recenti per Network, Site o Collection di input, oppure i due contenuti In primo piano in una raccolta di input.
 
-Livefyre fornisce quattro API in evidenza, che consentono di recuperare i 50 elementi di contenuto più recenti per la rete di input, il sito o la raccolta, oppure i due elementi di contenuto presenti nella parte superiore di una raccolta di input.
+## Disponibile (in rete) {#section_cgm_1nw_xz}
 
-## Disponibile (rete) {#section_cgm_1nw_xz}
-
-Recupera i 50 contenuti più recenti (e i relativi autori) per la rete di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo i 50 più recenti.)
+Recupera i 50 contenuti più recenti (e i relativi autori) per la rete di input. (Utilizzare il paging per restituire tutti i contenuti, anziché solo i 50 più recenti.)
 
 **Risorsa**
 
@@ -156,7 +152,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
 
 ## Disponibile (sito) {#section_lq5_ymw_xz}
 
-Restituisce i 50 contenuti più recenti (e i relativi autori) per il sito di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo i 50 più recenti.)
+Restituisce i 50 contenuti più recenti (e i relativi autori) del sito di input. (Utilizzare il paging per restituire tutti i contenuti, anziché solo i 50 più recenti.)
 
 **Risorsa**
 
@@ -256,9 +252,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
 }
 ```
 
-## In evidenza (raccolta) {#section_kgc_xmw_xz}
+## Disponibile (raccolta) {#section_kgc_xmw_xz}
 
-Restituisce i 50 contenuti più recenti (e i relativi autori) per la raccolta di input. (Utilizzate il paging per restituire tutto il contenuto, anziché solo i 50 più recenti.)
+Restituisce i 50 contenuti più recenti (e i relativi autori) della raccolta di input. (Utilizzare il paging per restituire tutti i contenuti, anziché solo i 50 più recenti.)
 
 **Risorsa**
 
@@ -358,9 +354,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
 }
 ```
 
-## In evidenza (testa) {#section_n4b_lmw_xz}
+## Disponibile (testa) {#section_n4b_lmw_xz}
 
-Restituisce i due contenuti più recenti della raccolta di input disponibili.
+Restituisce i due contenuti più recenti della raccolta di input.
 
 **Risorsa**
 
@@ -466,4 +462,3 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
    } 
 }
 ```
-
