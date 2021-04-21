@@ -1,26 +1,22 @@
 ---
-description: Integrare un'app Sidenotes seguendo un processo simile alle applicazioni di base.
-seo-description: Integrare un'app Sidenotes seguendo un processo simile alle applicazioni di base.
-seo-title: Integrazione Sidenotes
-solution: Experience Manager
-title: Integrazione Sidenotes
-uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
+description: Integra un’app Sidenotes seguendo un processo simile alle applicazioni core.
+title: Integrazione di Sidenote
+exl-id: 368951b1-fef2-46d8-b89c-68c46962e937
 translation-type: tm+mt
-source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
 
+# Integrazione Sidenote{#sidenotes-integration}
 
-# Integrazione delle note{#sidenotes-integration}
+Integra un’app Sidenotes seguendo un processo simile alle applicazioni core.
 
-Integrare un&#39;app Sidenotes seguendo un processo simile alle applicazioni di base.
+Come regola generale, se l&#39;integrazione dell&#39;applicazione core è completa, il codice scritto per generare l&#39;oggetto `collectionMeta` può essere riutilizzato per le note.
 
-Come regola generale, se l&#39;integrazione dell&#39;applicazione di base è completa, il codice scritto per generare l&#39;oggetto `collectionMeta` può essere riutilizzato per le note.
-
-È inoltre possibile riutilizzare i delegati `auth` esistenti fornendo un delegato `auth` creato con `fyre.conv` a Sidenotes nel campo (facoltativo) `authDelegate`.
+Puoi anche riutilizzare i delegati esistenti `auth` fornendo un delegato `auth` creato con `fyre.conv` alle note nel campo (facoltativo) `authDelegate` .
 
 >[!NOTE]
 >
@@ -56,7 +52,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-Come indicato nella sezione Building `collectionMeta`, `collectionMeta` è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON ha il formato seguente prima che sia codificato JWT.
+Come indicato nella sezione Generazione `collectionMeta` , `collectionMeta` è un oggetto JSON codificato. Nell’esempio precedente, l’oggetto JSON assume il formato seguente prima della codifica JWT.
 
 ```
 { 
@@ -68,11 +64,11 @@ Come indicato nella sezione Building `collectionMeta`, `collectionMeta` è un og
 }
 ```
 
-Per ulteriori informazioni, vedere il token `collectionMeta`.
+Per ulteriori informazioni, consulta il token `collectionMeta` .
 
 ## Configurazione mobile
 
-Le note sono state ottimizzate per l’uso nei dispositivi mobili. Per risultati ottimali con le versioni per dispositivi mobili dell’app Livefyre, impostate l’opzione scalabile utente su no. Ad esempio:
+Note a video è stato ottimizzato per l’utilizzo su dispositivi mobili. Per risultati migliori con le versioni mobili dell’app Livefyre, imposta l’opzione scalabile dall’utente su no. Ad esempio:
 
 ```
 <meta name="viewport" content="width=device-width, user-scalable=no">
