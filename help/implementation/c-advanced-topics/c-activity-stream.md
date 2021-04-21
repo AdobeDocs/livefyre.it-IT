@@ -1,32 +1,28 @@
 ---
-description: Scoprite come monitorare e archiviare il contenuto generato dall'utente che scorre attraverso il sistema Livefyre.
-seo-description: Scoprite come monitorare e archiviare il contenuto generato dall'utente che scorre attraverso il sistema Livefyre.
-seo-title: Flusso attività
-solution: Experience Manager
-title: Flusso attività
-uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
+description: Scopri come monitorare e archiviare il contenuto generato dall’utente che scorre attraverso il sistema Livefyre.
+title: Flusso di attività
+exl-id: 4a552034-96e4-4f1c-9965-3495992005f1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
 
+# Flusso di attività {#activity-stream}
 
-# Flusso attività {#activity-stream}
+Scopri come monitorare e archiviare il contenuto generato dall’utente che scorre attraverso il sistema Livefyre.
 
-Scoprite come monitorare e archiviare il contenuto generato dall&#39;utente che scorre attraverso il sistema Livefyre.
+Utilizza l’API di flusso di attività per utilizzare i dati generati dagli utenti che scorrono attraverso il sistema Livefyre sulla tua rete o sul tuo sito. Ad esempio: utilizza i dati di questa API per aggiornare gli indici di ricerca in base alle valutazioni o per gestire i badge degli utenti in un sistema di terze parti in base alla loro attività.
 
-Utilizzate l&#39;API Activity Stream per utilizzare i dati generati dall&#39;utente che scorrono nel sistema Livefyre della rete o del sito. Ad esempio: utilizzate i dati di questa API per aggiornare gli indici di ricerca in base alle valutazioni, o per gestire i simboli degli utenti in un sistema di terze parti in base alla loro attività.
+API di flusso di attività:
 
-API Flusso attività:
-
-Per un elenco completo degli endpoint disponibili, consultate la sezione Riferimento API di Livefyre.
+Per un elenco completo degli endpoint disponibili, consulta la sezione Riferimento API di Livefyre .
 
 ## Risorse {#section_aql_n4l_b1b}
 
-Esistono due endpoint, uno per l&#39;ambiente di staging e uno per la produzione.
+Esistono due endpoint, uno per l’ambiente di staging e uno per la produzione.
 
 ### Staging
 
@@ -44,36 +40,36 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 * **resource:** ** stringUn URL dell&#39;oggetto per il quale si richiedono i dati dell&#39;attività.
 
-* **from:** ** integerUn numero intero a 64 bit che rappresenta l&#39;ID dell&#39;ultimo evento ricevuto. Specificate &quot;0&quot; se non avete dati precedenti.
+* **da:** ** integerUn numero intero a 64 bit che rappresenta l&#39;ID dell&#39;ultimo evento ricevuto. Specificare &quot;0&quot; se non si dispone di dati precedenti.
 
 ## Stringhe URN {#section_skl_q4l_b1b}
 
 Esempi:
 
-* **urn:livefyre:** `example.fyre.co` Il flusso di attività per  `example.fyre.co`.
+* **urn:livefyre:** `example.fyre.co` il flusso di attività per  `example.fyre.co`.
 * **urn:livefyre:** `example.fyre.co:site=54321` il flusso di attività per il sito 54321 sotto la  `example.fyre.co` rete.
 
-## Criteri token {#section_nwh_c5j_11b}
+## Criteri per i token {#section_nwh_c5j_11b}
 
-L&#39;API Activity Stream utilizza un token OAuth Beiter per l&#39;autenticazione. I token del portatore fanno parte della specifica OAuth 2.0 e sono ufficialmente descritti [qui](https://tools.ietf.org/html/rfc6750#section-1.2).
+L’API di flusso di attività utilizza un token portatore OAuth per l’autenticazione. I token portatori fanno parte della specifica OAuth 2.0 e sono ufficialmente descritti [qui](https://tools.ietf.org/html/rfc6750#section-1.2).
 
 Un token contiene diversi elementi:
 
 * Chi ha creato il token.
-* A chi è stato dato un token.
-* Ora in cui non è più valido.
-* La cosa su cui stiamo operando.
+* A chi è stato dato un gettone.
+* Ora in cui non è più valida.
+* La cosa su cui stiamo lavorando.
 * Elenco di autorizzazioni concesse.
 
 ### Passaggi
 
-I passaggi per creare un token OAuth Beholder includono:
+I passaggi per creare un token portatore OAuth includono:
 
-* Crea una mappa/dizionario contenente emittente, pubblico, oggetto, scadenza e ambito.
-* Utilizzate la libreria JWT, con il vostro segreto, per codificare un token JWT.
+* Crea una mappa/dizionario contenente l’emittente, il pubblico, l’oggetto, la scadenza e l’ambito.
+* Utilizza la libreria JWT, con il tuo segreto, per codificare un token JWT.
 * Aggiungi &quot;Autenticazione: Portatore&quot; alla richiesta HTTP.
 
-L’esempio di codice riportato di seguito illustra i passaggi descritti in Python:
+L&#39;esempio di codice riportato di seguito illustra i passaggi precedenti in Python:
 
 ```
 import time 
@@ -96,13 +92,13 @@ data = dict(iss=network_urn, aud=network_urn, sub=network_urn, scope=api_urn, ex
 token = jwt.encode(data, key=network_secret)
 ```
 
-Dove le chiavi token del portatore sono definite come segue:
+Dove le chiavi del token portatore sono definite come segue:
 
-* **is** *(Issuer)* Un&#39;entità con l&#39;autorità di generare token. Può trattarsi di Livefyre, di un sito o di una rete. (affinché una nota sia in ritardo a scuola, è il vostro genitore.)
-* **aud** *(Audience)* La persona per la quale è stato generato questo token. Se state creando il token voi stessi, si tratta del sito o della rete.
-* **sub** *(Oggetto)* Oggetto per il quale devono essere concesse autorizzazioni. Ad esempio, se state operando su una raccolta, l&#39;oggetto deve essere l&#39;identificatore della raccolta. (Nella nota dell’esempio scolastico, siete voi.)
+* **is** *(Issuer)* Un’entità con l’autorità per generare token. Questo può essere Livefyre, un sito o una rete. (Perché una nota sia in ritardo a scuola, è il tuo genitore.)
+* **aud** *(Audience)* La persona per la quale è stato generato questo token. Se stai creando il token tu stesso, si tratta del sito o della rete.
+* **sub** *(Oggetto)* L’oggetto per il quale devono essere concesse autorizzazioni. Ad esempio, se lavori su una raccolta, l&#39;oggetto deve essere l&#39;identificatore della raccolta. (Nella nota dell’esempio scolastico, sei tu.)
 * **exp** *(Expiration)* Un punto nel tempo in cui il token non è più valido.
-* **scope** *(Scope)* Elenco delle autorizzazioni concesse sull&#39;oggetto. &quot;Ritardo per la scuola&quot; è un esempio. Il nome di un&#39;API è un altro esempio.
+* **ambito** *(Ambito)* Si tratta di un elenco delle autorizzazioni concesse sull’oggetto. &quot;Ritardo per la scuola&quot; è un esempio. Il nome di un’API è un altro esempio.
 
 ## Esempio {#section_dhl_ytj_11b}
 
@@ -249,7 +245,7 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 } 
 ```
 
-Una risposta con nuovi dati dall&#39;ultima richiesta:
+Una risposta con nuovi dati dall’ultima richiesta:
 
 ```
 { 
@@ -275,9 +271,9 @@ Una risposta con nuovi dati dall&#39;ultima richiesta:
 
 ## Note {#section_hj3_crj_11b}
 
-* Una chiamata corretta all&#39;API darà come risultato un codice di stato HTTP 200. Tutti gli altri codici di stato devono essere considerati errori.
-* Se non è nullo, utilizza il valore di `data.meta.cursor.next` come parametro `since` della richiesta successiva.
-* Se il valore di `data.meta.cursor.next` è null, significa che non vi sono nuovi dati da utilizzare. Richiedete di nuovo in seguito con lo stesso valore `since` per verificare se sono arrivati nuovi dati.
-* In pratica, è necessario richiedere immediatamente più dati se il valore `data.meta.cursor.next` non è nullo.
-* Sono disponibili circa due ore di dati recenti tramite questa API in produzione.
-* È necessario impostare i processi per eseguire il polling frequente di questo endpoint sul cronjob, al fine di evitare la mancanza di dati. Un intervallo di cinque minuti dovrebbe essere perfettamente adeguato per la maggior parte delle implementazioni.
+* Una chiamata corretta all’API darà un codice di stato HTTP 200. Tutti gli altri codici di stato devono essere considerati errori.
+* Se non è nullo, utilizza il valore da `data.meta.cursor.next` come parametro `since` della richiesta successiva.
+* Se il valore di `data.meta.cursor.next` è nullo, significa che non vi sono nuovi dati da utilizzare. Richiedi di nuovo più tardi con lo stesso valore `since` per vedere se sono arrivati nuovi dati.
+* Come pratica, se il valore `data.meta.cursor.next` non è nullo, è necessario richiedere immediatamente più dati.
+* Circa due ore di dati recenti sono disponibili tramite questa API in produzione.
+* È necessario impostare i processi per eseguire frequentemente il polling dell’endpoint sul cronjob, in modo da evitare la perdita di dati. Un intervallo di cinque minuti dovrebbe essere perfettamente adeguato per la maggior parte delle implementazioni.
