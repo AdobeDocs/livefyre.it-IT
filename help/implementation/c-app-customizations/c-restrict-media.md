@@ -1,30 +1,26 @@
 ---
-description: Limita il tipo di file multimediali che accede allo streaming dell'app.
-seo-description: Limita il tipo di file multimediali che accede allo streaming dell'app.
-seo-title: Limita file multimediali
-solution: Experience Manager
+description: Limita il tipo di file multimediali che accede al flusso dell'app.
 title: Limita file multimediali
-uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
+exl-id: ae09a058-41de-4b63-8654-cc82f5abad14
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
+# Limita contenuto multimediale{#restrict-media}
 
-# Limita supporto{#restrict-media}
+Limita il tipo di file multimediali che accede al flusso dell&#39;app.
 
-Limita il tipo di file multimediali che accede allo streaming dell&#39;app.
-
-Per impostazione predefinita, tutti gli allegati multimediali possono essere incorporati nelle app. Livefyre consente di modificare questa opzione per impedire agli utenti di inviare i tipi di allegati selezionati alle app.
+Per impostazione predefinita, tutti gli allegati multimediali possono essere incorporati nelle app. Livefyre consente di modificare questa opzione per impedire agli utenti di inviare tipi di allegati selezionati alle app.
 
 >[!NOTE]
 >
->Livefyre collabora con Embedded per l&#39;integrazione con i media. Per ulteriori informazioni, vedere Integrazione dei contenuti > Integrazione incorporata. Per domande sull&#39;espansione dei collegamenti o sulle origini, contattate l&#39;Account Manager tecnico.
+>Livefyre collabora con Embedly per l&#39;integrazione dei contenuti multimediali. Per ulteriori informazioni, consulta Integrazione dei contenuti > Integrazione Embedly. Per domande sull&#39;espansione dei collegamenti o sulle origini, contatta il tuo Account Manager tecnico.
 
-In questo esempio YouTube e Vimeo vengono bloccati dal flusso di commenti:
+Questo esempio blocca l’incorporamento di YouTube e Vimeo dal flusso di commenti:
 
 ```
 var attachmentDelegate = function(embedObj) { 
@@ -38,10 +34,9 @@ var attachmentDelegate = function(embedObj) {
 };
 ```
 
-Durante il caricamento della conversazione:
+Al caricamento della conversazione:
 
 ```
 networkConfig["attachmentDelegate"] = attachmentDelegate; 
 fyre.conv.load(networkConfig, [convConfig]);
 ```
-
