@@ -1,15 +1,11 @@
 ---
-description: Note sulla versione per la release di Livefyre del 10 gennaio 2019.
-seo-description: Note sulla versione per la release di Livefyre del 10 gennaio 2019.
-seo-title: Note sulla versione
-solution: Experience Manager
+description: Note sulla versione per la versione di Livefyre del 10 gennaio 2019.
 title: Note sulla versione
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
 
@@ -20,4 +16,4 @@ ht-degree: 14%
 
 ## Correzioni di bug
 
-* È stato risolto un problema che impediva la visualizzazione di alcuni contenuti dell&#39;app nell&#39;interfaccia utente di Designer.
+* È stato risolto un problema che impediva la visualizzazione di alcuni contenuti dell’app nell’interfaccia utente di Designer.
