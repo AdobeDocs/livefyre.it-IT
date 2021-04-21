@@ -1,26 +1,22 @@
 ---
-description: È possibile accedere a un utente dalla console durante l'integrazione e il test per eseguire il debug dell'autorizzazione.
-seo-description: È possibile accedere a un utente dalla console durante l'integrazione e il test per eseguire il debug dell'autorizzazione.
-seo-title: Debug delegato autenticazione
-solution: Experience Manager
-title: Debug delegato autenticazione
-uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
+description: È possibile accedere a un utente tramite la console durante l'integrazione e il test per eseguire il debug dell'autorizzazione.
+title: Delega autenticazione debug
+exl-id: fa1c17fa-5aba-4f4c-9217-5823af30af61
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
+# Delega autenticazione debug{#debugging-auth-delegate}
 
-# Debug delegato autenticazione{#debugging-auth-delegate}
+È possibile accedere a un utente tramite la console durante l&#39;integrazione e il test per eseguire il debug dell&#39;autorizzazione.
 
-È possibile accedere a un utente dalla console durante l&#39;integrazione e il test per eseguire il debug dell&#39;autorizzazione.
+Accedi a un utente tramite la console utilizzando il seguente `auth.authenticate` (token) e passa un token utente Livefyre per autenticare gli utenti sulla pagina.
 
-Accedete a un utente tramite la console utilizzando il seguente `auth.authenticate` (token) e passate un token utente Livefyre per autenticare gli utenti sulla pagina.
-
-Potete anche modificare l&#39;esempio riportato sopra e aggiungere il seguente snippet in linea nel codice JavaScript per registrare rapidamente un utente in Livefyre (richiede un riferimento ad auth).
+Puoi anche modificare l’esempio mostrato sopra e aggiungere il seguente frammento in linea nel tuo JavaScript per accedere rapidamente un utente a Livefyre (richiede un riferimento ad auth).
 
 ```
 window.addEventListener('userAuthenticated', function(data) { 
@@ -29,4 +25,3 @@ window.addEventListener('userAuthenticated', function(data) {
  }); 
 });
 ```
-
