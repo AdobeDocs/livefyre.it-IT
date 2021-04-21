@@ -1,25 +1,21 @@
 ---
-description: Aggiungete alla pagina singoli contenuti.
-seo-description: Aggiungete alla pagina singoli contenuti.
-seo-title: Scheda
-solution: Experience Manager
-title: Scheda
-uuid: 8c44edad-d8a5-452e-952c-5d6818e5c0b0
+description: Aggiungi singoli contenuti alla pagina.
+title: Scheda tecnica
+exl-id: 24364376-5cb3-4ef1-a0b0-69781fcc9132
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
+# Scheda funzione{#feature-card}
 
-# Scheda delle funzioni{#feature-card}
+Aggiungi singoli contenuti alla pagina.
 
-Aggiungete alla pagina singoli contenuti.
+Utilizza la scheda Feature per evidenziare singole parti di contenuto su un singolo display a schede. L’app dà priorità ai contenuti più recenti e li visualizza in sequenza per garantire una visualizzazione nuova e pertinente.
 
-Utilizzate la scheda Feature per evidenziare singole parti di contenuto su un singolo display di scheda. L&#39;app dà priorità ai contenuti più recenti e visualizza in sequenza gli elementi più recenti per garantire una visualizzazione nuova e pertinente.
+La scheda delle funzioni visualizza l&#39;elemento più recente (non necessariamente l&#39;elemento pubblicato più di recente), consentendoti di selezionare il contenuto migliore per una presentazione tempestiva sulla pagina.
 
-La scheda delle funzioni visualizzerà l&#39;elemento più recente (non necessariamente l&#39;elemento pubblicato più di recente), consentendo di selezionare il contenuto migliore per la presentazione tempestiva sulla pagina.
-
-Utilizzate la scheda Feature per evidenziare singole parti di contenuto su un singolo display di scheda. L&#39;app dà priorità ai contenuti più recenti e visualizza in sequenza gli elementi più recenti per garantire una visualizzazione nuova e pertinente.
+Utilizza la scheda Feature per evidenziare singole parti di contenuto su un singolo display a schede. L’app dà priorità ai contenuti più recenti e li visualizza in sequenza per garantire una visualizzazione nuova e pertinente.
