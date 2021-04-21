@@ -1,41 +1,37 @@
 ---
-description: Puoi creare regole di flusso che richiamano il contenuto dalle regole di YouTube.
-seo-description: Puoi creare regole di flusso che richiamano il contenuto dalle regole di YouTube.
-seo-title: Regole YouTube
-solution: Experience Manager
-title: Regole YouTube
-uuid: ec6a3780-7119-45c3-8ab2-fb0f9803d161
+description: Puoi creare regole di flusso per estrarre contenuto dalle regole di YouTube.
+title: Regole di YouTube
+exl-id: 720a6fc6-d5de-4c78-a14e-51bced6e8dda
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-
 # Regole YouTube {#youtube-rules}
 
-Puoi creare regole di flusso che richiamano il contenuto dalle regole di YouTube.
+Puoi creare regole di flusso per estrarre contenuto dalle regole di YouTube.
 
-Creare regole YouTube basate su Utente, Canale o Playlist.
+Crea regole YouTube in base a Utente, Canale o Playlist.
 
-Per creare delle regole di YouTube per estrarre il contenuto da YouTube nell&#39;app o nella cartella, puoi filtrare in base a:
+Per creare regole YouTube per estrarre contenuto da YouTube nell’app o nella cartella, puoi filtrare in base a:
 
 * **[!UICONTROL User]**
-   * Immettete la stringa vanity per un **[!UICONTROL User]** per includere i video dell&#39;utente nel flusso.
-   * Ad esempio, se l&#39;URL del feed utente che si desidera inserire è `https://www.youtube.com/user/livefyresupport`, è sufficiente immettere `livefyresupport`.
+   * Immetti la stringa di reindirizzamento per un **[!UICONTROL User]** per includere i video dell&#39;utente nel flusso.
+   * Ad esempio, se l’URL del feed utente che si desidera inserire è `https://www.youtube.com/user/livefyresupport`, è sufficiente inserire `livefyresupport`.
 
 * **[!UICONTROL Channel]**
-   * Immettete la stringa vanity per un **[!UICONTROL Channel]** in modo da includere i video da un canale nel flusso.
-   * Ad esempio, se l&#39;URL del feed canale che si desidera inserire è `https://www.youtube.com/channel/UCeNZlh03MyUkjRlLFpVQxsg`, è sufficiente immettere `UCeNZlh03MyUkjRlLFpVQxsg`.
+   * Immetti la stringa di reindirizzamento per un **[!UICONTROL Channel]** per includere i video da un canale nel flusso.
+   * Ad esempio, se l’URL del feed canale che desideri inserire è `https://www.youtube.com/channel/UCeNZlh03MyUkjRlLFpVQxsg`, è sufficiente inserire `UCeNZlh03MyUkjRlLFpVQxsg`.
 
 * **[!UICONTROL Playlist]**
-   * Immettete la stringa vanity per un **[!UICONTROL Playlist]** per includere i video da una sequenza di riproduzione nel flusso.
-   * Ad esempio, se l&#39;URL del feed della sequenza di riproduzione che si desidera inserire è `https://www.youtube.com/playlist?list=PLFE5670C92BDAC201`, è sufficiente immettere `PLFE5670C92BDAC201`
+   * Immetti la stringa di reindirizzamento per un **[!UICONTROL Playlist]** per includere video da una sequenza di riproduzione nel flusso.
+   * Ad esempio, se l&#39;URL del feed della sequenza di riproduzione che si desidera inserire è `https://www.youtube.com/playlist?list=PLFE5670C92BDAC201`, è sufficiente inserire `PLFE5670C92BDAC201`
 
-* **[!UICONTROL Include recent items.]** Se impostato su:
-   * **[!UICONTROL Enabled]**, Livefyre aggiunge al flusso i primi 15 elementi di contenuto del feed, indipendentemente dalla data di pubblicazione.
-   * **[!UICONTROL Disabled]**, Livefyre aggiunge i primi 15 elementi di contenuto nel feed al flusso con una data di pubblicazione che corrisponde alla data di creazione della regola del flusso o a una data successiva.
+* **[!UICONTROL Include recent items.]** Se è impostato su:
+   * **[!UICONTROL Enabled]**, Livefyre aggiunge al flusso i primi 15 elementi di contenuto nel feed, indipendentemente dalla data di pubblicazione.
+   * **[!UICONTROL Disabled]**, Livefyre aggiunge al flusso i primi 15 elementi di contenuto nel feed con una data di pubblicazione corrispondente alla data di creazione della regola del flusso o successiva.
 
-Per ulteriori opzioni della regola di flusso per tutte le regole di flusso, vedere [Opzioni regola di flusso per tutte le regole di flusso](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Per ulteriori opzioni della regola Stream per tutte le regole Stream, vedere [Opzioni della regola Stream per tutte le regole Stream](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
