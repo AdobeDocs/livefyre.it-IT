@@ -1,24 +1,20 @@
 ---
-description: Visualizzate più raccolte su una singola pagina.
-seo-description: Visualizzate più raccolte su una singola pagina.
-seo-title: Raccolte multiple
-solution: Experience Manager
+description: Mostra più raccolte su una singola pagina.
 title: Raccolte multiple
-uuid: 9675ffd7-1a59-42a1-b3ba-40af1744cfd1
+exl-id: 748b6ca6-635e-4bae-9b95-cfbd4651751f
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
 
-
 # Raccolte multiple {#multiple-collections}
 
-Visualizzate più raccolte su una singola pagina.
+Mostra più raccolte su una singola pagina.
 
-Potete includere più raccolte in una singola pagina del sito. Ad esempio, per pubblicare un evento, potete tenere una discussione Live Blog o Chat durante l&#39;evento, con un&#39;app separata sul lato della pagina, che mostra il contenuto curato correlato da tutto il social Web. Oppure, potete includere un&#39;app dei commenti sotto un articolo, con una chat a lato.
+Puoi includere più raccolte in una singola pagina del sito. Ad esempio, per pubblicare un evento, potresti avere una discussione Live Blog o Chat durante l&#39;evento, con un&#39;app separata sul lato della pagina, che mostra i relativi contenuti curati da tutto il social web. Oppure, puoi includere un&#39;app Commenti sotto un articolo, con una Chat a lato.
 
 Per ottenere più conversazioni su una pagina, aggiungi una o più configurazioni in un array e passa l’array alla chiamata di caricamento. Ad esempio.
 
