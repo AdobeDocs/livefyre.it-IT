@@ -1,41 +1,37 @@
 ---
-description: Create la risposta Ping for Pull per trasmettere informazioni aggiornate degli utenti a Livefyre.
-seo-description: Create la risposta Ping for Pull per trasmettere informazioni aggiornate degli utenti a Livefyre.
-seo-title: Creare il ping per la risposta pull
-solution: Experience Manager
-title: Creare il ping per la risposta pull
-uuid: f90871d5-601f-40dc-b3d2-ab78635e4a88
+description: Genera il Ping per la risposta Pull per trasmettere informazioni utente aggiornate a Livefyre.
+title: Creare il ping per la risposta di pull
+exl-id: 81c398fd-2acb-4e39-a2b3-c96921b1192b
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
 
+# Creare il ping per la risposta di pull{#build-the-ping-for-pull-response}
 
-# Creare il ping per la risposta pull{#build-the-ping-for-pull-response}
-
-Create la risposta Ping for Pull per trasmettere informazioni aggiornate degli utenti a Livefyre.
+Genera il Ping per la risposta Pull per trasmettere informazioni utente aggiornate a Livefyre.
 
 | Type (Tipo) | Proprietà | Descrizione |
 |--- |--- |--- |
-| Stringa *obbligatoria* | id | L’ID utente dell’utente nel sistema del profilo. Deve essere univoco per tutti gli utenti della rete e non deve mai essere modificato. |
-| Stringa *obbligatoria* | display_name | Nome visualizzato dell&#39;utente. Questo verrà rappresentato con il contenuto Livefyre pubblicato dall&#39;utente. |
-| Oggetto *facoltativo, ma consigliato* | name | Stringhe per definire il nome formattato, il nome, il centro e il cognome dell&#39;utente. |
-| Stringa *facoltativa, ma consigliata* | e-mail | Indirizzo e-mail dell’utente. Utilizzato per inviare le notifiche e-mail. |
-| Stringa *facoltativa, ma consigliata* | image_url | URL di un avatar da visualizzare per l’utente. Livefyre ridimensiona le immagini caricate a 100×100, 75×75 o 50×50 pixel, a seconda dei casi. Per risultati ottimali, gli utenti devono caricare un’immagine quadrata a 100×100 pixel. Per fare in modo che l&#39;immagine avatar venga aggiornata in Livefyre, modificate image_url per ogni aggiornamento immagine in modo che Ping for Pull rilevi che l&#39;immagine è stata modificata. Ad esempio, allegare una marca temporale al nome del file o incrementare le modifiche apportate alle immagini. Nota:  Tutti gli URL devono essere completi e accessibili. |
-| Stringa *facoltativa, ma consigliata* | profile_url | URL della pagina del profilo utente sul sito. |
+| Stringa *obbligatoria* | id | ID utente dell’utente nel sistema del profilo. Deve essere univoco per tutti gli utenti della rete e non deve mai essere modificato. |
+| Stringa *obbligatoria* | nome_visualizzato | Nome visualizzato dell&#39;utente. Questo verrà riprodotto con il contenuto Livefyre pubblicato dall’utente. |
+| Oggetto *facoltativo, ma consigliato* | name | Stringhe per definire i nomi formattati, i nomi, i nomi e i cognomi dell’utente. |
+| Stringa *facoltativa, ma consigliata* | e-mail | Indirizzo e-mail dell’utente. Utilizzato per inviare notifiche e-mail. |
+| Stringa *facoltativa, ma consigliata* | image_url | URL di un avatar da visualizzare per l’utente. Livefyre ridimensiona le immagini caricate a 100×100, 75×75 o 50×50 pixel, a seconda dei casi. Per risultati migliori, gli utenti devono caricare un&#39;immagine quadrata, a 100×100 pixel. Per assicurarsi che l&#39;immagine avatar sia aggiornata in Livefyre, modifica l&#39;image_url per ogni aggiornamento dell&#39;immagine in modo che Ping for Pull rilevi che l&#39;immagine è stata modificata. Ad esempio, allega una marca temporale al nome del file o incrementa le modifiche dell’immagine. Nota:  Tutti gli URL devono essere completi e accessibili. |
+| Stringa *facoltativa, ma consigliata* | profile_url | URL della pagina del profilo dell’utente sul sito. |
 | Stringa *facoltativa, ma consigliata* | settings_url | URL a una pagina in cui gli utenti possono configurare le impostazioni del profilo dell’utente per il sito. |
-| Array *facoltativo, ma consigliato* | tags | Utilizzato per assegnare utenti a gruppi di utenti. I tag possono includere da 1 a 63 caratteri alfanumerici e caratteri di sottolineatura. |
-| Booleano *facoltativo, ma consigliato* | autofollow_conversations | Definisce se un utente desidera seguire automaticamente una raccolta dopo averla pubblicata. Quando si segue una raccolta, gli utenti ricevono notifiche e-mail quando altri utenti partecipano. Può essere vero o falso. Il valore predefinito è true. |
-| Oggetto *facoltativo, ma consigliato* | email_notifications | Definisce la frequenza delle notifiche e-mail Livefyre disponibili. Per ogni tipo di notifica possono essere impostate frequenze diverse. Per impostazione predefinita, non vengono inviate notifiche. <br><ul><li> invia immediatamente le notifiche immediatamente dopo l’evento elencato. </li><li>invia spesso notifiche in batch. </li><li> mai non invierà notifiche e-mail per l&#39;attività. </li><li>*commenti*: Definisce quando le notifiche vengono inviate quando altri utenti inseriscono contenuto nelle raccolte che l&#39;utente segue. </li><li>*risposte*: Definisce quando le notifiche vengono inviate quando un altro utente risponde al contenuto di questo utente.</li><li>*Mi piace*: Definisce quando le notifiche vengono inviate quando un altro utente ama il contenuto di questo utente.</li><li>*moderator_comments*: Definisce quando le notifiche vengono inviate ai moderatori quando gli utenti inviano contenuto a qualsiasi raccolta nella rete.</li><li>*moderator_flags*: Definisce quando le notifiche vengono inviate ai moderatori quando altri utenti contrassegnano il contenuto in qualsiasi raccolta della rete.</li></ul> |
-| String *optional* | la posizione | Un percorso inviato dall’utente. |
-| String *optional* | bio | Autobiografia inviata dall’utente. |
-| Array *facoltativo* | siti Web | Un array di siti inviati dall’utente. Max = 2. |
-| Oggetto *facoltativo* | display_rules | Definisce le proprietà del profilo visibili pubblicamente agli altri utenti. Ogni parametro disponibile accetta l&#39;input booleano true o false. Parametri disponibili:  <br><ul><li>bio </li><li> la posizione</li><li>  genere </li><li>nameimage </li><li> remote_profile_url</li></ul> |
-| Booleano *facoltativo* | moderatore | Definisce se l&#39;utente dispone di privilegi di moderatore in tutta la rete. |
-| Booleano *facoltativo* | gravatar_disabled | Definisce se disabilitare l&#39;utilizzo di un gravatar da parte di Livefyre in assenza di image_url. |
+| Array *facoltativo, ma consigliato* | tag | Utilizzato per assegnare gli utenti a gruppi di utenti. I tag possono includere da 1 a 63 caratteri alfanumerici e caratteri di sottolineatura. |
+| Booleano *facoltativo, ma consigliato* | autofollow_conversations | Definisce se un utente desidera seguire automaticamente una raccolta dopo la pubblicazione. Quando segue una raccolta, gli utenti ricevono notifiche e-mail quando altri utenti partecipano. Può essere vero o falso. Predefinito su true. |
+| Oggetto *facoltativo, ma consigliato* | email_notifications | Definisce la frequenza delle notifiche e-mail Livefyre disponibili. Per ciascun tipo di notifica possono essere fissate frequenze diverse. Per impostazione predefinita, non vengono inviate notifiche. <br><ul><li> invia immediatamente le notifiche immediatamente dopo l’evento elencato. </li><li>invia spesso notifiche in batch. </li><li> non invierà mai notifiche e-mail per l’attività. </li><li>*commenti*: Definisce quando vengono inviate notifiche quando altri utenti inseriscono contenuto nelle raccolte che l’utente sta seguendo. </li><li>*risposte*: Definisce quando vengono inviate notifiche quando un altro utente risponde al contenuto di questo utente.</li><li>*Mi piace*: Definisce quando vengono inviate notifiche quando un altro utente ama il contenuto di questo utente.</li><li>*moderator_comments*: Definisce quando le notifiche vengono inviate ai moderatori quando gli utenti pubblicano contenuti a qualsiasi raccolta nella rete.</li><li>*moderatore_flag*: Definisce quando le notifiche vengono inviate ai moderatori quando altri utenti contrassegnano il contenuto in qualsiasi raccolta nella rete.</li></ul> |
+| Stringa *opzionale* | la posizione | Una posizione inviata dall’utente. |
+| Stringa *opzionale* | bio | Autobiografia inviata dall’utente. |
+| Array *facoltativo* | siti web | Matrice di siti inviati dall’utente. Max = 2. |
+| Oggetto *facoltativo* | display_rules | Definisce quali proprietà di profilo sono visibili pubblicamente ad altri utenti. Ogni parametro disponibile accetta l’input booleano true o false. Parametri disponibili:  <br><ul><li>bio </li><li> la posizione</li><li>  genere </li><li>nameimage </li><li> remote_profile_url</li></ul> |
+| Booleano *facoltativo* | moderatore | Definisce se l&#39;utente dispone di privilegi di moderatore nella rete. |
+| Booleano *facoltativo* | gravatar_disabled | Definisce se disabilitare l&#39;uso di un gravatar da parte di Livefyre se non viene fornito alcun image_url. |
 
 ## Risposta di esempio {#section_uxt_3dd_mz}
 
