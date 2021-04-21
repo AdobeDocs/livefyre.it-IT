@@ -1,36 +1,33 @@
 ---
-description: Potete utilizzare Identità Livefyre con Identità GitHub per consentire agli utenti di utilizzare i loro accessi GitHub per interagire con le App sul sito.
-seo-description: Potete utilizzare Identità Livefyre con Identità GitHub per consentire agli utenti di utilizzare i loro accessi GitHub per interagire con le App sul sito.
-seo-title: Creare un'app di identità GitHub da utilizzare con l'identità Livefyre
-title: Creare un'app di identità GitHub da utilizzare con l'identità Livefyre
-uuid: cf56164c-1521-4a42-89cb-39483764807e
+description: Puoi utilizzare Livefyre Identity con GitHub Identity per consentire agli utenti di utilizzare i loro accessi GitHub per interagire con le app sul tuo sito.
+title: Creare un’app GitHub Identity da utilizzare con Livefyre Identity
+exl-id: f25ffd0e-ea4f-42ac-abfc-c02018421b85
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
 
+# Creare un’app GitHub Identity da utilizzare con Livefyre Identity{#create-a-github-identity-app-for-use-with-livefyre-identity}
 
-# Creare un&#39;app di identità GitHub da utilizzare con Livefyre Identity{#create-a-github-identity-app-for-use-with-livefyre-identity}
+Puoi utilizzare Livefyre Identity con GitHub Identity per consentire agli utenti di utilizzare i loro accessi GitHub per interagire con le app sul tuo sito.
 
-Potete utilizzare Identità Livefyre con Identità GitHub per consentire agli utenti di utilizzare i loro accessi GitHub per interagire con le App sul sito.
-
-Per consentire agli utenti di accedere con le proprie credenziali di identità GitHub, Livefyre richiede le seguenti informazioni di identità GitHub:
+Per consentire agli utenti di accedere con le proprie credenziali GitHub Identity, Livefyre richiede le seguenti informazioni GitHub Identity:
 
 * ID client (chiave privata)
-* Segreto cliente (password)
+* Segreto client (password)
 
-Per creare un&#39;app di identità GitHub da utilizzare con l&#39;identità Livefyre:
+Per creare un’app GitHub Identity da utilizzare con Livefyre Identity:
 
-1. Create o accedete a un account GitHub all&#39;indirizzo [](https://github.com/settings/developers).
-1. Registra una nuova app o seleziona un&#39;app esistente da utilizzare con Livefyre Identity.
-1. Immettere tutte le informazioni sul modulo. Immettere il **[!UICONTROL Authorization callback URL]** utilizzando il nome della rete anziché `{network-name}: {network-name}: https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/github_fyre`.
+1. Crea o accedi a un account GitHub in [](https://github.com/settings/developers).
+1. Registra una nuova app o selezionane una esistente da utilizzare con Livefyre Identity.
+1. Immettere tutte le informazioni sul modulo. Inserisci il **[!UICONTROL Authorization callback URL]** utilizzando il nome della rete anziché `{network-name}: {network-name}: https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/github_fyre`.
 
-1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity GitHub]**, passare l&#39;interruttore **[!UICONTROL Enable GitHub Login]** su **[!UICONTROL On]**.
+1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity GitHub]**, imposta l&#39;opzione **[!UICONTROL Enable GitHub Login]** su **[!UICONTROL On]**.
 
-1. Immettete l’ID client GitHub e il segreto cliente GitHub.
+1. Immetti l’ID client GitHub e il segreto client GitHub.
 1. Clic **[!UICONTROL Save Settings]**.
 
-Al termine, nella pagina dei dettagli dell&#39;app di GitHub Identity verranno elencati l&#39;ID client dell&#39;app (Chiave di consumo) e il Segreto cliente (Segreto di consumo) per l&#39;utilizzo nella pagina Impostazioni integrazione di Studio.
+Una volta completata, la pagina dei dettagli dell’app di GitHub Identity elenca l’ID client (chiave di consumo) e il segreto client (segreto di consumo) dell’app da utilizzare nella pagina Impostazioni integrazione di Studio.
