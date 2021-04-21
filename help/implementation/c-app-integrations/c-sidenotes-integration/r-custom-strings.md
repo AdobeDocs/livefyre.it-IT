@@ -1,21 +1,18 @@
 ---
-description: nulle
-seo-description: nulle
-seo-title: Note Personalizzate
-title: Note Personalizzate
-uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
+title: Note sulle stringhe personalizzate
+description: Note sulle stringhe personalizzate
+exl-id: b5e2c18b-5b98-45ff-aa89-dd92a02949a9
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 6%
 
 ---
 
+# Note sulle stringhe personalizzate{#sidenotes-custom-strings}
 
-# Note Stringhe personalizzate{#sidenotes-custom-strings}
-
-Le stringhe personalizzate vengono applicate attraverso un oggetto inserito nel costruttore Sidenotes e ignorano le stringhe predefinite utilizzate nell&#39;applicazione. che possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche di stile o lingua. Le stringhe vengono automaticamente unite alle impostazioni predefinite.
+Le stringhe personalizzate vengono applicate attraverso un oggetto inserito nel costruttore Sidenotes e sostituiscono le stringhe predefinite utilizzate tramite l&#39;applicazione. Questi possono essere utilizzati per personalizzare qualsiasi parte della lingua in base alle specifiche del tuo stile o della tua lingua. Le stringhe vengono unite automaticamente con le impostazioni predefinite.
 
 ```
 var customStrings = { 
@@ -28,30 +25,30 @@ new Livefyre.Sidenotes({
 
 | Chiave | impostazione predefinita |
 |---|---|
-| appName | Sidenotes |
+| appName | Note |
 | commentModeratorTag | Mod |
 | commentPendingTag | In sospeso |
-| commentReadMoreLink | Leggi tutto |
-| commentReplyLink | Vedere {number} risposte |
-| commentReplyLinkSing | Vedere la risposta |
-| commentVoteCount | voti |
-| commentCountSing | Votazione |
-| editorPlaceholder | Che ne pensa? |
+| commentReadMoreLink | Ulteriori informazioni |
+| commentReplyLink | Vedi {number} risposte |
+| commentReplyLinkSing | Vedi risposta |
+| commentCount | voti |
+| commentCountSing | votare |
+| editorPlaceholder | Cosa ne pensate? |
 | editorPostBtn | Post Sidenote |
 | editorPostBtnMobile | Post |
-| editorPosting | Registrazione in corso... |
+| editorPosting | Registrazione in corso.. |
 | editorReplyBtn | Pubblica risposta |
 | editorReplyTitle | Scrivi risposta |
-| editorTitle | Scrivi nota |
-| emptyImageBlockTxt | Che ne pensa? |
+| editorTitle | Nota di scrittura |
+| emptyImageBlockTxt | Cosa ne pensate? |
 | emptyTextBlockTxt | + |
-| errorConnection | Oh-oh. Non sembra che tu abbia una buona connessione. |
-| errorDuplicate | Anche la nota è gradita, ma non può essere pubblicata due volte. |
-| errorGeneral | Si è verificato un errore. Prova ancora. |
-| errorServer | Si è verificato un problema con il nostro server. Provi ancora? |
+| errorConnection | Uh oh. Sembra che tu non abbia una buona connessione. |
+| errorDuplicate | Anche a noi piace la tua nota, ma non puoi pubblicarla due volte. |
+| errorGeneral | Errore. Riprova. |
+| errorServer | Si è verificato un problema con il nostro server. Provate ancora? |
 | facebookShareCaption | SideNotes in &quot;{title}&quot; |
-| menuAuthSignedInMsg | È necessario aver effettuato l&#39;accesso a {action} |
-| menuAuthSignInBtn | Accedi |
+| menuAuthSignedInMsg | Devi effettuare l&#39;accesso a {action} |
+| menuAuthSignInBtn | Accedere |
 | menuBackBtn | Indietro |
 | menuConfirmAccept | Sì, {action} |
 | menuConfirmCancel | Annulla |
@@ -63,15 +60,15 @@ new Livefyre.Sidenotes({
 | menuEtcOptionShare | Condividi |
 | menuEtcPostedAt | Pubblicato il {date} |
 | menuEtcTitle | Altro |
-| menuFlagOptionDisagreement | Non d&#39;accordo |
+| menuFlagOptionNonD | Non concordo |
 | menuFlagOptionOffensive | Offensivo |
-| menuFlagOptionOffTopic | Disattiva argomento |
+| menuFlagOptionOffTopic | Argomento disattivato |
 | menuFlagOptionSpam | Spam |
-| menuFlagTitle | Contrassegna come... |
+| menuFlagTitle | Contrassegna come.. |
 | menuInfoCopyright | © Livefyre, Inc. 2014 |
 | menuInfoHelp | Aiuto |
 | menuInfoLivefyreLink | Visita Livefyre.com |
-| menuRepliesViewReply | Rispondi alla conversazione |
+| menuRepliesViewReply | Risposta alla conversazione |
 | menuRepliesViewTitle | Dettagli |
 | menuShareOptionFacebook | Facebook |
 | menuShareOptionLink | Copia permalink |
@@ -79,25 +76,25 @@ new Livefyre.Sidenotes({
 | menuShareOptionLinkFailed | Copia non riuscita |
 | menuShareOptionTwitter | Twitter |
 | menuShareTitle | Condividi |
-| notificationEnabled | Approvato |
+| notificationApproved | Approvato |
 | notificationDeleted | Eliminato |
 | notificationFlagged | Segnalato |
 | permalinkBackBtn | Tutte |
 | permalinkTitle | Permalink |
-| questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br>Evidenzia il testo e fai clic sull’icona &quot;fycon-write&quot; o fai clic sull’icona &quot;fycon-action-view&quot; alla fine di ciascun paragrafo. |
-| questionMockText | Ciò che è &quot;familiare&quot; non è ben noto, solo per il motivo che è &quot;familiare&quot;. |
-| questionTitle | Cos&#39;è una Sidenote? |
-| queusedCommentsPlural | {number} Nuove note |
-| queusedCommentsSingular | 1 Nuova Sidenote |
-| queusedRepliesPlural | {number} Nuove risposte |
-| queusedRepliesSingular | 1 Nuova risposta |
-| replyBtn | Rispondi |
-| signInToPost | Accesso per scrivere una nota |
+| domandaSpiegazione | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br>Evidenzia il testo e fai clic sull’icona &quot;fycon-write&quot; o fai clic sull’icona &quot;fycon-action-view&quot; alla fine di ciascun paragrafo. |
+| QuestionMockText | Ciò che è &quot;noto a tutti&quot; non è ben noto, solo per il motivo che è &quot;familiare&quot;. |
+| QuestionTitle | Cos&#39;è un Sidenote? |
+| codaCommentiPlurale | {number} Note a margine |
+| codaCommentiSingolare | 1 Nuovo Sidenote |
+| codaRispostePlurale | {number} nuove risposte |
+| codaRisposteSingolare | 1 Nuova risposta |
+| responseBtn | Rispondi |
+| signInToPost | Accedi per scrivere una nota |
 | sliderCommentTally | di |
 | sliderInviteRead | Letto |
-| sliderInviteWrite | Write |
-| sliderWriteText | Che ne pensa? Toccate per scrivere |
+| sliderInviteWrite | Scrivi |
+| sliderWriteText | Cosa ne pensate? Tocca per scrivere |
 | threadCollapseBtn | Comprimi |
 | threadExpandBtnPlural | Espandi {numero} risposte |
 | threadExpandBtnSingular | Espandi 1 risposta |
-| threadReplyBtn | Rispondi alla conversazione |
+| threadReplyBtn | Risposta alla conversazione |
