@@ -1,44 +1,40 @@
 ---
 description: Un elenco di browser e dispositivi supportati dalla suite di app Livefyre.
-seo-description: Un elenco di browser e dispositivi supportati dalla suite di app Livefyre.
-seo-title: Supporto per dispositivi e browser
-title: Supporto per dispositivi e browser
-uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
+title: Supporto di dispositivi e browser
+exl-id: 75e424a2-9ef5-4a49-8d0d-7c4bcb865f7b
 translation-type: tm+mt
-source-git-commit: 7d7af443eeffdbb09c2fa58006813c328785ad56
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
-
-# Supporto per dispositivi e browser{#device-and-browser-support}
+# Supporto di dispositivi e browser{#device-and-browser-support}
 
 Un elenco di browser e dispositivi supportati dalla suite di app Livefyre.
 
 Livefyre supporta i seguenti dispositivi, sistemi operativi e browser.
 
-|  | App di base | Storify 2 | Studio | ModQ |
+|  | App core | Memorizza 2 | Studio | ModQ |
 |---|---|---|---|---|
 | **Browser desktop** |  |  |  |  |
-| Chrome | AND | AND | AND | AND |
-| Edge | AND | AND | AND | AND |
+| Chrome | . | . | . | . |
+| Bordo | . | . | . | . |
 | IE 11 | Limitato | Limitato | Limitato | Limitato |
-| Firefox | AND | AND | AND | AND |
-| Safari | AND | AND | AND | AND |
+| Firefox | . | . | . | . |
+| Safari | . | . | . | . |
 |  |  |  |  |  |
 | **Dispositivi** |  |  |  |  |
 | Browser Android 2.3+ | Limitato | Limitato | N/D | Limitato |
 | Google Chrome su Android 4.1+ | Limitato | Limitato | N/D | Limitato |
 | Versioni precedenti di iOS | Limitato | Limitato | N/D | Limitato |
-| Versione corrente iOS | Limitato | Limitato | N/D | Limitato |
+| Versione corrente di iOS | Limitato | Limitato | N/D | Limitato |
 
 >[!NOTE]
 >
->Sebbene Livefyre si sforzerà di mantenere le funzionalità esistenti, i nuovi prodotti e funzionalità potrebbero non essere completamente supportati sui browser elencati qui con supporto limitato.
+>Mentre Livefyre si sforzerà di mantenere le funzionalità esistenti, i nuovi prodotti e funzionalità potrebbero non essere completamente supportati sui browser elencati qui con supporto limitato.
 
 >[!NOTE]
 >
 >A causa della fine del supporto di Microsoft, Livefyre non è supportato nelle versioni di Internet Explorer precedenti a Internet Explorer 11.
-
