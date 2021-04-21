@@ -1,10 +1,10 @@
 ---
-description: nulle
+description: Imposta Adobe Analytics e Dynamic Tag Manager (DTM) per raccogliere i dati per le app Livefyre.
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
 translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 24d016fbb2771487f8105b2ca0bb0d03dd60cfc1
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1017'
 ht-degree: 1%
 
 ---
