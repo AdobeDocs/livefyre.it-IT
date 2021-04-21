@@ -1,30 +1,26 @@
 ---
-description: Personalizzare i commenti per incorporare conversazioni in tempo reale sul sito.
-seo-description: Personalizzare i commenti per incorporare conversazioni in tempo reale sul sito.
-seo-title: Personalizzazioni commenti
-solution: Experience Manager
-title: Personalizzazioni commenti
-uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
+description: Personalizza i commenti per incorporare conversazioni in tempo reale sul tuo sito.
+title: Personalizzazioni dei commenti
+exl-id: 6a1de42c-4a0f-41c6-ba0d-8cdf0ebfbcea
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-
 # Personalizzazioni commenti{#comments-customizations}
 
-Personalizzare i commenti per incorporare conversazioni in tempo reale sul sito.
+Personalizza i commenti per incorporare conversazioni in tempo reale sul tuo sito.
 
 
 
-Utilizzate le opzioni disponibili per consentire agli utenti di condividere contenuti su Twitter, Facebook e LinkedIn e per attirare i loro amici nello streaming.
+Utilizza le opzioni disponibili per consentire agli utenti di condividere contenuti tra Twitter, Facebook e LinkedIn e richiamare i loro amici nello streaming.
 
 * **[!UICONTROL Number of comments to load]**
 
-   Immettere il numero di commenti da visualizzare al caricamento iniziale. È possibile immettere tra 1 e 50.
+   Immettere il numero di commenti da visualizzare al caricamento iniziale. È possibile entrare tra 1 e 50.
 
 * **[!UICONTROL Nest level for replies]**
 
@@ -32,15 +28,15 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Se attivato, i post verranno visualizzati all&#39;interno di una casella circostante e verrà applicato il colore di sfondo dettato dalla selezione **[!UICONTROL Theme]**.
+   Se attivato, i post verranno visualizzati all’interno di una casella circostante e viene applicato il colore di sfondo dettato dalla selezione **[!UICONTROL Theme]** .
 
 * **[!UICONTROL Expand media]**
 
-   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disabilitato, i contenuti multimediali vengono visualizzati solo come collegamenti.
+   Se attivato, gli allegati multimediali verranno visualizzati come file multimediali in linea completamente espansi nel flusso. Se disattivato, il contenuto multimediale viene visualizzato solo come collegamenti.
 
 * **[!UICONTROL Number of listeners]**
 
-   Se attivato, verrà visualizzato il numero di utenti attivi sulla pagina.
+   Se attivato, verrà visualizzato il numero di utenti attivi nella pagina.
 
 * **[!UICONTROL User tags]**
 
@@ -48,11 +44,11 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL User avatars]**
 
-   Se attivato, gli avatar degli utenti verranno visualizzati con il contenuto pubblicato.
+   Se attivato, gli avatar utente verranno visualizzati con il contenuto pubblicato.
 
 * **[!UICONTROL Number of replies to load]**
 
-   Il numero di risposte a un commento da caricare. Eventuali risposte aggiuntive a un commento dopo questo numero verranno ridotte, con un contatore che visualizzerà il numero di risposte.
+   Il numero di risposte a un commento da caricare. Eventuali risposte aggiuntive a un commento dopo questo numero verranno compresse con un contatore per visualizzare il numero di risposte.
 
 * **[!UICONTROL Users may upload photos]**
 
@@ -60,23 +56,22 @@ Utilizzate le opzioni disponibili per consentire agli utenti di condividere cont
 
 * **[!UICONTROL Users may share posts]**
 
-   Se gli utenti abilitati possono condividere i post. Se attivato, gli utenti possono condividere il contenuto pubblicato su Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consultate Impostazioni > Impostazioni di integrazione > Condivisione social network.
+   Se gli utenti abilitati possono condividere i post. Se attivato, gli utenti possono condividere i contenuti pubblicati in Twitter, Facebook o LinkedIn. Per ulteriori informazioni sull&#39;abilitazione della condivisione, consulta Impostazioni > Impostazioni integrazione > Condivisione social.
 
 * **[!UICONTROL Featured content at top of stream]**
 
-   Quando abilitata, il contenuto disponibile viene visualizzato sopra l&#39;editor nell&#39;app.
+   Quando abilitato, il contenuto in primo piano verrà visualizzato sopra l’editor nell’app.
 
 * **[!UICONTROL High velocity comment queuing]**
 
-   Consente di controllare la velocità con cui i commenti vengono visualizzati sulla pagina ed è meglio utilizzato per le conversazioni ad alta velocità. Se abilitata, Livefyre elenca il numero di nuovi commenti nella parte superiore del flusso, anziché visualizzare il contenuto nella sua interezza. Facendo clic su questo numero verranno visualizzati i 10 commenti più vecchi nel flusso.
+   Consente di controllare la velocità con cui i commenti vengono visualizzati sulla pagina ed è più indicato per le conversazioni ad alta velocità. Quando abilitato, Livefyre elenca il numero di nuovi commenti nella parte superiore del flusso, anziché visualizzare il contenuto nella sua totalità. Facendo clic su questo numero verranno visualizzati i 10 commenti più anziani presenti nel flusso.
 
 * **[!UICONTROL Most liked comment sort]**
 
-   Se attivato, consente agli utenti di ordinare in base alle opzioni di ordinamento **[!UICONTROL Top Comments]** o **[!UICONTROL Hot Threads]** (oltre alle opzioni di ordinamento **[!UICONTROL Newest]** e **[!UICONTROL Oldest]** predefinite).
+   Se abilitato, consente agli utenti di ordinare in base alle opzioni di ordinamento **[!UICONTROL Top Comments]** o **[!UICONTROL Hot Threads]** (in aggiunta alle opzioni di ordinamento **[!UICONTROL Newest]** e **[!UICONTROL Oldest]** predefinite).
 
-È possibile personalizzare i commenti utilizzando:
+Puoi personalizzare i Commenti utilizzando:
 
-* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consulta Personalizzazione delle app per i dettagli sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
 
-* **[!UICONTROL Integration tools]**. Per ulteriori informazioni sulla personalizzazione dei commenti mediante gli strumenti di integrazione, vedere Commenti.
-
+* **[!UICONTROL Integration tools]**. Per ulteriori informazioni su come personalizzare i commenti mediante gli strumenti di integrazione, consulta Commenti .
