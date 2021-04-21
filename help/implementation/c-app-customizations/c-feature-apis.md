@@ -1,25 +1,22 @@
 ---
 description: Automatizzare il processo utilizzando le API delle funzioni
-seo-description: Automatizzare il processo utilizzando le API delle funzioni
-seo-title: API delle funzionalità
 title: API delle funzionalità
-uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
+exl-id: 765e47fe-a406-44e6-b4fb-b2e85fc83c01
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 1%
+source-wordcount: '146'
+ht-degree: 2%
 
 ---
-
 
 # API delle funzionalità{#feature-apis}
 
 Automatizzare il processo utilizzando le API delle funzioni
 
-Utilizzate le API delle funzioni per automatizzare il processo con cui viene presentato il contenuto. Ad esempio, quando crei un&#39;app Live Blog o Comment, puoi usare tutte le funzioni di un moderatore selezionato per indirizzare la conversazione e stabilire coerenza all&#39;interno del flusso.
+Utilizza le API delle funzioni per automatizzare il processo in base al quale viene presentato il contenuto. Ad esempio, quando crei un blog o un&#39;app di commento in tempo reale, puoi usare tutte le funzioni del contenuto pubblicato da un moderatore selezionato per gestire la conversazione e stabilire la coerenza all&#39;interno del flusso.
 
-Livefyre offre API Feature e Unfeature.
+Livefyre offre API sia Feature che Non feature.
 
 ## Funzione {#section_jpw_nqw_xz}
 
@@ -31,13 +28,13 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/fea
 
 &#x200B; Immettere il token utente per il moderatore selezionato.
 
-**Post Data**
+**Dati post**
 
 ```
 {value: <number>} 
 ```
 
-Il valore viene utilizzato per ordinare i contenuti contenuti in primo piano, dal più grande al più piccolo (10 verrà visualizzato prima di 1 nell&#39;elenco dei contenuti in primo piano). Il valore predefinito di questo valore è **now** in epoch time, pertanto i commenti contenuti vengono in genere ordinati dal più recente al meno recente.
+Il valore viene utilizzato per ordinare il contenuto in primo piano, dal più grande al più piccolo (10 verrà visualizzato prima di 1 nell’elenco dei contenuti in primo piano). Questo valore viene impostato automaticamente su **now** in epoch time, pertanto i commenti in primo piano vengono in genere ordinati in ordine dal più recente al meno recente.
 
 **Risposta di esempio**
 
@@ -68,4 +65,3 @@ Immettere il token utente per il moderatore selezionato.
 >[!NOTE]
 >
 >Il campo dati non è ancora in uso.
-
