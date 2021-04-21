@@ -1,36 +1,32 @@
 ---
-description: Storify 2 offre diverse origini di contenuto per aggiungere contenuto social.
-seo-description: Storify 2 offre diverse origini di contenuto per aggiungere contenuto social.
-seo-title: Aggiungi contenuto social
-solution: Experience Manager
+description: Storify 2 offre diverse origini di contenuto per aggiungere contenuti social.
 title: Aggiungi contenuto social
-uuid: 0bd6579e-ac55-4201-a403-4fcb19e8684b
+exl-id: 2277b525-ef0e-4e66-9260-f81898d93bf1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-
 # Aggiungi contenuto social{#add-social-content}
 
-Storify 2 offre diverse origini di contenuto per aggiungere contenuto social.
+Storify 2 offre diverse origini di contenuto per aggiungere contenuti social.
 
-La scheda Ricerca consente di effettuare ricerche nei social media, nei siti Web generici e nelle immagini.
-
->[!NOTE]
->
->Il contenuto utilizzato dai fornitori elencati deve essere conforme alle relative linee guida.
+La scheda Ricerca ti consente di eseguire ricerche nei social media, di offerte web generali e di ricerche di immagini.
 
 >[!NOTE]
 >
->L’API Search di Twitter restituirà solo il contenuto più recente di 7 giorni.
+>I contenuti utilizzati dai provider elencati devono rispettare le loro linee guida.
 
-Per aggiungere dei contenuti al racconto:
+>[!NOTE]
+>
+>L’API di ricerca di twitter restituirà solo i contenuti degli ultimi 7 giorni.
 
-1. Dalla scheda **[!UICONTROL Search]**, fate clic su un&#39;icona per selezionare la sorgente.
-1. Storify visualizzerà le opzioni di ricerca specifiche per l&#39;origine.
-1. Inserite i parametri di ricerca e fate clic sull&#39;icona di ricerca (lente di ingrandimento) o fate clic su Torna alla ricerca.
-1. Dopo aver trovato gli elementi da includere, trascinateli dall’elenco a qualsiasi sezione del racconto.
+Per aggiungere contenuti alla storia:
+
+1. Dalla scheda **[!UICONTROL Search]** , fai clic su un’icona per selezionare la sorgente.
+1. La funzione Storify visualizza le opzioni di ricerca specifiche per l’origine.
+1. Inserisci i parametri di ricerca e fai clic sull’icona di ricerca (lente di ingrandimento) o fai clic su torna alla ricerca.
+1. Una volta trovati gli elementi da includere, trascinali dall’elenco a qualsiasi sezione della storia.
