@@ -1,33 +1,28 @@
 ---
-description: Utilizzate le classi CSS disponibili per formattare il contenuto in evidenza in modo diverso rispetto agli altri contenuti dell'app.
-seo-description: Utilizzate le classi CSS disponibili per formattare il contenuto in evidenza in modo diverso rispetto agli altri contenuti dell'app.
-seo-title: Utilizzo di CSS per lo stile di contenuto in evidenza
-solution: Experience Manager
-title: Utilizzo di CSS per lo stile di contenuto in evidenza
-uuid: c4ab648c-d81f-41b9-9773-ef919649cc46
+description: Utilizza le classi CSS disponibili per assegnare uno stile diverso al contenuto in primo piano rispetto agli altri contenuti dell’app.
+title: Utilizzare CSS per personalizzare lo stile del contenuto in primo piano
+exl-id: 6829c1b3-407c-45c1-9bed-c78ab8f5b985
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '105'
 ht-degree: 1%
 
 ---
 
+# Usa CSS per lo stile del contenuto in primo piano{#use-css-to-style-featured-content}
 
-# Utilizzare i CSS per lo stile di contenuto in evidenza{#use-css-to-style-featured-content}
+Utilizza le classi CSS disponibili per assegnare uno stile diverso al contenuto in primo piano rispetto agli altri contenuti dell’app.
 
-Utilizzate le classi CSS disponibili per formattare il contenuto in evidenza in modo diverso rispetto agli altri contenuti dell&#39;app.
+Tutte le classi CSS Commento possono essere applicate anche al contenuto in primo piano.
 
-Tutte le classi CSS dei commenti possono essere applicate anche al contenuto in evidenza.
-
-Le seguenti classi sono disponibili per l&#39;utilizzo per il contenuto in evidenza.
+Per il contenuto in primo piano sono disponibili le seguenti classi.
 
 | Classe | Descrizione |
 |---|---|
 | .fyre-featured-content-wrapper | Il div contenitore per il lettore. |
 | .fyre-featured-header | Barra del titolo iniziale. |
-| .fyre-featured-header-icon | L’icona dell’anteprima dell’intestazione. |
+| .fyre-featured-header-icon | Icona della fresa dell’intestazione. |
 | .fyre-featured-title | Testo dell’intestazione. |
-| .fyre-featured-body | Il div del contenitore per il contenuto in primo piano nel lettore. |
-| .fyre-featured | Icona dell&#39;offerta che inizia ogni elemento di contenuto. |
-
+| .fyre-featured-body | Il div contenitore per il contenuto in primo piano nel lettore. |
+| .fyre-featured-quote | Icona che inizia ogni elemento di contenuto. |
