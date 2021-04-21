@@ -1,37 +1,33 @@
 ---
 description: Personalizzazione delle stringhe di testo per Livefyre Sidenotes
-seo-description: Personalizzazione delle stringhe di testo per Livefyre Sidenotes
-seo-title: Note Di Testo Stringhe
-solution: Experience Manager
-title: Note Di Testo Stringhe
-uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
+title: Stringhe di testo a margine
+exl-id: 132a7c8d-10e1-419c-9d79-a40553e70785
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 8%
+source-wordcount: '491'
+ht-degree: 9%
 
 ---
 
-
-# Note per stringhe di testo{#sidenotes-text-strings}
+# Note a barre del testo{#sidenotes-text-strings}
 
 Personalizzazione delle stringhe di testo per Livefyre Sidenotes
 
-Questa pagina elenca e descrive tutte le stringhe disponibili per la personalizzazione nelle app Sidenotes. Per informazioni sulle stringhe disponibili per le app Livefyre di base, consultate Personalizzazioni delle stringhe.
+Questa pagina elenca e descrive tutte le stringhe disponibili per la personalizzazione nelle app Sidenotes. Per informazioni sulle stringhe disponibili per le app di base Livefyre, consulta Personalizzazioni di stringhe .
 
 Implementazione
 Auth
 Informazioni flusso
-Autore/Informazioni contenuto
+Informazioni sull’autore/contenuto
 Azioni utente
-Funzioni di post
-Interfaccia Moderatore
+Funzioni post
+Interfaccia moderatore
 Errori
 
 ## Implementazione {#section_wp2_ql4_xz}
 
-Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all&#39;oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, passa una mappatura oggetto 1-1 delle stringhe che desideri ignorare all&#39;oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 Esempio:
 
@@ -53,8 +49,8 @@ Stringhe disponibili per il processo di autenticazione e dai menu utente autenti
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Stringhe del menu di autenticazione | menuAuthSignInBtn | Accedi |
-|  | menuAuthSignedInMsg | È necessario aver effettuato l&#39;accesso a {action} |
+| Stringhe del menu di autenticazione | menuAuthSignInBtn | Accedere |
+|  | menuAuthSignedInMsg | Devi effettuare l&#39;accesso a {action} |
 |  | menuUserEditProfile | Modifica profilo |
 |  | menuUserAdmin | Admin Console |
 |  | menuUserLogout | Disconnetti |
@@ -70,47 +66,47 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 |  | menuInfoHelp | Aiuto |
 |  | menuInfoLivefyreLink | Visita Livefyre.com |
 
-## Autore / Informazioni contenuto {#section_dhb_gl4_xz}
+## Informazioni sull&#39;autore/contenuto {#section_dhb_gl4_xz}
 
-Impostazioni disponibili per le informazioni sull’autore e i singoli contenuti.
+Impostazioni disponibili per informazioni sull’autore e sui singoli contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
 |  | commentModeratorTag | Mod |
 |  | commentPendingTag | In sospeso |
-|  | commentReadMoreLink | Leggi tutto |
-|  | commentReplyLink | Vedere {number} risposte |
-|  | commentReplyLinkSing | Vedere la risposta |
-|  | commentVoteCount | voti |
-|  | commentCountSing | Votazione |
+|  | commentReadMoreLink | Ulteriori informazioni |
+|  | commentReplyLink | Vedi {number} risposte |
+|  | commentReplyLinkSing | Vedi risposta |
+|  | commentCount | voti |
+|  | commentCountSing | votare |
 |  | datetimeMinutePrefix | m |
 |  | datetimeMonths | Un array. Impostazione predefinita =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]` |
-|  | questionExplanation | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia </span> il testo e fai clic sull’ <span class="&rdquo;fycon-write&rdquo;"></span> icona o fai clic sull’ <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
-|  | questionMockText | Ciò che è &quot;familiare&quot; non è ben noto, solo per il motivo che è &quot;familiare&quot;. |
-|  | questionTitle | Cos&#39;è una Sidenote? |
+|  | domandaSpiegazione | Ora è possibile leggere e scrivere commenti direttamente su frasi, paragrafi, immagini e citazioni.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Evidenzia </span> il testo e fai clic sull’ <span class="&rdquo;fycon-write&rdquo;"></span> icona o fai clic sull’ <span class="&rdquo;fycon-action-view&rdquo;"></span> icona alla fine di ciascun paragrafo. |
+|  | QuestionMockText | Ciò che è &quot;noto a tutti&quot; non è ben noto, solo per il motivo che è &quot;familiare&quot;. |
+|  | QuestionTitle | Cos&#39;è un Sidenote? |
 
 ## Azioni utente {#section_qxd_fl4_xz}
 
-Stringhe disponibili per le azioni dell&#39;utente: applicazione di flag, condivisione e collegamento ai contenuti esistenti.
+Stringhe disponibili per le azioni dell’utente: creazione di flag, condivisione e collegamento di contenuti esistenti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Opzioni del menu Rispondi | menuRepliesViewTitle | Dettagli |
-|  | menuRepliesViewReply | Rispondi alla conversazione |
+| Opzioni del menu Risposta | menuRepliesViewTitle | Dettagli |
+|  | menuRepliesViewReply | Risposta alla conversazione |
 | Opzioni del menu Condividi | menuShareOptionFacebook | Facebook |
 |  | menuShareOptionTwitter | Twitter |
 |  | menuShareTitle | Condividi |
-| Opzioni del menu Contrassegno | menuFlagOptionDisagreement | Non d&#39;accordo |
+| Opzioni del menu Contrassegna | menuFlagOptionNonD | Non concordo |
 |  | menuFlagOptionOffensive | Offensivo |
-|  | menuFlagOptionOffTopic | Disattiva argomento |
+|  | menuFlagOptionOffTopic | Argomento disattivato |
 |  | menuFlagOptionSpam | Spam |
-|  | menuFlagTitle | Contrassegna come... |
-|  | facebookShareCaption | Note su &quot;{title}&quot; |
-| Opzioni utente per dispositivi mobili | sliderCommentTally | di |
+|  | menuFlagTitle | Contrassegna come.. |
+|  | facebookShareCaption | Note a margine su &quot;{title}&quot; |
+| Opzioni utente mobile | sliderCommentTally | di |
 |  | sliderInviteRead | Letto |
-|  | sliderInviteWrite | Write |
+|  | sliderInviteWrite | Scrivi |
 |  | sliderLoading | Caricamento in corso... |
-|  | sliderWriteText | Che ne pensa? Toccate per scrivere. |
+|  | sliderWriteText | Cosa ne pensate? Tocca per scrivere. |
 
 ## Funzioni post {#section_xzf_2l4_xz}
 
@@ -119,20 +115,20 @@ Stringhe disponibili per gli utenti che pubblicano contenuti.
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
 |  | editorEditBtn | Salva |
-|  | editorEditPosting | Salvataggio in corso... |
+|  | editorEditPosting | Salvataggio in corso.. |
 |  | editorEditReplyTitle | Modifica risposta |
-|  | editorEditTitle | Modifica Sidenote |
-|  | editorPlaceholder | Che ne pensa? |
+|  | editorEditTitle | Modifica pannello laterale |
+|  | editorPlaceholder | Cosa ne pensate? |
 |  | editorPostBtn | Post Sidenote |
 |  | editorPostBtnMobile | Post |
-|  | editorPosting | Registrazione in corso... |
+|  | editorPosting | Registrazione in corso.. |
 |  | editorReplyBtn | Pubblica risposta |
 |  | editorReplyTitle | Scrivi risposta |
 |  | editorTitle | Scrivi Sidenote |
-|  | emptyImageBlockTxt | Che ne pensa? |
+|  | emptyImageBlockTxt | Cosa ne pensate? |
 |  | emptyTextBlockTxt | + |
-|  | replyBtn | Rispondi |
-|  | threadReplyBtn | Rispondi alla conversazione |
+|  | responseBtn | Rispondi |
+|  | threadReplyBtn | Risposta alla conversazione |
 | Opzioni del menu Elimina | menuConfirmAccept | Sì, {action} |
 |  | menuConfirmCancel | Annulla |
 |  | menuConfirmTitle | Sei sicuro? |
@@ -150,18 +146,17 @@ Stringhe disponibili per l&#39;interfaccia del moderatore autenticato dall&#39;u
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Messaggi di conferma dal menu Altro | notificationEnabled | Approvato |
+| Messaggi di conferma dal menu Altro | notificationApproved | Approvato |
 |  | notificationDeleted | Eliminato |
 |  | notificationFlagged | Segnalato |
 
 ## Errori {#section_gtk_cl4_xz}
 
-Stringhe disponibili per i messaggi di errore generali.
+Stringhe disponibili per messaggi di errore generali.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-|  | errorConnection | Oh-oh. Non sembra che tu abbia una buona connessione. |
-|  | errorDuplicate | Anche la nota è gradita, ma non può essere pubblicata due volte. |
-|  | errorGeneral | Si è verificato un errore. Prova ancora. |
-|  | errorServer | Si è verificato un problema con il nostro server. Provi ancora? |
-
+|  | errorConnection | Uh oh. Sembra che tu non abbia una buona connessione. |
+|  | errorDuplicate | Anche a noi piace la tua nota, ma non puoi pubblicarla due volte. |
+|  | errorGeneral | Errore. Riprova. |
+|  | errorServer | Si è verificato un problema con il nostro server. Provate ancora? |
