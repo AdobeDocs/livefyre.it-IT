@@ -1,35 +1,31 @@
 ---
-description: I manager e gli amministratori di Studio possono invitare utenti nuovi o esistenti a creare un account Studio.
-seo-description: I manager e gli amministratori di Studio possono invitare utenti nuovi o esistenti a creare un account Studio.
-seo-title: Invito di un utente a creare un account Studio
-solution: Experience Manager
+description: Gli amministratori e i manager di Studio possono invitare utenti nuovi o esistenti a creare un account Studio.
 title: Invito di un utente a creare un account Studio
-uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
+exl-id: 5b4f5bb9-6bd0-413a-9cf9-9604bc2fb8af
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
 
+# Invitare un utente a creare un account Studio{#invite-a-user-to-create-a-studio-account}
 
-# Invito di un utente a creare un account da studio{#invite-a-user-to-create-a-studio-account}
+Gli amministratori e i manager di Studio possono invitare utenti nuovi o esistenti a creare un account Studio.
 
-I manager e gli amministratori di Studio possono invitare utenti nuovi o esistenti a creare un account Studio.
-
-Livefyre Technical Account Manager per la rete invia il primo invito all&#39;account Studio per creare un account Studio Administrator. Fornite un indirizzo e-mail che il responsabile tecnico dell&#39;account Livefyre utilizza per creare l&#39;account amministratore di Studio.
-
->[!NOTE]
->
->Quando si invitano altri utenti a iscriversi a Studio, si creano account con livelli di autorizzazione pari o inferiori ai propri.
+Livefyre Technical Account Manager per la rete invia il primo invito all&#39;account Studio per creare un account Studio Administrator. Fornisci un indirizzo e-mail utilizzato da Livefyre Technical Account Manager per creare l’account Studio Administrator.
 
 >[!NOTE]
 >
->Potete assegnare più ruoli utente a un singolo utente. Per ulteriori informazioni sui ruoli utente e le autorizzazioni che potete concedere, consultate [Ruoli utente e autorizzazioni](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types).
+>Quando si invitano altri a partecipare a Studio, si creano account con livelli di autorizzazione uguali o inferiori al proprio.
 
-1. Dalla pagina **[!UICONTROL Users]**, fare clic su **[!UICONTROL Invite to Studio.]**
-1. Dalla finestra di dialogo **[!UICONTROL Invite user]** visualizzata, selezionare **[!UICONTROL Existing User]** o **[!UICONTROL New User]**.
-1. Per invitare un utente esistente, immettete **[!UICONTROL Username]**, **[!UICONTROL User ID]** o **[!UICONTROL Email Address]** nei campi forniti. Per invitare un nuovo utente, immettete un **[!UICONTROL Email address]**.
-1. Fate clic su **[!UICONTROL Add message]** per immettere un invito personalizzato, se lo desiderate.
-1. Selezionate il livello di accesso per il nuovo account e fate clic su **[!UICONTROL Invite]** per emettere l&#39;invito.
+>[!NOTE]
+>
+>Puoi assegnare più ruoli utente a un singolo utente. Consulta [Ruoli utente e autorizzazioni](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types) per ulteriori informazioni su quali ruoli utente e autorizzazioni puoi concedere.
+
+1. Dalla pagina **[!UICONTROL Users]**, fai clic su **[!UICONTROL Invite to Studio.]**
+1. Dalla finestra di dialogo **[!UICONTROL Invite user]** visualizzata, seleziona **[!UICONTROL Existing User]** o **[!UICONTROL New User]**.
+1. Per invitare un utente esistente, immetti un **[!UICONTROL Username]**, **[!UICONTROL User ID]** o **[!UICONTROL Email Address]** nei campi forniti. Per invitare un nuovo utente, immetti un **[!UICONTROL Email address]**.
+1. Fai clic su **[!UICONTROL Add message]** per inserire un invito personalizzato, se lo desideri.
+1. Seleziona il livello di accesso per il nuovo account e fai clic su **[!UICONTROL Invite]** per emettere l’invito.
