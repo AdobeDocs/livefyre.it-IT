@@ -1,23 +1,21 @@
 ---
-description: Consente a un utente di inserire un elenco per consentirgli di inviare direttamente ad App senza essere soggetto a moderazione.
-solution: Experience Manager
+description: Consenti a un utente di elencare per consentirgli di pubblicare direttamente nelle app senza essere moderato.
 title: Consenti elenco utenti
-uuid: c58f7279-5fde-419a-a833-3c639d469421
+exl-id: d291c62a-03a1-4a1e-a0b3-efeb270e519a
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-
 # Consenti elenco utenti{#allow-list-a-user}
 
-Consente a un utente di inserire un elenco per consentirgli di inviare direttamente ad App senza essere soggetto a moderazione.
+Consenti a un utente di elencare per consentirgli di pubblicare direttamente nelle app senza essere moderato.
 
-Consenti agli utenti di essere inseriti nell&#39;elenco di pubblicare direttamente le app. Il contenuto pubblicato dagli utenti inclusi nell&#39;elenco di autorizzazioni non passerà attraverso i filtri SICURI, di profanità o di premoderazione di Livefyre e verrà automaticamente approvato e aggiunto all&#39;app.
+Gli utenti dell’inserimento nell’elenco Consentiti consentono loro di inviare direttamente le proprie app. I contenuti pubblicati da utenti inseriti nell’elenco Consentiti non passeranno attraverso i filtri SAFE (SAFE), profility (profanità) o premoderazione di Livefyre e verranno automaticamente approvati e aggiunti all’app.
 
 1. Fare clic su **[!UICONTROL +Add]** per **[!UICONTROL Whitelists]**.
-1. Viene visualizzata una finestra a comparsa che consente di elencare l’utente per l’intera rete o per un sito specifico. (Utilizzare il tasto CTR o Comando per selezionare più siti.)
-1. Fare clic su **[!UICONTROL Whitelist]** per completare il processo.
+1. Viene visualizzata una finestra a comparsa che consente di inserire nell’elenco Consentiti l’utente per l’intera rete o per un sito specifico. (Usa il CTR o il tasto Comando per selezionare più siti.)
+1. Fai clic su **[!UICONTROL Whitelist]** per completare il processo.
