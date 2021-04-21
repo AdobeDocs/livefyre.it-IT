@@ -1,35 +1,31 @@
 ---
-description: Utilizzate lo stile personalizzato per differenziare gli utenti.
-seo-description: Utilizzate lo stile personalizzato per differenziare gli utenti.
-seo-title: Stile contenuto gruppo utenti
-solution: Experience Manager
-title: Stile contenuto gruppo utenti
-uuid: 2205d2c9-1892-427d-a289-bab0bf1dfe19
+description: Utilizza lo stile personalizzato per differenziare i tuoi utenti.
+title: Contenuto del gruppo di utenti di stile
+exl-id: ed9cd412-5775-4d49-be34-c8b8f6df6358
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '221'
 ht-degree: 2%
 
 ---
 
+# Contenuto del gruppo di utenti di stile{#style-user-group-content}
 
-# Stile contenuto gruppo utenti{#style-user-group-content}
+Utilizza lo stile personalizzato per differenziare i tuoi utenti.
 
-Utilizzate lo stile personalizzato per differenziare gli utenti.
+Livefyre offre funzioni di stile personalizzate che ti consentono di personalizzare i contenuti pubblicati da tipi di utenti specifici (come moderatori, editor o qualsiasi altro gruppo di utenti che desideri definire) in Chat Livefyre, Commenti, Recensioni o App di blog dal vivo. Questo consente di evidenziare questi contenuti agli utenti.
 
-Livefyre offre funzioni di stile personalizzate che consentono di personalizzare i contenuti inviati da tipi di utente specifici (ad esempio moderatori, editor o qualsiasi altro gruppo di utenti che si desidera definire) per Chat Livefyre, Commenti, Recensioni o App Live Blog. Questo consente di evidenziare i contenuti agli utenti.
+Per aggiungere uno stile personalizzato, crea e assegna innanzitutto i gruppi di utenti utilizzando il campo Tag utente di Studio. Quindi, utilizza i CSS per creare opzioni di stile per ciascun gruppo ed evidenzia l’appartenenza al gruppo utilizzando i badge, consentendo di distinguere il contenuto di un gruppo da quello di un altro sul sito. I gruppi di utenti consentono al tuo team di impostare il tono della conversazione e ai tuoi utenti di esprimere le loro identità e affiliazioni.
 
-Per aggiungere uno stile personalizzato, create e assegnate i gruppi di utenti utilizzando il campo Tag utente di Studio. Quindi, utilizzate i CSS per creare opzioni di stile per ciascun gruppo ed evidenziate le affiliazioni ai gruppi utilizzando i simboli, consentendo di distinguere il contenuto di un gruppo da quello di un altro sul sito. I gruppi di utenti consentono al team di impostare il tono della conversazione e agli utenti di esprimere le proprie identità e affiliazioni.
-
-Per aggiungere uno stile personalizzato a specifici gruppi di utenti:
+Per aggiungere uno stile personalizzato per specifici gruppi di utenti:
 
 * Creare gruppi di utenti
-* Aggiungi utenti a gruppi
-* Stile mediante CSS
+* Aggiungi utenti ai gruppi
+* Stile con CSS
 
 ## Creare gruppi di utenti {#section_sjf_2zw_2cb}
 
-I gruppi di utenti e i tag utente sono equivalenti in Studio. Aggiungendo un utente a un gruppo di utenti, viene aggiunto un tag utente al relativo account, che potete definire mediante le personalizzazioni CSS di Livefyre.
+I gruppi di utenti e i tag utente sono equivalenti in Studio. Aggiungendo un utente a un gruppo di utenti si aggiunge un tag utente al proprio account, che è possibile personalizzare in stile utilizzando le personalizzazioni CSS Livefyre.
 
-Tutti gli utenti che hanno pubblicato contenuto in una raccolta possono essere aggiunti a uno o più gruppi di utenti tramite Studio. Ciò include sia gli utenti banditi che quelli inclusi nell&#39;elenco di autorizzazioni, sia i contenuti provenienti da SocialSync e Cura.
+Tutti gli utenti che hanno pubblicato contenuti in una raccolta possono essere aggiunti a uno o più gruppi di utenti tramite Studio. Ciò include sia gli utenti banditi che quelli inseriti nell’elenco Consentiti, sia i contenuti provenienti da SocialSync e Curate.
