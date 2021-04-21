@@ -1,21 +1,17 @@
 ---
-description: Scopri il Regolamento generale sulla protezione dei dati (General Data Protection Regulation, GDPR) e come completare le richieste di accesso e cancellazione consentite dal Regolamento GDPR, per i dati raccolti nell'uso di Livefyre, così come altri relativi controlli sulla privacy.
-seo-description: Scopri il Regolamento generale sulla protezione dei dati (General Data Protection Regulation, GDPR) e come completare le richieste di accesso e cancellazione consentite dal Regolamento GDPR, per i dati raccolti nell'uso di Livefyre, così come altri relativi controlli sulla privacy.
-seo-title: Richieste sulla privacy (GDPR-Ready)
-solution: Experience Manager
-title: Richieste sulla privacy (GDPR-Ready)
-uuid: 8c8b2001-f94d-4afc-8acd-ff4c096dc2f9
+description: Scopri il Regolamento generale sulla protezione dei dati (RGPD) e come completare le richieste di accesso e cancellazione consentite dal RGPD, per i dati raccolti nell’uso di Livefyre, nonché altri relativi controlli sulla privacy.
+title: Richieste sulla privacy (RGPD-Ready)
+exl-id: 46565fe8-d9f0-4374-bf67-1a0bca28588a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
+# Richieste sulla privacy (RGPD-Ready){#privacy-requests-gdpr-ready}
 
-# Richieste sulla privacy (GDPR-Ready){#privacy-requests-gdpr-ready}
+Scopri il Regolamento generale sulla protezione dei dati (RGPD) e come completare le richieste di accesso e cancellazione consentite dal RGPD, per i dati raccolti nell’uso di Livefyre, nonché altri relativi controlli sulla privacy.
 
-Scopri il Regolamento generale sulla protezione dei dati (General Data Protection Regulation, GDPR) e come completare le richieste di accesso e cancellazione consentite dal Regolamento GDPR, per i dati raccolti nell&#39;uso di Livefyre, così come altri relativi controlli sulla privacy.
-
-Il Regolamento generale sulla protezione dei dati (GDPR)[ è un regolamento inteso a rafforzare e unificare la protezione dei dati per le persone all&#39;interno dell&#39;Unione europea (UE). ](https://adobe.io/apis/cloudplatform/gdpr.html) Oltre ad altri controlli sulla privacy per aiutarti a completare le richieste di accesso e cancellazione che potresti ricevere dagli utenti finali (soggetti dei dati),  Adobe ha preparato una soluzione GDPR-ready per l&#39;introduzione di funzionalità per Livefyre che ti consente di richiedere o eliminare i dati raccolti nell&#39;uso di Livefyre.
+Il [Regolamento generale sulla protezione dei dati (RGPD)](https://adobe.io/apis/cloudplatform/gdpr.html) è un regolamento inteso a rafforzare e unificare la protezione dei dati personali all&#39;interno dell&#39;Unione europea (UE). Oltre ad altri controlli sulla privacy per aiutarti a completare le richieste di accesso e cancellazione che puoi ricevere dagli utenti finali (persone interessate), Adobe ha preparato una soluzione pronta per il RGPD per l’introduzione di funzionalità per Livefyre che ti consente di richiedere o eliminare i dati raccolti durante l’utilizzo di Livefyre.
