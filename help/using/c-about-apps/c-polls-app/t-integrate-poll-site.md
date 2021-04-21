@@ -1,22 +1,18 @@
 ---
-description: Utilizzate la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai vostri commenti o alle vostre app di blog dal vivo.
-seo-description: Utilizzate la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai vostri commenti o alle vostre app di blog dal vivo.
-seo-title: Aggiunta di un sondaggio a un'app Commenti o blog dal vivo
-solution: Experience Manager
-title: Aggiunta di un sondaggio a un'app Commenti o blog dal vivo
-uuid: eedb63c1-7d31-40d9-ab3e-b15765cbe804
+description: Utilizza la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai tuoi commenti o alle tue app di blog live.
+title: Aggiungere un sondaggio a un'app Commenti o Blog in tempo reale
+exl-id: a889392c-8fef-4006-829a-adfe1c3cd126
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
+# Aggiungere un sondaggio a un&#39;app Commenti o Blog live{#add-a-poll-to-a-comments-or-live-blog-app}
 
-# Aggiungere un sondaggio a un&#39;app Commenti o blog live{#add-a-poll-to-a-comments-or-live-blog-app}
+Utilizza la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai tuoi commenti o alle tue app di blog live.
 
-Utilizzate la funzione HTML personalizzata di Livefyre per aggiungere sondaggi ai vostri commenti o alle vostre app di blog dal vivo.
-
-1. Copiate il codice da incorporare per un sondaggio pubblicato dalla pagina App Manager o dalla finestra di dialogo visualizzata quando fate clic su **[!UICONTROL Publish]**.
-1. Incollate il codice da incorporare nel campo **[!UICONTROL Custom HTML]** dei commenti o dell&#39;app Live Blog.
+1. Copia il codice di incorporamento per un sondaggio pubblicato dalla pagina App Manager o dalla finestra di dialogo visualizzata quando fai clic su **[!UICONTROL Publish]**.
+1. Incolla il codice da incorporare nel campo **[!UICONTROL Custom HTML]** dei commenti o dell’app Live Blog.
