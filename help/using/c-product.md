@@ -1,34 +1,29 @@
 ---
-description: La piattaforma di profondità sociale leader con gli strumenti necessari per coinvolgere il pubblico con le voci di cui si fidano maggiormente.
-seo-description: La piattaforma di profondità sociale leader con gli strumenti necessari per coinvolgere il pubblico con le voci di cui si fidano maggiormente.
-seo-title: Informazioni su Livefyre
-solution: Experience Manager
+description: La piattaforma di profondità sociale leader con gli strumenti necessari per coinvolgere il pubblico con le voci che si fidano di più del proprio.
 title: Informazioni su Livefyre
-uuid: b864afe0-9ccb-4607-b735-69ce42cd8199
+exl-id: 37aa41c5-6fa7-4a0d-8f8e-4210ca8ade0c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-
 # Informazioni su Livefyre{#about-livefyre}
 
-La piattaforma di profondità social leader con gli strumenti necessari per coinvolgere il pubblico con le voci più affidabili: loro.
+La piattaforma leader per la profondità sociale con gli strumenti necessari per coinvolgere il pubblico con le voci di cui si fidano di più: i propri.
 
-Livefyre offre funzioni potenti che consentono di coinvolgere il pubblico e controllare la conversazione, inclusa la possibilità di cercare, identificare e salvare contenuti social pertinenti ai messaggi. Livefyre consente inoltre di richiedere il diritto di riutilizzare il contenuto e di aggiungere metadati, compresi tag che semplificano la gestione e il recupero a piacimento. Livefyre include un&#39;esperienza di progettazione app ottimizzata che consente di sviluppare, personalizzare e distribuire rapidamente app interattive, senza mai scrivere una riga di codice.
+Livefyre offre funzioni potenti che ti consentono di coinvolgere il pubblico e controllare la conversazione, inclusa la possibilità di cercare, identificare e salvare contenuti social pertinenti ai tuoi messaggi. Livefyre consente inoltre di richiedere il diritto di riutilizzare questo contenuto e di aggiungere metadati, compresi tag, che semplificano la gestione e il recupero a piacimento. Livefyre include un’esperienza di progettazione app avanzata che ti consente di sviluppare, personalizzare e distribuire rapidamente app interattive senza mai scrivere una riga di codice.
 
 ## Utilizzo di Studio {#section_a2y_x3t_bbb}
 
-Con Livefyre Studio è possibile:
+Con Livefyre Studio puoi:
 
 * [Creare, progettare e pubblicare app](c-about-apps/c-about-apps.md#c_about_apps)
-* [Scoprire, salvare, gestire e pubblicare contenuti in una libreria da utilizzare in un secondo momento](c-library/c-assets/c-assets.md)
-* [Diritti di richiesta per il contenuto](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md#t_send_a_rights_request_to_own_a_digital_asset)
-* [Impostazione di un flusso per pubblicare o salvare il contenuto in modo dinamico](c-streams/t-create-a-new-stream.md#t_create_a_new_stream)
+* [Scopri, salva, gestisci e pubblica i contenuti di una libreria da utilizzare in un secondo momento](c-library/c-assets/c-assets.md)
+* [Diritti di richiesta del contenuto](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md#t_send_a_rights_request_to_own_a_digital_asset)
+* [Impostare un flusso per pubblicare o salvare dinamicamente il contenuto](c-streams/t-create-a-new-stream.md#t_create_a_new_stream)
 * [Consente di moderare i contenuti per garantire la qualità dei contenuti](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md#c_setting_up_moderation)
-* [Promuovere le vendite e l&#39;azione dei visitatori del sito tramite i pulsanti di invito all&#39;azione su contenuti](c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)
+* [Incentivare le vendite e l&#39;azione dei visitatori del sito dai pulsanti di invito all&#39;azione su parti di contenuto](c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)
 * [Gestione di utenti, ruoli e autorizzazioni](c-about-apps/c-about-apps.md#c_about_apps)
-
