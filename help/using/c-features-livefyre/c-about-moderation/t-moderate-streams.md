@@ -1,26 +1,21 @@
 ---
-description: nulle
-seo-description: nulle
-seo-title: Limita contenuto dagli utenti di Twitter
-solution: Experience Manager
-title: Limita contenuto dagli utenti di Twitter
-uuid: 692dd9c0-487d-4ea8-b87e-58bea22522db
+title: Limita contenuto da utenti Twitter
+description: Limita contenuto da utenti Twitter
+exl-id: 7ac981b9-6eb9-474e-b990-48a3ff339df5
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 0%
 
 ---
 
-
 # Limita contenuto da utenti Twitter{#restrict-content-from-twitter-users}
 
-È possibile impedire agli utenti di Twitter di essere inseriti nelle app. La scheda **[!UICONTROL Network Settings > Streams]** consente di vietare agli utenti i flussi, immettere il nome utente Twitter nel campo fornito e fare clic su **[!UICONTROL Add]**.
+Puoi impedire agli utenti di Twitter di essere trascinati nelle tue app. La scheda **[!UICONTROL Network Settings > Streams]** ti consente di vietare gli utenti dai tuoi Streams, inserire il nome utente Twitter nel campo fornito e fare clic su **[!UICONTROL Add]**.
 
-Se necessario, utilizzate la casella di controllo per scorrere tutto il contenuto esistente dell&#39;utente elencato.
+Utilizza la casella di controllo per eliminare tutti i contenuti esistenti dell’utente elencato, se necessario.
 
 >[!NOTE]
 >
->Non è possibile annullare l&#39;analisi del contenuto esistente.
-
+>Non è possibile annullare il trashing del contenuto esistente.
