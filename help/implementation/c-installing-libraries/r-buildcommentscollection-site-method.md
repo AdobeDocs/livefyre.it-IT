@@ -1,28 +1,24 @@
 ---
-description: Restituisce un oggetto Collection istanziato come tipo Comments. Eseguire createOrUpdate() dall'oggetto Collection per completare il processo di compilazione.
-seo-description: Restituisce un oggetto Collection istanziato come tipo Comments. Eseguire createOrUpdate() dall'oggetto Collection per completare il processo di compilazione.
-seo-title: Metodo del sito buildCommentsCollection
-solution: Experience Manager
-title: Metodo del sito buildCommentsCollection
-uuid: 0e5c062e-960d-4ab0-ba32-0965731a1571
+description: Restituisce un oggetto Collection istanziato come tipo Comments. Esegui createOrUpdate() dall'oggetto Collection per completare il processo di compilazione.
+title: Metodo Site buildCommentsCollection
+exl-id: 9534c25a-fd1c-4a09-92e2-d196ac218ef3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 7%
+source-wordcount: '90'
+ht-degree: 8%
 
 ---
 
-
 # Metodo del sito buildCommentsCollection{#buildcommentscollection-site-method}
 
-Restituisce un oggetto Collection istanziato come tipo Comments. Eseguire createOrUpdate() dall&#39;oggetto Collection per completare il processo di compilazione.
+Restituisce un oggetto Collection istanziato come tipo Comments. Esegui createOrUpdate() dall&#39;oggetto Collection per completare il processo di compilazione.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
 | title | Stringa | Titolo della raccolta. |
 | articleId | Stringa | Un ID articolo univoco scelto per identificare una raccolta all&#39;interno del sito. |
-| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
+| url | Stringa | URL assoluto canonico per questa raccolta. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -42,7 +38,7 @@ var collection = site.buildCommentsCollection(title, articleId, url);
 $collection = site->buildCommentsCollection(title, articleId, url); 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 collection = site.build_comments_collection(title, articleId, url) 
