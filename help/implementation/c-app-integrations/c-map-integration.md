@@ -1,46 +1,42 @@
 ---
-description: Tracciare il contenuto dell'utente su una mappa interattiva.
-seo-description: Tracciare il contenuto dell'utente su una mappa interattiva.
-seo-title: Mappa
-solution: Experience Manager
+description: Tracciare il contenuto dell’utente in una mappa interattiva.
 title: Mappa
-uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
+exl-id: 836b475e-0ec6-49f8-b89f-3af3209cf1f2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
 
-
 # Mappa{#map}
 
-Tracciare il contenuto dell&#39;utente su una mappa interattiva.
+Tracciare il contenuto dell’utente in una mappa interattiva.
 
-La mappa consente di trasmettere in streaming contenuti con geotagged su una mappa del mondo, consentendo di individuare il social brusio intorno alle notizie più importanti o a un evento in diretta. Viene visualizzato tutto il contenuto applicabile, inclusi testo, commenti, foto e tweet.
+La mappa consente di inviare i contenuti con tag in una mappa del mondo, consentendoti di individuare il social buzz intorno a notizie aggiornate o a un evento live. Verranno visualizzati tutti i contenuti applicabili, compresi testo, commenti, foto e tweet.
 
 >[!NOTE]
 >
->Le mappe sono alimentate da [ ©OpenStreetMap](https://www.openstreetmap.org/copyright), che fornisce i dati utilizzati da Livefyre per eseguire il rendering delle mappe.
+>Le mappe sono alimentate da [ ©OpenStreetMap](https://www.openstreetmap.org/copyright), che fornisce i dati utilizzati da Livefyre per il rendering delle sue mappe.
 
 ## Integrazione {#section_w2m_db2_d1b}
 
-Il modo più rapido per utilizzare Mappa consiste nell’utilizzare la versione incorporata ospitata sulla CDN di Livefyre.
+Il modo più rapido per utilizzare Map è utilizzare la versione incorporata ospitata sulla CDN di Livefyre.
 
-Innanzitutto, aggiungete [Livefyre.js](https://github.com/Livefyre/Livefyre.js) alla pagina.
+Innanzitutto, aggiungi [Livefyre.js](https://github.com/Livefyre/Livefyre.js) alla pagina.
 
 ```
 <script src="https://cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-Quindi, posizionate l&#39;elemento in cui apparirà l&#39;app mappa.
+Quindi, posiziona l’elemento in cui apparirà l’app mappa.
 
 ```
 <div id="map" style="height: 500px;"></div>
 ```
 
-Infine, utilizzate Livefyre.request per creare la mappa e fate in modo che una raccolta venga implementata da streaming-sdk. Tenete presente che Mappa può mostrare solo il contenuto con metadati con tag. Twitter e Instagram Curate supportano questa funzione. Per garantire prestazioni ottimali, includete un filtro di geolocalizzazione su tutte le regole di cura per la raccolta.
+Infine, utilizza Livefyre.need per costruire la mappa, e ottenere una raccolta da tubo in da sdk-sdk. Tieni presente che la mappa può mostrare solo il contenuto con metadati geotagged. Questa funzione è supportata da twitter e Instagram Curate. Per garantire le migliori prestazioni, includi un filtro di geolocalizzazione su tutte le regole di cura per la raccolta.
 
 ```
 <script> 
@@ -59,13 +55,13 @@ function (Map, SDK) {
 </script>
 ```
 
-Controlla questo [esempio live](https://codepen.io/cheung31/pen/wkmbF).
+Consulta questo [esempio live](https://codepen.io/cheung31/pen/wkmbF).
 
 ## Configurazione {#section_jc5_gxb_c1b}
 
 `initial`
 
-Il numero iniziale di elementi da caricare dalla raccolta e visualizzare sulla mappa. Una volta caricato questo numero, gli utenti possono fare clic su un pulsante per visualizzarne di più. (Facoltativo. Il valore predefinito è 50.)
+Il numero iniziale di elementi da caricare dalla raccolta e visualizzare sulla mappa. Una volta caricato questo numero, gli utenti possono fare clic su un pulsante per visualizzare di più. (Facoltativo. Il valore predefinito è 50.)
 
 ```
 var map = new Map({ 
@@ -76,7 +72,7 @@ var map = new Map({
 
 `leafletMapOptions`
 
-Opzioni per passare alla mappa [Opuscolo](https://leafletjs.com/) sottostante, utilizzata dalla mappa per il rendering. Utilizzate questa opzione per impostare le [opzioni mappa foglia](https://leafletjs.com/reference.html#map-options), compreso il punto centrale iniziale della mappa, e i livelli di zoom iniziali e massimi. (Facoltativo.)
+Opzioni da passare alla mappa sottostante [Foglietto illustrativo](https://leafletjs.com/), che la mappa utilizza per il rendering. Utilizzare questa opzione per impostare le [opzioni mappa foglia](https://leafletjs.com/reference.html#map-options), compreso il punto centrale iniziale della mappa e i livelli di zoom iniziali e massimi. (Facoltativo.)
 
 ```
 var map = new Map({ 
@@ -87,4 +83,3 @@ var map = new Map({
     } 
 });
 ```
-
