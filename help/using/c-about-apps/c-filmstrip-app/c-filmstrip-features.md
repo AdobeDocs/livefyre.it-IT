@@ -1,32 +1,28 @@
 ---
-description: Scoprite le funzioni di un'app Filmstrip.
-seo-description: Scoprite le funzioni di un'app Filmstrip.
-seo-title: Funzioni Filmstrip
-solution: Experience Manager
-title: Funzioni Filmstrip
-uuid: 0d7d59dc-0465-44d3-8348-b59e51312aab
+description: Scopri le funzioni di un’app Filmstrip.
+title: Funzioni di Filmstrip
+exl-id: ba327da8-9a7c-4819-abdf-b66412999da0
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
 
+# Caratteristiche del filmato{#filmstrip-features}
 
-# Funzioni Filmstrip{#filmstrip-features}
+Scopri le funzioni di un’app Filmstrip.
 
-Scoprite le funzioni di un&#39;app Filmstrip.
-
-L&#39;app Filmstrip ha le seguenti caratteristiche:
+L’app Filmstrip dispone delle seguenti funzioni:
 
 * [Streaming in tempo reale](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_emd_syl_d1b)
-* [Filtro SAFE](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
+* [Filtro SICURO](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
 * [Condivisione social](/help/using/c-features-livefyre/c-social-sharing/c-social-sharing.md#c_social_sharing)
 * [Espansione del supporto](/help/using/c-features-livefyre/c-enagement-features.md#section_pmq_ycm_d1b)
 * [Permalink](/help/using/c-features-livefyre/c-content-collection-tags/c-permalinks.md#c_permalinks)
 * [Stile CSS](/help/using/c-features-livefyre/c-styling-features/c-css-styling-branding.md#c_css_styling_branding)
-* [Pulsanti Azione Twitter](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
-* [Data e marca temporale](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
+* [Pulsanti di azione di twitter](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
+* [Data e timestamp](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
 * Stile predefinito
 * [Commerce UGC](/help/using/c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)
