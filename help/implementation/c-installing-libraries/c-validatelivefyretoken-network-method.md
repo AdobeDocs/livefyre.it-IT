@@ -1,22 +1,18 @@
 ---
-description: Controlla se un token Livefyre è ancora valido per la rete. Restituisce un valore Boolean.
-seo-description: Controlla se un token Livefyre è ancora valido per la rete. Restituisce un valore Boolean.
-seo-title: validateLivefyreToken, metodo di rete
-solution: Experience Manager
+description: Controlla se un token Livefyre è ancora valido per questa rete. Restituisce un valore Boolean.
 title: validateLivefyreToken, metodo di rete
-uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
+exl-id: c311005d-65fa-4f82-b482-8d173d6275cd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
+# validateLivefyreToken Network Method{#validatelivefyretoken-network-method}
 
-# validateLivefyreToken, metodo di rete{#validatelivefyretoken-network-method}
-
-Controlla se un token Livefyre è ancora valido per la rete. Restituisce un valore Boolean.
+Controlla se un token Livefyre è ancora valido per questa rete. Restituisce un valore Boolean.
 
 | Variabile | Tipo | Descrizione |
 |---|---|---|
@@ -58,7 +54,7 @@ Output campione:
 true 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 network.validate_livefyre_token(lfToken) 
@@ -81,4 +77,3 @@ Output campione:
 ```
 true 
 ```
-
