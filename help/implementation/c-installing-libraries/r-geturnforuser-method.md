@@ -1,26 +1,22 @@
 ---
-description: Questo metodo restituisce l’URL per l’utente della rete.
-seo-description: Questo metodo restituisce l’URL per l’utente della rete.
-seo-title: getUrnForUser, metodo di rete
-solution: Experience Manager
+description: Questo metodo restituisce l'URN per l'utente della rete.
 title: getUrnForUser, metodo di rete
-uuid: b70b8b0f-2b3a-4a1d-90d0-93a97a137ad4
+exl-id: 272e724e-d09d-4d7d-9967-a229707ff47f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 5%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
-
 # getUrnForUser Network Method{#geturnforuser-network-method}
 
-Questo metodo restituisce l’URL per l’utente della rete.
+Questo metodo restituisce l&#39;URN per l&#39;utente della rete.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| userId | Stringa | L’ID utente da utilizzare nell’URL. |
+| userId | Stringa | ID utente da utilizzare nell&#39;URL. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -58,7 +54,7 @@ Output campione:
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 network.get_urn_for_user(userId) 
