@@ -1,21 +1,17 @@
 ---
 description: Il pulsante Carica permette ai visitatori del sito di caricare contenuti.
-seo-description: Il pulsante Carica permette ai visitatori del sito di caricare contenuti.
-seo-title: Pulsante Carica
-solution: Experience Manager
 title: Pulsante Carica
-uuid: 6f51057b-040b-413e-a9b0-b20440acff08
+exl-id: ab6e7620-8545-4257-b5e0-54cf2b7882ea
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 53%
+source-wordcount: '69'
+ht-degree: 43%
 
 ---
-
 
 # Pulsante Carica{#upload-button}
 
 Il pulsante Carica permette ai visitatori del sito di caricare contenuti.
 
-Potete raccogliere il contenuto generato dall’utente direttamente dal sito e visualizzarlo in qualsiasi app Livefyre. Coinvolgi i visitatori del tuo sito incoraggiandoli a contribuire alla conversazione caricando i contenuti. Livefyre supporta contenuti immagine, video e audio.
+Puoi raccogliere contenuti generati dagli utenti direttamente dal tuo sito e visualizzarli in qualsiasi app Livefyre. Coinvolgi i visitatori del tuo sito incoraggiandoli a contribuire alla conversazione caricando i contenuti. Livefyre supporta contenuti immagine, video e audio.
