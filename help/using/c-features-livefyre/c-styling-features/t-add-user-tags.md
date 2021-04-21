@@ -1,22 +1,19 @@
 ---
-description: Aggiungete un tag utente all’account per applicare i distintivi utente.
-seo-description: Aggiungete un tag utente all’account per applicare i distintivi utente.
-seo-title: Aggiunta di tag utente a un account
-title: Aggiunta di tag utente a un account
-uuid: 737907ff-4958-489d-acef-fab531ebd526
+description: Aggiungi un tag utente all’account per applicare i badge utente.
+title: Aggiungere tag utente a un account
+exl-id: a9944f1b-c882-456f-be26-f064213e63fd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
+# Aggiungere tag utente a un account{#add-user-tags-to-an-account}
 
-# Aggiungi tag utente a un account{#add-user-tags-to-an-account}
+Aggiungi un tag utente all’account per applicare i badge utente.
 
-Aggiungete un tag utente all’account per applicare i distintivi utente.
-
-1. Create proprietari e moderatori tramite Studio per assegnare il tag utente **[!UICONTROL Moderator]** all&#39;account.
-1. Create gruppi di utenti, quindi aggiungete loro utenti tramite Studio per applicare tag con il nome del gruppo agli utenti selezionati.
+1. Crea i proprietari e i moderatori tramite Studio per assegnare il tag utente **[!UICONTROL Moderator]** all’account.
+1. Crea gruppi di utenti, quindi aggiungi gli utenti tramite Studio per applicare tag con il nome del gruppo agli utenti selezionati.
 1. Applica i tag utente direttamente agli account utilizzando la chiamata HTTP Aggiungi tag utente o Ping for Pull.
