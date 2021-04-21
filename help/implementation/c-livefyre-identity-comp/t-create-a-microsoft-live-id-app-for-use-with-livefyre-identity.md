@@ -1,37 +1,33 @@
 ---
-description: Potete utilizzare Identità Livefyre con Microsoft Live Identity per consentire agli utenti di utilizzare i propri accessi Facebook per interagire con le App sul sito.
-seo-description: Potete utilizzare Identità Livefyre con Microsoft Live Identity per consentire agli utenti di utilizzare i propri accessi Facebook per interagire con le App sul sito.
-seo-title: Creare un'app di identità Microsoft Live da utilizzare con l'identità Livefyre
-solution: Experience Manager
-title: Creare un'app di identità Microsoft Live da utilizzare con l'identità Livefyre
-uuid: 0c13e1bc-817f-43ed-85d5-09c9e95b6234
+description: Puoi utilizzare Livefyre Identity con Microsoft Live Identity per consentire agli utenti di utilizzare i loro accessi Facebook per interagire con le app sul tuo sito.
+title: Creare un’app Microsoft Live Identity da utilizzare con Livefyre Identity
+exl-id: 7702c956-ecb5-424a-9866-d6f73d4d4bc9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
+# Creare un&#39;app Microsoft Live Identity da utilizzare con Livefyre Identity{#create-a-microsoft-live-identity-app-for-use-with-livefyre-identity}
 
-# Creare un&#39;app di identità Microsoft Live da utilizzare con Livefyre Identity{#create-a-microsoft-live-identity-app-for-use-with-livefyre-identity}
+Puoi utilizzare Livefyre Identity con Microsoft Live Identity per consentire agli utenti di utilizzare i loro accessi Facebook per interagire con le app sul tuo sito.
 
-Potete utilizzare Identità Livefyre con Microsoft Live Identity per consentire agli utenti di utilizzare i propri accessi Facebook per interagire con le App sul sito.
-
-Per consentire agli utenti di accedere con le proprie credenziali Microsoft Live Identity, Livefyre richiede le seguenti informazioni Microsoft Live Identity:
+Per consentire agli utenti di accedere con le proprie credenziali di Microsoft Live Identity, Livefyre richiede le seguenti informazioni di Microsoft Live Identity:
 
 * ID client (chiave privata)
-* Segreto cliente (password)
+* Segreto client (password)
 
-Per creare un&#39;app Microsoft Live Identity da utilizzare con Livefyre Identity:
+Per creare un’app Microsoft Live Identity da utilizzare con Livefyre Identity:
 
-1. Creazione o accesso a un account Microsoft Live all&#39;indirizzo [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com/)
-1. Create una nuova app o selezionatela per l&#39;utilizzo con l&#39;identità Livefyre.
+1. Crea o accedi a un account Microsoft Live all&#39;indirizzo [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com/)
+1. Crea una nuova app o selezionane una esistente da utilizzare con Livefyre Identity.
 1. Fare clic su **[!UICONTROL Add Platform]**, quindi selezionare Web come tipo di piattaforma.
-1. Accertatevi che l&#39;opzione **[!UICONTROL Allow Implicit Flow]** sia selezionata e immettete l&#39;URL di reindirizzamento, utilizzando il nome di rete invece di {nome-rete}: `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`.
-1. Generare una nuova coppia password/chiave per ottenere la chiave privata.
-1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**, passare l&#39;interruttore **[!UICONTROL Enable Microsoft Live Login]** su **[!UICONTROL On]**.
-1. Immettere l&#39;ID client Microsoft Live e il Segreto client Microsoft Live.
+1. Assicurati che l&#39;opzione **[!UICONTROL Allow Implicit Flow]** sia selezionata e immetti l&#39;URL di reindirizzamento utilizzando il nome di rete anziché {network-name}: `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`.
+1. Genera una nuova coppia di password/chiave per ottenere la chiave privata.
+1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**, imposta l&#39;opzione **[!UICONTROL Enable Microsoft Live Login]** su **[!UICONTROL On]**.
+1. Immettere l&#39;ID client Microsoft Live e il segreto client Microsoft Live.
 1. Clic **[!UICONTROL Save Settings]**.
 
-Al termine, nella pagina dei dettagli dell&#39;app di Microsoft Live Identity verranno elencati l&#39;ID client (chiave di consumo) dell&#39;app e il Segreto cliente (Segreto di consumo) per l&#39;utilizzo nella pagina Impostazioni integrazione di Studio.
+Al termine, la pagina dei dettagli dell’app di Microsoft Live Identity elenca l’ID client (chiave di consumo) e il segreto client (segreto di consumo) dell’app da utilizzare nella pagina Impostazioni integrazione di Studio.
