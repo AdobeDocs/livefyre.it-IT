@@ -1,47 +1,43 @@
 ---
-description: Potete utilizzare Identità Livefyre con Facebook per consentire agli utenti di utilizzare i loro accessi Facebook per interagire con le App sul sito.
-seo-description: Potete utilizzare Identità Livefyre con Facebook per consentire agli utenti di utilizzare i loro accessi Facebook per interagire con le App sul sito.
-seo-title: Creare un'app Facebook da utilizzare con l'identità Livefyre
-solution: Experience Manager
-title: Creare un'app Facebook da utilizzare con l'identità Livefyre
-uuid: a7f7be4e-8986-4e79-831a-0bb0ae555599
+description: Puoi utilizzare Livefyre Identity con Facebook per consentire agli utenti di utilizzare i loro accessi Facebook per interagire con le app sul tuo sito.
+title: Creare un’app Facebook da utilizzare con Livefyre Identity
+exl-id: ec320865-6ea3-4f6f-a5f6-31f3d5cbdc93
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 1%
 
 ---
 
-
 # Creare un&#39;app Facebook da utilizzare con Livefyre Identity{#create-a-facebook-app-for-use-with-livefyre-identity}
 
-Potete utilizzare Identità Livefyre con Facebook per consentire agli utenti di utilizzare i loro accessi Facebook per interagire con le App sul sito.
+Puoi utilizzare Livefyre Identity con Facebook per consentire agli utenti di utilizzare i loro accessi Facebook per interagire con le app sul tuo sito.
 
-Per consentire ai vostri utenti di accedere con le loro credenziali Facebook, Livefyre richiede le seguenti informazioni per l&#39;app Facebook:
+Per consentire agli utenti di accedere con le loro credenziali Facebook, Livefyre richiede le seguenti informazioni dell&#39;app Facebook:
 
 * ID app
 * Segreto app
 
-Per creare un&#39;app Facebook da usare con l&#39;identità Livefyre:
+Per creare un’app Facebook da utilizzare con Livefyre Identity:
 
-1. Andate a [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
-1. Accedete al vostro account sviluppatore di Facebook.
-1. Fate clic su **[!UICONTROL Add New App]** o selezionate un&#39;app esistente da usare con Identità Livefyre.
+1. Vai a [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
+1. Accedi al tuo account sviluppatore Facebook.
+1. Fai clic su **[!UICONTROL Add New App]** o seleziona un&#39;app esistente da utilizzare con Livefyre Identity.
 1. Fare clic su **[!UICONTROL Settings]**, quindi su **[!UICONTROL Basic]**. Immettere un indirizzo **[!UICONTROL Contact Email]**, **[!UICONTROL Display Name]**, **[!UICONTROL Privacy Policy URL]** e **[!UICONTROL Terms of Service URL]**.
 1. Fare clic sul segno più ( **[!UICONTROL +]**) accanto a **[!UICONTROL Products]**.
 1. Fare clic su **[!UICONTROL Set Up]** in **[!UICONTROL Facebook Login]**.
-1. Fare clic su **[!UICONTROL Settings]** e configurare quanto segue:
+1. Fai clic su **[!UICONTROL Settings]** e configura quanto segue:
 
    * Impostare **[!UICONTROL Client OAuth Login]** su **[!UICONTROL Yes]**.
    * Impostare **[!UICONTROL Web OAuth Login]** su **[!UICONTROL Yes]**.
    * Impostare **[!UICONTROL Use Strict Mode for Redirect URIs]** su **[!UICONTROL Yes]**.
    * Impostare **[!UICONTROL Enforce HTTPS for Web OAuth Login]** su **[!UICONTROL Yes]**.
-   * In **[!UICONTROL Valid OAuth redirect URLs]**, aggiungete l&#39;URL `https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` (dove `{networkName}` è il nome di rete fornito da Livefyre).
+   * In **[!UICONTROL Valid OAuth redirect URLs]**, aggiungi l’URL `https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` (dove `{networkName}` è il nome di rete fornito da Livefyre).
 
-1. Sotto **[!UICONTROL App Review]**:
+1. Alla voce **[!UICONTROL App Review]**:
 
    * Rendi l&#39;app pubblica.
-   * Assicurarsi che **[!UICONTROL Approved Items]** per **[!UICONTROL Login Permissions]** includa `email`, `public_profile` e `user_friends`.
+   * Assicurati che i **[!UICONTROL Approved Items]** per **[!UICONTROL Login Permissions]** includano `email`, `public_profile` e `user_friends`.
 
-Al termine, la pagina Dashboard dello sviluppatore di Facebook elenca l&#39;App ID e il Segreto app da utilizzare nelle impostazioni di integrazione di Studio.
+Una volta completata, la pagina Dashboard dello sviluppatore di Facebook elencherà l’App ID e il Segreto app da utilizzare nelle impostazioni di integrazione di Studio.
