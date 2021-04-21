@@ -1,31 +1,27 @@
 ---
-description: Quando implementate le app Livefyre, lo stile di implementazione dipende dal caso di utilizzo. In questa pagina sono illustrate le funzionalità per i tre modi in cui puoi creare un'app.
-seo-description: Quando implementate le app Livefyre, lo stile di implementazione dipende dal caso di utilizzo. In questa pagina sono illustrate le funzionalità per i tre modi in cui puoi creare un'app.
-seo-title: Integrazioni app CMS
-solution: Experience Manager
-title: Integrazioni app CMS
-uuid: 14fd7e36-0e50-4ae3-97f0-2de731c184f5
+description: Quando implementi le app Livefyre, lo stile di implementazione dipende dal tuo caso d’uso. Questa pagina illustra le funzioni per i tre modi in cui puoi creare un’app.
+title: Integrazioni di app CMS
+exl-id: 7590e247-87cc-470e-bab6-e61a19221dbd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
 
+# Integrazioni di app CMS{#cms-app-integrations}
 
-# Integrazioni app CMS{#cms-app-integrations}
+Quando implementi le app Livefyre, lo stile di implementazione dipende dal tuo caso d’uso. Questa pagina illustra le funzioni per i tre modi in cui puoi creare un’app.
 
-Quando implementate le app Livefyre, lo stile di implementazione dipende dal caso di utilizzo. In questa pagina sono illustrate le funzionalità per i tre modi in cui puoi creare un&#39;app.
+L’integrazione di Livefyre è agnostica per qualsiasi piattaforma CMS e User Profile e Auth. Implementa Livefyre in uno o più modi, a seconda del tuo caso d’uso e dei tuoi requisiti.
 
-L&#39;integrazione di Livefyre non è compatibile con qualsiasi piattaforma CMS e User Profile e Auth. Implementa Livefyre in uno o più modi, a seconda del caso d’uso e dei requisiti.
+Puoi utilizzare l’integrazione tradizionale per creare componenti AEM personalizzati.
 
-È possibile utilizzare l&#39;integrazione tradizionale per creare componenti AEM personalizzati.
+## Panoramica sull’integrazione dei tipi di app CMS
 
-## Panoramica sull&#39;integrazione dei tipi di app CMS
-
-| Type (Tipo) | Requisito di sviluppo | Funzioni | Pros | Limitazioni |
+| Type (Tipo) | Requisiti di sviluppo | Funzioni | Pro | Limitazioni |
 |--- |--- |--- |--- |--- |
-| App Designer | Molto bassa | Create JS embeds in Studio per aggiungere alle pagine senza uno sviluppatore <br>Limitato stile e configurazioni disponibili </br>Caso di utilizzo: Pagine per uso singolo (copertura evento, campagne, hub) | Possibilità di avviare un&#39;app e di eseguirla in poco tempo. <br>Le configurazioni possono essere eseguite da un membro non tecnico. <br>Facile al volo modifiche alle configurazioni | Creare un&#39;app utilizzando prima Livefyre Studio <br>Non automatizzato |
-| Livefyre.js | Canale | Integrare le app nel JavaScript delle pagine <br>Caso di utilizzo: Modelli riutilizzabili (contenuti editoriali, recensioni di prodotti) | Utilizza l&#39;intera suite di personalizzazioni e configurazioni delle app <br>Automatizza il processo per creare dinamicamente un&#39;istanza delle app dall&#39;interno del CMS sulle tue pagine | Hai bisogno di uno sviluppatore in primo piano. |
-| API SDK | Advanced | Recuperate i contenuti da Livefyre per le applicazioni personalizzate <br>Personalizzate front-end oltre l&#39;offerta supportata <br>Caso di utilizzo: Integrazioni dati/Analytics e app front-end personalizzate | Potenza completa sull&#39;aspetto e il comportamento dell&#39;app | Richiede uno sviluppo immediato. <br>Un livello più elevato di sforzi di sviluppo da attuare. |
+| Progettazione app | Molto basso | Crea incorporamenti JS in Studio da aggiungere alle pagine senza uno sviluppatore <br>Stile limitato e configurazioni disponibili </br>Caso di utilizzo: Pagine a uso singolo (copertura eventi, campagne, hub) | In grado di avviare un&#39;app e di eseguirla in un breve periodo di tempo. <br>Le configurazioni possono essere eseguite da un membro non tecnico. <br>Facile al volo cambia le configurazioni | È necessario creare un&#39;app prima con Livefyre Studio <br>Non automatizzata |
+| Livefyre.js | Canale | Integra le app nel JavaScript delle tue pagine <br>Caso di utilizzo: Modelli riutilizzabili (contenuti editoriali, recensioni di prodotti) | Utilizza l&#39;intera suite di personalizzazioni e configurazioni dell&#39;app <br>Automatizza il processo per creare un&#39;istanza dinamica delle app dall&#39;interno del CMS sulle tue pagine | Ho bisogno di uno sviluppatore in anticipo. |
+| API SDK | Advanced | Recupera i contenuti da Livefyre da utilizzare per le applicazioni personalizzate <br>Personalizza front-end oltre l’offerta supportata <br>Caso di utilizzo: Integrazioni di dati/Analytics e app front-end personalizzate | Potenza completa sull&#39;aspetto e sul funzionamento dell&#39;app | Richiede lo sviluppo in anticipo. <br>Maggiore impegno nello sviluppo per l&#39;implementazione. |
