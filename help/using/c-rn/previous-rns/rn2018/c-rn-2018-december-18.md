@@ -1,18 +1,14 @@
 ---
-description: Note sulla versione per la release del 18 dicembre 2018.
-seo-description: Note sulla versione per la release del 18 dicembre 2018.
-seo-title: Note sulla versione
-solution: Experience Manager
+description: Note sulla versione per la versione del 18 dicembre 2018.
 title: Note sulla versione di Livefyre 18 dicembre 2018
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: a8efbc26-043e-4c0f-8d60-2d894d03f67a
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 3%
 
 ---
-
 
 # Note sulla versione - 18 dicembre 2018
 
@@ -20,11 +16,11 @@ ht-degree: 5%
 
 ## Miglioramento
 
-* Implementata un&#39;impostazione che abilita le impostazioni dell&#39;account aziendale Instagram per impostazione predefinita.
+* Implementazione di un&#39;impostazione che abilita le impostazioni dell&#39;account aziendale Instagram per impostazione predefinita.
 
 ## Correzioni di bug
 
-* È stato risolto un problema per il quale la ricerca social con la regola Instagram non funzionava sempre.
-* È stato corretto un problema a causa del quale la ricerca URL risultava incoerente durante la restituzione del risultato.
-* È stato corretto un problema a causa del quale i flussi con caratteri coreani non eseguivano il pull in contenuto.
+* È stato corretto un problema a causa del quale la ricerca social con la regola Instagram non funziona sempre.
+* È stato risolto un problema a causa del quale la ricerca URL sembrava incoerente quando si restituiva un risultato.
+* È stato risolto un problema a causa del quale i flussi con caratteri coreani non estraevano il contenuto.
 * È stato corretto un problema a causa del quale il flusso con la regola Instagram non poteva raccogliere nuovi post.
