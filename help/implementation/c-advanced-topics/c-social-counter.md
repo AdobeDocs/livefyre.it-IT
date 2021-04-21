@@ -1,30 +1,26 @@
 ---
 description: Conta il numero di elementi social curati.
-seo-description: Conta il numero di elementi social curati.
-seo-title: Contatore social
-solution: Experience Manager
 title: Contatore social
-uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
+exl-id: def7fba4-1c2e-4c7b-84f7-f9ede592d675
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 4%
+source-wordcount: '233'
+ht-degree: 5%
 
 ---
 
+# Contatore social{#social-counter}
 
-# Contatore social network{#social-counter}
+Conta il numero di elementi social curati. Per un elenco completo degli endpoint disponibili, consulta la sezione Livefyre [Riferimento API](https://api.livefyre.com/docs) .
 
-Conta il numero di elementi social curati. Per un elenco completo degli endpoint disponibili, consultate la sezione Livefyre [API Reference](https://api.livefyre.com/docs).
-
-L&#39;API Social Counter restituisce i conteggi per le regole di cura corrispondenti in una determinata raccolta per gli intervalli in un determinato periodo di tempo.
+L&#39;API del contatore social restituisce i conteggi per le regole di cura corrispondenti in una determinata raccolta per gli intervalli di un periodo di tempo.
 
 >[!NOTE]
 >
 >Questa API è disponibile solo per gli hashtag Twitter.
 
-Social Counter API:
+API contatore social:
 
 * Risorsa
 * Tipi di regole
@@ -36,25 +32,25 @@ Social Counter API:
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
 
-* **networkName:nome di rete** fornito da Livefyre. Ad esempio: *labs* in `labs.fyre.co`.
-* **query:** hash codificato url-safe64 di tutto il sito, ID articolo, coppie di tipo regola per cui recuperare le informazioni sul conteggio (precodificato)
+* **networkName:** il nome di rete fornito da Livefyre. Ad esempio: *laboratori* in `labs.fyre.co`.
+* **query:** hash codificato url-safe base64 di tutto il sito, ID articolo, coppie di tipo regola per le quali è necessario recuperare le informazioni sul conteggio (pre-codificato)
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
    ```
 
    >[!NOTE]
-   >La query è limitata a 10 siti, ID articolo, coppie di tipo regola. L’esempio precedente contiene 3 coppie.
+   >La query è limitata a 10 siti, ID articolo, coppie di tipo regola. (L&#39;esempio precedente conterrebbe 3 tule).
 
-* **specifica** `(optional)` il periodo di tempo relativo o assoluto su cui eseguire il grafico; from specifica l&#39;inizio e, se omesso, il valore predefinito è 24 ore fa.
-* **fino a** `(optional)` che non specifica il periodo di tempo relativo o assoluto da rappresentare; fino specifica l&#39;inizio e, se omesso, imposta l&#39;ora corrente (ora) per impostazione predefinita.
+* **** `(optional)` specifica il periodo di tempo relativo o assoluto da rappresentare nel grafico; da specifica l’inizio e il valore predefinito è 24 ore fa, se omesso.
+* **** `(optional)` non specifica il periodo di tempo relativo o assoluto da rappresentare nel grafico; fino specifica l’inizio e, se omesso, imposta l’ora corrente (ora).
 
 ### Tempo relativo
 
 | Abbreviazione | Unità |
 |---|---|
-| s | Secondi |
-| min | Minuti |
+| s | Seconds |
+| min | Minutes |
 | h | Ore |
 | d | Giorni |
 | w | settimane |
@@ -69,15 +65,15 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 ## Tempo assoluto {#section_xqr_jgc_11b}
 
-FORMATO: HH:MM_YYYMMDD
+FORMATO: HH:MM_YYYYMMDD
 
 | Abbreviazione | Significato |
 |---|---|
 | HH | Ore (in formato 24 ore) |
-| MM | Minuti |
+| MM | Minutes |
 | YYYY | Anno a 4 cifre |
 | MM | Mese |
-| DD | Day |
+| DD | Giorno |
 
 Esempio:
 
@@ -93,7 +89,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 Esempio:
 
-Per ottenere i conteggi nell&#39;ultimo minuto per il sito `123456` e l&#39;ID articolo `some-article-id` e il tipo di regola `2`, ad esempio: `123456:some-article-id;2:`
+Per ottenere i conteggi nell’ultimo minuto per il sito `123456` e l’ID articolo `some-article-id` e il tipo di regola `2`, ad esempio: `123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 
