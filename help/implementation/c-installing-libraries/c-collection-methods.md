@@ -1,36 +1,31 @@
 ---
-description: Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell'oggetto classe Collection.
-seo-description: Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell'oggetto classe Collection.
-seo-title: Metodi della classe Collection
-solution: Experience Manager
-title: Metodi della classe Collection
-uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
+description: Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi oggetto della classe Collection.
+title: Metodi delle classi di raccolta
+exl-id: e54fe99d-381a-433e-b42f-8be609864ca8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
+# Metodi delle classi di raccolta{#collection-class-methods}
 
-# Metodi della classe di raccolta{#collection-class-methods}
+Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi oggetto della classe Collection.
 
-Per aggiornare i dati nella raccolta, modificare il contenuto dei metodi dell&#39;oggetto classe Collection.
+Per istruzioni sulla creazione di un oggetto Collection, vedere Metodi della classe Site . Il resto della pagina presuppone che nella sessione sia presente un oggetto Collection con istanza.
 
-Per istruzioni sulla creazione di un oggetto Collection, vedere Metodi di classe Site. Il resto della pagina presuppone che nella sessione sia presente un oggetto Collection con istanza.
-
-* [createOrUpdate, metodo di raccolta](#r_createorupdate_collection_method)
+* [Metodo di raccolta createOrUpdate](#r_createorupdate_collection_method)
 * [Metodo di raccolta buildCollectionMetaToken](#r_buildcollectionmetatoken_collection_method)
 * [Metodo di raccolta buildChecksum](#r_buildchecksum_collection_method)
-* [getCollectionContent, metodo di raccolta](#t_getcollectioncontent_collection_method)
-* [getUrn, metodo di raccolta](#r_geturn_collection_method)
+* [Metodo di raccolta getCollectionContent](#t_getcollectioncontent_collection_method)
+* [Metodo di raccolta getUrn](#r_geturn_collection_method)
 
 Ciascuno di questi metodi è disponibile per i seguenti tipi di codice:
 
 * Java
 * NodeJS
 * PHP
-* Python
+* Pitone
 * Ruby
-
