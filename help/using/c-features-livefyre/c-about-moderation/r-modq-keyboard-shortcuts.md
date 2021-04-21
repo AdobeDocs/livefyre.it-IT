@@ -1,32 +1,28 @@
 ---
-description: In ModQ sono disponibili le seguenti scelte rapide da tastiera per i moderatori.
-seo-description: In ModQ sono disponibili le seguenti scelte rapide da tastiera per i moderatori.
-seo-title: Scelte rapide da tastiera ModQ
+description: In ModQ sono disponibili le seguenti scelte rapide da tastiera ai moderatori.
 title: Scelte rapide da tastiera ModQ
-uuid: fc4e7796-b6b5-4782-a0fc-b2326ca56d66
+exl-id: 759a1e8a-ac84-4a5b-b630-b63530fb3907
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '141'
 ht-degree: 2%
 
 ---
 
-
 # Scelte rapide da tastiera ModQ{#modq-keyboard-shortcuts}
 
-In ModQ sono disponibili le seguenti scelte rapide da tastiera per i moderatori.
+In ModQ sono disponibili le seguenti scelte rapide da tastiera ai moderatori.
 
 | Azione | Descrizione | Tastiera | Alternativo |
 |---|---|---|---|
-| Elemento precedente | Selezionare l&#39;elemento sopra l&#39;elemento selezionato | Freccia Su | K |
-| Elemento successivo | Selezionare l&#39;elemento sotto l&#39;elemento selezionato | Freccia Giù | J |
+| Elemento precedente | Seleziona l’elemento sopra l’elemento attualmente selezionato | Freccia Su | K |
+| Articolo successivo | Seleziona l’elemento sotto l’elemento attualmente selezionato | Freccia giù | J |
 | Approvare il contenuto | Contrassegna contenuto come approvato | a |  |
-| Contenuto del cestino | Contrassegna contenuto come scorrevole | x |  |
-| Contenuto del bozo | Contrassegnare i contenuti come Bozo | b |  |
-| Parte superiore della coda | Passare al primo elemento nella parte superiore della coda | l |  |
-| Disattiva o disattiva l’audio dei flag | Disattiva o disattiva l’audio dei flag dell’utente selezionato | Maiusc + M |  |
-| Divieto utente | Divieto dell&#39;utente selezionato solo per il sito | Maiusc + B |  |
-| Whitelist | Consenti l&#39;elenco dell&#39;utente selezionato solo per il sito | Maiusc + W |  |
-| Cancella filtro sito | Visualizza tutti gli elementi nella rete | Maiusc + Q |  |
-
+| Contenuto scorrevole | Contrassegnare il contenuto come scorrevole | x |  |
+| Contenuto Bozo | Contrassegnare i contenuti come Bozo’d | b |  |
+| Inizio coda | Passa al primo elemento nella parte superiore della coda | l |  |
+| Flag disattivati o disattivati | Flag di disattivazione audio o disattivazione audio dall’utente selezionato | Maiusc + M |  |
+| Utente bloccato | Divieto dell&#39;utente selezionato solo per quel sito | Maiusc + B |  |
+| Utente con whitelist | Consenti l&#39;elenco dell&#39;utente selezionato solo per quel sito | Maiusc + W |  |
+| Cancella filtro sito | Visualizza tutti gli elementi della rete | Maiusc + Q |  |
