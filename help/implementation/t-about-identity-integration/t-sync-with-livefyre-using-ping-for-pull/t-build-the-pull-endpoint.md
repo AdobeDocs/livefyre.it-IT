@@ -1,27 +1,23 @@
 ---
-description: Create l'endpoint pull per ricevere e rispondere alle richieste di accesso al sistema di identità dell'utente.
-seo-description: Create l'endpoint pull per ricevere e rispondere alle richieste di accesso al sistema di identità dell'utente.
-seo-title: Creazione dell'endpoint di pull
-solution: Experience Manager
-title: Creazione dell'endpoint di pull
-uuid: 1703152f-aaa7-4a88-aa33-d9f8957ad42b
+description: Crea l’endpoint pull per ricevere e rispondere alle richieste di accesso al sistema di identità utente.
+title: Creare l’endpoint di pull
+exl-id: cc66365b-0d5f-4a0b-954f-ee014e75d4a2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
+# Creare l&#39;endpoint di pull{#build-the-pull-endpoint}
 
-# Creare l&#39;endpoint pull{#build-the-pull-endpoint}
+Crea l’endpoint pull per ricevere e rispondere alle richieste di accesso al sistema di identità utente.
 
-Create l&#39;endpoint pull per ricevere e rispondere alle richieste di accesso al sistema di identità dell&#39;utente.
-
-1. Create un endpoint HTTPS che riceva richieste Livefyre e risponda con un oggetto JSON che contiene i dati utente più recenti.
+1. Crea un endpoint HTTPS che riceve le richieste Livefyre e risponde con un oggetto JSON che contiene i dati utente più recenti.
 
    >[!NOTE]
    >
-   >Questo endpoint deve essere accessibile. Si raccomanda inoltre vivamente l&#39;invio di richieste e risposte attraverso il protocollo HTTPS.
+   >Questo endpoint deve essere accessibile. Si consiglia inoltre vivamente di inviare entrambe le richieste e le risposte tramite il protocollo HTTPS.
 
 1. Registra l&#39;endpoint con Studio.
