@@ -1,26 +1,21 @@
 ---
-description: L’app Mappa offre queste funzionalità per il sito.
-seo-description: L’app Mappa offre queste funzionalità per il sito.
-seo-title: Funzioni mappa
-solution: Experience Manager
+description: L’app Mappa offre queste funzioni per il tuo sito.
 title: Funzioni mappa
-uuid: fdad5f0c-8292-4f59-bac1-c96c01e96ff5
+exl-id: 71ad1b93-ba8a-41ce-ad3d-1ade68c37c45
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-
 # Funzioni mappa{#map-features}
 
-L’app Mappa offre queste funzionalità per il sito.
+L’app Mappa offre queste funzioni per il tuo sito.
 
 
 
 * Il contenuto entra nella mappa in tempo reale.
-* Il contenuto proveniente dalla stessa area si trova in un cluster e può essere visualizzato in una modale Gallery.
-* Ingrandisci la mappa per concentrarti sui contenuti provenienti da aree specifiche.
-
+* Il contenuto della stessa area è raggruppato e può essere visualizzato in una finestra modale Galleria.
+* Ingrandisci la mappa per concentrarti sui contenuti di aree specifiche.
