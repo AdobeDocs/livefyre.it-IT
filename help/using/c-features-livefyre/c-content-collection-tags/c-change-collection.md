@@ -1,26 +1,22 @@
 ---
-description: Consentite agli utenti di fare clic sulle raccolte da un singolo layout di pagina e URL.
-seo-description: Consentite agli utenti di fare clic sulle raccolte da un singolo layout di pagina e URL.
-seo-title: Cambia raccolta
-solution: Experience Manager
-title: Cambia raccolta
-uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
+description: Consente agli utenti di fare clic sulle raccolte da un layout di pagina e da un URL singoli.
+title: Modifica raccolta
+exl-id: 5cfae2c6-e328-4d2c-b08b-709be94e4c54
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
+# Modifica raccolta{#change-collection}
 
-# Change Collection{#change-collection}
+Consente agli utenti di fare clic sulle raccolte da un layout di pagina e da un URL singoli.
 
-Consentite agli utenti di fare clic sulle raccolte da un singolo layout di pagina e URL.
+Utilizza il delegato Change Collection per modificare la raccolta mostrata in una pagina senza modificare l’URL, mentre un’app Livefyre è già caricata. Utilizza questa funzione per visualizzare gallerie di foto o video o altre app in cui la raccolta visualizzata dovrebbe cambiare dopo un&#39;azione dell&#39;utente.
 
-Utilizzate Change Collection Delegate (Modifica delegato raccolta) per modificare la raccolta mostrata in una pagina, senza modificare l&#39;URL, mentre un&#39;app Livefyre è già caricata. Utilizzate questa funzione per visualizzare gallerie di foto o video o altre app in cui la raccolta visualizzata dovrebbe cambiare dopo un&#39;azione dell&#39;utente.
-
-Ad esempio, facendo clic su un video o una foto in una galleria, verrà caricata una raccolta specifica per tale selezione, mentre l&#39;URL della pagina non verrà modificato.
+Ad esempio, facendo clic su un video o una foto in una galleria si carica una raccolta specifica per tale selezione, mentre l’URL della pagina non verrà modificato.
 
 Per caricare una delle tre raccolte da una singola pagina [conteggio commenti](/help/implementation/c-advanced-topics/t-display-comment-count.md):
 
@@ -64,4 +60,3 @@ Livefyre.require(['fyre.conv#prod'],function(Conv) {
 </body> 
 </html>
 ```
-
