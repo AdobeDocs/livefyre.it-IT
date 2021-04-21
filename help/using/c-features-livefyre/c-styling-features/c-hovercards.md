@@ -1,37 +1,34 @@
 ---
-description: Abilitare o disabilitare le schede utente nel sito.
-seo-description: Abilitare o disabilitare le schede utente nel sito.
-seo-title: Hovercard
+description: Abilita o disabilita le schede utente nel tuo sito.
 title: Hovercard
-uuid: a7336a4d-b92f-4b3b-a3de-713aa388b58a
+exl-id: 958fbf18-e045-4a6e-baa0-03213963fca5
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
+# Hovercard{#hovercards}
 
-# Hovercards{#hovercards}
+Abilita o disabilita le schede utente nel tuo sito.
 
-Abilitare o disabilitare le schede utente nel sito.
-
-Livefyre Hovercard è un popup che mostra una rapida istantanea delle informazioni utente, tra cui nome visualizzato, bio, social network, Mi piace per l&#39;utente, URL della pagina del profilo e un collegamento per visualizzarne il profilo completo. Le hovercard sono disponibili per tutti i flussi Livefyre, inclusi commenti, blog dal vivo e chat.
-
->[!NOTE]
->
->Gli hovercard possono essere attivati o disattivati solo a livello di rete e sono implementati o disattivati in tutti i siti della rete personalizzata. Contattate il vostro Account Manager se desiderate che le schede mobili siano attivate per la rete.
-
-## Visualizzazione degli hovercard {#section_zjl_jtk_wy}
-
-Quando passi il puntatore del mouse sull’avatar di un utente su Commenti, Blog dal vivo o Chat, viene visualizzata la relativa Hovercard.
-
-Facendo clic su **[!UICONTROL View Full Profile]** l&#39;utente passerà alla pagina completa del profilo per tale utente.
+Livefyre Hovercard è una finestra a comparsa che mostra una rapida istantanea delle informazioni utente, tra cui nome visualizzato, bio, social network, Mi piace per l&#39;utente, URL della pagina del profilo e un collegamento per visualizzarne il profilo completo. Gli hovercard sono disponibili per tutti i flussi di Livefyre, inclusi Commenti, Live Blog e Chat.
 
 >[!NOTE]
 >
->Le informazioni di visualizzazione degli hovercard incluse nel sistema del profilo utente. Eventuali campi non inclusi in tale sistema non verranno visualizzati nelle schede madri. Se non avete pagine di profilo pubblico, non verrà visualizzata alcuna pagina. Se desiderate disattivare gli Hovercard per la rete personalizzata, contattate l&#39;Account Manager tecnico.
+>Gli overcard possono essere attivati o disattivati solo a livello di rete e sono implementati o disabilitati in tutti i siti della rete personalizzata. Contatta il tuo Account Manager se desideri che le schede mobili siano accese per la tua rete.
+
+## Visualizzazione degli overcard {#section_zjl_jtk_wy}
+
+Quando passi il cursore sull’avatar di un utente su Commenti, Blog live o Chat, apparirà il suo Hovercard.
+
+Facendo clic su **[!UICONTROL View Full Profile]** l’utente passa alla pagina di profilo completa per tale utente.
+
+>[!NOTE]
+>
+>Le informazioni di visualizzazione dei caratteri di sovrascrittura sono incluse nel sistema del profilo utente. Eventuali campi non inclusi in quel sistema non verranno visualizzati nelle schede madri. Se non hai pagine di profilo pubbliche, non verrà visualizzata alcuna pagina. Se desiderate disattivare gli Hovercard per la rete personalizzata, contattate il vostro Technical Account Manager.
 
 
 
@@ -40,5 +37,4 @@ App che utilizzano questa funzione:
 * [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Commenti](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Recensioni](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-
+* [Note](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
