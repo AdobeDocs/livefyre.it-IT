@@ -1,28 +1,24 @@
 ---
-description: Restituisce un oggetto Collection istanziato come tipo Blog. Eseguire create_or_update() dall'oggetto Collection per completare il processo di compilazione.
-seo-description: Restituisce un oggetto Collection istanziato come tipo Blog. Eseguire create_or_update() dall'oggetto Collection per completare il processo di compilazione.
-seo-title: Metodo del sito buildBlogCollection
-solution: Experience Manager
-title: Metodo del sito buildBlogCollection
-uuid: 6a5ec6b9-bc32-467a-abe6-a57c6defe067
+description: Restituisce un oggetto Collection istanziato come tipo Blog. Esegui create_or_update() dall'oggetto Collection per completare il processo di compilazione.
+title: Metodo Site buildBlogCollection
+exl-id: 93565eff-dc4e-4868-9d75-50f16ddb4fa4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
 
-
 # Metodo del sito buildBlogCollection{#buildblogcollection-site-method}
 
-Restituisce un oggetto Collection istanziato come tipo Blog. Eseguire create_or_update() dall&#39;oggetto Collection per completare il processo di compilazione.
+Restituisce un oggetto Collection istanziato come tipo Blog. Esegui create_or_update() dall&#39;oggetto Collection per completare il processo di compilazione.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
 | title | Stringa | Titolo della raccolta. |
 | articleId | Stringa | Un ID articolo univoco scelto per identificare una raccolta all&#39;interno del sito. |
-| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
+| url | Stringa | URL assoluto canonico per questa raccolta. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -42,7 +38,7 @@ var collection = site.buildBlogCollection(title, articleId, url);
 $collection = site->buildBlogCollection(title, articleId, url); 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 collection = site.build_blog_collection(title, articleId, url) 
@@ -53,4 +49,3 @@ collection = site.build_blog_collection(title, articleId, url)
 ```
 collection = site.build_blog_collection(title, articleId, url) 
 ```
-
