@@ -1,23 +1,19 @@
 ---
-description: Assegnate un titolo alla guida di navigazione per rendere i contenuti più chiari ai visitatori del sito.
-seo-description: Assegnate un titolo alla guida di navigazione per rendere i contenuti più chiari ai visitatori del sito.
-seo-title: Aggiungere un titolo alla guida di navigazione
-solution: Experience Manager
-title: Aggiungere un titolo alla guida di navigazione
-uuid: 9b8de96d-76c3-46d0-97ce-338b01f49ca7
+description: Assegna un titolo alla Guida alla navigazione per rendere chiari i contenuti ai visitatori del sito.
+title: Aggiungere un titolo alla guida alla navigazione
+exl-id: 5783a21f-91df-4b84-8831-515ee8a8bd2c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
+# Aggiungi un titolo alla guida di navigazione{#add-a-title-to-the-navigation-guide}
 
-# Aggiungere un titolo alla guida di navigazione{#add-a-title-to-the-navigation-guide}
+Assegna un titolo alla Guida alla navigazione per rendere chiari i contenuti ai visitatori del sito.
 
-Assegnate un titolo alla guida di navigazione per rendere i contenuti più chiari ai visitatori del sito.
-
-1. Aprite un brano di Storify 2.
-1. In Storify 2 App Designer, attivare l&#39;interruttore **[!UICONTROL Navigation Guide]**.
-1. Inserite un titolo nel campo compilato con le parole &quot;Aggiungi un titolo&quot;.
+1. Apri una storia di Storify 2.
+1. In Storify 2 App Designer, attiva l’interruttore **[!UICONTROL Navigation Guide]**.
+1. Inserisci un titolo nel campo compilato con le parole &quot;Aggiungi un titolo&quot;.
