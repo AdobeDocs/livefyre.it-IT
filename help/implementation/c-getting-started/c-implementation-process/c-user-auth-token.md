@@ -1,34 +1,30 @@
 ---
-description: In questa sezione viene descritto come generare l'oggetto JSON UserAuth che crea il token di autenticazione utente richiesto per accedere agli utenti nelle app.
-seo-description: In questa sezione viene descritto come generare l'oggetto JSON UserAuth che crea il token di autenticazione utente richiesto per accedere agli utenti nelle app.
-seo-title: Token autenticazione utente
-solution: Experience Manager
-title: Token autenticazione utente
-uuid: 6483debd-453c-4780-b19c-1d8041693617
+description: Questa sezione descrive come generare l’oggetto JSON UserAuth che crea il token di autenticazione utente necessario per accedere agli utenti nelle app.
+title: Token di autenticazione utente
+exl-id: 564144dd-6db4-447b-80ac-b743ecac833d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
+# Token di autenticazione utente{#user-auth-token}
 
-# Token autenticazione utente{#user-auth-token}
+Questa sezione descrive come generare l’oggetto JSON UserAuth che crea il token di autenticazione utente necessario per accedere agli utenti nelle app.
 
-In questa sezione viene descritto come generare l&#39;oggetto JSON UserAuth che crea il token di autenticazione utente richiesto per accedere agli utenti nelle app.
+Questa sezione descrive come generare l’oggetto JSON UserAuth che crea il token di autenticazione utente necessario per accedere agli utenti nelle app.
 
-In questa sezione viene descritto come generare l&#39;oggetto JSON UserAuth che crea il token di autenticazione utente richiesto per accedere agli utenti nelle app.
-
-Per creare il token, usate la libreria delle lingue preferita per trasmettere i seguenti parametri:
+Per creare il token, utilizza la libreria di lingue preferita per trasmettere i seguenti parametri:
 
 | Parametro | Tipo | Descrizione |
 |---|---|---|
 | networkName | Stringa *obbligatoria* | Nome della rete Livefyre (fornito da Livefyre). |
-| networkKey | Stringa *obbligatoria* | Chiave segreta per questa specifica rete (fornita da Livefyre). |
-| userId | Stringa *obbligatoria* | L’ID dell’utente che accede come memorizzato nel sistema di gestione degli utenti (sono consentiti solo caratteri alfanumerici, trattini, caratteri di sottolineatura e punti): [a-zA-Z0-9_-.]). **Nota:** l&#39;ID utente deve essere univoco. |
-| expires | Numero intero *obbligatorio* | Quando il token deve scadere da ora (in secondi). **Nota:** questo valore può anche essere trasmesso come mobile. Il token Web JSON prodotto memorizzerà questo valore in tempo epoch UNIX. |
-| displayName | Stringa *obbligatoria* | Testo per identificare l’utente nell’interfaccia utente e nei commenti. (Numero massimo di caratteri: 50) |
+| networkKey | Stringa *obbligatoria* | La chiave segreta per questa rete specifica (fornita da Livefyre). |
+| userId | Stringa *obbligatoria* | L’ID dell’utente che effettua l’accesso come memorizzato nel sistema di gestione utenti (sono consentiti solo caratteri alfanumerici, trattini, caratteri di sottolineatura e punti): [a-zA-Z0-9_-.]). **Nota:** l&#39;ID utente deve essere univoco. |
+| scadenza | Intero *obbligatorio* | Quando il token deve scadere da ora (in secondi). **Nota:** questo valore può anche essere passato come mobile. Il token web JSON prodotto memorizzerà questo valore in tempo epoca UNIX. |
+| displayName | Stringa *obbligatoria* | Testo per identificare questo utente nell’interfaccia utente e nei commenti. (Numero massimo di caratteri: 50) |
 
 ## Java {#section_b42_mjz_1cb}
 
@@ -63,5 +59,4 @@ network.build_user_auth_token(userId, displayName, expires)
 
 >[!NOTE]
 >
->Le chiavi di rete non sono condivise per gli account demo di Livefyre. Una volta che Livefyre avrà eseguito il provisioning di un ambiente, riceverete una chiave di rete. Questa chiave dovrebbe essere mantenuta privata.
-
+>Le chiavi di rete non sono condivise per gli account demo di Livefyre. Riceverai una chiave di rete una volta effettuato il provisioning di un ambiente da parte di Livefyre. Questa chiave dovrebbe essere mantenuta privata.
