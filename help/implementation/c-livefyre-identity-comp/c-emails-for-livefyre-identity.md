@@ -1,65 +1,61 @@
 ---
-description: nulle
-seo-description: nulle
-seo-title: E-mail per identità Livefyre
-solution: Experience Manager
-title: E-mail per identità Livefyre
-uuid: 4e807803-687e-4df0-94d1-b18a48d024e8
+title: E-mail per Livefyre Identity
+description: E-mail per Livefyre Identity
+exl-id: c8127eef-8fb8-4703-ba34-ef12453f1754
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-
 # E-mail per Livefyre Identity{#emails-for-livefyre-identity}
 
-Livefyre Identity invia i seguenti messaggi e-mail:
+Livefyre Identity invia le seguenti e-mail:
 
-* [E-mail di ripristino password](#c_emails_for_livefyre_identity/section_nd1_whs_p1b)
+* [Ripristina e-mail password](#c_emails_for_livefyre_identity/section_nd1_whs_p1b)
 * [E-mail di verifica](#c_emails_for_livefyre_identity/section_ak5_xhs_p1b)
-   * [Invia verifica e-mail per gli utenti](#c_emails_for_livefyre_identity/section_vyv_yhs_p1b)
+   * [Invia verifica e-mail agli utenti](#c_emails_for_livefyre_identity/section_vyv_yhs_p1b)
 
 * [E-mail di benvenuto](#c_emails_for_livefyre_identity/section_z2v_zhs_p1b)
    * [Invia e-mail di benvenuto agli utenti](#c_emails_for_livefyre_identity/section_kjp_c3s_p1b)
 
-Potete personalizzare l&#39;aspetto di tutte le e-mail di identità Livefyre in **[!UICONTROL Integration Settings > Email Notifications.]**
+Puoi personalizzare l’aspetto di tutte le e-mail di Livefyre Identity in **[!UICONTROL Integration Settings > Email Notifications.]**
 
-## E-mail reimpostazione password {#section_nd1_whs_p1b}
+## E-mail per reimpostazione password {#section_nd1_whs_p1b}
 
-Livefyre invia automaticamente un messaggio e-mail di reimpostazione della password quando un utente tenta di reimpostare la password.
+Livefyre invia automaticamente un&#39;e-mail di reimpostazione della password quando un utente prova a reimpostare la password.
 
-Il messaggio e-mail di reimpostazione della password è simile al seguente:
+L’e-mail di reimpostazione della password si presenta così:
 
-**Oggetto:** Reimposta password
+**Oggetto:** Ripristino della password
 
 **Corpo:**
 
-Hey lì *&lt;nomeutente>*,
+Ciao *&lt;username>*,
 
-È stata richiesta la modifica della password del profilo su *&lt;nome rete>*.
+È stata inviata una richiesta di modifica della password del tuo profilo su *&lt;network name>*.
 
-Se lo avete richiesto, fate clic sul seguente collegamento per scegliere una nuova password: *&lt;URL reimpostazione password>*.
+Se lo hai richiesto, fai clic sul seguente link per scegliere una nuova password: *&lt;URL per la reimpostazione della password>*.
 
 *&lt;username>*,  *&lt;network name=&quot;&quot;>* e  *&lt;password reset=&quot;&quot; URL=&quot;&quot;>* vengono generati in modo dinamico in base al visitatore del sito e alla rete.
 
 ## E-mail di verifica {#section_ak5_xhs_p1b}
 
-Potete inviare un messaggio e-mail di verifica dell’indirizzo e-mail di un utente. Per inviare e-mail di verifica, è necessario attivare l&#39;opzione in **Impostazioni integrazione > Identità Livefyre**.
+Puoi inviare un’e-mail di verifica dell’indirizzo e-mail di un utente. Per inviare e-mail di verifica, devi attivare l’opzione in **Impostazioni integrazione > Identità Livefyre**.
 
-Il messaggio e-mail di verifica è simile al seguente:
+L’e-mail di verifica si presenta così:
 
-**Oggetto:Verifica** E-Mail
+**Oggetto:** Verifica delle e-mail
 
 **Corpo:**
 
-Ciao *&lt;nome utente>*,
+Ciao *&lt;username>*,
 
-Fate clic sul seguente collegamento (o incollate nel browser) per verificare il vostro account: *&lt;URL verifica>*.
+Fai clic sul seguente link (o incolla nel tuo browser) per verificare il tuo account: *&lt;URL di verifica>*.
 
-Questo collegamento scade tra 24 ore.
+Questo link scadrà tra 24 ore.
 
 Grazie
 
@@ -69,49 +65,49 @@ Il team *&lt;nome cliente>*
 
 ## Invia una verifica e-mail agli utenti {#section_vyv_yhs_p1b}
 
-Potete inviare un messaggio e-mail a un utente per verificare l’indirizzo e-mail usato per registrarsi a un account. Per inviare un messaggio e-mail di verifica:
+Puoi inviare un’e-mail a un utente per verificare l’indirizzo e-mail che utilizza per registrarsi a un account. Per inviare un messaggio e-mail di verifica:
 
-1. In Studio, fare clic sull&#39;icona ingranaggio per modificare le impostazioni di rete.
-1. Fare clic su **Impostazioni integrazione > Identità Livefyre.**
+1. In Studio, fai clic sull&#39;icona ingranaggio per modificare le impostazioni di rete.
+1. Fai clic su **Impostazioni integrazione > Identità Livefyre.**
 
-1. Passare a **Tipi di login**.
-1. Fate clic su **Richiedi verifica e-mail** per inviare un messaggio e-mail agli utenti che verifica l&#39;indirizzo e-mail utilizzato per registrarsi a un account.
-1. Andate a **Network Email** per configurare il **Logo per Email**, l&#39;indirizzo e-mail da utilizzare come indirizzo da (**Email From**) e il nome visualizzato per l&#39;indirizzo e-mail del mittente (**Email Display Name**).
+1. Passa a **Tipi di accesso**.
+1. Fai clic su **Richiedi verifica e-mail** per inviare un messaggio e-mail agli utenti che verificano l’indirizzo e-mail che utilizzano per registrarsi a un account.
+1. Passa a **E-mail di rete** per configurare il **Logo per e-mail**, l’indirizzo e-mail da utilizzare come indirizzo e-mail (**E-mail da**) e il nome visualizzato da utilizzare per l’indirizzo e-mail del mittente (**Nome visualizzato e-mail**).
 
 ## E-mail di benvenuto {#section_z2v_zhs_p1b}
 
-Potete inviare un messaggio e-mail di benvenuto agli utenti. Per inviare e-mail di benvenuto, è necessario attivare l&#39;opzione in **Impostazioni integrazione** > **Identità Livefyre**.
+Puoi inviare un messaggio e-mail di benvenuto agli utenti. Per inviare e-mail di benvenuto, devi attivare l’opzione in **Impostazioni integrazione** > **Identità Livefyre**.
 
-Il messaggio e-mail di benvenuto è simile al seguente:
+L’e-mail di benvenuto si presenta così:
 
-**Oggetto:** Benvenuti a  *&lt;customer name=&quot;&quot;>*
+**Oggetto:** Benvenuto in  *&lt;customer name=&quot;&quot;>*
 
 **Corpo:**
 
-Ciao *&lt;nome utente>*,
+Ciao *&lt;username>*,
 
 È stato creato un account su *&lt;nome cliente>*.
 
-Questo account è stato creato su *&lt;URL referral>* dall&#39;indirizzo IP *&lt;Indirizzo IP>*.
+Questo account è stato creato su *&lt;URL di riferimento>* dall&#39;indirizzo IP *&lt;Indirizzo IP>*.
 
-Se hai fatto questo, puoi tranquillamente ignorare questa email.
+Se lo hai fatto, puoi tranquillamente ignorare questa e-mail.
 
-In caso contrario, contattare `support@livefyre.com`
+In caso contrario, contatta `support@livefyre.com`
 
 Grazie
 
 Il team *&quot;customer name&quot;*
 
-*&quot;Nome utente&quot;, &quot;nome cliente&quot;, &quot;URL di riferimento&quot;* e &quot;Indirizzo IP&quot; vengono generati dinamicamente in base al visitatore del sito e alla rete.
+*&quot;Nome utente&quot;, &quot;nome cliente&quot;, &quot;URL di riferimento&quot;* e &quot;Indirizzo IP&quot; vengono generati in modo dinamico in base al visitatore del sito e alla rete.
 
 ## Invia un messaggio e-mail di benvenuto a un utente {#section_kjp_c3s_p1b}
 
-Potete inviare un messaggio e-mail di benvenuto a un utente dopo che questi si è registrato per un account. Studio invia questo messaggio e-mail dopo l&#39;invio di un messaggio e-mail di verifica, se avete impostato un messaggio e-mail di verifica. Per inviare un messaggio e-mail di benvenuto:
+Puoi inviare un messaggio e-mail di benvenuto a un utente dopo che si è registrato per un account. Se imposti un messaggio e-mail di verifica, Studio invia questo messaggio e-mail dopo l’invio di un messaggio e-mail di verifica. Per inviare un messaggio e-mail di benvenuto:
 
-1. In Studio, fare clic sull&#39;icona ingranaggio per modificare le impostazioni di rete.
+1. In Studio, fai clic sull&#39;icona ingranaggio per modificare le impostazioni di rete.
 1. Clic **[!UICONTROL Integration Settings > Livefyre Identity]**
 
-1. Passare a **[!UICONTROL Email Settings]**.
+1. Passa a **[!UICONTROL Email Settings]**.
 
-1. Fate clic su **[!UICONTROL Send Welcome Emails To New Users]** per abilitare l&#39;invio di e-mail.
-1. Andate a **[!UICONTROL Network Email]** per configurare il *Logo per E-mail*, l&#39;indirizzo e-mail da utilizzare come indirizzo da (**E-mail da**) e il nome visualizzato per l&#39;indirizzo e-mail del mittente (**Nome visualizzato e-mail**).
+1. Fai clic su **[!UICONTROL Send Welcome Emails To New Users]** per abilitare l’invio di e-mail.
+1. Passa a **[!UICONTROL Network Email]** per configurare il *Logo per E-mail*, l’indirizzo e-mail da utilizzare come indirizzo da (**E-mail da**) e il nome visualizzato da utilizzare per l’indirizzo e-mail da (**Nome visualizzato e-mail**).
