@@ -1,41 +1,37 @@
 ---
-description: Il riquadro Riepilogo utente fornisce informazioni sugli utenti per facilitare la moderazione.
-seo-description: Il riquadro Riepilogo utente fornisce informazioni sugli utenti per facilitare la moderazione.
-seo-title: Utenti moderati
-solution: Experience Manager
-title: Utenti moderati
-uuid: b801cdfe-05ea-4c29-bb9b-0f6a33cb11d1
+description: Il riquadro Riepilogo utente fornisce informazioni utente per facilitare la moderazione.
+title: Modera utenti
+exl-id: 6165ae9e-b210-46b8-87e6-6e7af3430b82
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
+# Modera utenti{#moderate-users}
 
-# Utenti moderati{#moderate-users}
+Il riquadro Riepilogo utente fornisce informazioni utente per facilitare la moderazione.
 
-Il riquadro Riepilogo utente fornisce informazioni sugli utenti per facilitare la moderazione.
-
-Per impostazione predefinita, vengono visualizzate le informazioni relative all&#39;autore del contenuto selezionato. Fate clic sul nome utente di un flagger per visualizzarne le informazioni.
+Per impostazione predefinita, visualizza informazioni per l’autore del contenuto selezionato. Fai clic sul nome utente di un flagger per visualizzarne le informazioni.
 
 >[!NOTE]
 >
->Il contenuto in streaming visualizza solo l’origine del contenuto, nonché il nome utente e l’avatar dell’autore (se disponibili). La moderazione dell&#39;utente non è disponibile per gli autori del contenuto del flusso.
+>Il contenuto in streaming visualizza solo l’origine del contenuto, nonché il nome utente e l’avatar dell’autore (se disponibili). La moderazione utente non è disponibile per gli autori di contenuti Stream.
 
-Le seguenti informazioni vengono visualizzate (se disponibili) per ciascuno degli utenti Livefyre registrati:
+Vengono visualizzate le seguenti informazioni (se disponibili) per ciascuno degli utenti Livefyre registrati:
 
 * **[!UICONTROL Username]**: nome utente della rete.
-* **[!UICONTROL Display name]**: nome visualizzato per la rete.
-* **[!UICONTROL Avatar]**: il loro avatar per la rete.
-* **[!UICONTROL Total number of posts]** dall’autore in rete: collegamenti a un elenco di contenuti di tale utente in Studio. Il totale è visualizzato dal numero di pezzi Approvati, In attesa, In attesa, In attesa o Con tratteggio.
+* **[!UICONTROL Display name]**: nome visualizzato della rete.
+* **[!UICONTROL Avatar]**: il loro avatar per la tua rete.
+* **[!UICONTROL Total number of posts]** dall&#39;autore in tutta la rete: effettua il collegamento a un elenco di contenuti di tale utente in Studio. Il totale viene visualizzato in base al numero di pezzi approvati, In sospeso, Bozo’d o Trashed.
 * **[!UICONTROL Total #Flags]**: il numero totale di flag applicati ai post di questo autore.
-* **[!UICONTROL Join date]**: la data in cui hanno creato un account utente sulla rete.
+* **[!UICONTROL Join date]**: la data in cui è stato creato un account utente sulla rete.
 * **[!UICONTROL Email]**: l’indirizzo e-mail indicato.
 * **[!UICONTROL IP Address]**: il loro indirizzo IP, come determinato da Livefyre.
 * **[!UICONTROL Bio]**: descrizione dell’utente.
-* **[!UICONTROL Bans]**: elenca i siti per i quali l’utente è stato censurato o Bozo’d.
-* **[!UICONTROL Whitelists]**: elenca i siti per i quali l’utente è stato incluso nell’elenco.
+* **[!UICONTROL Bans]**: elenca i siti per i quali l’utente è stato vietato o Bozo’d.
+* **[!UICONTROL Whitelists]**: elenca i siti per i quali l’utente è stato inserito nell’elenco Consentiti.
 
-Per ulteriori informazioni su come moderare gli utenti nella scheda Contenuto app, consultate [Utilizzo moderato dei contenuti dell&#39;app](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
+Per ulteriori informazioni su come moderare gli utenti nella scheda Contenuto app, consulta [Modera con contenuto app](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
