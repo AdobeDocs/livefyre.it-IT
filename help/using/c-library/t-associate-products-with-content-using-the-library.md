@@ -1,32 +1,29 @@
 ---
-description: Associate i prodotti al contenuto della libreria per mantenere sincronizzati i contenuti e il catalogo prodotti in un'unica posizione di facile gestione.
-seo-description: Associate i prodotti al contenuto della libreria per mantenere sincronizzati i contenuti e il catalogo prodotti in un'unica posizione di facile gestione.
-seo-title: Associare i prodotti ai contenuti mediante la libreria
+description: Associa i prodotti ai contenuti della libreria per mantenere sincronizzati i contenuti e il catalogo dei prodotti in un’unica posizione di facile gestione.
 title: Associare i prodotti ai contenuti mediante la libreria
-uuid: 63520f34-c5fe-4cbd-937a-33d707bbcc5f
+exl-id: 4d3e99cc-9188-4b5c-afdb-d177c66f19e6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
+# Associare i prodotti con i contenuti utilizzando la libreria{#associate-products-with-content-using-the-library}
 
-# Associate Products with Content Using the Library{#associate-products-with-content-using-the-library} (Associazione di prodotti con contenuti mediante la libreria)
+Associa i prodotti ai contenuti della libreria per mantenere sincronizzati i contenuti e il catalogo dei prodotti in un’unica posizione di facile gestione.
 
-Associate i prodotti al contenuto della libreria per mantenere sincronizzati i contenuti e il catalogo prodotti in un&#39;unica posizione di facile gestione.
+Quando pubblichi un’app con tale contenuto, viene visualizzato automaticamente il pulsante Invito all’azione , che crea un maggiore coinvolgimento sul sito e migliori vendite.
 
-Quando pubblichi un&#39;app con tale contenuto, viene automaticamente visualizzato il pulsante Invito all&#39;azione, con conseguente maggiore coinvolgimento sul sito e migliori vendite.
-
-1. Andate a Livefyre Studio.
-1. Aprite la libreria.
-1. Selezionate uno o più contenuti da una cartella.
+1. Vai a Livefyre Studio.
+1. Apri la libreria .
+1. Seleziona una o più parti di contenuto da una cartella.
 
    >[!NOTE]
    >
-   >Potete associare le immagini solo ai prodotti per il contenuto salvato in una cartella. Per associare un’immagine a un prodotto è necessario disporre dei diritti.
+   >È possibile associare immagini solo a prodotti per contenuti salvati in una cartella. Per associare un’immagine a un prodotto è necessario disporre dei diritti necessari.
 
-1. Fare clic su **[!UICONTROL Products]** dal **[!UICONTROL Bulk Actions Menu]**.
-1. Fare clic su **[!UICONTROL Product Folder]** che contiene il prodotto da associare al contenuto.
-1. Fate clic sulla casella di controllo accanto a uno o più prodotti da associare al contenuto, quindi fate clic su **[!UICONTROL Add]** per salvare l&#39;associazione.
+1. Fai clic su **[!UICONTROL Products]** nel **[!UICONTROL Bulk Actions Menu]**.
+1. Fai clic su **[!UICONTROL Product Folder]** che contiene il prodotto da associare al contenuto.
+1. Fai clic sulla casella di controllo accanto a uno o più prodotti da associare al contenuto, quindi fai clic su **[!UICONTROL Add]** per salvare l’associazione.
