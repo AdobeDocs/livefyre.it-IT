@@ -1,24 +1,20 @@
 ---
-description: Aggiungere post alla guida di navigazione in Storify 2.
-seo-description: Aggiungere post alla guida di navigazione in Storify 2.
-seo-title: Aggiungere post alla guida di navigazione
-solution: Experience Manager
-title: Aggiungere post alla guida di navigazione
-uuid: 6312e17f-2886-43cf-961d-179f70c8421e
+description: Aggiungere post alla Guida alla navigazione in Storify 2.
+title: Aggiungere post alla guida alla navigazione
+exl-id: 0ca4be65-d221-48a1-8907-191fde23057c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
+# Aggiungi post alla guida di navigazione{#add-posts-to-the-navigation-guide}
 
-# Aggiungere post alla guida di navigazione{#add-posts-to-the-navigation-guide}
-
-Aggiungere post alla guida di navigazione in Storify 2.
+Aggiungere post alla Guida alla navigazione in Storify 2.
 
 1. Scrivi un post in Storify 2.
-1. Scrivi un&#39;intestazione per il post. Non è possibile visualizzare le evidenziazioni di navigazione per un post finché non si aggiunge un&#39;intestazione.
-1. Fare clic sull&#39;icona **[!UICONTROL Navigation Guide]** nel post per aggiungerlo alla Guida di navigazione.
-1. Confermare di voler aggiungere il post alla Guida di navigazione.
+1. Scrivi un&#39;intestazione per il post. Non è possibile visualizzare gli evidenziatori di navigazione per un post finché non si aggiunge un’intestazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Navigation Guide]** nel post per aggiungerlo alla Guida alla navigazione.
+1. Confermare di voler aggiungere il post alla Guida alla navigazione.
