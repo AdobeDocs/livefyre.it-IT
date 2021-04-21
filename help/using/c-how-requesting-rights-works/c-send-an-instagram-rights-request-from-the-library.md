@@ -1,46 +1,42 @@
 ---
-description: Potete richiedere il diritto di riutilizzare una risorsa Instagram ottenuta da una ricerca o da un flusso di lavoro per autore (account aziendale) tramite un flusso di lavoro parzialmente automatizzato.
-seo-description: Potete richiedere il diritto di riutilizzare una risorsa Instagram ottenuta da una ricerca o da un flusso di lavoro per autore (account aziendale) tramite un flusso di lavoro parzialmente automatizzato.
-seo-title: Invio di una richiesta di diritti Instagram parzialmente automatizzata
-solution: Experience Manager
-title: Invio di una richiesta di diritti Instagram parzialmente automatizzata
-uuid: 18cf88ab-af0d-4a40-93d2-adfbdbdd21d5
+description: Puoi richiedere il diritto di riutilizzare una risorsa Instagram ottenuta da una ricerca o da uno streaming per autore (account aziendale) utilizzando un flusso di lavoro parzialmente automatizzato.
+title: Inviare una richiesta di diritti Instagram parzialmente automatica
+exl-id: 2747784e-689a-4683-867d-0883b281d47b
 translation-type: tm+mt
-source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
+# Invia una richiesta di diritti Instagram parzialmente automatica{#send-a-partially-automated-instagram-rights-request}
 
-# Invio di una richiesta di diritti Instagram parzialmente automatizzata{#send-a-partially-automated-instagram-rights-request}
+Puoi richiedere il diritto di riutilizzare una risorsa Instagram ottenuta da una ricerca o da uno streaming per autore (account aziendale) utilizzando un flusso di lavoro parzialmente automatizzato.
 
-Potete richiedere il diritto di riutilizzare una risorsa Instagram ottenuta da una ricerca o da un flusso di lavoro per autore (account aziendale) tramite un flusso di lavoro parzialmente automatizzato.
+Prima di poter inviare una richiesta di diritti parzialmente automatizzata è necessario:
 
-Prima di inviare una richiesta di diritti parzialmente automatizzata è necessario:
+* Aggiungi un account aziendale Instagram. Per ulteriori informazioni su come configurare un account aziendale Instagram, consulta [Informazioni sugli account Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+* Imposta il Rights Management. Per ulteriori informazioni su come impostare la gestione dei diritti, consulta [Richiesta di diritti](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
 
-* Aggiungi un account aziendale Instagram. Per ulteriori informazioni su come configurare un account aziendale Instagram, vedere [Informazioni su account Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
-* Imposta Rights Management. Per ulteriori informazioni sulla configurazione della gestione dei diritti, vedere [Richiesta di diritti](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
+Per richiedere i diritti da Instagram per una ricerca o un flusso di lavoro da parte dell’autore dell’account aziendale tramite un flusso di lavoro parzialmente automatizzato:
 
-Per richiedere da Instagram i diritti per una ricerca o un flusso di lavoro per autore di un account aziendale tramite un flusso di lavoro parzialmente automatizzato:
-
-1. Aprire la finestra **[!UICONTROL Rights options]**.
-1. Selezionate l’account da utilizzare per richiedere i diritti. L&#39;account deve essere un account aziendale Instagram.
-1. (Facoltativo) Modificate il messaggio di richiesta. Se nel messaggio manca un elemento o un elemento obbligatorio è errato, viene visualizzato un messaggio di errore che specifica le informazioni errate o mancanti.
-1. Fate clic su **[!UICONTROL Copy]** per copiare negli Appunti il testo presente nella casella.
+1. Apri la finestra **[!UICONTROL Rights options]** .
+1. Seleziona l’account da utilizzare per richiedere i diritti. L’account deve essere un account aziendale Instagram.
+1. (Facoltativo) Modifica il messaggio di richiesta. Se al messaggio manca un elemento o un elemento obbligatorio viene visualizzato un messaggio di errore che specifica le informazioni errate o mancanti.
+1. Fai clic su **[!UICONTROL Copy]** per copiare il testo nella casella negli Appunti.
 
    ![](assets/rr_insta_workaround1.png)
 
    Livefyre copia automaticamente il testo dalla casella agli Appunti e visualizza un messaggio di conferma della copia del testo.
 
-1. Fai clic sul collegamento nel messaggio di conferma per aprire il post che contiene la risorsa per la quale stai chiedendo i diritti.
+1. Fai clic sul collegamento nel messaggio di conferma per aprire il post contenente la risorsa a cui stai chiedendo i diritti.
 
    ![](assets/rr_insta_workaround2.png)
 
-   Livefyre apre il post su Instagram.
+   Livefyre apre il post in Instagram.
 
-1. Incollate il testo della richiesta di diritti copiata nel post di Instagram su Instagram.
-1. Quando l&#39;utente risponde, Livefyre concede automaticamente i diritti per il contenuto in Livefyre.
+1. Incolla il testo della richiesta dei diritti copiati nel post di Instagram su Instagram.
+1. Quando l’utente risponde, Livefyre concede automaticamente i diritti al contenuto in Livefyre.
 
-Livefyre tiene traccia di quando inviate la richiesta di diritti, quando un utente risponde e quando i diritti della risorsa vengono concessi.
+Livefyre tiene traccia di quando invii la richiesta di diritti, quando un utente risponde e quando i diritti della risorsa vengono concessi.
