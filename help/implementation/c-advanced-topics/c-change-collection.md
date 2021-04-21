@@ -1,26 +1,22 @@
 ---
-description: Consentite agli utenti di fare clic sulle raccolte da un singolo layout di pagina e URL.
-seo-description: Consentite agli utenti di fare clic sulle raccolte da un singolo layout di pagina e URL.
-seo-title: Cambia raccolta
-solution: Experience Manager
-title: Cambia raccolta
-uuid: 81c8a554-375f-4659-9e25-5b3618824633
+description: Consente agli utenti di fare clic sulle raccolte da un layout di pagina e da un URL singoli.
+title: Modifica raccolta
+exl-id: 5ddae18f-0279-457d-ae02-85e24fe81150
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
+# Modifica raccolta {#change-collection}
 
-# Cambia raccolta {#change-collection}
+Consente agli utenti di fare clic sulle raccolte da un layout di pagina e da un URL singoli.
 
-Consentite agli utenti di fare clic sulle raccolte da un singolo layout di pagina e URL.
+Utilizza il delegato Change Collection per modificare la raccolta mostrata in una pagina senza modificare l’URL, mentre un’app Livefyre è già caricata. Utilizza questa funzione per visualizzare gallerie di foto o video o altre app in cui la raccolta visualizzata dovrebbe cambiare dopo un&#39;azione dell&#39;utente.
 
-Utilizzate Change Collection Delegate (Modifica delegato raccolta) per modificare la raccolta mostrata in una pagina, senza modificare l&#39;URL, mentre un&#39;app Livefyre è già caricata. Utilizzate questa funzione per visualizzare gallerie di foto o video o altre app in cui la raccolta visualizzata dovrebbe cambiare dopo un&#39;azione dell&#39;utente.
-
-Ad esempio, facendo clic su un video o una foto in una galleria, verrà caricata una raccolta specifica per tale selezione, mentre l&#39;URL della pagina non verrà modificato.
+Ad esempio, facendo clic su un video o una foto in una galleria si carica una raccolta specifica per tale selezione, mentre l’URL della pagina non verrà modificato.
 
 Per [caricare una delle tre raccolte da una singola pagina](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
 
