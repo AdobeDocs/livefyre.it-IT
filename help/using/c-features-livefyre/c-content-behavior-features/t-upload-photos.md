@@ -1,27 +1,23 @@
 ---
-description: Le foto possono essere caricate direttamente in qualsiasi app dalla libreria fotografica mobile di un utente, dal disco rigido del computer o dagli account dei social network.
-seo-description: Le foto possono essere caricate direttamente in qualsiasi app dalla libreria fotografica mobile di un utente, dal disco rigido del computer o dagli account dei social network.
-seo-title: Carica foto
-solution: Experience Manager
+description: Le foto possono essere caricate direttamente in qualsiasi app dalla libreria di foto per dispositivi mobili, dal disco rigido del computer o dagli account di social network di un utente.
 title: Carica foto
-uuid: bec7e088-8b19-4839-977d-03fc1cadaeb9
+exl-id: 67edd667-2698-4a84-b36e-85416371dca5
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-
 # Carica foto{#upload-photos}
 
-Le foto possono essere caricate direttamente in qualsiasi app dalla libreria fotografica mobile di un utente, dal disco rigido del computer o dagli account dei social network.
+Le foto possono essere caricate direttamente in qualsiasi app dalla libreria di foto per dispositivi mobili, dal disco rigido del computer o dagli account di social network di un utente.
 
-1. Fate clic sull&#39;icona Foto a sinistra dell&#39;editor dei commenti,
+1. Fai clic sull’icona Foto a sinistra dell’editor dei commenti,
 
-   Viene visualizzato un selettore modale con un elenco delle possibili sorgenti dell’immagine.1. Selezionate la sorgente dell’immagine da caricare.
-1. Selezionate i file da caricare. È possibile caricare più immagini alla volta, senza alcun limite al numero di immagini. La dimensione massima per file è 4 MB. Prima di pubblicare le immagini nel flusso, viene visualizzata un’anteprima delle immagini. Le immagini possono essere rimosse prima della pubblicazione.
-1. Inserite il contenuto nell’editor (facoltativo) e fate clic su Post.
+   Viene visualizzata una finestra modale con un elenco delle possibili sorgenti dell’immagine.1. Seleziona la sorgente dell’immagine da caricare.
+1. Seleziona i file da caricare. È possibile caricare più immagini alla volta, senza alcun limite al numero di immagini. La dimensione massima del file per file è 4 MB. Viene visualizzata un’anteprima delle immagini prima di pubblicarle nel flusso. È possibile rimuovere le immagini prima della pubblicazione.
+1. Immetti il contenuto nell’editor (facoltativo) e fai clic su Post.
 
-   L&#39;immagine verrà espansa per impostazione predefinita. Se sono presenti più immagini, la prima si espande e tutte le altre vengono visualizzate come miniature sotto, in una vista galleria.
+   L’immagine verrà espansa per impostazione predefinita. Se sono presenti più immagini, la prima immagine si espande e tutte le altre vengono visualizzate come miniature sotto, in una vista a galleria.
