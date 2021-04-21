@@ -1,32 +1,28 @@
 ---
-description: Riposizionate il logo Livefyre sulla pagina.
-seo-description: Riposizionate il logo Livefyre sulla pagina.
-seo-title: Spostare il logo Livefyre
-solution: Experience Manager
+description: Riposiziona il logo Livefyre sulla tua pagina.
 title: Spostare il logo Livefyre
-uuid: 807304ae-6070-4505-87db-169a925f714c
+exl-id: dc6c26cf-e0b9-4af3-8a3c-e58ea4ecbc44
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-
 # Spostare il logo Livefyre{#move-the-livefyre-logo}
 
-Riposizionate il logo Livefyre sulla pagina.
+Riposiziona il logo Livefyre sulla tua pagina.
 
-Se l’accordo con Livefyre lo consente, potete spostare il logo Livefyre dalla parte superiore del flusso di contenuti verso il basso.
+Se il tuo accordo con Livefyre lo consente, puoi spostare il logo Livefyre dalla parte superiore del flusso di contenuti verso il basso.
 
-Ad esempio, aggiungete il seguente HTML alla pagina immediatamente dopo l’elemento che contiene l’app Livefyre:
+Ad esempio, aggiungi il seguente HTML alla pagina immediatamente dopo l’elemento che contiene l’app Livefyre:
 
 ```
 <div id="powered_by_livefyre_new"><a href="https://livefyre.com" target="_blank">Powered by Livefyre</a></div>
 ```
 
-Quindi, aggiungere quanto segue al foglio di stile della pagina:
+Quindi, aggiungi quanto segue al foglio di stile della pagina:
 
 ```
 /* Hide the top logo */ 
@@ -48,4 +44,3 @@ Quindi, aggiungere quanto segue al foglio di stile della pagina:
     text-decoration: underline; 
 }
 ```
-
