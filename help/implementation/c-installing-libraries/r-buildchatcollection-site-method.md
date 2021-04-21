@@ -1,28 +1,24 @@
 ---
-description: Restituisce un oggetto Collection istanziato come tipo Chat. Eseguire create_or_update() dall'oggetto Collection per completare il processo di compilazione.
-seo-description: Restituisce un oggetto Collection istanziato come tipo Chat. Eseguire create_or_update() dall'oggetto Collection per completare il processo di compilazione.
-seo-title: Metodo del sito buildChatCollection
-solution: Experience Manager
-title: Metodo del sito buildChatCollection
-uuid: 39ee32d0-29c9-47a8-a458-a3cf7a96db30
+description: Restituisce un oggetto Collection istanziato come tipo Chat. Esegui create_or_update() dall'oggetto Collection per completare il processo di compilazione.
+title: Metodo Site buildChatCollection
+exl-id: b10f95de-9e6c-4fc3-987b-599717d5a9e7
 translation-type: tm+mt
-source-git-commit: 2908c6988c706a49c391f0e607bb641bce3a7f0d
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
 
-
 # Metodo del sito buildChatCollection{#buildchatcollection-site-method}
 
-Restituisce un oggetto Collection istanziato come tipo Chat. Eseguire create_or_update() dall&#39;oggetto Collection per completare il processo di compilazione.
+Restituisce un oggetto Collection istanziato come tipo Chat. Esegui create_or_update() dall&#39;oggetto Collection per completare il processo di compilazione.
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
 | title | Stringa | Titolo della raccolta. |
 | articleId | Stringa | Un ID articolo univoco scelto per identificare una raccolta all&#39;interno del sito. |
-| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
+| url | Stringa | URL assoluto canonico per questa raccolta. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -42,7 +38,7 @@ var collection = site.buildChatCollection(title, articleId, url);
 $collection = site->buildChatCollection(title, articleId, url); 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 collection = site.build_chat_collection(title, articleId, url) 
