@@ -1,26 +1,22 @@
 ---
-description: Attivate il pacchetto Identità Livefyre per consentire ai vostri utenti di accedere alle vostre App Livefyre tramite un'e-mail, un account Twitter, Facebook, Yahoo! o un login Google.
-seo-description: Attivate il pacchetto Identità Livefyre per consentire ai vostri utenti di accedere alle vostre App Livefyre tramite un'e-mail, un account Twitter, Facebook, Yahoo! o un login Google.
-seo-title: Abilita identità Livefyre
-solution: Experience Manager
-title: Abilita identità Livefyre
-uuid: 9bb5e168-4596-42a7-9105-e09c65c5e3ae
+description: Abilita il pacchetto Livefyre Identity per consentire ai tuoi utenti di accedere alle tue app Livefyre utilizzando un’e-mail, Twitter, Facebook, Yahoo!, o l’accesso a Google.
+title: Abilita Livefyre Identity
+exl-id: 5eda2be7-26fd-4730-a1ad-95421c773cbe
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '88'
+ht-degree: 4%
 
 ---
 
-
 # Abilita Livefyre Identity{#enable-livefyre-identity}
 
-Attivate il pacchetto Identità Livefyre per consentire ai vostri utenti di accedere alle vostre App Livefyre tramite un&#39;e-mail, un account Twitter, Facebook, Yahoo! o un login Google.
+Abilita il pacchetto Livefyre Identity per consentire ai tuoi utenti di accedere alle tue app Livefyre utilizzando un’e-mail, Twitter, Facebook, Yahoo!, o l’accesso a Google.
 
 Per abilitare questa funzionalità:
 
-1. Create le app social media richieste.
-1. Utilizzate Studio per aggiungere le chiavi alla vostra implementazione Livefyre.
-1. Aggiungete il pacchetto alla pagina utilizzando Livefyre.js e Livefyre.request.
-1. Configurate le traduzioni Livefyre Identity.
+1. Crea le app social media richieste.
+1. Utilizza Studio per aggiungere chiavi alla tua implementazione Livefyre.
+1. Aggiungi il pacchetto alla pagina utilizzando Livefyre.js e Livefyre.require.
+1. Imposta le traduzioni Livefyre Identity.
