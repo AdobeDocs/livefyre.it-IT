@@ -1,26 +1,21 @@
 ---
-description: Modificate le opzioni di dimensione, larghezza e interazione dell'app Sidenotes.
-seo-description: Modificate le opzioni di dimensione, larghezza e interazione dell'app Sidenotes.
-seo-title: Personalizzazioni Sidenotes
-solution: Experience Manager
-title: Personalizzazioni Sidenotes
-uuid: fb50285a-3b2d-497d-bfda-7e89c485b65c
+description: Modifica le opzioni di dimensione, larghezza e interazione dell’app Note a margine.
+title: Personalizzazioni Sidenote
+exl-id: c0662c7e-ae46-4755-85d0-25d2df9c33b6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
+# Note sulle personalizzazioni{#sidenotes-customizations}
 
-# Sidenotes Customizations{#sidenotes-customizations}
+Modifica le opzioni di dimensione, larghezza e interazione dell’app Note a margine.
 
-Modificate le opzioni di dimensione, larghezza e interazione dell&#39;app Sidenotes.
+Puoi personalizzare Note a margine utilizzando:
 
-Potete personalizzare le note utilizzando:
+* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consulta Personalizzazione delle app per i dettagli sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
 
-* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
-
-* Strumenti di integrazione. Consultate Sondaggi per ulteriori informazioni su come personalizzare le app mediante gli strumenti di integrazione.
-
+* Strumenti di integrazione. Per ulteriori informazioni su come personalizzare le app utilizzando gli strumenti di integrazione, consulta Sondaggi .
