@@ -1,42 +1,38 @@
 ---
-description: Indirizzare un flusso a un brano di Storify 2.
-seo-description: Indirizzare un flusso a un brano di Storify 2.
-seo-title: Utilizzo dei flussi per aggiungere contenuti social alla propria storia
-solution: Experience Manager
-title: Utilizzo dei flussi per aggiungere contenuti social alla propria storia
-uuid: 4999c880-a896-4ad2-bf8f-3fd9736a64d6
+description: Segnala un flusso a una storia di Storify 2.
+title: Utilizzare i flussi per aggiungere contenuti social alla propria storia
+exl-id: 1228ed16-df6f-4af7-9082-5c598f72163d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
+# Utilizza i flussi per aggiungere contenuti social alla tua storia{#use-streams-to-add-social-content-to-your-story}
 
-# Utilizzare i flussi per aggiungere contenuti social alla propria storia{#use-streams-to-add-social-content-to-your-story}
-
-Indirizzare un flusso a un brano di Storify 2.
+Segnala un flusso a una storia di Storify 2.
 
 >[!NOTE]
 >
->Non potete modificare i flussi utilizzati da un brano dall&#39;app Storify 2.
+>Non è possibile modificare i flussi utilizzati da una storia dall&#39;app Storify 2.
 
-Quando le regole SICURE sono abilitate in Impostazioni di rete, il contenuto in streaming verrà filtrato tramite SAFE. Il contenuto non sicuro non verrà visualizzato nella scheda Streams (Streams).
+Quando le regole SAFE sono abilitate in Impostazioni di rete, il contenuto in streaming verrà filtrato tramite SAFE. Impossibile visualizzare contenuto non sicuro nella scheda Streams.
 
-Per modificare o disattivare un flusso, andate alla sezione Streams di Livefyre Engagement Cloud. Consulta Gestione dei flussi per ulteriori informazioni su come modificare, eliminare e disattivare i flussi.
+Per modificare o disattivare un flusso, vai alla sezione Streams di Livefyre Engagement Cloud. Per ulteriori informazioni su come modificare, eliminare e disattivare i flussi, consulta Gestione dei flussi .
 
-Utilizzate un flusso in un brano per:
+Utilizza un flusso in una storia per:
 
-* Preparate i flussi in anticipo e accedete rapidamente ai contenuti durante la stesura della storia.
-* Visualizzate un feed in tempo reale del contenuto dei social media direttamente dal riquadro Contenuto.
-* Seleziona manualmente parti di contenuto dal Flusso e trascinale dove ha senso nella Storia.
-* Scegliete quando pubblicare i post con il contenuto in streaming quando viene realizzata una storia.
+* Prepara i flussi in anticipo e accedi rapidamente ai loro contenuti durante la stesura della tua Storia.
+* Visualizza un feed in tempo reale dei contenuti social media direttamente dal riquadro dei contenuti.
+* Seleziona manualmente parti di contenuto dal Flusso e trascinale dove ha senso nella tua Storia.
+* Scegli quando pubblicare post con contenuti in streaming mentre si svolge una storia.
 
-Prima di usare Streams per aggiungere contenuti social a Story, dovete creare un flusso. Per indirizzare un flusso a una storia:
+Prima di utilizzare Streams per aggiungere contenuti social a Story, è necessario creare un flusso. Per puntare un flusso a una storia:
 
-1. Creare un flusso.
-1. Applicate il flusso a una nuova app Storify 2 o esistente.
-1. Per visualizzare i flussi utilizzati da un brano, fate clic sull’icona Flussi nel pannello Modifica.
-1. Fate clic e trascinate elementi dalla scheda Flusso per aggiungerli al brano.
-1. Modificate i contenuti inseriti dai flussi nello stesso modo in cui modificate gli altri contenuti del brano.
+1. Crea un flusso.
+1. Applica il flusso a un&#39;app nuova o esistente di Storify 2.
+1. Per visualizzare i flussi utilizzati da una storia, fai clic sull’icona Streams nel pannello Modifica.
+1. Fai clic e trascina gli elementi dalla scheda Flusso per aggiungerli al brano.
+1. Modifica il contenuto inserito da Streams nello stesso modo in cui modifichi gli altri contenuti del tuo Story.
