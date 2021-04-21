@@ -1,22 +1,18 @@
 ---
-description: Funzionalità o funzionalità del contenuto direttamente da un'app.
-seo-description: Funzionalità o funzionalità del contenuto direttamente da un'app.
-seo-title: Selezionare il contenuto da utilizzare in una specifica app
-solution: Experience Manager
-title: Selezionare il contenuto da utilizzare in una specifica app
-uuid: b3c2aa2b-98a0-4548-944b-a1f36326eea0
+description: Funzione o rimozione di funzioni dal contenuto direttamente da un’app.
+title: Selezionare il contenuto da un’app
+exl-id: 09482724-eb9e-4d02-a07c-ea718cef8909
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
+# Seleziona il contenuto da usare in un&#39;app{#select-content-to-feature-from-an-app}
 
-# Seleziona il contenuto da utilizzare in un&#39;app{#select-content-to-feature-from-an-app}
+Funzione o rimozione di funzioni dal contenuto direttamente da un’app.
 
-Funzionalità o funzionalità del contenuto direttamente da un&#39;app.
-
-1. Dall&#39;interno di un&#39;app, passa il mouse sul contenuto che desideri presentare.
-1. Fare clic su **[!UICONTROL Feature]** per visualizzare il contenuto oppure su **[!UICONTROL Unfeature]** per interrompere la presentazione del contenuto.
+1. Passa il cursore del mouse sul contenuto da visualizzare in un’app.
+1. Fai clic su **[!UICONTROL Feature]** per visualizzare il contenuto oppure su **[!UICONTROL Unfeature]** per interrompere la caratterizzazione del contenuto.
