@@ -1,25 +1,21 @@
 ---
-description: Aggiungete un interesse visivo al sondaggio aggiungendo immagini.
-seo-description: Aggiungete un interesse visivo al sondaggio aggiungendo immagini.
-seo-title: Aggiunta di immagini a un sondaggio
-solution: Experience Manager
-title: Aggiunta di immagini a un sondaggio
-uuid: 966cefba-3a0e-433d-97b3-d683d92b8f69
+description: Aggiungi un interesse visivo al sondaggio aggiungendo immagini.
+title: Aggiungere immagini a un sondaggio
+exl-id: 2e68b10f-79b9-4aea-9c3d-43d589c8fe00
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
+# Aggiungi immagini a un sondaggio{#add-images-to-a-poll}
 
-# Aggiungere immagini a un sondaggio{#add-images-to-a-poll}
+Aggiungi un interesse visivo al sondaggio aggiungendo immagini.
 
-Aggiungete un interesse visivo al sondaggio aggiungendo immagini.
-
-1. Fate clic sull’icona a destra della domanda o delle risposte.
-1. Trascinate e rilasciate l’immagine nella finestra fornita oppure usate l’opzione Selettore file per selezionare un’immagine da Instagram, Flickr, Dropbox o uno degli altri provider elencati.
-1. Ritagliate l’immagine nel modo desiderato.
-1. Fate clic su **[!UICONTROL Save]** per aggiungere l’immagine al sondaggio.
-1. Passate il puntatore del mouse sull’immagine per la domanda o la scelta e fate clic sulle icone visualizzate per ritagliare, eliminare o sostituire l’immagine.
+1. Fai clic sull’icona a destra della domanda o delle risposte.
+1. Trascina e rilascia l’immagine nella finestra fornita oppure utilizza l’opzione relativa al filtro per selezionare un’immagine da Instagram, Flickr, Dropbox o da uno degli altri provider elencati.
+1. Ritaglia l’immagine come desideri.
+1. Fai clic su **[!UICONTROL Save]** per aggiungere l’immagine al sondaggio.
+1. Passa il puntatore del mouse sull’immagine della domanda o della scelta e fai clic sulle icone visualizzate per ritagliare, eliminare o sostituire l’immagine.
