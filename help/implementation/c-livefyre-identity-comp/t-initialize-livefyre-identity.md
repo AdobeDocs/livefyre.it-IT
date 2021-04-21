@@ -1,26 +1,23 @@
 ---
-description: Il pacchetto Livefyre.js Auth garantisce che tutti i componenti social sulla pagina possano scoprire un'unica integrazione di autenticazione.
-seo-description: Il pacchetto Livefyre.js Auth garantisce che tutti i componenti social sulla pagina possano scoprire un'unica integrazione di autenticazione.
-seo-title: Inizializza identità Livefyre
+description: Il pacchetto Livefyre.js Auth assicura che tutti i componenti social sulla pagina possano scoprire una singola integrazione di autenticazione.
 title: Inizializza identità Livefyre
-uuid: 9365d827-2734-4a84-bfe7-9be573b2b03e
+exl-id: 9990d284-a21e-49fb-932c-62906b41484a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
+# Inizializza Livefyre Identity{#initialize-livefyre-identity}
 
-# Inizializza identità Livefyre{#initialize-livefyre-identity}
+Il pacchetto Livefyre.js Auth assicura che tutti i componenti social sulla pagina possano scoprire una singola integrazione di autenticazione.
 
-Il pacchetto Livefyre.js Auth garantisce che tutti i componenti social sulla pagina possano scoprire un&#39;unica integrazione di autenticazione.
+Livefyre fornisce un pacchetto `lfep-auth-delegate` che renderà un delegato di autenticazione appropriato per te. È necessario fornire all&#39;autenticazione un oggetto AuthDelegate che sappia come eseguire azioni di autenticazione, come accesso e logout.
 
-Livefyre fornisce un pacchetto `lfep-auth-delegate` che renderà un delegato di autenticazione appropriato. All&#39;autenticazione deve essere fornito un oggetto AuthDelegate che sappia come eseguire le azioni di autenticazione, come login e logout.
-
-1. Aggiungi Livefyre.js alla tua pagina Web.
-1. Per indicare ad Auth di delegare queste azioni all&#39;identità Livefyre, aggiungi quanto segue:
+1. Aggiungi Livefyre.js alla tua pagina web.
+1. Per dire ad Auth di delegare queste azioni a Livefyre Identity, aggiungi quanto segue:
 
    ```
    Livefyre.require([ 
