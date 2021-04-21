@@ -1,24 +1,20 @@
 ---
-description: L'incorporazione dell'app dei commenti segue il processo di incorporazione di un'app di base.
-seo-description: L'incorporazione dell'app dei commenti segue il processo di incorporazione di un'app di base.
-seo-title: Incorpora un'app commenti
-solution: Experience Manager
-title: Incorpora un'app commenti
-uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
+description: L’incorporazione dell’app Commenti segue il processo di incorporazione di un’app core.
+title: Incorporare un’app commenti
+exl-id: 5eb191f8-ee52-4a9d-9180-90457a49fd4e
 translation-type: tm+mt
-source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
 
-
 # Incorpora un&#39;app commenti{#embed-a-comments-app}
 
-L&#39;incorporazione dell&#39;app dei commenti segue il processo di incorporazione di un&#39;app di base.
+L’incorporazione dell’app Commenti segue il processo di incorporazione di un’app core.
 
-L&#39;incorporazione dell&#39;app dei commenti segue il processo di incorporazione di un&#39;app di base descritto in [Incorpora un&#39;app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+L&#39;incorporazione dell&#39;app Commenti segue il processo di incorporazione di un&#39;app core descritto in [Incorporare un&#39;app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## Esempio 
 
@@ -57,7 +53,7 @@ L&#39;incorporazione dell&#39;app dei commenti segue il processo di incorporazio
 </html>
 ```
 
-Come indicato nella sezione Building CollectionMeta, CollectionMeta è un oggetto JSON codificato. Nell&#39;esempio precedente, l&#39;oggetto JSON ha il formato seguente prima che sia codificato JWT:
+Come indicato nella sezione Building CollectionMeta , CollectionMeta è un oggetto JSON codificato. Nell’esempio precedente, l’oggetto JSON assume il formato seguente prima della codifica JWT:
 
 ```
 { 
@@ -67,4 +63,3 @@ Come indicato nella sezione Building CollectionMeta, CollectionMeta è un oggett
 "title": "articleTitle" 
 }
 ```
-
