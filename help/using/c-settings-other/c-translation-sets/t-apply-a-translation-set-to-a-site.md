@@ -1,26 +1,22 @@
 ---
-description: nulle
-seo-description: nulle
-seo-title: Applicare un set di traduzioni a un sito
-solution: Experience Manager
-title: Applicare un set di traduzioni a un sito
-uuid: 750f4ca2-0350-40c9-9176-ce56581bf8ab
+title: Applicare un set di traduzione a un sito
+description: Applicare un set di traduzione a un sito
+exl-id: fd459e31-5feb-4807-ad51-eab55ed473da
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
+# Applicare un set di traduzione a un sito{#apply-a-translation-set-to-a-site}
 
-# Applicare un set di traduzioni a un sito{#apply-a-translation-set-to-a-site}
+**Applicare un set di traduzione a un sito**
 
-**Applicare un set di traduzioni a un sito**
-
-1. Passa a Impostazioni in Studio.
-1. Selezionate un sito.
-1. Selezionate Impostazioni sito.
+1. Passare a Impostazioni in Studio.
+1. Seleziona un sito.
+1. Selezionare Impostazioni sito.
 1. Seleziona Impostazioni app.
-1. Andate a Impostazioni predefinite > Set di traduzioni.
-1. Selezionate un set di traduzioni dal menu a discesa.
+1. Passa a Impostazioni predefinite > Set di traduzione.
+1. Seleziona un set di traduzione dal menu a discesa.
