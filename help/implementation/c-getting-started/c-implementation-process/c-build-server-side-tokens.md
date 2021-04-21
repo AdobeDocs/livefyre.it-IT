@@ -1,44 +1,39 @@
 ---
-description: Una guida per la creazione di token di autenticazione e raccoltaMeta.
-seo-description: Una guida per la creazione di token di autenticazione e raccoltaMeta.
-seo-title: Crea token lato server
-solution: Experience Manager
-title: Crea token lato server
-uuid: 8313f26e-5ceb-414e-a61a-480bb7a8ba66
+description: Una guida per la creazione di token di raccoltaMeta e autenticazione.
+title: Creare token lato server
+exl-id: f709b79e-9236-443e-b862-c7d281815d91
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
 
-
 # Crea token lato server{#build-server-side-tokens}
 
-Una guida per la creazione di token di autenticazione e raccoltaMeta.
+Una guida per la creazione di token di raccoltaMeta e autenticazione.
 
-La creazione dei token utilizzati da Livefyre per convalidare le richieste garantisce che solo gli utenti possano effettuare aggiornamenti alla rete Livefyre.
+La creazione dei token utilizzati da Livefyre per convalidare le richieste assicura che solo tu possa effettuare aggiornamenti alla tua rete Livefyre.
 
-## CollectionMeta Token
+## Token CollectionMeta
 
-Scopri come creare un token per creare nuove conversazioni e visualizzarle.
+Scopri come creare un token per creare conversazioni nuove e visualizzare quelle esistenti.
 
-## Token autenticazione
+## Token di autenticazione
 
-Scoprite come creare un token per l&#39;autenticazione degli utenti, un passaggio necessario nel processo di integrazione se non utilizzate Janrain Capture per la gestione degli utenti.
+Scopri come creare un token per l’autenticazione degli utenti, un passaggio necessario nel processo di integrazione se non utilizzi Janrain Capture per la gestione degli utenti.
 
-## Token autenticazione utente {#section_l5l_hwt_bbb}
+## Token di autenticazione utente {#section_l5l_hwt_bbb}
 
-In questa sezione viene descritto come generare l&#39;oggetto JSON UserAuth che crea il token di autenticazione utente richiesto per accedere agli utenti nelle app.
+Questa sezione descrive come generare l’oggetto JSON UserAuth che crea il token di autenticazione utente necessario per accedere agli utenti nelle app.
 
-Per creare il token, usate la libreria delle lingue preferita per trasmettere i seguenti parametri:
+Per creare il token, utilizza la libreria di lingue preferita per trasmettere i seguenti parametri:
 
 | Parametro | Tipo | Descrizione |
 |---|---|---|
 | networkName | Stringa *obbligatoria* | Nome della rete Livefyre (fornito da Livefyre). |
-| networkKey | Stringa *obbligatoria* | Chiave segreta per questa specifica rete (fornita da Livefyre). |
-| userId | Stringa *obbligatoria* | L’ID dell’utente che accede come memorizzato nel sistema di gestione degli utenti (sono consentiti solo caratteri alfanumerici, trattini, caratteri di sottolineatura e punti): `[a-zA-Z0-9_-.]`). **Nota:** l&#39;ID utente deve essere univoco. |
-| expires | Numero intero *obbligatorio* | Quando il token deve scadere da ora (in secondi). **Nota:** questo valore può anche essere trasmesso come mobile. Il token Web JSON prodotto memorizzerà questo valore in tempo epoch UNIX. |
-| displayName | Stringa *obbligatoria* | Testo per identificare l’utente nell’interfaccia utente e nei commenti. (Numero massimo di caratteri: 50) |
-
+| networkKey | Stringa *obbligatoria* | La chiave segreta per questa rete specifica (fornita da Livefyre). |
+| userId | Stringa *obbligatoria* | L’ID dell’utente che effettua l’accesso come memorizzato nel sistema di gestione utenti (sono consentiti solo caratteri alfanumerici, trattini, caratteri di sottolineatura e punti): `[a-zA-Z0-9_-.]`). **Nota:** l&#39;ID utente deve essere univoco. |
+| scadenza | Intero *obbligatorio* | Quando il token deve scadere da ora (in secondi). **Nota:** questo valore può anche essere passato come mobile. Il token web JSON prodotto memorizzerà questo valore in tempo epoca UNIX. |
+| displayName | Stringa *obbligatoria* | Testo per identificare questo utente nell’interfaccia utente e nei commenti. (Numero massimo di caratteri: 50) |
