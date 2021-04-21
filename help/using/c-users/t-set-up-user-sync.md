@@ -1,27 +1,22 @@
 ---
-description: La sincronizzazione utenti consente di inserire l’endpoint utilizzato per recuperare i dati del profilo utente dal sistema di gestione utenti.
-seo-description: La sincronizzazione utenti consente di inserire l’endpoint utilizzato per recuperare i dati del profilo utente dal sistema di gestione utenti.
-seo-title: Sincronizzazione utente
-solution: Experience Manager
+description: User Sync consente di immettere l’endpoint utilizzato per recuperare i dati del profilo utente dal sistema di gestione degli utenti.
 title: Sincronizzazione utente
-uuid: 6259e6fa-0541-4f5b-9d14-4c7c932ef997
+exl-id: 6a7a4bb3-a344-48be-8ba1-fd6d27a3b4af
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
 
-
 # Sincronizzazione utente{#user-sync}
 
-La sincronizzazione utenti consente di inserire l’endpoint utilizzato per recuperare i dati del profilo utente dal sistema di gestione utenti.
+User Sync consente di immettere l’endpoint utilizzato per recuperare i dati del profilo utente dal sistema di gestione degli utenti.
 
-Per ulteriori informazioni su come Livefyre utilizza questo URL per sincronizzare i dati utente con Livefyre tramite Ping for Pull, consultate **[!UICONTROL Identity Integration > Your Identity Service]**.
+Per ulteriori informazioni su come Livefyre utilizza questo URL per sincronizzare i dati utente con Livefyre tramite Ping for Pull, consulta **[!UICONTROL Identity Integration > Your Identity Service]** .
 
-## Sincronizzazione profilo utente personalizzata
+## Sincronizzazione profilo utente personalizzato
 
-**URL sincronizzazione profilo:** immettete l&#39;URL dal quale Livefyre recupererà le informazioni aggiornate sul profilo utente.
+**URL di sincronizzazione profilo:**  immetti l’URL da cui Livefyre recupererà le informazioni di profilo utente aggiornate.
 * Ad esempio: `https://example.yoursite.com/some_path/?id={***id***}`
-
