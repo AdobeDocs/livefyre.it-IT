@@ -1,41 +1,36 @@
 ---
 description: Note sulla versione per la versione del 18 gennaio 2018.
-seo-description: Note sulla versione per la versione del 18 gennaio 2018.
-seo-title: 18 gennaio 2018
-solution: Experience Manager
 title: 18 gennaio 2018
-uuid: 8141f431-c154-4c8f-bbcd-b7c712fe5f7d
+exl-id: aaf49dc9-64eb-4354-8bcb-04039fa25f10
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '255'
 ht-degree: 6%
 
 ---
-
 
 # 18 gennaio 2018{#january}
 
 Note sulla versione per la versione del 18 gennaio 2018.
 
-## Release produzione
+## Versione di produzione
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | App | È stato corretto un bug che impediva il corretto rendering degli Avatar in caso di utilizzo di un file jpeg. |
-| Bug | ModQ | È stato corretto un bug che consentiva ai clienti S1 di filtrare in base alle raccolte in ModQ. |
-| Bug | Streams | È stato corretto un bug a causa del quale una regola di flusso veniva interrotta quando il filtro della lingua era impostato su &quot;none&quot;. |
-| Bug | Streams | È stato corretto un bug che impediva il salvataggio delle regole del flusso di YouTube. |
-| Bug | Streams | È stato corretto un bug a causa del quale gli utenti potevano creare delle voci geografiche con formattazione errata nelle regole del flusso e salvarle, il che causava un errore nel flusso. Ora, gli utenti non possono più salvare i tag geografici in formato non corretto. |
+| Bug | App | È stato corretto un bug a causa del quale gli Avatar non venivano riprodotti correttamente in caso di utilizzo di un file jpeg. |
+| Bug | ModQ | È stato corretto un bug che consentiva ai clienti S1 di filtrare per raccolte in ModQ. |
+| Bug | Flussi | È stato corretto un bug a causa del quale una regola di flusso veniva interrotta quando il filtro della lingua era impostato come &quot;none&quot;. |
+| Bug | Flussi | È stato corretto un bug che impediva il salvataggio delle regole di flusso di YouTube. |
+| Bug | Flussi | È stato corretto un bug a causa del quale gli utenti potevano creare voci geografiche formattate in modo errato nelle regole di flusso e salvarle, il che avrebbe causato un errore del flusso. Ora gli utenti non possono più salvare i tag geografici in formato non corretto. |
 | Bug | Studio | È stato risolto un problema che impediva ad alcuni utenti di accedere a Livefyre. |
 
-## Rilascio UAT
+## Versione UAT
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Libreria | Correzione dei bug di sicurezza. Tutte le chiamate di autenticazione ora vengono effettuate utilizzando il protocollo HTTPS invece di HTTP. |
-| Miglioramento | Tag avanzati | I contenuti in streaming vengono ora automaticamente smart tag  Adobe Sensei durante il salvataggio in una cartella o la pubblicazione in un&#39;app. |
-| Bug | Streams | È stato risolto un problema per cui le regole del flusso Instagram non riconoscevano i caratteri giapponesi. |
-| Miglioramento | Streams | I clienti possono ora utilizzare gli operatori logici (ANY, ALL, NOT) per creare filtri smart tag dettagliati nei flussi che curano contenuti molto più accurati. Ad esempio, se uso l&#39;hashtag #himalyas, posso scegliere di mostrare solo immagini che includono &quot;montagne nevose&quot;. |
+| Bug | Libreria | Correzione bug di sicurezza. Tutte le chiamate di autenticazione ora vengono effettuate utilizzando il protocollo HTTPS invece che HTTP. |
+| Miglioramento | Tag avanzati | Il contenuto inviato in streaming viene ora automaticamente contrassegnato da Adobe Sensei con tag avanzati, in quanto viene salvato in una cartella o pubblicato in un’app. |
+| Bug | Flussi | È stato risolto un problema che impediva alle regole di flusso di Instagram di riconoscere i caratteri giapponesi. |
+| Miglioramento | Flussi | Ora i clienti possono utilizzare gli operatori logici ( ANY, ALL, NOT) per creare filtri avanzati dettagliati nei flussi che curano contenuti molto più precisi. Ad esempio, se uso l&#39;hashtag #himalyas, posso scegliere di mostrare solo immagini che includono &quot;montagne nevose&quot;. |
 | Bug | Studio | Correzione di un bug che mostrava caratteri speciali nei nomi come HTML. |
-
