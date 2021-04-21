@@ -1,52 +1,48 @@
 ---
-description: Note sulla versione per la release del 23 febbraio 2017.
-seo-description: Note sulla versione per la release del 23 febbraio 2017.
-seo-title: 23 febbraio 2017
+description: Note sulla versione per la versione del 23 febbraio 2017.
 title: 23 febbraio 2017
-uuid: 9b08acf4-15e9-43b7-8abc-c0d720b156e6
+exl-id: 3a5708a1-4be6-447f-ae6e-8f5a37171ed7
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '468'
 ht-degree: 7%
 
 ---
 
-
 # 23 febbraio 2017{#february}
 
-Note sulla versione per la release del 23 febbraio 2017.
+Note sulla versione per la versione del 23 febbraio 2017.
 
-## Release produzione
+## Versione di produzione
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | Android SDK | L’SDK per Android è stato riorganizzato per garantire che le directory di implementazione di esempio e di riferimento siano più chiaramente identificabili dalla loro posizione. |
-| Miglioramento | Android SDK | Android SDK modificato per supportare ora una versione SDK minima di 14 (da 16 in giù). |
-| Bug | App per conversazioni | Le app di conversione migliorate consentono di collegarsi sempre ai profili utente, anche senza un&#39;integrazione di autenticazione completa. |
-| Bug | Mosaico | È stato corretto un bug che ora trasmette tutte le immagini Twitter tramite HTTPS. |
-| Miglioramento | Ricerca e flussi | È stata aggiunta la possibilità di effettuare ricerche per Instagram Places (check-in) nelle regole Library Instagram Search e Instagram Stream. |
-| Bug | Impostazioni | È stato corretto un bug che impediva il salvataggio degli account Twitter Social. |
-| Bug | Ricerca social | È stato corretto un bug che impediva il corretto funzionamento dell’opzione &quot;Immagini esplicite codifiche&quot;. |
-| Miglioramento | Storify 2 | Miglioramento di Storify 2 per supportare i permalink che aprono una modale (in precedenza l&#39;app scorre fino alla posizione del post sulla pagina). In Designer di Storify 2, è stata aggiunta una configurazione per alternare tra il comportamento Scorrimento e Collegamento modale. Il comportamento del permalink modale sarà il comportamento predefinito. |
-| Miglioramento | Storify 2 | Migliorata l&#39;integrazione Storify 2 Google AMP per produrre un file CSS più piccolo. |
-| Miglioramento | Streams | È stato corretto un bug con le regole di Facebook a causa del quale il contenuto veniva incluso con metadati incompleti. |
-| Bug | Streams | Contenuto avanzato (immagini e video) da Regole flusso e-mail affinché sia disponibile tramite HTTPS. |
-| Bug | Streams | È stata aggiunta un&#39;etichetta per il valore del raggio del file nelle mappe nelle regole di flusso di Twitter. |
-| Bug | Streams | È stato corretto un bug con le regole di Facebook e Facebook Page Steam per inserire correttamente i post con più allegati multimediali. |
-| Miglioramento | Streams | È stata aggiunta una nuova funzione per consentire agli utenti di scegliere se applicare o disabilitare le regole SAFE per la regola del flusso. |
+| Miglioramento | Android SDK | SDK per Android riorganizzato per garantire che le directory di implementazione di esempio e di riferimento siano più chiaramente identificabili dalla loro posizione. |
+| Miglioramento | SDK per Android | SDK per Android modificato per supportare ora una versione SDK minima di 14 (rispetto a 16). |
+| Bug | App di conversazione | App di conversione migliorate per collegare sempre i profili utente, anche senza un’integrazione completa delle autorizzazioni. |
+| Bug | Mosaico | È stato corretto un bug a causa del quale ora vengono distribuite tutte le immagini Twitter tramite HTTPS. |
+| Miglioramento | Ricerca e flussi | È stata aggiunta la possibilità di eseguire ricerche per Instagram Places (check-in) nella libreria Instagram Search e nelle regole di flusso di Instagram. |
+| Bug | Impostazioni | È stato corretto un bug che impediva il salvataggio degli account Twitter Social . |
+| Bug | Ricerca social | È stato corretto un bug a causa del quale l’opzione &quot;Conceal esplicito images&quot; non funzionava correttamente. |
+| Miglioramento | Memorizza 2 | È stata migliorata la funzione Storify 2 per supportare i permalink che aprono un modale (in precedenza l’app scorreva fino alla posizione del post sulla pagina). In Designer di Storify 2 è stata aggiunta una configurazione per alternare tra il comportamento di scorrimento e quello di collegamento permanente modale. Il comportamento del permalink modale sarà il comportamento predefinito. |
+| Miglioramento | Memorizza 2 | Migliorata l’integrazione di Storify 2 Google AMP per produrre un file CSS più piccolo. |
+| Miglioramento | Flussi | È stato corretto un bug nelle regole di Facebook a causa del quale il contenuto veniva inviato con metadati incompleti. |
+| Bug | Flussi | Contenuto avanzato (immagini e video) dalle regole di flusso e-mail che sarà disponibile tramite HTTPS. |
+| Bug | Flussi | È stata aggiunta un’etichetta per il valore del raggio mobile nelle mappe di Twitter Stream Rules. |
+| Bug | Flussi | È stato corretto un bug relativo alle regole di streaming delle pagine Facebook e Facebook per inserire in modo appropriato i post con più allegati multimediali. |
+| Miglioramento | Flussi | È stata aggiunta una nuova funzione per consentire agli utenti di scegliere di applicare o disabilitare le regole SAFE per regola di flusso. |
 | Miglioramento | Studio | È stato corretto un bug a causa del quale il contenuto non veniva pubblicato o salvato correttamente se era già presente. |
-| Bug | Studio | È stato corretto un bug a causa del quale più &amp; s venivano aggiunti all’URL quando si utilizzavano i filtri in Studio. |
-| Bug | Studio | È stato corretto un bug a causa del quale alcune caselle di controllo nei filtri Studio non consentivano l&#39;annullamento della selezione. |
+| Bug | Studio | È stato corretto un bug a causa del quale più &amp;’s venivano aggiunti all’URL quando si utilizzavano i filtri in Studio. |
+| Bug | Studio | È stato corretto un bug a causa del quale alcune caselle di controllo nei filtri di Studio non potevano essere deselezionate. |
 
-## Rilascio UAT
+## Versione UAT
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | App | È stato corretto un bug che causava la visualizzazione del contenuto nei modelli di supporti con le proporzioni corrette. |
-| Bug | Muro di supporto | È stato corretto un bug a causa del quale il rendering di Media Walls non veniva eseguito se erano inclusi caratteri stranieri specifici. |
-| Bug | Cerca | È stato corretto un bug a causa del quale le pagine venivano caricate in modo non corretto quando si passava il paging tra i risultati di ricerca con l’opzione &quot;Immagini esplicite codificate&quot; abilitata. |
-| Miglioramento | Studio | Tempo di sessione aumentato prima della scadenza delle sessioni di accesso di Studio User. Una volta scaduta la sessione di Studio, l&#39;utente verrà reindirizzato per effettuare nuovamente l&#39;accesso. |
+| Bug | App | È stato corretto un bug per mostrare il contenuto nei moduli multimediali con le proporzioni corrette. |
+| Bug | Parete multimediale | È stato corretto un bug a causa del quale il rendering di Media Walls non veniva eseguito se erano inclusi caratteri stranieri specifici. |
+| Bug | Cerca | È stato corretto un bug a causa del quale le pagine venivano caricate in modo errato durante il paging nei risultati della ricerca con l’opzione &quot;Conceal esplicito images&quot; abilitata. |
+| Miglioramento | Studio | Tempo di sessione aumentato prima della scadenza delle sessioni di accesso di Studio User . Una volta scaduta la sessione di Studio, l&#39;utente verrà reindirizzato per effettuare di nuovo l&#39;accesso. |
 | Bug | Studio | È stato corretto un bug che talvolta impediva agli utenti di salvare le credenziali di Instagram. |
-| Bug | Studio | È stato corretto un bug che impediva il salvataggio corretto di &quot;Feature Tag&quot; quando veniva applicato. |
-
+| Bug | Studio | È stato corretto un bug che impediva il salvataggio corretto del &quot;Tag funzione&quot; quando applicato. |
