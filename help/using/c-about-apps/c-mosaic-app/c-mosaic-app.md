@@ -1,32 +1,28 @@
 ---
-description: Aggiungi un vivace e dinamico muro di colori, foto e video al tuo sito con un'app Mosaic.
-seo-description: Aggiungi un vivace e dinamico muro di colori, foto e video al tuo sito con un'app Mosaic.
-seo-title: Mosaico
-solution: Experience Manager
+description: Aggiungi al tuo sito una parete dinamica e vivace di colori, foto e video con un'app Mosaic.
 title: Mosaico
-uuid: 331c5f80-7440-4b91-8ac6-4f56a8a5befe
+exl-id: 79259c77-169d-4819-a7b0-39f64d92ea1e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '789'
 ht-degree: 1%
 
 ---
 
+# Mosaic{#mosaic}
 
-# Mosaico{#mosaic}
+Aggiungi al tuo sito una parete dinamica e vivace di colori, foto e video con un&#39;app Mosaic.
 
-Aggiungi un vivace e dinamico muro di colori, foto e video al tuo sito con un&#39;app Mosaic.
+Mosaic trasforma i contenuti generati dagli utenti in un muro dinamico di colori e foto, mostrando i contenuti caricati e social media più recenti in un formato a griglia uniforme.
 
-Mosaic trasforma i contenuti generati dall’utente in un muro dinamico di colori e foto, mostrando gli ultimi contenuti caricati e contenuti social media in un formato griglia uniforme.
+I visitatori del sito possono passare il mouse su una scheda a mosaico per visualizzare testo e altre informazioni sul contenuto. Gli utenti mobili e non possono espandere una scheda per visualizzare un&#39;immagine più grande, condividere contenuti e riprodurre video. Man mano che i nuovi elementi diventano disponibili, i vecchi elementi vengono rimossi e rimessi in coda per formare la griglia perfetta.
 
-I visitatori del sito possono passare il mouse su una scheda a mosaico per visualizzare testo e altre informazioni sul contenuto. Gli utenti di dispositivi mobili e non mobili possono espandere una scheda per visualizzare un&#39;immagine più grande, condividere contenuti e riprodurre video. Quando nuovi elementi diventano disponibili, i vecchi elementi vengono rimossi e messi nuovamente in coda per formare la griglia perfetta.
+## Informazioni su Mosaic {#section_tng_slj_yy}
 
-## Mosaico {#section_tng_slj_yy}
+Mosaic visualizza il contenuto Livefyre e Stream più recente in una griglia uniforme. Per creare un’esperienza visiva più semplice, le informazioni sui contenuti vengono visualizzate solo con il passaggio del mouse. Man mano che i nuovi elementi diventano disponibili, i vecchi elementi vengono rimossi e rimessi in coda.
 
-Mosaic visualizza il contenuto Livefyre e Stream più recente in un display a griglia uniforme. Per creare un&#39;esperienza visiva più semplice, le informazioni sul contenuto vengono visualizzate solo al passaggio del mouse. Quando nuovi elementi diventano disponibili, gli elementi obsoleti vengono rimossi e messi nuovamente in coda.
-
-## Che tipo di contenuti posso pubblicare in un mosaico? {#section_b5h_qlj_yy}
+## Che tipo di contenuto posso pubblicare in un Mosaic? {#section_b5h_qlj_yy}
 
 Contenuto supportato contenente:
 
@@ -45,62 +41,61 @@ Origini di contenuto supportate:
 * Livefyre
 * Weibo
 
-Non potete pubblicare contenuto contenente testo solo per un Mosaico, a meno che non faccia parte di un post di foto o video.
+Non puoi pubblicare contenuto contenente testo solo su un Mosaic a meno che non faccia parte di un post di foto o video.
 
-## In che modo un visitatore del sito vede il contenuto in un mosaico? {#section_w5c_plj_yy}
+## In che modo un visitatore del sito vede il contenuto in un Mosaic? {#section_w5c_plj_yy}
 
-Un visitatore del sito visualizza il contenuto popolato in un Mosaico da Studio da uno Studio Stream o Social Search. Se il nuovo contenuto viene pubblicato nell&#39;app mentre un visitatore del sito si trova sulla pagina, viene visualizzato immediatamente e il contenuto precedente viene ridotto in tempo reale, senza che l&#39;utente debba aggiornare la propria pagina.
+Un visitatore del sito visualizza il contenuto popolato in un Mosaic da Studio da uno Studio Stream o Social Search. Se un nuovo contenuto viene pubblicato nell’app mentre un visitatore del sito si trova sulla pagina, viene visualizzato immediatamente e il nuovo contenuto viene inviato in tempo reale senza che un utente debba aggiornare la pagina.
 
-## Cosa succede quando un visitatore del sito fa clic su un elemento in un mosaico? {#section_cvz_nlj_yy}
+## Cosa succede quando un visitatore del sito fa clic su un elemento in un Mosaic? {#section_cvz_nlj_yy}
 
-* Su un desktop potete passare il mouse sulla scheda per capovolgerla e visualizzarne un&#39;icona di espansione. Fate clic sull’icona di espansione per visualizzare un’immagine più grande, guardare un video o visualizzare più elementi multimediali nel contenuto.
-* Su un dispositivo mobile potete fare clic su una scheda per visualizzare un&#39;immagine più grande, guardare un video o visualizzare più elementi multimediali nel contenuto.
+* Su un desktop potete passare il cursore sulla scheda per capovolgerla e visualizzare un&#39;icona di espansione. Fai clic sull’icona espandi per visualizzare un’immagine più grande, guardare un video o visualizzare più elementi multimediali nel contenuto.
+* Su un dispositivo mobile puoi fare clic su una scheda per visualizzare un&#39;immagine più grande, guardare un video o visualizzare più elementi multimediali nel contenuto.
 
-## Un visitatore del sito può condividere il contenuto di un Mosaico? {#section_zzz_mlj_yy}
+## Un visitatore del sito può condividere il contenuto da un Mosaic? {#section_zzz_mlj_yy}
 
-Sì. Un visitatore del sito può condividere tutti i tipi di contenuto su un mosaico:
+Sì. Un visitatore del sito può condividere tutti i tipi di contenuto su un Mosaic:
 
-* Sul desktop, passate il mouse sulla scheda, quindi fate clic sull&#39;icona Condividi.
-* Su un dispositivo mobile, fate clic su una scheda per aprirla e fate clic sull&#39;icona Condividi.
+* Su un desktop, passa il puntatore sulla scheda, quindi fai clic sull&#39;icona di condivisione.
+* Su un dispositivo mobile, fai clic su una scheda per aprirla e fai clic sull’icona di condivisione.
 
 ## Con quale frequenza i pezzi ruotano attraverso le carte? {#section_hpx_llj_yy}
 
-Un nuovo contenuto viene aggiunto ogni 10 secondi.
+Viene aggiunto un nuovo contenuto ogni 10 secondi.
 
-## In che modo i nuovi contenuti vengono aggiunti a un mosaico? {#section_f4w_klj_yy}
+## Come vengono aggiunti nuovi contenuti a un Mosaic? {#section_f4w_klj_yy}
 
-Aggiungete il contenuto a un mosaico tramite:
+Aggiungi il contenuto a un Mosaic tramite:
 
 * Pubblicazione manuale dalla libreria.
 * Impostazione di un flusso per la pubblicazione automatica.
-* Usando il pulsante di caricamento, se attivato.
+* Se abilitato, utilizza il pulsante di caricamento .
 
-## In che modo viene visualizzato solo il contenuto testuale nell&#39;app? {#section_h31_klj_yy}
+## Come viene visualizzato nell’app solo il contenuto testuale? {#section_h31_klj_yy}
 
-Mosaico non visualizza contenuto solo testo. Mosaico visualizza solo immagini e video.
+Mosaic non visualizza contenuto solo testo. Mosaic visualizza solo immagini e video.
 
-## Perché a volte vedo delle scatole grigie in un Mosaico? {#section_i5c_jlj_yy}
+## Perché a volte vedo delle scatole grigie in un Mosaic? {#section_i5c_jlj_yy}
 
-Mosaico funziona meglio con una raccolta che ha costantemente contenuto nuovo. Se l&#39;app ha meno di 25 contenuti, verranno visualizzate delle caselle grigie per comporre i punti aggiuntivi. Riempite il Mosaico con altri contenuti per evitare la visualizzazione delle caselle grigie. Pianificate di inserire almeno 32 contenuti nell&#39;App per consentirne la visualizzazione come progettata.
+Mosaic funziona meglio con una raccolta che ha costantemente nuovi contenuti. Se l’app dispone di meno di 25 contenuti, verranno visualizzate delle caselle grigie per comporre i punti aggiuntivi. Riempite il Mosaic con più contenuto per impedire la visualizzazione delle caselle grigie. Pianifica di inserire almeno 32 parti di contenuto nell’app per visualizzarle come progettate.
 
-## Perché alcuni dei miei contenuti non vengono visualizzati sul sito anche se vengono visualizzati in Studio? {#section_upr_hlj_yy}
+## Perché alcuni dei miei contenuti non vengono visualizzati sul mio sito anche se il contenuto viene visualizzato in Studio? {#section_upr_hlj_yy}
 
-Mosaico visualizza il contenuto in una griglia perfetta. Se disponete di 25 contenuti, la larghezza del contenitore deve contenere cinque parti di contenuto affinché vengano visualizzate tutte e 25 le parti di contenuto: cinque in orizzontale e cinque in giù.
+Mosaic mostra i contenuti in una griglia perfetta. Se sono presenti 25 parti di contenuto, la larghezza del contenitore deve contenere cinque parti di contenuto affinché vengano visualizzate tutte e 25 le parti di contenuto: cinque in direzione e cinque in giù.
 
-Se la larghezza del contenitore è pari solo a quattro per creare una griglia perfetta, ma disponete di 25 contenuti, Mosaic classifica come &quot;outlier&quot; il contenuto aggiuntivo e non lo visualizza nell&#39;app. Il contenuto principale non viene ruotato perché tecnicamente è nell&#39;app, ma non viene visualizzato. Se la larghezza del contenitore è di sette, ne verranno visualizzati solo 21, poiché quattro sono aberranti e non formeranno la griglia perfetta.
+Se la larghezza del tuo contenitore si adatta solo a quattro per creare una griglia perfetta, ma hai 25 parti di contenuto, Mosaic classifica il contenuto aggiuntivo come precedente e non lo visualizza nell’app. Il contenuto principale non viene ruotato in perché tecnicamente è nell’app, ma non viene visualizzato. Se la larghezza del tuo contenitore è di sette, ne appariranno solo 21, dato che quattro sono outlier e non formeranno la griglia perfetta.
 
-A volte il contenuto non viene visualizzato perché è stato attivato **[!UICONTROL Require rights]**. Se attivate questa opzione, dovete disporre dei diritti concessi per tutto il contenuto nell&#39;app. Se lo stato dei diritti non è &quot;concesso&quot; per una parte del contenuto, non verrà visualizzato nell&#39;app.
+A volte il contenuto non viene visualizzato perché è stato attivato **[!UICONTROL Require rights]**. Se lo attivi, devi avere i diritti concessi per tutto il contenuto dell’app. Se lo stato dei diritti non è &quot;concesso&quot; per un contenuto, non verrà visualizzato nell’app.
 
-## Crea mosaico utilizzando Studio {#section_dwb_glj_yy}
+## Creare Mosaic Utilizzando Studio {#section_dwb_glj_yy}
 
-Potete creare tutte le app in Livefyre Studio allo stesso modo. Consultate Creazione di app per informazioni dettagliate su come creare un&#39;app Mosaic in Studio utilizzando il processo standard.
+Puoi creare tutte le app in Livefyre Studio allo stesso modo. Consulta Creazione di app per informazioni dettagliate su come creare un’app Mosaic in Studio utilizzando il processo standard.
 
-## Localizzare un mosaico {#section_lnv_clj_yy}
+## Localizzare un Mosaic {#section_lnv_clj_yy}
 
-La localizzazione è disponibile per Mosaico. Puoi:
+La localizzazione è disponibile per Mosaic. Puoi:
 
-* Cambia le stringhe disponibili per Mosaico
-* Creare e modificare un set di traduzioni per Mosaic
-* Applicare un set di traduzioni a un sito
-* Applicare un set di traduzioni a una rete
-
+* Cambia le stringhe disponibili per Mosaic
+* Creare e modificare un set di traduzione per Mosaic
+* Applicare un set di traduzione a un sito
+* Applicare un set di traduzione a una rete
