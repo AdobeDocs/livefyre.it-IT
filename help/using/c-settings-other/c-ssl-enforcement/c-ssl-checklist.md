@@ -1,29 +1,25 @@
 ---
-description: Seguite i passaggi nell'elenco di controllo per assicurarvi di eseguire correttamente la conversione da HTTP a HTTPS.
-seo-description: Seguite i passaggi nell'elenco di controllo per assicurarvi di eseguire correttamente la conversione da HTTP a HTTPS.
-seo-title: Elenco di controllo SSL
+description: Segui i passaggi descritti nella checklist per assicurarti di convertire correttamente da HTTP a HTTPS.
 title: Elenco di controllo SSL
-uuid: 2b176c73-8a6a-4835-88b3-047c6661cba9
+exl-id: 20161aa5-57c9-417b-af0e-c9e1e771f861
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
+# Lista di controllo SSL{#ssl-checklist}
 
-# Elenco di controllo SSL{#ssl-checklist}
-
-Seguite i passaggi nell&#39;elenco di controllo per assicurarvi di eseguire correttamente la conversione da HTTP a HTTPS.
+Segui i passaggi descritti nella checklist per assicurarti di convertire correttamente da HTTP a HTTPS.
 
 La conversione da HTTP a HTTPS verrà eseguita correttamente se sono stati completati i seguenti elementi:
 
 * Tutte le mie integrazioni server-to-server utilizzano HTTPS.
-* Tutte le mie integrazioni server-to-server supportano il protocollo TLS 1.2.
-* Tutte le mie app mobili usano HTTPS.
-* Tutte le mie app mobili supportano il protocollo TLS 1.2.
-* Tutte le mie integrazioni JavaScript personalizzate (StreamhubSDK o utilizzo diretto dell&#39;API) utilizzano HTTPS.
-* Se eseguo il bundle di Livefyre JavaScript, utilizzeremo le versioni più recenti.
-* Ho notificato qualsiasi servizio di terze parti (ad esempio analisi dei contenuti, moderazione, ecc.) che utilizza le API Livefyre per conto mio di queste modifiche.
-
+* Tutte le mie integrazioni server-to-server supportano i crittografia TLS 1.2.
+* Tutte le mie app mobili utilizzano HTTPS.
+* Tutte le mie app mobili supportano i crittografia TLS 1.2.
+* Tutte le mie integrazioni JavaScript personalizzate (StreamhubSDK o utilizzo API diretto) utilizzano HTTPS.
+* Se distribuisco Livefyre JavaScript, utilizziamo le versioni più recenti.
+* Ho notificato un servizio di terze parti (ad esempio analisi dei contenuti, moderazione, ecc.) che utilizza le API Livefyre per conto mio di queste modifiche.
