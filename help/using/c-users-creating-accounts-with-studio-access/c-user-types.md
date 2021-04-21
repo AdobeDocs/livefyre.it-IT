@@ -1,64 +1,60 @@
 ---
-description: Livefyre offre diversi tipi di utenti con diversi livelli di autorizzazioni.
-seo-description: Livefyre offre diversi tipi di utenti con diversi livelli di autorizzazioni.
-seo-title: Ruoli utente e autorizzazioni
-solution: Experience Manager
+description: Livefyre fornisce diversi tipi di utenti con diversi livelli di autorizzazioni.
 title: Ruoli utente e autorizzazioni
-uuid: d9261cfd-ae60-40d8-9816-25aef541506f
+exl-id: 0e590857-74c5-4fdc-82a9-1673909d5eb7
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-
 # Ruoli utente e autorizzazioni{#user-roles-and-permissions}
 
-Livefyre offre diversi tipi di utenti con diversi livelli di autorizzazioni.
+Livefyre fornisce diversi tipi di utenti con diversi livelli di autorizzazioni.
 
-I seguenti ruoli utente e privilegi di accesso elencati sono disponibili in Studio:
+In Studio sono disponibili i seguenti ruoli utente e privilegi di accesso elencati:
 
 >[!NOTE]
 >
->Per tutti i ruoli tranne Amministratore, gli utenti possono accedere solo a Cartelle o Siti che sono pubblici o che sono stati condivisi con loro.
+>Per tutti i ruoli tranne Amministratore, gli utenti possono accedere solo a Cartelle o Siti pubblici o condivisi con loro.
 
 * **Amministratore di Studio**
    * Accesso a tutti i diritti e le autorizzazioni in Studio
    * Gestire i ruoli utente
    * Visualizzare e modificare le impostazioni di integrazione
-   * Visualizzare e modificare tutte le cartelle, le app e i flussi pubblici e privati
+   * Visualizza e modifica tutte le cartelle, le applicazioni e i flussi pubblici e privati
 
 * **Studio Manager**
    * Crea nuovi siti
-   * Invito di utenti in Studio
+   * Invitare gli utenti su Studio
    * Visualizzare e modificare i ruoli utente
-   * Browser Ban e indirizzi IP
+   * Browser banditi e indirizzi IP
 
 * **Gestione risorse**
-   * Aggiunta di risorse alla libreria tramite Social Search
-   * Creazione e modifica di flussi per la porta alle cartelle condivise
-   * Creare e modificare le cartelle condivise e le risorse nelle cartelle condivise
+   * Aggiungere risorse alla libreria tramite la ricerca social
+   * Creare e modificare i flussi da porta a cartelle condivise
+   * Creare e modificare cartelle condivise e risorse in cartelle condivise
 
 * **User Manager**
-   * Visualizzazione e modifica dei dettagli dell&#39;account utente finale
-   * Divieto o uso consentito degli utenti finali
+   * Visualizza e modifica i dettagli dell’account utente finale
+   * Divieto o elenco utenti finali consentiti
 
-* **Data Manager:** concede l&#39;accesso per utilizzare il dashboard di Livefyre Analytics.
+* **Data Manager:** consente di accedere all’utilizzo del dashboard di Livefyre Analytics.
 * **App Manager**
-   * Creazione e modifica di app
-   * Creazione e modifica di flussi che puntano ad app
-   * Aggiunta di risorse direttamente alle app tramite Social Search
+   * Creare e modificare le app
+   * Creare e modificare flussi che puntano alle app
+   * Aggiungere risorse direttamente alle app tramite Social Search
 
-* **Content Manager:**
-   * Visualizzare e moderare il contenuto mediante la pagina Contenuto app
-   * Aggiunta e modifica di tag, flag, note e richieste di diritti per il contenuto
+* **Gestione dei contenuti:**
+   * Visualizzare e moderare il contenuto utilizzando la pagina Contenuto app
+   * Aggiunta e modifica di tag, flag, note e richieste di diritti per i contenuti
 
 * **Moderatore:**
    * Accesso a ModQ
-   * Diritto di moderazione dei contenuti
+   * Il diritto di moderare i contenuti
 
 >[!NOTE]
 >
->I ruoli utente a livello di sito concedono l&#39;autorizzazione solo al sito selezionato. I ruoli assegnati a questo livello non avranno accesso ad altri siti o reti.
+>I ruoli utente a livello di sito concedono l’autorizzazione solo al sito selezionato. I ruoli concessi a questo livello non avranno accesso ad altri siti o reti.
