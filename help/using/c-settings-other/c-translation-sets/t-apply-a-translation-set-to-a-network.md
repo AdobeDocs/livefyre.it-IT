@@ -1,24 +1,19 @@
 ---
-description: nulle
-seo-description: nulle
-seo-title: Applicare un set di traduzioni a una rete
-solution: Experience Manager
-title: Applicare un set di traduzioni a una rete
-uuid: 3d9a2616-3721-4ac5-a039-aefbf57cf269
+title: Applicare un set di traduzione a una rete
+description: Applicare un set di traduzione a una rete
+exl-id: 99f1f007-79a7-49da-a466-472346e9503a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
+# Applicare un set di traduzione a una rete{#apply-a-translation-set-to-a-network}
 
-# Applicare un set di traduzioni a una rete{#apply-a-translation-set-to-a-network}
-
-1. Passa a Impostazioni in Studio. Assicurarsi di lavorare a livello di rete e non a livello di sito.
+1. Passare a Impostazioni in Studio. Assicurarsi di lavorare a livello di rete e non a livello di sito.
 1. Selezionare Impostazioni di rete.
 1. Seleziona Impostazioni app.
-1. Andate a Impostazioni predefinite > Set di traduzioni.
-1. Selezionate un set di traduzioni dal menu a discesa.
-
+1. Passa a Impostazioni predefinite > Set di traduzione.
+1. Seleziona un set di traduzione dal menu a discesa.
