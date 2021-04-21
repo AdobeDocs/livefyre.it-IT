@@ -1,22 +1,18 @@
 ---
-description: Filtrare le ricerche di contenuto in Studio per tag Raccolta.
-seo-description: Filtrare le ricerche di contenuto in Studio per tag Raccolta.
-seo-title: Filtra ricerca per tag contenuto
-solution: Experience Manager
+description: Filtrare le ricerche di contenuto in Studio per tag Collection.
 title: Filtra ricerca per tag contenuto
-uuid: 093429f4-276e-4e98-ab39-87a059290c86
+exl-id: b41aba70-306b-45b5-b08f-57ea333e4ea8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
-
 # Filtra ricerca per tag contenuto{#filter-search-by-content-tag}
 
-Filtrare le ricerche di contenuto in Studio per tag Raccolta.
+Filtrare le ricerche di contenuto in Studio per tag Collection.
 
-1. Selezionare **[!UICONTROL Filter by: Contains]** dal pannello **[!UICONTROL Content]**.
-1. Inserite il tag .
+1. Seleziona **[!UICONTROL Filter by: Contains]** dal pannello **[!UICONTROL Content]**.
+1. Inserisci il tag .
