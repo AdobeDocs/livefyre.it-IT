@@ -1,24 +1,20 @@
 ---
 description: Implementare Note a margine tramite implementazione .js.
-seo-description: Implementare Note a margine tramite implementazione .js.
-seo-title: Implementazione delle note
-solution: Experience Manager
-title: Implementazione delle note
-uuid: aa13852e-e2b0-4a86-97cd-d08ab5e2cfab
+title: Implementazione di Sidenote
+exl-id: 07a68677-c67e-4128-8cb7-c5fb9e0ecc60
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 28%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
 
-
-# Implementazione delle note{#sidenotes-implementation}
+# Implementazione di Sidenote{#sidenotes-implementation}
 
 ## Implementare Note a margine tramite implementazione .js
 
-Per implementare questa funzione, trasmettere una mappatura oggetto 1-1 delle stringhe che si desidera ignorare all&#39;oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
+Per implementare questa funzione, passa una mappatura oggetto 1-1 delle stringhe che desideri ignorare all&#39;oggetto di configurazione Javascript. Se non si fornisce un campo, verrà utilizzato il testo predefinito.
 
 ### Esempio 
 
