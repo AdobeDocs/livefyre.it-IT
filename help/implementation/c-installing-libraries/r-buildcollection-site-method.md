@@ -1,27 +1,23 @@
 ---
-description: nulle
-seo-description: nulle
-seo-title: Metodo del sito buildCollection
-solution: Experience Manager
-title: Metodo del sito buildCollection
-uuid: 52abc42a-9506-4492-b219-f2e05eb79c5f
+title: Metodo Site buildCollection
+description: Metodo Site buildCollection
+exl-id: d5c9a2fb-2d30-44f4-8ebf-24b0ec7babee
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '60'
+ht-degree: 15%
 
 ---
 
-
-# Metodo del sito buildCollection{#buildcollection-site-method}
+# metodo del sito buildCollection{#buildcollection-site-method}
 
 | Variabile | Tipo | Descrizione |
 |--- |--- |--- |
-| type | CollectionType | Il tipo di raccolta. |
+| type | CollectionType | Tipo di raccolta. |
 | title | Stringa | Titolo della raccolta. |
 | articleId | Stringa | Un ID articolo univoco scelto per identificare una raccolta all&#39;interno del sito. |
-| url | Stringa | L&#39;URL assoluto canonico per questa raccolta. |
+| url | Stringa | URL assoluto canonico per questa raccolta. |
 
 ## Esempio Java {#section_nyl_ycs_rz}
 
@@ -41,7 +37,7 @@ var collection = site.buildCollection(type, title, articleId, url);
 $collection = site->buildCollection(type, title, articleId, url); 
 ```
 
-## Esempio Python {#section_dwg_gds_rz}
+## Esempio di pitone {#section_dwg_gds_rz}
 
 ```
 collection = site.build_collection(type, title, articleId, url) 
