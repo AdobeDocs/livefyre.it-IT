@@ -1,57 +1,53 @@
 ---
-description: Eseguire stress test sulla piattaforma Livefyre.
-seo-description: Eseguire stress test sulla piattaforma Livefyre.
-seo-title: Criterio test di stress
-solution: Experience Manager
+description: Esegui test di stress contro la piattaforma Livefyre.
 title: Criterio test di stress
-uuid: f2d49b55-f4fc-485f-9aea-a17ce64813ee
+exl-id: cb87b6ca-4107-46fc-9b1e-dc9399ec6d3a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-
 # Criterio test stress{#stress-test-policy}
 
-Eseguire stress test sulla piattaforma Livefyre.
+Esegui test di stress contro la piattaforma Livefyre.
 
-Questo documento fornisce indicazioni sull&#39;esecuzione di stress test sulla piattaforma Livefyre. I test ad hoc effettuati dai clienti senza notifica sono severamente vietati. Per ulteriori informazioni su [attività vietate e consentite](#c_stress_test_policy/section_mhs_bfz_vdb).
+Questo documento fornisce indicazioni sull&#39;esecuzione di stress test sulla piattaforma Livefyre. È severamente vietato eseguire test ad hoc da parte dei clienti senza notifica. Per ulteriori informazioni su [attività vietate e consentite](#c_stress_test_policy/section_mhs_bfz_vdb).
 
 >[!NOTE]
 >
->I test di stress sono facoltativi. Non è necessario o previsto eseguire una prova di stress.  Adobe Livefyre effettua test di stress regolari e convalide nell&#39;ambito del processo di rilascio. Se si sceglie di eseguire i test, in questo documento vengono delineati i requisiti e i vincoli per l&#39;esecuzione dei test di stress.
+>I test di stress sono facoltativi. Non è necessario o previsto eseguire una prova di stress. Adobe Livefyre effettua test di stress e convalide regolari come parte del processo di rilascio. Se si sceglie di eseguire i test, il presente documento illustra i requisiti e i vincoli per l&#39;esecuzione delle prove di stress.
 
 ## Notifica {#section_ihs_bfz_vdb}
 
-È necessario notificare al proprio Specialista del successo dei clienti Livefyre e  Consulente tecnico del Adobe di Livefyre i test pianificati tre o più settimane prima del momento in cui si intende iniziare.
+Devi comunicare al tuo Specialista del successo cliente Livefyre e al Consulente Tecnico Adobe i test pianificati tre o più settimane prima di quando intendi iniziare.
 
-Per inviare una notifica a Livefyre, inviate le seguenti informazioni al consulente tecnico  Adobe e specialista del successo di Livefyre:
+Per notificare a Livefyre, invia le seguenti informazioni al tuo consulente tecnico specialista del successo del cliente Livefyre e al tuo consulente tecnico Adobe:
 
-* Finalità e descrizione della prova
-* Caso di utilizzo per il quale state eseguendo il test
-* Elenco delle eventuali API Livefyre che prevedete di utilizzare nel test
-* Data, ora e durata del test
-* Indirizzi IP da cui inizierete i test
+* Scopo e descrizione della prova
+* Caso di utilizzo su cui si sta eseguendo il test
+* Elenco di eventuali API Livefyre che intendi utilizzare nel test
+* Data, ora e durata della prova
+* Indirizzi IP da cui inizierai i test
 
 ## Requisiti {#section_khs_bfz_vdb}
 
-Potete eseguire i test solo se soddisfano i seguenti requisiti:
+Puoi eseguire i test solo se soddisfano i seguenti requisiti:
 
-* Prima di iniziare il test è necessario ricevere l&#39;approvazione scritta e esplicita da un consulente tecnico  Adobe 3 o più settimane.
-* **È possibile eseguire test solo sulla rete UAT.**
-* È necessario eseguire il test in base a scenari realistici. Ad esempio, è possibile che la proprietà non esegua *milioni* di richieste di post ogni giorno, perché non si tratta di uno scenario realistico. Se avete bisogno di assistenza per determinare se il vostro scenario è realistico o meno, chiedete al vostro consulente tecnico  cliente Livefyre o al vostro consulente tecnico Adobe.
-* Le prove devono essere eseguite durante le ore lavorative per il fuso orario standard del Pacifico \(UTC -7\).
-* Potrebbe essere necessario produrre i dati e il ragionamento per il test.
+* È necessario ricevere l&#39;approvazione scritta esplicita da un consulente tecnico Adobe 3 settimane o più prima di iniziare il test.
+* **È possibile eseguire i test solo sulla rete UAT.**
+* È necessario testare scenari realistici. Ad esempio, potresti non presumere che la tua proprietà soddisfi *milioni* di richieste di post ogni giorno, perché questo non è uno scenario realistico. Se hai bisogno di assistenza per determinare se il tuo scenario è realistico o meno, chiedi al tuo Specialista del successo del cliente Livefyre o al Consulente Tecnico Adobe.
+* Le prove devono essere effettuate durante l&#39;orario di lavoro per il fuso orario standard del Pacifico \(UTC -7\).
+* Potrebbe essere necessario produrre dati e il ragionamento per il test.
 
 ## Governance {#section_mhs_bfz_vdb}
 
 Livefyre si riserva il diritto di terminare un test in qualsiasi momento se si esegue un test:
 
 * Sulla rete di produzione.
-* Senza l&#39;approvazione scritta esplicita di un consulente tecnico  Adobe con almeno tre settimane di anticipo.
+* Senza esplicita approvazione scritta da parte di un consulente tecnico Adobe con almeno tre settimane di anticipo.
 * Contro scenari irreali.
 
-Livefyre interrompe i test bloccando l&#39;accesso alle API, disattivando le reti Livefyre e rifiutando una richiesta di test di carico se non soddisfa i requisiti.
+Livefyre interrompe i test bloccando l’accesso alle API, disabilitando Livefyre Networks e rifiutando una richiesta di test di carico se non soddisfa i requisiti.
