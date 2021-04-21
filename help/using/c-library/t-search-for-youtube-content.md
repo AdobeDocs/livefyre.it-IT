@@ -1,32 +1,28 @@
 ---
-description: Utilizzate la ricerca per social network per cercare il contenuto di YouTube da includere nella libreria delle risorse o da pubblicare sulle app.
-seo-description: Utilizzate la ricerca per social network per cercare il contenuto di YouTube da includere nella libreria delle risorse o da pubblicare sulle app.
-seo-title: Ricerca di contenuti YouTube
+description: Utilizza la ricerca per social network per cercare il contenuto YouTube da includere nella libreria delle risorse o pubblicare nelle app.
 title: Ricerca di contenuti YouTube
-uuid: a99c2c0d-4647-4432-8f67-8c2fc29fe245
+exl-id: a2e80157-ee75-4e5a-9be6-2e2347e71228
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
+# Cerca contenuto YouTube{#search-for-youtube-content}
 
-# Ricerca di contenuti di YouTube{#search-for-youtube-content}
+Utilizza la ricerca per social network per cercare il contenuto YouTube da includere nella libreria delle risorse o pubblicare nelle app.
 
-Utilizzate la ricerca per social network per cercare il contenuto di YouTube da includere nella libreria delle risorse o da pubblicare sulle app.
+1. Passa a **[!UICONTROL Social Search]**.
+1. Seleziona **[!UICONTROL YouTube]** per cercare il contenuto YouTube.
+1. Immetti una parola chiave e fai clic su return.
+1. Fai clic su **[!UICONTROL Show Filter]** per perfezionare la ricerca.
 
-1. Passare a **[!UICONTROL Social Search]**.
-1. Selezionate **[!UICONTROL YouTube]** per effettuare ricerche nel contenuto di YouTube.
-1. Inserite una parola chiave e fate clic su return.
-1. Fare clic su **[!UICONTROL Show Filter]** per perfezionare la ricerca.
+   * **[!UICONTROL Sort By:]**ti consente di selezionare se ordinare i risultati restituiti per **[!UICONTROL Relevance, Recently Added]**, **[!UICONTROL Views]**, **[!UICONTROL Rating]** o **[!UICONTROL Title]**.
 
-   * **[!UICONTROL Sort By:]**consente di scegliere se ordinare i risultati restituiti per **[!UICONTROL Relevance, Recently Added]**, **[!UICONTROL Views]**, **[!UICONTROL Rating]** o **[!UICONTROL Title]**.
+   * **[!UICONTROL Quality:]**ti consente di limitare i video restituiti a quelli in Alta Definizione ( **[!UICONTROL HD]**).
 
-   * **[!UICONTROL Quality:]**consente di limitare i video restituiti a quelli in Alta Definizione ( **[!UICONTROL HD]**).
+   * **[!UICONTROL Duration:]**ti consente di limitare i video restituiti con una durata di **[!UICONTROL <4 mins]**, **[!UICONTROL 4 mins- 20 mins]** o **[!UICONTROL >20 mins]**.
 
-   * **[!UICONTROL Duration:]**consente di limitare i video restituiti a quelli con una durata di **[!UICONTROL <4 mins]**, **[!UICONTROL 4 mins- 20 mins]** o **[!UICONTROL >20 mins]**.
-
-   * **[!UICONTROL License:]**consente di limitare i video restituiti in base a **[!UICONTROL Any]** licenza, **[!UICONTROL Creative Commons]** o **[!UICONTROL YouTube Standard License]**.
-
+   * **[!UICONTROL License:]**ti consente di limitare i video restituiti in base alla licenza **[!UICONTROL Any]**, **[!UICONTROL Creative Commons]** o **[!UICONTROL YouTube Standard License]**.
