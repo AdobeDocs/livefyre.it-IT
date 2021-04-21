@@ -1,25 +1,20 @@
 ---
-description: L'app di tendenza offre queste funzionalità per il sito.
-seo-description: L'app di tendenza offre queste funzionalità per il sito.
-seo-title: Funzioni di tendenza
-solution: Experience Manager
+description: L’app di tendenza offre queste funzioni per il tuo sito.
 title: Funzioni di tendenza
-uuid: 7e7b1d05-2154-43d8-92e7-63152934c785
+exl-id: f8bd1cc9-716a-41d5-aa69-a3f1abae453c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
 
-
 # Funzioni di tendenza{#trending-features}
 
-L&#39;app di tendenza offre queste funzionalità per il sito.
+L’app di tendenza offre queste funzioni per il tuo sito.
 
 
 
-* La tendenza mostra le informazioni in tempo reale sulle quali le raccolte sono più attive.
-* Le conversazioni sono elencate dalla maggior parte alla meno popolare.
-
+* La tendenza mostra informazioni in tempo reale sulle raccolte più attive.
+* Le conversazioni sono elencate dal più al meno popolare.
