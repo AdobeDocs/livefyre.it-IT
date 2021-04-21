@@ -1,26 +1,22 @@
 ---
-description: Vedere commenti aggiunti dall'HTML personalizzato utilizzando questa procedura.
-seo-description: Vedere commenti aggiunti dall'HTML personalizzato utilizzando questa procedura.
-seo-title: Visualizza commenti HTML personalizzati in Studio
-solution: Experience Manager
+description: Vedere i commenti aggiunti dall'HTML personalizzato utilizzando questa procedura.
 title: Visualizza commenti HTML personalizzati in Studio
-uuid: 56df319c-6be7-448c-9562-48c67db27557
+exl-id: bddcf589-b611-448c-92aa-d975d1542ee6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-
 # Visualizza commenti HTML personalizzati in Studio{#view-custom-html-comments-in-studio}
 
-Vedere commenti aggiunti dall&#39;HTML personalizzato utilizzando questa procedura.
+Vedere i commenti aggiunti dall&#39;HTML personalizzato utilizzando questa procedura.
 
 >[!NOTE]
 >
->Non è possibile modificare i commenti che contengono codice HTML o aggiungere allegati HTML personalizzati utilizzando Studio.
+>Non è possibile modificare commenti che contengono codice HTML o aggiungere allegati HTML personalizzati utilizzando Studio.
 
-1. Studio visualizza una miniatura di anteprima per l&#39;HTML personalizzato con un commento.
-1. Fare clic sulla miniatura per visualizzare l&#39;allegato completo.
+1. In Studio viene visualizzata una miniatura di anteprima per l’HTML personalizzato con un commento.
+1. Fai clic sulla miniatura per visualizzare l&#39;allegato completo.
