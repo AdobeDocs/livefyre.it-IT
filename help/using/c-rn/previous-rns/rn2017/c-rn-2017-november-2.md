@@ -1,41 +1,37 @@
 ---
-description: Note sulla versione per la release del 2 novembre 2017.
-seo-description: Note sulla versione per la release del 2 novembre 2017.
-seo-title: 2 novembre 2017
+description: Note sulla versione per la versione del 2 novembre 2017.
 title: 2 novembre 2017
-uuid: 496fdc55-3386-48f2-a491-26dc2bc8aa72
+exl-id: bfc8fd65-550b-477e-be96-aa310bc64ea0
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 5%
 
 ---
 
-
 # 2 novembre 2017{#november}
 
-Note sulla versione per la release del 2 novembre 2017.
+Note sulla versione per la versione del 2 novembre 2017.
 
-## Release produzione
+## Versione di produzione
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | API | I clienti possono ora caricare i file audio tramite l&#39;API Upload, che possono essere visualizzati e scaricati tramite il contenuto dell&#39;app. |
+| Miglioramento | API | Ora i clienti possono caricare file audio tramite l’API Upload che possono essere visualizzati e scaricati tramite il contenuto dell’app. |
 | Miglioramento | Contenuto app | I clienti ora possono riprodurre file audio caricati da &quot;Contenuto app&quot;. |
-| Miglioramento | Contenuto app | Questo elemento di lavoro è correlato all’altro articolo sui caricamenti audio. Questo è incentrato sull&#39;aggiunta della possibilità di scaricare il file da Contenuto app. |
-| Bug | Rights Management | È stato corretto un bug che non mostrava un messaggio di errore corretto quando un utente tentava di salvare il contenuto in Social Search dopo essere stato eliminato da Twitter o Instagram. |
-| Miglioramento | SICURO | Gli amministratori di studio possono ora aggiungere una nuova regola SAFE nelle impostazioni denominate Smart Mod Reject, che abilita la funzione Smart Mod. |
+| Miglioramento | Contenuto app | Questo elemento di lavoro è correlato all&#39;altra storia sui caricamenti audio. Questo si concentra sull’aggiunta della possibilità di scaricare il file dal contenuto dell’app. |
+| Bug | Rights Management | È stato corretto un bug a causa del quale non veniva visualizzato un messaggio di errore corretto quando un utente tentava di salvare il contenuto in Social Search dopo essere stato eliminato da Twitter o Instagram. |
+| Miglioramento | SICURO | Gli amministratori di Studio possono ora aggiungere una nuova regola SAFE nelle impostazioni denominate Smart Mod Reject, che abilita la funzione Smart Mod. |
 
-## Rilascio UAT
+## Versione UAT
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Carosello | È stato corretto un problema a causa del quale il carosello non veniva visualizzato in Designer. |
-| Miglioramento | Scheda | L&#39;app della scheda funzioni dispone di tutte le funzionalità di e-commerce abilitate. |
-| Miglioramento | Filmstrip | Sono state aggiunte opzioni di ridimensionamento per Filmstrip in modo che l’utente possa avere maggiore controllo sull’aspetto delle immagini nell’app. |
-| Miglioramento | Libreria | Quando un cliente salva una risorsa nella libreria, Livefyre utilizza  tecnologia di machine learning Adobe Sensei per aggiungere tag che descrivono automaticamente ciò che si trova nell’immagine della risorsa. Questo consente all&#39;utente di cercare tali tag nel sistema. SP |
-| Miglioramento | Rights Management | Per le richieste di diritti aperti con il contenuto di Instagram che procede per essere contrassegnato come eliminato o account reso privato, lo stato dei diritti mostrerà &quot;Scaduto&quot; e una voce della cronologia attività che indica che il contenuto ora è privato/eliminato. |
-| Miglioramento | Impostazioni | I clienti possono ora consultare la nostra informativa sulla privacy e  i termini  di servizio in un piè di pagina in Settings (Impostazioni). |
-| Bug | Studio | Livefyre ora può eseguire il rendering completo delle risorse Twitter di 280 caratteri in Studio e App. |
-
+| Bug | Carosello | È stato risolto un problema a causa del quale il carosello non veniva visualizzato in Designer. |
+| Miglioramento | Scheda tecnica | L’app a schede di funzioni dispone di tutte le funzionalità di e-commerce abilitate. |
+| Miglioramento | Filmstrip | Sono state aggiunte opzioni di ridimensionamento per Filmstrip in modo che l’utente possa avere un maggiore controllo sull’aspetto delle immagini nell’app. |
+| Miglioramento | Libreria | Quando un cliente salva una risorsa nella libreria, Livefyre utilizza la tecnologia di machine learning di Adobe Sensei per aggiungere tag che descrivono automaticamente ciò che si trova nell’immagine della risorsa. Questo consente all’utente di cercare tali tag nel sistema. SP |
+| Miglioramento | Rights Management | Per le richieste di diritti aperti con contenuto Instagram che procede per essere contrassegnato come eliminato o account reso privato, lo stato dei diritti mostrerà &quot;Scaduto&quot; e una voce della cronologia attività che indica che il contenuto è ora privato/eliminato. |
+| Miglioramento | Impostazioni | Ora i clienti possono visitare la nostra informativa sulla privacy e i termini di servizio di Adobe in un piè di pagina in Impostazioni. |
+| Bug | Studio | Livefyre ora può eseguire il rendering completo delle risorse Twitter a 280 caratteri in Studio e App. |
