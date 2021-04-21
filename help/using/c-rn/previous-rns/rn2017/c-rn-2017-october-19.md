@@ -1,36 +1,32 @@
 ---
 description: Note sulla versione per la versione del 19 ottobre 2017.
-seo-description: Note sulla versione per la versione del 19 ottobre 2017.
-seo-title: 19 ottobre 2017
 title: 19 ottobre 2017
-uuid: 7f5fba9e-bd07-4d85-b67c-7a5577055447
+exl-id: 6887e4a9-8451-464f-a27f-bdaa3624196d
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
-
 
 # 19 ottobre 2017{#october}
 
 Note sulla versione per la versione del 19 ottobre 2017.
 
-## Release produzione
+## Versione di produzione
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | Impostazioni | La modifica del colore nelle impostazioni &quot;Colore marchio&quot; in Impostazioni studio ora funziona correttamente. |
-| Bug | Rights Management | È stato corretto un bug a causa del quale venivano visualizzati nomi utente lunghi nella scheda Rights Modal. |
+| Bug | Impostazioni | La modifica del colore nell&#39;impostazione &quot;Colore marchio&quot; in Impostazioni studio ora funziona come è stato progettato. |
+| Bug | Rights Management | È stato corretto un bug a causa del quale venivano visualizzati nomi utente lunghi nella scheda Modale diritti . |
 
-## Rilascio UAT
+## Versione UAT
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Miglioramento | Contenuto app | Riproduzione di file audio caricati dal contenuto dell&#39;app. |
-| Miglioramento | Contenuto app | I clienti possono ora caricare i file audio tramite l&#39;API Upload, che possono essere visualizzati e scaricati tramite il contenuto dell&#39;app. |
-| Miglioramento | Contenuto app | Aggiunta la possibilità di scaricare un file audio dal contenuto dell&#39;app. |
-| Bug | Rights Management | È stato corretto un bug che non mostrava un messaggio di errore corretto quando un utente tentava di salvare il contenuto in Social Search dopo essere stato eliminato da Twitter o Instagram. |
-| Miglioramento | SICURO | Gli amministratori di studio possono ora aggiungere una nuova regola SAFE nelle impostazioni denominate Smart Mod Reject, che abilita la funzione Smart Mod. |
-
+| Miglioramento | Contenuto app | Possibilità di riprodurre file audio caricati dal contenuto dell&#39;app. |
+| Miglioramento | Contenuto app | Ora i clienti possono caricare file audio tramite l’API Upload che possono essere visualizzati e scaricati tramite il contenuto dell’app. |
+| Miglioramento | Contenuto app | È stata aggiunta la possibilità di scaricare un file audio dal contenuto dell’app. |
+| Bug | Rights Management | È stato corretto un bug a causa del quale non veniva visualizzato un messaggio di errore corretto quando un utente tentava di salvare il contenuto in Social Search dopo essere stato eliminato da Twitter o Instagram. |
+| Miglioramento | SICURO | Gli amministratori di Studio possono ora aggiungere una nuova regola SAFE nelle impostazioni denominate Smart Mod Reject, che abilita la funzione Smart Mod. |
