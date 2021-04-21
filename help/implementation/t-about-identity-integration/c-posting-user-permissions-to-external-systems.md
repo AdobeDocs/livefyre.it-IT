@@ -1,34 +1,30 @@
 ---
-description: Livefyre utilizza un'interfaccia PUSH per inviare a un sistema esterno informazioni sulle modifiche apportate alle autorizzazioni degli utenti.
-seo-description: Livefyre utilizza un'interfaccia PUSH per inviare a un sistema esterno informazioni sulle modifiche apportate alle autorizzazioni degli utenti.
-seo-title: Registrazione delle autorizzazioni utente a sistemi esterni (facoltativo)
-solution: Experience Manager
-title: Registrazione delle autorizzazioni utente a sistemi esterni (facoltativo)
-uuid: 9c18b20d-3b93-4666-b7de-1ec60318cf88
+description: Livefyre utilizza un'interfaccia PUSH per inviare a un sistema esterno informazioni sulle modifiche alle autorizzazioni utente.
+title: Pubblicazione delle autorizzazioni utente su sistemi esterni (facoltativo)
+exl-id: 335c9ff2-e392-4310-aad2-7890c8e82eba
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 3%
+source-wordcount: '242'
+ht-degree: 4%
 
 ---
 
+# Pubblicazione delle autorizzazioni utente su sistemi esterni (facoltativo){#posting-user-permissions-to-external-systems-optional}
 
-# Registrazione delle autorizzazioni utente a sistemi esterni (facoltativo){#posting-user-permissions-to-external-systems-optional}
-
-Livefyre utilizza un&#39;interfaccia PUSH per inviare a un sistema esterno informazioni sulle modifiche apportate alle autorizzazioni degli utenti.
+Livefyre utilizza un&#39;interfaccia PUSH per inviare a un sistema esterno informazioni sulle modifiche alle autorizzazioni utente.
 
 ## Tipi di utenti in Livefyre Studio
 
-| Tipo utente | Descrizione |
+| Tipo di utente | Descrizione |
 |--- |--- |
-| proprietario | Questo utente è proprietario e può moderare i contenuti e assegnare nuovi moderatori. |
+| proprietario | Questo utente è proprietario e può sia moderare il contenuto che assegnare nuovi moderatori. |
 | admin | Questo utente è un moderatore e può moderare il contenuto. |
-| membro | Questo utente è incluso nell&#39;elenco dei permessi. Il contenuto registrato non passa attraverso filtri di spam o di profanità e non richiede l&#39;approvazione nei flussi pre-moderati. |
-| none | Questo utente è un utente standard e non dispone di autorizzazioni speciali. |
+| membro | Questo utente è inserito nell’elenco Consentiti. Il contenuto postato non passa attraverso filtri di spam o di profanità e non richiede l’approvazione in flussi pre-moderati. |
+| nessuno | Questo utente è un utente standard e non dispone di autorizzazioni speciali. |
 | emarginato | A questo utente è stato vietato di partecipare a qualsiasi conversazione. |
 
-Per pubblicare le autorizzazioni degli utenti nei sistemi esterni, è necessario registrare un URL che riceve i dati delle autorizzazioni come richieste di POST.
+Per pubblicare le autorizzazioni degli utenti su sistemi esterni, è necessario registrare un URL che riceve i dati delle autorizzazioni come richieste di POST.
 
 Ad esempio:
 
@@ -40,13 +36,13 @@ POST https://{networkName}.quill.fyre.co/?actor_token={token}&push_affiliation_u
 |--- |--- |
 | networkName | Il nome di rete fornito da Livefyre. |
 | token | Token di sistema valido. |
-| url | URL per la registrazione. |
+| url | URL da registrare. |
 
 L’URL registrato deve accettare i POST con i seguenti dati come tipo di contenuto: application/x-www-form-urlencoded.
 
 | Parametro | Descrizione |
 |--- |--- |
 | jid | JID dell&#39;utente la cui affiliazione viene modificata. Un JID è una stringa del modulo `user_id@network`. |
-| affiliazione | Nome delle autorizzazioni assegnate, che deve essere una delle seguenti:  `{admin | member | none | outcast | owner}` |
+| affiliazione | Nome delle autorizzazioni assegnate, che deve essere uno dei seguenti:  `{admin | member | none | outcast | owner}` |
 
-Per ulteriori informazioni sull&#39;aggiornamento delle impostazioni di affiliazione degli utenti, consultate la sezione [Add User Affiliation API Reference](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post) (Aggiungi riferimento API di affiliazione utenti).
+Per ulteriori informazioni sull&#39;aggiornamento delle impostazioni di affiliazione degli utenti, consulta [Aggiungi riferimento API di affiliazione degli utenti](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post).
