@@ -1,36 +1,32 @@
 ---
-description: Modificare le dimensioni, la larghezza e le opzioni di interazione dell'app Sondaggi.
-seo-description: Modificare le dimensioni, la larghezza e le opzioni di interazione dell'app Sondaggi.
-seo-title: Personalizzazioni dei sondaggi
-solution: Experience Manager
+description: Modifica le opzioni di dimensione, larghezza e interazione dell’app Polls.
 title: Personalizzazioni dei sondaggi
-uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
+exl-id: f82dce69-8ad0-48bd-a293-e5501374d5d6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
-
 # Personalizzazioni dei sondaggi{#polls-customizations}
 
-Modificare le dimensioni, la larghezza e le opzioni di interazione dell&#39;app Sondaggi.
+Modifica le opzioni di dimensione, larghezza e interazione dell’app Polls.
 
 
 
 * **[!UICONTROL Type]**
 
-   Selezionate il tipo di sondaggio da creare. **[!UICONTROL Single image]** consente di aggiungere un’immagine alla domanda del sondaggio. **[!UICONTROL Multiple image]** consente di aggiungere un’immagine per le risposte al sondaggio. **[!UICONTROL Text only]** crea un sondaggio senza immagini.
+   Selezionare il tipo di sondaggio che si desidera creare. **[!UICONTROL Single image]** consente di aggiungere un’immagine per la domanda del sondaggio. **[!UICONTROL Multiple image]** consente di aggiungere un’immagine per le risposte del sondaggio. **[!UICONTROL Text only]** crea un sondaggio senza immagini.
 
-* **[!UICONTROL Question]**  *mandatory*
+* **[!UICONTROL Question]**  *obbligatorio*
 
-   Immettete la domanda che verrà visualizzata per il sondaggio.
+   Inserisci la domanda che verrà visualizzata per il sondaggio.
 
 * **[!UICONTROL Choices]** (minimo 2)
 
-   Immettete le risposte che verranno visualizzate per il sondaggio.
+   Immetti le risposte che verranno visualizzate per il sondaggio.
 
 * **[!UICONTROL Display total votes]**
 
@@ -40,7 +36,7 @@ Modificare le dimensioni, la larghezza e le opzioni di interazione dell&#39;app 
 
    Se attivato, il sondaggio includerà un collegamento che gli utenti possono condividere.
 
-* **[!UICONTROL Link]** *optional*
+* **[!UICONTROL Link]** *facoltativo*
 
    Collegamento da visualizzare per il sondaggio.
 
@@ -50,15 +46,14 @@ Modificare le dimensioni, la larghezza e le opzioni di interazione dell&#39;app 
 
 * **[!UICONTROL Show poll results]**
 
-   Se attivato, i visualizzatori saranno in grado di visualizzare i risultati del sondaggio. Se disattivato, gli elettori visualizzeranno solo la schermata &quot;Grazie&quot; al termine del sondaggio.
+   Se abilitato, i visualizzatori potranno visualizzare i risultati del sondaggio. Se disabilitati, gli elettori vedranno solo la schermata &quot;Grazie&quot; dopo aver completato il sondaggio.
 
-* **[!UICONTROL Disclaimer]** *optional*
+* **[!UICONTROL Disclaimer]** *facoltativo*
 
-   Una dichiarazione di non responsabilità opzionale da visualizzare con il sondaggio.
+   Disclaimer facoltativo da visualizzare con il sondaggio.
 
-Potete personalizzare i sondaggi utilizzando:
+Puoi personalizzare i sondaggi utilizzando:
 
-* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consultate Personalizzazione delle app per informazioni dettagliate sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** e  **[!UICONTROL Config]** le opzioni per tutte le app in  **[!UICONTROL App Designer]**. Consulta Personalizzazione delle app per i dettagli sulle opzioni **[!UICONTROL Style]** e **[!UICONTROL Config]** standard per tutte le app in **[!UICONTROL App Designer]**.
 
-* Strumenti di integrazione. Consultate Sondaggi per ulteriori informazioni su come personalizzare le app mediante gli strumenti di integrazione.
-
+* Strumenti di integrazione. Per ulteriori informazioni su come personalizzare le app utilizzando gli strumenti di integrazione, consulta Sondaggi .
