@@ -1,51 +1,46 @@
 ---
-description: Note sulla versione per la release del 27 settembre 2018.
-seo-description: Note sulla versione per la release del 27 settembre 2018.
-seo-title: 27 settembre 2018
-solution: Experience Manager
+description: Note sulla versione per la versione del 27 settembre 2018.
 title: 27 settembre 2018
-uuid: 8d3b01fe-6d1f-4123-aaaf-3009e7c6599f
+exl-id: ea63c18e-7535-4e57-a569-efbbee376632
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 6%
+source-wordcount: '293'
+ht-degree: 5%
 
 ---
 
-
 # 27 settembre 2018{#september}
 
-Note sulla versione per la release del 27 settembre 2018.
+Note sulla versione per la versione del 27 settembre 2018.
 
 ## Nuove funzionalità {#section_syx_mdt_wcb}
 
 Nella versione di produzione di questa versione sono state rilasciate le seguenti nuove funzioni:
 
-* Aggiunta la possibilità di aggiungere un file audio come una scheda per visualizzare che si tratta di un file audio alle app seguenti: Muro file multimediali, carosello, scheda funzioni, mosaico, area Profili, Storify 2, Commenti, Liveblog e Livechat.
+* È stata aggiunta la possibilità di aggiungere un file audio come una scheda per visualizzare che si tratta di un file audio per le seguenti app: Media Wall, Carosello, Feature Card, Mosaic, Filmstrip, Storify 2, Comments, Liveblog e Livechat.
 
 ## Problemi {#section_ehw_ndt_wcb}
 
-I problemi nelle tabelle seguenti sono stati risolti nella versione di produzione di questa release.
+I problemi nelle tabelle seguenti sono stati risolti nella versione di produzione di questa versione.
 
-## Release produzione
+## Versione di produzione
 
-| Tipo problema | Componente | Note sulla versione |
+| Tipo di problema | Componente | Note sulla versione |
 |--- |--- |--- |
-| Bug | Commenti | È stato risolto un problema per il quale i commenti non funzionavano come previsto in un browser Mobile. |
-| Bug | Muro di supporto | È stato corretto un problema a causa del quale le immagini e il testo non venivano pubblicati come previsto in una bacheca multimediale tramite un hashtag di flusso. |
-| Bug | Muro di supporto | È stato corretto un problema a causa del quale il video caricato non era riproducibile in una bacheca multimediale, anche se era riproducibile nella Libreria risorse. |
-| Bug | Storify | È stato risolto un problema che impediva a Storify 2 di funzionare sui domini protetti. |
-| Bug | Streams | È stato risolto un problema per il quale i filtri NSFW predefiniti non venivano aggiunti quando la funzione filtro NSFW era disabilitata e i filtri NSFW predefiniti venivano aggiunti quando la funzione NSFW era abilitata. |
-| Storia | Streams | Sono stati apportati i seguenti aggiornamenti per i flussi delle pagine Facebook:  </br><ul><li>Il tempo di sospensione delle app è aumentato una volta raggiunto il limite di velocità API da un minuto a un&#39;ora. </li><li>È stato aumentato il tempo di invio di pagine e post per l’elaborazione da 10 a 1 ora.</li></ul> |
+| Bug | Commenti | È stato risolto un problema a causa del quale i commenti non funzionavano come previsto in un browser mobile. |
+| Bug | Parete multimediale | È stato risolto un problema a causa del quale le immagini e il testo non venivano pubblicati come previsto su una bacheca multimediale tramite un hashtag di streaming. |
+| Bug | Parete multimediale | È stato risolto un problema che impediva la riproduzione di video caricati in una Media Wall, anche se era riproducibile nella Libreria risorse. |
+| Bug | Memorizza | È stato risolto un problema che impediva a Storify 2 di funzionare sui domini sicuri. |
+| Bug | Flussi | È stato risolto un problema a causa del quale i filtri NSFW predefiniti non venivano aggiunti quando la funzione di filtro NSFW era disabilitata e i filtri NSFW predefiniti venivano aggiunti quando la funzione NSFW era abilitata. |
+| Storia | Flussi | Sono stati apportati i seguenti aggiornamenti per i flussi di pagine Facebook:  </br><ul><li>Aumentato il tempo di sospensione delle app una volta raggiunto il limite di velocità API da un minuto a un&#39;ora. </li><li>È stato aumentato il tempo di invio delle pagine e dei post per l’elaborazione da 10 minuti a un’ora.</li></ul> |
 
 
 ## Rilascio UAT {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
-I problemi riportati nelle tabelle seguenti sono stati risolti nella versione UAT di questa versione.
+I problemi nelle tabelle seguenti sono stati risolti nella versione UAT di questa versione.
 
-| **Tipo problema** | **Componente** | **Note sulla versione** |
+| **Tipo di problema** | **Componente** | **Note sulla versione** |
 |---|---|---|
-| Bug | AEM | È stato risolto un problema a causa del quale i tweet importati in  AEM Assets tramite Livefyre presentavano collegamenti interrotti. |
-| Miglioramento | Libreria | È stata aggiunta la possibilità di filtrare i video nella libreria in base ai tag video. |
-
+| Bug | AEM | È stato risolto un problema a causa del quale i tweet importati in AEM Assets tramite Livefyre presentavano collegamenti interrotti. |
+| Miglioramento | Libreria | È stata aggiunta la possibilità di filtrare i video nella Libreria in base ai tag video. |
