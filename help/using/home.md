@@ -1,22 +1,20 @@
 ---
-seo-title: Guida utente di Livefyre
-solution: Experience Manager
 title: Guida utente di Livefyre
-uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
+description: Guida utente di Livefyre
+exl-id: 1b106519-9165-4cce-bddf-c0980424f54d
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
-
 # Guida utente di Livefyre {#livefyre-help}
 
-Utilizzate Livefyre Studio per creare app, raccogliere contenuti generati dall&#39;utente e contenuti moderati.
+Utilizza Livefyre Studio per creare app, raccogliere contenuti generati dall’utente e moderare contenuti.
 
-Per informazioni su come implementare e personalizzare le app Livefyre sul sito mediante gli strumenti di sviluppo, consultate la [*Guida all&#39;implementazione di Adobe Experience Manager Livefyre*](/help/implementation/home.md).
+Per informazioni su come implementare e personalizzare le app Livefyre sul tuo sito utilizzando gli strumenti per sviluppatori, consulta la [*Guida all’implementazione di Adobe Experience Manager Livefyre*](/help/implementation/home.md).
 
 ## Argomenti comuni
 
@@ -24,18 +22,17 @@ Per informazioni su come implementare e personalizzare le app Livefyre sul sito 
 
 * [Informazioni su Livefyre](c-product.md#c_product)
 
-   Utilizzo di Livefyre Studio per gestire app, utenti e contenuti.
+   Utilizza Livefyre Studio per gestire app, utenti e contenuti.
 
 * [Utilizzo delle app](c-about-apps/c-about-apps.md#c_about_apps)
 
-   Creare e pubblicare app Livefyre (inclusi i commenti).
+   Crea e pubblica app Livefyre (inclusi commenti).
 
-* [Utilizzo delle app Livefyre con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [Utilizzare le app Livefyre con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 
-* [Utilizzo di Livefyre con  Adobe Target](/help/using/c-library/livefyre-target.md)
+* [Utilizzare Livefyre con Adobe Target](/help/using/c-library/livefyre-target.md)
 
-* [Utilizzo di Livefyre con  lancio Adobe di Livefyre Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
+* [Utilizzare Livefyre con l’estensione Adobe Launch Livefyre](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
 
 * [Note sulla versione](c-rn/c-rn.md#c_rn)
-
