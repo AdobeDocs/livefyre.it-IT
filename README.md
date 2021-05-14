@@ -57,3 +57,4 @@ Nell&#39;archivio pubblico, le etichette automatizzate vengono assegnate alle ri
 
 * **Modifica inviata all’autore**: L&#39;autore è stato informato della richiesta di pull in sospeso.
 * **Pronto per l&#39;unione**: Pronto per la revisione da parte del team di revisione della richiesta di pull.
+
