@@ -1,10 +1,10 @@
 ---
 description: Imposta Adobe Analytics e Dynamic Tag Manager (DTM) per raccogliere i dati per le app Livefyre.
+title: Utilizzare Livefyre con Adobe Analytics e Dynamic Tag Manager (DTM)
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-translation-type: tm+mt
-source-git-commit: 24d016fbb2771487f8105b2ca0bb0d03dd60cfc1
+source-git-commit: cbe23e8c253f1531418f18424e180d1adc16e426
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Mappa le variabili di conversione Livefyre (eVar) su variabili di conversione in
 * Assegna alla variabile di conversione un tipo
 1. Salva le variabili di conversione personalizzate.
 
-## Passaggio 3: Usa DTM per aggiungere la suite di rapporti con gli eventi Livefyre {#section_t15_2hd_4cb}
+## Passaggio 3: Utilizzare DTM per aggiungere la suite di rapporti con gli eventi Livefyre {#section_t15_2hd_4cb}
 
 Aggiungi Adobe Analytics a DTM per far funzionare Analytics. A questo scopo, crea una nuova proprietà e un nuovo strumento e aggiungi la nuova suite di rapporti con eventi Livefyre alla proprietà . Per ulteriori informazioni su DTM, consulta [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html).
 
