@@ -2,15 +2,14 @@
 description: Per aggiungere un’app al sito, devi prima creare un’app in Livefyre Studio.
 title: Creare un’app
 exl-id: 1d87ae99-3529-497c-b533-13f212abeacd
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 64596886ff960b34cee08b2a91cba5390a593089
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-# Creare un&#39;app {#create-an-app}
+# Creare un’app {#create-an-app}
 
 Per aggiungere un’app al sito, devi prima creare un’app in Livefyre Studio.
 
@@ -38,7 +37,7 @@ Nella pagina Elenco app sono visualizzate le informazioni seguenti:
 * **[!UICONTROL Date Modified]**: Elenca l’ultima volta che l’app è stata modificata in App Designer.
 * **[!UICONTROL Embed Code (</>)]**: Fai clic sull&#39;icona per generare il codice di incorporamento per la tua app.
 
-## Personalizzazione app {#section_lvj_xlt_bbb}
+## Personalizzazione delle app {#section_lvj_xlt_bbb}
 
 Puoi utilizzare la scheda Progettazione app per selezionare le opzioni **[!UICONTROL Style]** e **[!UICONTROL Configuration]** per personalizzare le app.
 
@@ -85,11 +84,9 @@ La modalità Anteprima offre le seguenti opzioni:
 
 * **[!UICONTROL Preview Options]**: Utilizza il menu a discesa per selezionare un formato di anteprima (mobile, tablet o desktop) e se visualizzare  **[!UICONTROL Sample Data]** o meno i dati Stream dell’app.
 
-* 
-
->[!NOTE]
->
->Se deselezioni **[!UICONTROL Sample Data]** e per l’app non è abilitato alcun flusso, in modalità Anteprima non viene visualizzato alcun contenuto.
+   >[!NOTE]
+   >
+   >Se deselezioni **[!UICONTROL Sample Data]** e per l’app non è abilitato alcun flusso, in modalità Anteprima non viene visualizzato alcun contenuto.
 
 * **[!UICONTROL Share]**: Apre l’app in una nuova scheda del browser e genera un URL che può essere utilizzato per consentire ad amici, colleghi o utenti non di Studio di rivedere la tua app e testarla in diversi browser e dispositivi.
 
