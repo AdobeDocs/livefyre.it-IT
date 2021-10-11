@@ -2,8 +2,7 @@
 description: L’integrazione di Livefyre con Adobe Target consente di condividere le app Livefyre direttamente nella libreria delle offerte di Target.
 title: Utilizzare Adobe Experience Manager Livefyre con Adobe Target
 exl-id: 0110fb81-9051-4f8c-9195-dff1a5eed029
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 53aead87db517e6f68266a66115889509287a287
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -14,7 +13,7 @@ ht-degree: 1%
 
 L’integrazione di Livefyre con Adobe Target consente di condividere le app Livefyre direttamente nella libreria delle offerte di Target.
 
-## Collegare un&#39;istanza Livefyre con Target {#connect-livefyre-target}
+## Collegare un’istanza di Livefyre con Target {#connect-livefyre-target}
 
 Collega un’istanza Livefyre ad Adobe Target collegando il tuo account Adobe IMS nelle impostazioni utente.
 
@@ -26,7 +25,7 @@ Collega un’istanza Livefyre ad Adobe Target collegando il tuo account Adobe IM
 
 1. Immetti le tue credenziali IMS.
 
-Le istanze di prodotto a cui l’account Adobe IMS ha accesso per la visualizzazione nella finestra di integrazione di Adobe IMS.
+Le istanze di prodotto a cui l’account Adobe IMS ha accesso per la visualizzazione nella finestra Integrazione Adobe IMS.
 
 ![](assets/livefyre-target-connect.png)
 
@@ -52,4 +51,4 @@ Viene visualizzato un elenco delle istanze di Target.
 
 1. Clic  **[!UICONTROL Publish]**.
 
-L’app Livefyre è ora disponibile per l’utilizzo nella libreria delle offerte di Target. Per ulteriori informazioni sulla pubblicazione delle app, consulta [Pubblicare contenuto](/help/using/c-library/t-publish-content.md) e [Offerte](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html) nella documentazione di Target.
+L’app Livefyre è ora disponibile per l’utilizzo nella libreria delle offerte di Target. Per ulteriori informazioni sulla pubblicazione delle app, consulta [Pubblicare contenuto](/help/using/c-library/t-publish-content.md) e [Offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) nella documentazione di Target.

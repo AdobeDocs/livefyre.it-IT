@@ -2,11 +2,10 @@
 description: Personalizzazione delle stringhe di testo per le recensioni di Livefyre.
 title: Rivedi stringhe di testo
 exl-id: 82ced091-d573-4514-9b91-3451a94ed5d3
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 1d9088eecf797e1af881cb6be55b3c96284f75e5
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 4%
+source-wordcount: '638'
+ht-degree: 5%
 
 ---
 
@@ -31,13 +30,13 @@ Per implementare questa funzione, passa una mappatura oggetto 1-1 delle stringhe
 Esempio:
 
 ```
-var customStrings = { 
-   postAsButton: "New Post As Text", 
-   postEditButton: "New Post Edit Text" }; 
-networkConfig["strings"] = customStrings; fyre.conv.load( 
-   networkConfig, 
-   [convConfig], 
-   function(){} 
+var customStrings = {
+   postAsButton: "New Post As Text",
+   postEditButton: "New Post Edit Text" };
+networkConfig["strings"] = customStrings; fyre.conv.load(
+   networkConfig,
+   [convConfig],
+   function(){}
 );
 ```
 
@@ -48,17 +47,17 @@ Stringhe disponibili per l&#39;interfaccia utente di Revisione e Valutazione.
 | Elemento | Chiave | Testo predefinito |
 |--- |--- |--- |
 | Pulsanti | editReviewBtn | Modifica revisione |
-|  | reviewBtn | [Revisione in scrittura](https://d.pr/i/QscA) |
-|  | recensioniChiuso | [Recensioni chiuse](https://d.pr/i/zr7M) |
-|  | showReviewBtn | [Mostra revisione](https://d.pr/i/onxU) |
+|  | reviewBtn | Revisione in scrittura |
+|  | recensioniChiuso | Recensioni chiuse |
+|  | showReviewBtn | Mostra revisione |
 |  | seguire | Sono interessato |
 |  | shareText | Ho appena scritto una recensione. Guardate! |
 | Descrizioni comandi di valutazione | ratingValues | Un array. Predefinito = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: I valori nella matrice devono essere duplicati per assegnare lo stesso nome sia alla metà sinistra che alla metà destra di ogni stella. |
 | Sottoparti di valutazione | ratingSubpartPlaceholder | Un array. Impostazione predefinita = `[]` |
 |  | ratingSubpartTitles | Un array. Impostazione predefinita = `[]` |
 |  | reviewStreamTitle | Vuoto per impostazione predefinita. Titolo della sezione di riepilogo della revisione. |
-| Varie | averageRating | [Valutazione media utente](https://d.pr/i/QscA) |
-|  | suddivisioneHeader | [Suddivisione dei rating](https://d.pr/i/QscA) |
+| Varie | averageRating | Valutazione media utente |
+|  | suddivisioneHeader | Suddivisione dei rating |
 |  | utile | %s di %s trovato utile |
 |  | helpPlural | %s di %s trovato utile |
 |  | outOf | / |
@@ -71,9 +70,9 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
 | Ordinamento | sortBy | Vuoto per impostazione predefinita. |
-|  | sortHighestRated | [Valutazione più elevata](https://d.pr/i/huTd) |
-|  | sortLowestRated | [Classificazione più bassa](https://d.pr/i/huTd) |
-|  | sortMostHelpful | [Più utile](https://d.pr/i/huTd) |
+|  | sortHighestRated | Valutazione più elevata |
+|  | sortLowestRated | Classificazione più bassa |
+|  | sortMostHelpful | Più utile |
 | Flusso varie. | showMore | Mostra altro |
 | Velocità elevata del flusso | newComment | Nuova revisione |
 |  | newComments | Nuove recensioni |
@@ -84,13 +83,13 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 | Conteggi dei notificatori dei commenti | commentNotifier | Nuova revisione |
 |  | commentNotifierPlural | Nuove recensioni |
 
-## Informazioni sull&#39;autore/contenuto {#section_osx_xj4_xz}
+## Informazioni sull’autore/contenuto {#section_osx_xj4_xz}
 
 Impostazioni disponibili per informazioni sull’autore e sui singoli contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Suddivisione dei thread | reviewContentNotFoundMsg | [Questa revisione non è più visibile](https://d.pr/i/svXs) |
+| Suddivisione dei thread | reviewContentNotFoundMsg | Questa revisione non è più visibile |
 |  | backToComments | Torna a Recensioni |
 
 ## Azioni utente {#section_tlx_wj4_xz}
@@ -99,12 +98,12 @@ Stringhe disponibili per le azioni dell’utente: puoi assegnare tag, condivider
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Piè di pagina commento | wasReviewHelpful | [Utile?](https://d.pr/i/Q0mA) |
+| Piè di pagina commento | wasReviewHelpful | Utile? |
 |  | wasReviewHelpfulMobile | Utile? |
-|  | ownwasReviewHelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
-|  | reviewwasHelpful | [Sì](https://d.pr/i/Q0mA) |
-|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
-|  | reviewWASNotHelpful | [No](https://d.pr/i/Q0mA) |
+|  | ownwasReviewHelpful | Trovato utile. |
+|  | reviewwasHelpful | Sì |
+|  | helpDivider | &amp;vert; |
+|  | reviewWASNotHelpful | No |
 | Votazione modale | voteTitle | Questa recensione è stata utile? |
 |  | voteDownvote | No |
 |  | voteReplyTitle | Questa risposta è stata utile? |

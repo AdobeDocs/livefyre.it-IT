@@ -2,7 +2,7 @@
 description: Imposta Adobe Analytics e Dynamic Tag Manager (DTM) per raccogliere i dati per le app Livefyre.
 title: Utilizzare Livefyre con Adobe Analytics e Dynamic Tag Manager (DTM)
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: cbe23e8c253f1531418f18424e180d1adc16e426
+source-git-commit: 53aead87db517e6f68266a66115889509287a287
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Imposta Adobe Analytics e Dynamic Tag Manager (DTM) per raccogliere i dati per l
 
 Mappatura di eventi Livefyre su uno o più eventi di successo personalizzati in Adobe Analytics Report Suite Manager.
 
-Per ulteriori informazioni su Report Suite Manager, consulta [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html).
+Per ulteriori informazioni su Report Suite Manager, consulta [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en).
 
 1. Accedi ad Adobe Analytics come utente amministratore.
 1. Apri Adobe Analytics Admin Report Suite Manager.
@@ -38,7 +38,7 @@ Mappa le variabili di conversione Livefyre (eVar) su variabili di conversione in
 
 ## Passaggio 3: Utilizzare DTM per aggiungere la suite di rapporti con gli eventi Livefyre {#section_t15_2hd_4cb}
 
-Aggiungi Adobe Analytics a DTM per far funzionare Analytics. A questo scopo, crea una nuova proprietà e un nuovo strumento e aggiungi la nuova suite di rapporti con eventi Livefyre alla proprietà . Per ulteriori informazioni su DTM, consulta [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html).
+Aggiungi Adobe Analytics a DTM per far funzionare Analytics. A questo scopo, crea una nuova proprietà e un nuovo strumento e aggiungi la nuova suite di rapporti con eventi Livefyre alla proprietà . Per ulteriori informazioni su DTM, consulta [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
 
 Non è necessario eseguire questo passaggio se disponi già di una proprietà o di uno strumento configurato per la suite di rapporti configurata con eventi Livefyre.
 
@@ -65,7 +65,7 @@ Imposta una regola di caricamento pagina per richiamare tutti i dati. La regola 
 1. Fai clic sul pulsante **[!UICONTROL Create New Rule]** .
 1. Apri la sezione **[!UICONTROL Conditions]** facendo clic sul pulsante **[!UICONTROL Plus]** .
 1. Attiva la regola. Scegli i tipi di trigger **[!UICONTROL DOM Ready]** o **[!UICONTROL Onload]** se desideri ritardare o implementare la regola in modo asincrono.
-1. (Facoltativo) Aggiungi parametri aggiuntivi per limitare le pagine che visualizzano le app Livefyre. Per ulteriori informazioni sulle opzioni di configurazione aggiuntive, consulta [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html).
+1. (Facoltativo) Aggiungi parametri aggiuntivi per limitare le pagine che visualizzano le app Livefyre. Per ulteriori informazioni sulle opzioni di configurazione aggiuntive, consulta [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
 1. In **[!UICONTROL Javascript/ Third Party Tags]**, fai clic sulla scheda **[!UICONTROL Non-sequential]** , quindi fai clic su **[!UICONTROL Add New Script]**.
 1. Seleziona **[!UICONTROL Sequential HTML]** come tipo di script.
 1. Aggiungi il seguente script nell&#39;editor di codice e fai clic su **[!UICONTROL Save Code]**.
@@ -73,18 +73,18 @@ Imposta una regola di caricamento pagina per richiamare tutti i dati. La regola 
    Lo script seguente chiama la regola di chiamata diretta `livefyre_analytics` dopo il caricamento di JavaScript Livefyre. L&#39;esempio di script seguente controlla ogni 400 ms per vedere se `livefyre.analytics` è sulla pagina. Dopo il caricamento della pagina, livefyre.analytics invia le informazioni di tracciamento.
 
    ```
-   /** 
-   * Poll for Livefyre.analytics object to exist since it gets loaded via the 
-   * Livefyre.js JavaScript file. Depending on the timing, this could already 
-   * exist or need a little time. 
-   */ 
-   function pollForAnalytics() {  
-   if (Livefyre.analytics) { 
-     _satellite.track('livefyre_analytics'); 
-       return true; 
-     } 
-     setTimeout(pollForAnalytics, 400); 
-   } 
+   /**
+   * Poll for Livefyre.analytics object to exist since it gets loaded via the
+   * Livefyre.js JavaScript file. Depending on the timing, this could already
+   * exist or need a little time.
+   */
+   function pollForAnalytics() {
+   if (Livefyre.analytics) {
+     _satellite.track('livefyre_analytics');
+       return true;
+     }
+     setTimeout(pollForAnalytics, 400);
+   }
    setTimeout(pollForAnalytics, 400);
    ```
 
@@ -106,86 +106,86 @@ Esistono altri modi per implementare Livefyre con DTM utilizzando eventi persona
 1. Immetti il seguente codice di configurazione Livefyre nell&#39;editor di codice e fai clic sul pulsante **Salva codice** .
 
    ```
-   var s = _satellite.getToolsByType('sc')[0].getS(); 
+   var s = _satellite.getToolsByType('sc')[0].getS();
    
-   var evarMap = {  
-     appId: 'eVar81',  
-     appType: 'eVar82' 
-   }; 
+   var evarMap = {
+     appId: 'eVar81',
+     appType: 'eVar82'
+   };
    
-   var eventMap = { 
-     FlagCancel: 'event82',  
-     FlagClick: 'event82',  
-     FlagDisagree: 'event82',  
-     FlagOffensive: 'event82',  
-     FlagOffTopic: 'event82',  
-     FlagSpam: 'event82',  
-     Like: 'event82', 
-     Load: 'event81',  
-     RequestMore: 'event82',  
-     ShareButtonClick: 'event82',  
-     ShareFacebook: 'event82',  
-     ShareOnPostClick: 'event82',  
-     ShareTwitter: 'event82',  
-     ShareURL: 'event82',  
-     SortStream: 'event82',  
-     TwitterLikeClick: 'event82', 
-     TwitterReplyClick: 'event82',  
-     TwitterRetweetClick: 'event82',  
-     TwitterUserFollow: 'event82' 
-   }; 
+   var eventMap = {
+     FlagCancel: 'event82',
+     FlagClick: 'event82',
+     FlagDisagree: 'event82',
+     FlagOffensive: 'event82',
+     FlagOffTopic: 'event82',
+     FlagSpam: 'event82',
+     Like: 'event82',
+     Load: 'event81',
+     RequestMore: 'event82',
+     ShareButtonClick: 'event82',
+     ShareFacebook: 'event82',
+     ShareOnPostClick: 'event82',
+     ShareTwitter: 'event82',
+     ShareURL: 'event82',
+     SortStream: 'event82',
+     TwitterLikeClick: 'event82',
+     TwitterReplyClick: 'event82',
+     TwitterRetweetClick: 'event82',
+     TwitterUserFollow: 'event82'
+   };
    
-    function trackLivefyreEvent(data) {  
-     var event = eventMap[data.type]; 
-     console.log('Track:', data.type, event); 
+    function trackLivefyreEvent(data) {
+     var event = eventMap[data.type];
+     console.log('Track:', data.type, event);
    
-     if (!event) { 
-       console.warn(data.type, 'is not mapped   to an event in AA');  
-       return; 
-     } 
-     var vars = ['events'];  
-     switch (event) { 
-       case 'event82': s.eVar83 = data.type;  
-         vars.push('eVar83');  
-         break; 
-       default: 
-     } 
-       ['generator', 'evars'].forEach(function (type) {  
-       var obj = data[type]; 
-       for (var d in obj) { 
-         if (obj.hasOwnProperty(d) && evarMap[d]) {  
-           s[evarMap[d]] = obj[d];  
-           vars.push(evarMap[d]); 
-         } 
-       } 
-     }); 
-     s.linkTrackVars = vars.join(',');  
-     s.linkTrackEvents = event;  
-     s.events = event; 
+     if (!event) {
+       console.warn(data.type, 'is not mapped   to an event in AA');
+       return;
+     }
+     var vars = ['events'];
+     switch (event) {
+       case 'event82': s.eVar83 = data.type;
+         vars.push('eVar83');
+         break;
+       default:
+     }
+       ['generator', 'evars'].forEach(function (type) {
+       var obj = data[type];
+       for (var d in obj) {
+         if (obj.hasOwnProperty(d) && evarMap[d]) {
+           s[evarMap[d]] = obj[d];
+           vars.push(evarMap[d]);
+         }
+       }
+     });
+     s.linkTrackVars = vars.join(',');
+     s.linkTrackEvents = event;
+     s.events = event;
    
-     console.log('linkTrackVars:',  s.linkTrackVars);  
-     console.log('linkTrackEvents:',  s.linkTrackEvents);  
-     console.log('events:', s.events); 
-     s.tl(); 
-     } 
+     console.log('linkTrackVars:',  s.linkTrackVars);
+     console.log('linkTrackEvents:',  s.linkTrackEvents);
+     console.log('events:', s.events);
+     s.tl();
+     }
      ]
    
-     /** 
+     /**
    ```
 
    * Aggiunge un gestore di analisi per tutti gli eventi di analisi da Livefyre. Per ogni evento, imposta i dati su un oggetto globale e quindi invia l&#39;evento.
 
    ```
-   */ 
-   function addAnalyticsHandler() {  
-     Livefyre.analytics.addHandler(function (events) { 
-       (events || []).forEach(function (data) {  
-         console.log('Event handled:', data.type);  
-         trackLivefyreEvent(data); 
-       }); 
-     }); 
-   } 
-   addAnalyticsHandler();  
+   */
+   function addAnalyticsHandler() {
+     Livefyre.analytics.addHandler(function (events) {
+       (events || []).forEach(function (data) {
+         console.log('Event handled:', data.type);
+         trackLivefyreEvent(data);
+       });
+     });
+   }
+   addAnalyticsHandler();
    ```
 
 1. Fai clic su **Salva regola**.
@@ -206,98 +206,98 @@ Il codice di esempio seguente mappa le eVar specifiche sugli eVar Livefyre dispo
 
 
 ```
-var s = _satellite.getToolsByType`('sc')[0]`.getS(); 
-var evarMap = { 
-  appId: 'eVar81', 
-  appType: 'eVar82' 
+var s = _satellite.getToolsByType`('sc')[0]`.getS();
+var evarMap = {
+  appId: 'eVar81',
+  appType: 'eVar82'
 };
 ```
 
 Il codice di esempio seguente mappa gli eventi specifici impostati in Report Suite Manager con gli eventi Livefyre disponibili. In questo esempio, `event82` viene impostato come qualsiasi evento di interazione dell’utente senza differenziare quale tipo di evento di interazione dell’utente (ad esempio, il collegamento o la condivisione di contenuto). Questo è un modo efficiente per registrare tutte le informazioni di interazione dell’utente in un blocco. Puoi anche mappare gli eventi nell’interfaccia utente di DTM Analytics con riferimento agli elementi dati.
 
 ```
-var eventMap = { 
-  FlagCancel: 'event82',  
-  FlagClick: 'event82',  
-  FlagDisagree: 'event82',  
-  FlagOffensive: 'event82',  
-  FlagOffTopic: 'event82',  
-  FlagSpam: 'event82',  
-  Like: 'event82', 
-  Load: 'event81',  
-  RequestMore: 'event82',  
-  ShareButtonClick: 'event82',  
-  ShareFacebook: 'event82',  
-  ShareOnPostClick: 'event82',  
-  ShareTwitter: 'event82',  
-  ShareURL: 'event82',  
-  SortStream: 'event82',  
-  TwitterLikeClick: 'event82', 
-  TwitterReplyClick: 'event82',  
-  TwitterRetweetClick: 'event82',  
-  TwitterUserFollow: 'event82' 
+var eventMap = {
+  FlagCancel: 'event82',
+  FlagClick: 'event82',
+  FlagDisagree: 'event82',
+  FlagOffensive: 'event82',
+  FlagOffTopic: 'event82',
+  FlagSpam: 'event82',
+  Like: 'event82',
+  Load: 'event81',
+  RequestMore: 'event82',
+  ShareButtonClick: 'event82',
+  ShareFacebook: 'event82',
+  ShareOnPostClick: 'event82',
+  ShareTwitter: 'event82',
+  ShareURL: 'event82',
+  SortStream: 'event82',
+  TwitterLikeClick: 'event82',
+  TwitterReplyClick: 'event82',
+  TwitterRetweetClick: 'event82',
+  TwitterUserFollow: 'event82'
 };
 ```
 
 L&#39;esempio seguente afferma che se nell&#39;elenco non è presente un evento, non eseguire alcuna operazione. Non è necessario modificare questa sezione di codice.
 
 ```
-function trackLivefyreEvent(data) {  
-  var event = eventMap[data.type]; 
-  console.log('Track:', data.type, event); 
-   
-  if (!event) { 
-    console.warn(data.type, 'is not mapped to an event in AA');  
-    return; 
+function trackLivefyreEvent(data) {
+  var event = eventMap[data.type];
+  console.log('Track:', data.type, event);
+
+  if (!event) {
+    console.warn(data.type, 'is not mapped to an event in AA');
+    return;
   }
 ```
 
 Il codice seguente distingue i tipi di evento registrati da `event82`. La variabile di conversione `eVar83` registra il tipo di interazione dell&#39;utente e lo script si imposta `eVar83` per separare i dati di interazione dell&#39;utente in base al tipo. Quindi `eVar83` consente di suddividere i dati registrati in tipi specifici di interazioni dell&#39;utente.
 
 ```
-  var vars = ['events'];  
-  switch (event) { 
-    case 'event82': s.eVar83 = data.type;  
-      vars.push('eVar83');  
-      break; 
-    default: 
-  } 
-   
-  ['generator', 'evars'].forEach(function (type) {  
-    var obj = data[type]; 
-    for (var d in obj) { 
-      if (obj.hasOwnProperty(d) && evarMap[d]) {  
-        s[evarMap[d]] = obj[d];  
-        vars.push(evarMap[d]); 
-      } 
-    } 
-  }); 
-   
-  s.linkTrackVars = vars.join(',');  
-  s.linkTrackEvents = event;  
-  s.events = event; 
-   
-  console.log('linkTrackVars:', s.linkTrackVars);  
-  console.log('linkTrackEvents:', s.linkTrackEvents);  
-  console.log('events:', s.events); 
-   
-  s.tl(); 
+  var vars = ['events'];
+  switch (event) {
+    case 'event82': s.eVar83 = data.type;
+      vars.push('eVar83');
+      break;
+    default:
+  }
+
+  ['generator', 'evars'].forEach(function (type) {
+    var obj = data[type];
+    for (var d in obj) {
+      if (obj.hasOwnProperty(d) && evarMap[d]) {
+        s[evarMap[d]] = obj[d];
+        vars.push(evarMap[d]);
+      }
+    }
+  });
+
+  s.linkTrackVars = vars.join(',');
+  s.linkTrackEvents = event;
+  s.events = event;
+
+  console.log('linkTrackVars:', s.linkTrackVars);
+  console.log('linkTrackEvents:', s.linkTrackEvents);
+  console.log('events:', s.events);
+
+  s.tl();
 }
 ```
 
 Il codice di esempio seguente aggiunge un gestore per ascoltare tutti gli eventi che si verificano. Usa la regola di caricamento della pagina al caricamento, attende l&#39;esistenza di eventi, quindi imposta il gestore per tutti gli eventi dall&#39;app e li tiene traccia. Non è necessario modificare questo codice.
 
 ```
-/** 
-* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
-*/ 
-function addAnalyticsHandler() { 
-  Livefyre.analytics.addHandler(function (events) { 
-    (events || []).forEach(function (data) { 
-      console.log('Event handled:', data.type); 
-      trackLivefyreEvent(data); 
-    }); 
-  }); 
+/**
+* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event.
+*/
+function addAnalyticsHandler() {
+  Livefyre.analytics.addHandler(function (events) {
+    (events || []).forEach(function (data) {
+      console.log('Event handled:', data.type);
+      trackLivefyreEvent(data);
+    });
+  });
 }
 ```
 
@@ -305,7 +305,7 @@ function addAnalyticsHandler() {
 
 Per ulteriori informazioni sugli argomenti trattati in questa pagina, vedi:
 
-* [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)
-* [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)
-* [Regole](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
+* [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
+* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
+* [Regole](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

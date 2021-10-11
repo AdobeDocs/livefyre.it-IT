@@ -2,10 +2,9 @@
 description: I set di traduzione consentono di specificare la lingua alternativa per le app.
 title: Set di traduzioni
 exl-id: 1de99602-b97e-42e9-8450-39abd4ba2f9b
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 1d9088eecf797e1af881cb6be55b3c96284f75e5
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1294'
 ht-degree: 5%
 
 ---
@@ -49,13 +48,13 @@ Per implementare questa funzione, passa una mappatura oggetto 1-1 delle stringhe
 Esempio:
 
 ```
-var customStrings = { 
-   postAsButton: "New Post As Text", 
-   postEditButton: "New Post Edit Text" }; 
-networkConfig["strings"] = customStrings; fyre.conv.load( 
-   networkConfig, 
-   [convConfig], 
-   function(){} 
+var customStrings = {
+   postAsButton: "New Post As Text",
+   postEditButton: "New Post Edit Text" };
+networkConfig["strings"] = customStrings; fyre.conv.load(
+   networkConfig,
+   [convConfig],
+   function(){}
 );
 ```
 
@@ -89,9 +88,9 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
 | Ordinamento | sortBy | *Vuoto per impostazione predefinita.* |
-|  | sortHighestRated | [Valutazione più elevata](https://d.pr/i/huTd) |
-|  | sortLowestRated | [Classificazione più bassa](https://d.pr/i/huTd) |
-|  | sortMostHelpful | [Più utile](https://d.pr/i/huTd) |
+|  | sortHighestRated | Valutazione più elevata |
+|  | sortLowestRated | Classificazione più bassa |
+|  | sortMostHelpful | Più utile |
 | Flusso varie. | showMore | Mostra altro |
 | Velocità elevata del flusso | newComment | Nuova revisione |
 |  | newComments | Nuove recensioni |
@@ -102,13 +101,13 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 | Conteggi dei notificatori dei commenti | commentNotifier | Nuova revisione |
 |  | commentNotifierPlural | Nuove recensioni |
 
-## Informazioni sull&#39;autore/contenuto {#section_osx_xj4_xz}
+## Informazioni sull’autore/contenuto {#section_osx_xj4_xz}
 
 Impostazioni disponibili per informazioni sull’autore e sui singoli contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Suddivisione dei thread | reviewContentNotFoundMsg | [Questa revisione non è più visibile](https://d.pr/i/svXs) |
+| Suddivisione dei thread | reviewContentNotFoundMsg | Questa revisione non è più visibile |
 |  | backToComments | Torna a Recensioni |
 
 ## Azioni utente {#section_tlx_wj4_xz}
@@ -117,12 +116,12 @@ Stringhe disponibili per le azioni dell’utente: puoi assegnare tag, condivider
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
-| Piè di pagina commento | wasReviewHelpful | [Utile?](https://d.pr/i/Q0mA) |
+| Piè di pagina commento | wasReviewHelpful | Utile? |
 |  | wasReviewHelpfulMobile | Utile? |
-|  | ownwasReviewHelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
-|  | reviewwasHelpful | [Sì](https://d.pr/i/Q0mA) |
-|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
-|  | reviewWASNotHelpful | [No](https://d.pr/i/Q0mA) |
+|  | ownwasReviewHelpful | Trovato utile. |
+|  | reviewwasHelpful | Sì |
+|  | helpDivider | &amp;vert; |
+|  | reviewWASNotHelpful | No |
 | Votazione modale | voteTitle | Questa recensione è stata utile? |
 |  | voteDownvote | No |
 |  | voteReplyTitle | Questa risposta è stata utile? |
@@ -200,14 +199,14 @@ Per implementare questa funzione, passa una mappatura oggetto 1-1 delle stringhe
 Esempio:
 
 ```
-var customStrings = { 
-   postAsButton: "New Post As Text", 
-   postEditButton: "New Post Edit Text" 
-}; 
-networkConfig["strings"] = customStrings; fyre.conv.load( 
-   networkConfig, 
-   [convConfig], 
-   function(){} 
+var customStrings = {
+   postAsButton: "New Post As Text",
+   postEditButton: "New Post Edit Text"
+};
+networkConfig["strings"] = customStrings; fyre.conv.load(
+   networkConfig,
+   [convConfig],
+   function(){}
 );
 ```
 
@@ -234,7 +233,7 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 |  | menuInfoHelp | Aiuto |
 |  | menuInfoLivefyreLink | Visita Livefyre.com |
 
-## Informazioni sull&#39;autore/contenuto {#section_dhb_gl4_xz}
+## Informazioni sull’autore/contenuto {#section_dhb_gl4_xz}
 
 Impostazioni disponibili per informazioni sull’autore e sui singoli contenuti.
 
