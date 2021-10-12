@@ -2,21 +2,16 @@
 description: I set di traduzione consentono di specificare la lingua alternativa per le app.
 title: Set di traduzioni
 exl-id: 688138bf-f8e9-4fe5-99e2-2451deefd217
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 5%
+source-wordcount: '1302'
+ht-degree: 6%
 
 ---
 
 # Set di traduzioni {#translation-sets}
 
 I set di traduzione consentono di specificare la lingua alternativa per le app.
-
-<!-- 
-c_translation_sets.dita
--->
 
 Utilizza le impostazioni di traduzione per localizzare le app in diverse lingue o per specificare testo alternativo per più app da una posizione in Studio. Ad esempio, puoi assicurarti che tutti i siti in lingua spagnola utilizzino la lingua spagnola per tutti i campi dell’app. È inoltre possibile modificare il testo in modo che tutti i campi corrispondano alla voce e alle caratteristiche del sito o della rete.
 
@@ -99,9 +94,9 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 |---|---|---|
 | *Ordinamento* |  |  |
 |  | sortBy | *Vuoto per impostazione predefinita.* |
-|  | sortHighestRated | [Valutazione più elevata](https://d.pr/i/huTd) |
-|  | sortLowestRated | [Classificazione più bassa](https://d.pr/i/huTd) |
-|  | sortMostHelpful | [Più utile](https://d.pr/i/huTd) |
+|  | sortHighestRated | Valutazione più elevata |
+|  | sortLowestRated | Classificazione più bassa |
+|  | sortMostHelpful | Più utile |
 | *Flusso varie.* |  |  |
 |  | showMore | Mostra altro |
 | *Velocità elevata del flusso* |  |  |
@@ -117,14 +112,14 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 |  | commentNotifier | Nuova revisione |
 |  | commentNotifierPlural | Nuove recensioni |
 
-## Informazioni sull&#39;autore/contenuto {#section_osx_xj4_xz}
+## Informazioni sull’autore/contenuto {#section_osx_xj4_xz}
 
 Impostazioni disponibili per informazioni sull’autore e sui singoli contenuti.
 
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
 | *Suddivisione dei thread* |  |  |
-|  | reviewContentNotFoundMsg | [Questa revisione non è più visibile](https://d.pr/i/svXs) |
+|  | reviewContentNotFoundMsg | Questa revisione non è più visibile |
 |  | backToComments | Torna a Recensioni |
 
 ## Azioni utente {#section_tlx_wj4_xz}
@@ -134,12 +129,12 @@ Stringhe disponibili per le azioni dell’utente: puoi assegnare tag, condivider
 | Elemento | Chiave | Testo predefinito |
 |---|---|---|
 | *Piè di pagina commento* |  |  |
-|  | wasReviewHelpful | [Utile?](https://d.pr/i/Q0mA) |
+|  | wasReviewHelpful | Utile? |
 |  | wasReviewHelpfulMobile | Utile? |
-|  | ownwasReviewHelpful | [Trovato utile.](https://d.pr/i/Q0mA) |
-|  | reviewwasHelpful | [Sì](https://d.pr/i/Q0mA) |
-|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
-|  | reviewWASNotHelpful | [No](https://d.pr/i/Q0mA) |
+|  | ownwasReviewHelpful | Trovato utile. |
+|  | reviewwasHelpful | Sì |
+|  | helpDivider | &amp;vert; |
+|  | reviewWASNotHelpful | No |
 | *Votazione modale* |  |  |
 |  | voteTitle | Questa recensione è stata utile? |
 |  | voteDownvote | No |
@@ -266,7 +261,7 @@ Stringhe disponibili per le informazioni e la visualizzazione del flusso di cont
 |  | menuInfoHelp | Aiuto |
 |  | menuInfoLivefyreLink | Visita Livefyre.com |
 
-## Informazioni sull&#39;autore/contenuto {#section_dhb_gl4_xz}
+## Informazioni sull’autore/contenuto {#section_dhb_gl4_xz}
 
 Impostazioni disponibili per informazioni sull’autore e sui singoli contenuti.
 

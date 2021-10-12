@@ -1,22 +1,21 @@
 ---
-description: Aggiungi Livefyre alla tua app iOS nativa.
+description: Aggiungi Livefyre alla tua app nativa iOS.
 title: SDK per Livefyre iOS
 exl-id: 961c41dc-fee8-480c-a189-a20a689e705f
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # SDK per Livefyre iOS{#livefyre-ios-sdk}
 
-Aggiungi Livefyre alla tua app iOS nativa.
+Aggiungi Livefyre alla tua app nativa iOS.
 
-Utilizza questa libreria open-source per integrare i servizi Livefyre nell’app nativa iOS. L’SDK per iOS StreamHub Livefyre fornisce un livello sottile intorno ai nostri comuni meccanismi API, basato sull’eccellente libreria AFNetworking.
+Utilizza questa libreria open-source per integrare i servizi Livefyre nella tua app nativa iOS. L’SDK di Livefyre StreamHub iOS fornisce un livello sottile intorno ai nostri comuni meccanismi API, basato sull’eccellente libreria AFNetworking.
 
-Livefyre fornisce anche due app di esempio iOS in base a questo SDK: un flusso di commenti e un’app di esempio per le revisioni.
+Livefyre fornisce anche due app di esempio di iOS in base a questo SDK: un flusso di commenti e un’app di esempio per le revisioni.
 
 ## Integrazione dell’SDK nel progetto come contenitore di cacao (consigliato) {#section_qc5_h3v_zz}
 
@@ -78,13 +77,13 @@ open CommentStream.xcworkspace
 
 Hai bisogno del file LFSTestConfig.plist da Livefyre, che Livefyre fornisce su richiesta.
 
-## Documentazione Xcode {#section_arl_b3v_zz}
+## Documentazione su Xcode {#section_arl_b3v_zz}
 
-È possibile sfogliare la [documentazione](https://livefyre.github.com/StreamHub-iOS-SDK/) oppure creare la destinazione &quot;Documentazione&quot; nel codice Xcode (richiede l&#39;installazione di appledoc) sul sistema.
+È possibile sfogliare la [documentazione](https://github.com/Livefyre/StreamHub-iOS-SDK) oppure creare la destinazione &quot;Documentazione&quot; nel codice Xcode (richiede l&#39;installazione di appledoc) sul sistema.
 
 ## Requisiti {#section_m5l_13v_zz}
 
-Le versioni SDK per iOS di StreamHub in quanto v0.2.0 richiedono iOS 6.0 o versioni successive.
+Le versioni SDK di StreamHub iOS a partire dalla versione v0.2.0 richiedono iOS 6.0 o versioni successive.
 
 ## Appendice (supporto JSON) {#section_pcd_5hv_zz}
 

@@ -2,9 +2,9 @@
 description: Imposta Adobe Analytics e Dynamic Tag Manager (DTM) per raccogliere i dati per le app Livefyre.
 title: Utilizzare Livefyre con Adobe Analytics e Dynamic Tag Manager (DTM)
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: 53aead87db517e6f68266a66115889509287a287
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -31,14 +31,16 @@ Mappa le variabili di conversione Livefyre (eVar) su variabili di conversione in
 
 1. In Report Suite Manager fai clic su **[!UICONTROL Edit Settings > Conversion > Conversion Variables]**.
 1. Scegli le variabili di conversione personalizzate (eVar) da utilizzare e mappale sulle variabili di conversione Livefyre. Per mappare una variabile di conversione Livefyre su una variabile di conversione personalizzata:
-* Abilitare la variabile di conversione
-* Denomina la variabile di conversione
-* Assegna alla variabile di conversione un tipo
+
+   * Abilitare la variabile di conversione
+   * Denomina la variabile di conversione
+   * Assegna alla variabile di conversione un tipo
+
 1. Salva le variabili di conversione personalizzate.
 
 ## Passaggio 3: Utilizzare DTM per aggiungere la suite di rapporti con gli eventi Livefyre {#section_t15_2hd_4cb}
 
-Aggiungi Adobe Analytics a DTM per far funzionare Analytics. A questo scopo, crea una nuova proprietà e un nuovo strumento e aggiungi la nuova suite di rapporti con eventi Livefyre alla proprietà . Per ulteriori informazioni su DTM, consulta [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
+Utilizza i tag per integrare Analytics con gli eventi Livefyre. A questo scopo, crea una nuova proprietà e un nuovo strumento e aggiungi la nuova suite di rapporti con eventi Livefyre alla proprietà . Per ulteriori informazioni, consulta [Panoramica sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
 Non è necessario eseguire questo passaggio se disponi già di una proprietà o di uno strumento configurato per la suite di rapporti configurata con eventi Livefyre.
 
@@ -65,7 +67,7 @@ Imposta una regola di caricamento pagina per richiamare tutti i dati. La regola 
 1. Fai clic sul pulsante **[!UICONTROL Create New Rule]** .
 1. Apri la sezione **[!UICONTROL Conditions]** facendo clic sul pulsante **[!UICONTROL Plus]** .
 1. Attiva la regola. Scegli i tipi di trigger **[!UICONTROL DOM Ready]** o **[!UICONTROL Onload]** se desideri ritardare o implementare la regola in modo asincrono.
-1. (Facoltativo) Aggiungi parametri aggiuntivi per limitare le pagine che visualizzano le app Livefyre. Per ulteriori informazioni sulle opzioni di configurazione aggiuntive, consulta [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
+1. (Facoltativo) Aggiungi parametri aggiuntivi per limitare le pagine che visualizzano le app Livefyre. Per ulteriori informazioni sulle opzioni di configurazione aggiuntive, consulta [Panoramica sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 1. In **[!UICONTROL Javascript/ Third Party Tags]**, fai clic sulla scheda **[!UICONTROL Non-sequential]** , quindi fai clic su **[!UICONTROL Add New Script]**.
 1. Seleziona **[!UICONTROL Sequential HTML]** come tipo di script.
 1. Aggiungi il seguente script nell&#39;editor di codice e fai clic su **[!UICONTROL Save Code]**.
@@ -306,6 +308,5 @@ function addAnalyticsHandler() {
 Per ulteriori informazioni sugli argomenti trattati in questa pagina, vedi:
 
 * [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
-* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
-* [Regole](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
+* [Panoramica sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

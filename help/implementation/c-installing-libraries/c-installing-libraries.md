@@ -2,8 +2,7 @@
 description: Installazione delle librerie per le attività lato server di Livefyre
 title: Installazione
 exl-id: d74f85be-14c0-4f6d-8f16-b688282c0eb0
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -113,9 +112,9 @@ La libreria PHP ha dipendenze dai seguenti moduli:
 
 Per ulteriori informazioni, leggi i documenti PHP o vedi l&#39;origine su [GitHub](https://github.com/Livefyre/livefyre-php-utils).
 
-Collegamenti: [ext-json](https://php.net/manual/en/book.json.php), [Richieste](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+Collegamenti: [ext-json](https://www.php.net/manual/en/book.json.php), [Richieste](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
-## Python {#section_irk_fxq_rz}
+## Pitone {#section_irk_fxq_rz}
 
 Per installare la libreria Python, esegui questa riga:
 

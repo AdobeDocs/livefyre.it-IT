@@ -2,15 +2,14 @@
 description: Utilizza l’API Bootstrap e Stream con le app Livefyre.
 title: Visualizzazione dei dettagli account
 exl-id: b8458954-3727-4c4d-93dd-d21a4328e069
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-# Utilizza API Bootstrap e Stream con le app Livefyre {#bootstrap-stream-api}
+# Utilizzare l’API Bootstrap e Stream con le app Livefyre {#bootstrap-stream-api}
 
 ## API Bootstrap {#bootstrap-api}
 
@@ -30,11 +29,9 @@ Ad esempio, un’app di esempio ha 120 contenuti. Il contenuto &quot;1&quot; è 
 
 * `Init` carica circa 120-70 parti di contenuto in ordine decrescente:  [https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
 
-* `O.json` caricherà ~ 1-50 parti di contenuto in ordine crescente:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json)
-
-* `1.json` caricherà ~ 51-100 parti di contenuto in ordine crescente:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json)
-
-* `2.json` caricherà circa 101-120 contenuti in ordine crescente: [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json)
+* `O.json` caricherà ~ 1-50 parti di contenuto in ordine crescente:  `https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json`
+* `1.json` caricherà ~ 51-100 parti di contenuto in ordine crescente:  `https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json`
+* `2.json` carica circa 101-120 parti di contenuto in ordine crescente:`https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json`
 
 [Fare clic qui per visualizzare il diagramma di flusso del sondaggio Bootstrap.](https://marketing-resource-help.s3.amazonaws.com/resources/help/en_US/livefyre/bootstrap-poll-flowchart.pdf)
 
@@ -47,7 +44,7 @@ Questo endpoint con sondaggi a lungo termine invia in un’app Livefyre nuovi co
 
 La richiesta all’API Stream deve essere di circa 30 secondi (polling lungo) con timeout previsto dopo 30 secondi in assenza di nuovi flussi di contenuto.
 
-Riferimento API: [https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get)
+Riferimento API: [https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operazioni:v3.1:collection:aggiornamenti:method=get](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get)
 
 Esempio di richiesta:
 
