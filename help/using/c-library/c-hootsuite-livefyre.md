@@ -1,20 +1,19 @@
 ---
 description: Scopri come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dagli utenti direttamente dal dashboard di Hootsuite.
-title: Utilizza Adobe Experience Manager Livefyre con Hootsuite
+title: Utilizzare Adobe Experience Manager Livefyre con Hootsuite
 exl-id: 1ca84c72-95ec-485d-9c8e-ace4487225d6
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: ecac8943330cc0dd8ae3ce0ba4ba66948c502b9e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 1%
 
 ---
 
-# Utilizza Adobe Experience Manager Livefyre con Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}
+# Utilizzare Adobe Experience Manager Livefyre con Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}
 
 Scopri come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dagli utenti direttamente dal dashboard di Hootsuite.
 
-## Utilizza Adobe Experience Manager Livefyre con Hootsuite {#topic_FB6E613DBCF74F39ABD5045C501EA326}
+## Utilizzare Adobe Experience Manager Livefyre con Hootsuite {#topic_FB6E613DBCF74F39ABD5045C501EA326}
 
 Scopri come utilizzare Experience Manager Livefyre con Hootsuite per curare, gestire e condividere contenuti generati dagli utenti direttamente dal dashboard di Hootsuite.
 
@@ -24,12 +23,12 @@ Contesto attività
 
 1. Installa Adobe Experience Manager Livefyre per Hootsuite dalla directory delle app Hootsuite.
 
-1. Dal dashboard di Hootsuite, fai clic su **Accedi con Adobe**.
+1. Dal dashboard della tua suite di foto, fai clic su **Accedi con l’Adobe**.
 
    ![](assets/hootsuite-login.png)
 
 1. Accedi ad Experience Manager Livefyre utilizzando le tue credenziali Livefyre.
-1. Fai clic su **Autorizza** per concedere a Hootsuite l&#39;autorizzazione per accedere alle librerie.
+1. Fai clic su **Autorizzare** per dare l&#39;autorizzazione Hootsuite per accedere alle tue librerie.
 
    ![](assets/hootsuite-authorize.png)
 
@@ -43,8 +42,8 @@ Contesto attività
 
    ![](assets/hootsuite-search.png)
 
-1. Fai clic su **Seleziona** per visualizzare una finestra a comparsa con tutte le librerie.
-1. Fai clic sulla cartella di una libreria e quindi su **Seleziona cartella** per selezionare la libreria che verrà visualizzata nel flusso Hootsuite.
+1. Fai clic su **Seleziona** e verrà visualizzata una finestra a comparsa con tutte le librerie.
+1. Fai clic sulla cartella di una libreria e quindi fai clic su **Seleziona cartella** per selezionare la libreria che verrà visualizzata nel flusso Hootsuite.
 
    ![](assets/hootsuite-select.png)
 
@@ -77,19 +76,13 @@ Questa icona aggiunge la risorsa corrente alla casella di composizione della ret
 >
 >Il pulsante Condividi viene visualizzato solo quando filtrate le risorse con diritti concessi.
 
-Fai clic sull’icona Assegna ![](assets/assign.png) per assegnare l’elemento corrente a uno dei membri del team di Hootsuite. Se un elemento è già stato assegnato, il comando Risolvi ![](assets/resolve.png)
-
-apparirà l’icona . Fare clic su di esso per risolvere l&#39;assegnazione corrente.
+Fai clic su Assegna  ![](assets/assign.png) per assegnare l’elemento corrente a uno dei membri del team di Hootsuite. Se un elemento è già stato assegnato, il comando Risolvi ![](assets/resolve.png) apparirà l’icona . Fare clic su di esso per risolvere l&#39;assegnazione corrente.
 
 ### Altri menu delle app
 
-Fare clic sulle impostazioni ![](assets/settings.png)
+Fare clic sulle impostazioni  ![](assets/settings.png) L&#39;icona ti consentirà di disconnettere l&#39;account Experience Manager Livefyre corrente e di connetterti con un altro account.
 
-L&#39;icona ti consentirà di disconnettere l&#39;account Experience Manager Livefyre corrente e di connetterti con un altro account.
-
-Fare clic sul menu ![](assets/menu.png)
-
-Verranno visualizzati i collegamenti per il documento, il supporto e il sito Web di Synaptive.
+Clic sul menu  ![](assets/menu.png) Verranno visualizzati i collegamenti per il documento, il supporto e il sito Web di Synaptive.
 
 ## Plug-in app di Experience Manager Livefyre {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
 
@@ -104,13 +97,13 @@ Oltre a poter visualizzare le librerie di risorse in un flusso Hootsuite, puoi a
 
    ![](assets/hootsuite-save.png)
 
-1. Fai clic su **Salva nella libreria** e l&#39;elemento verrà salvato nelle librerie selezionate.
+1. Fai clic su **Salva nella libreria** e l’elemento verrà salvato nelle librerie selezionate.
 
-## Componente Experience Manager Livefyre Media Library {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
+## Componente Media Library di Experience Manager Livefyre {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 
 Puoi accedere alle tue risorse tramite i Componenti multimediali di Hootsuite Composer.
 
-1. Dal Compositore, fai clic sul collegamento **Apri Media Library** nella sezione **Media** .
+1. Nel Compositore, fai clic sul pulsante **Apri Media Library** nel collegamento **Media** sezione .
 
    ![](assets/hootsuite-open-media-library.png)
 
@@ -118,4 +111,4 @@ Puoi accedere alle tue risorse tramite i Componenti multimediali di Hootsuite Co
 
    ![](assets/hootsuite-aem-files.png)
 
-1. Per aggiungere una risorsa al post corrente che stai scrivendo, fai clic su di essa. Per cercare una risorsa specifica, immetti i termini di ricerca nella casella **Cerca file multimediali** e verranno visualizzati i risultati.
+1. Per aggiungere una risorsa al post corrente che stai scrivendo, fai clic su di essa. Per cercare una risorsa specifica, immetti i termini di ricerca nel **Ricerca media** e vengono visualizzati i risultati.

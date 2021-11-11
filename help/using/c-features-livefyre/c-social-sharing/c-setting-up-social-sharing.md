@@ -2,15 +2,14 @@
 description: Il pannello Condivisione social consente di aggiungere le credenziali dell'app di rete per social media.
 title: Impostazione della condivisione social
 exl-id: aa940263-4cec-4ca3-aa74-84749e4cf2d0
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: b1177a52f3c4eb20b684dbf26bf699912937b988
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 1%
 
 ---
 
-# Impostazione della condivisione social {#setting-up-social-sharing}
+# Impostazione della condivisione social{#setting-up-social-sharing}
 
 Il pannello Condivisione social consente di aggiungere le credenziali dell&#39;app di rete per social media.
 
@@ -22,7 +21,7 @@ Le impostazioni disponibili in questa pagina si aggiorneranno per riflettere il 
 >
 >Per la rete può essere abilitata una sola app per sito social media. Puoi includere queste app su più siti, ma la tua rete può avere un solo Facebook, un Twitter, un LinkedIn e un&#39;integrazione Biti.
 
-## Engage Janrain {#section_dzq_1p1_21b}
+## Janrain Engage {#section_dzq_1p1_21b}
 
 Per abilitare l’integrazione di Janrain Engage, immetti le seguenti credenziali:
 
@@ -53,16 +52,15 @@ Per condividere con LinkedIn, immetti le seguenti credenziali per le richieste A
 * **[!UICONTROL API Key:]** Chiave API fornita da LinkedIn.
 * **[!UICONTROL API Secret:]** Il tuo segreto API fornito da LinkedIn.
 
-## Busti {#section_ur2_np1_21b}
+## Busto {#section_ur2_np1_21b}
 
 Per abilitare i permalink in modo implicito, immetti le seguenti informazioni per l&#39;integrazione di Bito:
 
 * **[!UICONTROL Login:]** Il tuo login utente finale fornito in modo implicito.
 * **[!UICONTROL API Key:]** Chiave API fornita in modo implicito.
 
-
-
 App che utilizzano questa funzione:
+
 * [Carosello](/help/using/c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Commenti](/help/using/c-about-apps/c-comments/c-comments.md)
