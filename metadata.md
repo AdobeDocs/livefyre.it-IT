@@ -3,12 +3,11 @@ solution: Experience Manager
 cloud: Experience Cloud
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.it-IT
-translation-type: tm+mt
+git-repo: https://github.com/AdobeDocs/livefyre.it-IT
 source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
